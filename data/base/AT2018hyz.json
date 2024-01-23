@@ -12,34 +12,32 @@
             }
         ]
     },
-    "coordinate": {
-        "equitorial": [
-            {
-                "ra": "10 06 50.875",
-                "dec": "+01 41 33.96",
-                "epoch": "J2000",
-                "system": "ICRS",
-                "ra_units": "hourangle",
-                "dec_units": "deg",
-                "reference": [
-                    "2022ApJ...938...28C"
-                ],
-                "computed": false,
-                "default": true,
-                "uuid": "d226d6ba-b1c7-4e8f-9be2-089708a18961"
-            }
-        ],
-        "galactic": [
-            {
-                "l": 238.65938137916754,
-                "b": 43.106334907568495,
-                "l_units": "deg",
-                "b_units": "deg",
-                "reference": "d226d6ba-b1c7-4e8f-9be2-089708a18961",
-                "computed": true
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "10 06 50.875",
+            "dec": "+01 41 33.96",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2022ApJ...938...28C"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "d226d6ba-b1c7-4e8f-9be2-089708a18961",
+            "coord_type": "equitorial"
+        },
+        {
+            "l": 238.65938137916754,
+            "b": 43.106334907568495,
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": "d226d6ba-b1c7-4e8f-9be2-089708a18961",
+            "computed": true,
+            "coord_type": "galactic"
+        }
+    ],
     "distance": {
         "redshift": [
             {
@@ -68,18 +66,6 @@
             "human_readable_name": "Cendes et al. (2022)"
         }
     ],
-    "epoch": {
-        "date_discovery": [
-            {
-                "value": 58428.64,
-                "date_format": "MJD",
-                "reference": [
-                    "2022ApJ...938...28C"
-                ],
-                "computed": false
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2022ApJ...938...28C",
@@ -190,6 +176,17 @@
             "filter_key": "5.5GHz",
             "freq_eff": 5.5,
             "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 58428.64,
+            "date_format": "MJD",
+            "reference": [
+                "2022ApJ...938...28C"
+            ],
+            "computed": false,
+            "measurement_type": "discovery"
         }
     ]
 }]

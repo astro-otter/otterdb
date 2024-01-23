@@ -12,34 +12,32 @@
             }
         ]
     },
-    "coordinate": {
-        "equitorial": [
-            {
-                "ra": "11 28 30.9875",
-                "dec": "+58 33 40.783",
-                "epoch": "J2000",
-                "system": "ICRS",
-                "ra_units": "hourangle",
-                "dec_units": "deg",
-                "reference": [
-                    "2018Sci...361..482M"
-                ],
-                "computed": false,
-                "default": true,
-                "uuid": "1dd9ff38-e24d-4a13-9063-fa524d4870ed"
-            }
-        ],
-        "galactic": [
-            {
-                "l": 141.9086679779467,
-                "b": 55.40598344067783,
-                "l_units": "deg",
-                "b_units": "deg",
-                "reference": "1dd9ff38-e24d-4a13-9063-fa524d4870ed",
-                "computed": true
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "11 28 30.9875",
+            "dec": "+58 33 40.783",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "1dd9ff38-e24d-4a13-9063-fa524d4870ed",
+            "coord_type": "equitorial"
+        },
+        {
+            "l": 141.9086679779467,
+            "b": 55.40598344067783,
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": "1dd9ff38-e24d-4a13-9063-fa524d4870ed",
+            "computed": true,
+            "coord_type": "galactic"
+        }
+    ],
     "distance": {
         "redshift": [
             {
@@ -68,18 +66,6 @@
             "human_readable_name": "Mattila et al. (2018)"
         }
     ],
-    "epoch": {
-        "date_discovery": [
-            {
-                "value": "53401.0",
-                "date_format": "MJD",
-                "reference": [
-                    "2018Sci...361..482M"
-                ],
-                "computed": false
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2018Sci...361..482M",
@@ -170,6 +156,17 @@
             "filter_key": "8.4GHz",
             "freq_eff": 8.4,
             "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "53401.0",
+            "date_format": "MJD",
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "computed": false,
+            "measurement_type": "discovery"
         }
     ]
 }]

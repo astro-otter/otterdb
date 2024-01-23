@@ -12,34 +12,32 @@
             }
         ]
     },
-    "coordinate": {
-        "equitorial": [
-            {
-                "ra": "15 56 25.728",
-                "dec": "+23 22 21.15",
-                "epoch": "J2000",
-                "system": "ICRS",
-                "ra_units": "hourangle",
-                "dec_units": "deg",
-                "reference": [
-                    "2023MNRAS.518..847G"
-                ],
-                "computed": false,
-                "default": true,
-                "uuid": "4f414ede-e0f0-4423-b2cc-f3ad309f0936"
-            }
-        ],
-        "galactic": [
-            {
-                "l": 38.411569358993255,
-                "b": 48.23253616380999,
-                "l_units": "deg",
-                "b_units": "deg",
-                "reference": "4f414ede-e0f0-4423-b2cc-f3ad309f0936",
-                "computed": true
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "15 56 25.728",
+            "dec": "+23 22 21.15",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2023MNRAS.518..847G"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "4f414ede-e0f0-4423-b2cc-f3ad309f0936",
+            "coord_type": "equitorial"
+        },
+        {
+            "l": 38.411569358993255,
+            "b": 48.23253616380999,
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": "4f414ede-e0f0-4423-b2cc-f3ad309f0936",
+            "computed": true,
+            "coord_type": "galactic"
+        }
+    ],
     "distance": {
         "redshift": [
             {
@@ -68,18 +66,6 @@
             "human_readable_name": "Goodwin et al. (2023)"
         }
     ],
-    "epoch": {
-        "date_discovery": [
-            {
-                "value": 59038.23,
-                "date_format": "MJD",
-                "reference": [
-                    "2023MNRAS.518..847G"
-                ],
-                "computed": false
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2023MNRAS.518..847G",
@@ -135,6 +121,17 @@
             "filter_key": "5.5GHz",
             "freq_eff": 5.5,
             "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 59038.23,
+            "date_format": "MJD",
+            "reference": [
+                "2023MNRAS.518..847G"
+            ],
+            "computed": false,
+            "measurement_type": "discovery"
         }
     ]
 }]

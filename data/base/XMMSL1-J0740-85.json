@@ -12,35 +12,33 @@
             }
         ]
     },
-    "coordinate": {
-        "equitorial": [
-            {
-                "ra": "07 40 08.19",
-                "dec": "85 39 31.25",
-                "epoch": "J2000",
-                "system": "ICRS",
-                "ra_units": "hourangle",
-                "dec_units": "deg",
-                "reference": [
-                    "2017A&A...598A..29S",
-                    "2017ApJ...837..153A"
-                ],
-                "computed": false,
-                "default": true,
-                "uuid": "acc85b03-7d1e-4257-be03-00afaa80ac74"
-            }
-        ],
-        "galactic": [
-            {
-                "l": 127.73752626582558,
-                "b": 27.96183708953435,
-                "l_units": "deg",
-                "b_units": "deg",
-                "reference": "acc85b03-7d1e-4257-be03-00afaa80ac74",
-                "computed": true
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "07 40 08.19",
+            "dec": "85 39 31.25",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2017A&A...598A..29S",
+                "2017ApJ...837..153A"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "acc85b03-7d1e-4257-be03-00afaa80ac74",
+            "coord_type": "equitorial"
+        },
+        {
+            "l": 127.73752626582558,
+            "b": 27.96183708953435,
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": "acc85b03-7d1e-4257-be03-00afaa80ac74",
+            "computed": true,
+            "coord_type": "galactic"
+        }
+    ],
     "distance": {
         "redshift": [
             {
@@ -75,19 +73,6 @@
             "human_readable_name": "Alexander et al. (2017)"
         }
     ],
-    "epoch": {
-        "date_discovery": [
-            {
-                "value": 56748,
-                "date_format": "MJD",
-                "reference": [
-                    "2017A&A...598A..29S",
-                    "2017ApJ...837..153A"
-                ],
-                "computed": false
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2017ApJ...837..153A",
@@ -148,6 +133,18 @@
             "filter_key": "1.6GHz",
             "freq_eff": 1.6,
             "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 56748,
+            "date_format": "MJD",
+            "reference": [
+                "2017A&A...598A..29S",
+                "2017ApJ...837..153A"
+            ],
+            "computed": false,
+            "measurement_type": "discovery"
         }
     ]
 }]

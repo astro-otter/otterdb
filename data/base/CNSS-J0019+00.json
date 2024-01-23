@@ -12,34 +12,32 @@
             }
         ]
     },
-    "coordinate": {
-        "equitorial": [
-            {
-                "ra": "00 19 47.335038",
-                "dec": "+00 35 26.8102",
-                "epoch": "J2000",
-                "system": "ICRS",
-                "ra_units": "hourangle",
-                "dec_units": "deg",
-                "reference": [
-                    "2020ApJ...903..116A"
-                ],
-                "computed": false,
-                "default": true,
-                "uuid": "8b1df18b-2669-4fa0-b200-aeabfdfade72"
-            }
-        ],
-        "galactic": [
-            {
-                "l": 106.29996914088224,
-                "b": -61.254791571842965,
-                "l_units": "deg",
-                "b_units": "deg",
-                "reference": "8b1df18b-2669-4fa0-b200-aeabfdfade72",
-                "computed": true
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "00 19 47.335038",
+            "dec": "+00 35 26.8102",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2020ApJ...903..116A"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "8b1df18b-2669-4fa0-b200-aeabfdfade72",
+            "coord_type": "equitorial"
+        },
+        {
+            "l": 106.29996914088224,
+            "b": -61.254791571842965,
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": "8b1df18b-2669-4fa0-b200-aeabfdfade72",
+            "computed": true,
+            "coord_type": "galactic"
+        }
+    ],
     "distance": {
         "redshift": [
             {
@@ -68,18 +66,6 @@
             "human_readable_name": "Anderson et al. (2020)"
         }
     ],
-    "epoch": {
-        "date_discovery": [
-            {
-                "value": "56580.0",
-                "date_format": "MJD",
-                "reference": [
-                    "2020ApJ...903..116A"
-                ],
-                "computed": false
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2020ApJ...903..116A",
@@ -164,6 +150,17 @@
             "filter_key": "2.5GHz",
             "freq_eff": 2.5,
             "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "56580.0",
+            "date_format": "MJD",
+            "reference": [
+                "2020ApJ...903..116A"
+            ],
+            "computed": false,
+            "measurement_type": "discovery"
         }
     ]
 }]

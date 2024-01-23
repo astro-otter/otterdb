@@ -12,39 +12,37 @@
             }
         ]
     },
-    "coordinate": {
-        "equitorial": [
-            {
-                "ra": "16 44 49.93130",
-                "dec": "+57 34 59.6893",
-                "epoch": "J2000",
-                "system": "ICRS",
-                "ra_units": "hourangle",
-                "dec_units": "deg",
-                "reference": [
-                    "2011Natur.476..425Z",
-                    "2012ApJ...748...36B",
-                    "2012MNRAS.421.1942W",
-                    "2013ApJ...767..152Z",
-                    "2016MNRAS.462L..66Y",
-                    "2018ApJ...854...86E"
-                ],
-                "computed": false,
-                "default": true,
-                "uuid": "77040fb1-ab0d-4f22-95ce-bada0a9fa578"
-            }
-        ],
-        "galactic": [
-            {
-                "l": 86.71123273634592,
-                "b": 39.44122227143402,
-                "l_units": "deg",
-                "b_units": "deg",
-                "reference": "77040fb1-ab0d-4f22-95ce-bada0a9fa578",
-                "computed": true
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "16 44 49.93130",
+            "dec": "+57 34 59.6893",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2011Natur.476..425Z",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016MNRAS.462L..66Y",
+                "2018ApJ...854...86E"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "77040fb1-ab0d-4f22-95ce-bada0a9fa578",
+            "coord_type": "equitorial"
+        },
+        {
+            "l": 86.71123273634592,
+            "b": 39.44122227143402,
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": "77040fb1-ab0d-4f22-95ce-bada0a9fa578",
+            "computed": true,
+            "coord_type": "galactic"
+        }
+    ],
     "distance": {
         "redshift": [
             {
@@ -103,23 +101,6 @@
             "human_readable_name": "Eftekhari et al. (2018)"
         }
     ],
-    "epoch": {
-        "date_discovery": [
-            {
-                "value": 55648.54,
-                "date_format": "MJD",
-                "reference": [
-                    "2011Natur.476..425Z",
-                    "2012ApJ...748...36B",
-                    "2012MNRAS.421.1942W",
-                    "2013ApJ...767..152Z",
-                    "2016MNRAS.462L..66Y",
-                    "2018ApJ...854...86E"
-                ],
-                "computed": false
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2011Natur.476..425Z",
@@ -402,6 +383,22 @@
             "filter_key": "4.9GHz",
             "freq_eff": 4.9,
             "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 55648.54,
+            "date_format": "MJD",
+            "reference": [
+                "2011Natur.476..425Z",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016MNRAS.462L..66Y",
+                "2018ApJ...854...86E"
+            ],
+            "computed": false,
+            "measurement_type": "discovery"
         }
     ]
 }]

@@ -12,34 +12,32 @@
             }
         ]
     },
-    "coordinate": {
-        "equitorial": [
-            {
-                "ra": "11 11 47.6",
-                "dec": "-82 38 44.44",
-                "epoch": "J2000",
-                "system": "ICRS",
-                "ra_units": "hourangle",
-                "dec_units": "deg",
-                "reference": [
-                    "2017MNRAS.472.4469B"
-                ],
-                "computed": false,
-                "default": true,
-                "uuid": "3bb02aa4-eb60-4f09-acdf-d1431a6addc4"
-            }
-        ],
-        "galactic": [
-            {
-                "l": 299.6337165869647,
-                "b": -20.420594756871665,
-                "l_units": "deg",
-                "b_units": "deg",
-                "reference": "3bb02aa4-eb60-4f09-acdf-d1431a6addc4",
-                "computed": true
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "11 11 47.6",
+            "dec": "-82 38 44.44",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "3bb02aa4-eb60-4f09-acdf-d1431a6addc4",
+            "coord_type": "equitorial"
+        },
+        {
+            "l": 299.6337165869647,
+            "b": -20.420594756871665,
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": "3bb02aa4-eb60-4f09-acdf-d1431a6addc4",
+            "computed": true,
+            "coord_type": "galactic"
+        }
+    ],
     "distance": {
         "redshift": [
             {
@@ -68,18 +66,6 @@
             "human_readable_name": "Brown et al. (2017)"
         }
     ],
-    "epoch": {
-        "date_discovery": [
-            {
-                "value": "55729.5",
-                "date_format": "MJD",
-                "reference": [
-                    "2017MNRAS.472.4469B"
-                ],
-                "computed": false
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2017MNRAS.472.4469B",
@@ -122,6 +108,17 @@
             "filter_key": "5.5GHz",
             "freq_eff": 5.5,
             "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "55729.5",
+            "date_format": "MJD",
+            "reference": [
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "measurement_type": "discovery"
         }
     ]
 }]

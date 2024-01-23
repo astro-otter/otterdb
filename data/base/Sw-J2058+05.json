@@ -12,36 +12,34 @@
             }
         ]
     },
-    "coordinate": {
-        "equitorial": [
-            {
-                "ra": "20 58 19.90",
-                "dec": "+05 13 32.0",
-                "epoch": "J2000",
-                "system": "ICRS",
-                "ra_units": "hourangle",
-                "dec_units": "deg",
-                "reference": [
-                    "2012ApJ...753...77C",
-                    "2015ApJ...805...68P",
-                    "2017MNRAS.472.4469B"
-                ],
-                "computed": false,
-                "default": true,
-                "uuid": "0e249719-3a2b-456e-a128-c3b6bd1dbcaa"
-            }
-        ],
-        "galactic": [
-            {
-                "l": 53.61702902648377,
-                "b": -25.118939290176584,
-                "l_units": "deg",
-                "b_units": "deg",
-                "reference": "0e249719-3a2b-456e-a128-c3b6bd1dbcaa",
-                "computed": true
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "20 58 19.90",
+            "dec": "+05 13 32.0",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "0e249719-3a2b-456e-a128-c3b6bd1dbcaa",
+            "coord_type": "equitorial"
+        },
+        {
+            "l": 53.61702902648377,
+            "b": -25.118939290176584,
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": "0e249719-3a2b-456e-a128-c3b6bd1dbcaa",
+            "computed": true,
+            "coord_type": "galactic"
+        }
+    ],
     "distance": {
         "redshift": [
             {
@@ -82,20 +80,6 @@
             "human_readable_name": "Brown et al. (2017)"
         }
     ],
-    "epoch": {
-        "date_discovery": [
-            {
-                "value": "55698.0",
-                "date_format": "MJD",
-                "reference": [
-                    "2012ApJ...753...77C",
-                    "2015ApJ...805...68P",
-                    "2017MNRAS.472.4469B"
-                ],
-                "computed": false
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2012ApJ...753...77C",
@@ -143,6 +127,19 @@
             "filter_key": "5.5GHz",
             "freq_eff": 5.5,
             "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "55698.0",
+            "date_format": "MJD",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "measurement_type": "discovery"
         }
     ]
 }]

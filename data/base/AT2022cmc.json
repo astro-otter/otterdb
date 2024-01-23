@@ -12,34 +12,32 @@
             }
         ]
     },
-    "coordinate": {
-        "equitorial": [
-            {
-                "ra": "13 34 43.207",
-                "dec": "+33 13 00.54",
-                "epoch": "J2000",
-                "system": "ICRS",
-                "ra_units": "hourangle",
-                "dec_units": "deg",
-                "reference": [
-                    "2022Natur.612..430A"
-                ],
-                "computed": false,
-                "default": true,
-                "uuid": "764f4d76-aefa-4a0f-862e-4b12b5fe9938"
-            }
-        ],
-        "galactic": [
-            {
-                "l": 68.62957133676086,
-                "b": 78.84894174740282,
-                "l_units": "deg",
-                "b_units": "deg",
-                "reference": "764f4d76-aefa-4a0f-862e-4b12b5fe9938",
-                "computed": true
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "13 34 43.207",
+            "dec": "+33 13 00.54",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "764f4d76-aefa-4a0f-862e-4b12b5fe9938",
+            "coord_type": "equitorial"
+        },
+        {
+            "l": 68.62957133676086,
+            "b": 78.84894174740282,
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": "764f4d76-aefa-4a0f-862e-4b12b5fe9938",
+            "computed": true,
+            "coord_type": "galactic"
+        }
+    ],
     "distance": {
         "redshift": [
             {
@@ -68,18 +66,6 @@
             "human_readable_name": "Igor et al. (2022)"
         }
     ],
-    "epoch": {
-        "date_discovery": [
-            {
-                "value": 59621.45,
-                "date_format": "MJD",
-                "reference": [
-                    "2022Natur.612..430A"
-                ],
-                "computed": false
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2022Natur.612..430A",
@@ -178,6 +164,17 @@
             "filter_key": "8.5GHz",
             "freq_eff": 8.5,
             "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 59621.45,
+            "date_format": "MJD",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "computed": false,
+            "measurement_type": "discovery"
         }
     ]
 }]

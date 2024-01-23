@@ -12,37 +12,35 @@
             }
         ]
     },
-    "coordinate": {
-        "equitorial": [
-            {
-                "ra": "12 48 15.2253",
-                "dec": "+17 46 26.475",
-                "epoch": "J2000",
-                "system": "ICRS",
-                "ra_units": "hourangle",
-                "dec_units": "deg",
-                "reference": [
-                    "2016ApJ...819L..25A",
-                    "2016Sci...351...62V",
-                    "2016ApJ...832L..10R",
-                    "2018MNRAS.475.4011B"
-                ],
-                "computed": false,
-                "default": true,
-                "uuid": "13e74257-00d9-4a6f-8eee-e091c8c83ab3"
-            }
-        ],
-        "galactic": [
-            {
-                "l": 298.27734758483064,
-                "b": 80.61697877592154,
-                "l_units": "deg",
-                "b_units": "deg",
-                "reference": "13e74257-00d9-4a6f-8eee-e091c8c83ab3",
-                "computed": true
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "12 48 15.2253",
+            "dec": "+17 46 26.475",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2016ApJ...819L..25A",
+                "2016Sci...351...62V",
+                "2016ApJ...832L..10R",
+                "2018MNRAS.475.4011B"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "13e74257-00d9-4a6f-8eee-e091c8c83ab3",
+            "coord_type": "equitorial"
+        },
+        {
+            "l": 298.27734758483064,
+            "b": 80.61697877592154,
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": "13e74257-00d9-4a6f-8eee-e091c8c83ab3",
+            "computed": true,
+            "coord_type": "galactic"
+        }
+    ],
     "distance": {
         "redshift": [
             {
@@ -89,21 +87,6 @@
             "human_readable_name": "Bright et al. (2018)"
         }
     ],
-    "epoch": {
-        "date_discovery": [
-            {
-                "value": 56983,
-                "date_format": "MJD",
-                "reference": [
-                    "2016ApJ...819L..25A",
-                    "2016Sci...351...62V",
-                    "2016ApJ...832L..10R",
-                    "2018MNRAS.475.4011B"
-                ],
-                "computed": false
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2016ApJ...819L..25A",
@@ -170,6 +153,20 @@
             "filter_key": "5.0GHz",
             "freq_eff": 5.0,
             "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 56983,
+            "date_format": "MJD",
+            "reference": [
+                "2016ApJ...819L..25A",
+                "2016Sci...351...62V",
+                "2016ApJ...832L..10R",
+                "2018MNRAS.475.4011B"
+            ],
+            "computed": false,
+            "measurement_type": "discovery"
         }
     ]
 }]

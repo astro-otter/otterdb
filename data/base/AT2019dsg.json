@@ -12,35 +12,33 @@
             }
         ]
     },
-    "coordinate": {
-        "equitorial": [
-            {
-                "ra": "20 57 02.970",
-                "dec": "+14 12 15.86",
-                "epoch": "J2000",
-                "system": "ICRS",
-                "ra_units": "hourangle",
-                "dec_units": "deg",
-                "reference": [
-                    "2021NatAs...5..510S",
-                    "2021ApJ...919..127C"
-                ],
-                "computed": false,
-                "default": true,
-                "uuid": "cf2dd30e-8ddf-48af-94b1-a2070ab441de"
-            }
-        ],
-        "galactic": [
-            {
-                "l": 61.40288898519897,
-                "b": -19.734536925051,
-                "l_units": "deg",
-                "b_units": "deg",
-                "reference": "cf2dd30e-8ddf-48af-94b1-a2070ab441de",
-                "computed": true
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "20 57 02.970",
+            "dec": "+14 12 15.86",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2021NatAs...5..510S",
+                "2021ApJ...919..127C"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "cf2dd30e-8ddf-48af-94b1-a2070ab441de",
+            "coord_type": "equitorial"
+        },
+        {
+            "l": 61.40288898519897,
+            "b": -19.734536925051,
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": "cf2dd30e-8ddf-48af-94b1-a2070ab441de",
+            "computed": true,
+            "coord_type": "galactic"
+        }
+    ],
     "distance": {
         "redshift": [
             {
@@ -75,19 +73,6 @@
             "human_readable_name": "Cendes et al. (2021)"
         }
     ],
-    "epoch": {
-        "date_discovery": [
-            {
-                "value": 58582.46,
-                "date_format": "MJD",
-                "reference": [
-                    "2021NatAs...5..510S",
-                    "2021ApJ...919..127C"
-                ],
-                "computed": false
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2021ApJ...919..127C",
@@ -159,6 +144,18 @@
             "filter_key": "6.0GHz",
             "freq_eff": 6.0,
             "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 58582.46,
+            "date_format": "MJD",
+            "reference": [
+                "2021NatAs...5..510S",
+                "2021ApJ...919..127C"
+            ],
+            "computed": false,
+            "measurement_type": "discovery"
         }
     ]
 }]

@@ -12,34 +12,32 @@
             }
         ]
     },
-    "coordinate": {
-        "equitorial": [
-            {
-                "ra": "20 39 09.096",
-                "dec": "-30 45 20.71",
-                "epoch": "J2000",
-                "system": "ICRS",
-                "ra_units": "hourangle",
-                "dec_units": "deg",
-                "reference": [
-                    "2021NatAs...5..491H"
-                ],
-                "computed": false,
-                "default": true,
-                "uuid": "a06be641-1601-4737-9a1a-bd25c5dd61e6"
-            }
-        ],
-        "galactic": [
-            {
-                "l": 13.01154485751856,
-                "b": -35.41877256185317,
-                "l_units": "deg",
-                "b_units": "deg",
-                "reference": "a06be641-1601-4737-9a1a-bd25c5dd61e6",
-                "computed": true
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "20 39 09.096",
+            "dec": "-30 45 20.71",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2021NatAs...5..491H"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "a06be641-1601-4737-9a1a-bd25c5dd61e6",
+            "coord_type": "equitorial"
+        },
+        {
+            "l": 13.01154485751856,
+            "b": -35.41877256185317,
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": "a06be641-1601-4737-9a1a-bd25c5dd61e6",
+            "computed": true,
+            "coord_type": "galactic"
+        }
+    ],
     "distance": {
         "redshift": [
             {
@@ -68,18 +66,6 @@
             "human_readable_name": "Horesh et al. (2021)"
         }
     ],
-    "epoch": {
-        "date_discovery": [
-            {
-                "value": 57248.2,
-                "date_format": "MJD",
-                "reference": [
-                    "2021NatAs...5..491H"
-                ],
-                "computed": false
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2021NatAs...5..491H",
@@ -214,6 +200,17 @@
             "filter_key": "3.0GHz",
             "freq_eff": 3.0,
             "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 57248.2,
+            "date_format": "MJD",
+            "reference": [
+                "2021NatAs...5..491H"
+            ],
+            "computed": false,
+            "measurement_type": "discovery"
         }
     ]
 }]
