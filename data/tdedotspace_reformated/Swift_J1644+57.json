@@ -1,0 +1,503 @@
+[{
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
+    "name": {
+        "default_name": "Swift J1644+57",
+        "alias": [
+            {
+                "value": "Swift J1644+57",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2011Sci...333..203B"
+                ]
+            },
+            {
+                "value": "Swift J164449.3+573451",
+                "reference": [
+                    "2011Sci...333..203B"
+                ]
+            },
+            {
+                "value": "GRB 110328A",
+                "reference": [
+                    "2011Sci...333..203B"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": "16:44:49.92",
+            "dec": "+57:34:58.8",
+            "ra_units": "hours",
+            "dec_units": "degrees"
+        }
+    ],
+    "distance": {
+        "redshift": [
+            {
+                "value": "0.3543",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2011Sci...333..203B"
+                ],
+                "computed": false,
+                "default": true
+            }
+        ],
+        "luminosity_distance": [
+            {
+                "value": "1942",
+                "unit": "Mpc",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2016A&A...594A..13P",
+                    "2011Sci...333..203B",
+                    "2017ApJ...835...64G"
+                ],
+                "computed": false,
+                "default": true
+            }
+        ],
+        "comoving_distance": [
+            {
+                "value": "1434",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2016A&A...594A..13P",
+                    "2011Sci...333..203B",
+                    "2017ApJ...835...64G"
+                ],
+                "computed": false,
+                "default": true,
+                "unit": "Mpc",
+                "date_format": "iso"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "MS + SMBH",
+            "confidence": 1.0,
+            "reference": [
+                "2011Sci...333..203B"
+            ]
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011Sci...333..203B",
+            "human_readable_name": "Bloom et al. (2011)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2011-03-29 00:00:00.000",
+            "measurement_type": "discovery",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true
+        }
+    ],
+    "photometry": [
+        {
+            "raw": [
+                "0.000427131",
+                "0.000399543"
+            ],
+            "raw_units": [
+                "s^-1",
+                "s^-1"
+            ],
+            "value": [
+                "3.05E-15",
+                "2.86E-15"
+            ],
+            "value_units": [
+                "ergs/cm^2/s",
+                "ergs/cm^2/s"
+            ],
+            "filter": [
+                "0.3-2.0",
+                "0.3-2.0"
+            ],
+            "date": [
+                "56257.4",
+                "57070.2"
+            ],
+            "date_format": "MJD",
+            "upperlimit": [
+                true,
+                true
+            ],
+            "telescope": "Chandra",
+            "reference": [
+                "2017ApJ...838..149A"
+            ]
+        },
+        {
+            "raw": [
+                "0.0308041",
+                "0.0993732",
+                "0.0450751",
+                "0.043094"
+            ],
+            "raw_units": [
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1"
+            ],
+            "value": [
+                "8.75E-14",
+                "1.66E-13",
+                "7.53E-14",
+                "7.20E-14"
+            ],
+            "value_units": [
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s"
+            ],
+            "filter": [
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0"
+            ],
+            "date": [
+                "48000",
+                "48094.1",
+                "48370",
+                "48715.6"
+            ],
+            "date_format": "MJD",
+            "upperlimit": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "telescope": "ROSAT",
+            "reference": [
+                "2017ApJ...838..149A"
+            ]
+        },
+        {
+            "raw": [
+                "1.0482",
+                "0.6817",
+                "0.101597",
+                "0.0362351",
+                "0.0225792",
+                "0.0122362",
+                "0.00300771",
+                "0.00126983",
+                "0.00156039",
+                "0.00173297",
+                "1.95E-03",
+                "1.86E-03",
+                "2.09E-03",
+                "1.97E-03",
+                "0.0019953",
+                "0.00171713",
+                "0.00184643",
+                "0.00252298",
+                "0.00236432"
+            ],
+            "raw_units": [
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1"
+            ],
+            "value": [
+                "8.74E-12",
+                "5.53E-12",
+                "8.91E-13",
+                "3.04E-13",
+                "2.27E-13",
+                "9.46E-14",
+                "2.26E-14",
+                "2.21E-14",
+                "2.71E-14",
+                "3.00E-14",
+                "3.39E-14",
+                "3.23E-14",
+                "3.63E-14",
+                "3.42E-14",
+                "3.47E-14",
+                "2.99E-14",
+                "3.21E-14",
+                "4.38E-14",
+                "4.10E-14"
+            ],
+            "value_units": [
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s"
+            ],
+            "filter": [
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0"
+            ],
+            "date": [
+                "55649.6",
+                "55675.6",
+                "55749.3",
+                "55850.3",
+                "55947.6",
+                "56048.1",
+                "56153.6",
+                "56242.9",
+                "56335.7",
+                "56457",
+                "56551.70",
+                "56649.30",
+                "56751.40",
+                "56848.30",
+                "56945.1",
+                "57049",
+                "57151.3",
+                "57253.9",
+                "57318.4"
+            ],
+            "date_format": "MJD",
+            "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "telescope": "Swift",
+            "reference": [
+                "2017ApJ...838..149A"
+            ]
+        },
+        {
+            "raw": [
+                "0.0319464",
+                "11.3004",
+                "7.93976",
+                "0.928866",
+                "17.5",
+                "0.241757",
+                "1.72019",
+                "2.83",
+                "1.45692",
+                "1.51279",
+                "0.348197",
+                "0.614621",
+                "0.860492",
+                "0.0138642",
+                "1.08E-02",
+                "1.8",
+                "5.35E-01"
+            ],
+            "raw_units": [
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1",
+                "s^-1"
+            ],
+            "value": [
+                "1.89E-14",
+                "9.03E-12",
+                "5.14E-12",
+                "6.93E-13",
+                "3.01E-11",
+                "1.53E-13",
+                "7.87E-13",
+                "4.86E-12",
+                "1.19E-13",
+                "4.07E-13",
+                "1.46E-13",
+                "3.64E-13",
+                "5.08E-13",
+                "8.22E-15",
+                "6.38E-15",
+                "3.09E-12",
+                "9.19E-13"
+            ],
+            "value_units": [
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s",
+                "ergs/cm^2/s"
+            ],
+            "filter": [
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0",
+                "0.3-2.0"
+            ],
+            "date": [
+                "55651.4",
+                "55667.4",
+                "55681.3",
+                "55697.3",
+                "55697.6",
+                "55745.3",
+                "55757.1",
+                "55757.4",
+                "55769.1",
+                "55787.1",
+                "55801",
+                "55811",
+                "55836.9",
+                "56197.8",
+                "56205.8",
+                "56296.3",
+                "57231.4"
+            ],
+            "date_format": "MJD",
+            "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "telescope": "XMM",
+            "reference": [
+                "2017ApJ...838..149A"
+            ]
+        }
+    ]
+}]

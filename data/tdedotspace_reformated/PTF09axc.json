@@ -1,0 +1,232 @@
+[{
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
+    "name": {
+        "default_name": "PTF09axc",
+        "alias": [
+            {
+                "value": "PTF09axc",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2012PASP..124..668Y",
+                    "2000A&AS..143....9W"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": "14:53:13.06",
+            "dec": "+22:14:32.20",
+            "ra_units": "hours",
+            "dec_units": "degrees",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2000A&AS..143....9W",
+                "2010ApJ...721..777A"
+            ]
+        }
+    ],
+    "distance": {
+        "redshift": [
+            {
+                "value": "0.1146",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2014ApJ...793...38A",
+                    "2012PASP..124..668Y"
+                ],
+                "computed": false,
+                "default": true
+            }
+        ],
+        "luminosity_distance": [
+            {
+                "value": "550",
+                "unit": "Mpc",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2016A&A...594A..13P",
+                    "2014ApJ...793...38A",
+                    "2017ApJ...835...64G",
+                    "2012PASP..124..668Y"
+                ],
+                "computed": false,
+                "default": true
+            }
+        ],
+        "comoving_distance": [
+            {
+                "value": "493.4",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2016A&A...594A..13P",
+                    "2014ApJ...793...38A",
+                    "2017ApJ...835...64G",
+                    "2012PASP..124..668Y"
+                ],
+                "computed": false,
+                "default": true,
+                "unit": "Mpc",
+                "date_format": "iso"
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "AGN?",
+            "confidence": 1.0,
+            "reference": [
+                "2017ApJ...838..149A"
+            ]
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2012PASP..124..668Y"
+            ]
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2014ApJ...793...38A",
+            "human_readable_name": "Arcavi et al. (2014)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2010ApJ...721..777A",
+            "human_readable_name": "Arcavi et al. (2010)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2012PASP..124..668Y",
+            "human_readable_name": "Yaron & Gal-Yam (2012)"
+        },
+        {
+            "name": "2000A&AS..143....9W",
+            "human_readable_name": "Wenger et al. (2000)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2009-06-20 00:00:00.000",
+            "measurement_type": "discovery",
+            "reference": [
+                "2014ApJ...793...38A",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true
+        }
+    ],
+    "photometry": [
+        {
+            "raw": [
+                "0.0427"
+            ],
+            "raw_units": [
+                "s^-1"
+            ],
+            "value": [
+                "1.09E-13"
+            ],
+            "value_units": [
+                "ergs/cm^2/s"
+            ],
+            "filter": [
+                "0.3-2.0"
+            ],
+            "date": [
+                "48300"
+            ],
+            "date_format": "MJD",
+            "upperlimit": [
+                true
+            ],
+            "telescope": "ROSAT",
+            "reference": [
+                "2017ApJ...838..149A"
+            ]
+        },
+        {
+            "raw": [
+                "0.00803",
+                "0.00555"
+            ],
+            "raw_units": [
+                "s^-1",
+                "s^-1"
+            ],
+            "value": [
+                "3.08E-14",
+                "8.94E-14"
+            ],
+            "value_units": [
+                "ergs/cm^2/s",
+                "ergs/cm^2/s"
+            ],
+            "filter": [
+                "0.3-2.0",
+                "0.3-2.0"
+            ],
+            "date": [
+                "56739.2",
+                "57097.8"
+            ],
+            "date_format": "MJD",
+            "upperlimit": [
+                false,
+                false
+            ],
+            "telescope": "Swift",
+            "reference": [
+                "2017ApJ...838..149A"
+            ]
+        },
+        {
+            "raw": [
+                "0.691"
+            ],
+            "raw_units": [
+                "s^-1"
+            ],
+            "value": [
+                "3.11E-12"
+            ],
+            "value_units": [
+                "ergs/cm^2/s"
+            ],
+            "filter": [
+                "0.3-2.0"
+            ],
+            "date": [
+                "56114.4"
+            ],
+            "date_format": "MJD",
+            "upperlimit": [
+                true
+            ],
+            "telescope": "XMM",
+            "reference": [
+                "2017ApJ...838..149A"
+            ]
+        }
+    ]
+}]
