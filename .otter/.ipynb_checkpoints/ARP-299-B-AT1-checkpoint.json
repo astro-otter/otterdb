@@ -25,31 +25,30 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "1dd9ff38-e24d-4a13-9063-fa524d4870ed",
-            "coord_type": "equitorial"
+            "uuid": "32446956-5244-4b0b-bdfd-e894b4126d63",
+            "coordinate_type": "equitorial"
         },
         {
             "l": 141.9086679779467,
             "b": 55.40598344067783,
             "l_units": "deg",
             "b_units": "deg",
-            "reference": "1dd9ff38-e24d-4a13-9063-fa524d4870ed",
+            "reference": "32446956-5244-4b0b-bdfd-e894b4126d63",
             "computed": true,
-            "coord_type": "galactic"
+            "coordinate_type": "galactic"
         }
     ],
-    "distance": {
-        "redshift": [
-            {
-                "value": "0.010411",
-                "reference": [
-                    "2018Sci...361..482M"
-                ],
-                "computed": false,
-                "default": true
-            }
-        ]
-    },
+    "distance": [
+        {
+            "value": "0.010411",
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -64,6 +63,17 @@
         {
             "name": "2018Sci...361..482M",
             "human_readable_name": "Mattila et al. (2018)"
+        }
+    ],
+    "epoch": [
+        {
+            "value": "53401.0",
+            "date_format": "MJD",
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -156,17 +166,6 @@
             "filter_key": "8.4GHz",
             "freq_eff": 8.4,
             "freq_units": "GHz"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "53401.0",
-            "date_format": "MJD",
-            "reference": [
-                "2018Sci...361..482M"
-            ],
-            "computed": false,
-            "measurement_type": "discovery"
         }
     ]
 }]

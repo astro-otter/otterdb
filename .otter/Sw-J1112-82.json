@@ -1,4 +1,4 @@
-[{
+{
     "schema_version": {
         "value": "0",
         "comment": "Original Dataset"
@@ -25,31 +25,30 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "3bb02aa4-eb60-4f09-acdf-d1431a6addc4",
-            "coord_type": "equitorial"
+            "uuid": "e2aafd61-0d98-4b75-8d71-9fc054fc150c",
+            "coordinate_type": "equitorial"
         },
         {
             "l": 299.6337165869647,
             "b": -20.420594756871665,
             "l_units": "deg",
             "b_units": "deg",
-            "reference": "3bb02aa4-eb60-4f09-acdf-d1431a6addc4",
+            "reference": "e2aafd61-0d98-4b75-8d71-9fc054fc150c",
             "computed": true,
-            "coord_type": "galactic"
+            "coordinate_type": "galactic"
         }
     ],
-    "distance": {
-        "redshift": [
-            {
-                "value": "0.89",
-                "reference": [
-                    "2017MNRAS.472.4469B"
-                ],
-                "computed": false,
-                "default": true
-            }
-        ]
-    },
+    "distance": [
+        {
+            "value": "0.89",
+            "reference": [
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -64,6 +63,17 @@
         {
             "name": "2017MNRAS.472.4469B",
             "human_readable_name": "Brown et al. (2017)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "55729.5",
+            "date_format": "MJD",
+            "reference": [
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -109,16 +119,5 @@
             "freq_eff": 5.5,
             "freq_units": "GHz"
         }
-    ],
-    "date_reference": [
-        {
-            "value": "55729.5",
-            "date_format": "MJD",
-            "reference": [
-                "2017MNRAS.472.4469B"
-            ],
-            "computed": false,
-            "measurement_type": "discovery"
-        }
     ]
-}]
+}

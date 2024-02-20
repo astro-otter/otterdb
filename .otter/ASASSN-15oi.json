@@ -1,4 +1,4 @@
-[{
+{
     "schema_version": {
         "value": "0",
         "comment": "Original Dataset"
@@ -25,31 +25,30 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "a06be641-1601-4737-9a1a-bd25c5dd61e6",
-            "coord_type": "equitorial"
+            "uuid": "65eb217f-296e-44d2-88df-17ab2f5c2094",
+            "coordinate_type": "equitorial"
         },
         {
             "l": 13.01154485751856,
             "b": -35.41877256185317,
             "l_units": "deg",
             "b_units": "deg",
-            "reference": "a06be641-1601-4737-9a1a-bd25c5dd61e6",
+            "reference": "65eb217f-296e-44d2-88df-17ab2f5c2094",
             "computed": true,
-            "coord_type": "galactic"
+            "coordinate_type": "galactic"
         }
     ],
-    "distance": {
-        "redshift": [
-            {
-                "value": "0.0484",
-                "reference": [
-                    "2021NatAs...5..491H"
-                ],
-                "computed": false,
-                "default": true
-            }
-        ]
-    },
+    "distance": [
+        {
+            "value": "0.0484",
+            "reference": [
+                "2021NatAs...5..491H"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -64,6 +63,17 @@
         {
             "name": "2021NatAs...5..491H",
             "human_readable_name": "Horesh et al. (2021)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 57248.2,
+            "date_format": "MJD",
+            "reference": [
+                "2021NatAs...5..491H"
+            ],
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -201,16 +211,5 @@
             "freq_eff": 3.0,
             "freq_units": "GHz"
         }
-    ],
-    "date_reference": [
-        {
-            "value": 57248.2,
-            "date_format": "MJD",
-            "reference": [
-                "2021NatAs...5..491H"
-            ],
-            "computed": false,
-            "measurement_type": "discovery"
-        }
     ]
-}]
+}

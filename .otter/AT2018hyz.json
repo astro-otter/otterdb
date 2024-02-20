@@ -1,4 +1,4 @@
-[{
+{
     "schema_version": {
         "value": "0",
         "comment": "Original Dataset"
@@ -25,31 +25,30 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "d226d6ba-b1c7-4e8f-9be2-089708a18961",
-            "coord_type": "equitorial"
+            "uuid": "98a7024b-2da2-4d73-9cef-8d98bce60260",
+            "coordinate_type": "equitorial"
         },
         {
             "l": 238.65938137916754,
             "b": 43.106334907568495,
             "l_units": "deg",
             "b_units": "deg",
-            "reference": "d226d6ba-b1c7-4e8f-9be2-089708a18961",
+            "reference": "98a7024b-2da2-4d73-9cef-8d98bce60260",
             "computed": true,
-            "coord_type": "galactic"
+            "coordinate_type": "galactic"
         }
     ],
-    "distance": {
-        "redshift": [
-            {
-                "value": "0.0457",
-                "reference": [
-                    "2022ApJ...938...28C"
-                ],
-                "computed": false,
-                "default": true
-            }
-        ]
-    },
+    "distance": [
+        {
+            "value": "0.0457",
+            "reference": [
+                "2022ApJ...938...28C"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -64,6 +63,17 @@
         {
             "name": "2022ApJ...938...28C",
             "human_readable_name": "Cendes et al. (2022)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 58428.64,
+            "date_format": "MJD",
+            "reference": [
+                "2022ApJ...938...28C"
+            ],
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -177,16 +187,5 @@
             "freq_eff": 5.5,
             "freq_units": "GHz"
         }
-    ],
-    "date_reference": [
-        {
-            "value": 58428.64,
-            "date_format": "MJD",
-            "reference": [
-                "2022ApJ...938...28C"
-            ],
-            "computed": false,
-            "measurement_type": "discovery"
-        }
     ]
-}]
+}

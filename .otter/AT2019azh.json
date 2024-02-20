@@ -1,4 +1,4 @@
-[{
+{
     "schema_version": {
         "value": "0",
         "comment": "Original Dataset"
@@ -25,31 +25,30 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "2ffe7b38-4960-4939-8d42-a7f1902e2758",
-            "coord_type": "equitorial"
+            "uuid": "e9c1ea48-2acf-4a91-977b-4cf324fca6ea",
+            "coordinate_type": "equitorial"
         },
         {
             "l": 200.18503399179957,
             "b": 27.562123790231873,
             "l_units": "deg",
             "b_units": "deg",
-            "reference": "2ffe7b38-4960-4939-8d42-a7f1902e2758",
+            "reference": "e9c1ea48-2acf-4a91-977b-4cf324fca6ea",
             "computed": true,
-            "coord_type": "galactic"
+            "coordinate_type": "galactic"
         }
     ],
-    "distance": {
-        "redshift": [
-            {
-                "value": "0.022",
-                "reference": [
-                    "2022MNRAS.511.5328G"
-                ],
-                "computed": false,
-                "default": true
-            }
-        ]
-    },
+    "distance": [
+        {
+            "value": "0.022",
+            "reference": [
+                "2022MNRAS.511.5328G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -64,6 +63,17 @@
         {
             "name": "2022MNRAS.511.5328G",
             "human_readable_name": "Goodwin et al. (2022)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 58536.02,
+            "date_format": "MJD",
+            "reference": [
+                "2022MNRAS.511.5328G"
+            ],
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -180,16 +190,5 @@
             "freq_eff": 5.512,
             "freq_units": "GHz"
         }
-    ],
-    "date_reference": [
-        {
-            "value": 58536.02,
-            "date_format": "MJD",
-            "reference": [
-                "2022MNRAS.511.5328G"
-            ],
-            "computed": false,
-            "measurement_type": "discovery"
-        }
     ]
-}]
+}

@@ -1,4 +1,4 @@
-[{
+{
     "schema_version": {
         "value": "0",
         "comment": "Original Dataset"
@@ -26,32 +26,31 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "acc85b03-7d1e-4257-be03-00afaa80ac74",
-            "coord_type": "equitorial"
+            "uuid": "866b036b-5c97-4f69-8b4d-a59ecb86dc49",
+            "coordinate_type": "equitorial"
         },
         {
             "l": 127.73752626582558,
             "b": 27.96183708953435,
             "l_units": "deg",
             "b_units": "deg",
-            "reference": "acc85b03-7d1e-4257-be03-00afaa80ac74",
+            "reference": "866b036b-5c97-4f69-8b4d-a59ecb86dc49",
             "computed": true,
-            "coord_type": "galactic"
+            "coordinate_type": "galactic"
         }
     ],
-    "distance": {
-        "redshift": [
-            {
-                "value": "0.0173",
-                "reference": [
-                    "2017A&A...598A..29S",
-                    "2017ApJ...837..153A"
-                ],
-                "computed": false,
-                "default": true
-            }
-        ]
-    },
+    "distance": [
+        {
+            "value": "0.0173",
+            "reference": [
+                "2017A&A...598A..29S",
+                "2017ApJ...837..153A"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -71,6 +70,18 @@
         {
             "name": "2017ApJ...837..153A",
             "human_readable_name": "Alexander et al. (2017)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 56748,
+            "date_format": "MJD",
+            "reference": [
+                "2017A&A...598A..29S",
+                "2017ApJ...837..153A"
+            ],
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -134,17 +145,5 @@
             "freq_eff": 1.6,
             "freq_units": "GHz"
         }
-    ],
-    "date_reference": [
-        {
-            "value": 56748,
-            "date_format": "MJD",
-            "reference": [
-                "2017A&A...598A..29S",
-                "2017ApJ...837..153A"
-            ],
-            "computed": false,
-            "measurement_type": "discovery"
-        }
     ]
-}]
+}

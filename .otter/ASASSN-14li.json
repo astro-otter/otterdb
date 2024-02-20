@@ -1,4 +1,4 @@
-[{
+{
     "schema_version": {
         "value": "0",
         "comment": "Original Dataset"
@@ -28,34 +28,33 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "13e74257-00d9-4a6f-8eee-e091c8c83ab3",
-            "coord_type": "equitorial"
+            "uuid": "730628f7-a757-44af-bb0e-79ad22fa8b35",
+            "coordinate_type": "equitorial"
         },
         {
             "l": 298.27734758483064,
             "b": 80.61697877592154,
             "l_units": "deg",
             "b_units": "deg",
-            "reference": "13e74257-00d9-4a6f-8eee-e091c8c83ab3",
+            "reference": "730628f7-a757-44af-bb0e-79ad22fa8b35",
             "computed": true,
-            "coord_type": "galactic"
+            "coordinate_type": "galactic"
         }
     ],
-    "distance": {
-        "redshift": [
-            {
-                "value": "0.0206",
-                "reference": [
-                    "2016ApJ...819L..25A",
-                    "2016Sci...351...62V",
-                    "2016ApJ...832L..10R",
-                    "2018MNRAS.475.4011B"
-                ],
-                "computed": false,
-                "default": true
-            }
-        ]
-    },
+    "distance": [
+        {
+            "value": "0.0206",
+            "reference": [
+                "2016ApJ...819L..25A",
+                "2016Sci...351...62V",
+                "2016ApJ...832L..10R",
+                "2018MNRAS.475.4011B"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -85,6 +84,20 @@
         {
             "name": "2018MNRAS.475.4011B",
             "human_readable_name": "Bright et al. (2018)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 56983,
+            "date_format": "MJD",
+            "reference": [
+                "2016ApJ...819L..25A",
+                "2016Sci...351...62V",
+                "2016ApJ...832L..10R",
+                "2018MNRAS.475.4011B"
+            ],
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -154,19 +167,5 @@
             "freq_eff": 5.0,
             "freq_units": "GHz"
         }
-    ],
-    "date_reference": [
-        {
-            "value": 56983,
-            "date_format": "MJD",
-            "reference": [
-                "2016ApJ...819L..25A",
-                "2016Sci...351...62V",
-                "2016ApJ...832L..10R",
-                "2018MNRAS.475.4011B"
-            ],
-            "computed": false,
-            "measurement_type": "discovery"
-        }
     ]
-}]
+}

@@ -1,4 +1,4 @@
-[{
+{
     "schema_version": {
         "value": "0",
         "comment": "Original Dataset"
@@ -30,36 +30,35 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "77040fb1-ab0d-4f22-95ce-bada0a9fa578",
-            "coord_type": "equitorial"
+            "uuid": "a93c1e99-9b2a-4bb5-ab71-8ab185b377bf",
+            "coordinate_type": "equitorial"
         },
         {
             "l": 86.71123273634592,
             "b": 39.44122227143402,
             "l_units": "deg",
             "b_units": "deg",
-            "reference": "77040fb1-ab0d-4f22-95ce-bada0a9fa578",
+            "reference": "a93c1e99-9b2a-4bb5-ab71-8ab185b377bf",
             "computed": true,
-            "coord_type": "galactic"
+            "coordinate_type": "galactic"
         }
     ],
-    "distance": {
-        "redshift": [
-            {
-                "value": "0.354",
-                "reference": [
-                    "2011Natur.476..425Z",
-                    "2012ApJ...748...36B",
-                    "2012MNRAS.421.1942W",
-                    "2013ApJ...767..152Z",
-                    "2016MNRAS.462L..66Y",
-                    "2018ApJ...854...86E"
-                ],
-                "computed": false,
-                "default": true
-            }
-        ]
-    },
+    "distance": [
+        {
+            "value": "0.354",
+            "reference": [
+                "2011Natur.476..425Z",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016MNRAS.462L..66Y",
+                "2018ApJ...854...86E"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -99,6 +98,22 @@
         {
             "name": "2018ApJ...854...86E",
             "human_readable_name": "Eftekhari et al. (2018)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 55648.54,
+            "date_format": "MJD",
+            "reference": [
+                "2011Natur.476..425Z",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016MNRAS.462L..66Y",
+                "2018ApJ...854...86E"
+            ],
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -384,21 +399,5 @@
             "freq_eff": 4.9,
             "freq_units": "GHz"
         }
-    ],
-    "date_reference": [
-        {
-            "value": 55648.54,
-            "date_format": "MJD",
-            "reference": [
-                "2011Natur.476..425Z",
-                "2012ApJ...748...36B",
-                "2012MNRAS.421.1942W",
-                "2013ApJ...767..152Z",
-                "2016MNRAS.462L..66Y",
-                "2018ApJ...854...86E"
-            ],
-            "computed": false,
-            "measurement_type": "discovery"
-        }
     ]
-}]
+}

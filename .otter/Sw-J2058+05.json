@@ -1,4 +1,4 @@
-[{
+{
     "schema_version": {
         "value": "0",
         "comment": "Original Dataset"
@@ -27,33 +27,32 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "0e249719-3a2b-456e-a128-c3b6bd1dbcaa",
-            "coord_type": "equitorial"
+            "uuid": "774ab0db-4660-4bb2-915a-357843e4dba8",
+            "coordinate_type": "equitorial"
         },
         {
             "l": 53.61702902648377,
             "b": -25.118939290176584,
             "l_units": "deg",
             "b_units": "deg",
-            "reference": "0e249719-3a2b-456e-a128-c3b6bd1dbcaa",
+            "reference": "774ab0db-4660-4bb2-915a-357843e4dba8",
             "computed": true,
-            "coord_type": "galactic"
+            "coordinate_type": "galactic"
         }
     ],
-    "distance": {
-        "redshift": [
-            {
-                "value": "1.1853",
-                "reference": [
-                    "2012ApJ...753...77C",
-                    "2015ApJ...805...68P",
-                    "2017MNRAS.472.4469B"
-                ],
-                "computed": false,
-                "default": true
-            }
-        ]
-    },
+    "distance": [
+        {
+            "value": "1.1853",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -78,6 +77,19 @@
         {
             "name": "2017MNRAS.472.4469B",
             "human_readable_name": "Brown et al. (2017)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "55698.0",
+            "date_format": "MJD",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -128,18 +140,5 @@
             "freq_eff": 5.5,
             "freq_units": "GHz"
         }
-    ],
-    "date_reference": [
-        {
-            "value": "55698.0",
-            "date_format": "MJD",
-            "reference": [
-                "2012ApJ...753...77C",
-                "2015ApJ...805...68P",
-                "2017MNRAS.472.4469B"
-            ],
-            "computed": false,
-            "measurement_type": "discovery"
-        }
     ]
-}]
+}
