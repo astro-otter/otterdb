@@ -1,4 +1,25 @@
 {
+    "filter_alias": [
+        {
+            "filter_key": "4.5GHz",
+            "freq_eff": 4.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.5GHz",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_units": "nm"
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
     "coordinate": [
         {
             "ra": "20 58 19.90",
@@ -14,11 +35,11 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "7c5f7c99-6fab-4aec-94f2-213138ec374e",
+            "uuid": "8733b278-223d-47e8-91ec-4f3214117bb1",
             "coordinate_type": "equitorial"
         },
         {
-            "reference": "7c5f7c99-6fab-4aec-94f2-213138ec374e",
+            "reference": "8733b278-223d-47e8-91ec-4f3214117bb1",
             "computed": true,
             "coordinate_type": "galactic",
             "l": 53.61702902648376,
@@ -37,9 +58,24 @@
             "coordinate_type": "equitorial"
         }
     ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
+    "name": {
+        "default_name": "Sw J2058+05",
+        "alias": [
+            {
+                "value": "Sw J2058+05",
+                "reference": [
+                    "Swift"
+                ]
+            },
+            {
+                "value": "Swift J2058+05",
+                "reference": [
+                    [
+                        "2017ApJ...838..149A"
+                    ]
+                ]
+            }
+        ]
     },
     "classification": [
         {
@@ -52,23 +88,6 @@
                 "2017MNRAS.472.4469B"
             ],
             "default": true
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "4.5GHz",
-            "freq_eff": 4.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.5GHz",
-            "freq_eff": 5.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_units": "nm"
         }
     ],
     "reference_alias": [
@@ -97,9 +116,38 @@
             "human_readable_name": "Guillochon et al. (2017)"
         }
     ],
+    "date_reference": [
+        {
+            "value": "55698.0",
+            "date_format": "mjd",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        },
+        {
+            "value": "2011-05-27",
+            "date_format": "iso",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "date_type": "discovery",
+            "measurement_type": "discovery",
+            "default": true
+        }
+    ],
     "photometry": [
         {
-            "reference": "2012ApJ...753...77C",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017MNRAS.472.4469B"
+            ],
             "raw": [
                 0.88,
                 0.225
@@ -392,50 +440,6 @@
             "default": true,
             "distance_type": "comoving",
             "unit": "Mpc"
-        }
-    ],
-    "name": {
-        "default_name": "Sw J2058+05",
-        "alias": [
-            {
-                "value": "Sw J2058+05",
-                "reference": [
-                    "Swift"
-                ]
-            },
-            {
-                "value": "Swift J2058+05",
-                "reference": [
-                    [
-                        "2017ApJ...838..149A"
-                    ]
-                ]
-            }
-        ]
-    },
-    "date_reference": [
-        {
-            "value": "55698.0",
-            "date_format": "mjd",
-            "reference": [
-                "2012ApJ...753...77C",
-                "2015ApJ...805...68P",
-                "2017MNRAS.472.4469B"
-            ],
-            "computed": false,
-            "date_type": "discovery"
-        },
-        {
-            "value": "2011-05-27",
-            "date_format": "iso",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "date_type": "discovery",
-            "measurement_type": "discovery",
-            "default": true
         }
     ]
 }

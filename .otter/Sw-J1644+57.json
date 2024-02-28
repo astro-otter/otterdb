@@ -1,4 +1,20 @@
 {
+    "filter_alias": [
+        {
+            "filter_key": "4.9GHz",
+            "freq_eff": 4.9,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_units": "nm"
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
     "coordinate": [
         {
             "ra": "16 44 49.93130",
@@ -17,11 +33,11 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "1746f500-3373-4e42-bb8d-ea7642d70e31",
+            "uuid": "b283f3e3-cef9-4d39-b0f3-848a7c4d9ec5",
             "coordinate_type": "equitorial"
         },
         {
-            "reference": "1746f500-3373-4e42-bb8d-ea7642d70e31",
+            "reference": "b283f3e3-cef9-4d39-b0f3-848a7c4d9ec5",
             "computed": true,
             "coordinate_type": "galactic",
             "l": 86.71123273634593,
@@ -37,9 +53,41 @@
             "coordinate_type": "equitorial"
         }
     ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
+    "name": {
+        "default_name": "Sw J1644+57",
+        "alias": [
+            {
+                "value": "Sw J1644+57",
+                "reference": [
+                    "Swift"
+                ]
+            },
+            {
+                "value": "Swift J1644+57",
+                "reference": [
+                    [
+                        "2017ApJ...838..149A",
+                        "2011Sci...333..203B"
+                    ]
+                ]
+            },
+            {
+                "value": "GRB 110328A",
+                "reference": [
+                    [
+                        "2011Sci...333..203B"
+                    ]
+                ]
+            },
+            {
+                "value": "Swift J164449.3+573451",
+                "reference": [
+                    [
+                        "2011Sci...333..203B"
+                    ]
+                ]
+            }
+        ]
     },
     "classification": [
         {
@@ -55,18 +103,6 @@
                 "2018ApJ...854...86E"
             ],
             "default": true
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "4.9GHz",
-            "freq_eff": 4.9,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_units": "nm"
         }
     ],
     "reference_alias": [
@@ -115,9 +151,44 @@
             "human_readable_name": "Guillochon et al. (2017)"
         }
     ],
+    "date_reference": [
+        {
+            "value": 55648.54,
+            "date_format": "mjd",
+            "reference": [
+                "2011Natur.476..425Z",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016MNRAS.462L..66Y",
+                "2018ApJ...854...86E"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        },
+        {
+            "value": "2011-03-29",
+            "date_format": "iso",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "date_type": "discovery",
+            "measurement_type": "discovery",
+            "default": true
+        }
+    ],
     "photometry": [
         {
-            "reference": "2011Natur.476..425Z",
+            "reference": [
+                "2011Natur.476..425Z",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016MNRAS.462L..66Y",
+                "2018ApJ...854...86E"
+            ],
             "raw": [
                 0.25,
                 0.34,
@@ -870,70 +941,6 @@
             "default": true,
             "distance_type": "comoving",
             "unit": "Mpc"
-        }
-    ],
-    "name": {
-        "default_name": "Sw J1644+57",
-        "alias": [
-            {
-                "value": "Sw J1644+57",
-                "reference": [
-                    "Swift"
-                ]
-            },
-            {
-                "value": "Swift J164449.3+573451",
-                "reference": [
-                    [
-                        "2011Sci...333..203B"
-                    ]
-                ]
-            },
-            {
-                "value": "GRB 110328A",
-                "reference": [
-                    [
-                        "2011Sci...333..203B"
-                    ]
-                ]
-            },
-            {
-                "value": "Swift J1644+57",
-                "reference": [
-                    [
-                        "2017ApJ...838..149A",
-                        "2011Sci...333..203B"
-                    ]
-                ]
-            }
-        ]
-    },
-    "date_reference": [
-        {
-            "value": 55648.54,
-            "date_format": "mjd",
-            "reference": [
-                "2011Natur.476..425Z",
-                "2012ApJ...748...36B",
-                "2012MNRAS.421.1942W",
-                "2013ApJ...767..152Z",
-                "2016MNRAS.462L..66Y",
-                "2018ApJ...854...86E"
-            ],
-            "computed": false,
-            "date_type": "discovery"
-        },
-        {
-            "value": "2011-03-29",
-            "date_format": "iso",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "date_type": "discovery",
-            "measurement_type": "discovery",
-            "default": true
         }
     ]
 }
