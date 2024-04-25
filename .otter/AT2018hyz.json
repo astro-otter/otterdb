@@ -1,4 +1,123 @@
 {
+    "reference_alias": [
+        {
+            "name": "2022ApJ...938...28C",
+            "human_readable_name": "Cendes et al. (2022)"
+        },
+        {
+            "name": "2020MNRAS.497.1925G",
+            "human_readable_name": "Gomez et al. (2020)"
+        },
+        {
+            "name": "2020MNRAS.tmp.2047S",
+            "human_readable_name": "Short et al. (2020)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2022ApJ...938...28C"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
+    "distance": [
+        {
+            "value": "0.0457",
+            "reference": [
+                "2022ApJ...938...28C"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "0.04573",
+            "reference": [
+                "2020MNRAS.tmp.2047S"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "209.4",
+            "reference": [
+                "2020MNRAS.tmp.2047S",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity",
+            "unit": "Mpc"
+        },
+        {
+            "value": "200.2",
+            "reference": [
+                "2020MNRAS.tmp.2047S",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 58428.64,
+            "date_format": "mjd",
+            "reference": [
+                "2022ApJ...938...28C"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        },
+        {
+            "value": "2018-10-14",
+            "date_format": "iso",
+            "reference": [
+                "2020MNRAS.497.1925G",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "date_type": "discovery",
+            "measurement_type": "discovery",
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "AT2018hyz",
+        "alias": [
+            {
+                "value": "AT2018hyz",
+                "reference": [
+                    "TNS",
+                    [
+                        "2020MNRAS.497.1925G",
+                        "2020MNRAS.tmp.2047S"
+                    ]
+                ]
+            }
+        ]
+    },
     "filter_alias": [
         {
             "filter_key": "15.5GHz",
@@ -71,10 +190,6 @@
             "wave_units": "nm"
         }
     ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
     "coordinate": [
         {
             "ra": "10 06 50.875",
@@ -88,11 +203,11 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "118514d5-02ba-4e73-bafc-c86832e90114",
+            "uuid": "549f79a6-2c75-4dce-9b6f-cb245ee6ac00",
             "coordinate_type": "equitorial"
         },
         {
-            "reference": "118514d5-02ba-4e73-bafc-c86832e90114",
+            "reference": "549f79a6-2c75-4dce-9b6f-cb245ee6ac00",
             "computed": true,
             "coordinate_type": "galactic",
             "l": 238.65938137916748,
@@ -109,77 +224,6 @@
                 "2020MNRAS.tmp.2047S"
             ],
             "coordinate_type": "equitorial"
-        }
-    ],
-    "name": {
-        "default_name": "AT2018hyz",
-        "alias": [
-            {
-                "value": "AT2018hyz",
-                "reference": [
-                    "TNS",
-                    [
-                        "2020MNRAS.497.1925G",
-                        "2020MNRAS.tmp.2047S"
-                    ]
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2022ApJ...938...28C"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2022ApJ...938...28C",
-            "human_readable_name": "Cendes et al. (2022)"
-        },
-        {
-            "name": "2020MNRAS.497.1925G",
-            "human_readable_name": "Gomez et al. (2020)"
-        },
-        {
-            "name": "2020MNRAS.tmp.2047S",
-            "human_readable_name": "Short et al. (2020)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 58428.64,
-            "date_format": "mjd",
-            "reference": [
-                "2022ApJ...938...28C"
-            ],
-            "computed": false,
-            "date_type": "discovery"
-        },
-        {
-            "value": "2018-10-14",
-            "date_format": "iso",
-            "reference": [
-                "2020MNRAS.497.1925G",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "date_type": "discovery",
-            "measurement_type": "discovery",
-            "default": true
         }
     ],
     "photometry": [
@@ -3424,50 +3468,6 @@
             "reference": [
                 "2020MNRAS.497.1925G"
             ]
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.0457",
-            "reference": [
-                "2022ApJ...938...28C"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "0.04573",
-            "reference": [
-                "2020MNRAS.tmp.2047S"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "209.4",
-            "reference": [
-                "2020MNRAS.tmp.2047S",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "200.2",
-            "reference": [
-                "2020MNRAS.tmp.2047S",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
         }
     ]
 }

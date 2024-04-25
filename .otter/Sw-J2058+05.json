@@ -1,95 +1,4 @@
 {
-    "filter_alias": [
-        {
-            "filter_key": "4.5GHz",
-            "freq_eff": 4.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.5GHz",
-            "freq_eff": 5.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_units": "nm"
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
-    "coordinate": [
-        {
-            "ra": "20 58 19.90",
-            "dec": "+05 13 32.0",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "reference": [
-                "2012ApJ...753...77C",
-                "2015ApJ...805...68P",
-                "2017MNRAS.472.4469B"
-            ],
-            "computed": false,
-            "default": true,
-            "uuid": "8733b278-223d-47e8-91ec-4f3214117bb1",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "reference": "8733b278-223d-47e8-91ec-4f3214117bb1",
-            "computed": true,
-            "coordinate_type": "galactic",
-            "l": 53.61702902648376,
-            "b": -25.11893929017656,
-            "l_units": "deg",
-            "b_units": "deg"
-        },
-        {
-            "ra": "20:58:19.85",
-            "dec": "+05:13:33.00",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "name": {
-        "default_name": "Sw J2058+05",
-        "alias": [
-            {
-                "value": "Sw J2058+05",
-                "reference": [
-                    "Swift"
-                ]
-            },
-            {
-                "value": "Swift J2058+05",
-                "reference": [
-                    [
-                        "2017ApJ...838..149A"
-                    ]
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2012ApJ...753...77C",
-                "2015ApJ...805...68P",
-                "2017ApJ...835...64G",
-                "2017MNRAS.472.4469B"
-            ],
-            "default": true
-        }
-    ],
     "reference_alias": [
         {
             "name": "2012ApJ...753...77C",
@@ -116,6 +25,72 @@
             "human_readable_name": "Guillochon et al. (2017)"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017ApJ...835...64G",
+                "2017MNRAS.472.4469B"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
+    "distance": [
+        {
+            "value": "1.1853",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "1.1853",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2012ApJ...753...77C"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "8376.4",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2012ApJ...753...77C",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity",
+            "unit": "Mpc"
+        },
+        {
+            "value": "3833.1",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2012ApJ...753...77C",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        }
+    ],
     "date_reference": [
         {
             "value": "55698.0",
@@ -139,6 +114,80 @@
             "date_type": "discovery",
             "measurement_type": "discovery",
             "default": true
+        }
+    ],
+    "name": {
+        "default_name": "Sw J2058+05",
+        "alias": [
+            {
+                "value": "Sw J2058+05",
+                "reference": [
+                    "Swift"
+                ]
+            },
+            {
+                "value": "Swift J2058+05",
+                "reference": [
+                    [
+                        "2017ApJ...838..149A"
+                    ]
+                ]
+            }
+        ]
+    },
+    "filter_alias": [
+        {
+            "filter_key": "4.5GHz",
+            "freq_eff": 4.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.5GHz",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_units": "nm"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "20 58 19.90",
+            "dec": "+05 13 32.0",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "ccf7cb9e-fafc-4c8a-9b45-759609b126e4",
+            "coordinate_type": "equitorial"
+        },
+        {
+            "reference": "ccf7cb9e-fafc-4c8a-9b45-759609b126e4",
+            "computed": true,
+            "coordinate_type": "galactic",
+            "l": 53.61702902648376,
+            "b": -25.11893929017656,
+            "l_units": "deg",
+            "b_units": "deg"
+        },
+        {
+            "ra": "20:58:19.85",
+            "dec": "+05:13:33.00",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
         }
     ],
     "photometry": [
@@ -391,55 +440,6 @@
             "reference": [
                 "2017ApJ...838..149A"
             ]
-        }
-    ],
-    "distance": [
-        {
-            "value": "1.1853",
-            "reference": [
-                "2012ApJ...753...77C",
-                "2015ApJ...805...68P",
-                "2017MNRAS.472.4469B"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "1.1853",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2012ApJ...753...77C"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "8376.4",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2012ApJ...753...77C",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "3833.1",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2012ApJ...753...77C",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
         }
     ]
 }
