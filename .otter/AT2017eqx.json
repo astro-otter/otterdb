@@ -1,19 +1,80 @@
 {
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
     "name": {
-        "default_name": "AT2017eqx",
+        "default_name": "2017eqx",
         "alias": [
             {
                 "value": "AT2017eqx",
                 "reference": [
-                    "2019MNRAS.488.1878N"
+                    [
+                        "2019MNRAS.488.1878N"
+                    ]
+                ]
+            },
+            {
+                "value": "PS17dhz",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
+                ]
+            },
+            {
+                "value": "2017eqx",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
                 ]
             }
         ]
     },
+    "filter_alias": [
+        {
+            "filter_key": "o",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 475.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "i",
+            "wave_eff": 763.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 622.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "z",
+            "wave_eff": 905.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "M2",
+            "wave_eff": 260.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "U",
+            "wave_eff": 365.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "W1",
+            "wave_eff": 224.6,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "W2",
+            "wave_eff": 192.8,
+            "wave_units": "nm"
+        }
+    ],
     "coordinate": [
         {
             "ra": "22:26:48.37",
@@ -24,62 +85,16 @@
                 "2019MNRAS.488.1878N"
             ],
             "coordinate_type": "equitorial"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.1089",
-            "reference": [
-                "2019MNRAS.488.1878N"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
         },
         {
-            "value": "523.1",
-            "unit": "Mpc",
-            "reference": [
-                "2019MNRAS.488.1878N"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity"
-        },
-        {
-            "value": "469.6",
-            "unit": "Mpc",
-            "reference": [
-                "2019MNRAS.488.1878N",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017ApJ...835...64G"
-            ]
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2019MNRAS.488.1878N",
-            "human_readable_name": "Nicholl et al. 2019"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
+            "ra": 336.701543422,
+            "dec": 17.1478884031,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2017TNSTR.646....1C",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
         }
     ],
     "date_reference": [
@@ -94,6 +109,31 @@
             "computed": false,
             "measurement_type": "discovery",
             "default": true
+        },
+        {
+            "value": 57911.56,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": "2017TNSTR.646....1C",
+            "computed": false
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2019MNRAS.488.1878N",
+            "human_readable_name": "Nicholl et al. 2019"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2017TNSTR.646....1C",
+            "human_readable_name": "Chambers, K. C. et al. (2017)"
         }
     ],
     "photometry": [
@@ -155,9 +195,14 @@
                 false
             ],
             "telescope": "ATLAS",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2019MNRAS.488.1878N"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -253,9 +298,14 @@
                 false
             ],
             "telescope": "FLWO48",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2019MNRAS.488.1878N"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -345,9 +395,14 @@
                 false
             ],
             "telescope": "Magellan",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2019MNRAS.488.1878N"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -377,9 +432,14 @@
                 false
             ],
             "telescope": "PS1",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2019MNRAS.488.1878N"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -553,9 +613,14 @@
                 false
             ],
             "telescope": "Swift",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2019MNRAS.488.1878N"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -661,56 +726,84 @@
                 false
             ],
             "telescope": "Swope",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2019MNRAS.488.1878N"
-            ]
+            ],
+            "corr_s": null
+        },
+        {
+            "raw": [
+                19.69
+            ],
+            "raw_err": [
+                0.2
+            ],
+            "upperlimit": false,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 57911.560000000056,
+            "date_format": "mjd",
+            "filter_key": "i",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "PS1",
+            "instrument": "GPC1"
         }
     ],
-    "filter_alias": [
+    "distance": [
         {
-            "filter_key": "o",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
+            "value": "0.1089",
+            "reference": [
+                "2019MNRAS.488.1878N"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         },
         {
-            "filter_key": "g",
-            "wave_eff": 475.0,
-            "wave_units": "nm"
+            "value": "523.1",
+            "unit": "Mpc",
+            "reference": [
+                "2019MNRAS.488.1878N"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity"
         },
         {
-            "filter_key": "i",
-            "wave_eff": 763.0,
-            "wave_units": "nm"
-        },
+            "value": "469.6",
+            "unit": "Mpc",
+            "reference": [
+                "2019MNRAS.488.1878N",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving"
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
+    "classification": [
         {
-            "filter_key": "r",
-            "wave_eff": 622.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "z",
-            "wave_eff": 905.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "M2",
-            "wave_eff": 260.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "U",
-            "wave_eff": 365.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "W1",
-            "wave_eff": 224.6,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "W2",
-            "wave_eff": 192.8,
-            "wave_units": "nm"
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017ApJ...835...64G"
+            ]
         }
     ]
 }

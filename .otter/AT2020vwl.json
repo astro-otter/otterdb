@@ -1,17 +1,89 @@
 {
-    "schema_version": {
-        "value": "0",
-        "comment": "Original Dataset"
-    },
     "name": {
-        "default_name": "AT2020vwl",
+        "default_name": "2020vwl",
         "alias": [
             {
                 "value": "AT2020vwl",
-                "reference": "TNS"
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS20bdgk",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
+                ]
+            },
+            {
+                "value": "ZTF20achpcvt",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
+                ]
+            },
+            {
+                "value": "Gaia20etp",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
+                ]
+            },
+            {
+                "value": "2020vwl",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
+                ]
             }
         ]
     },
+    "filter_alias": [
+        {
+            "filter_key": "5.5GHz",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.6GHz",
+            "freq_eff": 5.6,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.0GHz",
+            "freq_eff": 5.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "cyan",
+            "wave_eff": 540.8724658332794,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
+        }
+    ],
     "coordinate": [
         {
             "ra": "15 30 37.800",
@@ -25,44 +97,27 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "5a460c96-a295-42f2-aa0f-bc41055f5dff",
+            "uuid": "66ee682e-5167-4ac4-94b8-6001f7f773b2",
             "coordinate_type": "equitorial"
         },
         {
+            "reference": "66ee682e-5167-4ac4-94b8-6001f7f773b2",
+            "computed": true,
+            "coordinate_type": "galactic",
             "l": 42.055403580344134,
             "b": 54.70994962206333,
             "l_units": "deg",
-            "b_units": "deg",
-            "reference": "5a460c96-a295-42f2-aa0f-bc41055f5dff",
-            "computed": true,
-            "coordinate_type": "galactic"
-        }
-    ],
-    "distance": [
+            "b_units": "deg"
+        },
         {
-            "value": "0.0325",
-            "reference": [
-                "2023MNRAS.522.5084G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2023MNRAS.522.5084G"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2023MNRAS.522.5084G",
-            "human_readable_name": "Goodwin et al. (2023)"
+            "ra": 232.6575,
+            "dec": 26.982469,
+            "epoch": "J2000",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2020TNSTR3089....1H",
+            "coordinate_type": "equitorial",
+            "frame": "ICRS"
         }
     ],
     "date_reference": [
@@ -74,6 +129,63 @@
             ],
             "computed": false,
             "date_type": "discovery"
+        },
+        {
+            "value": 59132.728,
+            "date_format": "mjd",
+            "reference": "2020TNSTR3089....1H",
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2023MNRAS.522.5084G",
+            "human_readable_name": "Goodwin et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR3089....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2020)"
+        },
+        {
+            "name": "2021TNSCR.159....1H",
+            "human_readable_name": "Hammerstein, E. et al. (2021)"
+        },
+        {
+            "name": " 2023TNSCR2004....1Y",
+            "human_readable_name": "Yao, Y. (2023)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.0325",
+            "reference": [
+                "2023MNRAS.522.5084G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.0325,
+            "reference": [
+                "2021TNSCR.159....1H",
+                "2023TNSCR2004....1Y"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2021TNSCR.159....1H",
+                "2023MNRAS.522.5084G",
+                "2023TNSCR2004....1Y"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -144,24 +256,160 @@
                 false,
                 false,
                 false
-            ]
+            ],
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": false,
+            "corr_hostav": false
+        },
+        {
+            "raw": [
+                19.28
+            ],
+            "raw_err": [
+                0
+            ],
+            "upperlimit": true,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 59131.22599999979,
+            "date_format": "mjd",
+            "filter_key": "cyan",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "ATLAS-HKO",
+            "instrument": "ATLAS-02"
+        },
+        {
+            "raw": [
+                18.52
+            ],
+            "raw_err": [
+                0.143
+            ],
+            "upperlimit": false,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 59133.20699999994,
+            "date_format": "mjd",
+            "filter_key": "orange",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "ATLAS-MLO",
+            "instrument": "ATLAS-01"
+        },
+        {
+            "raw": [
+                17.94
+            ],
+            "raw_err": [
+                0.2
+            ],
+            "upperlimit": false,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 59132.72800000012,
+            "date_format": "mjd",
+            "filter_key": "G",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "Gaia",
+            "instrument": "Gaia-photometric"
+        },
+        {
+            "raw": [
+                21.5
+            ],
+            "raw_err": [
+                0
+            ],
+            "upperlimit": true,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 59132.6540000001,
+            "date_format": "mjd",
+            "filter_key": "G",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "Gaia",
+            "instrument": "Gaia-photometric"
+        },
+        {
+            "raw": [
+                17.61
+            ],
+            "raw_err": [
+                0
+            ],
+            "upperlimit": false,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 59203.53899999987,
+            "date_format": "mjd",
+            "filter_key": "g",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "P48",
+            "instrument": "ZTF-Cam"
+        },
+        {
+            "raw": [
+                17.66
+            ],
+            "raw_err": [
+                0
+            ],
+            "upperlimit": false,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 59203.51099999994,
+            "date_format": "mjd",
+            "filter_key": "r",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "P48",
+            "instrument": "ZTF-Cam"
         }
     ],
-    "filter_alias": [
-        {
-            "filter_key": "5.5GHz",
-            "freq_eff": 5.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.6GHz",
-            "freq_eff": 5.6,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.0GHz",
-            "freq_eff": 5.0,
-            "freq_units": "GHz"
-        }
-    ]
+    "schema_version": {
+        "value": "0",
+        "comment": "Original Dataset"
+    }
 }

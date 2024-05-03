@@ -1,26 +1,99 @@
 {
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
     "name": {
-        "default_name": "iPTF16fnl",
+        "default_name": "2016fnl",
         "alias": [
             {
-                "value": "iPTF16fnl",
+                "value": "AT2016fnl",
                 "reference": [
-                    "2017ApJ...844...46B",
-                    "2017ApJ...838..149A",
-                    "MAST",
-                    "2000A&AS..143....9W"
+                    []
                 ]
             },
             {
-                "value": "AT2016fnl",
-                "reference": []
+                "value": "2016fnl",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
+                ]
+            },
+            {
+                "value": "iPTF16fnl",
+                "reference": [
+                    [
+                        "2017ApJ...844...46B",
+                        "2017ApJ...838..149A",
+                        "MAST",
+                        "2000A&AS..143....9W"
+                    ],
+                    [
+                        "TNS"
+                    ]
+                ]
             }
         ]
     },
+    "filter_alias": [
+        {
+            "filter_key": "g",
+            "wave_eff": 475.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 622.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "i",
+            "wave_eff": 763.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "u",
+            "wave_eff": 354.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "B",
+            "wave_eff": 445.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "U",
+            "wave_eff": 365.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "UVM2",
+            "wave_eff": 225.47802478793594,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "UVW1",
+            "wave_eff": 261.3713060531025,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "UVW2",
+            "wave_eff": 207.98754332676123,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "V",
+            "wave_eff": 551.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "R",
+            "wave_eff": 646.9439215118385,
+            "wave_units": "nm"
+        }
+    ],
     "coordinate": [
         {
             "ra": "00:29:57.04",
@@ -32,38 +105,16 @@
                 "2000A&AS..143....9W"
             ],
             "coordinate_type": "equitorial"
-        }
-    ],
-    "distance": [
-        {
-            "value": "73",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity"
         },
         {
-            "value": "71.9",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": "2017ApJ...835...64G",
-            "default": true
+            "ra": 7.487676,
+            "dec": 32.893753,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2016TNSTR.611....1K",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
         }
     ],
     "reference_alias": [
@@ -98,6 +149,57 @@
         {
             "name": "2000A&AS..143....9W",
             "human_readable_name": "Wenger et al. (2000)"
+        },
+        {
+            "name": "2016TNSTR.611....1K",
+            "human_readable_name": "Kasliwal, M. & Cao, Y. (2016)"
+        },
+        {
+            "name": "2016TNSCR.615....1Y",
+            "human_readable_name": "Yaron, O. (2016)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "73",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity"
+        },
+        {
+            "value": "71.9",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving"
+        },
+        {
+            "value": 0.016328,
+            "reference": [
+                "2016TNSCR.615....1Y"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2016TNSCR.615....1Y",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -340,9 +442,14 @@
                 false
             ],
             "telescope": "P48",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2017ApJ...844...46B"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -690,9 +797,14 @@
                 false
             ],
             "telescope": "P60",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2017ApJ...844...46B"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -1580,9 +1692,14 @@
                 false
             ],
             "telescope": "Swift",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2017ApJ...844...46B"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -1611,9 +1728,14 @@
                 true
             ],
             "telescope": "ROSAT",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2017ApJ...838..149A"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -1650,66 +1772,75 @@
                 true
             ],
             "telescope": "Swift",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2017ApJ...838..149A"
-            ]
+            ],
+            "corr_s": null
+        },
+        {
+            "raw": [
+                17.2273
+            ],
+            "raw_err": [
+                0
+            ],
+            "upperlimit": false,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 57629.42299770005,
+            "date_format": "mjd",
+            "filter_key": "R",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "P48",
+            "instrument": "CFH12k"
+        },
+        {
+            "raw": [
+                21.5
+            ],
+            "raw_err": [
+                0
+            ],
+            "upperlimit": true,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 54832.0,
+            "date_format": "mjd",
+            "filter_key": "R",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "P48",
+            "instrument": "CFH12k"
         }
     ],
-    "filter_alias": [
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
+    "date_reference": [
         {
-            "filter_key": "g",
-            "wave_eff": 475.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 622.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "i",
-            "wave_eff": 763.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "u",
-            "wave_eff": 354.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "B",
-            "wave_eff": 445.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "U",
-            "wave_eff": 365.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "UVM2",
-            "wave_eff": 225.47802478793594,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "UVW1",
-            "wave_eff": 261.3713060531025,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "UVW2",
-            "wave_eff": 207.98754332676123,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_units": "nm"
+            "value": 57629.422997685186,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": "2016TNSTR.611....1K",
+            "computed": false
         }
     ]
 }

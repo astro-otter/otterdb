@@ -1,19 +1,55 @@
 {
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
     "name": {
-        "default_name": "MAXI J1807+132",
+        "default_name": "2019pqt",
         "alias": [
             {
                 "value": "MAXI J1807+132",
                 "reference": [
-                    "2017ATel10216....1K"
+                    [
+                        "2017ATel10216....1K"
+                    ]
+                ]
+            },
+            {
+                "value": "2019pqt",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
+                ]
+            },
+            {
+                "value": "Gaia19dya",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
                 ]
             }
         ]
     },
+    "filter_alias": [
+        {
+            "filter_key": "UVM2",
+            "wave_eff": 225.47802478793594,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "UVW1",
+            "wave_eff": 261.3713060531025,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "UVW2",
+            "wave_eff": 207.98754332676123,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
+        }
+    ],
     "coordinate": [
         {
             "ra": "18:08:07.549",
@@ -24,29 +60,16 @@
                 "2017ATel10216....1K"
             ],
             "coordinate_type": "equitorial"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 0.5,
-            "reference": [
-                "2017ATel10216....1K"
-            ]
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ATel10216....1K",
-            "human_readable_name": "Kennea et al. (2017)"
         },
         {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
+            "ra": 272.031417,
+            "dec": 13.251511,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2019TNSTR1760....1H",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
         }
     ],
     "date_reference": [
@@ -61,6 +84,31 @@
             "computed": false,
             "measurement_type": "discovery",
             "default": true
+        },
+        {
+            "value": 58732.14,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": "2019TNSTR1760....1H",
+            "computed": false
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ATel10216....1K",
+            "human_readable_name": "Kennea et al. (2017)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2019TNSTR1760....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2019)"
         }
     ],
     "photometry": [
@@ -98,26 +146,75 @@
                 false
             ],
             "telescope": "Swift",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
+            "reference": [
+                "2017ATel10216....1K"
+            ],
+            "corr_s": null
+        },
+        {
+            "raw": [
+                15.6
+            ],
+            "raw_err": [
+                0.2
+            ],
+            "upperlimit": false,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 58732.14000000013,
+            "date_format": "mjd",
+            "filter_key": "G",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "Gaia",
+            "instrument": "Gaia-photometric"
+        },
+        {
+            "raw": [
+                21.5
+            ],
+            "raw_err": [
+                0
+            ],
+            "upperlimit": true,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 58708.955000000075,
+            "date_format": "mjd",
+            "filter_key": "G",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "Gaia",
+            "instrument": "Gaia-photometric"
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 0.5,
             "reference": [
                 "2017ATel10216....1K"
             ]
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "UVM2",
-            "wave_eff": 225.47802478793594,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "UVW1",
-            "wave_eff": 261.3713060531025,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "UVW2",
-            "wave_eff": 207.98754332676123,
-            "wave_units": "nm"
         }
     ]
 }

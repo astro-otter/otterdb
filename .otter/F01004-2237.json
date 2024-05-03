@@ -1,32 +1,72 @@
 {
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
     "name": {
-        "default_name": "F01004-2237",
+        "default_name": "2022agi",
         "alias": [
             {
-                "value": "F01004-2237",
+                "value": "SSS:010250.0-222157",
                 "reference": [
-                    "2017NatAs...1E..61T",
-                    "MAST"
+                    [
+                        "2017NatAs...1E..61T"
+                    ]
                 ]
             },
             {
                 "value": "CSS:010250.0-222157",
                 "reference": [
-                    "2017NatAs...1E..61T"
+                    [
+                        "2017NatAs...1E..61T"
+                    ]
                 ]
             },
             {
-                "value": "SSS:010250.0-222157",
+                "value": "F01004-2237",
                 "reference": [
-                    "2017NatAs...1E..61T"
+                    [
+                        "2017NatAs...1E..61T",
+                        "MAST"
+                    ]
+                ]
+            },
+            {
+                "value": "Gaia22ahd",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
+                ]
+            },
+            {
+                "value": "2022agi",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
                 ]
             }
         ]
     },
+    "filter_alias": [
+        {
+            "filter_key": "V",
+            "wave_eff": 551.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "W1",
+            "wave_eff": 224.6,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "W2",
+            "wave_eff": 192.8,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
+        }
+    ],
     "coordinate": [
         {
             "ra": "01:02:50.007",
@@ -37,49 +77,37 @@
                 "2017NatAs...1E..61T"
             ],
             "coordinate_type": "equitorial"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.117835",
-            "reference": [
-                "2017NatAs...1E..61T"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
         },
         {
-            "value": "566.701",
-            "unit": "Mpc",
+            "ra": 15.708292,
+            "dec": -22.3659,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2022TNSTR.188....1H",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2010-06-25",
+            "date_format": "iso",
+            "date_type": "discovery",
             "reference": [
                 "2017NatAs...1E..61T",
-                "2016A&A...594A..13P",
                 "2017ApJ...835...64G"
             ],
             "computed": false,
-            "default": true,
-            "distance_type": "luminosity"
-        },
-        {
-            "value": "506.963",
-            "unit": "Mpc",
-            "reference": [
-                "2017NatAs...1E..61T",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": "2017ApJ...835...64G",
+            "measurement_type": "discovery",
             "default": true
+        },
+        {
+            "value": 59600.393,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": "2022TNSTR.188....1H",
+            "computed": false
         }
     ],
     "reference_alias": [
@@ -102,20 +130,10 @@
         {
             "name": "2017ApJ...835...64G",
             "human_readable_name": "Guillochon et al. (2017)"
-        }
-    ],
-    "date_reference": [
+        },
         {
-            "value": "2010-06-25",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017NatAs...1E..61T",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "measurement_type": "discovery",
-            "default": true
+            "name": "2022TNSTR.188....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2022)"
         }
     ],
     "photometry": [
@@ -1035,9 +1053,14 @@
                 false
             ],
             "telescope": "CSS",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2017NatAs...1E..61T"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -1847,9 +1870,14 @@
                 false
             ],
             "telescope": "SSS",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2017NatAs...1E..61T"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -2666,26 +2694,109 @@
                 false
             ],
             "telescope": "WISE",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2017NatAs...1E..61T"
-            ]
+            ],
+            "corr_s": null
+        },
+        {
+            "raw": [
+                17.53
+            ],
+            "raw_err": [
+                0.2
+            ],
+            "upperlimit": false,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 59600.39300000016,
+            "date_format": "mjd",
+            "filter_key": "G",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "Gaia",
+            "instrument": "Gaia-photometric"
+        },
+        {
+            "raw": [
+                21.5
+            ],
+            "raw_err": [
+                0
+            ],
+            "upperlimit": true,
+            "raw_units": [
+                "ABMag"
+            ],
+            "date": 59440.84800000023,
+            "date_format": "mjd",
+            "filter_key": "G",
+            "reference": "TNS",
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "Gaia",
+            "instrument": "Gaia-photometric"
         }
     ],
-    "filter_alias": [
+    "distance": [
         {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm"
+            "value": "0.117835",
+            "reference": [
+                "2017NatAs...1E..61T"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         },
         {
-            "filter_key": "W1",
-            "wave_eff": 224.6,
-            "wave_units": "nm"
+            "value": "566.701",
+            "unit": "Mpc",
+            "reference": [
+                "2017NatAs...1E..61T",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity"
         },
         {
-            "filter_key": "W2",
-            "wave_eff": 192.8,
-            "wave_units": "nm"
+            "value": "506.963",
+            "unit": "Mpc",
+            "reference": [
+                "2017NatAs...1E..61T",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving"
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": "2017ApJ...835...64G",
+            "default": true
         }
     ]
 }

@@ -4,7 +4,7 @@
         "comment": "Copied from tde.space"
     },
     "name": {
-        "default_name": "PS18kh",
+        "default_name": "AT2018zr",
         "alias": [
             {
                 "value": "PS18kh",
@@ -12,6 +12,19 @@
                     "2018arXiv180902608V",
                     "2018arXiv180802890H",
                     "MAST"
+                ]
+            },
+            {
+                "value": "AT2018zr",
+                "reference": [
+                    "ASAS-SN Supernovae",
+                    "MAST"
+                ]
+            },
+            {
+                "value": "AT2018zr (PS18kh)",
+                "reference": [
+                    "ASAS-SN Supernovae"
                 ]
             }
         ]
@@ -24,6 +37,16 @@
             "dec_units": "deg",
             "reference": [
                 "2018arXiv180802890H"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": "7:56:54.37",
+            "dec": "34:15:44.8",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "ASAS-SN Supernovae"
             ],
             "coordinate_type": "equitorial"
         }
@@ -95,6 +118,10 @@
         {
             "name": "2017ApJ...835...64G",
             "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "ASAS-SN Supernovae",
+            "human_readable_name": "ASAS-SN Supernovae"
         }
     ],
     "date_reference": [
@@ -105,6 +132,17 @@
             "reference": [
                 "2018arXiv180902608V",
                 "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "measurement_type": "discovery",
+            "default": true
+        },
+        {
+            "value": "2018-03-6 4:19:11.999999999975444",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "ASAS-SN Supernovae"
             ],
             "computed": false,
             "measurement_type": "discovery",
@@ -201,9 +239,14 @@
                 false
             ],
             "telescope": "P48",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2018arXiv180902608V"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -317,9 +360,14 @@
                 false
             ],
             "telescope": "P60",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2018arXiv180902608V"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -883,9 +931,14 @@
                 false
             ],
             "telescope": "Swift",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2018arXiv180902608V"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -921,9 +974,14 @@
                 false
             ],
             "telescope": "UVOT",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2018arXiv180902608V"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -1144,9 +1202,14 @@
                 false
             ],
             "telescope": "ASAS-SN",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2018arXiv180802890H"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -1247,9 +1310,14 @@
                 false
             ],
             "telescope": "ATLAS",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2018arXiv180802890H"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -1352,9 +1420,14 @@
                 false
             ],
             "telescope": "CFHT",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2018arXiv180802890H"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -1471,9 +1544,14 @@
                 false
             ],
             "telescope": "LT",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2018arXiv180802890H"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -2689,9 +2767,14 @@
                 false
             ],
             "telescope": "PO",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2018arXiv180802890H"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -2948,9 +3031,14 @@
                 false
             ],
             "telescope": "PS1",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2018arXiv180802890H"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -3711,9 +3799,14 @@
                 false
             ],
             "telescope": "Swift",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2018arXiv180802890H"
-            ]
+            ],
+            "corr_s": null
         },
         {
             "raw": [
@@ -4236,9 +4329,14 @@
                 false
             ],
             "telescope": "Syn",
+            "corr_k": null,
+            "corr_av": null,
+            "corr_host": null,
+            "corr_hostav": null,
             "reference": [
                 "2018arXiv180802890H"
-            ]
+            ],
+            "corr_s": null
         }
     ],
     "filter_alias": [
