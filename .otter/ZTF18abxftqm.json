@@ -1,4 +1,26 @@
 {
+    "reference_alias": [
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "MAST",
+            "human_readable_name": "MAST"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2018TNSTR1509....1T",
+            "human_readable_name": "Tonry, J. et al. (2018)"
+        },
+        {
+            "name": "2018TNSCR1902....1R",
+            "human_readable_name": "Reynolds, T. (2018)"
+        }
+    ],
     "name": {
         "default_name": "2018hco",
         "alias": [
@@ -50,48 +72,6 @@
             "reference": "2018TNSTR1509....1T"
         }
     ],
-    "date_reference": [
-        {
-            "value": "8589-09-09",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "measurement_type": "discovery",
-            "default": true
-        },
-        {
-            "value": 58395.52,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": "2018TNSTR1509....1T",
-            "computed": false
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "MAST",
-            "human_readable_name": "MAST"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2018TNSTR1509....1T",
-            "human_readable_name": "Tonry, J. et al. (2018)"
-        },
-        {
-            "name": "2018TNSCR1902....1R",
-            "human_readable_name": "Reynolds, T. (2018)"
-        }
-    ],
     "distance": [
         {
             "value": "410",
@@ -122,6 +102,26 @@
             ],
             "computed": false,
             "distance_type": "redshift"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "8589-09-09",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "measurement_type": "discovery",
+            "default": true
+        },
+        {
+            "value": 58395.52,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": "2018TNSTR1509....1T",
+            "computed": false
         }
     ],
     "classification": [
@@ -171,7 +171,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58395.52000000002,
             "date_format": "mjd",
@@ -195,7 +195,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58393.5259953998,
             "date_format": "mjd",
@@ -219,7 +219,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58426.32545140013,
             "date_format": "mjd",
@@ -243,7 +243,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58426.32545140013,
             "date_format": "mjd",
@@ -267,7 +267,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58426.32545140013,
             "date_format": "mjd",
@@ -291,7 +291,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58426.32545140013,
             "date_format": "mjd",
@@ -315,7 +315,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58379.37000000011,
             "date_format": "mjd",
@@ -339,7 +339,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58378.33099539997,
             "date_format": "mjd",
@@ -363,7 +363,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58432.26886569988,
             "date_format": "mjd",
@@ -387,7 +387,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58429.27464119997,
             "date_format": "mjd",
@@ -411,7 +411,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58429.27464119997,
             "date_format": "mjd",
@@ -435,7 +435,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58429.27464119997,
             "date_format": "mjd",
@@ -459,7 +459,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58426.25472219987,
             "date_format": "mjd",
@@ -483,7 +483,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58426.25472219987,
             "date_format": "mjd",
@@ -507,7 +507,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58426.25472219987,
             "date_format": "mjd",
@@ -531,7 +531,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58426.25472219987,
             "date_format": "mjd",
@@ -555,7 +555,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58423.30799769983,
             "date_format": "mjd",
@@ -579,7 +579,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58385.27639999986,
             "date_format": "mjd",
@@ -603,7 +603,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58385.27639999986,
             "date_format": "mjd",
@@ -627,7 +627,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58385.27639999986,
             "date_format": "mjd",
@@ -651,7 +651,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58385.27639999986,
             "date_format": "mjd",

@@ -1,4 +1,42 @@
 {
+    "reference_alias": [
+        {
+            "name": "2018arXiv180902608V",
+            "human_readable_name": "2018arXiv180902608V"
+        },
+        {
+            "name": "2018arXiv180802890H",
+            "human_readable_name": "Holoien et al. (2018)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "MAST",
+            "human_readable_name": "MAST"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "ASAS-SN Supernovae",
+            "human_readable_name": "ASAS-SN Supernovae"
+        },
+        {
+            "name": "2018TNSTR.296....1C",
+            "human_readable_name": "Chambers, K. C. et al. (2018)"
+        },
+        {
+            "name": "2020TNSCR2246....1D",
+            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
+        }
+    ],
     "name": {
         "default_name": "2018zr",
         "alias": [
@@ -20,7 +58,7 @@
                 ]
             },
             {
-                "value": "ATLAS18nej",
+                "value": "2018zr",
                 "reference": [
                     [
                         "TNS"
@@ -28,7 +66,7 @@
                 ]
             },
             {
-                "value": "2018zr",
+                "value": "ATLAS18nej",
                 "reference": [
                     [
                         "TNS"
@@ -181,44 +219,6 @@
             "computed": false
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2018arXiv180902608V",
-            "human_readable_name": "2018arXiv180902608V"
-        },
-        {
-            "name": "2018arXiv180802890H",
-            "human_readable_name": "Holoien et al. (2018)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "MAST",
-            "human_readable_name": "MAST"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "ASAS-SN Supernovae",
-            "human_readable_name": "ASAS-SN Supernovae"
-        },
-        {
-            "name": "2018TNSTR.296....1C",
-            "human_readable_name": "Chambers, K. C. et al. (2018)"
-        },
-        {
-            "name": "2020TNSCR2246....1D",
-            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
     "distance": [
         {
             "value": "0.074",
@@ -262,17 +262,6 @@
             "distance_type": "redshift"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2020TNSCR2246....1D"
-            ],
-            "default": true
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -292,7 +281,7 @@
                 "17.59",
                 "17.59"
             ],
-            "raw_units": "AB",
+            "raw_units": "mag(AB)",
             "filter_key": [
                 "r",
                 "r",
@@ -409,7 +398,7 @@
                 "0.02",
                 "0.03"
             ],
-            "raw_units": "AB",
+            "raw_units": "mag(AB)",
             "filter_key": [
                 "r",
                 "r",
@@ -680,7 +669,7 @@
                 "0.09",
                 "0.08"
             ],
-            "raw_units": "AB",
+            "raw_units": "mag(AB)",
             "filter_key": [
                 "UVW1",
                 "U",
@@ -1075,7 +1064,7 @@
                 "0.42",
                 "0.36"
             ],
-            "raw_units": "AB",
+            "raw_units": "mag(AB)",
             "filter_key": [
                 "V",
                 "V",
@@ -4471,7 +4460,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58179.325000000186,
             "date_format": "mjd",
@@ -4495,7 +4484,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58165.54000000004,
             "date_format": "mjd",
@@ -4519,7 +4508,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58165.52699070005,
             "date_format": "mjd",
@@ -4533,6 +4522,17 @@
             "corr_hostav": false,
             "telescope": "ATLAS-MLO",
             "instrument": "ATLAS-01"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2020TNSCR2246....1D"
+            ],
+            "default": true
         }
     ],
     "schema_version": {

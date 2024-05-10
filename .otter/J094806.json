@@ -1,4 +1,26 @@
 {
+    "coordinate": [
+        {
+            "ra": "09:48:06.55",
+            "dec": "+03:18:01.9",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 147.0274064,
+            "dec": 3.3005179,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2022TNSTR2919....1F",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
     "name": {
         "default_name": "2022wyq",
         "alias": [
@@ -11,7 +33,7 @@
                 ]
             },
             {
-                "value": "ZTF20acyxwgf",
+                "value": "2022wyq",
                 "reference": [
                     [
                         "TNS"
@@ -19,7 +41,7 @@
                 ]
             },
             {
-                "value": "2022wyq",
+                "value": "ZTF20acyxwgf",
                 "reference": [
                     [
                         "TNS"
@@ -48,51 +70,6 @@
         {
             "name": "2022TNSTR2919....1F",
             "human_readable_name": "Fremling, C. (2022)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "09:48:06.55",
-            "dec": "+03:18:01.9",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 147.0274064,
-            "dec": 3.3005179,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2022TNSTR2919....1F",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 0.5,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
         }
     ],
     "distance": [
@@ -130,22 +107,33 @@
             "distance_type": "comoving"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 0.5,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        }
+    ],
     "schema_version": {
         "value": "0",
         "comment": "Copied from tde.space"
     },
-    "filter_alias": [
-        {
-            "filter_key": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        }
-    ],
     "date_reference": [
         {
             "value": 59695.193,
@@ -165,7 +153,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 59693.21900000004,
             "date_format": "mjd",
@@ -189,7 +177,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 59859.518999999855,
             "date_format": "mjd",
@@ -213,7 +201,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 59695.19299999997,
             "date_format": "mjd",
@@ -227,6 +215,18 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
         }
     ]
 }

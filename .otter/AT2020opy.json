@@ -1,4 +1,14 @@
 {
+    "reference_alias": [
+        {
+            "name": "2023MNRAS.518..847G",
+            "human_readable_name": "Goodwin et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR2111....1M",
+            "human_readable_name": "Marques-Chaves, R. et al. (2020)"
+        }
+    ],
     "name": {
         "default_name": "2020opy",
         "alias": [
@@ -9,7 +19,7 @@
                 ]
             },
             {
-                "value": "PS20fxm",
+                "value": "2020opy",
                 "reference": [
                     [
                         "TNS"
@@ -17,7 +27,7 @@
                 ]
             },
             {
-                "value": "2020opy",
+                "value": "PS20fxm",
                 "reference": [
                     [
                         "TNS"
@@ -74,11 +84,11 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "6ecbf9d0-c41d-4516-9025-b867d9d18d05",
+            "uuid": "7c60b62e-fb4e-44b7-9daf-7479fdc85192",
             "coordinate_type": "equitorial"
         },
         {
-            "reference": "6ecbf9d0-c41d-4516-9025-b867d9d18d05",
+            "reference": "7c60b62e-fb4e-44b7-9daf-7479fdc85192",
             "computed": true,
             "coordinate_type": "galactic",
             "l": 38.41156935899329,
@@ -113,16 +123,6 @@
             "reference": "2020TNSTR2111....1M",
             "computed": false,
             "date_type": "discovery"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2023MNRAS.518..847G",
-            "human_readable_name": "Goodwin et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR2111....1M",
-            "human_readable_name": "Marques-Chaves, R. et al. (2020)"
         }
     ],
     "photometry": [
@@ -185,7 +185,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 59007.30200000014,
             "date_format": "mjd",
@@ -209,7 +209,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 59044.19553240016,
             "date_format": "mjd",
@@ -233,7 +233,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 59038.23241900001,
             "date_format": "mjd",
@@ -257,7 +257,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 59047.214861100074,
             "date_format": "mjd",
@@ -281,7 +281,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 59041.255312500056,
             "date_format": "mjd",
@@ -305,7 +305,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 59038.21366900019,
             "date_format": "mjd",
@@ -321,6 +321,10 @@
             "instrument": "ZTF-Cam"
         }
     ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Original Dataset"
+    },
     "distance": [
         {
             "value": "0.159",
@@ -332,10 +336,6 @@
             "distance_type": "redshift"
         }
     ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Original Dataset"
-    },
     "classification": [
         {
             "object_class": "TDE",

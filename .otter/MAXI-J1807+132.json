@@ -1,4 +1,22 @@
 {
+    "reference_alias": [
+        {
+            "name": "2017ATel10216....1K",
+            "human_readable_name": "Kennea et al. (2017)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2019TNSTR1760....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2019)"
+        }
+    ],
     "name": {
         "default_name": "2019pqt",
         "alias": [
@@ -93,24 +111,6 @@
             "computed": false
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2017ATel10216....1K",
-            "human_readable_name": "Kennea et al. (2017)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2019TNSTR1760....1H",
-            "human_readable_name": "Hodgkin, S. T. et al. (2019)"
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -123,7 +123,7 @@
                 "0.1",
                 "0.1"
             ],
-            "raw_units": "AB",
+            "raw_units": "mag(AB)",
             "filter_key": [
                 "UVM2",
                 "UVW1",
@@ -164,7 +164,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58732.14000000013,
             "date_format": "mjd",
@@ -188,7 +188,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58708.955000000075,
             "date_format": "mjd",

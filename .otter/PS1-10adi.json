@@ -1,4 +1,26 @@
 {
+    "coordinate": [
+        {
+            "ra": "20:42:44.74",
+            "dec": "+15:30:32.1",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 310.686417,
+            "dec": 15.50895,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2021TNSTR3297....1H",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
     "name": {
         "default_name": "2021zlg",
         "alias": [
@@ -28,50 +50,6 @@
             }
         ]
     },
-    "reference_alias": [
-        {
-            "name": "2017arXiv171104577K",
-            "human_readable_name": "Kankare et al. (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2021TNSTR3297....1H",
-            "human_readable_name": "Hodgkin, S. T. et al. (2021)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "20:42:44.74",
-            "dec": "+15:30:32.1",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 310.686417,
-            "dec": 15.50895,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2021TNSTR3297....1H",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
     "date_reference": [
         {
             "value": "2010-01-01",
@@ -92,27 +70,26 @@
             "computed": false
         }
     ],
-    "classification": [
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 0.5,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
+            "name": "2017arXiv171104577K",
+            "human_readable_name": "Kankare et al. (2017)"
         },
         {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
         },
         {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2021TNSTR3297....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2021)"
         }
     ],
     "distance": [
@@ -154,11 +131,27 @@
         "value": "0",
         "comment": "Copied from tde.space"
     },
-    "filter_alias": [
+    "classification": [
         {
-            "filter_key": "G",
-            "wave_eff": 673.5412573108297,
-            "wave_units": "nm"
+            "object_class": "TDE",
+            "confidence": 0.5,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
         }
     ],
     "photometry": [
@@ -171,7 +164,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 59471.20699999994,
             "date_format": "mjd",
@@ -195,7 +188,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 59471.03099999996,
             "date_format": "mjd",
@@ -209,6 +202,13 @@
             "corr_hostav": false,
             "telescope": "Gaia",
             "instrument": "Gaia-photometric"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
         }
     ]
 }

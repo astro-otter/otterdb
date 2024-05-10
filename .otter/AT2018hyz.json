@@ -1,4 +1,34 @@
 {
+    "reference_alias": [
+        {
+            "name": "2022ApJ...938...28C",
+            "human_readable_name": "Cendes et al. (2022)"
+        },
+        {
+            "name": "2020MNRAS.497.1925G",
+            "human_readable_name": "Gomez et al. (2020)"
+        },
+        {
+            "name": "2020MNRAS.tmp.2047S",
+            "human_readable_name": "Short et al. (2020)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2018TNSTR1708....1B",
+            "human_readable_name": "Brimacombe, J. & Stanek, K. Z. (2018)"
+        },
+        {
+            "name": "2018TNSCR1764....1A",
+            "human_readable_name": "Arcavi, I. (2018)"
+        }
+    ],
     "name": {
         "default_name": "2018hyz",
         "alias": [
@@ -15,22 +45,6 @@
                 ]
             },
             {
-                "value": "ATLAS18bafs",
-                "reference": [
-                    [
-                        "TNS"
-                    ]
-                ]
-            },
-            {
-                "value": "ASASSN-18zj",
-                "reference": [
-                    [
-                        "TNS"
-                    ]
-                ]
-            },
-            {
                 "value": "ZTF18acpdvos",
                 "reference": [
                     [
@@ -39,7 +53,23 @@
                 ]
             },
             {
+                "value": "ATLAS18bafs",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
+                ]
+            },
+            {
                 "value": "2018hyz",
+                "reference": [
+                    [
+                        "TNS"
+                    ]
+                ]
+            },
+            {
+                "value": "ASASSN-18zj",
                 "reference": [
                     [
                         "TNS"
@@ -138,11 +168,11 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "5d2b5e52-3da1-454c-80d7-2fa39cd9d271",
+            "uuid": "660cba29-62b6-43af-841a-6f1526094177",
             "coordinate_type": "equitorial"
         },
         {
-            "reference": "5d2b5e52-3da1-454c-80d7-2fa39cd9d271",
+            "reference": "660cba29-62b6-43af-841a-6f1526094177",
             "computed": true,
             "coordinate_type": "galactic",
             "l": 238.65938137916748,
@@ -201,36 +231,6 @@
             "date_type": "discovery"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2022ApJ...938...28C",
-            "human_readable_name": "Cendes et al. (2022)"
-        },
-        {
-            "name": "2020MNRAS.497.1925G",
-            "human_readable_name": "Gomez et al. (2020)"
-        },
-        {
-            "name": "2020MNRAS.tmp.2047S",
-            "human_readable_name": "Short et al. (2020)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2018TNSTR1708....1B",
-            "human_readable_name": "Brimacombe, J. & Stanek, K. Z. (2018)"
-        },
-        {
-            "name": "2018TNSCR1764....1A",
-            "human_readable_name": "Arcavi, I. (2018)"
-        }
-    ],
     "distance": [
         {
             "value": "0.0457",
@@ -281,18 +281,6 @@
             ],
             "computed": false,
             "distance_type": "redshift"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2018TNSCR1764....1A",
-                "2022ApJ...938...28C"
-            ],
-            "default": true
         }
     ],
     "photometry": [
@@ -3572,7 +3560,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "VegaMag"
+                "vega"
             ],
             "date": 58428.64000000013,
             "date_format": "mjd",
@@ -3596,7 +3584,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "VegaMag"
+                "vega"
             ],
             "date": 58408.60999999987,
             "date_format": "mjd",
@@ -3620,7 +3608,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58604.330000000075,
             "date_format": "mjd",
@@ -3644,7 +3632,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58600.357997700106,
             "date_format": "mjd",
@@ -3668,7 +3656,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58584.22699069977,
             "date_format": "mjd",
@@ -3692,7 +3680,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58461.45999999996,
             "date_format": "mjd",
@@ -3706,6 +3694,18 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2018TNSCR1764....1A",
+                "2022ApJ...938...28C"
+            ],
+            "default": true
         }
     ],
     "schema_version": {

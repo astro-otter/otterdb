@@ -1,4 +1,22 @@
 {
+    "reference_alias": [
+        {
+            "name": "2022MNRAS.511.5328G",
+            "human_readable_name": "Goodwin et al. (2022)"
+        },
+        {
+            "name": "2019TNSTR.262....1S",
+            "human_readable_name": "Stanek, K. Z. (2019)"
+        },
+        {
+            "name": "2019TNSCR.287....1B",
+            "human_readable_name": "Barbarino, C. et al. (2019)"
+        },
+        {
+            "name": " 2020TNSCR2126....1D",
+            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
+        }
+    ],
     "name": {
         "default_name": "2019azh",
         "alias": [
@@ -9,7 +27,7 @@
                 ]
             },
             {
-                "value": "ZTF18achzddr",
+                "value": "Gaia19bvo",
                 "reference": [
                     [
                         "TNS"
@@ -17,7 +35,7 @@
                 ]
             },
             {
-                "value": "Gaia19bvo",
+                "value": "ZTF17aaazdba",
                 "reference": [
                     [
                         "TNS"
@@ -41,7 +59,7 @@
                 ]
             },
             {
-                "value": "ZTF17aaazdba",
+                "value": "ZTF18achzddr",
                 "reference": [
                     [
                         "TNS"
@@ -100,11 +118,11 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "7864abda-a4ec-49da-9c3f-b0a92035f74f",
+            "uuid": "4982311c-ed5b-4852-88c9-fab7880ce19d",
             "coordinate_type": "equitorial"
         },
         {
-            "reference": "7864abda-a4ec-49da-9c3f-b0a92035f74f",
+            "reference": "4982311c-ed5b-4852-88c9-fab7880ce19d",
             "computed": true,
             "coordinate_type": "galactic",
             "l": 200.18503399179954,
@@ -141,24 +159,6 @@
             "date_type": "discovery"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2022MNRAS.511.5328G",
-            "human_readable_name": "Goodwin et al. (2022)"
-        },
-        {
-            "name": "2019TNSTR.262....1S",
-            "human_readable_name": "Stanek, K. Z. (2019)"
-        },
-        {
-            "name": "2019TNSCR.287....1B",
-            "human_readable_name": "Barbarino, C. et al. (2019)"
-        },
-        {
-            "name": " 2020TNSCR2126....1D",
-            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
     "distance": [
         {
             "value": "0.022",
@@ -177,18 +177,6 @@
             ],
             "computed": false,
             "distance_type": "redshift"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2019TNSCR.287....1B",
-                "2020TNSCR2126....1D",
-                "2022MNRAS.511.5328G"
-            ],
-            "default": true
         }
     ],
     "photometry": [
@@ -299,7 +287,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58586.750995399896,
             "date_format": "mjd",
@@ -323,7 +311,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58451.53799769981,
             "date_format": "mjd",
@@ -347,7 +335,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58536.02000000002,
             "date_format": "mjd",
@@ -371,7 +359,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58528.970000000205,
             "date_format": "mjd",
@@ -395,7 +383,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58759.47199069988,
             "date_format": "mjd",
@@ -419,7 +407,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58758.510659699794,
             "date_format": "mjd",
@@ -443,7 +431,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58581.20528940018,
             "date_format": "mjd",
@@ -467,7 +455,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58581.20528940018,
             "date_format": "mjd",
@@ -491,7 +479,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58581.16968750022,
             "date_format": "mjd",
@@ -515,7 +503,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58575.203518500086,
             "date_format": "mjd",
@@ -539,7 +527,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58572.19354170002,
             "date_format": "mjd",
@@ -563,7 +551,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58572.191620400175,
             "date_format": "mjd",
@@ -587,7 +575,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58556.27078700019,
             "date_format": "mjd",
@@ -611,7 +599,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58538.25636570016,
             "date_format": "mjd",
@@ -635,7 +623,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58538.25636570016,
             "date_format": "mjd",
@@ -659,7 +647,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58534.23508099979,
             "date_format": "mjd",
@@ -683,7 +671,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.40251159994,
             "date_format": "mjd",
@@ -707,7 +695,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.40251159994,
             "date_format": "mjd",
@@ -731,7 +719,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.40251159994,
             "date_format": "mjd",
@@ -755,7 +743,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58756.51644679997,
             "date_format": "mjd",
@@ -779,7 +767,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58581.155219899956,
             "date_format": "mjd",
@@ -803,7 +791,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58572.14604170015,
             "date_format": "mjd",
@@ -827,7 +815,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58572.14604170015,
             "date_format": "mjd",
@@ -851,7 +839,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58561.17818289995,
             "date_format": "mjd",
@@ -875,7 +863,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58541.28799769981,
             "date_format": "mjd",
@@ -899,7 +887,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58541.28758100001,
             "date_format": "mjd",
@@ -923,7 +911,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58540.22306710016,
             "date_format": "mjd",
@@ -947,7 +935,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58534.31569440011,
             "date_format": "mjd",
@@ -971,7 +959,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.22462960007,
             "date_format": "mjd",
@@ -995,7 +983,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.22462960007,
             "date_format": "mjd",
@@ -1019,7 +1007,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.22462960007,
             "date_format": "mjd",
@@ -1043,7 +1031,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.22462960007,
             "date_format": "mjd",
@@ -1067,7 +1055,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.22462960007,
             "date_format": "mjd",
@@ -1091,7 +1079,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.22462960007,
             "date_format": "mjd",
@@ -1115,7 +1103,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.22462960007,
             "date_format": "mjd",
@@ -1139,7 +1127,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.22462960007,
             "date_format": "mjd",
@@ -1163,7 +1151,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.22462960007,
             "date_format": "mjd",
@@ -1187,7 +1175,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58526.22462960007,
             "date_format": "mjd",
@@ -1211,7 +1199,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58429.50699070003,
             "date_format": "mjd",
@@ -1235,7 +1223,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 58426.430995400064,
             "date_format": "mjd",
@@ -1249,6 +1237,18 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2019TNSCR.287....1B",
+                "2020TNSCR2126....1D",
+                "2022MNRAS.511.5328G"
+            ],
+            "default": true
         }
     ],
     "schema_version": {

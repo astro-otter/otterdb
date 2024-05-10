@@ -1,4 +1,46 @@
 {
+    "reference_alias": [
+        {
+            "name": "2017ApJ...844...46B",
+            "human_readable_name": "Blagorodnova et al. (2017)"
+        },
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016ATel.9433....1G",
+            "human_readable_name": "Gezari et al. (2016)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "MAST",
+            "human_readable_name": "MAST"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2000A&AS..143....9W",
+            "human_readable_name": "Wenger et al. (2000)"
+        },
+        {
+            "name": "2016TNSTR.611....1K",
+            "human_readable_name": "Kasliwal, M. & Cao, Y. (2016)"
+        },
+        {
+            "name": "2016TNSCR.615....1Y",
+            "human_readable_name": "Yaron, O. (2016)"
+        }
+    ],
     "name": {
         "default_name": "2016fnl",
         "alias": [
@@ -86,6 +128,8 @@
         {
             "filter_key": "0.3 - 2.0",
             "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
             "wave_units": "nm"
         },
         {
@@ -115,48 +159,6 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...844...46B",
-            "human_readable_name": "Blagorodnova et al. (2017)"
-        },
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016ATel.9433....1G",
-            "human_readable_name": "Gezari et al. (2016)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "MAST",
-            "human_readable_name": "MAST"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2000A&AS..143....9W",
-            "human_readable_name": "Wenger et al. (2000)"
-        },
-        {
-            "name": "2016TNSTR.611....1K",
-            "human_readable_name": "Kasliwal, M. & Cao, Y. (2016)"
-        },
-        {
-            "name": "2016TNSCR.615....1Y",
-            "human_readable_name": "Yaron, O. (2016)"
         }
     ],
     "distance": [
@@ -189,17 +191,6 @@
             ],
             "computed": false,
             "distance_type": "redshift"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2016TNSCR.615....1Y",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
         }
     ],
     "photometry": [
@@ -251,7 +242,7 @@
                 "19.62",
                 "19.59"
             ],
-            "raw_units": "AB",
+            "raw_units": "mag(AB)",
             "filter_key": [
                 "g",
                 "g",
@@ -566,7 +557,7 @@
                 "0.10",
                 "0.35"
             ],
-            "raw_units": "AB",
+            "raw_units": "mag(AB)",
             "filter_key": [
                 "g",
                 "r",
@@ -1101,7 +1092,7 @@
                 "0.07",
                 "0.07"
             ],
-            "raw_units": "AB",
+            "raw_units": "mag(AB)",
             "filter_key": [
                 "B",
                 "U",
@@ -1706,7 +1697,7 @@
                 "0.0206"
             ],
             "raw_units": [
-                "s^-1"
+                "ct"
             ],
             "value": [
                 "1.36E-13"
@@ -1743,8 +1734,8 @@
                 "0.00245"
             ],
             "raw_units": [
-                "s^-1",
-                "s^-1"
+                "ct",
+                "ct"
             ],
             "value": [
                 "5.62E-14",
@@ -1790,7 +1781,7 @@
             ],
             "upperlimit": false,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 57629.42299770005,
             "date_format": "mjd",
@@ -1814,7 +1805,7 @@
             ],
             "upperlimit": true,
             "raw_units": [
-                "ABMag"
+                "mag(AB)"
             ],
             "date": 54832.0,
             "date_format": "mjd",
@@ -1828,6 +1819,17 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "CFH12k"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2016TNSCR.615....1Y",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
         }
     ],
     "schema_version": {

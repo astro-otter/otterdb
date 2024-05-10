@@ -1,38 +1,116 @@
 {
-    "coordinate": [
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
+    "distance": [
         {
-            "ra": "11 11 47.6",
-            "dec": "-82 38 44.44",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
+            "value": "0.89",
             "reference": [
                 "2017MNRAS.472.4469B"
             ],
             "computed": false,
             "default": true,
-            "uuid": "f64102ae-0e17-4638-9868-8f0149fdd02b",
-            "coordinate_type": "equitorial"
+            "distance_type": "redshift"
         },
         {
-            "reference": "f64102ae-0e17-4638-9868-8f0149fdd02b",
-            "computed": true,
-            "coordinate_type": "galactic",
-            "l": 299.6337165869646,
-            "b": -20.420594756871676,
-            "l_units": "deg",
-            "b_units": "deg"
-        },
-        {
-            "ra": "11:11:47.32",
-            "dec": "-82:38:44.20",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "value": "0.89",
             "reference": [
-                "2017ApJ...838..149A"
+                "2017ApJ...838..149A",
+                "2015arXiv150703582B"
             ],
-            "coordinate_type": "equitorial"
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "5900",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2015arXiv150703582B",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity",
+            "unit": "Mpc"
+        },
+        {
+            "value": "3100",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2015arXiv150703582B",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "5.5GHz",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017MNRAS.472.4469B",
+            "human_readable_name": "Brown et al. (2017)"
+        },
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2015arXiv150703582B",
+            "human_readable_name": "Brown et al. (2015)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "55729.5",
+            "date_format": "mjd",
+            "reference": [
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        },
+        {
+            "value": "2011-12-27",
+            "date_format": "iso",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "date_type": "discovery",
+            "measurement_type": "discovery",
+            "default": true
         }
     ],
     "name": {
@@ -45,7 +123,7 @@
                 ]
             },
             {
-                "value": "Swift J1112.2-8238",
+                "value": "Swift J1112-82",
                 "reference": [
                     [
                         "2017ApJ...838..149A",
@@ -54,7 +132,7 @@
                 ]
             },
             {
-                "value": "Swift J1112-82",
+                "value": "Swift J1112.2-8238",
                 "reference": [
                     [
                         "2017ApJ...838..149A",
@@ -64,17 +142,6 @@
             }
         ]
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017MNRAS.472.4469B"
-            ],
-            "default": true
-        }
-    ],
     "photometry": [
         {
             "reference": [
@@ -123,7 +190,7 @@
                 "0.0335"
             ],
             "raw_units": [
-                "s^-1"
+                "ct"
             ],
             "value": [
                 "3.91E-13"
@@ -162,7 +229,7 @@
                 "0.00147"
             ],
             "raw_units": [
-                "s^-1"
+                "ct"
             ],
             "value": [
                 "7.03E-13"
@@ -200,9 +267,9 @@
                 "0.308"
             ],
             "raw_units": [
-                "s^-1",
-                "s^-1",
-                "s^-1"
+                "ct",
+                "ct",
+                "ct"
             ],
             "value": [
                 "6.64E-12",
@@ -246,116 +313,51 @@
             "corr_s": null
         }
     ],
-    "date_reference": [
+    "coordinate": [
         {
-            "value": "55729.5",
-            "date_format": "mjd",
+            "ra": "11 11 47.6",
+            "dec": "-82 38 44.44",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
             "reference": [
                 "2017MNRAS.472.4469B"
             ],
             "computed": false,
-            "date_type": "discovery"
+            "default": true,
+            "uuid": "78121685-ae2e-4498-bb64-e3b57b6c1966",
+            "coordinate_type": "equitorial"
         },
         {
-            "value": "2011-12-27",
-            "date_format": "iso",
+            "reference": "78121685-ae2e-4498-bb64-e3b57b6c1966",
+            "computed": true,
+            "coordinate_type": "galactic",
+            "l": 299.6337165869646,
+            "b": -20.420594756871676,
+            "l_units": "deg",
+            "b_units": "deg"
+        },
+        {
+            "ra": "11:11:47.32",
+            "dec": "-82:38:44.20",
+            "ra_units": "hour",
+            "dec_units": "deg",
             "reference": [
-                "2017ApJ...838..149A",
-                "2017ApJ...835...64G"
+                "2017ApJ...838..149A"
             ],
-            "computed": false,
-            "date_type": "discovery",
-            "measurement_type": "discovery",
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017MNRAS.472.4469B"
+            ],
             "default": true
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.89",
-            "reference": [
-                "2017MNRAS.472.4469B"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "0.89",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2015arXiv150703582B"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "5900",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2015arXiv150703582B",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "3100",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2015arXiv150703582B",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
-    "reference_alias": [
-        {
-            "name": "2017MNRAS.472.4469B",
-            "human_readable_name": "Brown et al. (2017)"
-        },
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2015arXiv150703582B",
-            "human_readable_name": "Brown et al. (2015)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "5.5GHz",
-            "freq_eff": 5.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_units": "nm"
         }
     ]
 }
