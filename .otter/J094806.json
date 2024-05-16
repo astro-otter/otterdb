@@ -1,4 +1,26 @@
 {
+    "reference_alias": [
+        {
+            "name": "2017arXiv171104577K",
+            "human_readable_name": "Kankare et al. (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2022TNSTR2919....1F",
+            "human_readable_name": "Fremling, C. (2022)"
+        }
+    ],
     "coordinate": [
         {
             "ra": "09:48:06.55",
@@ -25,51 +47,50 @@
         "default_name": "2022wyq",
         "alias": [
             {
-                "value": "J094806",
-                "reference": [
-                    [
-                        "2017arXiv171104577K"
-                    ]
-                ]
-            },
-            {
                 "value": "2022wyq",
                 "reference": [
-                    [
-                        "TNS"
-                    ]
+                    "TNS"
                 ]
             },
             {
                 "value": "ZTF20acyxwgf",
                 "reference": [
-                    [
-                        "TNS"
-                    ]
+                    "TNS"
+                ]
+            },
+            {
+                "value": "J094806",
+                "reference": [
+                    "2017arXiv171104577K"
                 ]
             }
         ]
     },
-    "reference_alias": [
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
+    "classification": [
         {
-            "name": "2017arXiv171104577K",
-            "human_readable_name": "Kankare et al. (2017)"
+            "object_class": "TDE",
+            "confidence": 0.5,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
         },
         {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
         },
         {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2022TNSTR2919....1F",
-            "human_readable_name": "Fremling, C. (2022)"
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
         }
     ],
     "distance": [
@@ -107,33 +128,6 @@
             "distance_type": "comoving"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 0.5,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
     "date_reference": [
         {
             "value": 59695.193,
@@ -155,7 +149,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 59693.21900000004,
+            "date": "59693.21900000004",
             "date_format": "mjd",
             "filter_key": "g",
             "reference": "TNS",
@@ -179,7 +173,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 59859.518999999855,
+            "date": "59859.518999999855",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -203,7 +197,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 59695.19299999997,
+            "date": "59695.19299999997",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",

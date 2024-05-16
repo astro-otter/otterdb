@@ -1,51 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2017ATel10216....1K",
-            "human_readable_name": "Kennea et al. (2017)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2019TNSTR1760....1H",
-            "human_readable_name": "Hodgkin, S. T. et al. (2019)"
-        }
-    ],
-    "name": {
-        "default_name": "2019pqt",
-        "alias": [
-            {
-                "value": "MAXI J1807+132",
-                "reference": [
-                    [
-                        "2017ATel10216....1K"
-                    ]
-                ]
-            },
-            {
-                "value": "2019pqt",
-                "reference": [
-                    [
-                        "TNS"
-                    ]
-                ]
-            },
-            {
-                "value": "Gaia19dya",
-                "reference": [
-                    [
-                        "TNS"
-                    ]
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "UVM2",
@@ -68,26 +21,45 @@
             "wave_units": "nm"
         }
     ],
-    "coordinate": [
+    "name": {
+        "default_name": "2019pqt",
+        "alias": [
+            {
+                "value": "2019pqt",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia19dya",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "MAXI J1807+132",
+                "reference": [
+                    "2017ATel10216....1K"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
         {
-            "ra": "18:08:07.549",
-            "dec": "+13:15:05.40",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ATel10216....1K"
-            ],
-            "coordinate_type": "equitorial"
+            "name": "2017ATel10216....1K",
+            "human_readable_name": "Kennea et al. (2017)"
         },
         {
-            "ra": 272.031417,
-            "dec": 13.251511,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2019TNSTR1760....1H",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2019TNSTR1760....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2019)"
         }
     ],
     "date_reference": [
@@ -114,14 +86,14 @@
     "photometry": [
         {
             "raw": [
-                "17.3",
-                "17.2",
-                "17.2"
+                17.3,
+                17.2,
+                17.2
             ],
             "raw_err": [
-                "0.1",
-                "0.1",
-                "0.1"
+                0.1,
+                0.1,
+                0.1
             ],
             "raw_units": "mag(AB)",
             "filter_key": [
@@ -166,7 +138,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58732.14000000013,
+            "date": "58732.14000000013",
             "date_format": "mjd",
             "filter_key": "G",
             "reference": "TNS",
@@ -190,7 +162,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58708.955000000075,
+            "date": "58708.955000000075",
             "date_format": "mjd",
             "filter_key": "G",
             "reference": "TNS",
@@ -202,6 +174,28 @@
             "corr_hostav": false,
             "telescope": "Gaia",
             "instrument": "Gaia-photometric"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "18:08:07.549",
+            "dec": "+13:15:05.40",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ATel10216....1K"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 272.031417,
+            "dec": 13.251511,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2019TNSTR1760....1H",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
         }
     ],
     "schema_version": {

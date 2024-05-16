@@ -1,77 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "MAST",
-            "human_readable_name": "MAST"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2018TNSTR1509....1T",
-            "human_readable_name": "Tonry, J. et al. (2018)"
-        },
-        {
-            "name": "2018TNSCR1902....1R",
-            "human_readable_name": "Reynolds, T. (2018)"
-        }
-    ],
-    "name": {
-        "default_name": "2018hco",
-        "alias": [
-            {
-                "value": "2018hco",
-                "reference": [
-                    [
-                        "TNS"
-                    ]
-                ]
-            },
-            {
-                "value": "ATLAS18way",
-                "reference": [
-                    [
-                        "TNS"
-                    ]
-                ]
-            },
-            {
-                "value": "ZTF18abxftqm",
-                "reference": [
-                    [
-                        "MAST"
-                    ],
-                    [
-                        "TNS"
-                    ]
-                ]
-            }
-        ]
-    },
-    "coordinate": [
-        {
-            "ra": "01:07:33.6100",
-            "dec": "+23:28:34.39",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 16.8901468,
-            "dec": 23.4761884,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": "2018TNSTR1509....1T"
-        }
-    ],
     "distance": [
         {
             "value": "410",
@@ -104,6 +31,52 @@
             "distance_type": "redshift"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "MAST",
+            "human_readable_name": "MAST"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2018TNSTR1509....1T",
+            "human_readable_name": "Tonry, J. et al. (2018)"
+        },
+        {
+            "name": "2018TNSCR1902....1R",
+            "human_readable_name": "Reynolds, T. (2018)"
+        }
+    ],
+    "name": {
+        "default_name": "2018hco",
+        "alias": [
+            {
+                "value": "2018hco",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS18way",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF18abxftqm",
+                "reference": [
+                    "MAST",
+                    "TNS"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "8589-09-09",
@@ -133,6 +106,25 @@
                 "2018TNSCR1902....1R"
             ],
             "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "01:07:33.6100",
+            "dec": "+23:28:34.39",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 16.8901468,
+            "dec": 23.4761884,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": "2018TNSTR1509....1T"
         }
     ],
     "schema_version": {
@@ -173,7 +165,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58395.52000000002,
+            "date": "58395.52000000002",
             "date_format": "mjd",
             "filter_key": "cyan",
             "reference": "TNS",
@@ -197,7 +189,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58393.5259953998,
+            "date": "58393.5259953998",
             "date_format": "mjd",
             "filter_key": "orange",
             "reference": "TNS",
@@ -221,7 +213,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58426.32545140013,
+            "date": "58426.32545140013",
             "date_format": "mjd",
             "filter_key": "g",
             "reference": "TNS",
@@ -245,7 +237,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58426.32545140013,
+            "date": "58426.32545140013",
             "date_format": "mjd",
             "filter_key": "g",
             "reference": "TNS",
@@ -269,7 +261,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58426.32545140013,
+            "date": "58426.32545140013",
             "date_format": "mjd",
             "filter_key": "g",
             "reference": "TNS",
@@ -293,7 +285,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58426.32545140013,
+            "date": "58426.32545140013",
             "date_format": "mjd",
             "filter_key": "g",
             "reference": "TNS",
@@ -317,7 +309,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58379.37000000011,
+            "date": "58379.37000000011",
             "date_format": "mjd",
             "filter_key": "g",
             "reference": "TNS",
@@ -341,7 +333,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58378.33099539997,
+            "date": "58378.33099539997",
             "date_format": "mjd",
             "filter_key": "g",
             "reference": "TNS",
@@ -365,7 +357,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58432.26886569988,
+            "date": "58432.26886569988",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -389,7 +381,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58429.27464119997,
+            "date": "58429.27464119997",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -413,7 +405,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58429.27464119997,
+            "date": "58429.27464119997",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -437,7 +429,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58429.27464119997,
+            "date": "58429.27464119997",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -461,7 +453,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58426.25472219987,
+            "date": "58426.25472219987",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -485,7 +477,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58426.25472219987,
+            "date": "58426.25472219987",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -509,7 +501,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58426.25472219987,
+            "date": "58426.25472219987",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -533,7 +525,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58426.25472219987,
+            "date": "58426.25472219987",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -557,7 +549,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58423.30799769983,
+            "date": "58423.30799769983",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -581,7 +573,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58385.27639999986,
+            "date": "58385.27639999986",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -605,7 +597,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58385.27639999986,
+            "date": "58385.27639999986",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -629,7 +621,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58385.27639999986,
+            "date": "58385.27639999986",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -653,7 +645,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 58385.27639999986,
+            "date": "58385.27639999986",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",

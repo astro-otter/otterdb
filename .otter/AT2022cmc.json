@@ -1,41 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2022Natur.612..430A",
-            "human_readable_name": "Igor et al. (2022)"
-        },
-        {
-            "name": "2022TNSTR.397....1A",
-            "human_readable_name": "Andreoni, I. (2022)"
-        }
-    ],
-    "name": {
-        "default_name": "2022cmc",
-        "alias": [
-            {
-                "value": "AT2022cmc",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF22aaajecp",
-                "reference": [
-                    [
-                        "TNS"
-                    ]
-                ]
-            },
-            {
-                "value": "2022cmc",
-                "reference": [
-                    [
-                        "TNS"
-                    ]
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "8.5GHz",
@@ -53,40 +16,37 @@
             "wave_units": "nm"
         }
     ],
-    "coordinate": [
+    "name": {
+        "default_name": "2022cmc",
+        "alias": [
+            {
+                "value": "2022cmc",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF22aaajecp",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022cmc",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
         {
-            "ra": "13 34 43.207",
-            "dec": "+33 13 00.54",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "reference": [
-                "2022Natur.612..430A"
-            ],
-            "computed": false,
-            "default": true,
-            "uuid": "798beecb-496c-4624-a7e6-ae9881041201",
-            "coordinate_type": "equitorial"
+            "name": "2022Natur.612..430A",
+            "human_readable_name": "Igor et al. (2022)"
         },
         {
-            "reference": "798beecb-496c-4624-a7e6-ae9881041201",
-            "computed": true,
-            "coordinate_type": "galactic",
-            "l": 68.62957133676095,
-            "b": 78.8489417474028,
-            "l_units": "deg",
-            "b_units": "deg"
-        },
-        {
-            "ra": 203.6800286,
-            "dec": 33.216817166666665,
-            "epoch": "J2000",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2022TNSTR.397....1A",
-            "coordinate_type": "equitorial",
-            "frame": "ICRS"
+            "name": "2022TNSTR.397....1A",
+            "human_readable_name": "Andreoni, I. (2022)"
         }
     ],
     "date_reference": [
@@ -217,7 +177,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 59600.41262729978,
+            "date": "59600.41262729978",
             "date_format": "mjd",
             "filter_key": "g",
             "reference": "TNS",
@@ -241,7 +201,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 59621.44629629981,
+            "date": "59621.44629629981",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -265,7 +225,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 59622.50270830002,
+            "date": "59622.50270830002",
             "date_format": "mjd",
             "filter_key": "g",
             "reference": "TNS",
@@ -289,7 +249,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 59624.40252309991,
+            "date": "59624.40252309991",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -313,7 +273,7 @@
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": 59622.52371530002,
+            "date": "59622.52371530002",
             "date_format": "mjd",
             "filter_key": "r",
             "reference": "TNS",
@@ -325,6 +285,42 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "13 34 43.207",
+            "dec": "+33 13 00.54",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "9eff2c30-c468-46e7-99a7-33aefda5aa5d",
+            "coordinate_type": "equitorial"
+        },
+        {
+            "reference": "9eff2c30-c468-46e7-99a7-33aefda5aa5d",
+            "computed": true,
+            "coordinate_type": "galactic",
+            "l": 68.62957133676095,
+            "b": 78.8489417474028,
+            "l_units": "deg",
+            "b_units": "deg"
+        },
+        {
+            "ra": 203.6800286,
+            "dec": 33.216817166666665,
+            "epoch": "J2000",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2022TNSTR.397....1A",
+            "coordinate_type": "equitorial",
+            "frame": "ICRS"
         }
     ],
     "schema_version": {
