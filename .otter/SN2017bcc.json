@@ -1,4 +1,26 @@
 {
+    "reference_alias": [
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2017TNSTR.220....1C",
+            "human_readable_name": "Chambers, K. C. et al. (2017)"
+        },
+        {
+            "name": "2017TNSCR.221....1B",
+            "human_readable_name": "Barbarino, C. et al. (2017)"
+        }
+    ],
     "distance": [
         {
             "value": "646",
@@ -31,39 +53,54 @@
             "distance_type": "redshift"
         }
     ],
-    "reference_alias": [
+    "classification": [
         {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017ApJ...835...64G"
+            ],
+            "default": false
         },
         {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+            "object_class": "SLSN-II",
+            "confidence": 0.5,
+            "reference": [
+                "2017TNSCR.221....1B"
+            ],
+            "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "11:31:53.04",
+            "dec": "+29:59:45.24",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial"
         },
         {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2017TNSTR.220....1C",
-            "human_readable_name": "Chambers, K. C. et al. (2017)"
-        },
-        {
-            "name": "2017TNSCR.221....1B",
-            "human_readable_name": "Barbarino, C. et al. (2017)"
+            "ra": 172.97078162,
+            "dec": 29.9957852105,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": "2017TNSTR.220....1C"
         }
     ],
     "name": {
         "default_name": "2017bcc",
         "alias": [
             {
-                "value": "ZTF20aacbwbm",
+                "value": "2017bcc",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2017bcc",
+                "value": "ZTF20aacbwbm",
                 "reference": [
                     "TNS"
                 ]
@@ -104,43 +141,6 @@
             "date_type": "discovery",
             "reference": "2017TNSTR.220....1C",
             "computed": false
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017ApJ...835...64G"
-            ],
-            "default": false
-        },
-        {
-            "object_class": "SLSN-II",
-            "confidence": 0.5,
-            "reference": [
-                "2017TNSCR.221....1B"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "11:31:53.04",
-            "dec": "+29:59:45.24",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 172.97078162,
-            "dec": 29.9957852105,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": "2017TNSTR.220....1C"
         }
     ],
     "schema_version": {

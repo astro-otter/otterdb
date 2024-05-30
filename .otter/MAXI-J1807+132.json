@@ -1,4 +1,22 @@
 {
+    "reference_alias": [
+        {
+            "name": "2017ATel10216....1K",
+            "human_readable_name": "Kennea et al. (2017)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2019TNSTR1760....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2019)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "UVM2",
@@ -44,45 +62,6 @@
             }
         ]
     },
-    "reference_alias": [
-        {
-            "name": "2017ATel10216....1K",
-            "human_readable_name": "Kennea et al. (2017)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2019TNSTR1760....1H",
-            "human_readable_name": "Hodgkin, S. T. et al. (2019)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2017-03-27",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ATel10216....1K",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "measurement_type": "discovery",
-            "default": true
-        },
-        {
-            "value": 58732.14,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": "2019TNSTR1760....1H",
-            "computed": false
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -196,6 +175,27 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2017-03-27",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ATel10216....1K",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "measurement_type": "discovery",
+            "default": true
+        },
+        {
+            "value": 58732.14,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": "2019TNSTR1760....1H",
+            "computed": false
         }
     ],
     "schema_version": {

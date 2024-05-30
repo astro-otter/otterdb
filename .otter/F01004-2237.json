@@ -1,62 +1,4 @@
 {
-    "filter_alias": [
-        {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "W1",
-            "wave_eff": 224.6,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "W2",
-            "wave_eff": 192.8,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "G",
-            "wave_eff": 673.5412573108297,
-            "wave_units": "nm"
-        }
-    ],
-    "name": {
-        "default_name": "2022agi",
-        "alias": [
-            {
-                "value": "Gaia22ahd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022agi",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "F01004-2237",
-                "reference": [
-                    "2017NatAs...1E..61T",
-                    "MAST"
-                ]
-            },
-            {
-                "value": "SSS:010250.0-222157",
-                "reference": [
-                    "2017NatAs...1E..61T"
-                ]
-            },
-            {
-                "value": "CSS:010250.0-222157",
-                "reference": [
-                    "2017NatAs...1E..61T"
-                ]
-            }
-        ]
-    },
     "reference_alias": [
         {
             "name": "2017NatAs...1E..61T",
@@ -83,27 +25,64 @@
             "human_readable_name": "Hodgkin, S. T. et al. (2022)"
         }
     ],
-    "date_reference": [
+    "filter_alias": [
         {
-            "value": "2010-06-25",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017NatAs...1E..61T",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "measurement_type": "discovery",
-            "default": true
+            "filter_key": "V",
+            "wave_eff": 551.0,
+            "wave_units": "nm"
         },
         {
-            "value": 59600.393,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": "2022TNSTR.188....1H",
-            "computed": false
+            "filter_key": "W1",
+            "wave_eff": 224.6,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "W2",
+            "wave_eff": 192.8,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
         }
     ],
+    "name": {
+        "default_name": "2022agi",
+        "alias": [
+            {
+                "value": "2022agi",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia22ahd",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "F01004-2237",
+                "reference": [
+                    "2017NatAs...1E..61T",
+                    "MAST"
+                ]
+            },
+            {
+                "value": "CSS:010250.0-222157",
+                "reference": [
+                    "2017NatAs...1E..61T"
+                ]
+            },
+            {
+                "value": "SSS:010250.0-222157",
+                "reference": [
+                    "2017NatAs...1E..61T"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -2740,6 +2719,27 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2010-06-25",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017NatAs...1E..61T",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "measurement_type": "discovery",
+            "default": true
+        },
+        {
+            "value": 59600.393,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": "2022TNSTR.188....1H",
+            "computed": false
         }
     ],
     "schema_version": {

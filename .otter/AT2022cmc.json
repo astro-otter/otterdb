@@ -1,4 +1,14 @@
 {
+    "reference_alias": [
+        {
+            "name": "2022Natur.612..430A",
+            "human_readable_name": "Igor et al. (2022)"
+        },
+        {
+            "name": "2022TNSTR.397....1A",
+            "human_readable_name": "Andreoni, I. (2022)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "8.5GHz",
@@ -20,13 +30,13 @@
         "default_name": "2022cmc",
         "alias": [
             {
-                "value": "2022cmc",
+                "value": "ZTF22aaajecp",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ZTF22aaajecp",
+                "value": "2022cmc",
                 "reference": [
                     "TNS"
                 ]
@@ -39,34 +49,6 @@
             }
         ]
     },
-    "reference_alias": [
-        {
-            "name": "2022Natur.612..430A",
-            "human_readable_name": "Igor et al. (2022)"
-        },
-        {
-            "name": "2022TNSTR.397....1A",
-            "human_readable_name": "Andreoni, I. (2022)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 59621.45,
-            "date_format": "mjd",
-            "reference": [
-                "2022Natur.612..430A"
-            ],
-            "computed": false,
-            "date_type": "discovery"
-        },
-        {
-            "value": 59621.4463,
-            "date_format": "mjd",
-            "reference": "2022TNSTR.397....1A",
-            "computed": false,
-            "date_type": "discovery"
-        }
-    ],
     "photometry": [
         {
             "reference": [
@@ -300,11 +282,11 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "9eff2c30-c468-46e7-99a7-33aefda5aa5d",
+            "uuid": "729f77d5-6f4e-471e-9e52-cd9a8234a584",
             "coordinate_type": "equitorial"
         },
         {
-            "reference": "9eff2c30-c468-46e7-99a7-33aefda5aa5d",
+            "reference": "729f77d5-6f4e-471e-9e52-cd9a8234a584",
             "computed": true,
             "coordinate_type": "galactic",
             "l": 68.62957133676095,
@@ -321,6 +303,24 @@
             "reference": "2022TNSTR.397....1A",
             "coordinate_type": "equitorial",
             "frame": "ICRS"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 59621.45,
+            "date_format": "mjd",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        },
+        {
+            "value": 59621.4463,
+            "date_format": "mjd",
+            "reference": "2022TNSTR.397....1A",
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "schema_version": {
