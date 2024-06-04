@@ -1,20 +1,4 @@
 {
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2011Natur.476..425Z",
-                "2011Sci...333..203B",
-                "2012ApJ...748...36B",
-                "2012MNRAS.421.1942W",
-                "2013ApJ...767..152Z",
-                "2016MNRAS.462L..66Y",
-                "2018ApJ...854...86E"
-            ],
-            "default": true
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "4.9GHz",
@@ -29,42 +13,20 @@
             "wave_units": "nm"
         }
     ],
-    "coordinate": [
+    "classification": [
         {
-            "ra": "16 44 49.93130",
-            "dec": "+57 34 59.6893",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
+            "object_class": "TDE",
+            "confidence": 1.0,
             "reference": [
                 "2011Natur.476..425Z",
+                "2011Sci...333..203B",
                 "2012ApJ...748...36B",
                 "2012MNRAS.421.1942W",
                 "2013ApJ...767..152Z",
                 "2016MNRAS.462L..66Y",
                 "2018ApJ...854...86E"
             ],
-            "computed": false,
-            "default": true,
-            "uuid": "ee31fc49-b7e1-47bf-9f34-b619e05ad600",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "reference": "ee31fc49-b7e1-47bf-9f34-b619e05ad600",
-            "computed": true,
-            "coordinate_type": "galactic",
-            "l": 86.71123273634593,
-            "b": 39.44122227143398,
-            "l_units": "deg",
-            "b_units": "deg"
-        },
-        {
-            "ra": "16:44:49.92",
-            "dec": "+57:34:58.8",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial"
+            "default": true
         }
     ],
     "distance": [
@@ -119,40 +81,48 @@
             "unit": "Mpc"
         }
     ],
-    "name": {
-        "default_name": "Sw J1644+57",
-        "alias": [
-            {
-                "value": "Swift J1644+57",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2011Sci...333..203B"
-                ]
-            },
-            {
-                "value": "Swift J164449.3+573451",
-                "reference": [
-                    "2011Sci...333..203B"
-                ]
-            },
-            {
-                "value": "GRB 110328A",
-                "reference": [
-                    "2011Sci...333..203B"
-                ]
-            },
-            {
-                "value": "Sw J1644+57",
-                "reference": [
-                    "Swift"
-                ]
-            }
-        ]
-    },
     "schema_version": {
         "value": "0",
         "comment": "Copied from tde.space"
     },
+    "coordinate": [
+        {
+            "ra": "16 44 49.93130",
+            "dec": "+57 34 59.6893",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2011Natur.476..425Z",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016MNRAS.462L..66Y",
+                "2018ApJ...854...86E"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "a2b4824f-b70a-4786-be17-342fd9d37847",
+            "coordinate_type": "equitorial"
+        },
+        {
+            "reference": "a2b4824f-b70a-4786-be17-342fd9d37847",
+            "computed": true,
+            "coordinate_type": "galactic",
+            "l": 86.71123273634593,
+            "b": 39.44122227143398,
+            "l_units": "deg",
+            "b_units": "deg"
+        },
+        {
+            "ra": "16:44:49.92",
+            "dec": "+57:34:58.8",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial"
+        }
+    ],
     "date_reference": [
         {
             "value": 55648.54,
@@ -179,52 +149,6 @@
             "date_type": "discovery",
             "measurement_type": "discovery",
             "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2011Natur.476..425Z",
-            "human_readable_name": "Zauderer et al. (2011)"
-        },
-        {
-            "name": "2012ApJ...748...36B",
-            "human_readable_name": "Berger et al. (2012)"
-        },
-        {
-            "name": "2012MNRAS.421.1942W",
-            "human_readable_name": "Wiersema et al. (2012)"
-        },
-        {
-            "name": "2013ApJ...767..152Z",
-            "human_readable_name": "Zauderer et al. (2013)"
-        },
-        {
-            "name": "2016MNRAS.462L..66Y",
-            "human_readable_name": "Yang et al. (2016)"
-        },
-        {
-            "name": "2018ApJ...854...86E",
-            "human_readable_name": "Eftekhari et al. (2018)"
-        },
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011Sci...333..203B",
-            "human_readable_name": "Bloom et al. (2011)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
         }
     ],
     "photometry": [
@@ -963,5 +887,81 @@
             ],
             "corr_s": null
         }
-    ]
+    ],
+    "reference_alias": [
+        {
+            "name": "2011Natur.476..425Z",
+            "human_readable_name": "Zauderer et al. (2011)"
+        },
+        {
+            "name": "2012ApJ...748...36B",
+            "human_readable_name": "Berger et al. (2012)"
+        },
+        {
+            "name": "2012MNRAS.421.1942W",
+            "human_readable_name": "Wiersema et al. (2012)"
+        },
+        {
+            "name": "2013ApJ...767..152Z",
+            "human_readable_name": "Zauderer et al. (2013)"
+        },
+        {
+            "name": "2016MNRAS.462L..66Y",
+            "human_readable_name": "Yang et al. (2016)"
+        },
+        {
+            "name": "2018ApJ...854...86E",
+            "human_readable_name": "Eftekhari et al. (2018)"
+        },
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011Sci...333..203B",
+            "human_readable_name": "Bloom et al. (2011)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        }
+    ],
+    "name": {
+        "default_name": "Sw J1644+57",
+        "alias": [
+            {
+                "value": "Swift J164449.3+573451",
+                "reference": [
+                    "2011Sci...333..203B"
+                ]
+            },
+            {
+                "value": "Swift J1644+57",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2011Sci...333..203B"
+                ]
+            },
+            {
+                "value": "GRB 110328A",
+                "reference": [
+                    "2011Sci...333..203B"
+                ]
+            },
+            {
+                "value": "Sw J1644+57",
+                "reference": [
+                    "Swift"
+                ]
+            }
+        ]
+    }
 }

@@ -7,6 +7,10 @@
         {
             "name": "2024MNRAS.527.2452M",
             "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.471.1694W",
+            "human_readable_name": "Wevers, Thomas et al. (2017)"
         }
     ],
     "name": {
@@ -53,6 +57,13 @@
                 "2024MNRAS.527.2452M"
             ],
             "distance_type": "redshift"
+        },
+        {
+            "value": 106.0,
+            "error": 2.0,
+            "reference": "2017MNRAS.471.1694W",
+            "unit": "km/s",
+            "distance_type": "dispersion_measure"
         }
     ],
     "date_reference": [
@@ -544,13 +555,16 @@
                 "r.ztf"
             ],
             "obs_type": "uvoir",
-            "reference": "2024MNRAS.527.2452M",
+            "reference": [
+                "2024MNRAS.527.2452M",
+                "2019ApJ...873...92B"
+            ],
             "corr_k": false,
             "corr_s": false,
             "corr_av": false,
             "corr_host": false,
             "corr_hostav": false,
-            "val_hostac": 0.029288737178928284
+            "val_hostav": 0.029288737178928284
         }
     ],
     "filter_alias": [

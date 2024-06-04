@@ -1,4 +1,311 @@
 {
+    "name": {
+        "default_name": "2018zr",
+        "alias": [
+            {
+                "value": "ATLAS18nej",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2018zr",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2018zr",
+                "reference": [
+                    "ASAS-SN Supernovae",
+                    "MAST",
+                    "2019ApJ...880..120H",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "AT2018zr (PS18kh)",
+                "reference": [
+                    "ASAS-SN Supernovae"
+                ]
+            },
+            {
+                "value": "PS18kh",
+                "reference": [
+                    "2018arXiv180902608V",
+                    "2018arXiv180802890H",
+                    "MAST",
+                    "TNS"
+                ]
+            }
+        ]
+    },
+    "distance": [
+        {
+            "value": "0.074",
+            "reference": [
+                "2018arXiv180802890H"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "350",
+            "reference": [
+                "2018arXiv180802890H",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity",
+            "unit": "Mpc"
+        },
+        {
+            "value": "320",
+            "reference": [
+                "2018arXiv180802890H",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        },
+        {
+            "value": 0.071,
+            "reference": [
+                "2019ApJ...880..120H",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 49.79,
+            "reference": "2023ApJ...957...86H",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "error": 4.93
+        },
+        {
+            "value": 0.071,
+            "reference": [
+                "2020TNSCR2246....1D"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "07:56:54.53",
+            "dec": "+34:15:43.6",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2018arXiv180802890H"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": "7:56:54.37",
+            "dec": "34:15:44.8",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "ASAS-SN Supernovae"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 119.227287,
+            "dec": 34.262119,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2019ApJ...880..120H",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 119.22723844,
+            "dec": 34.2621136415,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2018TNSTR.296....1C",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2018arXiv180902608V",
+            "human_readable_name": "2018arXiv180902608V"
+        },
+        {
+            "name": "2018arXiv180802890H",
+            "human_readable_name": "Holoien et al. (2018)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "MAST",
+            "human_readable_name": "MAST"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "ASAS-SN Supernovae",
+            "human_readable_name": "ASAS-SN Supernovae"
+        },
+        {
+            "name": "2019ApJ...880..120H",
+            "human_readable_name": "Holoien, T. W. -S. et al. (2019)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...957...86H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2018TNSTR.296....1C",
+            "human_readable_name": "Chambers, K. C. et al. (2018)"
+        },
+        {
+            "name": "2020TNSCR2246....1D",
+            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "g",
+            "wave_eff": 475.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 622.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "B",
+            "wave_eff": 445.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "U",
+            "wave_eff": 365.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "UVM2",
+            "wave_eff": 225.47802478793594,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "UVW1",
+            "wave_eff": 261.3713060531025,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "UVW2",
+            "wave_eff": 207.98754332676123,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "V",
+            "wave_eff": 551.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "o",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "u",
+            "wave_eff": 354.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "i",
+            "wave_eff": 763.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "z",
+            "wave_eff": 905.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.ztf",
+            "freq_eff": 634121907623677.4,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ztf",
+            "freq_eff": 471994480402802.25,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2019ApJ...880..120H",
+                "2020TNSCR2246....1D",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -5184,13 +5491,16 @@
                 "r.ztf"
             ],
             "obs_type": "uvoir",
-            "reference": "2024MNRAS.527.2452M",
+            "reference": [
+                "2024MNRAS.527.2452M",
+                "2019ApJ...880..120H"
+            ],
             "corr_k": false,
             "corr_s": false,
             "corr_av": false,
             "corr_host": false,
             "corr_hostav": false,
-            "val_hostac": 0.04025975390825349
+            "val_hostav": 0.04025975390825349
         },
         {
             "raw": [
@@ -5265,65 +5575,6 @@
             "instrument": "ATLAS-01"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2019ApJ...880..120H",
-                "2020TNSCR2246....1D",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2018arXiv180902608V",
-            "human_readable_name": "2018arXiv180902608V"
-        },
-        {
-            "name": "2018arXiv180802890H",
-            "human_readable_name": "Holoien et al. (2018)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "MAST",
-            "human_readable_name": "MAST"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "ASAS-SN Supernovae",
-            "human_readable_name": "ASAS-SN Supernovae"
-        },
-        {
-            "name": "2019ApJ...880..120H",
-            "human_readable_name": "Holoien, T. W. -S. et al. (2019)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2018TNSTR.296....1C",
-            "human_readable_name": "Chambers, K. C. et al. (2018)"
-        },
-        {
-            "name": "2020TNSCR2246....1D",
-            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
     "date_reference": [
         {
             "value": "2018-02-07",
@@ -5366,243 +5617,6 @@
             "computed": false
         }
     ],
-    "distance": [
-        {
-            "value": "0.074",
-            "reference": [
-                "2018arXiv180802890H"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "350",
-            "reference": [
-                "2018arXiv180802890H",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "320",
-            "reference": [
-                "2018arXiv180802890H",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
-        },
-        {
-            "value": 0.071,
-            "reference": [
-                "2019ApJ...880..120H",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.071,
-            "reference": [
-                "2020TNSCR2246....1D"
-            ],
-            "computed": false,
-            "distance_type": "redshift"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "g",
-            "wave_eff": 475.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 622.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "B",
-            "wave_eff": 445.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "U",
-            "wave_eff": 365.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "UVM2",
-            "wave_eff": 225.47802478793594,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "UVW1",
-            "wave_eff": 261.3713060531025,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "UVW2",
-            "wave_eff": 207.98754332676123,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "o",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "u",
-            "wave_eff": 354.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "i",
-            "wave_eff": 763.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "z",
-            "wave_eff": 905.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.ztf",
-            "freq_eff": 634121907623677.4,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.ztf",
-            "freq_eff": 471994480402802.25,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "07:56:54.53",
-            "dec": "+34:15:43.6",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2018arXiv180802890H"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": "7:56:54.37",
-            "dec": "34:15:44.8",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "ASAS-SN Supernovae"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 119.227287,
-            "dec": 34.262119,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2019ApJ...880..120H",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 119.22723844,
-            "dec": 34.2621136415,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2018TNSTR.296....1C",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
-    "name": {
-        "default_name": "2018zr",
-        "alias": [
-            {
-                "value": "ATLAS18nej",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2018zr",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2018zr",
-                "reference": [
-                    "ASAS-SN Supernovae",
-                    "MAST",
-                    "2019ApJ...880..120H",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "AT2018zr (PS18kh)",
-                "reference": [
-                    "ASAS-SN Supernovae"
-                ]
-            },
-            {
-                "value": "PS18kh",
-                "reference": [
-                    "2018arXiv180902608V",
-                    "2018arXiv180802890H",
-                    "MAST",
-                    "TNS"
-                ]
-            }
-        ]
-    },
     "schema_version": {
         "value": "0",
         "comment": "Copied from tde.space"

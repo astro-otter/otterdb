@@ -1,4 +1,226 @@
 {
+    "name": {
+        "default_name": "2018mac",
+        "alias": [
+            {
+                "value": "ASASSN-22ci",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022dbl",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2018mac",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF18aabdajx",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia22bdt",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS18bcnl",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022dbl",
+                "reference": [
+                    "2022TNSCR.504....1A",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "PS22cdn",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
+    },
+    "distance": [
+        {
+            "value": 0.0284,
+            "reference": [
+                "2022TNSCR.504....1A",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 60.01,
+            "reference": "2023ApJS..267...44A",
+            "distance_type": "dispersion_measure",
+            "error": 5.112,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.0284,
+            "reference": [
+                "2022TNSCR.504....1A"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": 185.1878251,
+            "dec": 49.5512224,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2022TNSCR.504....1A",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 185.187708,
+            "dec": 49.551281,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2022TNSTR.372....1D",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        },
+        {
+            "ra": 185.18754,
+            "dec": 49.5513,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2022TNSTR1433....1S",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2022TNSCR.504....1A",
+            "human_readable_name": "Arcavi, I. et al. (2022)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJS..267...44A",
+            "human_readable_name": "Almeida, Andr\u00e9s et al. (2023)"
+        },
+        {
+            "name": "2022TNSTR.372....1D",
+            "human_readable_name": "De, K. (2022)"
+        },
+        {
+            "name": "2022TNSTR1433....1S",
+            "human_readable_name": "Stanek, K. Z. (2022)"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W1.wise",
+            "freq_eff": 89917740678395.33,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W2.wise",
+            "freq_eff": 65429370473910.305,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.ztf",
+            "freq_eff": 634121907623677.4,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "i.ztf",
+            "freq_eff": 380021535091050.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ztf",
+            "freq_eff": 471994480402802.25,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "i",
+            "wave_eff": 749.9704174464691,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022TNSCR.504....1A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -3480,13 +3702,16 @@
                 "W2.wise"
             ],
             "obs_type": "uvoir",
-            "reference": "2024MNRAS.527.2452M",
+            "reference": [
+                "2024MNRAS.527.2452M",
+                "2022TNSCR.504....1A"
+            ],
             "corr_k": false,
             "corr_s": false,
             "corr_av": false,
             "corr_host": false,
             "corr_hostav": false,
-            "val_hostac": 0.016435211501368785
+            "val_hostav": 0.016435211501368785
         },
         {
             "raw": [
@@ -3705,35 +3930,6 @@
             "instrument": "Leavitt"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR.504....1A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2022TNSCR.504....1A",
-            "human_readable_name": "Arcavi, I. et al. (2022)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2022TNSTR.372....1D",
-            "human_readable_name": "De, K. (2022)"
-        },
-        {
-            "name": "2022TNSTR1433....1S",
-            "human_readable_name": "Stanek, K. Z. (2022)"
-        }
-    ],
     "date_reference": [
         {
             "value": 59637.0,
@@ -3759,187 +3955,5 @@
             "computed": false,
             "date_type": "discovery"
         }
-    ],
-    "distance": [
-        {
-            "value": 0.0284,
-            "reference": [
-                "2022TNSCR.504....1A",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.0284,
-            "reference": [
-                "2022TNSCR.504....1A"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W1.wise",
-            "freq_eff": 89917740678395.33,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W2.wise",
-            "freq_eff": 65429370473910.305,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.ztf",
-            "freq_eff": 634121907623677.4,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "i.ztf",
-            "freq_eff": 380021535091050.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.ztf",
-            "freq_eff": 471994480402802.25,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "G",
-            "wave_eff": 673.5412573108297,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "i",
-            "wave_eff": 749.9704174464691,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": 185.1878251,
-            "dec": 49.5512224,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2022TNSCR.504....1A",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 185.187708,
-            "dec": 49.551281,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2022TNSTR.372....1D",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        },
-        {
-            "ra": 185.18754,
-            "dec": 49.5513,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2022TNSTR1433....1S",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
-    "name": {
-        "default_name": "2018mac",
-        "alias": [
-            {
-                "value": "2022dbl",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ASASSN-22ci",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF18aabdajx",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2018mac",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022dbl",
-                "reference": [
-                    "2022TNSCR.504....1A",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "PS22cdn",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS18bcnl",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia22bdt",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    }
+    ]
 }
