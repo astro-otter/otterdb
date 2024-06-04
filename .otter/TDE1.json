@@ -1,71 +1,4 @@
 {
-    "distance": [
-        {
-            "value": "0.136",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "662",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "582",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
-        },
-        {
-            "value": 0.136,
-            "reference": [
-                "2011ApJ...741...73V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2006-08-27",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2011ApJ...741...73V",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "measurement_type": "discovery",
-            "default": true
-        },
-        {
-            "value": 53973.95833333336,
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2011ApJ...741...73V",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "FUV",
@@ -160,26 +93,6 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "TDE1",
-        "alias": [
-            {
-                "value": "SDSS-TDE1",
-                "reference": [
-                    "2011ApJ...741...73V",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "TDE1",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2011ApJ...741...73V",
-                    "2000A&AS..143....9W"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "raw": [
@@ -808,6 +721,69 @@
             "val_hostac": 0.023754290903395252
         }
     ],
+    "name": {
+        "default_name": "TDE1",
+        "alias": [
+            {
+                "value": "SDSS-TDE1",
+                "reference": [
+                    "2011ApJ...741...73V",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "TDE1",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2011ApJ...741...73V",
+                    "2000A&AS..143....9W"
+                ]
+            }
+        ]
+    },
+    "distance": [
+        {
+            "value": "0.136",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "662",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity",
+            "unit": "Mpc"
+        },
+        {
+            "value": "582",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        },
+        {
+            "value": 0.136,
+            "reference": [
+                "2011ApJ...741...73V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        }
+    ],
     "coordinate": [
         {
             "ra": "23:42:01.406",
@@ -830,6 +806,30 @@
                 "2024MNRAS.527.2452M"
             ],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2006-08-27",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2011ApJ...741...73V",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "measurement_type": "discovery",
+            "default": true
+        },
+        {
+            "value": 53973.95833333336,
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2011ApJ...741...73V",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false
         }
     ],
     "schema_version": {

@@ -1,68 +1,4 @@
 {
-    "distance": [
-        {
-            "value": "0.01513",
-            "reference": [
-                "2020arXiv200602454N"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "65.6",
-            "reference": [
-                "2020arXiv200602454N"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "66.72",
-            "reference": [
-                "2020arXiv200602454N",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
-        },
-        {
-            "value": 0.0151,
-            "reference": [
-                "2020MNRAS.499..482N,2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2019-09-24 9:50:24.000000000012278",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "ASAS-SN Supernovae"
-            ],
-            "computed": false,
-            "measurement_type": "discovery",
-            "default": true
-        },
-        {
-            "value": 58763.4168287037,
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2020MNRAS.499..482N,2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false
-        }
-    ],
     "reference_alias": [
         {
             "name": "2020arXiv200602454N",
@@ -130,6 +66,47 @@
             }
         ]
     },
+    "distance": [
+        {
+            "value": "0.01513",
+            "reference": [
+                "2020arXiv200602454N"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "65.6",
+            "reference": [
+                "2020arXiv200602454N"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity",
+            "unit": "Mpc"
+        },
+        {
+            "value": "66.72",
+            "reference": [
+                "2020arXiv200602454N",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        },
+        {
+            "value": 0.0151,
+            "reference": [
+                "2020MNRAS.499..482N,2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        }
+    ],
     "coordinate": [
         {
             "ra": "4:46:37.99",
@@ -151,6 +128,29 @@
                 "2024MNRAS.527.2452M"
             ],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2019-09-24 9:50:24.000000000012278",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "ASAS-SN Supernovae"
+            ],
+            "computed": false,
+            "measurement_type": "discovery",
+            "default": true
+        },
+        {
+            "value": 58763.4168287037,
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2020MNRAS.499..482N,2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false
         }
     ],
     "schema_version": {

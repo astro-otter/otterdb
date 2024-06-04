@@ -1,135 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2021TNSTR3208....1F",
-            "human_readable_name": "Fremling, C. (2021)"
-        },
-        {
-            "name": "2022TNSCR.363....1C",
-            "human_readable_name": "Chu, M. et al. (2022)"
-        },
-        {
-            "name": " 2023TNSCR2004....1Y",
-            "human_readable_name": "Yao, Y. (2023)"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W1.wise",
-            "freq_eff": 89917740678395.33,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W2.wise",
-            "freq_eff": 65429370473910.305,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.ztf",
-            "freq_eff": 634121907623677.4,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "i.ztf",
-            "freq_eff": 380021535091050.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.ztf",
-            "freq_eff": 471994480402802.25,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        }
-    ],
-    "distance": [
-        {
-            "value": 0.286,
-            "reference": [
-                "2023arXiv23030",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.286,
-            "reference": [
-                "2022TNSCR.363....1C",
-                "2023TNSCR2004....1Y"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR.363....1C",
-                "2023TNSCR2004....1Y",
-                "2023arXiv23030",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "2021yzv",
-        "alias": [
-            {
-                "value": "ZTF21abxngcz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2021yzv",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2021yzv",
-                "reference": [
-                    "2023arXiv23030",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "raw": [
@@ -6408,6 +6277,136 @@
             "instrument": "ZTF-Cam"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022ApJ...925...67L",
+                "2022TNSCR.363....1C",
+                "2023TNSCR2004....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2022ApJ...925...67L",
+            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2021TNSTR3208....1F",
+            "human_readable_name": "Fremling, C. (2021)"
+        },
+        {
+            "name": "2022TNSCR.363....1C",
+            "human_readable_name": "Chu, M. et al. (2022)"
+        },
+        {
+            "name": " 2023TNSCR2004....1Y",
+            "human_readable_name": "Yao, Y. (2023)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 59479.9583333333,
+            "date_format": "mjd",
+            "reference": [
+                "2022ApJ...925...67L",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 59442.501,
+            "date_format": "mjd",
+            "reference": "2021TNSTR3208....1F",
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.286,
+            "reference": [
+                "2022ApJ...925...67L",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.286,
+            "reference": [
+                "2022TNSCR.363....1C",
+                "2023TNSCR2004....1Y"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W1.wise",
+            "freq_eff": 89917740678395.33,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W2.wise",
+            "freq_eff": 65429370473910.305,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.ztf",
+            "freq_eff": 634121907623677.4,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "i.ztf",
+            "freq_eff": 380021535091050.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ztf",
+            "freq_eff": 471994480402802.25,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
+        }
+    ],
     "coordinate": [
         {
             "ra": 105.2775159,
@@ -6415,7 +6414,7 @@
             "ra_units": "deg",
             "dec_units": "deg",
             "reference": [
-                "2023arXiv23030",
+                "2022ApJ...925...67L",
                 "2024MNRAS.527.2452M"
             ],
             "coordinate_type": "equitorial"
@@ -6431,23 +6430,28 @@
             "frame": "ICRS"
         }
     ],
-    "date_reference": [
-        {
-            "value": 59479.9583333333,
-            "date_format": "mjd",
-            "reference": [
-                "2023arXiv23030",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
-        },
-        {
-            "value": 59442.501,
-            "date_format": "mjd",
-            "reference": "2021TNSTR3208....1F",
-            "computed": false,
-            "date_type": "discovery"
-        }
-    ]
+    "name": {
+        "default_name": "2021yzv",
+        "alias": [
+            {
+                "value": "ZTF21abxngcz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2021yzv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2021yzv",
+                "reference": [
+                    "2022ApJ...925...67L",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    }
 }

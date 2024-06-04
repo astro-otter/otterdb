@@ -1,77 +1,4 @@
 {
-    "distance": [
-        {
-            "value": "0.1146",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2014ApJ...793...38A",
-                "2012PASP..124..668Y"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "550",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2014ApJ...793...38A",
-                "2017ApJ...835...64G",
-                "2012PASP..124..668Y"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "493.4",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2014ApJ...793...38A",
-                "2017ApJ...835...64G",
-                "2012PASP..124..668Y"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
-        },
-        {
-            "value": 0.1146,
-            "reference": [
-                "2014ApJ...793...38A",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2009-06-20",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2014ApJ...793...38A",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "measurement_type": "discovery",
-            "default": true
-        },
-        {
-            "value": 55023.62500000004,
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2014ApJ...793...38A",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",
@@ -174,26 +101,6 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "PTF09axc",
-        "alias": [
-            {
-                "value": "PTF-09axc",
-                "reference": [
-                    "2014ApJ...793...38A",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "PTF09axc",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2012PASP..124..668Y",
-                    "2000A&AS..143....9W"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "raw": [
@@ -564,6 +471,75 @@
             "val_hostac": 0.030703158848370018
         }
     ],
+    "name": {
+        "default_name": "PTF09axc",
+        "alias": [
+            {
+                "value": "PTF-09axc",
+                "reference": [
+                    "2014ApJ...793...38A",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "PTF09axc",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2012PASP..124..668Y",
+                    "2000A&AS..143....9W"
+                ]
+            }
+        ]
+    },
+    "distance": [
+        {
+            "value": "0.1146",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2014ApJ...793...38A",
+                "2012PASP..124..668Y"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "550",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2014ApJ...793...38A",
+                "2017ApJ...835...64G",
+                "2012PASP..124..668Y"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity",
+            "unit": "Mpc"
+        },
+        {
+            "value": "493.4",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2014ApJ...793...38A",
+                "2017ApJ...835...64G",
+                "2012PASP..124..668Y"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        },
+        {
+            "value": 0.1146,
+            "reference": [
+                "2014ApJ...793...38A",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        }
+    ],
     "coordinate": [
         {
             "ra": "14:53:13.06",
@@ -571,9 +547,9 @@
             "ra_units": "hour",
             "dec_units": "deg",
             "reference": [
-                "2010ApJ...721..777A",
+                "2017ApJ...838..149A",
                 "2000A&AS..143....9W",
-                "2017ApJ...838..149A"
+                "2010ApJ...721..777A"
             ],
             "coordinate_type": "equitorial"
         },
@@ -587,6 +563,30 @@
                 "2024MNRAS.527.2452M"
             ],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2009-06-20",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2014ApJ...793...38A",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "measurement_type": "discovery",
+            "default": true
+        },
+        {
+            "value": 55023.62500000004,
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2014ApJ...793...38A",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false
         }
     ],
     "schema_version": {
