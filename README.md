@@ -1,15 +1,17 @@
 # otterdb
 Backend database code and data for OTTER
 
-To use this code you first must install ArangoDB from
-https://www.arangodb.com/download-major/
+## A note on the classification `confidence` keyword
+These confidence scores are *our* **rough** confidence values in the classification
+of this object. They were determined using the following, somewhat arbitrary, system:
 
-Now, to build the database run the following commands
-```
-git clone https://github.com/astro-otter/otterdb.git
-cd db
-./setup.sh
-```
+| Confidence | Reason |
+|------------|--------|
+| 0.1 | Classifications with these values are from the Open TDE Catalog and either did not have a classification reference or were not strictly classified as a TDE in that catalog |
+| 0.5 | These classifications are from TNS. We give classifications from TNS a confidence of 0.5 because there are a select few that are wrong on TNS (e.g. 2017bcc) |
+| 1 | We trust the reference for this classification |
+
+**Warning:** This confidence score system is still under development and may have bugs or mistakes, please trust at your own risk!
 
 ## Providing Data
 We expect the data to come as a zip file that contains a single `meta.csv`
