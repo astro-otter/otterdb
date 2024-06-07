@@ -1,98 +1,4 @@
 {
-    "coordinate": [
-        {
-            "ra": "23:42:01.406",
-            "dec": "+01:06:29.30",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2011ApJ...741...73V",
-                "2000A&AS..143....9W"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 355.50586,
-            "dec": 1.1081316,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2011ApJ...741...73V",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...741...73V",
-            "human_readable_name": "van Velzen et al. (2011)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2000A&AS..143....9W",
-            "human_readable_name": "Wenger et al. (2000)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2017MNRAS.471.1694W",
-            "human_readable_name": "Wevers, Thomas et al. (2017)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2006-08-27",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2011ApJ...741...73V",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "measurement_type": "discovery",
-            "default": true
-        },
-        {
-            "value": 53973.95833333336,
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2011ApJ...741...73V",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2011ApJ...741...73V",
-                "2017ApJ...835...64G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "distance": [
         {
             "value": "0.136",
@@ -143,26 +49,18 @@
             "error": 7.0
         }
     ],
-    "name": {
-        "default_name": "TDE1",
-        "alias": [
-            {
-                "value": "SDSS-TDE1",
-                "reference": [
-                    "2011ApJ...741...73V",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "TDE1",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2011ApJ...741...73V",
-                    "2000A&AS..143....9W"
-                ]
-            }
-        ]
-    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2011ApJ...741...73V",
+                "2017ApJ...835...64G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "FUV",
@@ -843,7 +741,109 @@
             "corr_av": false,
             "corr_host": false,
             "corr_hostav": false,
-            "val_hostav": 0.023754290903395252
+            "val_av": 0.07601373089086481
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "23:42:01.406",
+            "dec": "+01:06:29.30",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2011ApJ...741...73V",
+                "2000A&AS..143....9W"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 355.50586,
+            "dec": 1.1081316,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2011ApJ...741...73V",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...741...73V",
+            "human_readable_name": "van Velzen et al. (2011)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2000A&AS..143....9W",
+            "human_readable_name": "Wenger et al. (2000)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.471.1694W",
+            "human_readable_name": "Wevers, Thomas et al. (2017)"
+        }
+    ],
+    "name": {
+        "default_name": "TDE1",
+        "alias": [
+            {
+                "value": "SDSS-TDE1",
+                "reference": [
+                    "2011ApJ...741...73V",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "TDE1",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2011ApJ...741...73V",
+                    "2000A&AS..143....9W"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "2006-08-27",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2011ApJ...741...73V",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "measurement_type": "discovery",
+            "default": true
+        },
+        {
+            "value": 53973.95833333336,
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2011ApJ...741...73V",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false
         }
     ],
     "schema_version": {

@@ -22,69 +22,6 @@
             }
         ]
     },
-    "coordinate": [
-        {
-            "ra": "13 34 43.207",
-            "dec": "+33 13 00.54",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "reference": [
-                "2022Natur.612..430A"
-            ],
-            "computed": false,
-            "default": true,
-            "uuid": "f58fb9aa-0dce-4fa1-8f59-074d657c7142",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "reference": "f58fb9aa-0dce-4fa1-8f59-074d657c7142",
-            "computed": true,
-            "coordinate_type": "galactic",
-            "l": 68.62957133676095,
-            "b": 78.8489417474028,
-            "l_units": "deg",
-            "b_units": "deg"
-        },
-        {
-            "ra": 203.6800286,
-            "dec": 33.216817166666665,
-            "epoch": "J2000",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2022TNSTR.397....1A",
-            "coordinate_type": "equitorial",
-            "frame": "ICRS"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2022Natur.612..430A",
-            "human_readable_name": "Igor et al. (2022)"
-        },
-        {
-            "name": "2022TNSTR.397....1A",
-            "human_readable_name": "Andreoni, I. (2022)"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "8.5GHz",
-            "freq_eff": 8.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        }
-    ],
     "photometry": [
         {
             "reference": [
@@ -305,6 +242,69 @@
             "instrument": "ZTF-Cam"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2022Natur.612..430A",
+            "human_readable_name": "Igor et al. (2022)"
+        },
+        {
+            "name": "2022TNSTR.397....1A",
+            "human_readable_name": "Andreoni, I. (2022)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "13 34 43.207",
+            "dec": "+33 13 00.54",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "ed237b48-b55e-40b2-b7c7-97066ed88eb9",
+            "coordinate_type": "equitorial"
+        },
+        {
+            "reference": "ed237b48-b55e-40b2-b7c7-97066ed88eb9",
+            "computed": true,
+            "coordinate_type": "galactic",
+            "l": 68.62957133676095,
+            "b": 78.8489417474028,
+            "l_units": "deg",
+            "b_units": "deg"
+        },
+        {
+            "ra": 203.6800286,
+            "dec": 33.216817166666665,
+            "epoch": "J2000",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2022TNSTR.397....1A",
+            "coordinate_type": "equitorial",
+            "frame": "ICRS"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "8.5GHz",
+            "freq_eff": 8.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
+        }
+    ],
     "date_reference": [
         {
             "value": 59621.45,
@@ -323,17 +323,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": "1.19325",
-            "reference": [
-                "2022Natur.612..430A"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        }
-    ],
     "schema_version": {
         "value": "0",
         "comment": "Original Dataset"
@@ -346,6 +335,17 @@
                 "2022Natur.612..430A"
             ],
             "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": "1.19325",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         }
     ]
 }

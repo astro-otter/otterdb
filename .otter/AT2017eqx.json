@@ -24,143 +24,6 @@
             }
         ]
     },
-    "coordinate": [
-        {
-            "ra": "22:26:48.37",
-            "dec": "+17:08:52.4",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2019MNRAS.488.1878N"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 336.701543422,
-            "dec": 17.1478884031,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2019MNRAS.488.1878N",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 336.701543422,
-            "dec": 17.1478884031,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2017TNSTR.646....1C",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2019MNRAS.488.1878N",
-            "human_readable_name": "Nicholl et al. 2019"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2017TNSTR.646....1C",
-            "human_readable_name": "Chambers, K. C. et al. (2017)"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "o",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "g",
-            "wave_eff": 475.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "i",
-            "wave_eff": 763.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 622.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "z",
-            "wave_eff": 905.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "M2",
-            "wave_eff": 260.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "U",
-            "wave_eff": 365.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "W1",
-            "wave_eff": 224.6,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "W2",
-            "wave_eff": 192.8,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.sdss",
-            "freq_eff": 646569472243250.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.sdss",
-            "freq_eff": 488925642232043.75,
-            "freq_units": "Hz"
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -1061,7 +924,7 @@
             "corr_av": false,
             "corr_host": false,
             "corr_hostav": false,
-            "val_hostav": 0.05476459336318047
+            "val_av": 0.17524669876217752
         },
         {
             "raw": [
@@ -1086,6 +949,143 @@
             "corr_hostav": false,
             "telescope": "PS1",
             "instrument": "GPC1"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2019MNRAS.488.1878N",
+            "human_readable_name": "Nicholl et al. 2019"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2017TNSTR.646....1C",
+            "human_readable_name": "Chambers, K. C. et al. (2017)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "22:26:48.37",
+            "dec": "+17:08:52.4",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2019MNRAS.488.1878N"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 336.701543422,
+            "dec": 17.1478884031,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2019MNRAS.488.1878N",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 336.701543422,
+            "dec": 17.1478884031,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2017TNSTR.646....1C",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "o",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 475.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "i",
+            "wave_eff": 763.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 622.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "z",
+            "wave_eff": 905.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "M2",
+            "wave_eff": 260.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "U",
+            "wave_eff": 365.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "W1",
+            "wave_eff": 224.6,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "W2",
+            "wave_eff": 192.8,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.sdss",
+            "freq_eff": 646569472243250.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.sdss",
+            "freq_eff": 488925642232043.75,
+            "freq_units": "Hz"
         }
     ],
     "date_reference": [
@@ -1119,6 +1119,22 @@
             "computed": false
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2019MNRAS.488.1878N",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
     "distance": [
         {
             "value": "0.1089",
@@ -1158,22 +1174,6 @@
                 "2024MNRAS.527.2452M"
             ],
             "distance_type": "redshift"
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2019MNRAS.488.1878N",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

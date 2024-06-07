@@ -1,4 +1,64 @@
 {
+    "distance": [
+        {
+            "value": "0.01513",
+            "reference": [
+                "2020arXiv200602454N"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "65.6",
+            "reference": [
+                "2020arXiv200602454N"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity",
+            "unit": "Mpc"
+        },
+        {
+            "value": "66.72",
+            "reference": [
+                "2020arXiv200602454N",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        },
+        {
+            "value": 0.0151,
+            "reference": [
+                "2020MNRAS.499..482N,2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 71.85,
+            "reference": "2023ApJ...957...86H",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "error": 1.93
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2020MNRAS.499..482N,2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "coordinate": [
         {
             "ra": "4:46:37.99",
@@ -60,6 +120,27 @@
             "human_readable_name": "Hammerstein, Erica et al. (2023)"
         }
     ],
+    "name": {
+        "default_name": "AT2019qiz",
+        "alias": [
+            {
+                "value": "AT2019qiz (= ZTF19abzrhgq)",
+                "reference": [
+                    "ASAS-SN Supernovae"
+                ]
+            },
+            {
+                "value": "AT2019qiz",
+                "reference": [
+                    "2020arXiv200602454N",
+                    "ASAS-SN Supernovae",
+                    "MAST",
+                    "2020MNRAS.499..482N,2021ApJ...908....4V",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2019-09-24 9:50:24.000000000012278",
@@ -83,87 +164,6 @@
             "computed": false
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2020MNRAS.499..482N,2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.01513",
-            "reference": [
-                "2020arXiv200602454N"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "65.6",
-            "reference": [
-                "2020arXiv200602454N"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "66.72",
-            "reference": [
-                "2020arXiv200602454N",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
-        },
-        {
-            "value": 0.0151,
-            "reference": [
-                "2020MNRAS.499..482N,2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 71.85,
-            "reference": "2023ApJ...957...86H",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "error": 1.93
-        }
-    ],
-    "name": {
-        "default_name": "AT2019qiz",
-        "alias": [
-            {
-                "value": "AT2019qiz (= ZTF19abzrhgq)",
-                "reference": [
-                    "ASAS-SN Supernovae"
-                ]
-            },
-            {
-                "value": "AT2019qiz",
-                "reference": [
-                    "2020arXiv200602454N",
-                    "ASAS-SN Supernovae",
-                    "MAST",
-                    "2020MNRAS.499..482N,2021ApJ...908....4V",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
     "schema_version": {
         "value": "0",
         "comment": "Copied from tde.space"
@@ -4133,7 +4133,7 @@
             "corr_av": false,
             "corr_host": false,
             "corr_hostav": false,
-            "val_hostav": 0.09460198092954256
+            "val_av": 0.3027263389745362
         }
     ]
 }

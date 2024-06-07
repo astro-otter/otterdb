@@ -3,13 +3,13 @@
         "default_name": "2019cho",
         "alias": [
             {
-                "value": "ZTF19aakiwze",
+                "value": "2019cho",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2019cho",
+                "value": "ZTF19aakiwze",
                 "reference": [
                     "TNS"
                 ]
@@ -23,80 +23,6 @@
             }
         ]
     },
-    "coordinate": [
-        {
-            "ra": 193.788374,
-            "dec": 49.519424,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 193.7883736,
-            "dec": 49.5194241,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2019TNSTR.444....1N",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2021ApJ...908....4V",
-            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2019TNSTR.444....1N",
-            "human_readable_name": "Nordin, J. et al. (2019)"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W1.wise",
-            "freq_eff": 89917740678395.33,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W2.wise",
-            "freq_eff": 65429370473910.305,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.ztf",
-            "freq_eff": 634121907623677.4,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "i.ztf",
-            "freq_eff": 380021535091050.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.ztf",
-            "freq_eff": 471994480402802.25,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -6743,7 +6669,7 @@
             "corr_av": false,
             "corr_host": false,
             "corr_hostav": false,
-            "val_hostav": 0.011815899003847927
+            "val_av": 0.03781087681231337
         },
         {
             "raw": [
@@ -6818,6 +6744,80 @@
             "instrument": "ZTF-Cam"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2021ApJ...908....4V",
+            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2019TNSTR.444....1N",
+            "human_readable_name": "Nordin, J. et al. (2019)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": 193.788374,
+            "dec": 49.519424,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 193.7883736,
+            "dec": 49.5194241,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2019TNSTR.444....1N",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W1.wise",
+            "freq_eff": 89917740678395.33,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W2.wise",
+            "freq_eff": 65429370473910.305,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.ztf",
+            "freq_eff": 634121907623677.4,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "i.ztf",
+            "freq_eff": 380021535091050.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ztf",
+            "freq_eff": 471994480402802.25,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
+        }
+    ],
     "date_reference": [
         {
             "value": 58546.267291666656,
@@ -6837,16 +6837,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.193,
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        }
-    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -6856,6 +6846,16 @@
                 "2024MNRAS.527.2452M"
             ],
             "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.193,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
         }
     ]
 }
