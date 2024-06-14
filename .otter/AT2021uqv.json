@@ -1,40 +1,17 @@
 {
-    "name": {
-        "default_name": "2021uqv",
-        "alias": [
-            {
-                "value": "ZTF21abqhkjd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS21beiz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia21drx",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2021uqv",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2021uqv",
-                "reference": [
-                    "2022ApJ...925...67L",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR3411....1Y",
+                "2022ApJ...925...67L",
+                "2023TNSCR2004....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -10072,90 +10049,6 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR3411....1Y",
-                "2022ApJ...925...67L",
-                "2023TNSCR2004....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2022ApJ...925...67L",
-            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2021TNSTR2648....1M",
-            "human_readable_name": "Munoz-Arancibia, A. et al. (2021)"
-        },
-        {
-            "name": "2021TNSCR3411....1Y",
-            "human_readable_name": "Yao, Y. (2021)"
-        },
-        {
-            "name": " 2023TNSCR2004....1Y",
-            "human_readable_name": "Yao, Y. (2023)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": 8.1661537,
-            "dec": 22.5489318,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 8.166167,
-            "dec": 22.5489,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2021TNSTR2648....1M",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
-    "distance": [
-        {
-            "value": 0.106,
-            "reference": [
-                "2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 62.3,
-            "reference": "2022ApJ...925...67L",
-            "distance_type": "dispersion_measure",
-            "error": 7.08,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.106,
-            "reference": [
-                "2021TNSCR3411....1Y",
-                "2023TNSCR2004....1Y"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -10251,5 +10144,112 @@
             "computed": false,
             "date_type": "discovery"
         }
-    ]
+    ],
+    "distance": [
+        {
+            "value": 0.106,
+            "reference": [
+                "2022ApJ...925...67L",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 62.3,
+            "reference": "2022ApJ...925...67L",
+            "distance_type": "dispersion_measure",
+            "error": 7.08,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.106,
+            "reference": [
+                "2021TNSCR3411....1Y",
+                "2023TNSCR2004....1Y"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": 8.1661537,
+            "dec": 22.5489318,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2022ApJ...925...67L",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 8.166167,
+            "dec": 22.5489,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2021TNSTR2648....1M",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2022ApJ...925...67L",
+            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2021TNSTR2648....1M",
+            "human_readable_name": "Munoz-Arancibia, A. et al. (2021)"
+        },
+        {
+            "name": "2021TNSCR3411....1Y",
+            "human_readable_name": "Yao, Y. (2021)"
+        },
+        {
+            "name": " 2023TNSCR2004....1Y",
+            "human_readable_name": "Yao, Y. (2023)"
+        }
+    ],
+    "name": {
+        "default_name": "2021uqv",
+        "alias": [
+            {
+                "value": "2021uqv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia21drx",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS21beiz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF21abqhkjd",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2021uqv",
+                "reference": [
+                    "2022ApJ...925...67L",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    }
 }

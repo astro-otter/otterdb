@@ -1,28 +1,16 @@
 {
-    "name": {
-        "default_name": "2018bsi",
-        "alias": [
-            {
-                "value": "ZTF18aahqkbt",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2018bsi",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2018bsi",
-                "reference": [
-                    "2021ApJ...908....4V",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR2260....1D",
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -292,88 +280,6 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR2260....1D",
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2021ApJ...908....4V",
-            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...957...86H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2018TNSTR.652....1F",
-            "human_readable_name": "Fremling, C. & Taggart, K. (2018)"
-        },
-        {
-            "name": "2020TNSCR2260....1D",
-            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": 123.860974754,
-            "dec": 45.592225495,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 123.860919,
-            "dec": 45.592208,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2018TNSTR.652....1F",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
-    "distance": [
-        {
-            "value": 0.051,
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 117.54,
-            "reference": "2023ApJ...957...86H",
-            "distance_type": "dispersion_measure",
-            "error": 8.12,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.051,
-            "reference": [
-                "2020TNSCR2260....1D"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -434,5 +340,99 @@
             "computed": false,
             "date_type": "discovery"
         }
-    ]
+    ],
+    "distance": [
+        {
+            "value": 0.051,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 117.54,
+            "reference": "2023ApJ...957...86H",
+            "distance_type": "dispersion_measure",
+            "error": 8.12,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.051,
+            "reference": [
+                "2020TNSCR2260....1D"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": 123.860974754,
+            "dec": 45.592225495,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 123.860919,
+            "dec": 45.592208,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2018TNSTR.652....1F",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2021ApJ...908....4V",
+            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...957...86H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2018TNSTR.652....1F",
+            "human_readable_name": "Fremling, C. & Taggart, K. (2018)"
+        },
+        {
+            "name": "2020TNSCR2260....1D",
+            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
+        }
+    ],
+    "name": {
+        "default_name": "2018bsi",
+        "alias": [
+            {
+                "value": "2018bsi",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF18aahqkbt",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2018bsi",
+                "reference": [
+                    "2021ApJ...908....4V",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    }
 }

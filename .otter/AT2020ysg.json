@@ -1,40 +1,4 @@
 {
-    "name": {
-        "default_name": "2020ysg",
-        "alias": [
-            {
-                "value": "PS21cru",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2020ysg",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS20bjqp",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20abnorit",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2020ysg",
-                "reference": [
-                    "2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "raw": [
@@ -3816,43 +3780,6 @@
             "instrument": "GPC2"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR3332....1N",
-            "human_readable_name": "Nordin, J. et al. (2020)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": 171.35844,
-            "dec": 27.440599,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 171.358422949,
-            "dec": 27.4405993708,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2020TNSTR3332....1N",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -3939,6 +3866,79 @@
             "date_type": "discovery"
         }
     ],
+    "coordinate": [
+        {
+            "ra": 171.35844,
+            "dec": 27.440599,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 171.358422949,
+            "dec": 27.4405993708,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2020TNSTR3332....1N",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR3332....1N",
+            "human_readable_name": "Nordin, J. et al. (2020)"
+        }
+    ],
+    "name": {
+        "default_name": "2020ysg",
+        "alias": [
+            {
+                "value": "ATLAS20bjqp",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2020ysg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20abnorit",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS21cru",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2020ysg",
+                "reference": [
+                    "2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "classification": [
         {
             "object_class": "TDE",

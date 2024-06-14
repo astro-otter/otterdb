@@ -1,27 +1,4 @@
 {
-    "name": {
-        "default_name": "2022wyq",
-        "alias": [
-            {
-                "value": "ZTF20acyxwgf",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022wyq",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "J094806",
-                "reference": [
-                    "2017arXiv171104577K"
-                ]
-            }
-        ]
-    },
     "coordinate": [
         {
             "ra": "09:48:06.55",
@@ -66,6 +43,56 @@
             "human_readable_name": "Fremling, C. (2022)"
         }
     ],
+    "name": {
+        "default_name": "2022wyq",
+        "alias": [
+            {
+                "value": "2022wyq",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20acyxwgf",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "J094806",
+                "reference": [
+                    "2017arXiv171104577K"
+                ]
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 0.5,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
     "distance": [
         {
             "value": "0.207",
@@ -101,43 +128,13 @@
             "distance_type": "comoving"
         }
     ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
-    "classification": [
+    "date_reference": [
         {
-            "object_class": "TDE",
-            "confidence": 0.5,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
+            "value": 59695.193,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": "2022TNSTR2919....1F",
+            "computed": false
         }
     ],
     "photometry": [
@@ -214,13 +211,16 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "date_reference": [
+    "filter_alias": [
         {
-            "value": 59695.193,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": "2022TNSTR2919....1F",
-            "computed": false
+            "filter_key": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
         }
     ]
 }

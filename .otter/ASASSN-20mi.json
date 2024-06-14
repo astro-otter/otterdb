@@ -1,33 +1,4 @@
 {
-    "name": {
-        "default_name": "2020zeb",
-        "alias": [
-            {
-                "value": "Gaia20fct",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2020zeb",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ASASSN-20mi",
-                "reference": [
-                    "ASAS-SN Supernovae"
-                ]
-            },
-            {
-                "value": "AT 2020ual",
-                "reference": [
-                    "ASAS-SN Supernovae"
-                ]
-            }
-        ]
-    },
     "coordinate": [
         {
             "ra": "21:15:40.31",
@@ -50,6 +21,45 @@
             "frame": "ICRS"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "ASAS-SN Supernovae",
+            "human_readable_name": "ASAS-SN Supernovae"
+        },
+        {
+            "name": "2020TNSTR3418....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2020)"
+        }
+    ],
+    "name": {
+        "default_name": "2020zeb",
+        "alias": [
+            {
+                "value": "2020zeb",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia20fct",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ASASSN-20mi",
+                "reference": [
+                    "ASAS-SN Supernovae"
+                ]
+            },
+            {
+                "value": "AT 2020ual",
+                "reference": [
+                    "ASAS-SN Supernovae"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2020-09-23 0:14:24.00000000013506",
@@ -70,20 +80,6 @@
             "computed": false
         }
     ],
-    "reference_alias": [
-        {
-            "name": "ASAS-SN Supernovae",
-            "human_readable_name": "ASAS-SN Supernovae"
-        },
-        {
-            "name": "2020TNSTR3418....1H",
-            "human_readable_name": "Hodgkin, S. T. et al. (2020)"
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
     "classification": [
         {
             "object_class": "TDE",
@@ -93,13 +89,10 @@
             ]
         }
     ],
-    "filter_alias": [
-        {
-            "filter_key": "G",
-            "wave_eff": 673.5412573108297,
-            "wave_units": "nm"
-        }
-    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
     "photometry": [
         {
             "raw": [
@@ -148,6 +141,13 @@
             "corr_hostav": false,
             "telescope": "Gaia",
             "instrument": "Gaia-photometric"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
         }
     ]
 }
