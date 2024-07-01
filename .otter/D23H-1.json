@@ -1,4 +1,87 @@
 {
+    "name": {
+        "default_name": "D23H-1",
+        "alias": [
+            {
+                "value": "GALEX-D23H-1",
+                "reference": [
+                    "2009ApJ...698.1367G",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "D23H-1",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            }
+        ]
+    },
+    "distance": [
+        {
+            "value": "0.1855",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2009ApJ...698.1367G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "930.2",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2009ApJ...698.1367G",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity",
+            "unit": "Mpc"
+        },
+        {
+            "value": "784.6",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2009ApJ...698.1367G",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        },
+        {
+            "value": 0.1855,
+            "reference": [
+                "2009ApJ...698.1367G",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 84.0,
+            "reference": "2017MNRAS.471.1694W",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "error": 4.0
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2009ApJ...698.1367G",
+                "2017ApJ...835...64G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -364,16 +447,34 @@
             "val_av": 0.09735968570490111
         }
     ],
-    "classification": [
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2009ApJ...698.1367G",
-                "2017ApJ...835...64G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2009ApJ...698.1367G",
+            "human_readable_name": "Gezari et al. (2009)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.471.1694W",
+            "human_readable_name": "Wevers, Thomas et al. (2017)"
         }
     ],
     "date_reference": [
@@ -386,7 +487,6 @@
                 "2017ApJ...835...64G"
             ],
             "computed": false,
-            "measurement_type": "discovery",
             "default": true
         },
         {
@@ -434,77 +534,6 @@
             "freq_units": "Hz"
         }
     ],
-    "distance": [
-        {
-            "value": "0.1855",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2009ApJ...698.1367G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "930.2",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2009ApJ...698.1367G",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "784.6",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2009ApJ...698.1367G",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
-        },
-        {
-            "value": 0.1855,
-            "reference": [
-                "2009ApJ...698.1367G",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 84.0,
-            "reference": "2017MNRAS.471.1694W",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "error": 4.0
-        }
-    ],
-    "name": {
-        "default_name": "D23H-1",
-        "alias": [
-            {
-                "value": "GALEX-D23H-1",
-                "reference": [
-                    "2009ApJ...698.1367G",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "D23H-1",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
-            }
-        ]
-    },
     "coordinate": [
         {
             "ra": "23:31:59.53",
@@ -526,36 +555,6 @@
                 "2024MNRAS.527.2452M"
             ],
             "coordinate_type": "equitorial"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2009ApJ...698.1367G",
-            "human_readable_name": "Gezari et al. (2009)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2017MNRAS.471.1694W",
-            "human_readable_name": "Wevers, Thomas et al. (2017)"
         }
     ],
     "schema_version": {

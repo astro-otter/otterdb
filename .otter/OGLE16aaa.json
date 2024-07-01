@@ -1,4 +1,73 @@
 {
+    "name": {
+        "default_name": "OGLE16aaa",
+        "alias": [
+            {
+                "value": "OGLE16aaa",
+                "reference": [
+                    "2017MNRAS.465L.114W",
+                    "2017ApJ...838..149A",
+                    "2000A&AS..143....9W",
+                    "2017MNRAS.465L.114W",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
+    "distance": [
+        {
+            "value": "0.1655",
+            "reference": [
+                "2017MNRAS.465L.114W"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "820",
+            "reference": [
+                "2017MNRAS.465L.114W",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity",
+            "unit": "Mpc"
+        },
+        {
+            "value": "703.6",
+            "reference": [
+                "2017MNRAS.465L.114W",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        },
+        {
+            "value": 0.1655,
+            "reference": [
+                "2017MNRAS.465L.114W",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017MNRAS.465L.114W",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -835,15 +904,38 @@
             "val_av": 0.05696122270113344
         }
     ],
-    "classification": [
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017MNRAS.465L.114W",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            "name": "2017MNRAS.465L.114W",
+            "human_readable_name": "Wyrzykowski et al. (2017)"
+        },
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016ATel.8559....1F",
+            "human_readable_name": "Firth et al. (2016)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2000A&AS..143....9W",
+            "human_readable_name": "Wenger et al. (2000)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
         }
     ],
     "date_reference": [
@@ -855,7 +947,6 @@
                 "2017ApJ...835...64G"
             ],
             "computed": false,
-            "measurement_type": "discovery",
             "default": true
         },
         {
@@ -928,64 +1019,6 @@
             "freq_units": "Hz"
         }
     ],
-    "distance": [
-        {
-            "value": "0.1655",
-            "reference": [
-                "2017MNRAS.465L.114W"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "820",
-            "reference": [
-                "2017MNRAS.465L.114W",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "703.6",
-            "reference": [
-                "2017MNRAS.465L.114W",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
-        },
-        {
-            "value": 0.1655,
-            "reference": [
-                "2017MNRAS.465L.114W",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        }
-    ],
-    "name": {
-        "default_name": "OGLE16aaa",
-        "alias": [
-            {
-                "value": "OGLE16aaa",
-                "reference": [
-                    "2017MNRAS.465L.114W",
-                    "2017ApJ...838..149A",
-                    "2000A&AS..143....9W",
-                    "2017MNRAS.465L.114W",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
     "coordinate": [
         {
             "ra": "1:07:20.88",
@@ -1007,40 +1040,6 @@
                 "2024MNRAS.527.2452M"
             ],
             "coordinate_type": "equitorial"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017MNRAS.465L.114W",
-            "human_readable_name": "Wyrzykowski et al. (2017)"
-        },
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016ATel.8559....1F",
-            "human_readable_name": "Firth et al. (2016)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2000A&AS..143....9W",
-            "human_readable_name": "Wenger et al. (2000)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
         }
     ],
     "schema_version": {

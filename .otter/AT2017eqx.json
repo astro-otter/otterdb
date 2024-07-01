@@ -1,4 +1,62 @@
 {
+    "coordinate": [
+        {
+            "ra": "22:26:48.37",
+            "dec": "+17:08:52.4",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2019MNRAS.488.1878N"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 336.701543422,
+            "dec": 17.1478884031,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2019MNRAS.488.1878N",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 336.701543422,
+            "dec": 17.1478884031,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2017TNSTR.646....1C",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "name": {
+        "default_name": "2017eqx",
+        "alias": [
+            {
+                "value": "PS17dhz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2017eqx",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2017eqx",
+                "reference": [
+                    "2019MNRAS.488.1878N",
+                    "2019MNRAS.488.1878N",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -926,6 +984,36 @@
             "instrument": "GPC1"
         }
     ],
+    "date_reference": [
+        {
+            "value": "2017-06-01",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2019MNRAS.488.1878N",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true
+        },
+        {
+            "value": 57912.22750000004,
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2019MNRAS.488.1878N",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false
+        },
+        {
+            "value": 57911.56,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": "2017TNSTR.646....1C",
+            "computed": false
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "o",
@@ -1008,70 +1096,6 @@
             "freq_units": "Hz"
         }
     ],
-    "date_reference": [
-        {
-            "value": "2017-06-01",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2019MNRAS.488.1878N",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "measurement_type": "discovery",
-            "default": true
-        },
-        {
-            "value": 57912.22750000004,
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2019MNRAS.488.1878N",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false
-        },
-        {
-            "value": 57911.56,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": "2017TNSTR.646....1C",
-            "computed": false
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "22:26:48.37",
-            "dec": "+17:08:52.4",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2019MNRAS.488.1878N"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 336.701543422,
-            "dec": 17.1478884031,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2019MNRAS.488.1878N",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 336.701543422,
-            "dec": 17.1478884031,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2017TNSTR.646....1C",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
     "reference_alias": [
         {
             "name": "2019MNRAS.488.1878N",
@@ -1094,47 +1118,6 @@
             "human_readable_name": "Chambers, K. C. et al. (2017)"
         }
     ],
-    "name": {
-        "default_name": "2017eqx",
-        "alias": [
-            {
-                "value": "2017eqx",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS17dhz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2017eqx",
-                "reference": [
-                    "2019MNRAS.488.1878N",
-                    "2019MNRAS.488.1878N",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2019MNRAS.488.1878N",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
     "distance": [
         {
             "value": "0.1089",
@@ -1174,6 +1157,22 @@
                 "2024MNRAS.527.2452M"
             ],
             "distance_type": "redshift"
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2019MNRAS.488.1878N",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ]
 }

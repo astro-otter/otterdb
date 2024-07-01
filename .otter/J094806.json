@@ -1,26 +1,4 @@
 {
-    "coordinate": [
-        {
-            "ra": "09:48:06.55",
-            "dec": "+03:18:01.9",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 147.0274064,
-            "dec": 3.3005179,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2022TNSTR2919....1F",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
     "reference_alias": [
         {
             "name": "2017arXiv171104577K",
@@ -43,17 +21,39 @@
             "human_readable_name": "Fremling, C. (2022)"
         }
     ],
+    "coordinate": [
+        {
+            "ra": "09:48:06.55",
+            "dec": "+03:18:01.9",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 147.0274064,
+            "dec": 3.3005179,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2022TNSTR2919....1F",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
     "name": {
         "default_name": "2022wyq",
         "alias": [
             {
-                "value": "2022wyq",
+                "value": "ZTF20acyxwgf",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ZTF20acyxwgf",
+                "value": "2022wyq",
                 "reference": [
                     "TNS"
                 ]
@@ -66,29 +66,6 @@
             }
         ]
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 0.5,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        }
-    ],
     "schema_version": {
         "value": "0",
         "comment": "Copied from tde.space"
@@ -128,13 +105,39 @@
             "distance_type": "comoving"
         }
     ],
-    "date_reference": [
+    "classification": [
         {
-            "value": 59695.193,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": "2022TNSTR2919....1F",
-            "computed": false
+            "object_class": "TDE",
+            "confidence": 0.5,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
         }
     ],
     "photometry": [
@@ -211,16 +214,13 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "filter_alias": [
+    "date_reference": [
         {
-            "filter_key": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
+            "value": 59695.193,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": "2022TNSTR2919....1F",
+            "computed": false
         }
     ]
 }

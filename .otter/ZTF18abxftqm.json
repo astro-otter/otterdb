@@ -1,17 +1,65 @@
 {
-    "classification": [
+    "coordinate": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "ra": "01:07:33.6100",
+            "dec": "+23:28:34.39",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 16.890125627,
+            "dec": 23.476176295,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
             "reference": [
-                "2017ApJ...835...64G",
-                "2018TNSCR1902....1R",
                 "2021ApJ...908....4V",
                 "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            ]
+        },
+        {
+            "ra": 16.8901468,
+            "dec": 23.4761884,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": "2018TNSTR1509....1T",
+            "epoch": "J2000",
+            "frame": "ICRS"
         }
     ],
+    "name": {
+        "default_name": "2018hco",
+        "alias": [
+            {
+                "value": "2018hco",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS18way",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2018hco",
+                "reference": [
+                    "2021ApJ...908....4V",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "ZTF18abxftqm",
+                "reference": [
+                    "MAST",
+                    "TNS"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -4613,6 +4661,75 @@
             "instrument": "ZTF-Cam"
         }
     ],
+    "date_reference": [
+        {
+            "value": "8589-09-09",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true
+        },
+        {
+            "value": 58404.028499999986,
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false
+        },
+        {
+            "value": 58395.52,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": "2018TNSTR1509....1T",
+            "computed": false
+        }
+    ],
+    "distance": [
+        {
+            "value": "410",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity"
+        },
+        {
+            "value": "380",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving"
+        },
+        {
+            "value": 0.088,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.09,
+            "reference": [
+                "2018TNSCR1902....1R"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -4680,106 +4797,6 @@
             "wave_units": "nm"
         }
     ],
-    "date_reference": [
-        {
-            "value": "8589-09-09",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "measurement_type": "discovery",
-            "default": true
-        },
-        {
-            "value": 58404.028499999986,
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false
-        },
-        {
-            "value": 58395.52,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": "2018TNSTR1509....1T",
-            "computed": false
-        }
-    ],
-    "distance": [
-        {
-            "value": "410",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity"
-        },
-        {
-            "value": "380",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving"
-        },
-        {
-            "value": 0.088,
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.09,
-            "reference": [
-                "2018TNSCR1902....1R"
-            ],
-            "computed": false,
-            "distance_type": "redshift"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "01:07:33.6100",
-            "dec": "+23:28:34.39",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 16.890125627,
-            "dec": 23.476176295,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ]
-        },
-        {
-            "ra": 16.8901468,
-            "dec": 23.4761884,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": "2018TNSTR1509....1T",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
     "reference_alias": [
         {
             "name": "2016A&A...594A..13P",
@@ -4810,37 +4827,19 @@
             "human_readable_name": "Reynolds, T. (2018)"
         }
     ],
-    "name": {
-        "default_name": "2018hco",
-        "alias": [
-            {
-                "value": "ATLAS18way",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2018hco",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2018hco",
-                "reference": [
-                    "2021ApJ...908....4V",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "ZTF18abxftqm",
-                "reference": [
-                    "MAST",
-                    "TNS"
-                ]
-            }
-        ]
-    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2018TNSCR1902....1R",
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "schema_version": {
         "value": "0",
         "comment": "Copied from tde.space"
