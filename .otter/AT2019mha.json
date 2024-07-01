@@ -1,57 +1,23 @@
 {
-    "coordinate": [
+    "date_reference": [
         {
-            "ra": 244.115776678,
-            "dec": 56.43232034,
-            "ra_units": "deg",
-            "dec_units": "deg",
+            "value": 58703.803000000014,
+            "date_format": "mjd",
             "reference": [
                 "2021ApJ...908....4V",
                 "2024MNRAS.527.2452M"
             ],
-            "coordinate_type": "equitorial"
+            "computed": false,
+            "date_type": "peak"
         },
         {
-            "ra": 244.11582745,
-            "dec": 56.432304066667,
-            "ra_units": "deg",
-            "dec_units": "deg",
+            "value": 58694.32399305556,
+            "date_format": "mjd",
             "reference": "2019TNSTR1392....1T",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
-    "name": {
-        "default_name": "2019mha",
-        "alias": [
-            {
-                "value": "ZTF19abhejal",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2019mha",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS19qqu",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2019mha",
-                "reference": [
-                    "2021ApJ...908....4V",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "raw": [
@@ -11513,25 +11479,6 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "date_reference": [
-        {
-            "value": 58703.803000000014,
-            "date_format": "mjd",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
-        },
-        {
-            "value": 58694.32399305556,
-            "date_format": "mjd",
-            "reference": "2019TNSTR1392....1T",
-            "computed": false,
-            "date_type": "discovery"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -11599,6 +11546,36 @@
             "wave_units": "nm"
         }
     ],
+    "name": {
+        "default_name": "2019mha",
+        "alias": [
+            {
+                "value": "ZTF19abhejal",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS19qqu",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2019mha",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2019mha",
+                "reference": [
+                    "2021ApJ...908....4V",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2021ApJ...908....4V",
@@ -11611,6 +11588,29 @@
         {
             "name": "2019TNSTR1392....1T",
             "human_readable_name": "Tonry, J. et al. (2019)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": 244.115776678,
+            "dec": 56.43232034,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 244.11582745,
+            "dec": 56.432304066667,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2019TNSTR1392....1T",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
         }
     ],
     "distance": [

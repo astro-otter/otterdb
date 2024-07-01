@@ -1,26 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2017arXiv171104577K",
-            "human_readable_name": "Kankare et al. (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2021TNSTR3297....1H",
-            "human_readable_name": "Hodgkin, S. T. et al. (2021)"
-        }
-    ],
     "date_reference": [
         {
             "value": "2010-01-01",
@@ -40,6 +18,29 @@
             "computed": false
         }
     ],
+    "name": {
+        "default_name": "2021zlg",
+        "alias": [
+            {
+                "value": "2021zlg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia21egv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS1-10adi",
+                "reference": [
+                    "2017arXiv171104577K"
+                ]
+            }
+        ]
+    },
     "coordinate": [
         {
             "ra": "20:42:44.74",
@@ -62,33 +63,55 @@
             "frame": "ICRS"
         }
     ],
-    "name": {
-        "default_name": "2021zlg",
-        "alias": [
-            {
-                "value": "Gaia21egv",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2021zlg",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS1-10adi",
-                "reference": [
-                    "2017arXiv171104577K"
-                ]
-            }
-        ]
-    },
+    "reference_alias": [
+        {
+            "name": "2017arXiv171104577K",
+            "human_readable_name": "Kankare et al. (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2021TNSTR3297....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2021)"
+        }
+    ],
     "schema_version": {
         "value": "0",
         "comment": "Copied from tde.space"
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 0.5,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ]
+        }
+    ],
     "distance": [
         {
             "value": "0.203",
@@ -122,29 +145,6 @@
             "computed": false,
             "default": true,
             "distance_type": "comoving"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 0.5,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ]
         }
     ],
     "filter_alias": [

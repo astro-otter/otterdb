@@ -1,62 +1,24 @@
 {
-    "coordinate": [
+    "date_reference": [
         {
-            "ra": "01:02:50.007",
-            "dec": "-22:21:57.22",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "value": "2010-06-25",
+            "date_format": "iso",
+            "date_type": "discovery",
             "reference": [
-                "2017NatAs...1E..61T"
+                "2017NatAs...1E..61T",
+                "2017ApJ...835...64G"
             ],
-            "coordinate_type": "equitorial"
+            "computed": false,
+            "default": true
         },
         {
-            "ra": 15.708292,
-            "dec": -22.3659,
-            "ra_units": "deg",
-            "dec_units": "deg",
+            "value": 59600.393,
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": "2022TNSTR.188....1H",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
+            "computed": false
         }
     ],
-    "name": {
-        "default_name": "2022agi",
-        "alias": [
-            {
-                "value": "Gaia22ahd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022agi",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "SSS:010250.0-222157",
-                "reference": [
-                    "2017NatAs...1E..61T"
-                ]
-            },
-            {
-                "value": "F01004-2237",
-                "reference": [
-                    "2017NatAs...1E..61T",
-                    "MAST"
-                ]
-            },
-            {
-                "value": "CSS:010250.0-222157",
-                "reference": [
-                    "2017NatAs...1E..61T"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "raw": [
@@ -2673,26 +2635,6 @@
             "instrument": "Gaia-photometric"
         }
     ],
-    "date_reference": [
-        {
-            "value": "2010-06-25",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017NatAs...1E..61T",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true
-        },
-        {
-            "value": 59600.393,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": "2022TNSTR.188....1H",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "V",
@@ -2715,6 +2657,42 @@
             "wave_units": "nm"
         }
     ],
+    "name": {
+        "default_name": "2022agi",
+        "alias": [
+            {
+                "value": "2022agi",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia22ahd",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "CSS:010250.0-222157",
+                "reference": [
+                    "2017NatAs...1E..61T"
+                ]
+            },
+            {
+                "value": "F01004-2237",
+                "reference": [
+                    "2017NatAs...1E..61T",
+                    "MAST"
+                ]
+            },
+            {
+                "value": "SSS:010250.0-222157",
+                "reference": [
+                    "2017NatAs...1E..61T"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017NatAs...1E..61T",
@@ -2741,6 +2719,32 @@
             "human_readable_name": "Hodgkin, S. T. et al. (2022)"
         }
     ],
+    "coordinate": [
+        {
+            "ra": "01:02:50.007",
+            "dec": "-22:21:57.22",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017NatAs...1E..61T"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 15.708292,
+            "dec": -22.3659,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2022TNSTR.188....1H",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
     "distance": [
         {
             "value": "0.117835",
@@ -2776,10 +2780,6 @@
             "distance_type": "comoving"
         }
     ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
     "classification": [
         {
             "object_class": "TDE",

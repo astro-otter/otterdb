@@ -1,63 +1,49 @@
 {
-    "coordinate": [
+    "reference_alias": [
         {
-            "ra": 335.571358,
-            "dec": -7.266372,
-            "ra_units": "deg",
-            "dec_units": "deg",
+            "name": "2022A&A...666A...6W",
+            "human_readable_name": "Wevers, T. et al. (2022)"
+        },
+        {
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...957...86H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR3449....1F",
+            "human_readable_name": "Forster, F. et al. (2020)"
+        },
+        {
+            "name": "2020TNSCR3486....1I",
+            "human_readable_name": "Ihanec, N. et al. (2020)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 59192.186990740716,
+            "date_format": "mjd",
             "reference": [
                 "2022A&A...666A...6W,2023ApJ...942....9H",
                 "2024MNRAS.527.2452M"
             ],
-            "coordinate_type": "equitorial"
+            "computed": false,
+            "date_type": "peak"
         },
         {
-            "ra": 335.571375,
-            "dec": -7.266411,
-            "ra_units": "deg",
-            "dec_units": "deg",
+            "value": 59165.15005790509,
+            "date_format": "mjd",
             "reference": "2020TNSTR3449....1F",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
-    "name": {
-        "default_name": "2020zso",
-        "alias": [
-            {
-                "value": "Gaia20fqa",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2020zso",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS20bfok",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20acqoiyt",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2020zso",
-                "reference": [
-                    "2022A&A...666A...6W,2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "raw": [
@@ -2971,25 +2957,6 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "date_reference": [
-        {
-            "value": 59192.186990740716,
-            "date_format": "mjd",
-            "reference": [
-                "2022A&A...666A...6W,2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
-        },
-        {
-            "value": 59165.15005790509,
-            "date_format": "mjd",
-            "reference": "2020TNSTR3449....1F",
-            "computed": false,
-            "date_type": "discovery"
-        }
-    ],
     "distance": [
         {
             "value": 0.0565,
@@ -3092,32 +3059,42 @@
             "wave_units": "nm"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2022A&A...666A...6W",
-            "human_readable_name": "Wevers, T. et al. (2022)"
-        },
-        {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...957...86H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR3449....1F",
-            "human_readable_name": "Forster, F. et al. (2020)"
-        },
-        {
-            "name": "2020TNSCR3486....1I",
-            "human_readable_name": "Ihanec, N. et al. (2020)"
-        }
-    ],
+    "name": {
+        "default_name": "2020zso",
+        "alias": [
+            {
+                "value": "ATLAS20bfok",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia20fqa",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20acqoiyt",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2020zso",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2020zso",
+                "reference": [
+                    "2022A&A...666A...6W,2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "classification": [
         {
             "object_class": "TDE",
@@ -3128,6 +3105,29 @@
                 "2024MNRAS.527.2452M"
             ],
             "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": 335.571358,
+            "dec": -7.266372,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2022A&A...666A...6W,2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 335.571375,
+            "dec": -7.266411,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2020TNSTR3449....1F",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
         }
     ]
 }

@@ -1,56 +1,4 @@
 {
-    "coordinate": [
-        {
-            "ra": "13:42:44.42",
-            "dec": "+05:30:56.14",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": "13:42:44.41",
-            "dec": "+05:30:56.2",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2018arXiv180205105W"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2012ApJ...749..115W",
-            "human_readable_name": "Wang et al. (2012)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2018arXiv180205105W",
-            "human_readable_name": "Wang et al. (2018)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
     "distance": [
         {
             "value": "0.0366",
@@ -163,14 +111,36 @@
             }
         ]
     },
-    "classification": [
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": "2017ApJ...835...64G",
-            "default": true
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2012ApJ...749..115W",
+            "human_readable_name": "Wang et al. (2012)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2018arXiv180205105W",
+            "human_readable_name": "Wang et al. (2018)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
         }
     ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
     "photometry": [
         {
             "raw": [
@@ -398,6 +368,36 @@
                 "2018arXiv180205105W"
             ],
             "corr_s": null
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": "2017ApJ...835...64G",
+            "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "13:42:44.42",
+            "dec": "+05:30:56.14",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": "13:42:44.41",
+            "dec": "+05:30:56.2",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2018arXiv180205105W"
+            ],
+            "coordinate_type": "equitorial"
         }
     ],
     "date_reference": [

@@ -1,8 +1,4 @@
 {
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
     "classification": [
         {
             "object_class": "TDE",
@@ -16,32 +12,10 @@
             "default": true
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2012ApJ...753...77C",
-            "human_readable_name": "Cenko et al. (2012)"
-        },
-        {
-            "name": "2015ApJ...805...68P",
-            "human_readable_name": "Pasham et al. (2015)"
-        },
-        {
-            "name": "2017MNRAS.472.4469B",
-            "human_readable_name": "Brown et al. (2017)"
-        },
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        }
-    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Copied from tde.space"
+    },
     "name": {
         "default_name": "Sw J2058+05",
         "alias": [
@@ -336,6 +310,63 @@
             "corr_s": null
         }
     ],
+    "filter_alias": [
+        {
+            "filter_key": "4.5GHz",
+            "freq_eff": 4.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.5GHz",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "20 58 19.90",
+            "dec": "+05 13 32.0",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "17964584-135f-453a-a8ec-5be3727ccdcf",
+            "coordinate_type": "equitorial"
+        },
+        {
+            "reference": "17964584-135f-453a-a8ec-5be3727ccdcf",
+            "computed": true,
+            "coordinate_type": "galactic",
+            "l": 53.61702902648376,
+            "b": -25.11893929017656,
+            "l_units": "deg",
+            "b_units": "deg"
+        },
+        {
+            "ra": "20:58:19.85",
+            "dec": "+05:13:33.00",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "distance": [
         {
             "value": "1.1853",
@@ -385,23 +416,30 @@
             "unit": "Mpc"
         }
     ],
-    "filter_alias": [
+    "reference_alias": [
         {
-            "filter_key": "4.5GHz",
-            "freq_eff": 4.5,
-            "freq_units": "GHz"
+            "name": "2012ApJ...753...77C",
+            "human_readable_name": "Cenko et al. (2012)"
         },
         {
-            "filter_key": "5.5GHz",
-            "freq_eff": 5.5,
-            "freq_units": "GHz"
+            "name": "2015ApJ...805...68P",
+            "human_readable_name": "Pasham et al. (2015)"
         },
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm"
+            "name": "2017MNRAS.472.4469B",
+            "human_readable_name": "Brown et al. (2017)"
+        },
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
         }
     ],
     "date_reference": [
@@ -426,44 +464,6 @@
             "computed": false,
             "date_type": "discovery",
             "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "20 58 19.90",
-            "dec": "+05 13 32.0",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "reference": [
-                "2012ApJ...753...77C",
-                "2015ApJ...805...68P",
-                "2017MNRAS.472.4469B"
-            ],
-            "computed": false,
-            "default": true,
-            "uuid": "66c5883c-9e1d-4243-b13d-6e1cdf267172",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "reference": "66c5883c-9e1d-4243-b13d-6e1cdf267172",
-            "computed": true,
-            "coordinate_type": "galactic",
-            "l": 53.61702902648376,
-            "b": -25.11893929017656,
-            "l_units": "deg",
-            "b_units": "deg"
-        },
-        {
-            "ra": "20:58:19.85",
-            "dec": "+05:13:33.00",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
         }
     ]
 }
