@@ -1,4 +1,59 @@
 {
+    "date_reference": [
+        {
+            "value": "2019-09-24 9:50:24.000000000012278",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "ASAS-SN Supernovae"
+            ],
+            "computed": false,
+            "default": true
+        },
+        {
+            "value": 58763.4168287037,
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2020MNRAS.499..482N,2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2020MNRAS.499..482N,2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "AT2019qiz",
+        "alias": [
+            {
+                "value": "AT2019qiz (= ZTF19abzrhgq)",
+                "reference": [
+                    "ASAS-SN Supernovae"
+                ]
+            },
+            {
+                "value": "AT2019qiz",
+                "reference": [
+                    "2020arXiv200602454N",
+                    "ASAS-SN Supernovae",
+                    "MAST",
+                    "2020MNRAS.499..482N,2021ApJ...908....4V",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "distance": [
         {
             "value": "0.01513",
@@ -47,41 +102,6 @@
             "error": 1.93
         }
     ],
-    "coordinate": [
-        {
-            "ra": "4:46:37.99",
-            "dec": "-10:13:31.5",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "ASAS-SN Supernovae"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 71.657837,
-            "dec": -10.226355,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2020MNRAS.499..482N,2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2020MNRAS.499..482N,2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "reference_alias": [
         {
             "name": "2020arXiv200602454N",
@@ -120,47 +140,27 @@
             "human_readable_name": "Hammerstein, Erica et al. (2023)"
         }
     ],
-    "name": {
-        "default_name": "AT2019qiz",
-        "alias": [
-            {
-                "value": "AT2019qiz (= ZTF19abzrhgq)",
-                "reference": [
-                    "ASAS-SN Supernovae"
-                ]
-            },
-            {
-                "value": "AT2019qiz",
-                "reference": [
-                    "2020arXiv200602454N",
-                    "ASAS-SN Supernovae",
-                    "MAST",
-                    "2020MNRAS.499..482N,2021ApJ...908....4V",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
+    "coordinate": [
         {
-            "value": "2019-09-24 9:50:24.000000000012278",
-            "date_format": "iso",
-            "date_type": "discovery",
+            "ra": "4:46:37.99",
+            "dec": "-10:13:31.5",
+            "ra_units": "hour",
+            "dec_units": "deg",
             "reference": [
                 "ASAS-SN Supernovae"
             ],
-            "computed": false,
-            "default": true
+            "coordinate_type": "equitorial"
         },
         {
-            "value": 58763.4168287037,
-            "date_format": "mjd",
-            "date_type": "peak",
+            "ra": 71.657837,
+            "dec": -10.226355,
+            "ra_units": "deg",
+            "dec_units": "deg",
             "reference": [
                 "2020MNRAS.499..482N,2021ApJ...908....4V",
                 "2024MNRAS.527.2452M"
             ],
-            "computed": false
+            "coordinate_type": "equitorial"
         }
     ],
     "schema_version": {

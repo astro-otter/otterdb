@@ -1,22 +1,63 @@
 {
-    "date_reference": [
+    "coordinate": [
         {
-            "value": 59621.45,
-            "date_format": "mjd",
+            "ra": "13 34 43.207",
+            "dec": "+33 13 00.54",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
             "reference": [
                 "2022Natur.612..430A"
             ],
             "computed": false,
-            "date_type": "discovery"
+            "default": true,
+            "uuid": "0f91e7ea-2901-43c2-810a-d72fe4ebea31",
+            "coordinate_type": "equitorial"
         },
         {
-            "value": 59621.4463,
-            "date_format": "mjd",
+            "reference": "0f91e7ea-2901-43c2-810a-d72fe4ebea31",
+            "computed": true,
+            "coordinate_type": "galactic",
+            "l": 68.62957133676095,
+            "b": 78.8489417474028,
+            "l_units": "deg",
+            "b_units": "deg"
+        },
+        {
+            "ra": 203.6800286,
+            "dec": 33.216817166666665,
+            "epoch": "J2000",
+            "ra_units": "deg",
+            "dec_units": "deg",
             "reference": "2022TNSTR.397....1A",
-            "computed": false,
-            "date_type": "discovery"
+            "coordinate_type": "equitorial",
+            "frame": "ICRS"
         }
     ],
+    "name": {
+        "default_name": "2022cmc",
+        "alias": [
+            {
+                "value": "2022cmc",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF22aaajecp",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022cmc",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": [
@@ -237,6 +278,24 @@
             "instrument": "ZTF-Cam"
         }
     ],
+    "date_reference": [
+        {
+            "value": 59621.45,
+            "date_format": "mjd",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        },
+        {
+            "value": 59621.4463,
+            "date_format": "mjd",
+            "reference": "2022TNSTR.397....1A",
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "8.5GHz",
@@ -254,29 +313,6 @@
             "wave_units": "nm"
         }
     ],
-    "name": {
-        "default_name": "2022cmc",
-        "alias": [
-            {
-                "value": "ZTF22aaajecp",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022cmc",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022cmc",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    },
     "reference_alias": [
         {
             "name": "2022Natur.612..430A",
@@ -287,46 +323,6 @@
             "human_readable_name": "Andreoni, I. (2022)"
         }
     ],
-    "coordinate": [
-        {
-            "ra": "13 34 43.207",
-            "dec": "+33 13 00.54",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "reference": [
-                "2022Natur.612..430A"
-            ],
-            "computed": false,
-            "default": true,
-            "uuid": "c377717e-a6ad-4023-bd57-58e8ce574e5a",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "reference": "c377717e-a6ad-4023-bd57-58e8ce574e5a",
-            "computed": true,
-            "coordinate_type": "galactic",
-            "l": 68.62957133676095,
-            "b": 78.8489417474028,
-            "l_units": "deg",
-            "b_units": "deg"
-        },
-        {
-            "ra": 203.6800286,
-            "dec": 33.216817166666665,
-            "epoch": "J2000",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2022TNSTR.397....1A",
-            "coordinate_type": "equitorial",
-            "frame": "ICRS"
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Original Dataset"
-    },
     "distance": [
         {
             "value": "1.19325",
@@ -347,5 +343,9 @@
             ],
             "default": true
         }
-    ]
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Original Dataset"
+    }
 }

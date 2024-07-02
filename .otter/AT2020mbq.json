@@ -1,23 +1,63 @@
 {
-    "date_reference": [
+    "coordinate": [
         {
-            "value": 59019.25012731484,
-            "date_format": "mjd",
+            "ra": 235.063589,
+            "dec": 25.001341,
+            "ra_units": "deg",
+            "dec_units": "deg",
             "reference": [
                 "2023ApJ...942....9H",
                 "2024MNRAS.527.2452M"
             ],
-            "computed": false,
-            "date_type": "peak"
+            "coordinate_type": "equitorial"
         },
         {
-            "value": 59009.25196760417,
-            "date_format": "mjd",
+            "ra": 235.063686507,
+            "dec": 25.0013555056,
+            "ra_units": "deg",
+            "dec_units": "deg",
             "reference": "2020TNSTR1723....1F",
-            "computed": false,
-            "date_type": "discovery"
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
         }
     ],
+    "name": {
+        "default_name": "2020mbq",
+        "alias": [
+            {
+                "value": "ZTF20abefeab",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS20grv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2020mbq",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS20pfz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2020mbq",
+                "reference": [
+                    "2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -4763,6 +4803,25 @@
             "instrument": "GPC2"
         }
     ],
+    "date_reference": [
+        {
+            "value": 59019.25012731484,
+            "date_format": "mjd",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 59009.25196760417,
+            "date_format": "mjd",
+            "reference": "2020TNSTR1723....1F",
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -4835,42 +4894,6 @@
             "wave_units": "nm"
         }
     ],
-    "name": {
-        "default_name": "2020mbq",
-        "alias": [
-            {
-                "value": "PS20grv",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20abefeab",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2020mbq",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS20pfz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2020mbq",
-                "reference": [
-                    "2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
     "reference_alias": [
         {
             "name": "2023ApJ...942....9H",
@@ -4883,29 +4906,6 @@
         {
             "name": "2020TNSTR1723....1F",
             "human_readable_name": "Forster, F. et al. (2020)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": 235.063589,
-            "dec": 25.001341,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 235.063686507,
-            "dec": 25.0013555056,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2020TNSTR1723....1F",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
         }
     ],
     "distance": [

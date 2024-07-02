@@ -1,4 +1,288 @@
 {
+    "name": {
+        "default_name": "PTF09djl",
+        "alias": [
+            {
+                "value": "PTF 09djl",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "PTF09djl",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2012PASP..124..668Y",
+                    "2000A&AS..143....9W"
+                ]
+            },
+            {
+                "value": "PTF-09djl",
+                "reference": [
+                    "2014ApJ...793...38A",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "2009-07-24",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2014ApJ...793...38A",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true
+        },
+        {
+            "value": 55049.17500000001,
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2014ApJ...793...38A",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false
+        },
+        {
+            "value": "2009-07-24 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2014ApJ...793...38A",
+                "2017MNRAS.472L..99L"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2014ApJ...793...38A",
+            "human_readable_name": "Arcavi et al. (2014)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2010ApJ...721..777A",
+            "human_readable_name": "Arcavi et al. (2010)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2012PASP..124..668Y",
+            "human_readable_name": "Yaron & Gal-Yam (2012)"
+        },
+        {
+            "name": "2000A&AS..143....9W",
+            "human_readable_name": "Wenger et al. (2000)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.471.1694W",
+            "human_readable_name": "Wevers, Thomas et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.472L..99L",
+            "human_readable_name": "Liu, F. K. et al. (2017)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.184",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2014ApJ...793...38A",
+                "2012PASP..124..668Y"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "922",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2014ApJ...793...38A",
+                "2017ApJ...835...64G",
+                "2012PASP..124..668Y"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity",
+            "unit": "Mpc"
+        },
+        {
+            "value": "779",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2014ApJ...793...38A",
+                "2017ApJ...835...64G",
+                "2012PASP..124..668Y"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        },
+        {
+            "value": 0.184,
+            "reference": [
+                "2014ApJ...793...38A",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 64.0,
+            "reference": "2017MNRAS.471.1694W",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "error": 7.0
+        },
+        {
+            "value": "0.184",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2014ApJ...793...38A",
+                "2017MNRAS.472L..99L"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2012PASP..124..668Y",
+                "2014ApJ...793...38A",
+                "2017MNRAS.472L..99L",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "coordinate": [
+        {
+            "ra": "16:33:55.94",
+            "dec": "+30:14:16.30",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2000A&AS..143....9W",
+                "2010ApJ...721..777A",
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 248.48322,
+            "dec": 30.23796,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2014ApJ...793...38A",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "F125LP",
+            "freq_eff": 2089450463842676.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "F150LP",
+            "freq_eff": 1865557170546869.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W1.wise",
+            "freq_eff": 89917740678395.33,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W2.wise",
+            "freq_eff": 65429370473910.305,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.ztf",
+            "freq_eff": 634121907623677.4,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ztf",
+            "freq_eff": 471994480402802.25,
+            "freq_units": "Hz"
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -340,250 +624,18 @@
             "val_av": 0.04919145238839768
         }
     ],
-    "filter_alias": [
+    "host": [
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "F125LP",
-            "freq_eff": 2089450463842676.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "F150LP",
-            "freq_eff": 1865557170546869.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W1.wise",
-            "freq_eff": 89917740678395.33,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W2.wise",
-            "freq_eff": 65429370473910.305,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.ztf",
-            "freq_eff": 634121907623677.4,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.ztf",
-            "freq_eff": 471994480402802.25,
-            "freq_units": "Hz"
+            "host_name": "SDSS J163355.97+301416.6",
+            "host_ra": 248.4833333333333,
+            "host_dec": 30.237958333333335,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2014ApJ...793...38A",
+                "2017MNRAS.472L..99L"
+            ]
         }
-    ],
-    "distance": [
-        {
-            "value": "0.184",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2014ApJ...793...38A",
-                "2012PASP..124..668Y"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "922",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2014ApJ...793...38A",
-                "2017ApJ...835...64G",
-                "2012PASP..124..668Y"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "779",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2014ApJ...793...38A",
-                "2017ApJ...835...64G",
-                "2012PASP..124..668Y"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
-        },
-        {
-            "value": 0.184,
-            "reference": [
-                "2014ApJ...793...38A",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 64.0,
-            "reference": "2017MNRAS.471.1694W",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "error": 7.0
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "16:33:55.94",
-            "dec": "+30:14:16.30",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2000A&AS..143....9W",
-                "2010ApJ...721..777A",
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 248.48322,
-            "dec": 30.23796,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2014ApJ...793...38A",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2012PASP..124..668Y",
-                "2014ApJ...793...38A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2014ApJ...793...38A",
-            "human_readable_name": "Arcavi et al. (2014)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2010ApJ...721..777A",
-            "human_readable_name": "Arcavi et al. (2010)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2012PASP..124..668Y",
-            "human_readable_name": "Yaron & Gal-Yam (2012)"
-        },
-        {
-            "name": "2000A&AS..143....9W",
-            "human_readable_name": "Wenger et al. (2000)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2017MNRAS.471.1694W",
-            "human_readable_name": "Wevers, Thomas et al. (2017)"
-        }
-    ],
-    "name": {
-        "default_name": "PTF09djl",
-        "alias": [
-            {
-                "value": "PTF-09djl",
-                "reference": [
-                    "2014ApJ...793...38A",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "PTF09djl",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2012PASP..124..668Y",
-                    "2000A&AS..143....9W"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
-        {
-            "value": "2009-07-24",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2014ApJ...793...38A",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true
-        },
-        {
-            "value": 55049.17500000001,
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2014ApJ...793...38A",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    }
+    ]
 }

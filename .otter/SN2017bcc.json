@@ -1,23 +1,4 @@
 {
-    "date_reference": [
-        {
-            "value": "2017-02-18",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true
-        },
-        {
-            "value": 57802.413993055554,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": "2017TNSTR.220....1C",
-            "computed": false
-        }
-    ],
     "distance": [
         {
             "value": "646",
@@ -42,85 +23,22 @@
             "distance_type": "comoving"
         },
         {
+            "value": "0.133",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017ATel11049....1S"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
             "value": 0.148,
             "reference": [
                 "2017TNSCR.221....1B"
             ],
             "computed": false,
             "distance_type": "redshift"
-        }
-    ],
-    "name": {
-        "default_name": "2017bcc",
-        "alias": [
-            {
-                "value": "ZTF20aacbwbm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2017bcc",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "SN2017bcc",
-                "reference": []
-            },
-            {
-                "value": "AT2017bcc",
-                "reference": [
-                    "2017ApJ...835...64G"
-                ]
-            },
-            {
-                "value": "PS17bgn",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017ApJ...835...64G"
-            ],
-            "default": false
-        },
-        {
-            "object_class": "SLSN-II",
-            "confidence": 0.5,
-            "reference": [
-                "2017TNSCR.221....1B"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2017TNSTR.220....1C",
-            "human_readable_name": "Chambers, K. C. et al. (2017)"
-        },
-        {
-            "name": "2017TNSCR.221....1B",
-            "human_readable_name": "Barbarino, C. et al. (2017)"
         }
     ],
     "coordinate": [
@@ -142,9 +60,140 @@
             "reference": "2017TNSTR.220....1C"
         }
     ],
+    "name": {
+        "default_name": "2017bcc",
+        "alias": [
+            {
+                "value": "2017bcc",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20aacbwbm",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2017bcc",
+                "reference": [
+                    "2017ApJ...835...64G"
+                ]
+            },
+            {
+                "value": "SN 2017bcc",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "SN2017bcc",
+                "reference": []
+            },
+            {
+                "value": "PS17bgn",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ATel11049....1S",
+                "2017ApJ...835...64G",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "object_class": "SLSN-II",
+            "confidence": 0.5,
+            "reference": [
+                "2017TNSCR.221....1B"
+            ],
+            "default": false
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2017-02-18",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true
+        },
+        {
+            "value": "2017-02-18 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017ATel11049....1S"
+            ],
+            "default": true
+        },
+        {
+            "value": 57802.413993055554,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": "2017TNSTR.220....1C",
+            "computed": false
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2017ATel11049....1S",
+            "human_readable_name": "Sokolovsky, K. et al. (2017)"
+        },
+        {
+            "name": "2017TNSTR.220....1C",
+            "human_readable_name": "Chambers, K. C. et al. (2017)"
+        },
+        {
+            "name": "2017TNSCR.221....1B",
+            "human_readable_name": "Barbarino, C. et al. (2017)"
+        }
+    ],
+    "host": [
+        {
+            "host_name": "SDSS J113152.97+295944.8",
+            "host_ra": 172.97083333333333,
+            "host_dec": 29.99577777777778,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017ATel11049....1S"
+            ]
+        }
+    ],
     "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
     },
     "photometry": [
         {

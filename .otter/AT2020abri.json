@@ -1,23 +1,75 @@
 {
-    "date_reference": [
+    "distance": [
         {
-            "value": 59215.0,
-            "date_format": "mjd",
+            "value": 0.178,
             "reference": [
                 "2022ApJ...925...67L",
                 "2024MNRAS.527.2452M"
             ],
-            "computed": false,
-            "date_type": "peak"
+            "distance_type": "redshift"
         },
         {
-            "value": 59184.529050902776,
-            "date_format": "mjd",
-            "reference": "2020TNSTR3666....1F",
-            "computed": false,
-            "date_type": "discovery"
+            "value": 0.178,
+            "reference": [
+                "2023TNSCR2004....1Y"
+            ],
+            "distance_type": "redshift",
+            "computed": false
         }
     ],
+    "coordinate": [
+        {
+            "ra": 202.3219798,
+            "dec": 19.6709745,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2022ApJ...925...67L",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 202.3219919,
+            "dec": 19.670928133333,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2020TNSTR3666....1F",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "name": {
+        "default_name": "2020abri",
+        "alias": [
+            {
+                "value": "2020abri",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20acvezvs",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS20biig",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2020abri",
+                "reference": [
+                    "2022ApJ...925...67L",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -3671,22 +3723,23 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "distance": [
+    "date_reference": [
         {
-            "value": 0.178,
+            "value": 59215.0,
+            "date_format": "mjd",
             "reference": [
                 "2022ApJ...925...67L",
                 "2024MNRAS.527.2452M"
             ],
-            "distance_type": "redshift"
+            "computed": false,
+            "date_type": "peak"
         },
         {
-            "value": 0.178,
-            "reference": [
-                "2023TNSCR2004....1Y"
-            ],
-            "distance_type": "redshift",
-            "computed": false
+            "value": 59184.529050902776,
+            "date_format": "mjd",
+            "reference": "2020TNSTR3666....1F",
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "filter_alias": [
@@ -3726,36 +3779,6 @@
             "wave_units": "nm"
         }
     ],
-    "name": {
-        "default_name": "2020abri",
-        "alias": [
-            {
-                "value": "2020abri",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20acvezvs",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS20biig",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2020abri",
-                "reference": [
-                    "2022ApJ...925...67L",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
     "reference_alias": [
         {
             "name": "2022ApJ...925...67L",
@@ -3772,29 +3795,6 @@
         {
             "name": "2023TNSCR2004....1Y",
             "human_readable_name": "Yao, Y. (2023)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": 202.3219798,
-            "dec": 19.6709745,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 202.3219919,
-            "dec": 19.670928133333,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2020TNSTR3666....1F",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
         }
     ],
     "classification": [

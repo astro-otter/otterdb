@@ -1,43 +1,98 @@
 {
-    "reference_alias": [
+    "distance": [
         {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...955L...6Y",
-            "human_readable_name": "Yao, Yuhan et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR3103....1N",
-            "human_readable_name": "Nordin, J. et al. (2020)"
-        },
-        {
-            "name": "2020TNSCR3228....1A",
-            "human_readable_name": "Arcavi, I. et al. (2020)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 59150.00000000002,
-            "date_format": "mjd",
+            "value": 0.02741,
             "reference": [
                 "2023ApJ...942....9H",
                 "2024MNRAS.527.2452M"
             ],
-            "computed": false,
-            "date_type": "peak"
+            "distance_type": "redshift"
         },
         {
-            "value": 59130.49269,
-            "date_format": "mjd",
+            "value": 39.36,
+            "reference": "2023ApJ...955L...6Y",
+            "distance_type": "dispersion_measure",
+            "error": 2.79,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.02738,
+            "reference": [
+                "2020TNSCR3228....1A"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": 136.357958,
+            "dec": 61.802538,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 136.357833,
+            "dec": 61.80255,
+            "ra_units": "deg",
+            "dec_units": "deg",
             "reference": "2020TNSTR3103....1N",
-            "computed": false,
-            "date_type": "discovery"
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "name": {
+        "default_name": "2020wey",
+        "alias": [
+            {
+                "value": "2020wey",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20acitpfz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS20belb",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia20fck",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2020wey",
+                "reference": [
+                    "2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR3228....1A",
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -5717,29 +5772,23 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "distance": [
+    "date_reference": [
         {
-            "value": 0.02741,
+            "value": 59150.00000000002,
+            "date_format": "mjd",
             "reference": [
                 "2023ApJ...942....9H",
                 "2024MNRAS.527.2452M"
             ],
-            "distance_type": "redshift"
+            "computed": false,
+            "date_type": "peak"
         },
         {
-            "value": 39.36,
-            "reference": "2023ApJ...955L...6Y",
-            "distance_type": "dispersion_measure",
-            "error": 2.79,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.02738,
-            "reference": [
-                "2020TNSCR3228....1A"
-            ],
-            "distance_type": "redshift",
-            "computed": false
+            "value": 59130.49269,
+            "date_format": "mjd",
+            "reference": "2020TNSTR3103....1N",
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "filter_alias": [
@@ -5814,75 +5863,26 @@
             "wave_units": "nm"
         }
     ],
-    "name": {
-        "default_name": "2020wey",
-        "alias": [
-            {
-                "value": "2020wey",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia20fck",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS20belb",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20acitpfz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2020wey",
-                "reference": [
-                    "2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "classification": [
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR3228....1A",
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": 136.357958,
-            "dec": 61.802538,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
         },
         {
-            "ra": 136.357833,
-            "dec": 61.80255,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2020TNSTR3103....1N",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...955L...6Y",
+            "human_readable_name": "Yao, Yuhan et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR3103....1N",
+            "human_readable_name": "Nordin, J. et al. (2020)"
+        },
+        {
+            "name": "2020TNSCR3228....1A",
+            "human_readable_name": "Arcavi, I. et al. (2020)"
         }
     ]
 }
