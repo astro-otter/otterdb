@@ -25,13 +25,13 @@
         "default_name": "2019pqt",
         "alias": [
             {
-                "value": "2019pqt",
+                "value": "Gaia19dya",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "Gaia19dya",
+                "value": "2019pqt",
                 "reference": [
                     "TNS"
                 ]
@@ -39,7 +39,8 @@
             {
                 "value": "MAXI J1807+132",
                 "reference": [
-                    "2017ATel10216....1K"
+                    "2017ATel10216....1K",
+                    "2023PASP..135c4101G"
                 ]
             }
         ]
@@ -150,6 +151,17 @@
             "default": true
         },
         {
+            "value": "2017-03-15 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2021MNRAS.501..261A",
+                "2017ATel.9988....1N"
+            ],
+            "default": true
+        },
+        {
             "value": 58732.14,
             "date_format": "mjd",
             "date_type": "discovery",
@@ -193,21 +205,50 @@
             "human_readable_name": "Guillochon et al. (2017)"
         },
         {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2021MNRAS.501..261A",
+            "human_readable_name": "Albayati, A. C. et al. (2021)"
+        },
+        {
+            "name": "2017ATel.9988....1N",
+            "human_readable_name": "Nakajima, M. et al. (2017)"
+        },
+        {
             "name": "2019TNSTR1760....1H",
             "human_readable_name": "Hodgkin, S. T. et al. (2019)"
         }
     ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
+    "distance": [
+        {
+            "value": NaN,
+            "reference": [
+                "2023PASP..135c4101G",
+                "2021MNRAS.501..261A",
+                "2017ATel.9988....1N"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
-            "confidence": 0.5,
+            "confidence": 1,
             "reference": [
-                "2017ATel10216....1K"
-            ]
+                "2017ATel.9988....1N",
+                "2017ATel10216....1K",
+                "2021MNRAS.501..261A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         }
-    ]
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    }
 }

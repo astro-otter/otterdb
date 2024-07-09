@@ -1,4 +1,39 @@
 {
+    "distance": [
+        {
+            "value": "0.0325",
+            "reference": [
+                "2023MNRAS.522.5084G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.0325,
+            "reference": [
+                "2023MNRAS.522.5084G,2022ApJ...925...67L",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 48.5,
+            "reference": "2022ApJ...925...67L",
+            "distance_type": "dispersion_measure",
+            "error": 2.0,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.0325,
+            "reference": [
+                "2021TNSCR.159....1H",
+                "2023TNSCR2004....1Y"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
     "coordinate": [
         {
             "ra": "15 30 37.800",
@@ -12,11 +47,11 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "5b92423a-2c63-4183-83d1-27052c34e8d6",
+            "uuid": "c5baaee1-7514-4190-aec6-99ab3aae517a",
             "coordinate_type": "equitorial"
         },
         {
-            "reference": "5b92423a-2c63-4183-83d1-27052c34e8d6",
+            "reference": "c5baaee1-7514-4190-aec6-99ab3aae517a",
             "computed": true,
             "coordinate_type": "galactic",
             "l": 42.055403580344134,
@@ -50,7 +85,13 @@
         "default_name": "2020vwl",
         "alias": [
             {
-                "value": "2020vwl",
+                "value": "ATLAS20bdgk",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20achpcvt",
                 "reference": [
                     "TNS"
                 ]
@@ -62,13 +103,7 @@
                 ]
             },
             {
-                "value": "ATLAS20bdgk",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20achpcvt",
+                "value": "2020vwl",
                 "reference": [
                     "TNS"
                 ]
@@ -83,6 +118,20 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2021TNSCR.159....1H",
+                "2023MNRAS.522.5084G",
+                "2023MNRAS.522.5084G,2022ApJ...925...67L",
+                "2023TNSCR2004....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "reference": [
@@ -5334,41 +5383,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": "0.0325",
-            "reference": [
-                "2023MNRAS.522.5084G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.0325,
-            "reference": [
-                "2023MNRAS.522.5084G,2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 48.5,
-            "reference": "2022ApJ...925...67L",
-            "distance_type": "dispersion_measure",
-            "error": 2.0,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.0325,
-            "reference": [
-                "2021TNSCR.159....1H",
-                "2023TNSCR2004....1Y"
-            ],
-            "computed": false,
-            "distance_type": "redshift"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "5.5GHz",
@@ -5485,20 +5499,6 @@
         {
             "name": " 2023TNSCR2004....1Y",
             "human_readable_name": "Yao, Y. (2023)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2021TNSCR.159....1H",
-                "2023MNRAS.522.5084G",
-                "2023MNRAS.522.5084G,2022ApJ...925...67L",
-                "2023TNSCR2004....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ],
     "schema_version": {

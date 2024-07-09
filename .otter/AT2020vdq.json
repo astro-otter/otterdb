@@ -1,4 +1,31 @@
 {
+    "distance": [
+        {
+            "value": 0.045,
+            "reference": [
+                "2023arXiv231003791S",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 43.6,
+            "reference": "2023ApJ...955L...6Y",
+            "distance_type": "dispersion_measure",
+            "error": 3.1,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.044,
+            "reference": [
+                "2023TNSCR1153....1T",
+                "2023TNSCR1154....1C",
+                "2023TNSCR1865....1N"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 152.22267081,
@@ -26,13 +53,13 @@
         "default_name": "2020vdq",
         "alias": [
             {
-                "value": "2020vdq",
+                "value": "ZTF20acaazkt",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ZTF20acaazkt",
+                "value": "2020vdq",
                 "reference": [
                     "TNS"
                 ]
@@ -52,6 +79,20 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2023TNSCR1153....1T",
+                "2023TNSCR1154....1C",
+                "2023TNSCR1865....1N",
+                "2023arXiv231003791S",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -5112,33 +5153,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.045,
-            "reference": [
-                "2023arXiv231003791S",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 43.6,
-            "reference": "2023ApJ...955L...6Y",
-            "distance_type": "dispersion_measure",
-            "error": 3.1,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.044,
-            "reference": [
-                "2023TNSCR1153....1T",
-                "2023TNSCR1154....1C",
-                "2023TNSCR1865....1N"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -5224,20 +5238,6 @@
         {
             "name": " 2023TNSCR1865....1N",
             "human_readable_name": "Newsome, M. et al. (2023)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2023TNSCR1153....1T",
-                "2023TNSCR1154....1C",
-                "2023TNSCR1865....1N",
-                "2023arXiv231003791S",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

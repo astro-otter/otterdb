@@ -25,19 +25,19 @@
         "default_name": "2022agi",
         "alias": [
             {
-                "value": "Gaia22ahd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "2022agi",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "SSS:010250.0-222157",
+                "value": "Gaia22ahd",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "CSS:010250.0-222157",
                 "reference": [
                     "2017NatAs...1E..61T"
                 ]
@@ -46,11 +46,12 @@
                 "value": "F01004-2237",
                 "reference": [
                     "2017NatAs...1E..61T",
-                    "MAST"
+                    "MAST",
+                    "2023PASP..135c4101G"
                 ]
             },
             {
-                "value": "CSS:010250.0-222157",
+                "value": "SSS:010250.0-222157",
                 "reference": [
                     "2017NatAs...1E..61T"
                 ]
@@ -2686,6 +2687,16 @@
             "default": true
         },
         {
+            "value": "2010-06-25 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017NatAs...1E..61T"
+            ],
+            "default": true
+        },
+        {
             "value": 59600.393,
             "date_format": "mjd",
             "date_type": "discovery",
@@ -2737,6 +2748,10 @@
             "human_readable_name": "Guillochon et al. (2017)"
         },
         {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
             "name": "2022TNSTR.188....1H",
             "human_readable_name": "Hodgkin, S. T. et al. (2022)"
         }
@@ -2753,7 +2768,6 @@
         },
         {
             "value": "566.701",
-            "unit": "Mpc",
             "reference": [
                 "2017NatAs...1E..61T",
                 "2016A&A...594A..13P",
@@ -2761,11 +2775,11 @@
             ],
             "computed": false,
             "default": true,
-            "distance_type": "luminosity"
+            "distance_type": "luminosity",
+            "unit": "Mpc"
         },
         {
             "value": "506.963",
-            "unit": "Mpc",
             "reference": [
                 "2017NatAs...1E..61T",
                 "2016A&A...594A..13P",
@@ -2773,19 +2787,47 @@
             ],
             "computed": false,
             "default": true,
-            "distance_type": "comoving"
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        },
+        {
+            "value": "0.117835",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017NatAs...1E..61T"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         }
     ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
+    "host": [
+        {
+            "host_name": "IRAS F01004-2237",
+            "host_ra": 15.708333333333332,
+            "host_dec": -22.365833333333335,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017NatAs...1E..61T"
+            ]
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": "2017ApJ...835...64G",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017NatAs...1E..61T",
+                "2023PASP..135c4101G"
+            ],
             "default": true
         }
-    ]
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    }
 }

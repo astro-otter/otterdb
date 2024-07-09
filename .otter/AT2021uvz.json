@@ -1,4 +1,22 @@
 {
+    "distance": [
+        {
+            "value": 0.176,
+            "reference": [
+                "2022TNSCR.925....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.176,
+            "reference": [
+                "2022TNSCR.925....1Y"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 263.2105074,
@@ -26,6 +44,12 @@
         "default_name": "2021uvz",
         "alias": [
             {
+                "value": "ATLAS21bdzu",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
                 "value": "2021uvz",
                 "reference": [
                     "TNS"
@@ -33,12 +57,6 @@
             },
             {
                 "value": "ZTF21abmwftm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS21bdzu",
                 "reference": [
                     "TNS"
                 ]
@@ -52,6 +70,17 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022TNSCR.925....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -12644,24 +12673,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.176,
-            "reference": [
-                "2022TNSCR.925....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.176,
-            "reference": [
-                "2022TNSCR.925....1Y"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -12741,17 +12752,6 @@
         {
             "name": "2021TNSTR2682....1F",
             "human_readable_name": "Fremling, C. (2021)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR.925....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

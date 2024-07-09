@@ -1,4 +1,29 @@
 {
+    "distance": [
+        {
+            "value": 0.073,
+            "reference": [
+                "2022ApJ...925...67L",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 57.78,
+            "reference": "2022ApJ...925...67L",
+            "distance_type": "dispersion_measure",
+            "error": 5.28,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.073,
+            "reference": [
+                "2021TNSCR2672....1C"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 4.9287229,
@@ -26,13 +51,13 @@
         "default_name": "2021mhg",
         "alias": [
             {
-                "value": "Gaia21cwh",
+                "value": "ZTF21abaxaqq",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ZTF21abaxaqq",
+                "value": "Gaia21cwh",
                 "reference": [
                     "TNS"
                 ]
@@ -64,6 +89,18 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR2672....1C",
+                "2022ApJ...925...67L",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -13920,31 +13957,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.073,
-            "reference": [
-                "2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 57.78,
-            "reference": "2022ApJ...925...67L",
-            "distance_type": "dispersion_measure",
-            "error": 5.28,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.073,
-            "reference": [
-                "2021TNSCR2672....1C"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -14038,18 +14050,6 @@
         {
             "name": "2021TNSCR2672....1C",
             "human_readable_name": "Chu, M. et al. (2021)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR2672....1C",
-                "2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

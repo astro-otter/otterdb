@@ -1,4 +1,22 @@
 {
+    "distance": [
+        {
+            "value": 0.071,
+            "reference": [
+                "2023TNSAN.102....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.071,
+            "reference": [
+                "2023TNSCR.962....1Y"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 288.607003,
@@ -26,13 +44,13 @@
         "default_name": "2023cvb",
         "alias": [
             {
-                "value": "ATLAS23dht",
+                "value": "2023cvb",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2023cvb",
+                "value": "ATLAS23dht",
                 "reference": [
                     "TNS"
                 ]
@@ -52,6 +70,18 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2023TNSAN.102....1Y",
+                "2023TNSCR.962....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -2312,24 +2342,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.071,
-            "reference": [
-                "2023TNSAN.102....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.071,
-            "reference": [
-                "2023TNSCR.962....1Y"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -2403,18 +2415,6 @@
         {
             "name": "2023TNSCR.962....1Y",
             "human_readable_name": "Yao, Y. et al. (2023)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2023TNSAN.102....1Y",
-                "2023TNSCR.962....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

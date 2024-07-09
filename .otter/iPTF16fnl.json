@@ -1,4 +1,61 @@
 {
+    "distance": [
+        {
+            "value": "73",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity"
+        },
+        {
+            "value": "71.9",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving"
+        },
+        {
+            "value": 0.0163,
+            "reference": [
+                "2017ApJ...844...46B",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 55.0,
+            "unit": "km/s",
+            "reference": "2017MNRAS.471.1694W",
+            "distance_type": "dispersion_measure",
+            "error": 2.0
+        },
+        {
+            "value": "0.0163",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2016ATel.9433....1G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.016328,
+            "reference": [
+                "2016TNSCR.615....1Y"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
     "coordinate": [
         {
             "ra": "00:29:57.04",
@@ -43,15 +100,21 @@
                 ]
             },
             {
-                "value": "AT2016fnl",
-                "reference": []
-            },
-            {
                 "value": "iPTF-16fnl",
                 "reference": [
                     "2017ApJ...844...46B",
                     "2024MNRAS.527.2452M"
                 ]
+            },
+            {
+                "value": "iPTF 16fnl",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "AT2016fnl",
+                "reference": []
             },
             {
                 "value": "iPTF16fnl",
@@ -65,6 +128,21 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2016ATel.9433....1G",
+                "2016TNSCR.615....1Y",
+                "2017ApJ...835...64G",
+                "2017ApJ...844...46B",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -2876,58 +2954,21 @@
             "date_type": "peak"
         },
         {
+            "value": "2016-08-26 ",
+            "date_format": "iso",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2016ATel.9433....1G"
+            ],
+            "date_type": "discovery",
+            "default": true
+        },
+        {
             "value": 57629.422997685186,
             "date_format": "mjd",
             "reference": "2016TNSTR.611....1K",
             "computed": false,
             "date_type": "discovery"
-        }
-    ],
-    "distance": [
-        {
-            "value": "73",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity"
-        },
-        {
-            "value": "71.9",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving"
-        },
-        {
-            "value": 0.0163,
-            "reference": [
-                "2017ApJ...844...46B",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 55.0,
-            "unit": "km/s",
-            "reference": "2017MNRAS.471.1694W",
-            "distance_type": "dispersion_measure",
-            "error": 2.0
-        },
-        {
-            "value": 0.016328,
-            "reference": [
-                "2016TNSCR.615....1Y"
-            ],
-            "computed": false,
-            "distance_type": "redshift"
         }
     ],
     "filter_alias": [
@@ -3086,6 +3127,10 @@
             "human_readable_name": "Wevers, Thomas et al. (2017)"
         },
         {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
             "name": "2016TNSTR.611....1K",
             "human_readable_name": "Kasliwal, M. & Cao, Y. (2016)"
         },
@@ -3094,21 +3139,21 @@
             "human_readable_name": "Yaron, O. (2016)"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2016TNSCR.615....1Y",
-                "2017ApJ...835...64G",
-                "2017ApJ...844...46B",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    }
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "host": [
+        {
+            "host_name": "MRK 950",
+            "host_ra": 7.487499999999999,
+            "host_dec": 32.893677777777775,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2016ATel.9433....1G"
+            ]
+        }
+    ]
 }

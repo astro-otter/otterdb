@@ -1,4 +1,41 @@
 {
+    "distance": [
+        {
+            "value": 0.059,
+            "reference": [
+                "2019MNRAS.488.4816W",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 158.0,
+            "reference": "2020MNRAS.497L...1W",
+            "distance_type": "dispersion_measure",
+            "error": 1.0,
+            "unit": "km/s"
+        },
+        {
+            "value": "0.059",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2018ATel12040....1W",
+                "2021ApJ...912..151W",
+                "2020ApJ...893L...1W"
+            ],
+            "distance_type": "redshift",
+            "computed": false,
+            "default": true
+        },
+        {
+            "value": 0.06,
+            "reference": [
+                "2018TNSCR1397....1W"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 342.567048071,
@@ -26,6 +63,12 @@
         "default_name": "2018fyk",
         "alias": [
             {
+                "value": "ASASSN-18ul",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
                 "value": "2018fyk",
                 "reference": [
                     "TNS"
@@ -38,9 +81,9 @@
                 ]
             },
             {
-                "value": "ASASSN-18ul",
+                "value": "AT 2018fyk",
                 "reference": [
-                    "TNS"
+                    "2023PASP..135c4101G"
                 ]
             },
             {
@@ -52,6 +95,22 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2018ATel12040....1W",
+                "2018TNSCR1397....1W",
+                "2019MNRAS.488.4816W",
+                "2020ApJ...893L...1W",
+                "2021ApJ...912..151W",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -2833,36 +2892,23 @@
             "date_type": "peak"
         },
         {
+            "value": "2018-09-08 ",
+            "date_format": "iso",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2018ATel12040....1W",
+                "2021ApJ...912..151W",
+                "2020ApJ...893L...1W"
+            ],
+            "date_type": "discovery",
+            "default": true
+        },
+        {
             "value": 58369.23,
             "date_format": "mjd",
             "reference": "2018TNSTR1325....1S",
             "computed": false,
             "date_type": "discovery"
-        }
-    ],
-    "distance": [
-        {
-            "value": 0.059,
-            "reference": [
-                "2019MNRAS.488.4816W",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 158.0,
-            "reference": "2020MNRAS.497L...1W",
-            "distance_type": "dispersion_measure",
-            "error": 1.0,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.06,
-            "reference": [
-                "2018TNSCR1397....1W"
-            ],
-            "distance_type": "redshift",
-            "computed": false
         }
     ],
     "filter_alias": [
@@ -2926,6 +2972,22 @@
             "human_readable_name": "Wevers, Thomas (2020)"
         },
         {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2018ATel12040....1W",
+            "human_readable_name": "Wevers, T. et al. (2018)"
+        },
+        {
+            "name": "2021ApJ...912..151W",
+            "human_readable_name": "Wevers, T. et al. (2021)"
+        },
+        {
+            "name": "2020ApJ...893L...1W",
+            "human_readable_name": "Weiss, Lauren M. & Petigura, Erik A. (2020)"
+        },
+        {
             "name": "2018TNSTR1325....1S",
             "human_readable_name": "Stanek, K. Z. (2018)"
         },
@@ -2934,16 +2996,23 @@
             "human_readable_name": "Wevers, T. et al. (2018)"
         }
     ],
-    "classification": [
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "host": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "host_name": "LCRS B224721.6-450748",
+            "host_ra": 342.56724999999994,
+            "host_dec": -44.86488888888889,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
             "reference": [
-                "2018TNSCR1397....1W",
-                "2019MNRAS.488.4816W",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+                "2023PASP..135c4101G",
+                "2018ATel12040....1W",
+                "2021ApJ...912..151W",
+                "2020ApJ...893L...1W"
+            ]
         }
     ]
 }

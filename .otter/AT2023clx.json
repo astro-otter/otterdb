@@ -26,12 +26,6 @@
         "default_name": "2023clx",
         "alias": [
             {
-                "value": "2023clx",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "ASASSN-23bd",
                 "reference": [
                     "TNS"
@@ -39,6 +33,12 @@
             },
             {
                 "value": "ZTF18aabkvpi",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2023clx",
                 "reference": [
                     "TNS"
                 ]
@@ -52,6 +52,18 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2023TNSCR.438....1T",
+                "2024MNRAS.527.2452M",
+                "2024arXiv240111773C"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -2324,18 +2336,6 @@
         {
             "name": "2023TNSCR.438....1T",
             "human_readable_name": "Taguchi, K. et al. (2023)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2023TNSCR.438....1T",
-                "2024MNRAS.527.2452M",
-                "2024arXiv240111773C"
-            ],
-            "default": true
         }
     ],
     "distance": [

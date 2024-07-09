@@ -1,4 +1,44 @@
 {
+    "distance": [
+        {
+            "value": "410",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity"
+        },
+        {
+            "value": "380",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving"
+        },
+        {
+            "value": 0.088,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.09,
+            "reference": [
+                "2018TNSCR1902....1R"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
     "coordinate": [
         {
             "ra": "01:07:33.6100",
@@ -60,6 +100,19 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2018TNSCR1902....1R",
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -4690,46 +4743,6 @@
             "computed": false
         }
     ],
-    "distance": [
-        {
-            "value": "410",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity"
-        },
-        {
-            "value": "380",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving"
-        },
-        {
-            "value": 0.088,
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.09,
-            "reference": [
-                "2018TNSCR1902....1R"
-            ],
-            "computed": false,
-            "distance_type": "redshift"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -4825,19 +4838,6 @@
         {
             "name": "2018TNSCR1902....1R",
             "human_readable_name": "Reynolds, T. (2018)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2018TNSCR1902....1R",
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ],
     "schema_version": {

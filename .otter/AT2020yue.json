@@ -1,4 +1,23 @@
 {
+    "distance": [
+        {
+            "value": 0.2042,
+            "reference": [
+                "2022ApJ...925...67L",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.204,
+            "reference": [
+                "2022TNSCR.662....1K",
+                "2023TNSCR2004....1Y"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 165.0014032,
@@ -26,13 +45,13 @@
         "default_name": "2020yue",
         "alias": [
             {
-                "value": "ZTF20acnznms",
+                "value": "2020yue",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2020yue",
+                "value": "ZTF20acnznms",
                 "reference": [
                     "TNS"
                 ]
@@ -46,6 +65,19 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022ApJ...925...67L",
+                "2022TNSCR.662....1K",
+                "2023TNSCR2004....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -2314,25 +2346,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.2042,
-            "reference": [
-                "2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.204,
-            "reference": [
-                "2022TNSCR.662....1K",
-                "2023TNSCR2004....1Y"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -2410,19 +2423,6 @@
         {
             "name": " 2023TNSCR2004....1Y",
             "human_readable_name": "Yao, Y. (2023)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022ApJ...925...67L",
-                "2022TNSCR.662....1K",
-                "2023TNSCR2004....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

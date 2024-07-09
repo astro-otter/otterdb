@@ -1,4 +1,22 @@
 {
+    "distance": [
+        {
+            "value": 0.068,
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.068,
+            "reference": [
+                "2020TNSCR2829....1H"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 232.895698316,
@@ -26,7 +44,7 @@
         "default_name": "2020pj",
         "alias": [
             {
-                "value": "ZTF20aabqihu",
+                "value": "ATLAS20cab",
                 "reference": [
                     "TNS"
                 ]
@@ -38,7 +56,7 @@
                 ]
             },
             {
-                "value": "ATLAS20cab",
+                "value": "ZTF20aabqihu",
                 "reference": [
                     "TNS"
                 ]
@@ -52,6 +70,18 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR2829....1H",
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -9220,24 +9250,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.068,
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.068,
-            "reference": [
-                "2020TNSCR2829....1H"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -9321,18 +9333,6 @@
         {
             "name": "2020TNSCR2829....1H",
             "human_readable_name": "Hammerstein, E. (2020)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR2829....1H",
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

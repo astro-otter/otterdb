@@ -14,11 +14,84 @@
                 "reference": [
                     "2017ApJ...838..149A",
                     "2011ApJ...741...73V",
-                    "2000A&AS..143....9W"
+                    "2000A&AS..143....9W",
+                    "2023PASP..135c4101G"
                 ]
             }
         ]
     },
+    "date_reference": [
+        {
+            "value": "2006-08-27",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2011ApJ...741...73V",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true
+        },
+        {
+            "value": 53973.95833333336,
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2011ApJ...741...73V",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false
+        },
+        {
+            "value": "2006-08-27 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2011ApJ...741...73V",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...741...73V",
+            "human_readable_name": "van Velzen et al. (2011)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2000A&AS..143....9W",
+            "human_readable_name": "Wenger et al. (2000)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.471.1694W",
+            "human_readable_name": "Wevers, Thomas et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        }
+    ],
     "distance": [
         {
             "value": "0.136",
@@ -67,6 +140,17 @@
             "distance_type": "dispersion_measure",
             "unit": "km/s",
             "error": 7.0
+        },
+        {
+            "value": "0.136",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2011ApJ...741...73V",
+                "2017ApJ...838..149A"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         }
     ],
     "classification": [
@@ -76,9 +160,91 @@
             "reference": [
                 "2011ApJ...741...73V",
                 "2017ApJ...835...64G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G",
                 "2024MNRAS.527.2452M"
             ],
             "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "coordinate": [
+        {
+            "ra": "23:42:01.406",
+            "dec": "+01:06:29.30",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2011ApJ...741...73V",
+                "2000A&AS..143....9W"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 355.50586,
+            "dec": 1.1081316,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2011ApJ...741...73V",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "FUV",
+            "wave_eff": 153.8620701901866,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "NUV",
+            "wave_eff": 231.56631043707714,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 475.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 622.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "u",
+            "wave_eff": 354.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "W1.wise",
+            "freq_eff": 89917740678395.33,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W2.wise",
+            "freq_eff": 65429370473910.305,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.sdss",
+            "freq_eff": 646569472243250.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.sdss",
+            "freq_eff": 488925642232043.75,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "u.sdss",
+            "freq_eff": 847747991775816.2,
+            "freq_units": "Hz"
         }
     ],
     "photometry": [
@@ -712,141 +878,18 @@
             "val_av": 0.07601373089086481
         }
     ],
-    "reference_alias": [
+    "host": [
         {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...741...73V",
-            "human_readable_name": "van Velzen et al. (2011)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2000A&AS..143....9W",
-            "human_readable_name": "Wenger et al. (2000)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2017MNRAS.471.1694W",
-            "human_readable_name": "Wevers, Thomas et al. (2017)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2006-08-27",
-            "date_format": "iso",
-            "date_type": "discovery",
+            "host_name": "SDSS J234201.40+010629.2",
+            "host_ra": 355.5041666666666,
+            "host_dec": 1.108138888888889,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
             "reference": [
+                "2023PASP..135c4101G",
                 "2011ApJ...741...73V",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true
-        },
-        {
-            "value": 53973.95833333336,
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2011ApJ...741...73V",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false
+                "2017ApJ...838..149A"
+            ]
         }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "FUV",
-            "wave_eff": 153.8620701901866,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "NUV",
-            "wave_eff": 231.56631043707714,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "g",
-            "wave_eff": 475.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 622.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "u",
-            "wave_eff": 354.0,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "W1.wise",
-            "freq_eff": 89917740678395.33,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W2.wise",
-            "freq_eff": 65429370473910.305,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.sdss",
-            "freq_eff": 646569472243250.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.sdss",
-            "freq_eff": 488925642232043.75,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "u.sdss",
-            "freq_eff": 847747991775816.2,
-            "freq_units": "Hz"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "23:42:01.406",
-            "dec": "+01:06:29.30",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2011ApJ...741...73V",
-                "2000A&AS..143....9W"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 355.50586,
-            "dec": 1.1081316,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2011ApJ...741...73V",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    }
+    ]
 }

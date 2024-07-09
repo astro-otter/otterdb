@@ -1,4 +1,22 @@
 {
+    "distance": [
+        {
+            "value": 0.0234,
+            "reference": [
+                "2022TNSCR.584....1F",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.023,
+            "reference": [
+                "2022TNSCR.584....1F"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 235.5906326,
@@ -26,7 +44,13 @@
         "default_name": "2022dsb",
         "alias": [
             {
-                "value": "ZTF22aadghqe",
+                "value": "2022dsb",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS22iav",
                 "reference": [
                     "TNS"
                 ]
@@ -38,13 +62,7 @@
                 ]
             },
             {
-                "value": "2022dsb",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS22iav",
+                "value": "ZTF22aadghqe",
                 "reference": [
                     "TNS"
                 ]
@@ -58,6 +76,17 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022TNSCR.584....1F",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -1798,24 +1827,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.0234,
-            "reference": [
-                "2022TNSCR.584....1F",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.023,
-            "reference": [
-                "2022TNSCR.584....1F"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -1890,17 +1901,6 @@
         {
             "name": "2022TNSTR.559....1S",
             "human_readable_name": "Stanek, K. Z. & Kochanek, C. S. (2022)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR.584....1F",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

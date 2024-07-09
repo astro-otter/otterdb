@@ -1,4 +1,22 @@
 {
+    "distance": [
+        {
+            "value": 0.095,
+            "reference": [
+                "2022TNSCR2892....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.095,
+            "reference": [
+                "2022TNSCR2892....1Y"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 25.48146,
@@ -26,25 +44,25 @@
         "default_name": "2022pna",
         "alias": [
             {
-                "value": "2022pna",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "Gaia22dgl",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ZTF22aavvqyh",
+                "value": "ATLAS22wax",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ATLAS22wax",
+                "value": "2022pna",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF22aavvqyh",
                 "reference": [
                     "TNS"
                 ]
@@ -58,6 +76,17 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022TNSCR2892....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -1954,24 +1983,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.095,
-            "reference": [
-                "2022TNSCR2892....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.095,
-            "reference": [
-                "2022TNSCR2892....1Y"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "W1.wise",
@@ -2036,17 +2047,6 @@
         {
             "name": "2022TNSTR2086....1T",
             "human_readable_name": "Tonry, J. et al. (2022)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR2892....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

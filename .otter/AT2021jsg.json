@@ -1,4 +1,22 @@
 {
+    "distance": [
+        {
+            "value": 0.126,
+            "reference": [
+                "2021TNSCR1221....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.126,
+            "reference": [
+                "2021TNSCR1221....1Y"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 167.1529779,
@@ -46,6 +64,17 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR1221....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -3270,24 +3299,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.126,
-            "reference": [
-                "2021TNSCR1221....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.126,
-            "reference": [
-                "2021TNSCR1221....1Y"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -3362,17 +3373,6 @@
         {
             "name": "2021TNSTR1202....1H",
             "human_readable_name": "Hammerstein, E. et al. (2021)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR1221....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

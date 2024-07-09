@@ -1,4 +1,29 @@
 {
+    "distance": [
+        {
+            "value": 0.07,
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 76.61,
+            "reference": "2023ApJ...955L...6Y",
+            "distance_type": "dispersion_measure",
+            "error": 5.33,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.07,
+            "reference": [
+                "2020TNSCR2478....1H"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 7.806617,
@@ -26,12 +51,6 @@
         "default_name": "2020mot",
         "alias": [
             {
-                "value": "Gaia20ead",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "ZTF20abfcszi",
                 "reference": [
                     "TNS"
@@ -39,6 +58,12 @@
             },
             {
                 "value": "2020mot",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia20ead",
                 "reference": [
                     "TNS"
                 ]
@@ -52,6 +77,18 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR2478....1H",
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -5020,31 +5057,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.07,
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 76.61,
-            "reference": "2023ApJ...955L...6Y",
-            "distance_type": "dispersion_measure",
-            "error": 5.33,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.07,
-            "reference": [
-                "2020TNSCR2478....1H"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -5122,18 +5134,6 @@
         {
             "name": "2020TNSCR2478....1H",
             "human_readable_name": "Hosseinzadeh, G. et al. (2020)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR2478....1H",
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

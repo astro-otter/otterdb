@@ -36,13 +36,13 @@
         "default_name": "2017eqx",
         "alias": [
             {
-                "value": "PS17dhz",
+                "value": "2017eqx",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2017eqx",
+                "value": "PS17dhz",
                 "reference": [
                     "TNS"
                 ]
@@ -53,6 +53,12 @@
                     "2019MNRAS.488.1878N",
                     "2019MNRAS.488.1878N",
                     "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "AT 2017eqx",
+                "reference": [
+                    "2023PASP..135c4101G"
                 ]
             }
         ]
@@ -1007,6 +1013,16 @@
             "computed": false
         },
         {
+            "value": "2017-06-07 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2019MNRAS.488.1878N"
+            ],
+            "default": true
+        },
+        {
             "value": 57911.56,
             "date_format": "mjd",
             "date_type": "discovery",
@@ -1114,6 +1130,10 @@
             "human_readable_name": "Mummery et al. (2023)"
         },
         {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
             "name": "2017TNSTR.646....1C",
             "human_readable_name": "Chambers, K. C. et al. (2017)"
         }
@@ -1157,12 +1177,31 @@
                 "2024MNRAS.527.2452M"
             ],
             "distance_type": "redshift"
+        },
+        {
+            "value": "0.1089",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2019MNRAS.488.1878N"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         }
     ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Copied from tde.space"
-    },
+    "host": [
+        {
+            "host_name": "SDSS J222648.38+170852.2",
+            "host_ra": 336.69999999999993,
+            "host_dec": 17.147777777777776,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2019MNRAS.488.1878N"
+            ]
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -1170,9 +1209,14 @@
             "reference": [
                 "2017ApJ...835...64G",
                 "2019MNRAS.488.1878N",
+                "2023PASP..135c4101G",
                 "2024MNRAS.527.2452M"
             ],
             "default": true
         }
-    ]
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    }
 }

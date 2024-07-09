@@ -1,4 +1,22 @@
 {
+    "distance": [
+        {
+            "value": 0.107,
+            "reference": [
+                "2022TNSCR.891....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.107,
+            "reference": [
+                "2022TNSCR.891....1H"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 234.4900152,
@@ -26,12 +44,6 @@
         "default_name": "2022rz",
         "alias": [
             {
-                "value": "2022rz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "ATLAS22bqy",
                 "reference": [
                     "TNS"
@@ -39,6 +51,12 @@
             },
             {
                 "value": "ZTF22aaaedas",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022rz",
                 "reference": [
                     "TNS"
                 ]
@@ -52,6 +70,17 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022TNSCR.891....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -5020,24 +5049,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.107,
-            "reference": [
-                "2022TNSCR.891....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.107,
-            "reference": [
-                "2022TNSCR.891....1H"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -5117,17 +5128,6 @@
         {
             "name": "2022TNSTR.118....1T",
             "human_readable_name": "Tonry, J. et al. (2022)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR.891....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

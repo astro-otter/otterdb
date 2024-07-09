@@ -1,4 +1,29 @@
 {
+    "distance": [
+        {
+            "value": 0.212,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 148.6,
+            "reference": "2023ApJ...955L...6Y",
+            "distance_type": "dispersion_measure",
+            "error": 14.4,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.212,
+            "reference": [
+                "2020TNSCR2246....1D"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 262.016347739,
@@ -58,6 +83,18 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR2246....1D",
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -12426,31 +12463,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.212,
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 148.6,
-            "reference": "2023ApJ...955L...6Y",
-            "distance_type": "dispersion_measure",
-            "error": 14.4,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.212,
-            "reference": [
-                "2020TNSCR2246....1D"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -12538,18 +12550,6 @@
         {
             "name": "2020TNSCR2246....1D",
             "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR2246....1D",
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

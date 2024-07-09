@@ -1,4 +1,29 @@
 {
+    "distance": [
+        {
+            "value": 0.02741,
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 39.36,
+            "reference": "2023ApJ...955L...6Y",
+            "distance_type": "dispersion_measure",
+            "error": 2.79,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.02738,
+            "reference": [
+                "2020TNSCR3228....1A"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 136.357958,
@@ -26,25 +51,25 @@
         "default_name": "2020wey",
         "alias": [
             {
-                "value": "ATLAS20belb",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "2020wey",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "Gaia20fck",
+                "value": "ZTF20acitpfz",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ZTF20acitpfz",
+                "value": "ATLAS20belb",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia20fck",
                 "reference": [
                     "TNS"
                 ]
@@ -58,6 +83,18 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR3228....1A",
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -5754,31 +5791,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.02741,
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 39.36,
-            "reference": "2023ApJ...955L...6Y",
-            "distance_type": "dispersion_measure",
-            "error": 2.79,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.02738,
-            "reference": [
-                "2020TNSCR3228....1A"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -5871,18 +5883,6 @@
         {
             "name": "2020TNSCR3228....1A",
             "human_readable_name": "Arcavi, I. et al. (2020)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR3228....1A",
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

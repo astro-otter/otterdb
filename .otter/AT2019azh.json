@@ -1,4 +1,51 @@
 {
+    "distance": [
+        {
+            "value": "0.022",
+            "reference": [
+                "2022MNRAS.511.5328G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.0222,
+            "reference": [
+                "2021MNRAS.500.1673H,2022ApJ...925...67L,2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 68.0,
+            "reference": "2023ApJ...955L...6Y",
+            "distance_type": "dispersion_measure",
+            "error": 2.0,
+            "unit": "km/s"
+        },
+        {
+            "value": "0.022346",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2019TNSTR...2....1S",
+                "2019TNSCR.287....1B",
+                "2021ApJ...912..151W"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.022,
+            "reference": [
+                "2019TNSCR.287....1B",
+                "2020TNSCR2126....1D"
+            ],
+            "computed": false,
+            "distance_type": "redshift"
+        }
+    ],
     "coordinate": [
         {
             "ra": "08 13 16.937",
@@ -12,11 +59,11 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "09ae69ba-d386-406c-8bb3-fc44a4b5ba52",
+            "uuid": "cbaf12b6-307d-4c8e-9890-be18770e5765",
             "coordinate_type": "equitorial"
         },
         {
-            "reference": "09ae69ba-d386-406c-8bb3-fc44a4b5ba52",
+            "reference": "cbaf12b6-307d-4c8e-9890-be18770e5765",
             "computed": true,
             "coordinate_type": "galactic",
             "l": 200.18503399179954,
@@ -80,6 +127,12 @@
                 ]
             },
             {
+                "value": "AT 2019azh",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
                 "value": "AT2019azh",
                 "reference": [
                     "TNS",
@@ -89,6 +142,23 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2019TNSCR.287....1B",
+                "2019TNSTR...2....1S",
+                "2020TNSCR2126....1D",
+                "2021ApJ...912..151W",
+                "2021MNRAS.500.1673H,2022ApJ...925...67L,2021ApJ...908....4V",
+                "2022MNRAS.511.5328G",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "reference": [
@@ -10505,46 +10575,23 @@
             "date_type": "peak"
         },
         {
+            "value": "2019-02-22 ",
+            "date_format": "iso",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2019TNSTR...2....1S",
+                "2019TNSCR.287....1B",
+                "2021ApJ...912..151W"
+            ],
+            "date_type": "discovery",
+            "default": true
+        },
+        {
             "value": 58536.02,
             "date_format": "mjd",
             "reference": "2019TNSTR.262....1S",
             "computed": false,
             "date_type": "discovery"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.022",
-            "reference": [
-                "2022MNRAS.511.5328G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.0222,
-            "reference": [
-                "2021MNRAS.500.1673H,2022ApJ...925...67L,2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 68.0,
-            "reference": "2023ApJ...955L...6Y",
-            "distance_type": "dispersion_measure",
-            "error": 2.0,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.022,
-            "reference": [
-                "2019TNSCR.287....1B",
-                "2020TNSCR2126....1D"
-            ],
-            "computed": false,
-            "distance_type": "redshift"
         }
     ],
     "filter_alias": [
@@ -10655,7 +10702,11 @@
             "human_readable_name": "Yao, Yuhan et al. (2023)"
         },
         {
-            "name": "2019TNSTR.262....1S",
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2019TNSTR...2....1S",
             "human_readable_name": "Stanek, K. Z. (2019)"
         },
         {
@@ -10663,26 +10714,35 @@
             "human_readable_name": "Barbarino, C. et al. (2019)"
         },
         {
+            "name": "2021ApJ...912..151W",
+            "human_readable_name": "Wevers, T. et al. (2021)"
+        },
+        {
+            "name": "2019TNSTR.262....1S",
+            "human_readable_name": "Stanek, K. Z. (2019)"
+        },
+        {
             "name": " 2020TNSCR2126....1D",
             "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2019TNSCR.287....1B",
-                "2020TNSCR2126....1D",
-                "2021MNRAS.500.1673H,2022ApJ...925...67L,2021ApJ...908....4V",
-                "2022MNRAS.511.5328G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "schema_version": {
-        "value": "0",
-        "comment": "Original Dataset"
-    }
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "host": [
+        {
+            "host_name": "KUG 0810+227",
+            "host_ra": 123.32083333333331,
+            "host_dec": 22.648333333333333,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2019TNSTR...2....1S",
+                "2019TNSCR.287....1B",
+                "2021ApJ...912..151W"
+            ]
+        }
+    ]
 }

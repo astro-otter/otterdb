@@ -1,4 +1,22 @@
 {
+    "distance": [
+        {
+            "value": 0.0815,
+            "reference": [
+                "2023TNSAN.326....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.0815,
+            "reference": [
+                "2023TNSCR3112....1H"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 290.3022882,
@@ -26,12 +44,6 @@
         "default_name": "2023rvb",
         "alias": [
             {
-                "value": "2023rvb",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "ATLAS23spi",
                 "reference": [
                     "TNS"
@@ -39,6 +51,12 @@
             },
             {
                 "value": "ZTF23abaujuy",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2023rvb",
                 "reference": [
                     "TNS"
                 ]
@@ -52,6 +70,18 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2023TNSAN.326....1H",
+                "2023TNSCR3112....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -736,24 +766,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.0815,
-            "reference": [
-                "2023TNSAN.326....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.0815,
-            "reference": [
-                "2023TNSCR3112....1H"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -822,18 +834,6 @@
         {
             "name": "2023TNSCR3112....1H",
             "human_readable_name": "Hammerstein, E. et al. (2023)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2023TNSAN.326....1H",
-                "2023TNSCR3112....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

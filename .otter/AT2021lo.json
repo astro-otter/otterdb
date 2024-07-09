@@ -1,4 +1,22 @@
 {
+    "distance": [
+        {
+            "value": 0.152,
+            "reference": [
+                "2022TNSCR.620....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.152,
+            "reference": [
+                "2022TNSCR.620....1Y"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 46.109744,
@@ -52,6 +70,17 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022TNSCR.620....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -2152,24 +2181,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.152,
-            "reference": [
-                "2022TNSCR.620....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.152,
-            "reference": [
-                "2022TNSCR.620....1Y"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "W1.wise",
@@ -2219,17 +2230,6 @@
         {
             "name": "2021TNSTR..54....1M",
             "human_readable_name": "Munoz-Arancibia, A. et al. (2021)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR.620....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

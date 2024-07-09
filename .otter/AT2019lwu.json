@@ -1,4 +1,22 @@
 {
+    "distance": [
+        {
+            "value": 0.117,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.117,
+            "reference": [
+                "2020TNSCR2246....1D"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 347.80127251,
@@ -26,25 +44,25 @@
         "default_name": "2019lwu",
         "alias": [
             {
-                "value": "2019lwu",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF19abidbya",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "PS19ega",
                 "reference": [
                     "TNS"
                 ]
             },
             {
+                "value": "2019lwu",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
                 "value": "ATLAS19rnz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF19abidbya",
                 "reference": [
                     "TNS"
                 ]
@@ -58,6 +76,18 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR2246....1D",
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -2862,24 +2892,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.117,
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.117,
-            "reference": [
-                "2020TNSCR2246....1D"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -2958,18 +2970,6 @@
         {
             "name": "2020TNSCR2246....1D",
             "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR2246....1D",
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

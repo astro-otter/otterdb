@@ -1,4 +1,29 @@
 {
+    "distance": [
+        {
+            "value": 0.072,
+            "reference": [
+                "2022TNSCR1036....1S",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 108.33,
+            "reference": "2023ApJS..267...44A",
+            "distance_type": "dispersion_measure",
+            "error": 6.705,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.072,
+            "reference": [
+                "2022TNSCR1036....1S"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 150.0334731,
@@ -26,7 +51,7 @@
         "default_name": "2022dyt",
         "alias": [
             {
-                "value": "ATLAS22jju",
+                "value": "ZTF22aacgcwv",
                 "reference": [
                     "TNS"
                 ]
@@ -38,7 +63,7 @@
                 ]
             },
             {
-                "value": "ZTF22aacgcwv",
+                "value": "ATLAS22jju",
                 "reference": [
                     "TNS"
                 ]
@@ -52,6 +77,17 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022TNSCR1036....1S",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -2588,31 +2624,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.072,
-            "reference": [
-                "2022TNSCR1036....1S",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 108.33,
-            "reference": "2023ApJS..267...44A",
-            "distance_type": "dispersion_measure",
-            "error": 6.705,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.072,
-            "reference": [
-                "2022TNSCR1036....1S"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -2691,17 +2702,6 @@
         {
             "name": "2022TNSTR.572....1M",
             "human_readable_name": "Munoz-Arancibia, A. et al. (2022)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR1036....1S",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

@@ -1,4 +1,23 @@
 {
+    "distance": [
+        {
+            "value": 0.358,
+            "reference": [
+                "2021TNSCR1723....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.358,
+            "reference": [
+                "2021TNSCR1722....1H",
+                "2021TNSCR1723....1H"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 252.5305188,
@@ -26,7 +45,7 @@
         "default_name": "2021gje",
         "alias": [
             {
-                "value": "ATLAS21kpm",
+                "value": "ZTF21aapvvtb",
                 "reference": [
                     "TNS"
                 ]
@@ -38,7 +57,7 @@
                 ]
             },
             {
-                "value": "ZTF21aapvvtb",
+                "value": "ATLAS21kpm",
                 "reference": [
                     "TNS"
                 ]
@@ -52,6 +71,18 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR1722....1H",
+                "2021TNSCR1723....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -8372,25 +8403,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.358,
-            "reference": [
-                "2021TNSCR1723....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.358,
-            "reference": [
-                "2021TNSCR1722....1H",
-                "2021TNSCR1723....1H"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -8483,18 +8495,6 @@
         {
             "name": " 2021TNSCR1723....1H",
             "human_readable_name": "Hammerstein, E. et al. (2021)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR1722....1H",
-                "2021TNSCR1723....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

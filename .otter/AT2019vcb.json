@@ -1,4 +1,22 @@
 {
+    "distance": [
+        {
+            "value": 0.088,
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.089,
+            "reference": [
+                "2020TNSCR2126....1D"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 189.734925821,
@@ -32,6 +50,12 @@
                 ]
             },
             {
+                "value": "ZTF19acspeuw",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
                 "value": "2019vcb",
                 "reference": [
                     "TNS"
@@ -39,12 +63,6 @@
             },
             {
                 "value": "ATLAS19bcyz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF19acspeuw",
                 "reference": [
                     "TNS"
                 ]
@@ -58,6 +76,18 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR2126....1D",
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -4638,24 +4668,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.088,
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.089,
-            "reference": [
-                "2020TNSCR2126....1D"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -4739,18 +4751,6 @@
         {
             "name": "2020TNSCR2126....1D",
             "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR2126....1D",
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

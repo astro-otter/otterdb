@@ -1,4 +1,29 @@
 {
+    "distance": [
+        {
+            "value": 0.074,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 46.65,
+            "reference": "2023ApJ...957...86H",
+            "distance_type": "dispersion_measure",
+            "error": 11.83,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.074,
+            "reference": [
+                "2019TNSCR1737....1V"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "coordinate": [
         {
             "ra": 212.424617,
@@ -32,13 +57,13 @@
                 ]
             },
             {
-                "value": "ZTF19aarioci",
+                "value": "2019ehz",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2019ehz",
+                "value": "ZTF19aarioci",
                 "reference": [
                     "TNS"
                 ]
@@ -52,6 +77,18 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2019TNSCR1737....1V",
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -8888,31 +8925,6 @@
             "date_type": "discovery"
         }
     ],
-    "distance": [
-        {
-            "value": 0.074,
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 46.65,
-            "reference": "2023ApJ...957...86H",
-            "distance_type": "dispersion_measure",
-            "error": 11.83,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.074,
-            "reference": [
-                "2019TNSCR1737....1V"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -8995,18 +9007,6 @@
         {
             "name": "2019TNSCR1737....1V",
             "human_readable_name": "Velzen, S. V. (2019)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2019TNSCR1737....1V",
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }
