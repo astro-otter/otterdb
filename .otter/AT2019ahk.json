@@ -1,238 +1,4 @@
 {
-    "distance": [
-        {
-            "value": 0.0262,
-            "reference": [
-                "2019ApJ...883..111H",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.0262,
-            "reference": [
-                " 2019TNSCR.288....1P"
-            ],
-            "distance_type": "redshift",
-            "compute": false
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2019ApJ...883..111H",
-            "human_readable_name": "Holoien, Thomas W. -S. et al. (2019)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2019TNSTR.167....1S",
-            "human_readable_name": "Stanek, K. Z. (2019)"
-        },
-        {
-            "name": "2024arXiv240412431C",
-            "human_readable_name": "2024arXiv240412431C"
-        },
-        {
-            "name": " 2019TNSCR.288....1P",
-            "human_readable_name": "Palazzi, E. et al. (2019)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 58544.00599999995,
-            "date_format": "mjd",
-            "reference": [
-                "2019ApJ...883..111H",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
-        },
-        {
-            "value": "2458513.41",
-            "date_format": "jd",
-            "reference": "2019TNSTR.167....1S",
-            "computed": false,
-            "date_type": "discovery"
-        }
-    ],
-    "name": {
-        "default_name": "AT2019ahk",
-        "alias": [
-            {
-                "value": "ASASSN-19bt",
-                "reference": [
-                    "2019TNSTR.167....1S"
-                ]
-            },
-            {
-                "value": "AT2019ahk",
-                "reference": [
-                    "2019ApJ...883..111H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "filter_alias": [
-        {
-            "filter_key": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W1.wise",
-            "freq_eff": 89917740678395.33,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W2.wise",
-            "freq_eff": 65429370473910.305,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.sdss",
-            "freq_eff": 488925642232043.75,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "2.1GHz",
-            "freq_eff": "2.1",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "97.5GHz",
-            "freq_eff": "97.5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "16.7GHz",
-            "freq_eff": "16.7",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "21.2GHz",
-            "freq_eff": "21.2",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "17.0GHz",
-            "freq_eff": "17",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "19.0GHz",
-            "freq_eff": "19",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.5GHz",
-            "freq_eff": "5.5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "9.0GHz",
-            "freq_eff": "9",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.0GHz",
-            "freq_eff": "5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "6.0GHz",
-            "freq_eff": "6",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "8.5GHz",
-            "freq_eff": "8.5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "9.5GHz",
-            "freq_eff": "9.5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.3GHz",
-            "freq_eff": "1.3",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.6GHz",
-            "freq_eff": "1.6",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "2.6GHz",
-            "freq_eff": "2.6",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "0.8GHz",
-            "freq_eff": "0.8",
-            "freq_units": "GHz"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2019ApJ...883..111H",
-                "2024MNRAS.527.2452M",
-                "2024arXiv240412431C"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": 105.047461,
-            "dec": -66.040214,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2019ApJ...883..111H",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": "07:00:11.546",
-            "dec": "-66:02:24.14",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "reference": [
-                "2019TNSTR.167....1S"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -1780,10 +1546,10 @@
         {
             "reference": "2024arXiv240412431C",
             "raw": [
-                "143",
-                "89",
-                "60",
-                "31"
+                143.0,
+                89.0,
+                60.0,
+                31.0
             ],
             "raw_err": [
                 21.0,
@@ -1827,43 +1593,43 @@
         {
             "reference": "2024arXiv240412431C",
             "raw": [
-                "464",
-                "400",
-                "220",
-                "206",
-                "235",
-                "216",
-                "418",
-                "330",
-                "440",
-                "789",
-                "630",
-                "493",
-                "276",
-                "266",
-                "1153",
-                "759",
-                "497",
-                "272",
-                "194",
-                "3589",
-                "5044",
-                "4833",
-                "3907",
-                "3453",
-                "1806",
-                "1494",
-                "3568",
-                "3078",
-                "1709",
-                "1265",
-                "5000",
-                "5503",
-                "4015",
-                "2418",
-                "2087",
-                "1414",
-                "1299"
+                464.0,
+                400.0,
+                220.0,
+                206.0,
+                235.0,
+                216.0,
+                418.0,
+                330.0,
+                440.0,
+                789.0,
+                630.0,
+                493.0,
+                276.0,
+                266.0,
+                1153.0,
+                759.0,
+                497.0,
+                272.0,
+                194.0,
+                3589.0,
+                5044.0,
+                4833.0,
+                3907.0,
+                3453.0,
+                1806.0,
+                1494.0,
+                3568.0,
+                3078.0,
+                1709.0,
+                1265.0,
+                5000.0,
+                5503.0,
+                4015.0,
+                2418.0,
+                2087.0,
+                1414.0,
+                1299.0
             ],
             "raw_err": [
                 70.0,
@@ -2072,9 +1838,9 @@
         {
             "reference": "2024arXiv240412431C",
             "raw": [
-                "4400",
-                "6764",
-                "6145"
+                4400.0,
+                6764.0,
+                6145.0
             ],
             "raw_err": [
                 140.0,
@@ -2109,6 +1875,240 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W1.wise",
+            "freq_eff": 89917740678395.33,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W2.wise",
+            "freq_eff": 65429370473910.305,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.sdss",
+            "freq_eff": 488925642232043.75,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "2.1GHz",
+            "freq_eff": 2.1,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "97.5GHz",
+            "freq_eff": 97.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "16.7GHz",
+            "freq_eff": 16.7,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "21.2GHz",
+            "freq_eff": 21.2,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "17.0GHz",
+            "freq_eff": 17.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "19.0GHz",
+            "freq_eff": 19.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.5GHz",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "9.0GHz",
+            "freq_eff": 9.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.0GHz",
+            "freq_eff": 5.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "6.0GHz",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "8.5GHz",
+            "freq_eff": 8.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "9.5GHz",
+            "freq_eff": 9.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.3GHz",
+            "freq_eff": 1.3,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.6GHz",
+            "freq_eff": 1.6,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "2.6GHz",
+            "freq_eff": 2.6,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "0.8GHz",
+            "freq_eff": 0.8,
+            "freq_units": "GHz"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2019ApJ...883..111H",
+                "2024MNRAS.527.2452M",
+                "2024arXiv240412431C"
+            ],
+            "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": 105.047461,
+            "dec": -66.040214,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2019ApJ...883..111H",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": "07:00:11.546",
+            "dec": "-66:02:24.14",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2019TNSTR.167....1S"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2019ApJ...883..111H",
+            "human_readable_name": "Holoien, Thomas W. -S. et al. (2019)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2019TNSTR.167....1S",
+            "human_readable_name": "Stanek, K. Z. (2019)"
+        },
+        {
+            "name": "2024arXiv240412431C",
+            "human_readable_name": "2024arXiv240412431C"
+        },
+        {
+            "name": " 2019TNSCR.288....1P",
+            "human_readable_name": "Palazzi, E. et al. (2019)"
+        }
+    ],
+    "name": {
+        "default_name": "AT2019ahk",
+        "alias": [
+            {
+                "value": "ASASSN-19bt",
+                "reference": [
+                    "2019TNSTR.167....1S"
+                ]
+            },
+            {
+                "value": "AT2019ahk",
+                "reference": [
+                    "2019ApJ...883..111H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
+    "distance": [
+        {
+            "value": 0.0262,
+            "reference": [
+                "2019ApJ...883..111H",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.0262,
+            "reference": [
+                " 2019TNSCR.288....1P"
+            ],
+            "distance_type": "redshift",
+            "compute": false
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 58544.00599999995,
+            "date_format": "mjd",
+            "reference": [
+                "2019ApJ...883..111H",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": "2458513.41",
+            "date_format": "jd",
+            "reference": "2019TNSTR.167....1S",
+            "computed": false,
+            "date_type": "discovery"
         }
     ]
 }

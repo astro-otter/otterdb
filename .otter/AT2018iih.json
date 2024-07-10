@@ -1,107 +1,4 @@
 {
-    "filter_alias": [
-        {
-            "filter_key": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.ztf",
-            "freq_eff": 634121907623677.4,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "i.ztf",
-            "freq_eff": 380021535091050.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.ztf",
-            "freq_eff": 471994480402802.25,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "cyan",
-            "wave_eff": 540.8724658332794,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "G",
-            "wave_eff": 673.5412573108297,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        }
-    ],
-    "name": {
-        "default_name": "2018iih",
-        "alias": [
-            {
-                "value": "2018iih",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia18dpo",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF18acaqdaa",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS18yzs",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2018iih",
-                "reference": [
-                    "2021ApJ...908....4V",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
     "distance": [
         {
             "value": 0.212,
@@ -127,16 +24,82 @@
             "computed": false
         }
     ],
-    "classification": [
+    "coordinate": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "ra": 262.016347739,
+            "dec": 30.692086894,
+            "ra_units": "deg",
+            "dec_units": "deg",
             "reference": [
-                "2020TNSCR2246....1D",
                 "2021ApJ...908....4V",
                 "2024MNRAS.527.2452M"
             ],
-            "default": true
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 262.016375,
+            "dec": 30.692061,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2018TNSTR1750....1T",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "name": {
+        "default_name": "2018iih",
+        "alias": [
+            {
+                "value": "ATLAS18yzs",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2018iih",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF18acaqdaa",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia18dpo",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2018iih",
+                "reference": [
+                    "2021ApJ...908....4V",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": 58461.09348350004,
+            "date_format": "mjd",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 58431.19599537037,
+            "date_format": "mjd",
+            "reference": "2018TNSTR1750....1T",
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -12488,27 +12451,83 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "coordinate": [
+    "classification": [
         {
-            "ra": 262.016347739,
-            "dec": 30.692086894,
-            "ra_units": "deg",
-            "dec_units": "deg",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
+                "2020TNSCR2246....1D",
                 "2021ApJ...908....4V",
                 "2024MNRAS.527.2452M"
             ],
-            "coordinate_type": "equitorial"
+            "default": true
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
         },
         {
-            "ra": 262.016375,
-            "dec": 30.692061,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2018TNSTR1750....1T",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
+            "filter_key": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.ztf",
+            "freq_eff": 634121907623677.4,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "i.ztf",
+            "freq_eff": 380021535091050.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ztf",
+            "freq_eff": 471994480402802.25,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "cyan",
+            "wave_eff": 540.8724658332794,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
         }
     ],
     "reference_alias": [
@@ -12531,25 +12550,6 @@
         {
             "name": "2020TNSCR2246....1D",
             "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 58461.09348350004,
-            "date_format": "mjd",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
-        },
-        {
-            "value": 58431.19599537037,
-            "date_format": "mjd",
-            "reference": "2018TNSTR1750....1T",
-            "computed": false,
-            "date_type": "discovery"
         }
     ]
 }

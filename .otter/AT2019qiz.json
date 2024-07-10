@@ -1,25 +1,14 @@
 {
-    "coordinate": [
+    "classification": [
         {
-            "ra": "4:46:37.99",
-            "dec": "-10:13:31.5",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
-                "ASAS-SN Supernovae"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 71.657837,
-            "dec": -10.226355,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
+                "2017ApJ...835...64G",
                 "2020MNRAS.499..482N,2021ApJ...908....4V",
                 "2024MNRAS.527.2452M"
             ],
-            "coordinate_type": "equitorial"
+            "default": true
         }
     ],
     "name": {
@@ -43,42 +32,27 @@
             }
         ]
     },
-    "reference_alias": [
+    "coordinate": [
         {
-            "name": "2020arXiv200602454N",
-            "human_readable_name": "Nicholl et al. (2020)"
+            "ra": "4:46:37.99",
+            "dec": "-10:13:31.5",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "ASAS-SN Supernovae"
+            ],
+            "coordinate_type": "equitorial"
         },
         {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "ASAS-SN Supernovae",
-            "human_readable_name": "ASAS-SN Supernovae"
-        },
-        {
-            "name": "MAST",
-            "human_readable_name": "MAST"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2020MNRAS.499..482N",
-            "human_readable_name": "Nicholl, M. et al. (2020)"
-        },
-        {
-            "name": "2021ApJ...908....4V",
-            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...957...86H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+            "ra": 71.657837,
+            "dec": -10.226355,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2020MNRAS.499..482N,2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
         }
     ],
     "distance": [
@@ -129,18 +103,6 @@
             "error": 1.93
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2020MNRAS.499..482N,2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "date_reference": [
         {
             "value": "2019-09-24 9:50:24.000000000012278",
@@ -161,6 +123,44 @@
                 "2024MNRAS.527.2452M"
             ],
             "computed": false
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2020arXiv200602454N",
+            "human_readable_name": "Nicholl et al. (2020)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "ASAS-SN Supernovae",
+            "human_readable_name": "ASAS-SN Supernovae"
+        },
+        {
+            "name": "MAST",
+            "human_readable_name": "MAST"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2020MNRAS.499..482N",
+            "human_readable_name": "Nicholl, M. et al. (2020)"
+        },
+        {
+            "name": "2021ApJ...908....4V",
+            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...957...86H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
         }
     ],
     "schema_version": {

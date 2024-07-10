@@ -1,229 +1,48 @@
 {
-    "filter_alias": [
+    "coordinate": [
         {
-            "filter_key": "8.5GHz",
-            "freq_eff": 8.5,
-            "freq_units": "GHz"
+            "ra": "13 34 43.207",
+            "dec": "+33 13 00.54",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "7bca4f6c-8b1d-4b7b-aa7a-c25c7bc08a09",
+            "coordinate_type": "equitorial"
         },
         {
-            "filter_key": "15.5GHz",
-            "freq_eff": "15.5",
-            "freq_units": "GHz"
+            "reference": "7bca4f6c-8b1d-4b7b-aa7a-c25c7bc08a09",
+            "computed": true,
+            "coordinate_type": "galactic",
+            "l": 68.62957133676095,
+            "b": 78.8489417474028,
+            "l_units": "deg",
+            "b_units": "deg"
         },
         {
-            "filter_key": "5GHz",
-            "freq_eff": "5",
-            "freq_units": "GHz"
+            "ra": "13:34:43.207",
+            "dec": "+33:13:00.54",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2022TNSTR.397....1A"
+            ],
+            "coordinate_type": "equitorial"
         },
         {
-            "filter_key": "1.3GHz",
-            "freq_eff": "1.3",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "9.5GHz",
-            "freq_eff": "9.5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "10.5GHz",
-            "freq_eff": "10.5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "11.5GHz",
-            "freq_eff": "11.5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "12.8GHz",
-            "freq_eff": "12.8",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "14.3GHz",
-            "freq_eff": "14.3",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "15.9GHz",
-            "freq_eff": "15.9",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "17.1GHz",
-            "freq_eff": "17.1",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.0GHz",
-            "freq_eff": "5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "7.0GHz",
-            "freq_eff": "7",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "41.0GHz",
-            "freq_eff": "41",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "43.0GHz",
-            "freq_eff": "43",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "45.0GHz",
-            "freq_eff": "45",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "47.0GHz",
-            "freq_eff": "47",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "31.5GHz",
-            "freq_eff": "31.5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "33.5GHz",
-            "freq_eff": "33.5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "35.5GHz",
-            "freq_eff": "35.5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "37.5GHz",
-            "freq_eff": "37.5",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "19.2GHz",
-            "freq_eff": "19.2",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "21.2GHz",
-            "freq_eff": "21.2",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "23.2GHz",
-            "freq_eff": "23.2",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "25.2GHz",
-            "freq_eff": "25.2",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "17.4GHz",
-            "freq_eff": "17.4",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "225 GHz",
-            "freq_eff": "225",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "86 GHz",
-            "freq_eff": "86",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "102 GHz",
-            "freq_eff": "102",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "340 GHz",
-            "freq_eff": "340",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "350 GHz",
-            "freq_eff": "350",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "667 GHz",
-            "freq_eff": "667",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "216 GHz",
-            "freq_eff": "216",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "232 GHz",
-            "freq_eff": "232",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "136 GHz",
-            "freq_eff": "136",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "152 GHz",
-            "freq_eff": "152",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "347 GHz",
-            "freq_eff": "347",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "31.4GHz",
-            "freq_eff": "31.4",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "35.6GHz",
-            "freq_eff": "35.6",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "15.8GHz",
-            "freq_eff": "15.8",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "0.402 GHz",
-            "freq_eff": "0.402",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.264 GHz",
-            "freq_eff": "1.264",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "0.750 GHz",
-            "freq_eff": "0.75",
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
+            "ra": 203.6800286,
+            "dec": 33.216817166666665,
+            "epoch": "J2000",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2022TNSTR.397....1A",
+            "coordinate_type": "equitorial",
+            "frame": "ICRS"
         }
     ],
     "name": {
@@ -250,6 +69,31 @@
             }
         ]
     },
+    "date_reference": [
+        {
+            "value": 59621.45,
+            "date_format": "mjd",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        },
+        {
+            "value": "2459621.946",
+            "date_format": "jd",
+            "reference": "2022TNSTR.397....1A",
+            "computed": false,
+            "date_type": "discovery"
+        },
+        {
+            "value": 59621.4463,
+            "date_format": "mjd",
+            "reference": "2022TNSTR.397....1A",
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
     "photometry": [
         {
             "reference": [
@@ -352,7 +196,7 @@
         {
             "reference": "2022Natur.612..430A",
             "raw": [
-                "1560"
+                1560.0
             ],
             "raw_err": [
                 220.0
@@ -381,10 +225,10 @@
         {
             "reference": "2022Natur.612..430A",
             "raw": [
-                "5900",
-                "76200",
-                "4300",
-                "34500"
+                5900.0,
+                76200.0,
+                4300.0,
+                34500.0
             ],
             "raw_err": [
                 2000.0,
@@ -428,20 +272,20 @@
         {
             "reference": "2022Natur.612..430A",
             "raw": [
-                "4759",
-                "6034",
-                "7142",
-                "6835",
-                "5464",
-                "5446",
-                "4596",
-                "4953",
-                "4549",
-                "4661",
-                "3914",
-                "3609",
-                "3045",
-                "2750"
+                4759.0,
+                6034.0,
+                7142.0,
+                6835.0,
+                5464.0,
+                5446.0,
+                4596.0,
+                4953.0,
+                4549.0,
+                4661.0,
+                3914.0,
+                3609.0,
+                3045.0,
+                2750.0
             ],
             "raw_err": [
                 73.0,
@@ -535,21 +379,21 @@
         {
             "reference": "2022Natur.612..430A",
             "raw": [
-                "9540",
-                "8172",
-                "6490",
-                "7074",
-                "7056",
-                "6538",
-                "4262",
-                "6227",
-                "9430",
-                "4905",
-                "7246",
-                "4226",
-                "3485",
-                "3243",
-                "2712"
+                9540.0,
+                8172.0,
+                6490.0,
+                7074.0,
+                7056.0,
+                6538.0,
+                4262.0,
+                6227.0,
+                9430.0,
+                4905.0,
+                7246.0,
+                4226.0,
+                3485.0,
+                3243.0,
+                2712.0
             ],
             "raw_err": [
                 820.0,
@@ -648,94 +492,94 @@
         {
             "reference": "2022Natur.612..430A",
             "raw": [
-                "33",
-                "46",
-                "51",
-                "68",
-                "43",
-                "49",
-                "84",
-                "97",
-                "106",
-                "148",
-                "176",
-                "212",
-                "23",
-                "19",
-                "73",
-                "90",
-                "137",
-                "141",
-                "1540",
-                "1750",
-                "1760",
-                "1900",
-                "955",
-                "969",
-                "1127",
-                "1226",
-                "349",
-                "404",
-                "506",
-                "576",
-                "69",
-                "78",
-                "90",
-                "142",
-                "156",
-                "189",
-                "249",
-                "290",
-                "28",
-                "42",
-                "109",
-                "141",
-                "184",
-                "230",
-                "108",
-                "144",
-                "196",
-                "220",
-                "1350",
-                "1555",
-                "1687",
-                "1692",
-                "102",
-                "132",
-                "155",
-                "197",
-                "242",
-                "268",
-                "322",
-                "388",
-                "137",
-                "160",
-                "182",
-                "228",
-                "1890",
-                "2046",
-                "2278",
-                "2389",
-                "170",
-                "220",
-                "234",
-                "299",
-                "381",
-                "483",
-                "587",
-                "684",
-                "2130",
-                "2260",
-                "2350",
-                "2360",
-                "270",
-                "336",
-                "385",
-                "438",
-                "583",
-                "724",
-                "801",
-                "935"
+                33.0,
+                46.0,
+                51.0,
+                68.0,
+                43.0,
+                49.0,
+                84.0,
+                97.0,
+                106.0,
+                148.0,
+                176.0,
+                212.0,
+                23.0,
+                19.0,
+                73.0,
+                90.0,
+                137.0,
+                141.0,
+                1540.0,
+                1750.0,
+                1760.0,
+                1900.0,
+                955.0,
+                969.0,
+                1127.0,
+                1226.0,
+                349.0,
+                404.0,
+                506.0,
+                576.0,
+                69.0,
+                78.0,
+                90.0,
+                142.0,
+                156.0,
+                189.0,
+                249.0,
+                290.0,
+                28.0,
+                42.0,
+                109.0,
+                141.0,
+                184.0,
+                230.0,
+                108.0,
+                144.0,
+                196.0,
+                220.0,
+                1350.0,
+                1555.0,
+                1687.0,
+                1692.0,
+                102.0,
+                132.0,
+                155.0,
+                197.0,
+                242.0,
+                268.0,
+                322.0,
+                388.0,
+                137.0,
+                160.0,
+                182.0,
+                228.0,
+                1890.0,
+                2046.0,
+                2278.0,
+                2389.0,
+                170.0,
+                220.0,
+                234.0,
+                299.0,
+                381.0,
+                483.0,
+                587.0,
+                684.0,
+                2130.0,
+                2260.0,
+                2350.0,
+                2360.0,
+                270.0,
+                336.0,
+                385.0,
+                438.0,
+                583.0,
+                724.0,
+                801.0,
+                935.0
             ],
             "raw_err": [
                 7.0,
@@ -1199,9 +1043,9 @@
         {
             "reference": "2022Natur.612..430A",
             "raw": [
-                "98.7",
-                "47.7",
-                "67.8"
+                98.7,
+                47.7,
+                67.8
             ],
             "raw_err": [
                 0.0,
@@ -1240,55 +1084,55 @@
         {
             "reference": "2023MNRAS.521..389R",
             "raw": [
-                "0.45",
-                "0.48",
-                "0.45",
-                "0.58",
-                "0.53",
-                "0.62",
-                "0.6",
-                "0.7",
-                "0.67",
-                "0.72",
-                "0.81",
-                "0.83",
-                "0.7",
-                "0.71",
-                "0.64",
-                "0.83",
-                "0.67",
-                "0.8",
-                "0.66",
-                "0.84",
-                "0.76",
-                "0.62",
-                "0.67",
-                "0.76",
-                "0.89",
-                "0.82",
-                "0.91",
-                "0.78",
-                "1",
-                "0.86",
-                "0.8",
-                "0.87",
-                "0.79",
-                "0.91",
-                "0.7",
-                "0.92",
-                "0.87",
-                "0.79",
-                "0.85",
-                "0.92",
-                "0.86",
-                "0.82",
-                "0.96",
-                "1.05",
-                "1",
-                "0.88",
-                "0.94",
-                "0.95",
-                "0.84"
+                0.45,
+                0.48,
+                0.45,
+                0.58,
+                0.53,
+                0.62,
+                0.6,
+                0.7,
+                0.67,
+                0.72,
+                0.81,
+                0.83,
+                0.7,
+                0.71,
+                0.64,
+                0.83,
+                0.67,
+                0.8,
+                0.66,
+                0.84,
+                0.76,
+                0.62,
+                0.67,
+                0.76,
+                0.89,
+                0.82,
+                0.91,
+                0.78,
+                1.0,
+                0.86,
+                0.8,
+                0.87,
+                0.79,
+                0.91,
+                0.7,
+                0.92,
+                0.87,
+                0.79,
+                0.85,
+                0.92,
+                0.86,
+                0.82,
+                0.96,
+                1.05,
+                1.0,
+                0.88,
+                0.94,
+                0.95,
+                0.84
             ],
             "raw_err": [
                 0.03,
@@ -1557,9 +1401,9 @@
         {
             "reference": "2023MNRAS.521..389R",
             "raw": [
-                "18",
-                "21",
-                "18"
+                18.0,
+                21.0,
+                18.0
             ],
             "raw_err": [
                 0.0,
@@ -1598,11 +1442,11 @@
         {
             "reference": "2023MNRAS.521..389R",
             "raw": [
-                "75",
-                "84",
-                "100",
-                "110",
-                "100"
+                75.0,
+                84.0,
+                100.0,
+                110.0,
+                100.0
             ],
             "raw_err": [
                 0.0,
@@ -1769,50 +1613,231 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "coordinate": [
+    "filter_alias": [
         {
-            "ra": "13 34 43.207",
-            "dec": "+33 13 00.54",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "reference": [
-                "2022Natur.612..430A"
-            ],
-            "computed": false,
-            "default": true,
-            "uuid": "c336da15-382f-43a2-bc2d-4e4bc14ca51f",
-            "coordinate_type": "equitorial"
+            "filter_key": "8.5GHz",
+            "freq_eff": 8.5,
+            "freq_units": "GHz"
         },
         {
-            "reference": "c336da15-382f-43a2-bc2d-4e4bc14ca51f",
-            "computed": true,
-            "coordinate_type": "galactic",
-            "l": 68.62957133676095,
-            "b": 78.8489417474028,
-            "l_units": "deg",
-            "b_units": "deg"
+            "filter_key": "15.5GHz",
+            "freq_eff": 15.5,
+            "freq_units": "GHz"
         },
         {
-            "ra": "13:34:43.207",
-            "dec": "+33:13:00.54",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "reference": [
-                "2022TNSTR.397....1A"
-            ],
-            "coordinate_type": "equitorial"
+            "filter_key": "5GHz",
+            "freq_eff": 5.0,
+            "freq_units": "GHz"
         },
         {
-            "ra": 203.6800286,
-            "dec": 33.216817166666665,
-            "epoch": "J2000",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2022TNSTR.397....1A",
-            "coordinate_type": "equitorial",
-            "frame": "ICRS"
+            "filter_key": "1.3GHz",
+            "freq_eff": 1.3,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "9.5GHz",
+            "freq_eff": 9.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "10.5GHz",
+            "freq_eff": 10.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "11.5GHz",
+            "freq_eff": 11.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "12.8GHz",
+            "freq_eff": 12.8,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "14.3GHz",
+            "freq_eff": 14.3,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "15.9GHz",
+            "freq_eff": 15.9,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "17.1GHz",
+            "freq_eff": 17.1,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.0GHz",
+            "freq_eff": 5.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "7.0GHz",
+            "freq_eff": 7.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "41.0GHz",
+            "freq_eff": 41.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "43.0GHz",
+            "freq_eff": 43.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "45.0GHz",
+            "freq_eff": 45.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "47.0GHz",
+            "freq_eff": 47.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "31.5GHz",
+            "freq_eff": 31.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "33.5GHz",
+            "freq_eff": 33.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "35.5GHz",
+            "freq_eff": 35.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "37.5GHz",
+            "freq_eff": 37.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "19.2GHz",
+            "freq_eff": 19.2,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "21.2GHz",
+            "freq_eff": 21.2,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "23.2GHz",
+            "freq_eff": 23.2,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "25.2GHz",
+            "freq_eff": 25.2,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "17.4GHz",
+            "freq_eff": 17.4,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "225 GHz",
+            "freq_eff": 225.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "86 GHz",
+            "freq_eff": 86.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "102 GHz",
+            "freq_eff": 102.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "340 GHz",
+            "freq_eff": 340.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "350 GHz",
+            "freq_eff": 350.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "667 GHz",
+            "freq_eff": 667.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "216 GHz",
+            "freq_eff": 216.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "232 GHz",
+            "freq_eff": 232.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "136 GHz",
+            "freq_eff": 136.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "152 GHz",
+            "freq_eff": 152.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "347 GHz",
+            "freq_eff": 347.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "31.4GHz",
+            "freq_eff": 31.4,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "35.6GHz",
+            "freq_eff": 35.6,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "15.8GHz",
+            "freq_eff": 15.8,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "0.402 GHz",
+            "freq_eff": 0.402,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.264 GHz",
+            "freq_eff": 1.264,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "0.750 GHz",
+            "freq_eff": 0.75,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
         }
     ],
     "reference_alias": [
@@ -1829,35 +1854,6 @@
             "human_readable_name": "2023MNRAS.521..389R"
         }
     ],
-    "date_reference": [
-        {
-            "value": 59621.45,
-            "date_format": "mjd",
-            "reference": [
-                "2022Natur.612..430A"
-            ],
-            "computed": false,
-            "date_type": "discovery"
-        },
-        {
-            "value": "2459621.946",
-            "date_format": "jd",
-            "reference": "2022TNSTR.397....1A",
-            "computed": false,
-            "date_type": "discovery"
-        },
-        {
-            "value": 59621.4463,
-            "date_format": "mjd",
-            "reference": "2022TNSTR.397....1A",
-            "computed": false,
-            "date_type": "discovery"
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Original Dataset"
-    },
     "distance": [
         {
             "value": "1.19325",
@@ -1879,5 +1875,9 @@
             ],
             "default": true
         }
-    ]
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Original Dataset"
+    }
 }

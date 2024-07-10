@@ -1,79 +1,8 @@
 {
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2013arXiv1309.3009C",
-                "2014ApJ...780...44C",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
     },
-    "distance": [
-        {
-            "value": "0.4046",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2013arXiv1309.3009C"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "2269",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2013arXiv1309.3009C",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "1616",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2013arXiv1309.3009C",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
-        },
-        {
-            "value": 0.4046,
-            "reference": [
-                "2014ApJ...780...44C",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": "0.4046",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2014ApJ...780...44C",
-                "2017ApJ...838..149A"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        }
-    ],
     "coordinate": [
         {
             "ra": "09:57:26.82",
@@ -95,6 +24,20 @@
                 "2024MNRAS.527.2452M"
             ],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2013arXiv1309.3009C",
+                "2014ApJ...780...44C",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "reference_alias": [
@@ -182,6 +125,92 @@
                 "2017ApJ...838..149A"
             ],
             "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.4046",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2013arXiv1309.3009C"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "2269",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2013arXiv1309.3009C",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity",
+            "unit": "Mpc"
+        },
+        {
+            "value": "1616",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2013arXiv1309.3009C",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving",
+            "unit": "Mpc"
+        },
+        {
+            "value": 0.4046,
+            "reference": [
+                "2014ApJ...780...44C",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": "0.4046",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2014ApJ...780...44C",
+                "2017ApJ...838..149A"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "NUV",
+            "freq_eff": 1322268446213041.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.ps",
+            "freq_eff": 627363098231187.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ps",
+            "freq_eff": 488135386922682.3,
+            "freq_units": "Hz"
         }
     ],
     "photometry": [
@@ -495,35 +524,6 @@
             "corr_host": false,
             "corr_hostav": false,
             "val_av": 0.08347746020059617
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "NUV",
-            "freq_eff": 1322268446213041.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.ps",
-            "freq_eff": 627363098231187.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.ps",
-            "freq_eff": 488135386922682.3,
-            "freq_units": "Hz"
         }
     ],
     "host": [

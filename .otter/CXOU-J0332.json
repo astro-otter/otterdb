@@ -1,16 +1,4 @@
 {
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017MNRAS.467.4841B",
-                "2017arXiv170204422B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
@@ -25,6 +13,18 @@
                 "2017arXiv170204422B"
             ],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017MNRAS.467.4841B",
+                "2017arXiv170204422B",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         }
     ],
     "reference_alias": [
@@ -89,18 +89,6 @@
             "default": true
         }
     ],
-    "distance": [
-        {
-            "value": "2.23",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2017MNRAS.467.4841B"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        }
-    ],
     "host": [
         {
             "host_name": "CANDELS J033238.77-275133.7",
@@ -112,6 +100,18 @@
                 "2023PASP..135c4101G",
                 "2017MNRAS.467.4841B"
             ]
+        }
+    ],
+    "distance": [
+        {
+            "value": "2.23",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017MNRAS.467.4841B"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         }
     ]
 }
