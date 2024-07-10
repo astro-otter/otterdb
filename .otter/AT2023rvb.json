@@ -1,4 +1,86 @@
 {
+    "filter_alias": [
+        {
+            "filter_key": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.ztf",
+            "freq_eff": 634121907623677.4,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ztf",
+            "freq_eff": 471994480402802.25,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "cyan",
+            "wave_eff": 540.8724658332794,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        }
+    ],
+    "name": {
+        "default_name": "2023rvb",
+        "alias": [
+            {
+                "value": "2023rvb",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF23abaujuy",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS23spi",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2023rvb",
+                "reference": [
+                    "2023TNSAN.326....1H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "distance": [
         {
             "value": 0.0815,
@@ -17,59 +99,6 @@
             "computed": false
         }
     ],
-    "coordinate": [
-        {
-            "ra": 290.3022882,
-            "dec": -22.6443337,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2023TNSAN.326....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 290.30227995,
-            "dec": -22.64433485,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2023TNSTR2204....1M",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
-    "name": {
-        "default_name": "2023rvb",
-        "alias": [
-            {
-                "value": "ATLAS23spi",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF23abaujuy",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2023rvb",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2023rvb",
-                "reference": [
-                    "2023TNSAN.326....1H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
     "classification": [
         {
             "object_class": "TDE",
@@ -747,75 +776,27 @@
             "instrument": "ATLAS-03"
         }
     ],
-    "date_reference": [
+    "coordinate": [
         {
-            "value": 60207.15833333332,
-            "date_format": "mjd",
+            "ra": 290.3022882,
+            "dec": -22.6443337,
+            "ra_units": "deg",
+            "dec_units": "deg",
             "reference": [
                 "2023TNSAN.326....1H",
                 "2024MNRAS.527.2452M"
             ],
-            "computed": false,
-            "date_type": "peak"
+            "coordinate_type": "equitorial"
         },
         {
-            "value": 60191.168287002314,
-            "date_format": "mjd",
+            "ra": 290.30227995,
+            "dec": -22.64433485,
+            "ra_units": "deg",
+            "dec_units": "deg",
             "reference": "2023TNSTR2204....1M",
-            "computed": false,
-            "date_type": "discovery"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.ztf",
-            "freq_eff": 634121907623677.4,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.ztf",
-            "freq_eff": 471994480402802.25,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "cyan",
-            "wave_eff": 540.8724658332794,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
         }
     ],
     "reference_alias": [
@@ -834,6 +815,25 @@
         {
             "name": "2023TNSCR3112....1H",
             "human_readable_name": "Hammerstein, E. et al. (2023)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 60207.15833333332,
+            "date_format": "mjd",
+            "reference": [
+                "2023TNSAN.326....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 60191.168287002314,
+            "date_format": "mjd",
+            "reference": "2023TNSTR2204....1M",
+            "computed": false,
+            "date_type": "discovery"
         }
     ]
 }

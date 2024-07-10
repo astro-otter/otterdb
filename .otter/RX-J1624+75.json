@@ -1,71 +1,21 @@
 {
-    "name": {
-        "default_name": "RX J1624+75",
-        "alias": [
-            {
-                "value": "RX J1624+75",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "MAST",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
+    "classification": [
         {
-            "value": "1990-08-25",
-            "date_format": "iso",
-            "date_type": "discovery",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
-                "2017ApJ...838..149A",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true
-        },
-        {
-            "value": "1990-08-25 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
                 "1999A&A...350L..31G",
-                "2017ApJ...838..149A"
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
             ],
             "default": true
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "1999A&A...350L..31G",
-            "human_readable_name": "Grupe, Thomas, & Leighly (1999)"
-        },
-        {
-            "name": "MAST",
-            "human_readable_name": "MAST"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "distance": [
         {
             "value": "0.0636",
@@ -115,23 +65,6 @@
             "distance_type": "redshift"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "1999A&A...350L..31G",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "coordinate": [
         {
             "ra": "16:24:56.70",
@@ -144,13 +77,71 @@
             "coordinate_type": "equitorial"
         }
     ],
-    "filter_alias": [
+    "reference_alias": [
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm"
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "1999A&A...350L..31G",
+            "human_readable_name": "Grupe, Thomas, & Leighly (1999)"
+        },
+        {
+            "name": "MAST",
+            "human_readable_name": "MAST"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        }
+    ],
+    "name": {
+        "default_name": "RX J1624+75",
+        "alias": [
+            {
+                "value": "RX J1624+75",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "MAST",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "1990-08-25",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true
+        },
+        {
+            "value": "1990-08-25 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "1999A&A...350L..31G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -293,6 +284,15 @@
                 "2017ApJ...838..149A"
             ],
             "corr_s": null
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm"
         }
     ],
     "host": [

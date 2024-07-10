@@ -1,65 +1,20 @@
 {
-    "name": {
-        "default_name": "J133837",
-        "alias": [
-            {
-                "value": "J133837",
-                "reference": [
-                    "2018arXiv180205105W",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2018MNRAS.477.2943W",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
     },
-    "date_reference": [
-        {
-            "value": "2009-11-02",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2018arXiv180205105W",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true
-        },
-        {
-            "value": "2009-11-02 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2018MNRAS.477.2943W"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2018arXiv180205105W",
-            "human_readable_name": "Wang et al. (2018)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2018MNRAS.477.2943W",
-            "human_readable_name": "Wang, Tinggui et al. (2018)"
-        }
-    ],
     "distance": [
         {
             "value": "0.1269",
@@ -105,22 +60,6 @@
             "distance_type": "redshift"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2018MNRAS.477.2943W",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "coordinate": [
         {
             "ra": "13:38:37.60",
@@ -133,21 +72,65 @@
             "coordinate_type": "equitorial"
         }
     ],
-    "filter_alias": [
+    "reference_alias": [
         {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm"
+            "name": "2018arXiv180205105W",
+            "human_readable_name": "Wang et al. (2018)"
         },
         {
-            "filter_key": "W1",
-            "wave_eff": 224.6,
-            "wave_units": "nm"
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
         },
         {
-            "filter_key": "W2",
-            "wave_eff": 192.8,
-            "wave_units": "nm"
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2018MNRAS.477.2943W",
+            "human_readable_name": "Wang, Tinggui et al. (2018)"
+        }
+    ],
+    "name": {
+        "default_name": "J133837",
+        "alias": [
+            {
+                "value": "J133837",
+                "reference": [
+                    "2018arXiv180205105W",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "2009-11-02",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2018arXiv180205105W",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true
+        },
+        {
+            "value": "2009-11-02 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2018MNRAS.477.2943W"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -278,6 +261,23 @@
                 "2018arXiv180205105W"
             ],
             "corr_s": null
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "V",
+            "wave_eff": 551.0,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "W1",
+            "wave_eff": 224.6,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "W2",
+            "wave_eff": 192.8,
+            "wave_units": "nm"
         }
     ],
     "host": [
