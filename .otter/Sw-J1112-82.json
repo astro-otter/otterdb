@@ -1,102 +1,4 @@
 {
-    "name": {
-        "default_name": "Sw J1112-82",
-        "alias": [
-            {
-                "value": "Sw J1112-82",
-                "reference": [
-                    "Swift"
-                ]
-            },
-            {
-                "value": "Swift J1112.2-8238",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2017ApJ...835...64G"
-                ]
-            },
-            {
-                "value": "Swift J1112-82",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2017ApJ...835...64G",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
-        {
-            "value": "55729.5",
-            "date_format": "mjd",
-            "reference": [
-                "2017MNRAS.472.4469B"
-            ],
-            "computed": false,
-            "date_type": "discovery"
-        },
-        {
-            "value": "2011-12-27",
-            "date_format": "iso",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "date_type": "discovery",
-            "default": true
-        },
-        {
-            "value": "2011-12-27 ",
-            "date_format": "iso",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2011ATel.3463....1K",
-                "2015MNRAS.452.4297B",
-                "2017ApJ...838..149A"
-            ],
-            "date_type": "discovery",
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017MNRAS.472.4469B",
-            "human_readable_name": "Brown et al. (2017)"
-        },
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2015arXiv150703582B",
-            "human_readable_name": "Brown et al. (2015)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2011ATel.3463....1K",
-            "human_readable_name": "Krimm, H. A. et al. (2011)"
-        },
-        {
-            "name": "2015MNRAS.452.4297B",
-            "human_readable_name": "Brown, G. C. et al. (2015)"
-        }
-    ],
     "distance": [
         {
             "value": "0.89",
@@ -154,6 +56,139 @@
             "computed": false,
             "default": true,
             "distance_type": "redshift"
+        },
+        {
+            "value": 0.8901,
+            "reference": [
+                "2015MNRAS.452.4297B"
+            ],
+            "distance_type": "redshift",
+            "compute": false
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017MNRAS.472.4469B",
+            "human_readable_name": "Brown et al. (2017)"
+        },
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2015arXiv150703582B",
+            "human_readable_name": "Brown et al. (2015)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2011ATel.3463....1K",
+            "human_readable_name": "Krimm, H. A. et al. (2011)"
+        },
+        {
+            "name": "2015MNRAS.452.4297B",
+            "human_readable_name": "Brown, G. C. et al. (2015)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "55729.5",
+            "date_format": "mjd",
+            "reference": [
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        },
+        {
+            "value": "2011-12-27",
+            "date_format": "iso",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "date_type": "discovery",
+            "default": true
+        },
+        {
+            "value": "2011-12-27 ",
+            "date_format": "iso",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2011ATel.3463....1K",
+                "2015MNRAS.452.4297B",
+                "2017ApJ...838..149A"
+            ],
+            "date_type": "discovery",
+            "default": true
+        },
+        {
+            "value": "55731",
+            "date_format": "mjd",
+            "reference": "2015MNRAS.452.4297B",
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "name": {
+        "default_name": "Sw J1112-82",
+        "alias": [
+            {
+                "value": "Swift J1112.2-8238",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2017ApJ...835...64G"
+                ]
+            },
+            {
+                "value": "Swift J1112-82",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2017ApJ...835...64G",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "Sw J1112-82",
+                "reference": [
+                    "Swift",
+                    "2015MNRAS.452.4297B"
+                ]
+            }
+        ]
+    },
+    "filter_alias": [
+        {
+            "filter_key": "5.5GHz",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "9GHz",
+            "freq_eff": "9",
+            "freq_units": "GHz"
         }
     ],
     "classification": [
@@ -171,10 +206,6 @@
             "default": true
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "coordinate": [
         {
             "ra": "11 11 47.6",
@@ -188,11 +219,11 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "5e97bbe2-1883-4853-9dca-a2113def9b8c",
+            "uuid": "27496e4f-6808-4d9f-a10e-ad3d3d89be97",
             "coordinate_type": "equitorial"
         },
         {
-            "reference": "5e97bbe2-1883-4853-9dca-a2113def9b8c",
+            "reference": "27496e4f-6808-4d9f-a10e-ad3d3d89be97",
             "computed": true,
             "coordinate_type": "galactic",
             "l": 299.6337165869646,
@@ -209,20 +240,16 @@
                 "2017ApJ...838..149A"
             ],
             "coordinate_type": "equitorial"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "5.5GHz",
-            "freq_eff": 5.5,
-            "freq_units": "GHz"
         },
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm"
+            "ra": "11:11:47.32",
+            "dec": "-82:38:44.2",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2015MNRAS.452.4297B"
+            ],
+            "coordinate_type": "equitorial"
         }
     ],
     "photometry": [
@@ -394,8 +421,59 @@
                 "2017ApJ...838..149A"
             ],
             "corr_s": null
+        },
+        {
+            "reference": "2017MNRAS.472.4469B",
+            "raw": [
+                "76",
+                "70",
+                "70",
+                "54"
+            ],
+            "raw_err": [
+                15.0,
+                29.0,
+                11.0,
+                0.0
+            ],
+            "raw_units": "uJy",
+            "date": [
+                "57052",
+                "57052",
+                "57521.5",
+                "57521.5"
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false,
+                false,
+                true
+            ],
+            "filter_key": [
+                "5.5GHz",
+                "9GHz",
+                "5.5GHz",
+                "9GHz"
+            ],
+            "obs_type": "radio",
+            "telescope": "ATCA",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "host": [
         {
             "host_name": "Swift J1112.2-8238",

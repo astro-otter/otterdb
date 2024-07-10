@@ -1,44 +1,19 @@
 {
-    "name": {
-        "default_name": "3XMM J150052.0+015452",
-        "alias": [
-            {
-                "value": "XJ1500+0154",
-                "reference": [
-                    "2017NatAs...1E..33L"
-                ]
-            },
-            {
-                "value": "3XMM J150052.0+015452",
-                "reference": [
-                    "2017NatAs...1E..33L",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "reference_alias": [
+    "classification": [
         {
-            "name": "2017NatAs...1E..33L",
-            "human_readable_name": "Lin et al. (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017NatAs...1E..33L",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "distance": [
         {
             "value": "0.145",
@@ -84,21 +59,6 @@
             "distance_type": "redshift"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017NatAs...1E..33L",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "coordinate": [
         {
             "ra": "15:00:52.0",
@@ -109,6 +69,58 @@
                 "2017NatAs...1E..33L"
             ],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017NatAs...1E..33L",
+            "human_readable_name": "Lin et al. (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        }
+    ],
+    "name": {
+        "default_name": "3XMM J150052.0+015452",
+        "alias": [
+            {
+                "value": "XJ1500+0154",
+                "reference": [
+                    "2017NatAs...1E..33L"
+                ]
+            },
+            {
+                "value": "3XMM J150052.0+015452",
+                "reference": [
+                    "2017NatAs...1E..33L",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "2005-07-23 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017NatAs...1E..33L"
+            ],
+            "default": true
         }
     ],
     "host": [
@@ -122,18 +134,6 @@
                 "2023PASP..135c4101G",
                 "2017NatAs...1E..33L"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2005-07-23 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2017NatAs...1E..33L"
-            ],
-            "default": true
         }
     ]
 }
