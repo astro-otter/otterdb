@@ -1,33 +1,49 @@
 {
-    "classification": [
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR2478....1H",
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 59066.337523148126,
-            "date_format": "mjd",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
         },
         {
-            "value": 59014.39380790509,
-            "date_format": "mjd",
-            "reference": "2020TNSTR1791....1F",
-            "computed": false,
-            "date_type": "discovery"
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...955L...6Y",
+            "human_readable_name": "Yao, Yuhan et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR1791....1F",
+            "human_readable_name": "Forster, F. et al. (2020)"
+        },
+        {
+            "name": "2020TNSCR2478....1H",
+            "human_readable_name": "Hosseinzadeh, G. et al. (2020)"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.07,
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 76.61,
+            "reference": "2023ApJ...955L...6Y",
+            "distance_type": "dispersion_measure",
+            "error": 5.33,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.07,
+            "reference": [
+                "2020TNSCR2478....1H"
+            ],
+            "distance_type": "redshift",
+            "computed": false
         }
     ],
     "coordinate": [
@@ -51,6 +67,67 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
+        }
+    ],
+    "name": {
+        "default_name": "2020mot",
+        "alias": [
+            {
+                "value": "ZTF20abfcszi",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2020mot",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia20ead",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2020mot",
+                "reference": [
+                    "2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": 59066.337523148126,
+            "date_format": "mjd",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 59014.39380790509,
+            "date_format": "mjd",
+            "reference": "2020TNSTR1791....1F",
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR2478....1H",
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -5002,53 +5079,6 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "distance": [
-        {
-            "value": 0.07,
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 76.61,
-            "reference": "2023ApJ...955L...6Y",
-            "distance_type": "dispersion_measure",
-            "error": 5.33,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.07,
-            "reference": [
-                "2020TNSCR2478....1H"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...955L...6Y",
-            "human_readable_name": "Yao, Yuhan et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR1791....1F",
-            "human_readable_name": "Forster, F. et al. (2020)"
-        },
-        {
-            "name": "2020TNSCR2478....1H",
-            "human_readable_name": "Hosseinzadeh, G. et al. (2020)"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -5105,35 +5135,5 @@
             "wave_eff": 471.8872246248687,
             "wave_units": "nm"
         }
-    ],
-    "name": {
-        "default_name": "2020mot",
-        "alias": [
-            {
-                "value": "ZTF20abfcszi",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2020mot",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia20ead",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2020mot",
-                "reference": [
-                    "2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    }
+    ]
 }

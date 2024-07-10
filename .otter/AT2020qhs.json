@@ -1,21 +1,20 @@
 {
-    "date_reference": [
+    "reference_alias": [
         {
-            "value": 59055.95833333331,
-            "date_format": "mjd",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
         },
         {
-            "value": 59056.4415625,
-            "date_format": "mjd",
-            "reference": "2020TNSTR2274....1F",
-            "computed": false,
-            "date_type": "discovery"
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...957...86H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR2274....1F",
+            "human_readable_name": "Forster, F. et al. (2020)"
         }
     ],
     "coordinate": [
@@ -39,6 +38,61 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
+        }
+    ],
+    "name": {
+        "default_name": "2020qhs",
+        "alias": [
+            {
+                "value": "ATLAS20upw",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2020qhs",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS20krl",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20abowque",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2020qhs",
+                "reference": [
+                    "2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": 59055.95833333331,
+            "date_format": "mjd",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 59056.4415625,
+            "date_format": "mjd",
+            "reference": "2020TNSTR2274....1F",
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -4502,24 +4556,6 @@
             "instrument": "GPC2"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...957...86H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR2274....1F",
-            "human_readable_name": "Forster, F. et al. (2020)"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -4597,53 +4633,6 @@
             "wave_units": "nm"
         }
     ],
-    "name": {
-        "default_name": "2020qhs",
-        "alias": [
-            {
-                "value": "ZTF20abowque",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS20krl",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2020qhs",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS20upw",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2020qhs",
-                "reference": [
-                    "2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "distance": [
         {
             "value": 0.345,
@@ -4659,6 +4648,17 @@
             "reference": "2023ApJ...957...86H",
             "unit": "km/s",
             "distance_type": "dispersion_measure"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ]
 }

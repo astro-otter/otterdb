@@ -1,21 +1,38 @@
 {
-    "date_reference": [
+    "reference_alias": [
         {
-            "value": 59215.0,
-            "date_format": "mjd",
+            "name": "2022ApJ...925...67L",
+            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR3666....1F",
+            "human_readable_name": "Forster, F. et al. (2020)"
+        },
+        {
+            "name": "2023TNSCR2004....1Y",
+            "human_readable_name": "Yao, Y. (2023)"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.178,
             "reference": [
                 "2022ApJ...925...67L",
                 "2024MNRAS.527.2452M"
             ],
-            "computed": false,
-            "date_type": "peak"
+            "distance_type": "redshift"
         },
         {
-            "value": 59184.529050902776,
-            "date_format": "mjd",
-            "reference": "2020TNSTR3666....1F",
-            "computed": false,
-            "date_type": "discovery"
+            "value": 0.178,
+            "reference": [
+                "2023TNSCR2004....1Y"
+            ],
+            "distance_type": "redshift",
+            "computed": false
         }
     ],
     "coordinate": [
@@ -39,6 +56,55 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
+        }
+    ],
+    "name": {
+        "default_name": "2020abri",
+        "alias": [
+            {
+                "value": "2020abri",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20acvezvs",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS20biig",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2020abri",
+                "reference": [
+                    "2022ApJ...925...67L",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": 59215.0,
+            "date_format": "mjd",
+            "reference": [
+                "2022ApJ...925...67L",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 59184.529050902776,
+            "date_format": "mjd",
+            "reference": "2020TNSTR3666....1F",
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -3694,42 +3760,6 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "distance": [
-        {
-            "value": 0.178,
-            "reference": [
-                "2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.178,
-            "reference": [
-                "2023TNSCR2004....1Y"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2022ApJ...925...67L",
-            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR3666....1F",
-            "human_readable_name": "Forster, F. et al. (2020)"
-        },
-        {
-            "name": "2023TNSCR2004....1Y",
-            "human_readable_name": "Yao, Y. (2023)"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "g.ztf",
@@ -3767,36 +3797,6 @@
             "wave_units": "nm"
         }
     ],
-    "name": {
-        "default_name": "2020abri",
-        "alias": [
-            {
-                "value": "ZTF20acvezvs",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2020abri",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS20biig",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2020abri",
-                "reference": [
-                    "2022ApJ...925...67L",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
     "classification": [
         {
             "object_class": "TDE",

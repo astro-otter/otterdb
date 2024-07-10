@@ -11,6 +11,10 @@
             "coordinate_type": "equitorial"
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "date_reference": [
         {
             "value": "2020-07-8 4:19:11.999999999975444",
@@ -32,6 +36,24 @@
                 "2020TNSTR.189....1B"
             ],
             "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "ASAS-SN Supernovae",
+            "human_readable_name": "ASAS-SN Supernovae"
+        },
+        {
+            "name": "2014ApJ...788...48S",
+            "human_readable_name": "Shappee, B. J. et al. (2014)"
+        },
+        {
+            "name": "2020TNSTR.189....1B",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Brimacombe, J. & Stanek, K. Z. (2020)"
         }
     ],
     "classification": [
@@ -65,41 +87,6 @@
             }
         ]
     },
-    "reference_alias": [
-        {
-            "name": "ASAS-SN Supernovae",
-            "human_readable_name": "ASAS-SN Supernovae"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2014ApJ...788...48S",
-            "human_readable_name": "Shappee, B. J. et al. (2014)"
-        },
-        {
-            "name": "2020TNSTR.189....1B",
-            "human_readable_name": "Brimacombe, J. & Stanek, K. Z. (2020)"
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "distance": [
-        {
-            "value": "0.015841",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2014ApJ...788...48S",
-                "2020TNSTR.189....1B"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        }
-    ],
     "host": [
         {
             "host_name": "ESO 486-G 017",
@@ -112,6 +99,19 @@
                 "2014ApJ...788...48S",
                 "2020TNSTR.189....1B"
             ]
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.015841",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2014ApJ...788...48S",
+                "2020TNSTR.189....1B"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         }
     ]
 }

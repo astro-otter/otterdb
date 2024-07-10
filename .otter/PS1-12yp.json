@@ -11,6 +11,10 @@
             "coordinate_type": "equitorial"
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "date_reference": [
         {
             "value": "2012-03-01",
@@ -34,44 +38,6 @@
             "default": true
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2016MNRAS.463..296L",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "PS1-12yp",
-        "alias": [
-            {
-                "value": "SDSSJ133155",
-                "reference": [
-                    "2016MNRAS.463..296L"
-                ]
-            },
-            {
-                "value": "CSS120301:133156+235405",
-                "reference": [
-                    "2016MNRAS.463..296L"
-                ]
-            },
-            {
-                "value": "PS1-12yp",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2016MNRAS.463..296L",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -94,9 +60,43 @@
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2016MNRAS.463..296L",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "PS1-12yp",
+        "alias": [
+            {
+                "value": "CSS120301:133156+235405",
+                "reference": [
+                    "2016MNRAS.463..296L"
+                ]
+            },
+            {
+                "value": "SDSSJ133155",
+                "reference": [
+                    "2016MNRAS.463..296L"
+                ]
+            },
+            {
+                "value": "PS1-12yp",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2016MNRAS.463..296L",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
     },
     "filter_alias": [
         {
@@ -161,19 +161,6 @@
             "corr_s": null
         }
     ],
-    "distance": [
-        {
-            "value": "0.581",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2016MNRAS.463..296L",
-                "2017ApJ...838..149A"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        }
-    ],
     "host": [
         {
             "host_name": "SDSS J133155.90+235405.8",
@@ -186,6 +173,19 @@
                 "2016MNRAS.463..296L",
                 "2017ApJ...838..149A"
             ]
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.581",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2016MNRAS.463..296L",
+                "2017ApJ...838..149A"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         }
     ]
 }

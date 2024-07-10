@@ -1,33 +1,38 @@
 {
-    "classification": [
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR2246....1D",
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 58543.39969907406,
-            "date_format": "mjd",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
+            "name": "2021ApJ...908....4V",
+            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
         },
         {
-            "value": 58526.545,
-            "date_format": "mjd",
-            "reference": "2019TNSTR.299....1F",
-            "computed": false,
-            "date_type": "discovery"
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2019TNSTR.299....1F",
+            "human_readable_name": "Fremling, C. (2019)"
+        },
+        {
+            "name": "2020TNSCR2246....1D",
+            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.1206,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.1206,
+            "reference": [
+                "2020TNSCR2246....1D"
+            ],
+            "distance_type": "redshift",
+            "computed": false
         }
     ],
     "coordinate": [
@@ -51,6 +56,61 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
+        }
+    ],
+    "name": {
+        "default_name": "2019bhf",
+        "alias": [
+            {
+                "value": "ZTF19aakswrb",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2019bhf",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2019bhf",
+                "reference": [
+                    "2021ApJ...908....4V",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": 58543.39969907406,
+            "date_format": "mjd",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 58526.545,
+            "date_format": "mjd",
+            "reference": "2019TNSTR.299....1F",
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR2246....1D",
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -5074,42 +5134,6 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "distance": [
-        {
-            "value": 0.1206,
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 0.1206,
-            "reference": [
-                "2020TNSCR2246....1D"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2021ApJ...908....4V",
-            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2019TNSTR.299....1F",
-            "human_readable_name": "Fremling, C. (2019)"
-        },
-        {
-            "name": "2020TNSCR2246....1D",
-            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -5171,29 +5195,5 @@
             "wave_eff": 618.5194476741524,
             "wave_units": "nm"
         }
-    ],
-    "name": {
-        "default_name": "2019bhf",
-        "alias": [
-            {
-                "value": "2019bhf",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF19aakswrb",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2019bhf",
-                "reference": [
-                    "2021ApJ...908....4V",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    }
+    ]
 }

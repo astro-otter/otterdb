@@ -11,6 +11,71 @@
             "coordinate_type": "equitorial"
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "date_reference": [
+        {
+            "value": "2009-11-02",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2018arXiv180205105W",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true
+        },
+        {
+            "value": "2009-11-02 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2018MNRAS.477.2943W"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2018arXiv180205105W",
+            "human_readable_name": "Wang et al. (2018)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2018MNRAS.477.2943W",
+            "human_readable_name": "Wang, Tinggui et al. (2018)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2018MNRAS.477.2943W",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
     "distance": [
         {
             "value": "0.1269",
@@ -56,41 +121,6 @@
             "distance_type": "redshift"
         }
     ],
-    "date_reference": [
-        {
-            "value": "2009-11-02",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2018arXiv180205105W",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true
-        },
-        {
-            "value": "2009-11-02 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2018MNRAS.477.2943W"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2018MNRAS.477.2943W",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
     "name": {
         "default_name": "J133837",
         "alias": [
@@ -102,36 +132,6 @@
                 ]
             }
         ]
-    },
-    "reference_alias": [
-        {
-            "name": "2018arXiv180205105W",
-            "human_readable_name": "Wang et al. (2018)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2018MNRAS.477.2943W",
-            "human_readable_name": "Wang, Tinggui et al. (2018)"
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
     },
     "filter_alias": [
         {

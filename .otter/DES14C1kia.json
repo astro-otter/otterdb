@@ -1,94 +1,4 @@
 {
-    "coordinate": [
-        {
-            "ra": "03:34:47.49",
-            "dec": "-26:19:35.0",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2015ATel.6877....1F",
-                "2000A&AS..143....9W"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": "03:34:47.49",
-            "dec": "-26:19:35.0",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "reference": [
-                "2015ATel.6877....1F"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2015ATel.6877....1F",
-            "human_readable_name": "Foley et al. (2015)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2000A&AS..143....9W",
-            "human_readable_name": "Wenger et al. (2000)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "2023arXiv230813595C"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2015ATel.6877....1F",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G",
-                "2023arXiv230813595C"
-            ],
-            "default": true
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "6GHz",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "21.7GHz",
-            "freq_eff": 21.7,
-            "freq_units": "GHz"
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -292,6 +202,25 @@
             "corr_hostav": false
         }
     ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "6GHz",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "21.7GHz",
+            "freq_eff": 21.7,
+            "freq_units": "GHz"
+        }
+    ],
     "name": {
         "default_name": "DES14C1kia",
         "alias": [
@@ -311,6 +240,77 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2015ATel.6877....1F",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G",
+                "2023arXiv230813595C"
+            ],
+            "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "03:34:47.49",
+            "dec": "-26:19:35.0",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2015ATel.6877....1F",
+                "2000A&AS..143....9W"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": "03:34:47.49",
+            "dec": "-26:19:35.0",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2015ATel.6877....1F"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2015ATel.6877....1F",
+            "human_readable_name": "Foley et al. (2015)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2000A&AS..143....9W",
+            "human_readable_name": "Wenger et al. (2000)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Foley, R. J. et al. (2015)"
+        }
+    ],
     "date_reference": [
         {
             "value": "2014-01-01",
@@ -334,20 +334,10 @@
             "default": true
         }
     ],
-    "host": [
-        {
-            "host_name": "Uncataloged, 03:34:47.49-26:19:35.0",
-            "host_ra": 53.69583333333332,
-            "host_dec": -26.32638888888889,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2015ATel.6877....1F",
-                "2017ApJ...838..149A"
-            ]
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "distance": [
         {
             "value": "0.162",
@@ -397,8 +387,18 @@
             "distance_type": "redshift"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    }
+    "host": [
+        {
+            "host_name": "Uncataloged, 03:34:47.49-26:19:35.0",
+            "host_ra": 53.69583333333332,
+            "host_dec": -26.32638888888889,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2015ATel.6877....1F",
+                "2017ApJ...838..149A"
+            ]
+        }
+    ]
 }

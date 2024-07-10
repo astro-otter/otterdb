@@ -1,27 +1,16 @@
 {
-    "date_reference": [
+    "reference_alias": [
         {
-            "value": 59621.45,
-            "date_format": "mjd",
-            "reference": [
-                "2022Natur.612..430A"
-            ],
-            "computed": false,
-            "date_type": "discovery"
+            "name": "2022Natur.612..430A",
+            "human_readable_name": "Igor et al. (2022)"
         },
         {
-            "value": "2459621.946",
-            "date_format": "jd",
-            "reference": "2022TNSTR.397....1A",
-            "computed": false,
-            "date_type": "discovery"
+            "name": "2022TNSTR.397....1A",
+            "human_readable_name": "Rhodes, L. et al. (2023)"
         },
         {
-            "value": 59621.4463,
-            "date_format": "mjd",
-            "reference": "2022TNSTR.397....1A",
-            "computed": false,
-            "date_type": "discovery"
+            "name": "2023MNRAS.521..389R",
+            "human_readable_name": "Andreoni, I. (2022)"
         }
     ],
     "coordinate": [
@@ -37,11 +26,11 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "a30b446e-c165-49a9-88d3-542d0e0a8dca",
+            "uuid": "22d8ea42-595f-4ecf-b5ba-91a66c6b0907",
             "coordinate_type": "equitorial"
         },
         {
-            "reference": "a30b446e-c165-49a9-88d3-542d0e0a8dca",
+            "reference": "22d8ea42-595f-4ecf-b5ba-91a66c6b0907",
             "computed": true,
             "coordinate_type": "galactic",
             "l": 68.62957133676095,
@@ -68,6 +57,55 @@
             "reference": "2022TNSTR.397....1A",
             "coordinate_type": "equitorial",
             "frame": "ICRS"
+        }
+    ],
+    "name": {
+        "default_name": "2022cmc",
+        "alias": [
+            {
+                "value": "ZTF22aaajecp",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022cmc",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022cmc",
+                "reference": [
+                    "TNS",
+                    "2022TNSTR.397....1A"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": 59621.45,
+            "date_format": "mjd",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        },
+        {
+            "value": "2459621.946",
+            "date_format": "jd",
+            "reference": "2022TNSTR.397....1A",
+            "computed": false,
+            "date_type": "discovery"
+        },
+        {
+            "value": 59621.4463,
+            "date_format": "mjd",
+            "reference": "2022TNSTR.397....1A",
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -1589,20 +1627,6 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2022Natur.612..430A",
-            "human_readable_name": "Igor et al. (2022)"
-        },
-        {
-            "name": "2022TNSTR.397....1A",
-            "human_readable_name": "Andreoni, I. (2022)"
-        },
-        {
-            "name": "2023MNRAS.521..389R",
-            "human_readable_name": "2023MNRAS.521..389R"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "8.5GHz",
@@ -1830,29 +1854,20 @@
             "wave_units": "nm"
         }
     ],
-    "name": {
-        "default_name": "2022cmc",
-        "alias": [
-            {
-                "value": "ZTF22aaajecp",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022cmc",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022cmc",
-                "reference": [
-                    "TNS",
-                    "2022TNSTR.397....1A"
-                ]
-            }
-        ]
+    "distance": [
+        {
+            "value": "1.19325",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Original Dataset"
     },
     "classification": [
         {
@@ -1863,21 +1878,6 @@
                 "2023MNRAS.521..389R"
             ],
             "default": true
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Original Dataset"
-    },
-    "distance": [
-        {
-            "value": "1.19325",
-            "reference": [
-                "2022Natur.612..430A"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
         }
     ]
 }

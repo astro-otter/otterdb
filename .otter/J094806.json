@@ -17,19 +17,15 @@
             "human_readable_name": "Guillochon et al. (2017)"
         },
         {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2017NatAs...1..865K",
-            "human_readable_name": "Kankare, E. et al. (2017)"
-        },
-        {
             "name": "2017NatAs...1..865K",
             "human_readable_name": "Kankare, E. et al. (2017)"
         },
         {
             "name": "2019ApJ...871...15J",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
             "human_readable_name": "Jiang, Ning et al. (2019)"
         },
         {
@@ -37,6 +33,30 @@
             "human_readable_name": "Fremling, C. (2022)"
         }
     ],
+    "name": {
+        "default_name": "2022wyq",
+        "alias": [
+            {
+                "value": "ZTF20acyxwgf",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022wyq",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "J094806",
+                "reference": [
+                    "2017arXiv171104577K",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "coordinate": [
         {
             "ra": "09:48:06.55",
@@ -59,30 +79,6 @@
             "frame": "ICRS"
         }
     ],
-    "name": {
-        "default_name": "2022wyq",
-        "alias": [
-            {
-                "value": "2022wyq",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20acyxwgf",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "J094806",
-                "reference": [
-                    "2017arXiv171104577K",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "distance": [
         {
             "value": "0.207",
@@ -159,10 +155,6 @@
             "default": false
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "host": [
         {
             "host_name": "SDSS J094806.55+031801.9",
@@ -178,18 +170,10 @@
             ]
         }
     ],
-    "filter_alias": [
-        {
-            "filter_key": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "date_reference": [
         {
             "value": 59695.193,
@@ -271,6 +255,18 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
         }
     ]
 }

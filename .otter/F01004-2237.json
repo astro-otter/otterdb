@@ -1,4 +1,93 @@
 {
+    "reference_alias": [
+        {
+            "name": "2017NatAs...1E..61T",
+            "human_readable_name": "Tadhunter et al. (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "MAST",
+            "human_readable_name": "MAST"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2022TNSTR.188....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2022)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "01:02:50.007",
+            "dec": "-22:21:57.22",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017NatAs...1E..61T"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 15.708292,
+            "dec": -22.3659,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2022TNSTR.188....1H",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "name": {
+        "default_name": "2022agi",
+        "alias": [
+            {
+                "value": "Gaia22ahd",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022agi",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "CSS:010250.0-222157",
+                "reference": [
+                    "2017NatAs...1E..61T"
+                ]
+            },
+            {
+                "value": "SSS:010250.0-222157",
+                "reference": [
+                    "2017NatAs...1E..61T"
+                ]
+            },
+            {
+                "value": "F01004-2237",
+                "reference": [
+                    "2017NatAs...1E..61T",
+                    "MAST",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2010-06-25",
@@ -27,28 +116,6 @@
             "date_type": "discovery",
             "reference": "2022TNSTR.188....1H",
             "computed": false
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "01:02:50.007",
-            "dec": "-22:21:57.22",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017NatAs...1E..61T"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 15.708292,
-            "dec": -22.3659,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2022TNSTR.188....1H",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
         }
     ],
     "photometry": [
@@ -2667,36 +2734,6 @@
             "instrument": "Gaia-photometric"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2017NatAs...1E..61T",
-            "human_readable_name": "Tadhunter et al. (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "MAST",
-            "human_readable_name": "MAST"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2022TNSTR.188....1H",
-            "human_readable_name": "Hodgkin, S. T. et al. (2022)"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "V",
@@ -2719,59 +2756,6 @@
             "wave_units": "nm"
         }
     ],
-    "name": {
-        "default_name": "2022agi",
-        "alias": [
-            {
-                "value": "Gaia22ahd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022agi",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "SSS:010250.0-222157",
-                "reference": [
-                    "2017NatAs...1E..61T"
-                ]
-            },
-            {
-                "value": "CSS:010250.0-222157",
-                "reference": [
-                    "2017NatAs...1E..61T"
-                ]
-            },
-            {
-                "value": "F01004-2237",
-                "reference": [
-                    "2017NatAs...1E..61T",
-                    "MAST",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017NatAs...1E..61T",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "distance": [
         {
             "value": "0.117835",
@@ -2817,6 +2801,18 @@
             "distance_type": "redshift"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017NatAs...1E..61T",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
     "host": [
         {
             "host_name": "IRAS F01004-2237",
@@ -2829,5 +2825,9 @@
                 "2017NatAs...1E..61T"
             ]
         }
-    ]
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    }
 }

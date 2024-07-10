@@ -1,30 +1,20 @@
 {
-    "date_reference": [
+    "reference_alias": [
         {
-            "value": 59038.23,
-            "date_format": "mjd",
-            "reference": [
-                "2023MNRAS.518..847G"
-            ],
-            "computed": false,
-            "date_type": "discovery"
+            "name": "2023MNRAS.518..847G",
+            "human_readable_name": "Goodwin et al. (2023)"
         },
         {
-            "value": 59089.15443287036,
-            "date_format": "mjd",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
         },
         {
-            "value": 59038.23241898148,
-            "date_format": "mjd",
-            "reference": "2020TNSTR2111....1M",
-            "computed": false,
-            "date_type": "discovery"
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR2111....1M",
+            "human_readable_name": "Marques-Chaves, R. et al. (2020)"
         }
     ],
     "coordinate": [
@@ -40,11 +30,11 @@
             ],
             "computed": false,
             "default": true,
-            "uuid": "2d591613-269a-44d1-bc08-10da83b85973",
+            "uuid": "40c48349-b21f-4287-91d8-6016931e76f8",
             "coordinate_type": "equitorial"
         },
         {
-            "reference": "2d591613-269a-44d1-bc08-10da83b85973",
+            "reference": "40c48349-b21f-4287-91d8-6016931e76f8",
             "computed": true,
             "coordinate_type": "galactic",
             "l": 38.41156935899329,
@@ -72,6 +62,65 @@
             "reference": "2020TNSTR2111....1M",
             "coordinate_type": "equitorial",
             "frame": "ICRS"
+        }
+    ],
+    "name": {
+        "default_name": "2020opy",
+        "alias": [
+            {
+                "value": "ZTF20abjwvae",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2020opy",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS20fxm",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2020opy",
+                "reference": [
+                    "TNS",
+                    "2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": 59038.23,
+            "date_format": "mjd",
+            "reference": [
+                "2023MNRAS.518..847G"
+            ],
+            "computed": false,
+            "date_type": "discovery"
+        },
+        {
+            "value": 59089.15443287036,
+            "date_format": "mjd",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 59038.23241898148,
+            "date_format": "mjd",
+            "reference": "2020TNSTR2111....1M",
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -5845,24 +5894,6 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2023MNRAS.518..847G",
-            "human_readable_name": "Goodwin et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR2111....1M",
-            "human_readable_name": "Marques-Chaves, R. et al. (2020)"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "5.04GHz",
@@ -5940,53 +5971,6 @@
             "wave_units": "nm"
         }
     ],
-    "name": {
-        "default_name": "2020opy",
-        "alias": [
-            {
-                "value": "ZTF20abjwvae",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS20fxm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2020opy",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2020opy",
-                "reference": [
-                    "TNS",
-                    "2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2023ApJ...942....9H",
-                "2023MNRAS.518..847G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Original Dataset"
-    },
     "distance": [
         {
             "value": "0.159",
@@ -6004,6 +5988,22 @@
                 "2024MNRAS.527.2452M"
             ],
             "distance_type": "redshift"
+        }
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Original Dataset"
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2023ApJ...942....9H",
+                "2023MNRAS.518..847G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ]
 }
