@@ -1,4 +1,23 @@
 {
+    "date_reference": [
+        {
+            "value": 58468.34150000003,
+            "date_format": "mjd",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 58448.562997685185,
+            "date_format": "mjd",
+            "reference": "2018TNSTR2038....1F",
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
     "coordinate": [
         {
             "ra": 197.689794,
@@ -20,61 +39,6 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
-        }
-    ],
-    "name": {
-        "default_name": "2018jbv",
-        "alias": [
-            {
-                "value": "2018jbv",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF18acnbpmd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS19aoz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS19acl",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2018jbv",
-                "reference": [
-                    "2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
-        {
-            "value": 58468.34150000003,
-            "date_format": "mjd",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
-        },
-        {
-            "value": 58448.562997685185,
-            "date_format": "mjd",
-            "reference": "2018TNSTR2038....1F",
-            "computed": false,
-            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -3318,6 +3282,20 @@
             "instrument": "ZTF-Cam"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2018TNSTR2038....1F",
+            "human_readable_name": "Fremling, C. (2018)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -3390,18 +3368,51 @@
             "wave_units": "nm"
         }
     ],
-    "reference_alias": [
+    "name": {
+        "default_name": "2018jbv",
+        "alias": [
+            {
+                "value": "PS19aoz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS19acl",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2018jbv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF18acnbpmd",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2018jbv",
+                "reference": [
+                    "2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
+    "classification": [
         {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2018TNSTR2038....1F",
-            "human_readable_name": "Fremling, C. (2018)"
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "distance": [
@@ -3412,17 +3423,6 @@
                 "2024MNRAS.527.2452M"
             ],
             "distance_type": "redshift"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

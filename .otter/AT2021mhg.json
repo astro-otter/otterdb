@@ -1,27 +1,33 @@
 {
-    "distance": [
+    "classification": [
         {
-            "value": 0.073,
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR2672....1C",
+                "2022ApJ...925...67L",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 59368.958333333336,
+            "date_format": "mjd",
             "reference": [
                 "2022ApJ...925...67L",
                 "2024MNRAS.527.2452M"
             ],
-            "distance_type": "redshift"
+            "computed": false,
+            "date_type": "peak"
         },
         {
-            "value": 57.78,
-            "reference": "2022ApJ...925...67L",
-            "distance_type": "dispersion_measure",
-            "error": 5.28,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.073,
-            "reference": [
-                "2021TNSCR2672....1C"
-            ],
-            "distance_type": "redshift",
-            "computed": false
+            "value": 59345.48390049768,
+            "date_format": "mjd",
+            "reference": "2021TNSTR1620....1M",
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "coordinate": [
@@ -45,67 +51,6 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
-        }
-    ],
-    "name": {
-        "default_name": "2021mhg",
-        "alias": [
-            {
-                "value": "ATLAS21qbq",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF21abaxaqq",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia21cwh",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS21wwe",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2021mhg",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2021mhg",
-                "reference": [
-                    "2022ApJ...925...67L",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
-        {
-            "value": 59368.958333333336,
-            "date_format": "mjd",
-            "reference": [
-                "2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
-        },
-        {
-            "value": 59345.48390049768,
-            "date_format": "mjd",
-            "reference": "2021TNSTR1620....1M",
-            "computed": false,
-            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -13945,16 +13890,47 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "classification": [
+    "distance": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "value": 0.073,
             "reference": [
-                "2021TNSCR2672....1C",
                 "2022ApJ...925...67L",
                 "2024MNRAS.527.2452M"
             ],
-            "default": true
+            "distance_type": "redshift"
+        },
+        {
+            "value": 57.78,
+            "reference": "2022ApJ...925...67L",
+            "distance_type": "dispersion_measure",
+            "error": 5.28,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.073,
+            "reference": [
+                "2021TNSCR2672....1C"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2022ApJ...925...67L",
+            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2021TNSTR1620....1M",
+            "human_readable_name": "Munoz-Arancibia, A. et al. (2021)"
+        },
+        {
+            "name": "2021TNSCR2672....1C",
+            "human_readable_name": "Chu, M. et al. (2021)"
         }
     ],
     "filter_alias": [
@@ -14034,22 +14010,46 @@
             "wave_units": "nm"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2022ApJ...925...67L",
-            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2021TNSTR1620....1M",
-            "human_readable_name": "Munoz-Arancibia, A. et al. (2021)"
-        },
-        {
-            "name": "2021TNSCR2672....1C",
-            "human_readable_name": "Chu, M. et al. (2021)"
-        }
-    ]
+    "name": {
+        "default_name": "2021mhg",
+        "alias": [
+            {
+                "value": "ATLAS21qbq",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF21abaxaqq",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS21wwe",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2021mhg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia21cwh",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2021mhg",
+                "reference": [
+                    "2022ApJ...925...67L",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    }
 }

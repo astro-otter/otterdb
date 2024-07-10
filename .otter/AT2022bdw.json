@@ -1,27 +1,32 @@
 {
-    "distance": [
+    "classification": [
         {
-            "value": 0.0378,
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
                 "2022TNSCR.511....1A",
                 "2024MNRAS.527.2452M"
             ],
-            "distance_type": "redshift"
-        },
+            "default": true
+        }
+    ],
+    "date_reference": [
         {
-            "value": 86.27,
-            "reference": "2023ApJS..267...44A",
-            "distance_type": "dispersion_measure",
-            "error": 5.433,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.03782,
+            "value": 59626.99999999998,
+            "date_format": "mjd",
             "reference": [
-                "2022TNSCR.511....1A"
+                "2022TNSCR.511....1A",
+                "2024MNRAS.527.2452M"
             ],
-            "distance_type": "redshift",
-            "computed": false
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 59610.401,
+            "date_format": "mjd",
+            "reference": "2022TNSTR.284....1T",
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "coordinate": [
@@ -45,67 +50,6 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
-        }
-    ],
-    "name": {
-        "default_name": "2022bdw",
-        "alias": [
-            {
-                "value": "PS22avi",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS22dth",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022bdw",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF22aaahtqz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia22baj",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022bdw",
-                "reference": [
-                    "2022TNSCR.511....1A",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
-        {
-            "value": 59626.99999999998,
-            "date_format": "mjd",
-            "reference": [
-                "2022TNSCR.511....1A",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
-        },
-        {
-            "value": 59610.401,
-            "date_format": "mjd",
-            "reference": "2022TNSTR.284....1T",
-            "computed": false,
-            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -3117,15 +3061,47 @@
             "instrument": "GPC2"
         }
     ],
-    "classification": [
+    "distance": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "value": 0.0378,
             "reference": [
                 "2022TNSCR.511....1A",
                 "2024MNRAS.527.2452M"
             ],
-            "default": true
+            "distance_type": "redshift"
+        },
+        {
+            "value": 86.27,
+            "reference": "2023ApJS..267...44A",
+            "distance_type": "dispersion_measure",
+            "error": 5.433,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.03782,
+            "reference": [
+                "2022TNSCR.511....1A"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2022TNSCR.511....1A",
+            "human_readable_name": "Arcavi, I. et al. (2022)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJS..267...44A",
+            "human_readable_name": "Almeida, Andr\u00e9s et al. (2023)"
+        },
+        {
+            "name": "2022TNSTR.284....1T",
+            "human_readable_name": "Tonry, J. et al. (2022)"
         }
     ],
     "filter_alias": [
@@ -3200,22 +3176,46 @@
             "wave_units": "nm"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2022TNSCR.511....1A",
-            "human_readable_name": "Arcavi, I. et al. (2022)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJS..267...44A",
-            "human_readable_name": "Almeida, Andr\u00e9s et al. (2023)"
-        },
-        {
-            "name": "2022TNSTR.284....1T",
-            "human_readable_name": "Tonry, J. et al. (2022)"
-        }
-    ]
+    "name": {
+        "default_name": "2022bdw",
+        "alias": [
+            {
+                "value": "2022bdw",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS22dth",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF22aaahtqz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS22avi",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia22baj",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022bdw",
+                "reference": [
+                    "2022TNSCR.511....1A",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    }
 }

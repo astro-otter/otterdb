@@ -1,27 +1,33 @@
 {
-    "distance": [
+    "classification": [
         {
-            "value": 0.02741,
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR3228....1A",
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 59150.00000000002,
+            "date_format": "mjd",
             "reference": [
                 "2023ApJ...942....9H",
                 "2024MNRAS.527.2452M"
             ],
-            "distance_type": "redshift"
+            "computed": false,
+            "date_type": "peak"
         },
         {
-            "value": 39.36,
-            "reference": "2023ApJ...955L...6Y",
-            "distance_type": "dispersion_measure",
-            "error": 2.79,
-            "unit": "km/s"
-        },
-        {
-            "value": 0.02738,
-            "reference": [
-                "2020TNSCR3228....1A"
-            ],
-            "distance_type": "redshift",
-            "computed": false
+            "value": 59130.49269,
+            "date_format": "mjd",
+            "reference": "2020TNSTR3103....1N",
+            "computed": false,
+            "date_type": "discovery"
         }
     ],
     "coordinate": [
@@ -45,61 +51,6 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
-        }
-    ],
-    "name": {
-        "default_name": "2020wey",
-        "alias": [
-            {
-                "value": "ATLAS20belb",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2020wey",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20acitpfz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia20fck",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2020wey",
-                "reference": [
-                    "2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
-        {
-            "value": 59150.00000000002,
-            "date_format": "mjd",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
-        },
-        {
-            "value": 59130.49269,
-            "date_format": "mjd",
-            "reference": "2020TNSTR3103....1N",
-            "computed": false,
-            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -5779,16 +5730,51 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "classification": [
+    "distance": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "value": 0.02741,
             "reference": [
-                "2020TNSCR3228....1A",
                 "2023ApJ...942....9H",
                 "2024MNRAS.527.2452M"
             ],
-            "default": true
+            "distance_type": "redshift"
+        },
+        {
+            "value": 39.36,
+            "reference": "2023ApJ...955L...6Y",
+            "distance_type": "dispersion_measure",
+            "error": 2.79,
+            "unit": "km/s"
+        },
+        {
+            "value": 0.02738,
+            "reference": [
+                "2020TNSCR3228....1A"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...955L...6Y",
+            "human_readable_name": "Yao, Yuhan et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR3103....1N",
+            "human_readable_name": "Nordin, J. et al. (2020)"
+        },
+        {
+            "name": "2020TNSCR3228....1A",
+            "human_readable_name": "Arcavi, I. et al. (2020)"
         }
     ],
     "filter_alias": [
@@ -5863,26 +5849,40 @@
             "wave_units": "nm"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...955L...6Y",
-            "human_readable_name": "Yao, Yuhan et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR3103....1N",
-            "human_readable_name": "Nordin, J. et al. (2020)"
-        },
-        {
-            "name": "2020TNSCR3228....1A",
-            "human_readable_name": "Arcavi, I. et al. (2020)"
-        }
-    ]
+    "name": {
+        "default_name": "2020wey",
+        "alias": [
+            {
+                "value": "Gaia20fck",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2020wey",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20acitpfz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS20belb",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2020wey",
+                "reference": [
+                    "2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    }
 }

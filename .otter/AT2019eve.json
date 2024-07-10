@@ -1,4 +1,23 @@
 {
+    "date_reference": [
+        {
+            "value": 58614.52400000003,
+            "date_format": "mjd",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 58608.233935185184,
+            "date_format": "mjd",
+            "reference": "2019TNSTR.737....1N",
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
     "coordinate": [
         {
             "ra": 172.206932,
@@ -30,62 +49,6 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
-        }
-    ],
-    "name": {
-        "default_name": "2019eve",
-        "alias": [
-            {
-                "value": "ATLAS19kfv",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2019eve",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF19aatylnl",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia19bti",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2019eve",
-                "reference": [
-                    "2021ApJ...908....4V",
-                    "2024MNRAS.527.2452M",
-                    "2019TNSTR.737....1N"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
-        {
-            "value": 58614.52400000003,
-            "date_format": "mjd",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
-        },
-        {
-            "value": 58608.233935185184,
-            "date_format": "mjd",
-            "reference": "2019TNSTR.737....1N",
-            "computed": false,
-            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -3768,6 +3731,24 @@
             "instrument": "ZTF-Cam"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2021ApJ...908....4V",
+            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2019TNSTR.737....1N",
+            "human_readable_name": "Nordin, J. et al. (2019)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "2023arXiv230813595C"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -3940,34 +3921,43 @@
             "wave_units": "nm"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2021ApJ...908....4V",
-            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2019TNSTR.737....1N",
-            "human_readable_name": "Nordin, J. et al. (2019)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "2023arXiv230813595C"
-        }
-    ],
-    "distance": [
-        {
-            "value": 0.0813,
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        }
-    ],
+    "name": {
+        "default_name": "2019eve",
+        "alias": [
+            {
+                "value": "ZTF19aatylnl",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS19kfv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2019eve",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia19bti",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2019eve",
+                "reference": [
+                    "2021ApJ...908....4V",
+                    "2024MNRAS.527.2452M",
+                    "2019TNSTR.737....1N"
+                ]
+            }
+        ]
+    },
     "classification": [
         {
             "object_class": "TDE",
@@ -3978,6 +3968,16 @@
                 "2024MNRAS.527.2452M"
             ],
             "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.0813,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
         }
     ]
 }

@@ -1,4 +1,35 @@
 {
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2023TNSCR.438....1T",
+                "2024MNRAS.527.2452M",
+                "2024arXiv240111773C"
+            ],
+            "default": true
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 60001.000000000015,
+            "date_format": "mjd",
+            "reference": [
+                "2024arXiv240111773C",
+                "2024MNRAS.527.2452M"
+            ],
+            "computed": false,
+            "date_type": "peak"
+        },
+        {
+            "value": 59997.21,
+            "date_format": "mjd",
+            "reference": "2023TNSTR.421....1S",
+            "computed": false,
+            "date_type": "discovery"
+        }
+    ],
     "coordinate": [
         {
             "ra": 175.039179,
@@ -20,55 +51,6 @@
             "coordinate_type": "equitorial",
             "epoch": "J2000",
             "frame": "ICRS"
-        }
-    ],
-    "name": {
-        "default_name": "2023clx",
-        "alias": [
-            {
-                "value": "ASASSN-23bd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF18aabkvpi",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2023clx",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2023clx",
-                "reference": [
-                    "2024arXiv240111773C",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
-        {
-            "value": 60001.000000000015,
-            "date_format": "mjd",
-            "reference": [
-                "2024arXiv240111773C",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
-        },
-        {
-            "value": 59997.21,
-            "date_format": "mjd",
-            "reference": "2023TNSTR.421....1S",
-            "computed": false,
-            "date_type": "discovery"
         }
     ],
     "photometry": [
@@ -2256,16 +2238,22 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "classification": [
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2023TNSCR.438....1T",
-                "2024MNRAS.527.2452M",
-                "2024arXiv240111773C"
-            ],
-            "default": true
+            "name": "2024arXiv240111773C",
+            "human_readable_name": "Charalampopoulos, P. et al. (2024)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023TNSTR.421....1S",
+            "human_readable_name": "Stanek, K. Z. (2023)"
+        },
+        {
+            "name": "2023TNSCR.438....1T",
+            "human_readable_name": "Taguchi, K. et al. (2023)"
         }
     ],
     "filter_alias": [
@@ -2320,24 +2308,36 @@
             "wave_units": "nm"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2024arXiv240111773C",
-            "human_readable_name": "Charalampopoulos, P. et al. (2024)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023TNSTR.421....1S",
-            "human_readable_name": "Stanek, K. Z. (2023)"
-        },
-        {
-            "name": "2023TNSCR.438....1T",
-            "human_readable_name": "Taguchi, K. et al. (2023)"
-        }
-    ],
+    "name": {
+        "default_name": "2023clx",
+        "alias": [
+            {
+                "value": "2023clx",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF18aabkvpi",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ASASSN-23bd",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2023clx",
+                "reference": [
+                    "2024arXiv240111773C",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "distance": [
         {
             "value": 0.01107,
