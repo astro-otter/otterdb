@@ -261,6 +261,92 @@
             "freq_units": "GHz"
         }
     ],
+    "coordinate": [
+        {
+            "ra": "16 44 49.93130",
+            "dec": "+57 34 59.6893",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2011Natur.476..425Z",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016MNRAS.462L..66Y",
+                "2018ApJ...854...86E"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "479ae7c2-e60c-4628-b90a-c6bb63151a1c",
+            "coordinate_type": "equitorial"
+        },
+        {
+            "reference": "479ae7c2-e60c-4628-b90a-c6bb63151a1c",
+            "computed": true,
+            "coordinate_type": "galactic",
+            "l": 86.71123273634593,
+            "b": 39.44122227143398,
+            "l_units": "deg",
+            "b_units": "deg"
+        },
+        {
+            "ra": "16:44:49.92",
+            "dec": "+57:34:58.8",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": "16:44:49.93130",
+            "dec": "+57:34:59.6893",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2011Natur.476..425Z"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "name": {
+        "default_name": "Sw J1644+57",
+        "alias": [
+            {
+                "value": "SwJ1644+57",
+                "reference": [
+                    "2011Natur.476..425Z"
+                ]
+            },
+            {
+                "value": "GRB 110328A",
+                "reference": [
+                    "2011Sci...333..203B"
+                ]
+            },
+            {
+                "value": "Swift J1644+57",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2011Sci...333..203B",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "Sw J1644+57",
+                "reference": [
+                    "Swift",
+                    "2011Natur.476..425Z"
+                ]
+            },
+            {
+                "value": "Swift J164449.3+573451",
+                "reference": [
+                    "2011Sci...333..203B"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2011Natur.476..425Z",
@@ -319,44 +405,6 @@
             "human_readable_name": "Cendes, Y. et al. (2021)"
         }
     ],
-    "name": {
-        "default_name": "Sw J1644+57",
-        "alias": [
-            {
-                "value": "SwJ1644+57",
-                "reference": [
-                    "2011Natur.476..425Z"
-                ]
-            },
-            {
-                "value": "GRB 110328A",
-                "reference": [
-                    "2011Sci...333..203B"
-                ]
-            },
-            {
-                "value": "Sw J1644+57",
-                "reference": [
-                    "Swift",
-                    "2011Natur.476..425Z"
-                ]
-            },
-            {
-                "value": "Swift J1644+57",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2011Sci...333..203B",
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "Swift J164449.3+573451",
-                "reference": [
-                    "2011Sci...333..203B"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": [
@@ -4339,54 +4387,6 @@
             "corr_hostav": false
         }
     ],
-    "coordinate": [
-        {
-            "ra": "16 44 49.93130",
-            "dec": "+57 34 59.6893",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "reference": [
-                "2011Natur.476..425Z",
-                "2012ApJ...748...36B",
-                "2012MNRAS.421.1942W",
-                "2013ApJ...767..152Z",
-                "2016MNRAS.462L..66Y",
-                "2018ApJ...854...86E"
-            ],
-            "computed": false,
-            "default": true,
-            "uuid": "f1f6b653-18d6-4efe-815d-4835b76abef7",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "reference": "f1f6b653-18d6-4efe-815d-4835b76abef7",
-            "computed": true,
-            "coordinate_type": "galactic",
-            "l": 86.71123273634593,
-            "b": 39.44122227143398,
-            "l_units": "deg",
-            "b_units": "deg"
-        },
-        {
-            "ra": "16:44:49.92",
-            "dec": "+57:34:58.8",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": "16:44:49.93130",
-            "dec": "+57:34:59.6893",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "reference": [
-                "2011Natur.476..425Z"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -4470,10 +4470,6 @@
             "distance_type": "redshift"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "host": [
         {
             "host_name": "Swift J164449.3+573451",
@@ -4527,5 +4523,9 @@
             "date_type": "discovery",
             "default": true
         }
-    ]
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    }
 }

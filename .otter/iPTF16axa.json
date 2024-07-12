@@ -103,6 +103,66 @@
             "freq_units": "GHz"
         }
     ],
+    "coordinate": [
+        {
+            "ra": "17:03:34.36",
+            "dec": "+30:35:36.8",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...842...29H",
+                "2000A&AS..143....9W"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 255.89311,
+            "dec": 30.59352,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...842...29H",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": "17:03:34.36",
+            "dec": "+30:35:36.8",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2017ApJ...842...29H"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "name": {
+        "default_name": "iPTF16axa",
+        "alias": [
+            {
+                "value": "iPTF-16axa",
+                "reference": [
+                    "2017ApJ...842...29H",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "iPTF 16axa",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "iPTF16axa",
+                "reference": [
+                    "2017ApJ...842...29H",
+                    "2000A&AS..143....9W",
+                    "2017ApJ...842...29H"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...842...29H",
@@ -141,32 +201,6 @@
             "human_readable_name": "Cendes, Yvette et al. (2023)"
         }
     ],
-    "name": {
-        "default_name": "iPTF16axa",
-        "alias": [
-            {
-                "value": "iPTF-16axa",
-                "reference": [
-                    "2017ApJ...842...29H",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "iPTF 16axa",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "iPTF16axa",
-                "reference": [
-                    "2017ApJ...842...29H",
-                    "2000A&AS..143....9W",
-                    "2017ApJ...842...29H"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "raw": [
@@ -2196,40 +2230,6 @@
             "corr_hostav": false
         }
     ],
-    "coordinate": [
-        {
-            "ra": "17:03:34.36",
-            "dec": "+30:35:36.8",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...842...29H",
-                "2000A&AS..143....9W"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 255.89311,
-            "dec": 30.59352,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...842...29H",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": "17:03:34.36",
-            "dec": "+30:35:36.8",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "reference": [
-                "2017ApJ...842...29H"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -2304,10 +2304,6 @@
             "distance_type": "redshift"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "host": [
         {
             "host_name": "SDSS J170334.34+303536.6",
@@ -2353,5 +2349,9 @@
             ],
             "default": true
         }
-    ]
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    }
 }

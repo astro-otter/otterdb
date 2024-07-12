@@ -1,36 +1,40 @@
 {
-    "coordinate": [
+    "distance": [
         {
-            "ra": 197.84166666666664,
-            "dec": -1.396111111111111,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
+            "value": "0.18",
             "reference": [
                 "2023PASP..135c4101G",
                 "2010ApJ...722.1035M",
                 "2017ApJ...838..149A"
             ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        },
+        {
+            "value": "0.088",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2018ATel12263....1V"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2010ApJ...722.1035M",
+                "2017ApJ...838..149A",
+                "2018ATel12263....1V",
+                "2023PASP..135c4101G"
+            ],
             "default": true
         }
     ],
-    "name": {
-        "default_name": "SDSS J1311",
-        "alias": [
-            {
-                "value": "ZTF 18abxftqm",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "SDSS J1311",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "date_reference": [
         {
             "value": "2004-02-28 ",
@@ -58,15 +62,17 @@
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
     },
-    "classification": [
+    "coordinate": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "ra": 197.84166666666664,
+            "dec": -1.396111111111111,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
             "reference": [
+                "2023PASP..135c4101G",
                 "2010ApJ...722.1035M",
-                "2017ApJ...838..149A",
-                "2018ATel12263....1V",
-                "2023PASP..135c4101G"
+                "2017ApJ...838..149A"
             ],
             "default": true
         }
@@ -89,29 +95,23 @@
             "human_readable_name": "Velzen, S. van et al. (2018)"
         }
     ],
-    "distance": [
-        {
-            "value": "0.18",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2010ApJ...722.1035M",
-                "2017ApJ...838..149A"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "0.088",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2018ATel12263....1V"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        }
-    ],
+    "name": {
+        "default_name": "SDSS J1311",
+        "alias": [
+            {
+                "value": "ZTF 18abxftqm",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "SDSS J1311",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "host": [
         {
             "host_name": "SDSS J131122.15-012345.6",

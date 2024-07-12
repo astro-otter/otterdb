@@ -51,6 +51,128 @@
             "freq_units": "GHz"
         }
     ],
+    "coordinate": [
+        {
+            "ra": "20 58 19.90",
+            "dec": "+05 13 32.0",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017MNRAS.472.4469B"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "95314647-cc5c-49e8-9cb9-9a7c3521fd4b",
+            "coordinate_type": "equitorial"
+        },
+        {
+            "reference": "95314647-cc5c-49e8-9cb9-9a7c3521fd4b",
+            "computed": true,
+            "coordinate_type": "galactic",
+            "l": 53.61702902648376,
+            "b": -25.11893929017656,
+            "l_units": "deg",
+            "b_units": "deg"
+        },
+        {
+            "ra": "20:58:19.85",
+            "dec": "+05:13:33.00",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": "20:58:19.90",
+            "dec": "+05:13:32.0",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2012ApJ...753...77C"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "name": {
+        "default_name": "Sw J2058+05",
+        "alias": [
+            {
+                "value": "Swift J2058+05",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "Sw J2058+05",
+                "reference": [
+                    "Swift",
+                    "2012ApJ...753...77C"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
+        {
+            "name": "2012ApJ...753...77C",
+            "human_readable_name": "Cenko et al. (2012)"
+        },
+        {
+            "name": "2015ApJ...805...68P",
+            "human_readable_name": "Pasham et al. (2015)"
+        },
+        {
+            "name": "2017MNRAS.472.4469B",
+            "human_readable_name": "Brown et al. (2017)"
+        },
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2011ATel.3384....1K",
+            "human_readable_name": "Auchettl, Katie et al. (2017)"
+        },
+        {
+            "name": "2012MNRAS.420.2684C",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Krimm, H. A. et al. (2011)"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2011ATel.3384....1K",
+                "2012ApJ...753...77C",
+                "2012MNRAS.420.2684C",
+                "2015ApJ...805...68P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A",
+                "2017MNRAS.472.4469B",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
     "distance": [
         {
             "value": "1.1853",
@@ -120,63 +242,6 @@
             "compute": false
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2012ApJ...753...77C",
-            "human_readable_name": "Cenko et al. (2012)"
-        },
-        {
-            "name": "2015ApJ...805...68P",
-            "human_readable_name": "Pasham et al. (2015)"
-        },
-        {
-            "name": "2017MNRAS.472.4469B",
-            "human_readable_name": "Brown et al. (2017)"
-        },
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2011ATel.3384....1K",
-            "human_readable_name": "Auchettl, Katie et al. (2017)"
-        },
-        {
-            "name": "2012MNRAS.420.2684C",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Krimm, H. A. et al. (2011)"
-        }
-    ],
-    "name": {
-        "default_name": "Sw J2058+05",
-        "alias": [
-            {
-                "value": "Swift J2058+05",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "Sw J2058+05",
-                "reference": [
-                    "Swift",
-                    "2012ApJ...753...77C"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": [
@@ -571,71 +636,6 @@
             "corr_hostav": false
         }
     ],
-    "coordinate": [
-        {
-            "ra": "20 58 19.90",
-            "dec": "+05 13 32.0",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "reference": [
-                "2012ApJ...753...77C",
-                "2015ApJ...805...68P",
-                "2017MNRAS.472.4469B"
-            ],
-            "computed": false,
-            "default": true,
-            "uuid": "a49cb708-c7cf-4449-a202-d72628d71f30",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "reference": "a49cb708-c7cf-4449-a202-d72628d71f30",
-            "computed": true,
-            "coordinate_type": "galactic",
-            "l": 53.61702902648376,
-            "b": -25.11893929017656,
-            "l_units": "deg",
-            "b_units": "deg"
-        },
-        {
-            "ra": "20:58:19.85",
-            "dec": "+05:13:33.00",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": "20:58:19.90",
-            "dec": "+05:13:32.0",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "reference": [
-                "2012ApJ...753...77C"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2011ATel.3384....1K",
-                "2012ApJ...753...77C",
-                "2012MNRAS.420.2684C",
-                "2015ApJ...805...68P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A",
-                "2017MNRAS.472.4469B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
     "date_reference": [
         {
             "value": "55698.0",
@@ -679,10 +679,6 @@
             "date_type": "discovery"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "host": [
         {
             "host_name": "Swift J205819.7+051329",
@@ -697,5 +693,9 @@
                 "2017ApJ...838..149A"
             ]
         }
-    ]
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    }
 }

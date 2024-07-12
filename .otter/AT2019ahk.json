@@ -145,24 +145,47 @@
             "freq_units": "GHz"
         }
     ],
-    "distance": [
+    "coordinate": [
         {
-            "value": 0.0262,
+            "ra": 105.047461,
+            "dec": -66.040214,
+            "ra_units": "deg",
+            "dec_units": "deg",
             "reference": [
                 "2019ApJ...883..111H",
                 "2024MNRAS.527.2452M"
             ],
-            "distance_type": "redshift"
+            "coordinate_type": "equitorial"
         },
         {
-            "value": 0.0262,
+            "ra": "07:00:11.546",
+            "dec": "-66:02:24.14",
+            "ra_units": "hour",
+            "dec_units": "degree",
             "reference": [
-                " 2019TNSCR.288....1P"
+                "2019TNSTR.167....1S"
             ],
-            "distance_type": "redshift",
-            "compute": false
+            "coordinate_type": "equitorial"
         }
     ],
+    "name": {
+        "default_name": "AT2019ahk",
+        "alias": [
+            {
+                "value": "ASASSN-19bt",
+                "reference": [
+                    "2019TNSTR.167....1S"
+                ]
+            },
+            {
+                "value": "AT2019ahk",
+                "reference": [
+                    "2019ApJ...883..111H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2019ApJ...883..111H",
@@ -185,24 +208,36 @@
             "human_readable_name": "Stanek, K. Z. (2019)"
         }
     ],
-    "name": {
-        "default_name": "AT2019ahk",
-        "alias": [
-            {
-                "value": "ASASSN-19bt",
-                "reference": [
-                    "2019TNSTR.167....1S"
-                ]
-            },
-            {
-                "value": "AT2019ahk",
-                "reference": [
-                    "2019ApJ...883..111H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2019ApJ...883..111H",
+                "2024MNRAS.527.2452M",
+                "2024arXiv240412431C"
+            ],
+            "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.0262,
+            "reference": [
+                "2019ApJ...883..111H",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 0.0262,
+            "reference": [
+                " 2019TNSCR.288....1P"
+            ],
+            "distance_type": "redshift",
+            "compute": false
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -2079,41 +2114,6 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": 105.047461,
-            "dec": -66.040214,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2019ApJ...883..111H",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": "07:00:11.546",
-            "dec": "-66:02:24.14",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "reference": [
-                "2019TNSTR.167....1S"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2019ApJ...883..111H",
-                "2024MNRAS.527.2452M",
-                "2024arXiv240412431C"
-            ],
-            "default": true
         }
     ],
     "date_reference": [

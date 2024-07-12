@@ -69,6 +69,88 @@
             "freq_units": "GHz"
         }
     ],
+    "coordinate": [
+        {
+            "ra": "12 48 15.2253",
+            "dec": "+17 46 26.475",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "reference": [
+                "2016ApJ...819L..25A",
+                "2016Sci...351...62V",
+                "2016ApJ...832L..10R",
+                "2018MNRAS.475.4011B"
+            ],
+            "computed": false,
+            "default": true,
+            "uuid": "a5802a6d-1400-4a7d-b541-8fe0c5397824",
+            "coordinate_type": "equitorial"
+        },
+        {
+            "reference": "a5802a6d-1400-4a7d-b541-8fe0c5397824",
+            "computed": true,
+            "coordinate_type": "galactic",
+            "l": 298.27734758483064,
+            "b": 80.61697877592157,
+            "l_units": "deg",
+            "b_units": "deg"
+        },
+        {
+            "ra": "12:48:15.2",
+            "dec": "17:46:26.6",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2014ATel.6777....1J",
+                "ASAS-SN Supernovae"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 192.06347,
+            "dec": 17.77402,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2015Natur.526..542M",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": "12:48:15.226",
+            "dec": "+17:46:26.47",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2016ApJ...819L..25A"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "name": {
+        "default_name": "ASASSN-14li",
+        "alias": [
+            {
+                "value": "ASASSN-14li",
+                "reference": [
+                    "ASASSN",
+                    "2017ApJ...838..149A",
+                    "2015Natur.526..542M",
+                    "2014ATel.6777....1J",
+                    "ASAS-SN Supernovae",
+                    "MAST",
+                    "2012PASP..124..668Y",
+                    "2015Natur.526..542M",
+                    "2024MNRAS.527.2452M",
+                    "2023PASP..135c4101G",
+                    "2016ApJ...819L..25A"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2016ApJ...819L..25A",
@@ -147,27 +229,6 @@
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
-    "name": {
-        "default_name": "ASASSN-14li",
-        "alias": [
-            {
-                "value": "ASASSN-14li",
-                "reference": [
-                    "ASASSN",
-                    "2017ApJ...838..149A",
-                    "2015Natur.526..542M",
-                    "2014ATel.6777....1J",
-                    "ASAS-SN Supernovae",
-                    "MAST",
-                    "2012PASP..124..668Y",
-                    "2015Natur.526..542M",
-                    "2024MNRAS.527.2452M",
-                    "2023PASP..135c4101G",
-                    "2016ApJ...819L..25A"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": [
@@ -3290,67 +3351,6 @@
             "corr_hostav": false
         }
     ],
-    "coordinate": [
-        {
-            "ra": "12 48 15.2253",
-            "dec": "+17 46 26.475",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "reference": [
-                "2016ApJ...819L..25A",
-                "2016Sci...351...62V",
-                "2016ApJ...832L..10R",
-                "2018MNRAS.475.4011B"
-            ],
-            "computed": false,
-            "default": true,
-            "uuid": "0e32a8b7-60d9-484c-a695-afb05593d4a7",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "reference": "0e32a8b7-60d9-484c-a695-afb05593d4a7",
-            "computed": true,
-            "coordinate_type": "galactic",
-            "l": 298.27734758483064,
-            "b": 80.61697877592157,
-            "l_units": "deg",
-            "b_units": "deg"
-        },
-        {
-            "ra": "12:48:15.2",
-            "dec": "17:46:26.6",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2014ATel.6777....1J",
-                "ASAS-SN Supernovae"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 192.06347,
-            "dec": 17.77402,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2015Natur.526..542M",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": "12:48:15.226",
-            "dec": "+17:46:26.47",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "reference": [
-                "2016ApJ...819L..25A"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -3454,10 +3454,6 @@
             "distance_type": "redshift"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "host": [
         {
             "host_name": "SDSS J124815.23+174626.4",
@@ -3515,5 +3511,9 @@
             "date_type": "discovery",
             "default": true
         }
-    ]
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    }
 }

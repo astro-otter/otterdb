@@ -1,20 +1,4 @@
 {
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2016ATel.9433....1G",
-                "2016TNSCR.615....1Y",
-                "2017ApJ...835...64G",
-                "2017ApJ...844...46B",
-                "2023PASP..135c4101G",
-                "2023arXiv230813595C",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "coordinate": [
         {
             "ra": "00:29:57.04",
@@ -59,63 +43,246 @@
             "frame": "ICRS"
         }
     ],
-    "distance": [
+    "date_reference": [
         {
-            "value": "73",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity"
-        },
-        {
-            "value": "71.9",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving"
-        },
-        {
-            "value": 0.0163,
+            "value": 57629.45019999998,
+            "date_format": "mjd",
             "reference": [
                 "2017ApJ...844...46B",
                 "2024MNRAS.527.2452M"
             ],
-            "distance_type": "redshift"
+            "computed": false,
+            "date_type": "peak"
         },
         {
-            "value": 55.0,
-            "unit": "km/s",
-            "reference": "2017MNRAS.471.1694W",
-            "distance_type": "dispersion_measure",
-            "error": 2.0
-        },
-        {
-            "value": "0.0163",
+            "value": "2016-08-26 ",
+            "date_format": "iso",
             "reference": [
                 "2023PASP..135c4101G",
                 "2016ATel.9433....1G"
             ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
+            "date_type": "discovery",
+            "default": true
         },
         {
-            "value": 0.016328,
-            "reference": [
-                "2016TNSCR.615....1Y"
-            ],
+            "value": 57629.422997685186,
+            "date_format": "mjd",
+            "reference": "2016TNSTR.611....1K",
             "computed": false,
-            "distance_type": "redshift"
+            "date_type": "discovery"
         }
     ],
+    "filter_alias": [
+        {
+            "filter_key": "g",
+            "wave_eff": 475.0,
+            "wave_units": "nm",
+            "filter_name": "g"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 622.0,
+            "wave_units": "nm",
+            "filter_name": "r"
+        },
+        {
+            "filter_key": "i",
+            "wave_eff": 763.0,
+            "wave_units": "nm",
+            "filter_name": "i"
+        },
+        {
+            "filter_key": "u",
+            "wave_eff": 354.0,
+            "wave_units": "nm",
+            "filter_name": "u"
+        },
+        {
+            "filter_key": "B",
+            "wave_eff": 445.0,
+            "wave_units": "nm",
+            "filter_name": "B"
+        },
+        {
+            "filter_key": "U",
+            "wave_eff": 365.0,
+            "wave_units": "nm",
+            "filter_name": "U"
+        },
+        {
+            "filter_key": "UVM2",
+            "wave_eff": 225.47802478793594,
+            "wave_units": "nm",
+            "filter_name": "UVM2"
+        },
+        {
+            "filter_key": "UVW1",
+            "wave_eff": 261.3713060531025,
+            "wave_units": "nm",
+            "filter_name": "UVW1"
+        },
+        {
+            "filter_key": "UVW2",
+            "wave_eff": 207.98754332676123,
+            "wave_units": "nm",
+            "filter_name": "UVW2"
+        },
+        {
+            "filter_key": "V",
+            "wave_eff": 551.0,
+            "wave_units": "nm",
+            "filter_name": "V"
+        },
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "B.uvot",
+            "filter_name": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "U.uvot",
+            "filter_name": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "filter_name": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "filter_name": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W1.wise",
+            "filter_name": "W1.wise",
+            "freq_eff": 89917740678395.33,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W2.wise",
+            "filter_name": "W2.wise",
+            "freq_eff": 65429370473910.305,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.ztf",
+            "filter_name": "g.ztf",
+            "freq_eff": 634121907623677.4,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ztf",
+            "filter_name": "r.ztf",
+            "freq_eff": 471994480402802.25,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "u.sdss",
+            "filter_name": "u.sdss",
+            "freq_eff": 847747991775816.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "6GHz",
+            "filter_name": "C",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "3GHz",
+            "filter_name": "S",
+            "freq_eff": 3.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5GHz",
+            "filter_name": "C",
+            "freq_eff": 5.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "7GHz",
+            "filter_name": "C",
+            "freq_eff": 7.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "9GHz",
+            "filter_name": "X",
+            "freq_eff": 9.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "11GHz",
+            "filter_name": "X",
+            "freq_eff": 11.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "R",
+            "filter_name": "R",
+            "wave_eff": 646.9439215118385,
+            "wave_units": "nm"
+        }
+    ],
+    "name": {
+        "default_name": "2016fnl",
+        "alias": [
+            {
+                "value": "2016fnl",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2016fnl",
+                "reference": []
+            },
+            {
+                "value": "iPTF 16fnl",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "iPTF-16fnl",
+                "reference": [
+                    "2017ApJ...844...46B",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "iPTF16fnl",
+                "reference": [
+                    "2017ApJ...844...46B",
+                    "2017ApJ...838..149A",
+                    "MAST",
+                    "2000A&AS..143....9W",
+                    "2017ApJ...844...46B",
+                    "TNS"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...844...46B",
@@ -174,72 +341,61 @@
             "human_readable_name": "Yaron, O. (2016)"
         }
     ],
-    "name": {
-        "default_name": "2016fnl",
-        "alias": [
-            {
-                "value": "2016fnl",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "iPTF 16fnl",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "iPTF-16fnl",
-                "reference": [
-                    "2017ApJ...844...46B",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "AT2016fnl",
-                "reference": []
-            },
-            {
-                "value": "iPTF16fnl",
-                "reference": [
-                    "2017ApJ...844...46B",
-                    "2017ApJ...838..149A",
-                    "MAST",
-                    "2000A&AS..143....9W",
-                    "2017ApJ...844...46B",
-                    "TNS"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
+    "distance": [
         {
-            "value": 57629.45019999998,
-            "date_format": "mjd",
+            "value": "73",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "luminosity"
+        },
+        {
+            "value": "71.9",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "comoving"
+        },
+        {
+            "value": 0.0163,
             "reference": [
                 "2017ApJ...844...46B",
                 "2024MNRAS.527.2452M"
             ],
-            "computed": false,
-            "date_type": "peak"
+            "distance_type": "redshift"
         },
         {
-            "value": "2016-08-26 ",
-            "date_format": "iso",
+            "value": 55.0,
+            "unit": "km/s",
+            "reference": "2017MNRAS.471.1694W",
+            "distance_type": "dispersion_measure",
+            "error": 2.0
+        },
+        {
+            "value": "0.0163",
             "reference": [
                 "2023PASP..135c4101G",
                 "2016ATel.9433....1G"
             ],
-            "date_type": "discovery",
-            "default": true
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         },
         {
-            "value": 57629.422997685186,
-            "date_format": "mjd",
-            "reference": "2016TNSTR.611....1K",
+            "value": 0.016328,
+            "reference": [
+                "2016TNSCR.615....1Y"
+            ],
             "computed": false,
-            "date_type": "discovery"
+            "distance_type": "redshift"
         }
     ],
     "photometry": [
@@ -3100,176 +3256,20 @@
             "instrument": "CFH12k"
         }
     ],
-    "filter_alias": [
+    "classification": [
         {
-            "filter_key": "g",
-            "wave_eff": 475.0,
-            "wave_units": "nm",
-            "filter_name": "g"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 622.0,
-            "wave_units": "nm",
-            "filter_name": "r"
-        },
-        {
-            "filter_key": "i",
-            "wave_eff": 763.0,
-            "wave_units": "nm",
-            "filter_name": "i"
-        },
-        {
-            "filter_key": "u",
-            "wave_eff": 354.0,
-            "wave_units": "nm",
-            "filter_name": "u"
-        },
-        {
-            "filter_key": "B",
-            "wave_eff": 445.0,
-            "wave_units": "nm",
-            "filter_name": "B"
-        },
-        {
-            "filter_key": "U",
-            "wave_eff": 365.0,
-            "wave_units": "nm",
-            "filter_name": "U"
-        },
-        {
-            "filter_key": "UVM2",
-            "wave_eff": 225.47802478793594,
-            "wave_units": "nm",
-            "filter_name": "UVM2"
-        },
-        {
-            "filter_key": "UVW1",
-            "wave_eff": 261.3713060531025,
-            "wave_units": "nm",
-            "filter_name": "UVW1"
-        },
-        {
-            "filter_key": "UVW2",
-            "wave_eff": 207.98754332676123,
-            "wave_units": "nm",
-            "filter_name": "UVW2"
-        },
-        {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm",
-            "filter_name": "V"
-        },
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "B.uvot",
-            "filter_name": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "U.uvot",
-            "filter_name": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "filter_name": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "filter_name": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "filter_name": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W1.wise",
-            "filter_name": "W1.wise",
-            "freq_eff": 89917740678395.33,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W2.wise",
-            "filter_name": "W2.wise",
-            "freq_eff": 65429370473910.305,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.ztf",
-            "filter_name": "g.ztf",
-            "freq_eff": 634121907623677.4,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.ztf",
-            "filter_name": "r.ztf",
-            "freq_eff": 471994480402802.25,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "u.sdss",
-            "filter_name": "u.sdss",
-            "freq_eff": 847747991775816.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "6GHz",
-            "filter_name": "C",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "3GHz",
-            "filter_name": "S",
-            "freq_eff": 3.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5GHz",
-            "filter_name": "C",
-            "freq_eff": 5.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "7GHz",
-            "filter_name": "C",
-            "freq_eff": 7.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "9GHz",
-            "filter_name": "X",
-            "freq_eff": 9.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "11GHz",
-            "filter_name": "X",
-            "freq_eff": 11.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "R",
-            "filter_name": "R",
-            "wave_eff": 646.9439215118385,
-            "wave_units": "nm"
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2016ATel.9433....1G",
+                "2016TNSCR.615....1Y",
+                "2017ApJ...835...64G",
+                "2017ApJ...844...46B",
+                "2023PASP..135c4101G",
+                "2023arXiv230813595C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "host": [

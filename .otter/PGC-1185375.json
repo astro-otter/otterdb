@@ -1,75 +1,4 @@
 {
-    "coordinate": [
-        {
-            "ra": "15:03:50.40",
-            "dec": "+01:07:37.20",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "name": {
-        "default_name": "PGC 1185375",
-        "alias": [
-            {
-                "value": "PGC 1185375",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2016A&A...586A...9H",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2015arXiv150506612H",
-            "human_readable_name": "Hryniewicz & Walter (2015)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2016A&A...586A...9H",
-            "human_readable_name": "Auchettl, Katie et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        }
-    ],
     "distance": [
         {
             "value": "0.00523",
@@ -119,16 +48,77 @@
             "distance_type": "redshift"
         }
     ],
-    "filter_alias": [
+    "classification": [
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2016A&A...586A...9H",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "coordinate": [
+        {
+            "ra": "15:03:50.40",
+            "dec": "+01:07:37.20",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2015arXiv150506612H",
+            "human_readable_name": "Hryniewicz & Walter (2015)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2016A&A...586A...9H",
+            "human_readable_name": "Auchettl, Katie et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        }
+    ],
+    "name": {
+        "default_name": "PGC 1185375",
+        "alias": [
+            {
+                "value": "PGC 1185375",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -209,6 +199,16 @@
                 "2017ApJ...838..149A"
             ],
             "corr_s": null
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "date_reference": [

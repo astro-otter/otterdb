@@ -127,6 +127,74 @@
             "freq_units": "GHz"
         }
     ],
+    "coordinate": [
+        {
+            "ra": "01:58:05.0",
+            "dec": "-00:52:22",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...843..106B",
+                "2000A&AS..143....9W"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": "01:58:04.739",
+            "dec": "-00:52:21.74",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2016TNSTR.562....1C"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "name": {
+        "default_name": "AT2016ezh",
+        "alias": [
+            {
+                "value": "PS16dtm (2016ezh)",
+                "reference": [
+                    "ASAS-SN Supernovae"
+                ]
+            },
+            {
+                "value": "SN2016ezh",
+                "reference": [
+                    "2014Ap&SS.354...89B",
+                    "2000A&AS..143....9W"
+                ]
+            },
+            {
+                "value": "CSS160902:015805-005222",
+                "reference": [
+                    "2000A&AS..143....9W"
+                ]
+            },
+            {
+                "value": "AT 2016ezh",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "AT2016ezh",
+                "reference": [
+                    "MAST"
+                ]
+            },
+            {
+                "value": "PS16dtm",
+                "reference": [
+                    "2017arXiv170307816B",
+                    "ASAS-SN Supernovae",
+                    "2000A&AS..143....9W",
+                    "2016TNSTR.562....1C"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017arXiv170307816B",
@@ -185,51 +253,6 @@
             "human_readable_name": "Chambers, K. C. et al. (2016)"
         }
     ],
-    "name": {
-        "default_name": "AT2016ezh",
-        "alias": [
-            {
-                "value": "AT 2016ezh",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "SN2016ezh",
-                "reference": [
-                    "2014Ap&SS.354...89B",
-                    "2000A&AS..143....9W"
-                ]
-            },
-            {
-                "value": "AT2016ezh",
-                "reference": [
-                    "MAST"
-                ]
-            },
-            {
-                "value": "PS16dtm (2016ezh)",
-                "reference": [
-                    "ASAS-SN Supernovae"
-                ]
-            },
-            {
-                "value": "CSS160902:015805-005222",
-                "reference": [
-                    "2000A&AS..143....9W"
-                ]
-            },
-            {
-                "value": "PS16dtm",
-                "reference": [
-                    "2017arXiv170307816B",
-                    "ASAS-SN Supernovae",
-                    "2000A&AS..143....9W",
-                    "2016TNSTR.562....1C"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "raw": [
@@ -1803,29 +1826,6 @@
             "corr_hostav": false
         }
     ],
-    "coordinate": [
-        {
-            "ra": "01:58:05.0",
-            "dec": "-00:52:22",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...843..106B",
-                "2000A&AS..143....9W"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": "01:58:04.739",
-            "dec": "-00:52:21.74",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "reference": [
-                "2016TNSTR.562....1C"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -1919,10 +1919,6 @@
             "distance_type": "redshift"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "host": [
         {
             "host_name": "SDSS J015804.75-005221.8",
@@ -1937,5 +1933,9 @@
                 "2021ApJ...910...83H"
             ]
         }
-    ]
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    }
 }
