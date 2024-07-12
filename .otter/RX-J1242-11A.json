@@ -11,9 +11,18 @@
             "coordinate_type": "equitorial"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
+    "name": {
+        "default_name": "RX J1242-11A",
+        "alias": [
+            {
+                "value": "RX J1242-11A",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "MAST",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
     },
     "date_reference": [
         {
@@ -35,6 +44,22 @@
                 "2023PASP..135c4101G",
                 "2000A&A...362L..25G",
                 "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2000A&A...362L..25G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
             ],
             "default": true
         }
@@ -71,18 +96,6 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2000A&A...362L..25G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
         }
     ],
     "distance": [
@@ -134,26 +147,14 @@
             "distance_type": "redshift"
         }
     ],
-    "name": {
-        "default_name": "RX J1242-11A",
-        "alias": [
-            {
-                "value": "RX J1242-11A",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "MAST",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",
             "wave_eff": 0.7293188143129428,
             "wave_min": 0.6199209921660013,
             "wave_max": 4.132806614440009,
-            "wave_units": "nm"
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "photometry": [

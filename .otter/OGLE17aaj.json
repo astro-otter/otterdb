@@ -8,9 +8,20 @@
             "coordinate_type": "equitorial"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
+    "name": {
+        "default_name": "OGLE17aaj",
+        "alias": [
+            {
+                "value": "OGLE 17aaj",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "OGLE17aaj",
+                "reference": []
+            }
+        ]
     },
     "date_reference": [
         {
@@ -32,6 +43,24 @@
                 "2017ATel11049....1S",
                 "2017ATel.9977....1G",
                 "2019A&A...622L...2G"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ATel.9977....1G",
+                "2017ATel11049....1S",
+                "2017ApJ...835...64G",
+                "2019A&A...622L...2G",
+                "2023PASP..135c4101G"
             ],
             "default": true
         }
@@ -64,20 +93,6 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Sokolovsky, K. et al. (2017)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ATel.9977....1G",
-                "2017ATel11049....1S",
-                "2017ApJ...835...64G",
-                "2019A&A...622L...2G",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
         }
     ],
     "distance": [
@@ -116,21 +131,6 @@
             "distance_type": "redshift"
         }
     ],
-    "name": {
-        "default_name": "OGLE17aaj",
-        "alias": [
-            {
-                "value": "OGLE 17aaj",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "OGLE17aaj",
-                "reference": []
-            }
-        ]
-    },
     "host": [
         {
             "host_name": "GALEXASC J015624.70-710415.8",

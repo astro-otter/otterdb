@@ -1,4 +1,27 @@
 {
+    "coordinate": [
+        {
+            "ra": 208.474171123,
+            "dec": 53.997147482,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 208.4741791,
+            "dec": 53.9971019,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2020TNSTR2059....1F",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
     "reference_alias": [
         {
             "name": "2023ApJ...942....9H",
@@ -41,40 +64,17 @@
             "human_readable_name": "Frederick, S. (2020)"
         }
     ],
-    "coordinate": [
-        {
-            "ra": 208.474171123,
-            "dec": 53.997147482,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 208.4741791,
-            "dec": 53.9971019,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2020TNSTR2059....1F",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
     "name": {
         "default_name": "2020ocn",
         "alias": [
             {
-                "value": "ZTF18aakelin",
+                "value": "2020ocn",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2020ocn",
+                "value": "ZTF18aakelin",
                 "reference": [
                     "TNS"
                 ]
@@ -13971,55 +13971,86 @@
     "filter_alias": [
         {
             "filter_key": "UVM2.uvot",
+            "filter_name": "UVM2.uvot",
             "freq_eff": 1346484181597652.0,
             "freq_units": "Hz"
         },
         {
             "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
             "freq_eff": 1198891057872408.0,
             "freq_units": "Hz"
         },
         {
             "filter_key": "UVW2.uvot",
+            "filter_name": "UVW2.uvot",
             "freq_eff": 1492659946412262.2,
             "freq_units": "Hz"
         },
         {
             "filter_key": "W1.wise",
+            "filter_name": "W1.wise",
             "freq_eff": 89917740678395.33,
             "freq_units": "Hz"
         },
         {
             "filter_key": "W2.wise",
+            "filter_name": "W2.wise",
             "freq_eff": 65429370473910.305,
             "freq_units": "Hz"
         },
         {
             "filter_key": "g.ztf",
+            "filter_name": "g.ztf",
             "freq_eff": 634121907623677.4,
             "freq_units": "Hz"
         },
         {
             "filter_key": "i.ztf",
+            "filter_name": "i.ztf",
             "freq_eff": 380021535091050.2,
             "freq_units": "Hz"
         },
         {
             "filter_key": "r.ztf",
+            "filter_name": "r.ztf",
             "freq_eff": 471994480402802.25,
             "freq_units": "Hz"
         },
         {
             "filter_key": "g",
+            "filter_name": "g",
             "wave_eff": 471.8872246248687,
             "wave_units": "nm"
         },
         {
             "filter_key": "r",
+            "filter_name": "r",
             "wave_eff": 618.5194476741524,
             "wave_units": "nm"
         }
     ],
+    "host": [
+        {
+            "host_name": "SDSS J135353.80+535949.7",
+            "host_ra": 208.47499999999997,
+            "host_dec": 53.99722222222222,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2020TNSTR.419....1F",
+                "2020ATel13859....1G",
+                "2021ARA&A..59..117R",
+                "2020ATel13864....1P",
+                "2021ApJ...908L..20H"
+            ]
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "distance": [
         {
             "value": 0.07,
@@ -14051,10 +14082,6 @@
             "default": true
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "classification": [
         {
             "object_class": "TDE",
@@ -14070,23 +14097,6 @@
                 "2024MNRAS.527.2452M"
             ],
             "default": true
-        }
-    ],
-    "host": [
-        {
-            "host_name": "SDSS J135353.80+535949.7",
-            "host_ra": 208.47499999999997,
-            "host_dec": 53.99722222222222,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2020TNSTR.419....1F",
-                "2020ATel13859....1G",
-                "2021ARA&A..59..117R",
-                "2020ATel13864....1P",
-                "2021ApJ...908L..20H"
-            ]
         }
     ]
 }

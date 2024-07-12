@@ -8,9 +8,22 @@
             "coordinate_type": "equitorial"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
+    "name": {
+        "default_name": "2MASX J0249",
+        "alias": [
+            {
+                "value": "XMMSL1 J024916.6-041244",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "2MASX J0249",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            }
+        ]
     },
     "date_reference": [
         {
@@ -33,6 +46,24 @@
                 "2007A&A...462L..49E",
                 "2016A&A...592A..74S",
                 "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2007A&A...462L..49E",
+                "2016A&A...592A..74S",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
             ],
             "default": true
         }
@@ -65,20 +96,6 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Strotjohann, N. L. et al. (2016)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2007A&A...462L..49E",
-                "2016A&A...592A..74S",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
         }
     ],
     "distance": [
@@ -131,30 +148,14 @@
             "distance_type": "redshift"
         }
     ],
-    "name": {
-        "default_name": "2MASX J0249",
-        "alias": [
-            {
-                "value": "XMMSL1 J024916.6-041244",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "2MASX J0249",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",
             "wave_eff": 0.7293188143129428,
             "wave_min": 0.6199209921660013,
             "wave_max": 4.132806614440009,
-            "wave_units": "nm"
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "photometry": [

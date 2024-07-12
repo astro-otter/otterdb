@@ -11,9 +11,17 @@
             "coordinate_type": "equitorial"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
+    "name": {
+        "default_name": "3XMM J152130.7+074916",
+        "alias": [
+            {
+                "value": "3XMM J152130.7+074916",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
     },
     "date_reference": [
         {
@@ -38,6 +46,31 @@
                 "2021SSRv..217...18S"
             ],
             "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2015ApJ...811...43L",
+                "2017ApJ...838..149A",
+                "2021SSRv..217...18S",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "default": false
         }
     ],
     "reference_alias": [
@@ -68,27 +101,6 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2015ApJ...811...43L",
-                "2017ApJ...838..149A",
-                "2021SSRv..217...18S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "default": false
         }
     ],
     "distance": [
@@ -141,25 +153,14 @@
             "distance_type": "redshift"
         }
     ],
-    "name": {
-        "default_name": "3XMM J152130.7+074916",
-        "alias": [
-            {
-                "value": "3XMM J152130.7+074916",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",
             "wave_eff": 0.7293188143129428,
             "wave_min": 0.6199209921660013,
             "wave_max": 4.132806614440009,
-            "wave_units": "nm"
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "photometry": [

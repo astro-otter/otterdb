@@ -1,4 +1,91 @@
 {
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2018ATel12040....1W",
+                "2018TNSCR1397....1W",
+                "2019MNRAS.488.4816W",
+                "2020ApJ...893L...1W",
+                "2021ApJ...912..151W",
+                "2023PASP..135c4101G",
+                "2023arXiv230813595C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": 342.567048071,
+            "dec": -44.8648617073,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2019MNRAS.488.4816W",
+                "2024MNRAS.527.2452M"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": "22:50:16.090",
+            "dec": "-44:51:53.50",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "reference": [
+                "2018TNSTR1325....1S"
+            ],
+            "coordinate_type": "equitorial"
+        },
+        {
+            "ra": 342.567042,
+            "dec": -44.864861,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": "2018TNSTR1325....1S",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.059,
+            "reference": [
+                "2019MNRAS.488.4816W",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 158.0,
+            "reference": "2020MNRAS.497L...1W",
+            "distance_type": "dispersion_measure",
+            "error": 1.0,
+            "unit": "km/s"
+        },
+        {
+            "value": "0.059",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2018ATel12040....1W",
+                "2021ApJ...912..151W",
+                "2020ApJ...893L...1W"
+            ],
+            "distance_type": "redshift",
+            "computed": false,
+            "default": true
+        },
+        {
+            "value": 0.06,
+            "reference": [
+                "2018TNSCR1397....1W"
+            ],
+            "distance_type": "redshift",
+            "computed": false
+        }
+    ],
     "reference_alias": [
         {
             "name": "2019MNRAS.488.4816W",
@@ -41,87 +128,17 @@
             "human_readable_name": "Wevers, T. et al. (2018)"
         }
     ],
-    "distance": [
-        {
-            "value": 0.059,
-            "reference": [
-                "2019MNRAS.488.4816W",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 158.0,
-            "reference": "2020MNRAS.497L...1W",
-            "distance_type": "dispersion_measure",
-            "error": 1.0,
-            "unit": "km/s"
-        },
-        {
-            "value": "0.059",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2018ATel12040....1W",
-                "2021ApJ...912..151W",
-                "2020ApJ...893L...1W"
-            ],
-            "distance_type": "redshift",
-            "computed": false,
-            "default": true
-        },
-        {
-            "value": 0.06,
-            "reference": [
-                "2018TNSCR1397....1W"
-            ],
-            "distance_type": "redshift",
-            "computed": false
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": 342.567048071,
-            "dec": -44.8648617073,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2019MNRAS.488.4816W",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": "22:50:16.090",
-            "dec": "-44:51:53.50",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "reference": [
-                "2018TNSTR1325....1S"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 342.567042,
-            "dec": -44.864861,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": "2018TNSTR1325....1S",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS"
-        }
-    ],
     "name": {
         "default_name": "2018fyk",
         "alias": [
             {
-                "value": "ASASSN-18ul",
+                "value": "2018fyk",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2018fyk",
+                "value": "ASASSN-18ul",
                 "reference": [
                     "TNS"
                 ]
@@ -177,23 +194,6 @@
             "reference": "2018TNSTR1325....1S",
             "computed": false,
             "date_type": "discovery"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2018ATel12040....1W",
-                "2018TNSCR1397....1W",
-                "2019MNRAS.488.4816W",
-                "2020ApJ...893L...1W",
-                "2021ApJ...912..151W",
-                "2023PASP..135c4101G",
-                "2023arXiv230813595C",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ],
     "photometry": [
@@ -3003,51 +3003,61 @@
     "filter_alias": [
         {
             "filter_key": "B.uvot",
+            "filter_name": "B.uvot",
             "freq_eff": 695280559412463.5,
             "freq_units": "Hz"
         },
         {
             "filter_key": "U.uvot",
+            "filter_name": "U.uvot",
             "freq_eff": 872815357550259.6,
             "freq_units": "Hz"
         },
         {
             "filter_key": "UVM2.uvot",
+            "filter_name": "UVM2.uvot",
             "freq_eff": 1346484181597652.0,
             "freq_units": "Hz"
         },
         {
             "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
             "freq_eff": 1198891057872408.0,
             "freq_units": "Hz"
         },
         {
             "filter_key": "UVW2.uvot",
+            "filter_name": "UVW2.uvot",
             "freq_eff": 1492659946412262.2,
             "freq_units": "Hz"
         },
         {
             "filter_key": "W1.wise",
+            "filter_name": "W1.wise",
             "freq_eff": 89917740678395.33,
             "freq_units": "Hz"
         },
         {
             "filter_key": "W2.wise",
+            "filter_name": "W2.wise",
             "freq_eff": 65429370473910.305,
             "freq_units": "Hz"
         },
         {
             "filter_key": "1.36GHz",
+            "filter_name": "L",
             "freq_eff": 1.36,
             "freq_units": "GHz"
         },
         {
             "filter_key": "G",
+            "filter_name": "G",
             "wave_eff": 673.5412573108297,
             "wave_units": "nm"
         },
         {
             "filter_key": "g",
+            "filter_name": "g",
             "wave_eff": 471.8872246248687,
             "wave_units": "nm"
         }

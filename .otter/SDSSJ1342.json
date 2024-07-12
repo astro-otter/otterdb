@@ -21,35 +21,30 @@
             "coordinate_type": "equitorial"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
+    "name": {
+        "default_name": "SDSSJ1342",
+        "alias": [
+            {
+                "value": "SDSS J1342",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "SDSSJ1342",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            },
+            {
+                "value": "J134244",
+                "reference": [
+                    "2018arXiv180205105W",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
     },
-    "host": [
-        {
-            "host_name": "SDSS J134244.41+053056.2",
-            "host_ra": 205.6833333333333,
-            "host_dec": 5.515611111111111,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2018MNRAS.477.2943W"
-            ]
-        },
-        {
-            "host_name": "SDSS J134244.41+053056.1",
-            "host_ra": 205.6833333333333,
-            "host_dec": 5.515594444444444,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2013ApJ...774...46Y",
-                "2017ApJ...838..149A"
-            ]
-        }
-    ],
     "date_reference": [
         {
             "value": "2009-05-17",
@@ -95,6 +90,49 @@
             "default": true
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2013ApJ...774...46Y",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A",
+                "2018MNRAS.477.2943W",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "host": [
+        {
+            "host_name": "SDSS J134244.41+053056.2",
+            "host_ra": 205.6833333333333,
+            "host_dec": 5.515611111111111,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2018MNRAS.477.2943W"
+            ]
+        },
+        {
+            "host_name": "SDSS J134244.41+053056.1",
+            "host_ra": 205.6833333333333,
+            "host_dec": 5.515594444444444,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2013ApJ...774...46Y",
+                "2017ApJ...838..149A"
+            ]
+        }
+    ],
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -131,20 +169,6 @@
         {
             "name": "2013ApJ...774...46Y",
             "human_readable_name": "Yang, Chen-Wei et al. (2013)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2013ApJ...774...46Y",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A",
-                "2018MNRAS.477.2943W",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
         }
     ],
     "distance": [
@@ -239,52 +263,32 @@
             "distance_type": "redshift"
         }
     ],
-    "name": {
-        "default_name": "SDSSJ1342",
-        "alias": [
-            {
-                "value": "SDSS J1342",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "SDSSJ1342",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
-            },
-            {
-                "value": "J134244",
-                "reference": [
-                    "2018arXiv180205105W",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",
             "wave_eff": 0.7293188143129428,
             "wave_min": 0.6199209921660013,
             "wave_max": 4.132806614440009,
-            "wave_units": "nm"
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         },
         {
             "filter_key": "V",
             "wave_eff": 551.0,
-            "wave_units": "nm"
+            "wave_units": "nm",
+            "filter_name": "V"
         },
         {
             "filter_key": "W1",
             "wave_eff": 224.6,
-            "wave_units": "nm"
+            "wave_units": "nm",
+            "filter_name": "W1"
         },
         {
             "filter_key": "W2",
             "wave_eff": 192.8,
-            "wave_units": "nm"
+            "wave_units": "nm",
+            "filter_name": "W2"
         }
     ],
     "photometry": [

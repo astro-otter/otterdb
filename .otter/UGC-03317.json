@@ -11,10 +11,34 @@
             "coordinate_type": "equitorial"
         }
     ],
+    "name": {
+        "default_name": "UGC 03317",
+        "alias": [
+            {
+                "value": "UGC 03317",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2016A&A...586A...9H",
+                "2017ApJ...835...64G",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -43,18 +67,6 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2016A&A...586A...9H",
-                "2017ApJ...835...64G",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
         }
     ],
     "distance": [
@@ -105,18 +117,18 @@
             "distance_type": "redshift"
         }
     ],
-    "name": {
-        "default_name": "UGC 03317",
-        "alias": [
-            {
-                "value": "UGC 03317",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
+    "date_reference": [
+        {
+            "value": "2010-09-22 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2016A&A...586A...9H"
+            ],
+            "default": true
+        }
+    ],
     "host": [
         {
             "host_name": "UGC 3317",
@@ -128,18 +140,6 @@
                 "2023PASP..135c4101G",
                 "2016A&A...586A...9H"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2010-09-22 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2016A&A...586A...9H"
-            ],
-            "default": true
         }
     ]
 }

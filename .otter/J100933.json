@@ -11,9 +11,17 @@
             "coordinate_type": "equitorial"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
+    "name": {
+        "default_name": "J100933",
+        "alias": [
+            {
+                "value": "J100933",
+                "reference": [
+                    "2018arXiv180205105W",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
     },
     "date_reference": [
         {
@@ -34,6 +42,22 @@
             "reference": [
                 "2023PASP..135c4101G",
                 "2018MNRAS.477.2943W"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2018MNRAS.477.2943W",
+                "2023PASP..135c4101G"
             ],
             "default": true
         }
@@ -62,18 +86,6 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2018MNRAS.477.2943W",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
         }
     ],
     "distance": [
@@ -121,33 +133,24 @@
             "distance_type": "redshift"
         }
     ],
-    "name": {
-        "default_name": "J100933",
-        "alias": [
-            {
-                "value": "J100933",
-                "reference": [
-                    "2018arXiv180205105W",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "V",
             "wave_eff": 551.0,
-            "wave_units": "nm"
+            "wave_units": "nm",
+            "filter_name": "V"
         },
         {
             "filter_key": "W1",
             "wave_eff": 224.6,
-            "wave_units": "nm"
+            "wave_units": "nm",
+            "filter_name": "W1"
         },
         {
             "filter_key": "W2",
             "wave_eff": 192.8,
-            "wave_units": "nm"
+            "wave_units": "nm",
+            "filter_name": "W2"
         }
     ],
     "photometry": [
