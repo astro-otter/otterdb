@@ -1,156 +1,8 @@
 {
-    "distance": [
-        {
-            "value": "0.1696",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2015ApJ...815L...5G",
-                "2012Natur.485..217G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "842.4",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2015ApJ...815L...5G",
-                "2012Natur.485..217G",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "720.3",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2015ApJ...815L...5G",
-                "2012Natur.485..217G",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
-        },
-        {
-            "value": 0.1696,
-            "reference": [
-                "2012Natur.485..217G",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 65.0,
-            "reference": "2017MNRAS.471.1694W",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "error": 3.0
-        },
-        {
-            "value": "0.1696",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2012Natur.485..217G",
-                "2017ApJ...838..149A"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2012Natur.485..217G",
-                "2015ApJ...815L...5G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2015ApJ...815L...5G",
-                "2012Natur.485..217G"
-            ],
-            "default": false
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2010-05-16",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2015ApJ...815L...5G",
-                "2012Natur.485..217G",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true
-        },
-        {
-            "value": 55393.18749999996,
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2012Natur.485..217G",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false
-        },
-        {
-            "value": "2010-05-16 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2012Natur.485..217G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
     },
-    "coordinate": [
-        {
-            "ra": "16:09:28.29",
-            "dec": "+53:40:23.52",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 242.367817171123,
-            "dec": 53.6733308805967,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2012Natur.485..217G",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -193,6 +45,63 @@
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2012Natur.485..217G",
+                "2015ApJ...815L...5G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2015ApJ...815L...5G",
+                "2012Natur.485..217G"
+            ],
+            "default": false
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2010-05-16",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2015ApJ...815L...5G",
+                "2012Natur.485..217G",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        },
+        {
+            "value": "2010-05-16 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2012Natur.485..217G",
+                "2017ApJ...838..149A"
+            ],
+            "default": false
+        },
+        {
+            "value": "55393.18749999996",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2012Natur.485..217G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "name": {
         "default_name": "PS1-10jh",
         "alias": [
@@ -209,6 +118,85 @@
             }
         ]
     },
+    "coordinate": [
+        {
+            "ra": "16:09:28.29",
+            "dec": "+53:40:23.52",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2017ApJ...838..149A",
+                "2017ApJ...838..149A"
+            ]
+        },
+        {
+            "ra": "242.367817171123",
+            "dec": "53.6733308805967",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2012Natur.485..217G",
+                "2024MNRAS.527.2452M"
+            ]
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.1696",
+            "distance_type": "redshift",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2015ApJ...815L...5G",
+                "2012Natur.485..217G",
+                "2012Natur.485..217G",
+                "2024MNRAS.527.2452M",
+                "2023PASP..135c4101G",
+                "2012Natur.485..217G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "65.0",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2017MNRAS.471.1694W",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "720.3",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2015ApJ...815L...5G",
+                "2012Natur.485..217G",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        },
+        {
+            "value": "842.4",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2015ApJ...815L...5G",
+                "2012Natur.485..217G",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [

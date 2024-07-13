@@ -1,51 +1,28 @@
 {
-    "distance": [
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "reference_alias": [
         {
-            "value": "0.01124",
-            "reference": [
-                "2017ApJ...838..149A",
-                "1996A&A...309L..35B"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
         },
         {
-            "value": "50.17",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "1996A&A...309L..35B",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
         },
         {
-            "value": "49.61",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "1996A&A...309L..35B",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
+            "name": "1996A&A...309L..35B",
+            "human_readable_name": "Bade, Komossa, & Dahlem (1996)"
         },
         {
-            "value": "0.01124",
-            "reference": [
-                "2023PASP..135c4101G",
-                "1996A&A...309L..35B",
-                "2017ApJ...838..149A"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
     "classification": [
@@ -69,8 +46,7 @@
                 "2017ApJ...838..149A",
                 "2017ApJ...835...64G"
             ],
-            "computed": false,
-            "default": true
+            "default": false
         },
         {
             "value": "1990-07-11 ",
@@ -82,44 +58,6 @@
                 "2017ApJ...838..149A"
             ],
             "default": true
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "coordinate": [
-        {
-            "ra": "15:15:23.32",
-            "dec": "+55:31:01.59",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "1996A&A...309L..35B",
-            "human_readable_name": "Bade, Komossa, & Dahlem (1996)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
     "name": {
@@ -134,6 +72,56 @@
             }
         ]
     },
+    "coordinate": [
+        {
+            "ra": "15:15:23.32",
+            "dec": "+55:31:01.59",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.01124",
+            "distance_type": "redshift",
+            "reference": [
+                "2017ApJ...838..149A",
+                "1996A&A...309L..35B",
+                "2023PASP..135c4101G",
+                "1996A&A...309L..35B",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "49.61",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "1996A&A...309L..35B",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        },
+        {
+            "value": "50.17",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "1996A&A...309L..35B",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [

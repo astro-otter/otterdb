@@ -1,189 +1,8 @@
 {
-    "distance": [
-        {
-            "value": "0.0484",
-            "reference": [
-                "2021NatAs...5..491H"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "0.02",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2015ATel.7910....1B",
-                "ASAS-SN Supernovae"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        },
-        {
-            "value": "90",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2015ATel.7910....1B",
-                "ASAS-SN Supernovae",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "luminosity",
-            "unit": "Mpc"
-        },
-        {
-            "value": "90",
-            "reference": [
-                "2017ApJ...838..149A",
-                "2016A&A...594A..13P",
-                "2015ATel.7910....1B",
-                "ASAS-SN Supernovae",
-                "2017ApJ...835...64G"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "comoving",
-            "unit": "Mpc"
-        },
-        {
-            "value": 0.0484,
-            "reference": [
-                "2016MNRAS.463.3813H",
-                "2024MNRAS.527.2452M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 61.0,
-            "reference": "2020MNRAS.497L...1W",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "error": 7.0
-        },
-        {
-            "value": "0.0484",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2015ATel.7910....1B"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2015ATel.7910....1B",
-                "2016MNRAS.463.3813H",
-                "2017ApJ...838..149A",
-                "2021NatAs...5..491H",
-                "2023PASP..135c4101G",
-                "2024MNRAS.527.2452M",
-                "ASAS-SN Supernovae"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 57248.2,
-            "date_format": "mjd",
-            "reference": [
-                "2021NatAs...5..491H"
-            ],
-            "computed": false,
-            "date_type": "discovery"
-        },
-        {
-            "value": "2015-08-14 4:47:59.99999999993861",
-            "date_format": "iso",
-            "reference": [
-                "2015ATel.7910....1B",
-                "ASAS-SN Supernovae"
-            ],
-            "computed": false,
-            "date_type": "discovery",
-            "default": true
-        },
-        {
-            "value": 57248.158280000025,
-            "date_format": "mjd",
-            "reference": [
-                "2016MNRAS.463.3813H",
-                "2024MNRAS.527.2452M"
-            ],
-            "computed": false,
-            "date_type": "peak"
-        },
-        {
-            "value": "2015-08-14 ",
-            "date_format": "iso",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2015ATel.7910....1B"
-            ],
-            "date_type": "discovery",
-            "default": true
-        }
-    ],
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
     },
-    "coordinate": [
-        {
-            "ra": "20 39 09.096",
-            "dec": "-30 45 20.71",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "reference": [
-                "2021NatAs...5..491H"
-            ],
-            "computed": false,
-            "default": true,
-            "uuid": "078c3510-52d3-46ef-9ad2-17b3e4bc8e90",
-            "coordinate_type": "equitorial"
-        },
-        {
-            "reference": "078c3510-52d3-46ef-9ad2-17b3e4bc8e90",
-            "computed": true,
-            "coordinate_type": "galactic",
-            "l": 13.011544857518546,
-            "b": -35.41877256185316,
-            "l_units": "deg",
-            "b_units": "deg"
-        },
-        {
-            "ra": "20:39:08.93",
-            "dec": "-30:45:22.6",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2015ATel.7910....1B",
-                "ASAS-SN Supernovae"
-            ],
-            "coordinate_type": "equitorial"
-        },
-        {
-            "ra": 309.788125,
-            "dec": -30.75575,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "reference": [
-                "2016MNRAS.463.3813H",
-                "2024MNRAS.527.2452M"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
     "reference_alias": [
         {
             "name": "2021NatAs...5..491H",
@@ -246,6 +65,63 @@
             "human_readable_name": "Brimacombe, J. et al. (2015)"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2015ATel.7910....1B",
+                "2016MNRAS.463.3813H",
+                "2017ApJ...838..149A",
+                "2021NatAs...5..491H",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M",
+                "ASAS-SN Supernovae"
+            ],
+            "default": true
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2015-08-14 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2015ATel.7910....1B"
+            ],
+            "default": true
+        },
+        {
+            "value": "2015-08-14 4:47:59.99999999993861",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2015ATel.7910....1B",
+                "ASAS-SN Supernovae"
+            ],
+            "default": false
+        },
+        {
+            "value": "57248.158280000025",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2016MNRAS.463.3813H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "57248.2",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2021NatAs...5..491H"
+            ],
+            "default": false
+        }
+    ],
     "name": {
         "default_name": "ASASSN-15oi",
         "alias": [
@@ -266,6 +142,120 @@
             }
         ]
     },
+    "coordinate": [
+        {
+            "ra": "20 39 09.096",
+            "dec": "-30 45 20.71",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "d50dee38-d5bd-4e20-b9f2-fd153e2d1cec",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2021NatAs...5..491H",
+                "2021NatAs...5..491H"
+            ]
+        },
+        {
+            "ra": "20:39:08.93",
+            "dec": "-30:45:22.6",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2015ATel.7910....1B",
+                "ASAS-SN Supernovae"
+            ]
+        },
+        {
+            "ra": "309.788125",
+            "dec": "-30.75575",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2016MNRAS.463.3813H",
+                "2024MNRAS.527.2452M"
+            ]
+        },
+        {
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "13.011544857518546",
+            "b": "-35.41877256185316",
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": [
+                "d50dee38-d5bd-4e20-b9f2-fd153e2d1cec"
+            ]
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.02",
+            "distance_type": "redshift",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2015ATel.7910....1B",
+                "ASAS-SN Supernovae"
+            ],
+            "default": false
+        },
+        {
+            "value": "0.0484",
+            "distance_type": "redshift",
+            "reference": [
+                "2021NatAs...5..491H",
+                "2016MNRAS.463.3813H",
+                "2024MNRAS.527.2452M",
+                "2023PASP..135c4101G",
+                "2015ATel.7910....1B"
+            ],
+            "default": true
+        },
+        {
+            "value": "61.0",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2020MNRAS.497L...1W",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "90",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2015ATel.7910....1B",
+                "ASAS-SN Supernovae",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        },
+        {
+            "value": "90",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2017ApJ...838..149A",
+                "2016A&A...594A..13P",
+                "2015ATel.7910....1B",
+                "ASAS-SN Supernovae",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "reference": [
