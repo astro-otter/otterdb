@@ -1,18 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2022TNSCR.891....1H",
-            "human_readable_name": "Hammerstein, E. et al. (2022)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2022TNSTR.118....1T",
-            "human_readable_name": "Tonry, J. et al. (2022)"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -93,59 +79,11 @@
             "wave_units": "nm"
         }
     ],
-    "date_reference": [
-        {
-            "value": "59592.602",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR.118....1T"
-            ],
-            "default": true
-        },
-        {
-            "value": "59600.000000000044",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2022TNSCR.891....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "234.4900152",
-            "dec": "56.2716191",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2022TNSCR.891....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "ra": "234.4900417",
-            "dec": "56.2716408",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2022TNSTR.118....1T"
-            ],
-            "default": false
-        }
-    ],
     "name": {
         "default_name": "2022rz",
         "alias": [
             {
-                "value": "ATLAS22bqy",
+                "value": "2022rz",
                 "reference": [
                     "TNS"
                 ]
@@ -157,7 +95,7 @@
                 ]
             },
             {
-                "value": "2022rz",
+                "value": "ATLAS22bqy",
                 "reference": [
                     "TNS"
                 ]
@@ -171,10 +109,10 @@
             }
         ]
     },
-    "distance": [
+    "classification": [
         {
-            "value": "0.107",
-            "distance_type": "redshift",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
                 "2022TNSCR.891....1H",
                 "2024MNRAS.527.2452M"
@@ -5143,10 +5081,72 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "classification": [
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "name": "2022TNSCR.891....1H",
+            "human_readable_name": "Hammerstein, E. et al. (2022)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2022TNSTR.118....1T",
+            "human_readable_name": "Tonry, J. et al. (2022)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.107",
+            "distance_type": "redshift",
+            "reference": [
+                "2022TNSCR.891....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "234.4900152",
+            "dec": "56.2716191",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2022TNSCR.891....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "ra": "234.4900417",
+            "dec": "56.2716408",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2022TNSTR.118....1T"
+            ],
+            "default": false
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "59592.602",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR.118....1T"
+            ],
+            "default": true
+        },
+        {
+            "value": "59600.000000000044",
+            "date_format": "mjd",
+            "date_type": "peak",
             "reference": [
                 "2022TNSCR.891....1H",
                 "2024MNRAS.527.2452M"

@@ -1,16 +1,8 @@
 {
-    "coordinate": [
-        {
-            "ra": "14:58:51.65",
-            "dec": "+17:50:57.9",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2018arXiv180205105W"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "date_reference": [
         {
             "value": "2009-04-29",
@@ -45,10 +37,6 @@
             }
         ]
     },
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "classification": [
         {
             "object_class": "TDE",
@@ -59,6 +47,18 @@
                 "2023PASP..135c4101G"
             ],
             "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "14:58:51.65",
+            "dec": "+17:50:57.9",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2018arXiv180205105W"
+            ],
+            "coordinate_type": "equitorial"
         }
     ],
     "distance": [
@@ -119,26 +119,6 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm",
-            "filter_name": "V"
-        },
-        {
-            "filter_key": "W1",
-            "wave_eff": 224.6,
-            "wave_units": "nm",
-            "filter_name": "W1"
-        },
-        {
-            "filter_key": "W2",
-            "wave_eff": 192.8,
-            "wave_units": "nm",
-            "filter_name": "W2"
         }
     ],
     "photometry": [
@@ -293,6 +273,26 @@
                 "2018arXiv180205105W"
             ],
             "corr_s": null
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "V",
+            "wave_eff": 551.0,
+            "wave_units": "nm",
+            "filter_name": "V"
+        },
+        {
+            "filter_key": "W1",
+            "wave_eff": 224.6,
+            "wave_units": "nm",
+            "filter_name": "W1"
+        },
+        {
+            "filter_key": "W2",
+            "wave_eff": 192.8,
+            "wave_units": "nm",
+            "filter_name": "W2"
         }
     ],
     "host": [

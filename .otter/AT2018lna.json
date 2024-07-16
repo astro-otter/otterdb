@@ -1,30 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2021ApJ...908....4V",
-            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...957...86H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2019TNSTR.250....1F",
-            "human_readable_name": "Cendes, Yvette et al. (2023)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Fremling, C. (2019)"
-        },
-        {
-            "name": "2020TNSCR2246....1D",
-            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "UVW2.uvot",
@@ -75,65 +49,6 @@
             "wave_units": "nm"
         }
     ],
-    "date_reference": [
-        {
-            "value": "58480.28498842593",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2019TNSTR.250....1F"
-            ],
-            "default": true
-        },
-        {
-            "value": "58508.455",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "07:03:18.649",
-            "dec": "+23:01:44.70",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2019TNSTR.250....1F"
-            ]
-        },
-        {
-            "ra": "105.8277036",
-            "dec": "23.029083",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2019TNSTR.250....1F"
-            ]
-        },
-        {
-            "ra": "105.827704",
-            "dec": "23.029083",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ]
-        }
-    ],
     "name": {
         "default_name": "2018lna",
         "alias": [
@@ -159,23 +74,14 @@
             }
         ]
     },
-    "distance": [
+    "classification": [
         {
-            "value": "0.091",
-            "distance_type": "redshift",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
                 "2020TNSCR2246....1D",
                 "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "36.43",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "reference": [
-                "2023ApJ...957...86H",
+                "2023arXiv230813595C",
                 "2024MNRAS.527.2452M"
             ],
             "default": true
@@ -4179,14 +4085,108 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "classification": [
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "name": "2021ApJ...908....4V",
+            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...957...86H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2019TNSTR.250....1F",
+            "human_readable_name": "Cendes, Yvette et al. (2023)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Fremling, C. (2019)"
+        },
+        {
+            "name": "2020TNSCR2246....1D",
+            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.091",
+            "distance_type": "redshift",
             "reference": [
                 "2020TNSCR2246....1D",
                 "2021ApJ...908....4V",
-                "2023arXiv230813595C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "36.43",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2023ApJ...957...86H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "07:03:18.649",
+            "dec": "+23:01:44.70",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2019TNSTR.250....1F"
+            ]
+        },
+        {
+            "ra": "105.8277036",
+            "dec": "23.029083",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2019TNSTR.250....1F"
+            ]
+        },
+        {
+            "ra": "105.827704",
+            "dec": "23.029083",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ]
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "58480.28498842593",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2019TNSTR.250....1F"
+            ],
+            "default": true
+        },
+        {
+            "value": "58508.455",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2021ApJ...908....4V",
                 "2024MNRAS.527.2452M"
             ],
             "default": true

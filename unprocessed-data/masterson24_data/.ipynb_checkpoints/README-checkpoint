@@ -1,0 +1,47 @@
+Data info for Masterson et al. (2024) Figure 1
+
+Masterson24_eRO_Xray.pkl
+- contains 0.2-2.3 keV fluxes for 8 sources in the German eROSITA footprint
+- time given in decimal years
+- only a subset of sources have year_5 data (if nan, no data was taken for this source in eRASS5)
+- fluxes are in units of erg/s/cm^2 (see text for details of how these were computed)
+- if flux_err = -1, then the flux is a 3sigma upper limit
+
+Masterson24_chandra_Xray.pkl
+- contains 0.5-7 keV fluxes for 2 sources that have been observed with Chandra
+- time given in MJD
+- fluxes are in units of erg/s/cm^2
+- if either of the flux errors = -1, then the flux is a 3sigma upper limit
+
+Masterson24_swift_Xray.pkl
+- contains 0.3-10 keV fluxes for sources observed with Swift
+- time given in MJD
+- fluxes are in units of erg/s/cm^2
+- if either of the flux errors = -1, then the flux is a 3sigma upper limit
+
+Masterson24_xmm_Xray.pkl
+- contains 0.2-2 keV fluxes from XMM-Slew for WTP17aamzew
+- time given in decimal years
+- fluxes in units of erg/s/cm^2
+
+Masterson24_asassn_opt.pkl
+- contains ASASSN g and V band difference photometry, binned to 60 day cadence
+- time given in decimal years
+- fluxes are given in mJy
+- if flux error = -99, then the flux is a 10 sigma upper limit
+
+Masterson24_asassn_referenceflux.pkl
+- contains the reference fluxes in the ASASSN g and V bands for each source
+- fluxes are in units of mJy
+- computed from the first epoch of photometry from the online ASASSN sky portal
+
+Masterson24_wise_ir.pkl
+- contains WISE W1 and W2 difference photometry
+- time given in decimal years
+- fluxes are given in mJy
+- if flux error = -99, then the flux is a 10 sigma upper limit
+
+Masterson24_wise_referenceflux.pkl
+- contains the reference fluxes in the W1 and W2 bands for each source
+- fluxes are in units of mJy
+- computed from the first epoch of WISE data with PSF photometry

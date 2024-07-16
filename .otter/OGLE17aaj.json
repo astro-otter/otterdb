@@ -1,14 +1,8 @@
 {
-    "coordinate": [
-        {
-            "ra": "01:56:24.93",
-            "dec": "-71:04:15.7",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [],
-            "coordinate_type": "equitorial"
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "date_reference": [
         {
             "value": "2016-01-28",
@@ -47,10 +41,6 @@
             }
         ]
     },
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "classification": [
         {
             "object_class": "TDE",
@@ -63,6 +53,16 @@
                 "2023PASP..135c4101G"
             ],
             "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "01:56:24.93",
+            "dec": "-71:04:15.7",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [],
+            "coordinate_type": "equitorial"
         }
     ],
     "distance": [

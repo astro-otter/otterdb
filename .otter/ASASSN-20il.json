@@ -1,16 +1,8 @@
 {
-    "coordinate": [
-        {
-            "ra": "5:03:11.3",
-            "dec": "-22:48:52.1",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "ASAS-SN Supernovae"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "date_reference": [
         {
             "value": "2020-07-08 ",
@@ -51,10 +43,6 @@
             }
         ]
     },
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "classification": [
         {
             "object_class": "TDE",
@@ -66,6 +54,18 @@
                 "ASAS-SN Supernovae"
             ],
             "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "5:03:11.3",
+            "dec": "-22:48:52.1",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "ASAS-SN Supernovae"
+            ],
+            "coordinate_type": "equitorial"
         }
     ],
     "reference_alias": [
@@ -86,6 +86,19 @@
             "human_readable_name": "Brimacombe, J. & Stanek, K. Z. (2020)"
         }
     ],
+    "distance": [
+        {
+            "value": "0.015841",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2014ApJ...788...48S",
+                "2020TNSTR.189....1B"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ],
     "host": [
         {
             "host_name": "ESO 486-G 017",
@@ -98,19 +111,6 @@
                 "2014ApJ...788...48S",
                 "2020TNSTR.189....1B"
             ]
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.015841",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2014ApJ...788...48S",
-                "2020TNSTR.189....1B"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
         }
     ]
 }

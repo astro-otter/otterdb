@@ -1,19 +1,8 @@
 {
-    "coordinate": [
-        {
-            "ra": 197.84166666666664,
-            "dec": -1.396111111111111,
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2010ApJ...722.1035M",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "date_reference": [
         {
             "value": "2004-02-28 ",
@@ -54,10 +43,6 @@
             }
         ]
     },
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "classification": [
         {
             "object_class": "TDE",
@@ -67,6 +52,21 @@
                 "2017ApJ...838..149A",
                 "2018ATel12263....1V",
                 "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": 197.84166666666664,
+            "dec": -1.396111111111111,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2010ApJ...722.1035M",
+                "2017ApJ...838..149A"
             ],
             "default": true
         }

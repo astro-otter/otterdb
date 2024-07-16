@@ -1,4 +1,63 @@
 {
+    "name": {
+        "default_name": "2017bcc",
+        "alias": [
+            {
+                "value": "2017bcc",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20aacbwbm",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "SN2017bcc",
+                "reference": []
+            },
+            {
+                "value": "AT2017bcc",
+                "reference": [
+                    "2017ApJ...835...64G"
+                ]
+            },
+            {
+                "value": "SN 2017bcc",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "PS17bgn",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ATel11049....1S",
+                "2017ApJ...835...64G",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "object_class": "SLSN-II",
+            "confidence": 0.5,
+            "reference": [
+                "2017TNSCR.221....1B"
+            ],
+            "default": false
+        }
+    ],
     "reference_alias": [
         {
             "name": "2016A&A...594A..13P",
@@ -29,99 +88,6 @@
             "human_readable_name": "Barbarino, C. et al. (2017)"
         }
     ],
-    "date_reference": [
-        {
-            "value": "2017-02-18",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G"
-            ],
-            "default": false
-        },
-        {
-            "value": "2017-02-18 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ATel11049....1S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "57802.413993055554",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2017TNSTR.220....1C"
-            ],
-            "default": false
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "11:31:53.04",
-            "dec": "+29:59:45.24",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [],
-            "default": false
-        },
-        {
-            "ra": "172.97078162",
-            "dec": "29.9957852105",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2017TNSTR.220....1C"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "2017bcc",
-        "alias": [
-            {
-                "value": "2017bcc",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20aacbwbm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "SN 2017bcc",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "AT2017bcc",
-                "reference": [
-                    "2017ApJ...835...64G"
-                ]
-            },
-            {
-                "value": "SN2017bcc",
-                "reference": []
-            },
-            {
-                "value": "PS17bgn",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    },
     "distance": [
         {
             "value": "0.133",
@@ -161,26 +127,64 @@
             "default": true
         }
     ],
-    "classification": [
+    "coordinate": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "ra": "11:31:53.04",
+            "dec": "+29:59:45.24",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [],
+            "default": false
+        },
+        {
+            "ra": "172.97078162",
+            "dec": "29.9957852105",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2017TNSTR.220....1C"
+            ],
+            "default": true
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2017-02-18",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G"
+            ],
+            "default": false
+        },
+        {
+            "value": "2017-02-18 ",
+            "date_format": "iso",
+            "date_type": "discovery",
             "reference": [
                 "2017ATel11049....1S",
-                "2017ApJ...835...64G",
                 "2023PASP..135c4101G"
             ],
             "default": true
         },
         {
-            "object_class": "SLSN-II",
-            "confidence": 0.5,
+            "value": "57802.413993055554",
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
-                "2017TNSCR.221....1B"
+                "2017TNSTR.220....1C"
             ],
             "default": false
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "host": [
         {
             "host_name": "SDSS J113152.97+295944.8",
@@ -194,10 +198,6 @@
             ]
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "filter_alias": [
         {
             "filter_key": "i",

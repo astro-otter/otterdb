@@ -1,18 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2022Natur.612..430A",
-            "human_readable_name": "Igor et al. (2022)"
-        },
-        {
-            "name": "2022TNSTR.397....1A",
-            "human_readable_name": "Rhodes, L. et al. (2023)"
-        },
-        {
-            "name": "2023MNRAS.521..389R",
-            "human_readable_name": "Andreoni, I. (2022)"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "8.5GHz",
@@ -279,99 +265,17 @@
             "wave_units": "nm"
         }
     ],
-    "date_reference": [
-        {
-            "value": "2459621.946",
-            "date_format": "jd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR.397....1A"
-            ],
-            "default": true
-        },
-        {
-            "value": "59621.4463",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR.397....1A"
-            ],
-            "default": false
-        },
-        {
-            "value": "59621.45",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022Natur.612..430A"
-            ],
-            "default": false
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "13 34 43.207",
-            "dec": "+33 13 00.54",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "computed": "False",
-            "default": true,
-            "uuid": "1139cba9-33c7-4021-833c-06dcb3e3d39e",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2022Natur.612..430A"
-            ]
-        },
-        {
-            "ra": "13:34:43.207",
-            "dec": "+33:13:00.54",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2022TNSTR.397....1A"
-            ]
-        },
-        {
-            "ra": "203.6800286",
-            "dec": "33.216817166666665",
-            "epoch": "J2000",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "frame": "ICRS",
-            "reference": [
-                "2022TNSTR.397....1A"
-            ]
-        },
-        {
-            "computed": "True",
-            "default": true,
-            "coordinate_type": "galactic",
-            "l": "68.62957133676095",
-            "b": "78.8489417474028",
-            "l_units": "deg",
-            "b_units": "deg",
-            "reference": [
-                "1139cba9-33c7-4021-833c-06dcb3e3d39e"
-            ]
-        }
-    ],
     "name": {
         "default_name": "2022cmc",
         "alias": [
             {
-                "value": "2022cmc",
+                "value": "ZTF22aaajecp",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ZTF22aaajecp",
+                "value": "2022cmc",
                 "reference": [
                     "TNS"
                 ]
@@ -1914,15 +1818,100 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "distance": [
+    "reference_alias": [
         {
-            "value": "1.19325",
+            "name": "2022Natur.612..430A",
+            "human_readable_name": "Igor et al. (2022)"
+        },
+        {
+            "name": "2022TNSTR.397....1A",
+            "human_readable_name": "Rhodes, L. et al. (2023)"
+        },
+        {
+            "name": "2023MNRAS.521..389R",
+            "human_readable_name": "Andreoni, I. (2022)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "13 34 43.207",
+            "dec": "+33 13 00.54",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "d73f23ba-468a-4690-bcf8-478aeabd68b1",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2022Natur.612..430A"
+            ]
+        },
+        {
+            "ra": "13:34:43.207",
+            "dec": "+33:13:00.54",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2022TNSTR.397....1A"
+            ]
+        },
+        {
+            "ra": "203.6800286",
+            "dec": "33.216817166666665",
+            "epoch": "J2000",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "frame": "ICRS",
+            "reference": [
+                "2022TNSTR.397....1A"
+            ]
+        },
+        {
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "68.62957133676095",
+            "b": "78.8489417474028",
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": [
+                "d73f23ba-468a-4690-bcf8-478aeabd68b1"
+            ]
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2459621.946",
+            "date_format": "jd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR.397....1A"
+            ],
+            "default": true
+        },
+        {
+            "value": "59621.4463",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR.397....1A"
+            ],
+            "default": false
+        },
+        {
+            "value": "59621.45",
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
                 "2022Natur.612..430A"
             ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
+            "default": false
         }
     ],
     "classification": [
@@ -1939,5 +1928,16 @@
     "schema_version": {
         "value": "0",
         "comment": "Original Dataset"
-    }
+    },
+    "distance": [
+        {
+            "value": "1.19325",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
+        }
+    ]
 }

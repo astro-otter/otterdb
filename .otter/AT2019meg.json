@@ -1,18 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2021ApJ...908....4V",
-            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2019TNSTR1378....1N",
-            "human_readable_name": "Nordin, J. (2019)"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -93,54 +79,6 @@
             "wave_units": "nm"
         }
     ],
-    "date_reference": [
-        {
-            "value": "58692.72199074074",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2019TNSTR1378....1N"
-            ],
-            "default": true
-        },
-        {
-            "value": "58696.39349999996",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "281.317417",
-            "dec": "44.438669",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2019TNSTR1378....1N"
-            ],
-            "default": false
-        },
-        {
-            "ra": "281.317497",
-            "dec": "44.438606",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "name": {
         "default_name": "2019meg",
         "alias": [
@@ -151,13 +89,13 @@
                 ]
             },
             {
-                "value": "ZTF19abhhjcc",
+                "value": "Gaia19dhd",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "Gaia19dhd",
+                "value": "ZTF19abhhjcc",
                 "reference": [
                     "TNS"
                 ]
@@ -10068,14 +10006,66 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "distance": [
+    "reference_alias": [
         {
-            "value": 0.152,
+            "name": "2021ApJ...908....4V",
+            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2019TNSTR1378....1N",
+            "human_readable_name": "Nordin, J. (2019)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "281.317417",
+            "dec": "44.438669",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2019TNSTR1378....1N"
+            ],
+            "default": false
+        },
+        {
+            "ra": "281.317497",
+            "dec": "44.438606",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
             "reference": [
                 "2021ApJ...908....4V",
                 "2024MNRAS.527.2452M"
             ],
-            "distance_type": "redshift"
+            "default": true
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "58692.72199074074",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2019TNSTR1378....1N"
+            ],
+            "default": true
+        },
+        {
+            "value": "58696.39349999996",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "classification": [
@@ -10087,6 +10077,16 @@
                 "2024MNRAS.527.2452M"
             ],
             "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.152,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "distance_type": "redshift"
         }
     ]
 }

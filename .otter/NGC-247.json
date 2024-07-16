@@ -1,14 +1,8 @@
 {
-    "coordinate": [
-        {
-            "ra": "00:47:08.64",
-            "dec": "-20:45:36",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [],
-            "coordinate_type": "equitorial"
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "name": {
         "default_name": "NGC 247",
         "alias": [
@@ -21,10 +15,6 @@
             }
         ]
     },
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "classification": [
         {
             "object_class": "TDE",
@@ -36,6 +26,16 @@
                 "2023PASP..135c4101G"
             ],
             "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "00:47:08.64",
+            "dec": "-20:45:36",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [],
+            "coordinate_type": "equitorial"
         }
     ],
     "distance": [
@@ -105,6 +105,20 @@
             "human_readable_name": "Feng, Hua et al. (2015)"
         }
     ],
+    "date_reference": [
+        {
+            "value": "2014-07-01 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2011ApJ...737...87J",
+                "2015ApJ...807..185F",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
     "host": [
         {
             "host_name": "NGC 247",
@@ -118,20 +132,6 @@
                 "2015ApJ...807..185F",
                 "2017ApJ...838..149A"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2014-07-01 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2011ApJ...737...87J",
-                "2015ApJ...807..185F",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
         }
     ]
 }

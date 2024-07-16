@@ -1,30 +1,8 @@
 {
-    "coordinate": [
-        {
-            "ra": "23:23:48.615",
-            "dec": "-01:08:10.34",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2000A&AS..143....9W",
-                "2011ApJ...741...73V"
-            ]
-        },
-        {
-            "ra": "350.95256",
-            "dec": "-1.13618",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2011ApJ...741...73V",
-                "2024MNRAS.527.2452M"
-            ]
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "date_reference": [
         {
             "value": "2007-06-18",
@@ -79,10 +57,6 @@
             }
         ]
     },
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "classification": [
         {
             "object_class": "TDE",
@@ -95,6 +69,32 @@
                 "2024MNRAS.527.2452M"
             ],
             "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "23:23:48.615",
+            "dec": "-01:08:10.34",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2000A&AS..143....9W",
+                "2011ApJ...741...73V"
+            ]
+        },
+        {
+            "ra": "350.95256",
+            "dec": "-1.13618",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2011ApJ...741...73V",
+                "2024MNRAS.527.2452M"
+            ]
         }
     ],
     "distance": [
@@ -164,112 +164,6 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "C",
-            "wave_eff": 616.690135,
-            "wave_units": "nm",
-            "filter_name": "C"
-        },
-        {
-            "filter_key": "FUV",
-            "wave_eff": 153.8620701901866,
-            "wave_units": "nm",
-            "filter_name": "FUV"
-        },
-        {
-            "filter_key": "NUV",
-            "wave_eff": 231.56631043707714,
-            "wave_units": "nm",
-            "filter_name": "NUV"
-        },
-        {
-            "filter_key": "g",
-            "wave_eff": 475.0,
-            "wave_units": "nm",
-            "filter_name": "g"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 622.0,
-            "wave_units": "nm",
-            "filter_name": "r"
-        },
-        {
-            "filter_key": "u",
-            "wave_eff": 354.0,
-            "wave_units": "nm",
-            "filter_name": "u"
-        },
-        {
-            "filter_key": "F125LP",
-            "filter_name": "F125LP",
-            "freq_eff": 2089450463842676.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "F150LP",
-            "filter_name": "F150LP",
-            "freq_eff": 1865557170546869.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "filter_name": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "filter_name": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "filter_name": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W1.wise",
-            "filter_name": "W1.wise",
-            "freq_eff": 89917740678395.33,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W2.wise",
-            "filter_name": "W2.wise",
-            "freq_eff": 65429370473910.305,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.sdss",
-            "filter_name": "g.sdss",
-            "freq_eff": 646569472243250.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.sdss",
-            "filter_name": "r.sdss",
-            "freq_eff": 488925642232043.75,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "u.sdss",
-            "filter_name": "u.sdss",
-            "freq_eff": 847747991775816.2,
-            "freq_units": "Hz"
         }
     ],
     "photometry": [
@@ -956,6 +850,112 @@
             "corr_host": false,
             "corr_hostav": false,
             "val_av": 0.10605240929343758
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "C",
+            "wave_eff": 616.690135,
+            "wave_units": "nm",
+            "filter_name": "C"
+        },
+        {
+            "filter_key": "FUV",
+            "wave_eff": 153.8620701901866,
+            "wave_units": "nm",
+            "filter_name": "FUV"
+        },
+        {
+            "filter_key": "NUV",
+            "wave_eff": 231.56631043707714,
+            "wave_units": "nm",
+            "filter_name": "NUV"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 475.0,
+            "wave_units": "nm",
+            "filter_name": "g"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 622.0,
+            "wave_units": "nm",
+            "filter_name": "r"
+        },
+        {
+            "filter_key": "u",
+            "wave_eff": 354.0,
+            "wave_units": "nm",
+            "filter_name": "u"
+        },
+        {
+            "filter_key": "F125LP",
+            "filter_name": "F125LP",
+            "freq_eff": 2089450463842676.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "F150LP",
+            "filter_name": "F150LP",
+            "freq_eff": 1865557170546869.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "filter_name": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "filter_name": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W1.wise",
+            "filter_name": "W1.wise",
+            "freq_eff": 89917740678395.33,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W2.wise",
+            "filter_name": "W2.wise",
+            "freq_eff": 65429370473910.305,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.sdss",
+            "filter_name": "g.sdss",
+            "freq_eff": 646569472243250.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.sdss",
+            "filter_name": "r.sdss",
+            "freq_eff": 488925642232043.75,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "u.sdss",
+            "filter_name": "u.sdss",
+            "freq_eff": 847747991775816.2,
+            "freq_units": "Hz"
         }
     ],
     "host": [

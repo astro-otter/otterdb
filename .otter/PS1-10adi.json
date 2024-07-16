@@ -1,34 +1,4 @@
 {
-    "date_reference": [
-        {
-            "value": "2010-01-01",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G"
-            ],
-            "default": false
-        },
-        {
-            "value": "2010-08-15 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017NatAs...1..865K",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "59471.207",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2021TNSTR3297....1H"
-            ],
-            "default": false
-        }
-    ],
     "reference_alias": [
         {
             "name": "2017arXiv171104577K",
@@ -89,13 +59,13 @@
         "default_name": "2021zlg",
         "alias": [
             {
-                "value": "Gaia21egv",
+                "value": "2021zlg",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2021zlg",
+                "value": "Gaia21egv",
                 "reference": [
                     "TNS"
                 ]
@@ -109,52 +79,34 @@
             }
         ]
     },
-    "host": [
+    "date_reference": [
         {
-            "host_name": "SDSS J204244.74+153032.1",
-            "host_ra": 310.68749999999994,
-            "host_dec": 15.508916666666666,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
+            "value": "2010-01-01",
+            "date_format": "iso",
+            "date_type": "discovery",
             "reference": [
-                "2023PASP..135c4101G",
-                "2017NatAs...1..865K",
-                "2017NatAs...1..865K"
-            ]
-        }
-    ],
-    "distance": [
+                "2017ApJ...835...64G"
+            ],
+            "default": false
+        },
         {
-            "value": "0.203",
-            "distance_type": "redshift",
+            "value": "2010-08-15 ",
+            "date_format": "iso",
+            "date_type": "discovery",
             "reference": [
                 "2017NatAs...1..865K",
-                "2017arXiv171104577K",
                 "2023PASP..135c4101G"
             ],
             "default": true
         },
         {
-            "value": "1030",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
+            "value": "59471.207",
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017arXiv171104577K"
+                "2021TNSTR3297....1H"
             ],
-            "default": true
-        },
-        {
-            "value": "855",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017arXiv171104577K"
-            ],
-            "default": true
+            "default": false
         }
     ],
     "classification": [
@@ -189,6 +141,54 @@
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
     },
+    "distance": [
+        {
+            "value": "0.203",
+            "distance_type": "redshift",
+            "reference": [
+                "2017NatAs...1..865K",
+                "2017arXiv171104577K",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "1030",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017arXiv171104577K"
+            ],
+            "default": true
+        },
+        {
+            "value": "855",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017arXiv171104577K"
+            ],
+            "default": true
+        }
+    ],
+    "host": [
+        {
+            "host_name": "SDSS J204244.74+153032.1",
+            "host_ra": 310.68749999999994,
+            "host_dec": 15.508916666666666,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017NatAs...1..865K",
+                "2017NatAs...1..865K"
+            ]
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "G",
