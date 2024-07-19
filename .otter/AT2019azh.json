@@ -1,4 +1,127 @@
 {
+    "reference_alias": [
+        {
+            "name": "2022MNRAS.511.5328G",
+            "human_readable_name": "Goodwin et al. (2022)"
+        },
+        {
+            "name": "2021MNRAS.500.1673H",
+            "human_readable_name": "Hinkle, Jason T. et al. (2021)"
+        },
+        {
+            "name": "2022ApJ...925...67L",
+            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
+        },
+        {
+            "name": "2021ApJ...908....4V",
+            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...955L...6Y",
+            "human_readable_name": "Yao, Yuhan et al. (2023)"
+        },
+        {
+            "name": "2019TNSCR.287....1B",
+            "human_readable_name": "Wevers, T. et al. (2021)"
+        },
+        {
+            "name": "2019TNSTR...2....1S",
+            "human_readable_name": "Barbarino, C. et al. (2019)"
+        },
+        {
+            "name": "2021ApJ...912..151W",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Stanek, K. Z. (2019)"
+        },
+        {
+            "name": "2019ATel12870....1P",
+            "human_readable_name": "Goodwin, A. J. et al. (2022)"
+        },
+        {
+            "name": "2019TNSTR.262....1S",
+            "human_readable_name": "Sfaradi, Itai et al. (2022)"
+        },
+        {
+            "name": "2022ApJ...933..176S",
+            "human_readable_name": "Perez-Torres, M. et al. (2019)"
+        },
+        {
+            "name": "2024arXiv240712097A",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": " 2020TNSCR2126....1D",
+            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.022",
+            "distance_type": "redshift",
+            "reference": [
+                "2019TNSCR.287....1B",
+                "2019TNSTR.262....1S",
+                "2020TNSCR2126....1D",
+                "2022MNRAS.511.5328G"
+            ],
+            "default": true
+        },
+        {
+            "value": "0.0222",
+            "distance_type": "redshift",
+            "reference": [
+                "2021MNRAS.500.1673H,2022ApJ...925...67L,2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": false
+        },
+        {
+            "value": "0.022346",
+            "distance_type": "redshift",
+            "reference": [
+                "2019TNSCR.287....1B",
+                "2019TNSTR...2....1S",
+                "2021ApJ...912..151W",
+                "2023PASP..135c4101G"
+            ],
+            "default": false
+        },
+        {
+            "value": "68.0",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2023ApJ...955L...6Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2019TNSCR.287....1B",
+                "2019TNSTR...2....1S",
+                "2020TNSCR2126....1D",
+                "2021ApJ...912..151W",
+                "2021MNRAS.500.1673H,2022ApJ...925...67L,2021ApJ...908....4V",
+                "2022ApJ...933..176S",
+                "2022MNRAS.511.5328G",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "5.511GHz",
@@ -77,6 +200,12 @@
             "filter_name": "r.ztf",
             "freq_eff": 471994480402802.25,
             "freq_units": "Hz"
+        },
+        {
+            "filter_key": "15.5GHz",
+            "filter_name": "Ku",
+            "freq_eff": 15.5,
+            "freq_units": "GHz"
         },
         {
             "filter_key": "5.075GHz",
@@ -385,6 +514,30 @@
             "freq_units": "GHz"
         },
         {
+            "filter_key": "3000.0MHz",
+            "filter_name": "S",
+            "freq_eff": 3000.0,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "1367.5MHz",
+            "filter_name": "L",
+            "freq_eff": 1367.5,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "1655.5MHz",
+            "filter_name": "L",
+            "freq_eff": 1655.5,
+            "freq_units": "MHz"
+        },
+        {
             "filter_key": "G",
             "filter_name": "G",
             "wave_eff": 673.5412573108297,
@@ -407,7 +560,7 @@
         "default_name": "2019azh",
         "alias": [
             {
-                "value": "ASASSN-19dj",
+                "value": "Gaia19bvo",
                 "reference": [
                     "TNS"
                 ]
@@ -419,13 +572,13 @@
                 ]
             },
             {
-                "value": "Gaia19bvo",
+                "value": "ZTF18achzddr",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ZTF18achzddr",
+                "value": "ASASSN-19dj",
                 "reference": [
                     "TNS"
                 ]
@@ -453,24 +606,6 @@
             }
         ]
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2019TNSCR.287....1B",
-                "2019TNSTR...2....1S",
-                "2020TNSCR2126....1D",
-                "2021ApJ...912..151W",
-                "2021MNRAS.500.1673H,2022ApJ...925...67L,2021ApJ...908....4V",
-                "2022ApJ...933..176S",
-                "2022MNRAS.511.5328G",
-                "2023PASP..135c4101G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "photometry": [
         {
             "reference": [
@@ -10134,45 +10269,123 @@
                 false
             ],
             "filter_key": [
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz",
-                "5.075GHz"
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz",
+                "15.5GHz"
             ],
             "obs_type": "radio",
             "telescope": "AMI-LA",
+            "raw_err_detail": {
+                "statistical": [
+                    NaN,
+                    0.011,
+                    0.009,
+                    0.0085,
+                    0.0135,
+                    0.014,
+                    0.016,
+                    0.0145,
+                    0.018,
+                    0.015,
+                    0.016,
+                    0.02,
+                    0.0155,
+                    0.015,
+                    0.015,
+                    0.016,
+                    0.0155,
+                    0.014,
+                    0.019,
+                    0.0185,
+                    0.0235,
+                    0.02,
+                    0.0235,
+                    0.03,
+                    0.0295,
+                    0.033,
+                    0.033,
+                    0.036,
+                    0.0325,
+                    0.03,
+                    0.0285,
+                    0.025,
+                    0.0295,
+                    0.023,
+                    0.025,
+                    0.028
+                ],
+                "systematic": [
+                    NaN,
+                    0.04877499359,
+                    0.02861817604,
+                    0.02877064476,
+                    0.05846152581,
+                    0.03746998799,
+                    0.02537715508,
+                    0.03727935085,
+                    0.05723635209,
+                    0.04769696007,
+                    0.03666060556,
+                    0.08774964387,
+                    0.06826236152,
+                    0.03708099244,
+                    0.02598076211,
+                    0.04737087713,
+                    0.03687478813,
+                    0.03746998799,
+                    0.02321637353,
+                    0.03546477125,
+                    0.04413332075,
+                    0.05656854249,
+                    0.04413332075,
+                    0.02645751311,
+                    0.02701388532,
+                    0.05010987927,
+                    0.05010987927,
+                    0.0714422844,
+                    0.0504356025,
+                    0.05196152423,
+                    0.08536831965,
+                    0.08645808233,
+                    0.04037016225,
+                    0.04439594576,
+                    0.05454356057,
+                    0.02856571371
+                ]
+            },
             "corr_k": false,
             "corr_s": false,
             "corr_host": false,
@@ -10981,6 +11194,134 @@
             ],
             "obs_type": "radio",
             "telescope": "VLA",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2024arXiv240712097A",
+            "raw": [
+                2.38
+            ],
+            "raw_err": [
+                0.21
+            ],
+            "raw_units": "mJy",
+            "date": [
+                "59575.82"
+            ],
+            "date_format": [
+                "mjd"
+            ],
+            "upperlimit": [
+                false
+            ],
+            "filter_key": [
+                "1655.5MHz"
+            ],
+            "obs_type": "radio",
+            "telescope": "RACS.high",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2024arXiv240712097A",
+            "raw": [
+                1.27,
+                2.83
+            ],
+            "raw_err": [
+                0.35,
+                0.2
+            ],
+            "raw_units": "mJy",
+            "date": [
+                "58595.42",
+                "59663.52"
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false
+            ],
+            "filter_key": [
+                "887.5MHz",
+                "887.5MHz"
+            ],
+            "obs_type": "radio",
+            "telescope": "RACS.low",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2024arXiv240712097A",
+            "raw": [
+                3.88
+            ],
+            "raw_err": [
+                0.19
+            ],
+            "raw_units": "mJy",
+            "date": [
+                "59218.719999999994"
+            ],
+            "date_format": [
+                "mjd"
+            ],
+            "upperlimit": [
+                false
+            ],
+            "filter_key": [
+                "1367.5MHz"
+            ],
+            "obs_type": "radio",
+            "telescope": "RACS.mid",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2024arXiv240712097A",
+            "raw": [
+                0.58,
+                1.22
+            ],
+            "raw_err": [
+                0.0,
+                0.22
+            ],
+            "raw_units": "mJy",
+            "date": [
+                "58587.92",
+                "59561.32"
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                false
+            ],
+            "filter_key": [
+                "3000.0MHz",
+                "3000.0MHz"
+            ],
+            "obs_type": "radio",
+            "telescope": "VLASS",
             "corr_k": false,
             "corr_s": false,
             "corr_host": false,
@@ -12028,102 +12369,44 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2022MNRAS.511.5328G",
-            "human_readable_name": "Goodwin et al. (2022)"
-        },
-        {
-            "name": "2021MNRAS.500.1673H",
-            "human_readable_name": "Hinkle, Jason T. et al. (2021)"
-        },
-        {
-            "name": "2022ApJ...925...67L",
-            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
-        },
-        {
-            "name": "2021ApJ...908....4V",
-            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...955L...6Y",
-            "human_readable_name": "Yao, Yuhan et al. (2023)"
-        },
-        {
-            "name": "2019TNSCR.287....1B",
-            "human_readable_name": "Wevers, T. et al. (2021)"
-        },
-        {
-            "name": "2019TNSTR...2....1S",
-            "human_readable_name": "Barbarino, C. et al. (2019)"
-        },
-        {
-            "name": "2021ApJ...912..151W",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Stanek, K. Z. (2019)"
-        },
-        {
-            "name": "2019ATel12870....1P",
-            "human_readable_name": "Goodwin, A. J. et al. (2022)"
-        },
-        {
-            "name": "2019TNSTR.262....1S",
-            "human_readable_name": "Sfaradi, Itai et al. (2022)"
-        },
-        {
-            "name": "2022ApJ...933..176S",
-            "human_readable_name": "Perez-Torres, M. et al. (2019)"
-        },
-        {
-            "name": " 2020TNSCR2126....1D",
-            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.022",
-            "distance_type": "redshift",
-            "reference": [
-                "2019TNSCR.287....1B",
-                "2019TNSTR.262....1S",
-                "2020TNSCR2126....1D",
-                "2022MNRAS.511.5328G"
-            ],
-            "default": true
-        },
-        {
-            "value": "0.0222",
-            "distance_type": "redshift",
-            "reference": [
-                "2021MNRAS.500.1673H,2022ApJ...925...67L,2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": false
-        },
-        {
-            "value": "0.022346",
-            "distance_type": "redshift",
+            "value": "2019-02-22 ",
+            "date_format": "iso",
+            "date_type": "discovery",
             "reference": [
                 "2019TNSCR.287....1B",
                 "2019TNSTR...2....1S",
                 "2021ApJ...912..151W",
                 "2023PASP..135c4101G"
             ],
+            "default": true
+        },
+        {
+            "value": "2458536.52",
+            "date_format": "jd",
+            "date_type": "discovery",
+            "reference": [
+                "2019TNSTR.262....1S"
+            ],
             "default": false
         },
         {
-            "value": "68.0",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
+            "value": "58536.02",
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
-                "2023ApJ...955L...6Y",
+                "2019TNSTR.262....1S",
+                "2022MNRAS.511.5328G"
+            ],
+            "default": false
+        },
+        {
+            "value": "58566.23109953705",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2021MNRAS.500.1673H,2022ApJ...925...67L,2021ApJ...908....4V",
                 "2024MNRAS.527.2452M"
             ],
             "default": true
@@ -12139,7 +12422,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": false,
-            "uuid": "f7a287eb-b95b-4285-8fff-02e2ca8f3df8",
+            "uuid": "f4d29767-3faf-4a3d-8c1c-d842c97a968f",
             "coordinate_type": "equitorial",
             "reference": [
                 "2022MNRAS.511.5328G"
@@ -12190,51 +12473,8 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "f7a287eb-b95b-4285-8fff-02e2ca8f3df8"
+                "f4d29767-3faf-4a3d-8c1c-d842c97a968f"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2019-02-22 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2019TNSCR.287....1B",
-                "2019TNSTR...2....1S",
-                "2021ApJ...912..151W",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "2458536.52",
-            "date_format": "jd",
-            "date_type": "discovery",
-            "reference": [
-                "2019TNSTR.262....1S"
-            ],
-            "default": false
-        },
-        {
-            "value": "58536.02",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2019TNSTR.262....1S",
-                "2022MNRAS.511.5328G"
-            ],
-            "default": false
-        },
-        {
-            "value": "58566.23109953705",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2021MNRAS.500.1673H,2022ApJ...925...67L,2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ],
     "schema_version": {

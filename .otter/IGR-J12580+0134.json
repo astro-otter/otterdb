@@ -1,4 +1,107 @@
 {
+    "name": {
+        "default_name": "IGR J12580+0134",
+        "alias": [
+            {
+                "value": "IGR12580",
+                "reference": [
+                    "2015ApJ...809..172I"
+                ]
+            },
+            {
+                "value": "IGR J12580+0134",
+                "reference": [
+                    "IGR"
+                ]
+            },
+            {
+                "value": "IGR 12580",
+                "reference": [
+                    "2015ApJ...809..172I"
+                ]
+            }
+        ]
+    },
+    "filter_alias": [
+        {
+            "filter_key": "6.0GHz",
+            "filter_name": "C",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.5GHz",
+            "filter_name": "C",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.57GHz",
+            "filter_name": "L",
+            "freq_eff": 1.57,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.5195GHz",
+            "filter_name": "L",
+            "freq_eff": 1.5195,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.499GHz",
+            "filter_name": "C",
+            "freq_eff": 5.499,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.5474GHz",
+            "filter_name": "L",
+            "freq_eff": 1.5474,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "4.9795GHz",
+            "filter_name": "C",
+            "freq_eff": 4.9795,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "9.0GHz",
+            "filter_name": "X",
+            "freq_eff": 9.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "freq_eff": 3.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.5GHz",
+            "filter_name": "L",
+            "freq_eff": 1.5,
+            "freq_units": "GHz"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2015ApJ...809..172I",
+            "human_readable_name": "Irwin et al. (2015)"
+        },
+        {
+            "name": "2016MNRAS.461.3375Y",
+            "human_readable_name": "Yuan et al. (2016)"
+        },
+        {
+            "name": "2017ApJ...842..126P",
+            "human_readable_name": "Perlman et al. (2017)"
+        },
+        {
+            "name": "2022ApJ...925..143P",
+            "human_readable_name": "Perlman, Eric S. et al. (2017)"
+        }
+    ],
     "photometry": [
         {
             "reference": [
@@ -335,22 +438,16 @@
             "corr_hostav": false
         }
     ],
-    "reference_alias": [
+    "classification": [
         {
-            "name": "2015ApJ...809..172I",
-            "human_readable_name": "Irwin et al. (2015)"
-        },
-        {
-            "name": "2016MNRAS.461.3375Y",
-            "human_readable_name": "Yuan et al. (2016)"
-        },
-        {
-            "name": "2017ApJ...842..126P",
-            "human_readable_name": "Perlman et al. (2017)"
-        },
-        {
-            "name": "2022ApJ...925..143P",
-            "human_readable_name": "Perlman, Eric S. et al. (2017)"
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2015ApJ...809..172I",
+                "2016MNRAS.461.3375Y",
+                "2017ApJ...842..126P"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
@@ -363,7 +460,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": true,
-            "uuid": "c9076e84-9bb7-41ec-ad7b-4bd37b69f40f",
+            "uuid": "f66ad2eb-edc3-45f7-aec3-e94f0f6f0377",
             "coordinate_type": "equitorial",
             "reference": [
                 "2015ApJ...809..172I",
@@ -402,118 +499,8 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "c9076e84-9bb7-41ec-ad7b-4bd37b69f40f"
+                "f66ad2eb-edc3-45f7-aec3-e94f0f6f0377"
             ]
-        }
-    ],
-    "name": {
-        "default_name": "IGR J12580+0134",
-        "alias": [
-            {
-                "value": "IGR12580",
-                "reference": [
-                    "2015ApJ...809..172I"
-                ]
-            },
-            {
-                "value": "IGR 12580",
-                "reference": [
-                    "2015ApJ...809..172I"
-                ]
-            },
-            {
-                "value": "IGR J12580+0134",
-                "reference": [
-                    "IGR"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2015ApJ...809..172I",
-                "2016MNRAS.461.3375Y",
-                "2017ApJ...842..126P"
-            ],
-            "default": true
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "6.0GHz",
-            "filter_name": "C",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.5GHz",
-            "filter_name": "C",
-            "freq_eff": 5.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.57GHz",
-            "filter_name": "L",
-            "freq_eff": 1.57,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.5195GHz",
-            "filter_name": "L",
-            "freq_eff": 1.5195,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.499GHz",
-            "filter_name": "C",
-            "freq_eff": 5.499,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.5474GHz",
-            "filter_name": "L",
-            "freq_eff": 1.5474,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "4.9795GHz",
-            "filter_name": "C",
-            "freq_eff": 4.9795,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "9.0GHz",
-            "filter_name": "X",
-            "freq_eff": 9.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "3.0GHz",
-            "filter_name": "S",
-            "freq_eff": 3.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.5GHz",
-            "filter_name": "L",
-            "freq_eff": 1.5,
-            "freq_units": "GHz"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.00411",
-            "reference": [
-                "2015ApJ...809..172I",
-                "2016MNRAS.461.3375Y",
-                "2017ApJ...842..126P"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
         }
     ],
     "schema_version": {
@@ -531,6 +518,19 @@
             ],
             "computed": false,
             "date_type": "discovery"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.00411",
+            "reference": [
+                "2015ApJ...809..172I",
+                "2016MNRAS.461.3375Y",
+                "2017ApJ...842..126P"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         }
     ]
 }

@@ -1,4 +1,52 @@
 {
+    "reference_alias": [
+        {
+            "name": "2022ApJ...925...67L",
+            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2021TNSTR2318....1M",
+            "human_readable_name": "Munoz-Arancibia, A. et al. (2021)"
+        },
+        {
+            "name": "2021TNSCR2712....1C",
+            "human_readable_name": "Chu, M. et al. (2021)"
+        },
+        {
+            "name": " 2023TNSCR2004....1Y",
+            "human_readable_name": "Yao, Y. (2023)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.059",
+            "distance_type": "redshift",
+            "reference": [
+                "2021TNSCR2712....1C",
+                "2022ApJ...925...67L",
+                "2023TNSCR2004....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR2712....1C",
+                "2022ApJ...925...67L",
+                "2023TNSCR2004....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -83,13 +131,13 @@
         "default_name": "2021sdu",
         "alias": [
             {
-                "value": "2021sdu",
+                "value": "ATLAS21bbpg",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ATLAS21bbpg",
+                "value": "2021sdu",
                 "reference": [
                     "TNS"
                 ]
@@ -109,19 +157,6 @@
             }
         ]
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR2712....1C",
-                "2022ApJ...925...67L",
-                "2023TNSCR2004....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -6095,36 +6130,22 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2022ApJ...925...67L",
-            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2021TNSTR2318....1M",
-            "human_readable_name": "Munoz-Arancibia, A. et al. (2021)"
-        },
-        {
-            "name": "2021TNSCR2712....1C",
-            "human_readable_name": "Chu, M. et al. (2021)"
-        },
-        {
-            "name": " 2023TNSCR2004....1Y",
-            "human_readable_name": "Yao, Y. (2023)"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.059",
-            "distance_type": "redshift",
+            "value": "59400.40732640046",
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
-                "2021TNSCR2712....1C",
+                "2021TNSTR2318....1M"
+            ],
+            "default": true
+        },
+        {
+            "value": "59413.95833333334",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
                 "2022ApJ...925...67L",
-                "2023TNSCR2004....1Y",
                 "2024MNRAS.527.2452M"
             ],
             "default": true
@@ -6155,27 +6176,6 @@
                 "2021TNSTR2318....1M"
             ],
             "default": false
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "59400.40732640046",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2021TNSTR2318....1M"
-            ],
-            "default": true
-        },
-        {
-            "value": "59413.95833333334",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

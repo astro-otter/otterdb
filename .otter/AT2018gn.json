@@ -1,4 +1,41 @@
 {
+    "reference_alias": [
+        {
+            "name": "2018TNSCR..81....1F",
+            "human_readable_name": "Masterson, Megan et al. (2024)"
+        },
+        {
+            "name": "2024ApJ...961..211M",
+            "human_readable_name": "Falco, E. et al. (2018)"
+        },
+        {
+            "name": "TNS",
+            "human_readable_name": "TNS"
+        },
+        {
+            "name": "2018TNSTR..58....1K",
+            "human_readable_name": "Krannich, G. et al. (2018)"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2018TNSCR..81....1F",
+                "2024ApJ...961..211M"
+            ],
+            "default": true
+        },
+        {
+            "object_class": "SN II",
+            "confidence": 0.5,
+            "reference": [
+                "2018TNSCR..81....1F"
+            ],
+            "default": false
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "g",
@@ -49,19 +86,13 @@
         "default_name": "2018gn",
         "alias": [
             {
-                "value": "2018gn",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ASASSN-18ap",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "ATLAS18ean",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2018gn",
                 "reference": [
                     "TNS"
                 ]
@@ -73,7 +104,7 @@
                 ]
             },
             {
-                "value": "AT2018gn",
+                "value": "ASASSN-18ap",
                 "reference": [
                     "TNS"
                 ]
@@ -84,28 +115,15 @@
                     "2018TNSCR..81....1F",
                     "2024ApJ...961..211M"
                 ]
+            },
+            {
+                "value": "AT2018gn",
+                "reference": [
+                    "TNS"
+                ]
             }
         ]
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2018TNSCR..81....1F",
-                "2024ApJ...961..211M"
-            ],
-            "default": true
-        },
-        {
-            "object_class": "SN II",
-            "confidence": 0.5,
-            "reference": [
-                "2018TNSCR..81....1F"
-            ],
-            "default": false
-        }
-    ],
     "photometry": [
         {
             "date": [
@@ -1022,36 +1040,38 @@
             "corr_av": false,
             "corr_hostav": false,
             "obs_type": "xray",
-            "flux_uperr": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
-            ],
-            "flux_lowerr": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
-            ]
+            "raw_err_detail": {
+                "upper": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "lower": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
         },
         {
             "raw": [
@@ -1210,22 +1230,24 @@
             "instrument": "Leavitt"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2018TNSCR..81....1F",
-            "human_readable_name": "Masterson, Megan et al. (2024)"
+            "value": "58132.11",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2018TNSTR..58....1K"
+            ],
+            "default": true
         },
         {
-            "name": "2024ApJ...961..211M",
-            "human_readable_name": "Falco, E. et al. (2018)"
-        },
-        {
-            "name": "TNS",
-            "human_readable_name": "TNS"
-        },
-        {
-            "name": "2018TNSTR..58....1K",
-            "human_readable_name": "Krannich, G. et al. (2018)"
+            "value": "58324.0",
+            "date_type": "explosion",
+            "reference": [
+                "2018TNSCR..81....1F",
+                "2024ApJ...961..211M"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
@@ -1253,26 +1275,6 @@
                 "2018TNSTR..58....1K"
             ],
             "default": false
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58132.11",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2018TNSTR..58....1K"
-            ],
-            "default": true
-        },
-        {
-            "value": "58324.0",
-            "date_type": "explosion",
-            "reference": [
-                "2018TNSCR..81....1F",
-                "2024ApJ...961..211M"
-            ],
-            "default": true
         }
     ],
     "distance": [

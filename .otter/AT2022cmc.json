@@ -1,4 +1,18 @@
 {
+    "reference_alias": [
+        {
+            "name": "2022Natur.612..430A",
+            "human_readable_name": "Igor et al. (2022)"
+        },
+        {
+            "name": "2022TNSTR.397....1A",
+            "human_readable_name": "Rhodes, L. et al. (2023)"
+        },
+        {
+            "name": "2023MNRAS.521..389R",
+            "human_readable_name": "Andreoni, I. (2022)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "8.5GHz",
@@ -269,13 +283,13 @@
         "default_name": "2022cmc",
         "alias": [
             {
-                "value": "ZTF22aaajecp",
+                "value": "2022cmc",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2022cmc",
+                "value": "ZTF22aaajecp",
                 "reference": [
                     "TNS"
                 ]
@@ -1818,18 +1832,33 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2022Natur.612..430A",
-            "human_readable_name": "Igor et al. (2022)"
+            "value": "2459621.946",
+            "date_format": "jd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR.397....1A"
+            ],
+            "default": true
         },
         {
-            "name": "2022TNSTR.397....1A",
-            "human_readable_name": "Rhodes, L. et al. (2023)"
+            "value": "59621.4463",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR.397....1A"
+            ],
+            "default": false
         },
         {
-            "name": "2023MNRAS.521..389R",
-            "human_readable_name": "Andreoni, I. (2022)"
+            "value": "59621.45",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "default": false
         }
     ],
     "coordinate": [
@@ -1842,7 +1871,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": true,
-            "uuid": "d73f23ba-468a-4690-bcf8-478aeabd68b1",
+            "uuid": "e912f67f-fb3c-4bd4-8d9b-3bc4e6a6cc5c",
             "coordinate_type": "equitorial",
             "reference": [
                 "2022Natur.612..430A"
@@ -1881,37 +1910,8 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "d73f23ba-468a-4690-bcf8-478aeabd68b1"
+                "e912f67f-fb3c-4bd4-8d9b-3bc4e6a6cc5c"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2459621.946",
-            "date_format": "jd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR.397....1A"
-            ],
-            "default": true
-        },
-        {
-            "value": "59621.4463",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR.397....1A"
-            ],
-            "default": false
-        },
-        {
-            "value": "59621.45",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022Natur.612..430A"
-            ],
-            "default": false
         }
     ],
     "classification": [
@@ -1925,10 +1925,6 @@
             "default": true
         }
     ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Original Dataset"
-    },
     "distance": [
         {
             "value": "1.19325",
@@ -1939,5 +1935,9 @@
             "default": true,
             "distance_type": "redshift"
         }
-    ]
+    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Original Dataset"
+    }
 }

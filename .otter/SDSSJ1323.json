@@ -1,35 +1,13 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "date_reference": [
-        {
-            "value": "2003-12-02",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": false
-        },
-        {
-            "value": "2003-12-02 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2007A&A...462L..49E",
-                "2017ApJ...838..149A",
-                "2017IAUS..324..123S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
     "name": {
         "default_name": "SDSSJ1323",
         "alias": [
+            {
+                "value": "SDSSJ1323+48",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            },
             {
                 "value": "SDSS J1323",
                 "reference": [
@@ -44,32 +22,61 @@
             }
         ]
     },
-    "classification": [
+    "filter_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2007A&A...462L..49E",
-                "2017ApJ...838..149A",
-                "2017IAUS..324..123S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "freq_eff": 3.0,
+            "freq_units": "GHz"
         }
     ],
-    "coordinate": [
+    "reference_alias": [
         {
-            "ra": "13:23:41.97",
-            "dec": "+48:27:01.26",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2007A&A...462L..49E",
+            "human_readable_name": "Esquej et al. (2007)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2017IAUS..324..123S",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Saxton, Richard et al. (2017)"
+        },
+        {
+            "name": "2013ApJ...763...84B",
+            "human_readable_name": "Bower, Geoffrey C. et al. (2013)"
         }
     ],
     "distance": [
+        {
+            "value": "0.08",
+            "distance_type": "redshift",
+            "reference": [
+                "2013ApJ...763...84B"
+            ],
+            "default": false
+        },
         {
             "value": "0.08754",
             "distance_type": "redshift",
@@ -104,32 +111,6 @@
                 "2017ApJ...838..149A"
             ],
             "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2007A&A...462L..49E",
-            "human_readable_name": "Esquej et al. (2007)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2017IAUS..324..123S",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Saxton, Richard et al. (2017)"
         }
     ],
     "photometry": [
@@ -290,14 +271,42 @@
             "corr_s": null
         }
     ],
-    "filter_alias": [
+    "classification": [
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2007A&A...462L..49E",
+                "2017ApJ...838..149A",
+                "2017IAUS..324..123S",
+                "2023PASP..135c4101G",
+                "['2013ApJ...763...84B', '2020SSRv..216...81A']"
+            ],
+            "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "13:23:41.97",
+            "dec": "+48:27:01.26",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "ra": "13:23:41.97",
+            "dec": "+48:27:01.26",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "default": false
         }
     ],
     "host": [
@@ -313,6 +322,34 @@
                 "2017IAUS..324..123S",
                 "2017ApJ...838..149A"
             ]
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "date_reference": [
+        {
+            "value": "2003-12-02",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": false
+        },
+        {
+            "value": "2003-12-02 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2007A&A...462L..49E",
+                "2017ApJ...838..149A",
+                "2017IAUS..324..123S",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         }
     ]
 }

@@ -1,11 +1,13 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "name": {
         "default_name": "XMMSL2 J144605.0+685735",
         "alias": [
+            {
+                "value": "XMMSL2_J1446+68",
+                "reference": [
+                    "2019A&A...630A..98S"
+                ]
+            },
             {
                 "value": "XMMSL2 J144605.0+685735",
                 "reference": [
@@ -14,52 +16,62 @@
             }
         ]
     },
-    "classification": [
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2023PASP..135c4101G",
-                "2019A&A...630A..98S"
-            ]
+            "name": "2019A&A...630A..98S",
+            "human_readable_name": "Saxton, R. D. et al. (2019)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
     "distance": [
         {
             "value": "0.029",
+            "distance_type": "redshift",
             "reference": [
-                "2023PASP..135c4101G",
-                "2019A&A...630A..98S"
+                "2019A&A...630A..98S",
+                "2023PASP..135c4101G"
             ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2019A&A...630A..98S",
+                "2023PASP..135c4101G",
+                "['2019A&A...630A..98S', '2020SSRv..216...81A']"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
         {
-            "ra": 221.52083333333331,
-            "dec": 68.95861111111111,
+            "ra": "221.52083333333331",
+            "dec": "68.95861111111111",
             "ra_units": "deg",
             "dec_units": "deg",
             "coordinate_type": "equitorial",
+            "default": true,
             "reference": [
-                "2023PASP..135c4101G",
-                "2019A&A...630A..98S"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
+                "2019A&A...630A..98S",
+                "2023PASP..135c4101G"
+            ]
+        },
         {
-            "value": "2006-08-22 ",
-            "date_format": "iso",
-            "date_type": "discovery",
+            "ra": "221.52083333333331",
+            "dec": "68.95861111111111",
+            "ra_units": "degree",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
             "reference": [
-                "2023PASP..135c4101G",
                 "2019A&A...630A..98S"
-            ],
-            "default": true
+            ]
         }
     ],
     "host": [
@@ -75,14 +87,29 @@
             ]
         }
     ],
-    "reference_alias": [
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "date_reference": [
         {
-            "name": "2019A&A...630A..98S",
-            "human_readable_name": "Saxton, R. D. et al. (2019)"
-        },
+            "value": "2006-08-22 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2019A&A...630A..98S"
+            ],
+            "default": true
+        }
+    ],
+    "photometry": [],
+    "filter_alias": [
         {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+            "filter_key": "6.0GHz",
+            "filter_name": "C",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
         }
     ]
 }

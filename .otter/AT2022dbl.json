@@ -1,4 +1,58 @@
 {
+    "reference_alias": [
+        {
+            "name": "2022TNSCR.504....1A",
+            "human_readable_name": "Arcavi, I. et al. (2022)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJS..267...44A",
+            "human_readable_name": "Almeida, Andr\u00e9s et al. (2023)"
+        },
+        {
+            "name": "2022TNSTR.372....1D",
+            "human_readable_name": "De, K. (2022)"
+        },
+        {
+            "name": "2022TNSTR1433....1S",
+            "human_readable_name": "Stanek, K. Z. (2022)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.0284",
+            "distance_type": "redshift",
+            "reference": [
+                "2022TNSCR.504....1A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "60.01",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2023ApJS..267...44A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022TNSCR.504....1A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -107,28 +161,9 @@
                 ]
             },
             {
-                "value": "ATLAS18bcnl",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia22bdt",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "2018mac",
                 "reference": [
                     "TNS"
-                ]
-            },
-            {
-                "value": "AT2022dbl",
-                "reference": [
-                    "2022TNSCR.504....1A",
-                    "2024MNRAS.527.2452M"
                 ]
             },
             {
@@ -142,20 +177,28 @@
                 "reference": [
                     "TNS"
                 ]
+            },
+            {
+                "value": "AT2022dbl",
+                "reference": [
+                    "2022TNSCR.504....1A",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "Gaia22bdt",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS18bcnl",
+                "reference": [
+                    "TNS"
+                ]
             }
         ]
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR.504....1A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -3883,44 +3926,31 @@
             "instrument": "Leavitt"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2022TNSCR.504....1A",
-            "human_readable_name": "Arcavi, I. et al. (2022)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJS..267...44A",
-            "human_readable_name": "Almeida, Andr\u00e9s et al. (2023)"
-        },
-        {
-            "name": "2022TNSTR.372....1D",
-            "human_readable_name": "De, K. (2022)"
-        },
-        {
-            "name": "2022TNSTR1433....1S",
-            "human_readable_name": "Stanek, K. Z. (2022)"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.0284",
-            "distance_type": "redshift",
+            "value": "58254.20157",
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
-                "2022TNSCR.504....1A",
-                "2024MNRAS.527.2452M"
+                "2022TNSTR.372....1D"
             ],
             "default": true
         },
         {
-            "value": "60.01",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
+            "value": "59632.62",
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
-                "2023ApJS..267...44A",
+                "2022TNSTR1433....1S"
+            ],
+            "default": false
+        },
+        {
+            "value": "59637.0",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2022TNSCR.504....1A",
                 "2024MNRAS.527.2452M"
             ],
             "default": true
@@ -3964,36 +3994,6 @@
                 "2022TNSCR.504....1A",
                 "2024MNRAS.527.2452M"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58254.20157",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR.372....1D"
-            ],
-            "default": true
-        },
-        {
-            "value": "59632.62",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR1433....1S"
-            ],
-            "default": false
-        },
-        {
-            "value": "59637.0",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2022TNSCR.504....1A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

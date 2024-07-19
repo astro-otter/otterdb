@@ -1,4 +1,18 @@
 {
+    "reference_alias": [
+        {
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR2500....1P",
+            "human_readable_name": "Perez-Fournon, I. et al. (2020)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -4078,18 +4092,25 @@
             "instrument": "GPC2"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+            "value": "59061.46774305555",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2020TNSTR2500....1P"
+            ],
+            "default": true
         },
         {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR2500....1P",
-            "human_readable_name": "Perez-Fournon, I. et al. (2020)"
+            "value": "59079.95833333336",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
@@ -4117,27 +4138,6 @@
                 "2020TNSTR2500....1P"
             ],
             "default": false
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "59061.46774305555",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2020TNSTR2500....1P"
-            ],
-            "default": true
-        },
-        {
-            "value": "59079.95833333336",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ],
     "classification": [

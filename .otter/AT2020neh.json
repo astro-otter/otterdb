@@ -1,4 +1,69 @@
 {
+    "reference_alias": [
+        {
+            "name": "2022NatAs...6.1452A",
+            "human_readable_name": "Angus, C. R. et al. (2022)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...955L...6Y",
+            "human_readable_name": "Yao, Yuhan et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR1886....1N",
+            "human_readable_name": "Cendes, Yvette et al. (2023)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Nordin, J. et al. (2020)"
+        },
+        {
+            "name": "2024arXiv240712097A",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2020TNSCR2126....1D",
+            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.062",
+            "distance_type": "redshift",
+            "reference": [
+                "2020TNSCR2126....1D",
+                "2022NatAs...6.1452A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "40.0",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2023ApJ...955L...6Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR2126....1D",
+                "2022NatAs...6.1452A",
+                "2023arXiv230813595C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -73,6 +138,12 @@
             "freq_units": "GHz"
         },
         {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
+        },
+        {
             "filter_key": "g",
             "filter_name": "g",
             "wave_eff": 471.8872246248687,
@@ -107,19 +178,13 @@
         "default_name": "2020neh",
         "alias": [
             {
-                "value": "ATLAS20qkz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "2020neh",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "Gaia20cxg",
+                "value": "ZTF20abgwfek",
                 "reference": [
                     "TNS"
                 ]
@@ -131,7 +196,13 @@
                 ]
             },
             {
-                "value": "ZTF20abgwfek",
+                "value": "Gaia20cxg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS20qkz",
                 "reference": [
                     "TNS"
                 ]
@@ -146,19 +217,6 @@
             }
         ]
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR2126....1D",
-                "2022NatAs...6.1452A",
-                "2023arXiv230813595C",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -4828,6 +4886,41 @@
             "val_av": 0.12179140015911326
         },
         {
+            "reference": "2022NatAs...6.1452A",
+            "raw": [
+                18.0,
+                16.0
+            ],
+            "raw_err": [
+                0.0,
+                0.0
+            ],
+            "raw_units": "uJy",
+            "date": [
+                "2020-06-30",
+                "2020-12-31"
+            ],
+            "date_format": [
+                "iso",
+                "iso"
+            ],
+            "upperlimit": [
+                true,
+                true
+            ],
+            "filter_key": [
+                "15.0GHz",
+                "6.0GHz"
+            ],
+            "obs_type": "radio",
+            "telescope": "VLA",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
             "reference": "2023arXiv230813595C",
             "raw": [
                 0.018,
@@ -4868,6 +4961,41 @@
             ],
             "obs_type": "radio",
             "telescope": "VLA",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2024arXiv240712097A",
+            "raw": [
+                0.9,
+                0.6
+            ],
+            "raw_err": [
+                0.0,
+                0.0
+            ],
+            "raw_units": "mJy",
+            "date": [
+                "58772.25472",
+                "59673.25472"
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                true
+            ],
+            "filter_key": [
+                "887.5MHz",
+                "887.5MHz"
+            ],
+            "obs_type": "radio",
+            "telescope": "RACS",
             "corr_k": false,
             "corr_s": false,
             "corr_host": false,
@@ -5161,49 +5289,22 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2022NatAs...6.1452A",
-            "human_readable_name": "Angus, C. R. et al. (2022)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...955L...6Y",
-            "human_readable_name": "Yao, Yuhan et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR1886....1N",
-            "human_readable_name": "Cendes, Yvette et al. (2023)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Nordin, J. et al. (2020)"
-        },
-        {
-            "name": "2020TNSCR2126....1D",
-            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.062",
-            "distance_type": "redshift",
+            "value": "59019.25472",
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
-                "2020TNSCR2126....1D",
-                "2022NatAs...6.1452A",
-                "2024MNRAS.527.2452M"
+                "2020TNSTR1886....1N"
             ],
             "default": true
         },
         {
-            "value": "40.0",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
+            "value": "59033.95833333332",
+            "date_format": "mjd",
+            "date_type": "peak",
             "reference": [
-                "2023ApJ...955L...6Y",
+                "2022NatAs...6.1452A",
                 "2024MNRAS.527.2452M"
             ],
             "default": true
@@ -5245,27 +5346,6 @@
             "reference": [
                 "2020TNSTR1886....1N"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "59019.25472",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2020TNSTR1886....1N"
-            ],
-            "default": true
-        },
-        {
-            "value": "59033.95833333332",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2022NatAs...6.1452A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

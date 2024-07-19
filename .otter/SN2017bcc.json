@@ -1,63 +1,4 @@
 {
-    "name": {
-        "default_name": "2017bcc",
-        "alias": [
-            {
-                "value": "2017bcc",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20aacbwbm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "SN2017bcc",
-                "reference": []
-            },
-            {
-                "value": "AT2017bcc",
-                "reference": [
-                    "2017ApJ...835...64G"
-                ]
-            },
-            {
-                "value": "SN 2017bcc",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "PS17bgn",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ATel11049....1S",
-                "2017ApJ...835...64G",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "object_class": "SLSN-II",
-            "confidence": 0.5,
-            "reference": [
-                "2017TNSCR.221....1B"
-            ],
-            "default": false
-        }
-    ],
     "reference_alias": [
         {
             "name": "2016A&A...594A..13P",
@@ -127,30 +68,65 @@
             "default": true
         }
     ],
-    "coordinate": [
+    "classification": [
         {
-            "ra": "11:31:53.04",
-            "dec": "+29:59:45.24",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [],
-            "default": false
-        },
-        {
-            "ra": "172.97078162",
-            "dec": "29.9957852105",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
-                "2017TNSTR.220....1C"
+                "2017ATel11049....1S",
+                "2017ApJ...835...64G",
+                "2023PASP..135c4101G"
             ],
             "default": true
+        },
+        {
+            "object_class": "SLSN-II",
+            "confidence": 0.5,
+            "reference": [
+                "2017TNSCR.221....1B"
+            ],
+            "default": false
         }
     ],
+    "name": {
+        "default_name": "2017bcc",
+        "alias": [
+            {
+                "value": "ZTF20aacbwbm",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2017bcc",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2017bcc",
+                "reference": [
+                    "2017ApJ...835...64G"
+                ]
+            },
+            {
+                "value": "SN 2017bcc",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "SN2017bcc",
+                "reference": []
+            },
+            {
+                "value": "PS17bgn",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2017-02-18",
@@ -181,10 +157,30 @@
             "default": false
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
+    "coordinate": [
+        {
+            "ra": "11:31:53.04",
+            "dec": "+29:59:45.24",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [],
+            "default": false
+        },
+        {
+            "ra": "172.97078162",
+            "dec": "29.9957852105",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2017TNSTR.220....1C"
+            ],
+            "default": true
+        }
+    ],
     "host": [
         {
             "host_name": "SDSS J113152.97+295944.8",
@@ -198,6 +194,10 @@
             ]
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "filter_alias": [
         {
             "filter_key": "i",

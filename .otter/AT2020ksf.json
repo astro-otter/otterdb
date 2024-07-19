@@ -1,4 +1,18 @@
 {
+    "reference_alias": [
+        {
+            "name": "2024ApJ...963...75W",
+            "human_readable_name": "Wevers, T. et al. (2024)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR1450....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2020)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -83,13 +97,13 @@
         "default_name": "2020ksf",
         "alias": [
             {
-                "value": "2020ksf",
+                "value": "ZTF20abgbdpr",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ZTF20abgbdpr",
+                "value": "2020ksf",
                 "reference": [
                     "TNS"
                 ]
@@ -3162,18 +3176,25 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2024ApJ...963...75W",
-            "human_readable_name": "Wevers, T. et al. (2024)"
+            "value": "58960.425",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2020TNSTR1450....1H"
+            ],
+            "default": true
         },
         {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR1450....1H",
-            "human_readable_name": "Hodgkin, S. T. et al. (2020)"
+            "value": "58969.54738425926",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2024ApJ...963...75W",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
@@ -3196,27 +3217,6 @@
             "ra_units": "deg",
             "dec_units": "deg",
             "coordinate_type": "equitorial",
-            "reference": [
-                "2024ApJ...963...75W",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58960.425",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2020TNSTR1450....1H"
-            ],
-            "default": true
-        },
-        {
-            "value": "58969.54738425926",
-            "date_format": "mjd",
-            "date_type": "peak",
             "reference": [
                 "2024ApJ...963...75W",
                 "2024MNRAS.527.2452M"

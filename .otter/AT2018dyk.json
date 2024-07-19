@@ -1,4 +1,87 @@
 {
+    "reference_alias": [
+        {
+            "name": "2018ATel11953....1A",
+            "human_readable_name": "Masterson, Megan et al. (2024)"
+        },
+        {
+            "name": "2019ApJ...883...31F",
+            "human_readable_name": "Frederick, Sara et al. (2019)"
+        },
+        {
+            "name": "2024ApJ...961..211M",
+            "human_readable_name": "Arcavi, I. et al. (2018)"
+        },
+        {
+            "name": "TNS",
+            "human_readable_name": "TNS"
+        },
+        {
+            "name": "2018TNSTR.987....1F",
+            "human_readable_name": "Fremling, C. (2018)"
+        },
+        {
+            "name": "2018TNSCR1182....1H",
+            "human_readable_name": "Hosseinzadeh, I. A. J. B. D. H. C. M. A. H. G. et al. (2018)"
+        },
+        {
+            "name": " 2020TNSCR1834....1F",
+            "human_readable_name": "Frederick, S. (2020)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.0367",
+            "distance_type": "redshift",
+            "reference": [
+                "2018TNSCR1182....1H",
+                "2020TNSCR1834....1F"
+            ],
+            "default": false
+        },
+        {
+            "value": "0.03672",
+            "distance_type": "redshift",
+            "reference": [
+                "2018ATel11953....1A",
+                "2019ApJ...883...31F",
+                "2024ApJ...961..211M"
+            ],
+            "default": true
+        },
+        {
+            "value": "162.9",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2018ATel11953....1A",
+                "2019ApJ...883...31F",
+                "2024ApJ...961..211M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2018ATel11953....1A",
+                "2019ApJ...883...31F",
+                "2024ApJ...961..211M"
+            ],
+            "default": true
+        },
+        {
+            "object_class": "AGN",
+            "confidence": 0.5,
+            "reference": [
+                "2018TNSCR1182....1H",
+                "2020TNSCR1834....1F"
+            ],
+            "default": false
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "g",
@@ -43,19 +126,13 @@
         "default_name": "2018dyk",
         "alias": [
             {
-                "value": "2018dyk",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "ZTF18aajupnt",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "AT2018dyk",
+                "value": "2018dyk",
                 "reference": [
                     "TNS"
                 ]
@@ -67,30 +144,15 @@
                     "2019ApJ...883...31F",
                     "2024ApJ...961..211M"
                 ]
+            },
+            {
+                "value": "AT2018dyk",
+                "reference": [
+                    "TNS"
+                ]
             }
         ]
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2018ATel11953....1A",
-                "2019ApJ...883...31F",
-                "2024ApJ...961..211M"
-            ],
-            "default": true
-        },
-        {
-            "object_class": "AGN",
-            "confidence": 0.5,
-            "reference": [
-                "2018TNSCR1182....1H",
-                "2020TNSCR1834....1F"
-            ],
-            "default": false
-        }
-    ],
     "photometry": [
         {
             "date": [
@@ -1144,66 +1206,68 @@
             "corr_av": false,
             "corr_hostav": false,
             "obs_type": "xray",
-            "flux_uperr": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                9.54681e-14,
-                1.0055629500000001e-13,
-                9.536065e-14,
-                9.5291805e-14,
-                1.2483443e-13,
-                1.09106935e-13,
-                1.2394161500000002e-13,
-                1.43051615e-13,
-                1.4806365e-13,
-                1.5695617e-13,
-                1.8782305500000001e-13,
-                1.31675145e-13,
-                1.2112719500000004e-13,
-                1.6340250500000001e-13,
-                1.7528542500000001e-13,
-                1.52463745e-13,
-                1.8800565e-13,
-                8.4855575e-14,
-                4.8696935e-14
-            ],
-            "flux_lowerr": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                7.9240665e-14,
-                1.0055629500000001e-13,
-                9.536065e-14,
-                9.5291805e-14,
-                1.2483443e-13,
-                1.09106935e-13,
-                1.2394161500000002e-13,
-                1.43051615e-13,
-                1.4806365e-13,
-                1.5695617e-13,
-                1.8782305500000001e-13,
-                1.31675145e-13,
-                1.2112719500000004e-13,
-                1.6340250500000001e-13,
-                1.7528542500000001e-13,
-                1.52463745e-13,
-                1.8800565e-13,
-                8.4855575e-14,
-                3.838107e-14
-            ]
+            "raw_err_detail": {
+                "upper": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    9.54681e-14,
+                    1.0055629500000001e-13,
+                    9.536065e-14,
+                    9.5291805e-14,
+                    1.2483443e-13,
+                    1.09106935e-13,
+                    1.2394161500000002e-13,
+                    1.43051615e-13,
+                    1.4806365e-13,
+                    1.5695617e-13,
+                    1.8782305500000001e-13,
+                    1.31675145e-13,
+                    1.2112719500000004e-13,
+                    1.6340250500000001e-13,
+                    1.7528542500000001e-13,
+                    1.52463745e-13,
+                    1.8800565e-13,
+                    8.4855575e-14,
+                    4.8696935e-14
+                ],
+                "lower": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    7.9240665e-14,
+                    1.0055629500000001e-13,
+                    9.536065e-14,
+                    9.5291805e-14,
+                    1.2483443e-13,
+                    1.09106935e-13,
+                    1.2394161500000002e-13,
+                    1.43051615e-13,
+                    1.4806365e-13,
+                    1.5695617e-13,
+                    1.8782305500000001e-13,
+                    1.31675145e-13,
+                    1.2112719500000004e-13,
+                    1.6340250500000001e-13,
+                    1.7528542500000001e-13,
+                    1.52463745e-13,
+                    1.8800565e-13,
+                    8.4855575e-14,
+                    3.838107e-14
+                ]
+            }
         },
         {
             "raw": [
@@ -1284,60 +1348,19 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2018ATel11953....1A",
-            "human_readable_name": "Masterson, Megan et al. (2024)"
-        },
-        {
-            "name": "2019ApJ...883...31F",
-            "human_readable_name": "Frederick, Sara et al. (2019)"
-        },
-        {
-            "name": "2024ApJ...961..211M",
-            "human_readable_name": "Arcavi, I. et al. (2018)"
-        },
-        {
-            "name": "TNS",
-            "human_readable_name": "TNS"
-        },
-        {
-            "name": "2018TNSTR.987....1F",
-            "human_readable_name": "Fremling, C. (2018)"
-        },
-        {
-            "name": "2018TNSCR1182....1H",
-            "human_readable_name": "Hosseinzadeh, I. A. J. B. D. H. C. M. A. H. G. et al. (2018)"
-        },
-        {
-            "name": " 2020TNSCR1834....1F",
-            "human_readable_name": "Frederick, S. (2020)"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.0367",
-            "distance_type": "redshift",
+            "value": "58269.31",
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
-                "2018TNSCR1182....1H",
-                "2020TNSCR1834....1F"
-            ],
-            "default": false
-        },
-        {
-            "value": "0.03672",
-            "distance_type": "redshift",
-            "reference": [
-                "2018ATel11953....1A",
-                "2019ApJ...883...31F",
-                "2024ApJ...961..211M"
+                "2018TNSTR.987....1F"
             ],
             "default": true
         },
         {
-            "value": "162.9",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
+            "value": "58275.0",
+            "date_type": "explosion",
             "reference": [
                 "2018ATel11953....1A",
                 "2019ApJ...883...31F",
@@ -1366,27 +1389,6 @@
             "ra_units": "deg",
             "dec_units": "deg",
             "coordinate_type": "equitorial",
-            "reference": [
-                "2018ATel11953....1A",
-                "2019ApJ...883...31F",
-                "2024ApJ...961..211M"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58269.31",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2018TNSTR.987....1F"
-            ],
-            "default": true
-        },
-        {
-            "value": "58275.0",
-            "date_type": "explosion",
             "reference": [
                 "2018ATel11953....1A",
                 "2019ApJ...883...31F",

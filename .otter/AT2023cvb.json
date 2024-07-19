@@ -1,4 +1,46 @@
 {
+    "reference_alias": [
+        {
+            "name": "2023TNSAN.102....1Y",
+            "human_readable_name": "Yao, Y. et al. (2023)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023TNSTR.494....1T",
+            "human_readable_name": "Tonry, J. et al. (2023)"
+        },
+        {
+            "name": "2023TNSCR.962....1Y",
+            "human_readable_name": "Yao, Y. et al. (2023)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.071",
+            "distance_type": "redshift",
+            "reference": [
+                "2023TNSAN.102....1Y",
+                "2023TNSCR.962....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2023TNSAN.102....1Y",
+                "2023TNSCR.962....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -97,18 +139,6 @@
             }
         ]
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2023TNSAN.102....1Y",
-                "2023TNSCR.962....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -2358,31 +2388,22 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2023TNSAN.102....1Y",
-            "human_readable_name": "Yao, Y. et al. (2023)"
+            "value": "60009.61634",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2023TNSTR.494....1T"
+            ],
+            "default": true
         },
         {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023TNSTR.494....1T",
-            "human_readable_name": "Tonry, J. et al. (2023)"
-        },
-        {
-            "name": "2023TNSCR.962....1Y",
-            "human_readable_name": "Yao, Y. et al. (2023)"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.071",
-            "distance_type": "redshift",
+            "value": "60016.200000000026",
+            "date_format": "mjd",
+            "date_type": "peak",
             "reference": [
                 "2023TNSAN.102....1Y",
-                "2023TNSCR.962....1Y",
                 "2024MNRAS.527.2452M"
             ],
             "default": true
@@ -2408,27 +2429,6 @@
             "ra_units": "deg",
             "dec_units": "deg",
             "coordinate_type": "equitorial",
-            "reference": [
-                "2023TNSAN.102....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "60009.61634",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2023TNSTR.494....1T"
-            ],
-            "default": true
-        },
-        {
-            "value": "60016.200000000026",
-            "date_format": "mjd",
-            "date_type": "peak",
             "reference": [
                 "2023TNSAN.102....1Y",
                 "2024MNRAS.527.2452M"

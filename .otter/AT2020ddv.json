@@ -1,4 +1,22 @@
 {
+    "reference_alias": [
+        {
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...957...86H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR.605....1T",
+            "human_readable_name": "Tonry, J. et al. (2020)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -89,6 +107,12 @@
         "default_name": "2020ddv",
         "alias": [
             {
+                "value": "2020ddv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
                 "value": "ATLAS20gee",
                 "reference": [
                     "TNS"
@@ -96,12 +120,6 @@
             },
             {
                 "value": "ZTF20aamqmfk",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2020ddv",
                 "reference": [
                     "TNS"
                 ]
@@ -5734,22 +5752,25 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+            "value": "58900.44699074074",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2020TNSTR.605....1T"
+            ],
+            "default": true
         },
         {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...957...86H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR.605....1T",
-            "human_readable_name": "Tonry, J. et al. (2020)"
+            "value": "58915.20659722222",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
@@ -5772,27 +5793,6 @@
             "ra_units": "deg",
             "dec_units": "deg",
             "coordinate_type": "equitorial",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58900.44699074074",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2020TNSTR.605....1T"
-            ],
-            "default": true
-        },
-        {
-            "value": "58915.20659722222",
-            "date_format": "mjd",
-            "date_type": "peak",
             "reference": [
                 "2023ApJ...942....9H",
                 "2024MNRAS.527.2452M"

@@ -113,6 +113,8 @@
                 "2020TNSTR3089....1H ",
                 "2020TNSTR3089....1H ",
                 "2020TNSTR3089....1H ",
+                "2020TNSTR3089....1H ",
+                "2020TNSTR3089....1H ",
                 "2020TNSTR3089....1H "
             ],
             "computed": false,
@@ -596,6 +598,41 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
+        },
+        {
+            "reference": "2024arXiv240712097A",
+            "raw": [
+                0.7,
+                0.5
+            ],
+            "raw_err": [
+                0.0,
+                0.0
+            ],
+            "raw_units": "mJy",
+            "date": [
+                "58771.728",
+                "59672.728"
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                true
+            ],
+            "filter_key": [
+                "887.5MHz",
+                "887.5MHz"
+            ],
+            "obs_type": "radio",
+            "telescope": "RACS",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
         }
     ],
     "filter_alias": [
@@ -844,6 +881,12 @@
             "filter_name": "X",
             "freq_eff": 10.0,
             "freq_units": "GHz"
+        },
+        {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
         }
     ],
     "reference_alias": [
@@ -858,6 +901,10 @@
         {
             "name": "2023MNRAS.522.5084G",
             "human_readable_name": "Hodgkin, S. T. et al. (2020)"
+        },
+        {
+            "name": "2024arXiv240712097A",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
         }
     ]
 }

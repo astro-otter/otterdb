@@ -1,4 +1,22 @@
 {
+    "reference_alias": [
+        {
+            "name": "2023MNRAS.518..847G",
+            "human_readable_name": "Goodwin et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR2111....1M",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "5.04GHz",
@@ -203,13 +221,13 @@
         "default_name": "2020opy",
         "alias": [
             {
-                "value": "2020opy",
+                "value": "ZTF20abjwvae",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ZTF20abjwvae",
+                "value": "2020opy",
                 "reference": [
                     "TNS"
                 ]
@@ -6257,22 +6275,43 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2023MNRAS.518..847G",
-            "human_readable_name": "Goodwin et al. (2023)"
+            "value": "2459038.732",
+            "date_format": "jd",
+            "date_type": "discovery",
+            "reference": [
+                "2020TNSTR2111....1M"
+            ],
+            "default": true
         },
         {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+            "value": "59038.23",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2023MNRAS.518..847G"
+            ],
+            "default": false
         },
         {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
+            "value": "59038.23241898148",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2020TNSTR2111....1M"
+            ],
+            "default": false
         },
         {
-            "name": "2020TNSTR2111....1M",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+            "value": "59089.15443287036",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
@@ -6285,7 +6324,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": false,
-            "uuid": "e5fc5975-cc28-4596-b536-c679b9b2e758",
+            "uuid": "f43cf37f-0466-4eff-9fe8-d5342d7aba1f",
             "coordinate_type": "equitorial",
             "reference": [
                 "2023MNRAS.518..847G"
@@ -6336,44 +6375,17 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "e5fc5975-cc28-4596-b536-c679b9b2e758"
+                "f43cf37f-0466-4eff-9fe8-d5342d7aba1f"
             ]
         }
     ],
-    "date_reference": [
+    "distance": [
         {
-            "value": "2459038.732",
-            "date_format": "jd",
-            "date_type": "discovery",
-            "reference": [
-                "2020TNSTR2111....1M"
-            ],
-            "default": true
-        },
-        {
-            "value": "59038.23",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2023MNRAS.518..847G"
-            ],
-            "default": false
-        },
-        {
-            "value": "59038.23241898148",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2020TNSTR2111....1M"
-            ],
-            "default": false
-        },
-        {
-            "value": "59089.15443287036",
-            "date_format": "mjd",
-            "date_type": "peak",
+            "value": "0.159",
+            "distance_type": "redshift",
             "reference": [
                 "2023ApJ...942....9H",
+                "2023MNRAS.518..847G",
                 "2024MNRAS.527.2452M"
             ],
             "default": true
@@ -6394,17 +6406,5 @@
     "schema_version": {
         "value": "0",
         "comment": "Original Dataset"
-    },
-    "distance": [
-        {
-            "value": "0.159",
-            "distance_type": "redshift",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2023MNRAS.518..847G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ]
+    }
 }

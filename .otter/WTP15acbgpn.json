@@ -877,14 +877,16 @@
             "corr_av": false,
             "corr_hostav": false,
             "obs_type": "xray",
-            "flux_uperr": [
-                9.999999999999999e-14,
-                5.6000000000000064e-14
-            ],
-            "flux_lowerr": [
-                9.9e-14,
-                5.4999999999999974e-14
-            ]
+            "raw_err_detail": {
+                "upper": [
+                    9.999999999999999e-14,
+                    5.6000000000000064e-14
+                ],
+                "lower": [
+                    9.9e-14,
+                    5.4999999999999974e-14
+                ]
+            }
         },
         {
             "date": [
@@ -915,12 +917,14 @@
             "corr_av": false,
             "corr_hostav": false,
             "obs_type": "xray",
-            "flux_uperr": [
-                2.41769675e-13
-            ],
-            "flux_lowerr": [
-                2.020235e-13
-            ]
+            "raw_err_detail": {
+                "upper": [
+                    2.41769675e-13
+                ],
+                "lower": [
+                    2.020235e-13
+                ]
+            }
         }
     ],
     "filter_alias": [
