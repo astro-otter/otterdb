@@ -1,176 +1,4 @@
 {
-    "name": {
-        "default_name": "XMMSL1 J0740-85",
-        "alias": [
-            {
-                "value": "XMM SL1 J0749-85",
-                "reference": [
-                    "2017ApJ...837..153A"
-                ]
-            },
-            {
-                "value": "XMMSL1 J074008.2-853927",
-                "reference": [
-                    "2016arXiv161001788S"
-                ]
-            },
-            {
-                "value": "XMMSL1 J0740-85",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2016arXiv161001788S",
-                    "2016arXiv161003861A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "0.2 - 2.0",
-            "wave_eff": 0.6888011024066681,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 6.199209921660012,
-            "wave_units": "nm",
-            "filter_name": "0.2 - 2.0"
-        },
-        {
-            "filter_key": "5500000000.0Hz",
-            "filter_name": "C",
-            "freq_eff": 5500000000.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "9000000000.0Hz",
-            "filter_name": "X",
-            "freq_eff": 9000000000.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "1530000000.0Hz",
-            "filter_name": "L",
-            "freq_eff": 1530000000.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "2110000000.0Hz",
-            "filter_name": "S",
-            "freq_eff": 2110000000.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "2740000000.0Hz",
-            "filter_name": "S",
-            "freq_eff": 2740000000.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "18000000000.0Hz",
-            "filter_name": "Ku",
-            "freq_eff": 18000000000.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "1700000000.0Hz",
-            "filter_name": "L",
-            "freq_eff": 1700000000.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "2100000000.0Hz",
-            "filter_name": "S",
-            "freq_eff": 2100000000.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "2800000000.0Hz",
-            "filter_name": "S",
-            "freq_eff": 2800000000.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "1600000000.0Hz",
-            "filter_name": "L",
-            "freq_eff": 1600000000.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "2700000000.0Hz",
-            "filter_name": "S",
-            "freq_eff": 2700000000.0,
-            "freq_units": "Hz"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2014-04-01",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2016arXiv161001788S",
-                "2017ApJ...835...64G",
-                "2017ApJ...837..153A"
-            ],
-            "default": true
-        },
-        {
-            "value": "2014-04-01 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017A&A...598A..29S",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": false
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016arXiv161001788S",
-            "human_readable_name": "Saxton et al. (2016)"
-        },
-        {
-            "name": "2016arXiv161003861A",
-            "human_readable_name": "Alexander et al. (2016)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2017A&A...598A..29S",
-            "human_readable_name": "Saxton, R. D. et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2017ApJ...837..153A",
-            "human_readable_name": "Alexander, K. D. et al. (2017)"
-        }
-    ],
     "distance": [
         {
             "value": "0.0173",
@@ -652,18 +480,152 @@
             "corr_hostav": false
         }
     ],
-    "classification": [
+    "name": {
+        "default_name": "XMMSL1 J0740-85",
+        "alias": [
+            {
+                "value": "XMM SL1 J0749-85",
+                "reference": [
+                    "2017ApJ...837..153A"
+                ]
+            },
+            {
+                "value": "XMMSL1 J074008.2-853927",
+                "reference": [
+                    "2016arXiv161001788S"
+                ]
+            },
+            {
+                "value": "XMMSL1 J0740-85",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2016arXiv161001788S",
+                    "2016arXiv161003861A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017A&A...598A..29S",
-                "2017ApJ...835...64G",
-                "2017ApJ...837..153A",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016arXiv161001788S",
+            "human_readable_name": "Saxton et al. (2016)"
+        },
+        {
+            "name": "2016arXiv161003861A",
+            "human_readable_name": "Alexander et al. (2016)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2017A&A...598A..29S",
+            "human_readable_name": "Saxton, R. D. et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2017ApJ...837..153A",
+            "human_readable_name": "Alexander, K. D. et al. (2017)"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "0.2 - 2.0",
+            "wave_eff": 0.6888011024066681,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 6.199209921660012,
+            "wave_units": "nm",
+            "filter_name": "0.2 - 2.0"
+        },
+        {
+            "filter_key": "5500000000.0Hz",
+            "filter_name": "C",
+            "freq_eff": 5500000000.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "9000000000.0Hz",
+            "filter_name": "X",
+            "freq_eff": 9000000000.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "1530000000.0Hz",
+            "filter_name": "L",
+            "freq_eff": 1530000000.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "2110000000.0Hz",
+            "filter_name": "S",
+            "freq_eff": 2110000000.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "2740000000.0Hz",
+            "filter_name": "S",
+            "freq_eff": 2740000000.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "18000000000.0Hz",
+            "filter_name": "Ku",
+            "freq_eff": 18000000000.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "1700000000.0Hz",
+            "filter_name": "L",
+            "freq_eff": 1700000000.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "2100000000.0Hz",
+            "filter_name": "S",
+            "freq_eff": 2100000000.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "2800000000.0Hz",
+            "filter_name": "S",
+            "freq_eff": 2800000000.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "1600000000.0Hz",
+            "filter_name": "L",
+            "freq_eff": 1600000000.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "2700000000.0Hz",
+            "filter_name": "S",
+            "freq_eff": 2700000000.0,
+            "freq_units": "Hz"
         }
     ],
     "coordinate": [
@@ -686,6 +648,44 @@
             "coordinate_type": "equitorial",
             "reference": [
                 "2017ApJ...837..153A"
+            ],
+            "default": false
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017A&A...598A..29S",
+                "2017ApJ...835...64G",
+                "2017ApJ...837..153A",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2014-04-01",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2016arXiv161001788S",
+                "2017ApJ...835...64G",
+                "2017ApJ...837..153A"
+            ],
+            "default": true
+        },
+        {
+            "value": "2014-04-01 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017A&A...598A..29S",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
             ],
             "default": false
         }

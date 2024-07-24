@@ -1,20 +1,16 @@
 {
-    "name": {
-        "default_name": "LEDA 095953",
-        "alias": [
-            {
-                "value": "LEDA 095953",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
+    "coordinate": [
+        {
+            "ra": "13:47:30.33",
+            "dec": "-32:54:50.63",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "distance": [
         {
             "value": "0.0366",
@@ -51,16 +47,16 @@
             "default": true
         }
     ],
-    "coordinate": [
+    "classification": [
         {
-            "ra": "13:47:30.33",
-            "dec": "-32:54:50.63",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
-                "2017ApJ...838..149A"
+                "2009A&A...495L...9C",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
             ],
-            "coordinate_type": "equitorial"
+            "default": true
         }
     ],
     "reference_alias": [
@@ -89,18 +85,22 @@
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2009A&A...495L...9C",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
+    "name": {
+        "default_name": "LEDA 095953",
+        "alias": [
+            {
+                "value": "LEDA 095953",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",
@@ -229,6 +229,19 @@
             "corr_s": null
         }
     ],
+    "date_reference": [
+        {
+            "value": "1991-07-06 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2009A&A...495L...9C",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
     "host": [
         {
             "host_name": "LEDA 095953",
@@ -241,19 +254,6 @@
                 "2009A&A...495L...9C",
                 "2017ApJ...838..149A"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "1991-07-06 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2009A&A...495L...9C",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
         }
     ]
 }

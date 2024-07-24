@@ -1,70 +1,4 @@
 {
-    "name": {
-        "default_name": "NGC 5905",
-        "alias": [
-            {
-                "value": "NGC5905",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
-            },
-            {
-                "value": "NGC 5905",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "8.46GHz",
-            "filter_name": "X",
-            "freq_eff": 8.46,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "3.0GHz",
-            "filter_name": "S",
-            "freq_eff": 3.0,
-            "freq_units": "GHz"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "1996A&A...309L..35B",
-            "human_readable_name": "Bade, Komossa, & Dahlem (1996)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2002RvMA...15...27K",
-            "human_readable_name": "Komossa, Stefanie (2002)"
-        }
-    ],
     "distance": [
         {
             "value": "0.01124",
@@ -247,17 +181,44 @@
             "corr_s": null
         }
     ],
-    "classification": [
+    "name": {
+        "default_name": "NGC 5905",
+        "alias": [
+            {
+                "value": "NGC5905",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            },
+            {
+                "value": "NGC 5905",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "filter_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "1996A&A...309L..35B",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G",
-                "['2002RvMA...15...27K', '2020SSRv..216...81A']"
-            ],
-            "default": true
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "8.46GHz",
+            "filter_name": "X",
+            "freq_eff": 8.46,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "freq_eff": 3.0,
+            "freq_units": "GHz"
         }
     ],
     "coordinate": [
@@ -284,18 +245,43 @@
             "default": false
         }
     ],
-    "host": [
+    "classification": [
         {
-            "host_name": "NGC 5905",
-            "host_ra": 228.8458333333333,
-            "host_dec": 55.51710833333333,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
-                "2023PASP..135c4101G",
                 "1996A&A...309L..35B",
-                "2017ApJ...838..149A"
-            ]
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G",
+                "['2002RvMA...15...27K', '2020SSRv..216...81A']"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "1996A&A...309L..35B",
+            "human_readable_name": "Bade, Komossa, & Dahlem (1996)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2002RvMA...15...27K",
+            "human_readable_name": "Komossa, Stefanie (2002)"
         }
     ],
     "schema_version": {
@@ -323,6 +309,20 @@
                 "2023PASP..135c4101G"
             ],
             "default": true
+        }
+    ],
+    "host": [
+        {
+            "host_name": "NGC 5905",
+            "host_ra": 228.8458333333333,
+            "host_dec": 55.51710833333333,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "1996A&A...309L..35B",
+                "2017ApJ...838..149A"
+            ]
         }
     ]
 }

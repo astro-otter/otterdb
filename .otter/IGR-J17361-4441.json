@@ -1,20 +1,16 @@
 {
-    "name": {
-        "default_name": "IGR J17361-4441",
-        "alias": [
-            {
-                "value": "IGR J17361-4441",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
+    "coordinate": [
+        {
+            "ra": "17:36:17.42",
+            "dec": "-44:44:05.98",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "distance": [
         {
             "value": "0.000271",
@@ -50,16 +46,25 @@
             "default": true
         }
     ],
-    "coordinate": [
+    "classification": [
         {
-            "ra": "17:36:17.42",
-            "dec": "-44:44:05.98",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
-                "2017ApJ...838..149A"
+                "2011A&A...535L...1B",
+                "2014arXiv1407.5081D",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
             ],
-            "coordinate_type": "equitorial"
+            "default": true
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2014arXiv1407.5081D"
+            ],
+            "default": false
         }
     ],
     "reference_alias": [
@@ -92,27 +97,6 @@
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2011A&A...535L...1B",
-                "2014arXiv1407.5081D",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2014arXiv1407.5081D"
-            ],
-            "default": false
-        }
-    ],
     "date_reference": [
         {
             "value": "2003-03-22",
@@ -136,6 +120,22 @@
             "default": true
         }
     ],
+    "name": {
+        "default_name": "IGR J17361-4441",
+        "alias": [
+            {
+                "value": "IGR J17361-4441",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",

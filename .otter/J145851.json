@@ -1,20 +1,16 @@
 {
-    "name": {
-        "default_name": "J145851",
-        "alias": [
-            {
-                "value": "J145851",
-                "reference": [
-                    "2018arXiv180205105W",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
+    "coordinate": [
+        {
+            "ra": "14:58:51.65",
+            "dec": "+17:50:57.9",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2018arXiv180205105W"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "distance": [
         {
             "value": "0.1165",
@@ -49,16 +45,16 @@
             "default": true
         }
     ],
-    "coordinate": [
+    "classification": [
         {
-            "ra": "14:58:51.65",
-            "dec": "+17:50:57.9",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
-                "2018arXiv180205105W"
+                "2017ApJ...835...64G",
+                "2018MNRAS.477.2943W",
+                "2023PASP..135c4101G"
             ],
-            "coordinate_type": "equitorial"
+            "default": true
         }
     ],
     "reference_alias": [
@@ -87,18 +83,6 @@
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2018MNRAS.477.2943W",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
     "date_reference": [
         {
             "value": "2009-04-29",
@@ -121,6 +105,22 @@
             "default": false
         }
     ],
+    "name": {
+        "default_name": "J145851",
+        "alias": [
+            {
+                "value": "J145851",
+                "reference": [
+                    "2018arXiv180205105W",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "filter_alias": [
         {
             "filter_key": "V",

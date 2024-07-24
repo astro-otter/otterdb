@@ -63,27 +63,27 @@
         "default_name": "2019pqt",
         "alias": [
             {
-                "value": "2019pqt",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "Gaia19dya",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ZTF 18abxftqm",
+                "value": "2019pqt",
                 "reference": [
-                    "2023PASP..135c4101G"
+                    "TNS"
                 ]
             },
             {
                 "value": "MAXI J1807+132",
                 "reference": [
                     "2017ATel10216....1K",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "ZTF 18abxftqm",
+                "reference": [
                     "2023PASP..135c4101G"
                 ]
             }
@@ -157,6 +157,24 @@
             "default": false
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ATel.9988....1N",
+                "2017ATel10216....1K",
+                "2018ATel12263....1V",
+                "2021MNRAS.501..261A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
     "distance": [
         {
             "value": "0.088",
@@ -177,24 +195,6 @@
             "default": true
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ATel.9988....1N",
-                "2017ATel10216....1K",
-                "2018ATel12263....1V",
-                "2021MNRAS.501..261A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "photometry": [
         {
             "raw": [

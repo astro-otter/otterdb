@@ -1,95 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2024arXiv240712097A",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2021TNSTR2199....1J",
-            "human_readable_name": "Jones, D. O. et al. (2021)"
-        },
-        {
-            "name": "2021TNSCR2383....1S",
-            "human_readable_name": "Siebert, M. R. et al. (2021)"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.183",
-            "distance_type": "redshift",
-            "reference": [
-                "2021TNSCR2383....1S",
-                "2024arXiv240712097A"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR2383....1S",
-                "2024arXiv240712097A"
-            ],
-            "default": true
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "3000.0MHz",
-            "filter_name": "S",
-            "freq_eff": 3000.0,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "887.5MHz",
-            "filter_name": "UHF",
-            "freq_eff": 887.5,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "1367.5MHz",
-            "filter_name": "L",
-            "freq_eff": 1367.5,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "1655.5MHz",
-            "filter_name": "L",
-            "freq_eff": 1655.5,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "g",
-            "filter_name": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        }
-    ],
-    "name": {
-        "default_name": "2021qxv",
-        "alias": [
-            {
-                "value": "2021qxv",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS21grp",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2021qxv",
-                "reference": [
-                    "2024arXiv240712097A"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2024arXiv240712097A",
@@ -270,6 +179,86 @@
             "instrument": "GPC1"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2024arXiv240712097A",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2021TNSTR2199....1J",
+            "human_readable_name": "Jones, D. O. et al. (2021)"
+        },
+        {
+            "name": "2021TNSCR2383....1S",
+            "human_readable_name": "Siebert, M. R. et al. (2021)"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "3000.0MHz",
+            "filter_name": "S",
+            "freq_eff": 3000.0,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "1367.5MHz",
+            "filter_name": "L",
+            "freq_eff": 1367.5,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "1655.5MHz",
+            "filter_name": "L",
+            "freq_eff": 1655.5,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "g",
+            "filter_name": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        }
+    ],
+    "name": {
+        "default_name": "2021qxv",
+        "alias": [
+            {
+                "value": "2021qxv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS21grp",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2021qxv",
+                "reference": [
+                    "2024arXiv240712097A"
+                ]
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR2383....1S",
+                "2024arXiv240712097A"
+            ],
+            "default": true
+        }
+    ],
     "date_reference": [
         {
             "value": "2021-05-10T10:50:52.800",
@@ -314,6 +303,17 @@
                 "2021TNSTR2199....1J"
             ],
             "default": false
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.183",
+            "distance_type": "redshift",
+            "reference": [
+                "2021TNSCR2383....1S",
+                "2024arXiv240712097A"
+            ],
+            "default": true
         }
     ]
 }
