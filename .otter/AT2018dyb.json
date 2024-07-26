@@ -1,4 +1,47 @@
 {
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2019ApJ...887..218L",
+                "2023arXiv230813595C",
+                "2024MNRAS.527.2452M",
+                "['2020ApJ...898..161H', '2020SSRv..216...81A']"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2019ApJ...887..218L",
+            "human_readable_name": "Leloudas, Giorgos et al. (2019)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2018TNSTR.982....1B",
+            "human_readable_name": "Alexander, Kate D. et al. (2020)"
+        },
+        {
+            "name": "2020ApJ...898..161H",
+            "human_readable_name": "Holoien, Thomas W. -S. et al. (2020)"
+        },
+        {
+            "name": "2020SSRv..216...81A",
+            "human_readable_name": "Brimacombe, J. et al. (2018)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024arXiv240712097A",
+            "human_readable_name": "Brimacombe, J. et al. (2018)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -67,6 +110,61 @@
             "freq_units": "MHz"
         }
     ],
+    "coordinate": [
+        {
+            "ra": "16:10:58.774",
+            "dec": "-60:55:23.16",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2018TNSTR.982....1B"
+            ]
+        },
+        {
+            "ra": "16:10:58.774",
+            "dec": "-60:55:23.16",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2018TNSTR.982....1B"
+            ]
+        },
+        {
+            "ra": "242.745322",
+            "dec": "-60.923441",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2019ApJ...887..218L",
+                "2024MNRAS.527.2452M"
+            ]
+        }
+    ],
+    "name": {
+        "default_name": "AT2018dyb",
+        "alias": [
+            {
+                "value": "ASASSN-18pg",
+                "reference": [
+                    "2018TNSTR.982....1B"
+                ]
+            },
+            {
+                "value": "AT2018dyb",
+                "reference": [
+                    "2019ApJ...887..218L",
+                    "2024MNRAS.527.2452M",
+                    "2018TNSTR.982....1B"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -1324,6 +1422,40 @@
             "val_av": 0.6269039897065568
         },
         {
+            "reference": "['2020ApJ...898..161H', '2020SSRv..216...81A']",
+            "raw": [
+                50.0,
+                43.0
+            ],
+            "raw_err": [
+                0.0,
+                0.0
+            ],
+            "raw_units": "uJy",
+            "date": [
+                "58319.454",
+                "58336.617"
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                true
+            ],
+            "filter_key": [
+                "18.95GHz",
+                "18.95GHz"
+            ],
+            "obs_type": "radio",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
             "reference": "2023arXiv230813595C",
             "raw": [
                 1.15,
@@ -1433,100 +1565,6 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2019ApJ...887..218L",
-                "2023arXiv230813595C",
-                "2024MNRAS.527.2452M",
-                "['2020ApJ...898..161H', '2020SSRv..216...81A']"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "AT2018dyb",
-        "alias": [
-            {
-                "value": "ASASSN-18pg",
-                "reference": [
-                    "2018TNSTR.982....1B"
-                ]
-            },
-            {
-                "value": "AT2018dyb",
-                "reference": [
-                    "2019ApJ...887..218L",
-                    "2024MNRAS.527.2452M",
-                    "2018TNSTR.982....1B"
-                ]
-            }
-        ]
-    },
-    "coordinate": [
-        {
-            "ra": "16:10:58.774",
-            "dec": "-60:55:23.16",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2018TNSTR.982....1B"
-            ]
-        },
-        {
-            "ra": "16:10:58.774",
-            "dec": "-60:55:23.16",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2018TNSTR.982....1B"
-            ]
-        },
-        {
-            "ra": "242.745322",
-            "dec": "-60.923441",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2019ApJ...887..218L",
-                "2024MNRAS.527.2452M"
-            ]
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2019ApJ...887..218L",
-            "human_readable_name": "Leloudas, Giorgos et al. (2019)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2018TNSTR.982....1B",
-            "human_readable_name": "Holoien, Thomas W. -S. et al. (2020)"
-        },
-        {
-            "name": "2020ApJ...898..161H",
-            "human_readable_name": "Brimacombe, J. et al. (2018)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024arXiv240712097A",
-            "human_readable_name": "Brimacombe, J. et al. (2018)"
         }
     ],
     "date_reference": [

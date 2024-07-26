@@ -1,29 +1,48 @@
 {
-    "coordinate": [
+    "filter_alias": [
         {
-            "ra": "26.676815",
-            "dec": "32.508168",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2018TNSCR..81....1F",
-                "2024ApJ...961..211M"
-            ],
-            "default": true
+            "filter_key": "g",
+            "filter_name": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
         },
         {
-            "ra": "26.676875",
-            "dec": "32.508139",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2018TNSTR..58....1K"
-            ],
-            "default": false
+            "filter_key": "V",
+            "filter_name": "V",
+            "wave_eff": 553.7155963302753,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "W1",
+            "filter_name": "W1",
+            "wave_eff": 261.3713060531025,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "W2",
+            "filter_name": "W2",
+            "wave_eff": 207.98754332676123,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "0.3-10 ",
+            "filter_name": "0.3-10 ",
+            "wave_eff": 0.12781876127134048,
+            "wave_min": 0.12398419843320027,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "orange",
+            "filter_name": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "G",
+            "filter_name": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
         }
     ],
     "photometry": [
@@ -1141,24 +1160,75 @@
             "instrument": "Leavitt"
         }
     ],
-    "reference_alias": [
+    "coordinate": [
         {
-            "name": "2018TNSCR..81....1F",
-            "human_readable_name": "Masterson, Megan et al. (2024)"
+            "ra": "26.676815",
+            "dec": "32.508168",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2018TNSCR..81....1F",
+                "2024ApJ...961..211M"
+            ],
+            "default": true
         },
         {
-            "name": "2024ApJ...961..211M",
-            "human_readable_name": "Falco, E. et al. (2018)"
-        },
-        {
-            "name": "TNS",
-            "human_readable_name": "TNS"
-        },
-        {
-            "name": "2018TNSTR..58....1K",
-            "human_readable_name": "Krannich, G. et al. (2018)"
+            "ra": "26.676875",
+            "dec": "32.508139",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2018TNSTR..58....1K"
+            ],
+            "default": false
         }
     ],
+    "name": {
+        "default_name": "2018gn",
+        "alias": [
+            {
+                "value": "2018gn",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ASASSN-18ap",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS18ean",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia18apd",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "WTP18aampwj",
+                "reference": [
+                    "2018TNSCR..81....1F",
+                    "2024ApJ...961..211M"
+                ]
+            },
+            {
+                "value": "AT2018gn",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "58132.11",
@@ -1198,92 +1268,22 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "2018gn",
-        "alias": [
-            {
-                "value": "ATLAS18ean",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia18apd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ASASSN-18ap",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2018gn",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2018gn",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "WTP18aampwj",
-                "reference": [
-                    "2018TNSCR..81....1F",
-                    "2024ApJ...961..211M"
-                ]
-            }
-        ]
-    },
-    "filter_alias": [
+    "reference_alias": [
         {
-            "filter_key": "g",
-            "filter_name": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
+            "name": "2018TNSCR..81....1F",
+            "human_readable_name": "Masterson, Megan et al. (2024)"
         },
         {
-            "filter_key": "V",
-            "filter_name": "V",
-            "wave_eff": 553.7155963302753,
-            "wave_units": "nm"
+            "name": "2024ApJ...961..211M",
+            "human_readable_name": "Falco, E. et al. (2018)"
         },
         {
-            "filter_key": "W1",
-            "filter_name": "W1",
-            "wave_eff": 261.3713060531025,
-            "wave_units": "nm"
+            "name": "TNS",
+            "human_readable_name": "TNS"
         },
         {
-            "filter_key": "W2",
-            "filter_name": "W2",
-            "wave_eff": 207.98754332676123,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "0.3-10 ",
-            "filter_name": "0.3-10 ",
-            "wave_eff": 0.12781876127134048,
-            "wave_min": 0.12398419843320027,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "orange",
-            "filter_name": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "G",
-            "filter_name": "G",
-            "wave_eff": 673.5412573108297,
-            "wave_units": "nm"
+            "name": "2018TNSTR..58....1K",
+            "human_readable_name": "Krannich, G. et al. (2018)"
         }
     ],
     "distance": [

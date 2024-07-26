@@ -1,4 +1,56 @@
 {
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017ApJ...842...29H",
+                "2023PASP..135c4101G",
+                "2023arXiv230813595C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...842...29H",
+            "human_readable_name": "Hung et al. (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2000A&AS..143....9W",
+            "human_readable_name": "Wenger et al. (2000)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.471.1694W",
+            "human_readable_name": "Wevers, Thomas et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Cendes, Yvette et al. (2023)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "g",
@@ -103,6 +155,69 @@
             "freq_units": "GHz"
         }
     ],
+    "coordinate": [
+        {
+            "ra": "17:03:34.36",
+            "dec": "+30:35:36.8",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2000A&AS..143....9W",
+                "2017ApJ...842...29H"
+            ]
+        },
+        {
+            "ra": "17:03:34.36",
+            "dec": "+30:35:36.8",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2017ApJ...842...29H"
+            ]
+        },
+        {
+            "ra": "255.89311",
+            "dec": "30.59352",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2017ApJ...842...29H",
+                "2024MNRAS.527.2452M"
+            ]
+        }
+    ],
+    "name": {
+        "default_name": "iPTF16axa",
+        "alias": [
+            {
+                "value": "iPTF-16axa",
+                "reference": [
+                    "2017ApJ...842...29H",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "iPTF 16axa",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "iPTF16axa",
+                "reference": [
+                    "2017ApJ...842...29H",
+                    "2000A&AS..143....9W",
+                    "2017ApJ...842...29H"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -2132,121 +2247,23 @@
             "corr_hostav": false
         }
     ],
-    "classification": [
+    "host": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "host_name": "SDSS J170334.34+303536.6",
+            "host_ra": 255.89166666666665,
+            "host_dec": 30.5935,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
             "reference": [
-                "2017ApJ...835...64G",
-                "2017ApJ...842...29H",
                 "2023PASP..135c4101G",
-                "2023arXiv230813595C",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+                "2017ApJ...842...29H"
+            ]
         }
     ],
-    "name": {
-        "default_name": "iPTF16axa",
-        "alias": [
-            {
-                "value": "iPTF-16axa",
-                "reference": [
-                    "2017ApJ...842...29H",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "iPTF 16axa",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "iPTF16axa",
-                "reference": [
-                    "2017ApJ...842...29H",
-                    "2000A&AS..143....9W",
-                    "2017ApJ...842...29H"
-                ]
-            }
-        ]
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
     },
-    "coordinate": [
-        {
-            "ra": "17:03:34.36",
-            "dec": "+30:35:36.8",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2000A&AS..143....9W",
-                "2017ApJ...842...29H"
-            ]
-        },
-        {
-            "ra": "17:03:34.36",
-            "dec": "+30:35:36.8",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2017ApJ...842...29H"
-            ]
-        },
-        {
-            "ra": "255.89311",
-            "dec": "30.59352",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2017ApJ...842...29H",
-                "2024MNRAS.527.2452M"
-            ]
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...842...29H",
-            "human_readable_name": "Hung et al. (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2000A&AS..143....9W",
-            "human_readable_name": "Wenger et al. (2000)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2017MNRAS.471.1694W",
-            "human_readable_name": "Wevers, Thomas et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Cendes, Yvette et al. (2023)"
-        }
-    ],
     "date_reference": [
         {
             "value": "2016-05-29",
@@ -2279,10 +2296,6 @@
             "default": true
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "distance": [
         {
             "value": "0.108",
@@ -2325,19 +2338,6 @@
                 "2024MNRAS.527.2452M"
             ],
             "default": true
-        }
-    ],
-    "host": [
-        {
-            "host_name": "SDSS J170334.34+303536.6",
-            "host_ra": 255.89166666666665,
-            "host_dec": 30.5935,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2017ApJ...842...29H"
-            ]
         }
     ]
 }

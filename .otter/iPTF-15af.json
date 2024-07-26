@@ -1,4 +1,34 @@
 {
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2019ApJ...873...92B",
+                "2023arXiv230813595C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2019ApJ...873...92B",
+            "human_readable_name": "Blagorodnova, N. et al. (2019)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.471.1694W",
+            "human_readable_name": "Wevers, Thomas et al. (2017)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Cendes, Yvette et al. (2023)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -61,6 +91,49 @@
             "freq_units": "GHz"
         }
     ],
+    "coordinate": [
+        {
+            "ra": "08:48:28.12",
+            "dec": "+22:03:33.575",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2019ApJ...873...92B"
+            ],
+            "default": false
+        },
+        {
+            "ra": "132.11723694",
+            "dec": "22.059304506",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2019ApJ...873...92B",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "iPTF-15af",
+        "alias": [
+            {
+                "value": "iPTF15af",
+                "reference": [
+                    "2019ApJ...873...92B"
+                ]
+            },
+            {
+                "value": "iPTF-15af",
+                "reference": [
+                    "2019ApJ...873...92B",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -589,79 +662,6 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2019ApJ...873...92B",
-                "2023arXiv230813595C",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "iPTF-15af",
-        "alias": [
-            {
-                "value": "iPTF15af",
-                "reference": [
-                    "2019ApJ...873...92B"
-                ]
-            },
-            {
-                "value": "iPTF-15af",
-                "reference": [
-                    "2019ApJ...873...92B",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "coordinate": [
-        {
-            "ra": "08:48:28.12",
-            "dec": "+22:03:33.575",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2019ApJ...873...92B"
-            ],
-            "default": false
-        },
-        {
-            "ra": "132.11723694",
-            "dec": "22.059304506",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2019ApJ...873...92B",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2019ApJ...873...92B",
-            "human_readable_name": "Blagorodnova, N. et al. (2019)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2017MNRAS.471.1694W",
-            "human_readable_name": "Wevers, Thomas et al. (2017)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Cendes, Yvette et al. (2023)"
         }
     ],
     "date_reference": [

@@ -1,89 +1,118 @@
 {
-    "coordinate": [
+    "filter_alias": [
         {
-            "ra": "46.9491904666667",
-            "dec": "40.3112683",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2021TNSTR.651....1M"
-            ]
+            "filter_key": "B.uvot",
+            "filter_name": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
         },
         {
-            "ra": "46.9491904666667",
-            "dec": "40.3112683",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2021TNSTR.651....1M"
-            ]
+            "filter_key": "U.uvot",
+            "filter_name": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
         },
         {
-            "ra": "46.949208",
-            "dec": "40.311269",
-            "ra_units": "deg",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2023ApJS..266....9A"
-            ]
+            "filter_key": "UVM2.uvot",
+            "filter_name": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
         },
         {
-            "ra": "46.9492777",
-            "dec": "40.3112356",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2022ApJ...937....8Y",
-                "2024MNRAS.527.2452M"
-            ]
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.017",
-            "distance_type": "redshift",
-            "reference": [
-                "2022ApJ...937....8Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
         },
         {
-            "value": "0.0173",
-            "distance_type": "redshift",
-            "reference": [
-                "2023ApJS..266....9A"
-            ],
-            "default": false
+            "filter_key": "UVW2.uvot",
+            "filter_name": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
         },
         {
-            "value": "0.018",
-            "distance_type": "redshift",
-            "reference": [
-                "2021TNSCR2295....1Y",
-                "2022TNSCR2102....1Y"
-            ],
-            "default": false
+            "filter_key": "W1.wise",
+            "filter_name": "W1.wise",
+            "freq_eff": 89917740678395.33,
+            "freq_units": "Hz"
         },
         {
-            "value": "99.58",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "reference": [
-                "2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            "filter_key": "W2.wise",
+            "filter_name": "W2.wise",
+            "freq_eff": 65429370473910.305,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.ztf",
+            "filter_name": "g.ztf",
+            "freq_eff": 634121907623677.4,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ztf",
+            "filter_name": "r.ztf",
+            "freq_eff": 471994480402802.25,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "ztf.r",
+            "filter_name": "ztf.r",
+            "freq_eff": 631610.0731,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "ztf.g",
+            "filter_name": "ztf.g",
+            "freq_eff": 470899.4091,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "ps.g",
+            "filter_name": "ps.g",
+            "freq_eff": 623248.4117,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "ps.r",
+            "filter_name": "ps.r",
+            "freq_eff": 487034.2281,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "ps.z",
+            "filter_name": "ps.z",
+            "freq_eff": 345846.8015,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "ps.i",
+            "filter_name": "ps.i",
+            "freq_eff": 399561.8543,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "orange",
+            "filter_name": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "g",
+            "filter_name": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "filter_name": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
         }
     ],
     "photometry": [
@@ -4568,43 +4597,43 @@
                 false
             ],
             "filter_key": [
-                "623248.4117GHz",
-                "487034.2281GHz",
-                "623248.4117GHz",
-                "487034.2281GHz",
-                "345846.8015GHz",
-                "487034.2281GHz",
-                "399561.8543GHz",
-                "487034.2281GHz",
-                "623248.4117GHz",
-                "399561.8543GHz",
-                "487034.2281GHz",
-                "623248.4117GHz",
-                "623248.4117GHz",
-                "345846.8015GHz",
-                "487034.2281GHz",
-                "345846.8015GHz",
-                "487034.2281GHz",
-                "623248.4117GHz",
-                "399561.8543GHz",
-                "487034.2281GHz",
-                "345846.8015GHz",
-                "623248.4117GHz",
-                "345846.8015GHz",
-                "487034.2281GHz",
-                "399561.8543GHz",
-                "487034.2281GHz",
-                "345846.8015GHz",
-                "399561.8543GHz",
-                "623248.4117GHz",
-                "623248.4117GHz",
-                "487034.2281GHz",
-                "399561.8543GHz",
-                "487034.2281GHz",
-                "487034.2281GHz",
-                "345846.8015GHz",
-                "623248.4117GHz",
-                "399561.8543GHz"
+                "ps.g",
+                "ps.r",
+                "ps.g",
+                "ps.r",
+                "ps.z",
+                "ps.r",
+                "ps.i",
+                "ps.r",
+                "ps.g",
+                "ps.i",
+                "ps.r",
+                "ps.g",
+                "ps.g",
+                "ps.z",
+                "ps.r",
+                "ps.z",
+                "ps.r",
+                "ps.g",
+                "ps.i",
+                "ps.r",
+                "ps.z",
+                "ps.g",
+                "ps.z",
+                "ps.r",
+                "ps.i",
+                "ps.r",
+                "ps.z",
+                "ps.i",
+                "ps.g",
+                "ps.g",
+                "ps.r",
+                "ps.i",
+                "ps.r",
+                "ps.r",
+                "ps.z",
+                "ps.g",
+                "ps.i"
             ],
             "obs_type": "uvoir",
             "telescope": "PANSTARRS",
@@ -5150,95 +5179,95 @@
                 false
             ],
             "filter_key": [
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "631610.0731GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz",
-                "470899.4091GHz",
-                "631610.0731GHz"
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.g",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.g",
+                "ztf.g",
+                "ztf.g",
+                "ztf.g",
+                "ztf.g",
+                "ztf.g",
+                "ztf.g",
+                "ztf.g",
+                "ztf.g",
+                "ztf.g",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.g",
+                "ztf.r",
+                "ztf.r",
+                "ztf.g",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.g",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.g",
+                "ztf.r",
+                "ztf.r",
+                "ztf.g",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.r",
+                "ztf.g",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.r",
+                "ztf.r",
+                "ztf.g",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r",
+                "ztf.g",
+                "ztf.r"
             ],
             "obs_type": "uvoir",
             "telescope": "ZTF",
@@ -5586,74 +5615,53 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
+    "coordinate": [
         {
-            "name": "2022ApJ...937....8Y",
-            "human_readable_name": "Yao, Yuhan et al. (2022)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2022ApJ...925...67L",
-            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
-        },
-        {
-            "name": "2021TNSTR.651....1M",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024arXiv240712097A",
-            "human_readable_name": "Munoz-Arancibia, A. et al. (2021)"
-        },
-        {
-            "name": "2023ApJS..266....9A",
-            "human_readable_name": "Aleo, P. D. et al. (2023)"
-        },
-        {
-            "name": "2021TNSCR2295....1Y",
-            "human_readable_name": "Yao, Y. (2021)"
-        },
-        {
-            "name": " 2022TNSCR2102....1Y",
-            "human_readable_name": "Yao, Y. (2022)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "59274.143090300924",
-            "date_format": "mjd",
-            "date_type": "discovery",
+            "ra": "46.9491904666667",
+            "dec": "40.3112683",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
             "reference": [
                 "2021TNSTR.651....1M"
-            ],
-            "default": true
+            ]
         },
         {
-            "value": "59310.95833333334",
-            "date_format": "mjd",
-            "date_type": "peak",
+            "ra": "46.9491904666667",
+            "dec": "40.3112683",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2021TNSTR.651....1M"
+            ]
+        },
+        {
+            "ra": "46.949208",
+            "dec": "40.311269",
+            "ra_units": "deg",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2023ApJS..266....9A"
+            ]
+        },
+        {
+            "ra": "46.9492777",
+            "dec": "40.3112356",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
             "reference": [
                 "2022ApJ...937....8Y",
                 "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR2295....1Y",
-                "2022ApJ...937....8Y",
-                "2022TNSCR2102....1Y",
-                "2023ApJS..266....9A",
-                "2024MNRAS.527.2452M",
-                "2024arXiv240712097A"
-            ],
-            "default": true
+            ]
         }
     ],
     "name": {
@@ -5688,120 +5696,112 @@
             }
         ]
     },
-    "filter_alias": [
+    "date_reference": [
         {
-            "filter_key": "B.uvot",
-            "filter_name": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
+            "value": "59274.143090300924",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2021TNSTR.651....1M"
+            ],
+            "default": true
         },
         {
-            "filter_key": "U.uvot",
-            "filter_name": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
+            "value": "59310.95833333334",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2022ApJ...937....8Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.017",
+            "distance_type": "redshift",
+            "reference": [
+                "2022ApJ...937....8Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         },
         {
-            "filter_key": "UVM2.uvot",
-            "filter_name": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
+            "value": "0.0173",
+            "distance_type": "redshift",
+            "reference": [
+                "2023ApJS..266....9A"
+            ],
+            "default": false
         },
         {
-            "filter_key": "UVW1.uvot",
-            "filter_name": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
+            "value": "0.018",
+            "distance_type": "redshift",
+            "reference": [
+                "2021TNSCR2295....1Y",
+                "2022TNSCR2102....1Y"
+            ],
+            "default": false
         },
         {
-            "filter_key": "UVW2.uvot",
-            "filter_name": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
+            "value": "99.58",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2022ApJ...925...67L",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR2295....1Y",
+                "2022ApJ...937....8Y",
+                "2022TNSCR2102....1Y",
+                "2023ApJS..266....9A",
+                "2024MNRAS.527.2452M",
+                "2024arXiv240712097A"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2022ApJ...937....8Y",
+            "human_readable_name": "Yao, Yuhan et al. (2022)"
         },
         {
-            "filter_key": "W1.wise",
-            "filter_name": "W1.wise",
-            "freq_eff": 89917740678395.33,
-            "freq_units": "Hz"
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
         },
         {
-            "filter_key": "W2.wise",
-            "filter_name": "W2.wise",
-            "freq_eff": 65429370473910.305,
-            "freq_units": "Hz"
+            "name": "2022ApJ...925...67L",
+            "human_readable_name": "Liu, Xiao-Long et al. (2022)"
         },
         {
-            "filter_key": "g.ztf",
-            "filter_name": "g.ztf",
-            "freq_eff": 634121907623677.4,
-            "freq_units": "Hz"
+            "name": "2021TNSTR.651....1M",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
         },
         {
-            "filter_key": "r.ztf",
-            "filter_name": "r.ztf",
-            "freq_eff": 471994480402802.25,
-            "freq_units": "Hz"
+            "name": "2024arXiv240712097A",
+            "human_readable_name": "Munoz-Arancibia, A. et al. (2021)"
         },
         {
-            "filter_key": "887.5MHz",
-            "filter_name": "UHF",
-            "freq_eff": 887.5,
-            "freq_units": "MHz"
+            "name": "2023ApJS..266....9A",
+            "human_readable_name": "Aleo, P. D. et al. (2023)"
         },
         {
-            "filter_key": "631610.0731GHz",
-            "filter_name": "631610.0731GHz",
-            "freq_eff": 631610.0731,
-            "freq_units": "GHz"
+            "name": "2021TNSCR2295....1Y",
+            "human_readable_name": "Yao, Y. (2021)"
         },
         {
-            "filter_key": "470899.4091GHz",
-            "filter_name": "470899.4091GHz",
-            "freq_eff": 470899.4091,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "623248.4117GHz",
-            "filter_name": "623248.4117GHz",
-            "freq_eff": 623248.4117,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "487034.2281GHz",
-            "filter_name": "487034.2281GHz",
-            "freq_eff": 487034.2281,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "345846.8015GHz",
-            "filter_name": "345846.8015GHz",
-            "freq_eff": 345846.8015,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "399561.8543GHz",
-            "filter_name": "399561.8543GHz",
-            "freq_eff": 399561.8543,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "orange",
-            "filter_name": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "g",
-            "filter_name": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "filter_name": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
+            "name": " 2022TNSCR2102....1Y",
+            "human_readable_name": "Yao, Y. (2022)"
         }
     ],
     "host": [

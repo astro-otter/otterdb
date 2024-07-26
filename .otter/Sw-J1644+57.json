@@ -1,4 +1,81 @@
 {
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2011Natur.476..425Z",
+                "2011Sci...333..199L",
+                "2011Sci...333..203B",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016MNRAS.462L..66Y",
+                "2017ApJ...838..149A",
+                "2018ApJ...854...86E",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2011Natur.476..425Z",
+            "human_readable_name": "Zauderer et al. (2011)"
+        },
+        {
+            "name": "2012ApJ...748...36B",
+            "human_readable_name": "Berger et al. (2012)"
+        },
+        {
+            "name": "2012MNRAS.421.1942W",
+            "human_readable_name": "Wiersema et al. (2012)"
+        },
+        {
+            "name": "2013ApJ...767..152Z",
+            "human_readable_name": "Zauderer et al. (2013)"
+        },
+        {
+            "name": "2016MNRAS.462L..66Y",
+            "human_readable_name": "Yang et al. (2016)"
+        },
+        {
+            "name": "2018ApJ...854...86E",
+            "human_readable_name": "Eftekhari et al. (2018)"
+        },
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011Sci...333..203B",
+            "human_readable_name": "Bloom et al. (2011)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2011Sci...333..199L",
+            "human_readable_name": "Levan, A. J. et al. (2011)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2021ApJ...908..125C",
+            "human_readable_name": "Cendes, Y. et al. (2021)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "4.9GHz",
@@ -76,7 +153,7 @@
         },
         {
             "filter_key": "345.0GHz",
-            "filter_name": "345.0GHz",
+            "filter_name": "alma.7",
             "freq_eff": 345.0,
             "freq_units": "GHz"
         },
@@ -243,6 +320,109 @@
             "freq_units": "GHz"
         }
     ],
+    "coordinate": [
+        {
+            "ra": "16 44 49.93130",
+            "dec": "+57 34 59.6893",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "bcf35480-663e-49d6-938b-0a3ed131a572",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2011Natur.476..425Z",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016MNRAS.462L..66Y",
+                "2018ApJ...854...86E"
+            ]
+        },
+        {
+            "ra": "16:44:49.92",
+            "dec": "+57:34:58.8",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": []
+        },
+        {
+            "ra": "16:44:49.93130",
+            "dec": "+57:34:59.6893",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2011Natur.476..425Z"
+            ]
+        },
+        {
+            "ra": "16:44:49.93130",
+            "dec": "+57:34:59.6893",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2011Natur.476..425Z"
+            ]
+        },
+        {
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "86.71123273634593",
+            "b": "39.44122227143398",
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": [
+                "bcf35480-663e-49d6-938b-0a3ed131a572"
+            ]
+        }
+    ],
+    "name": {
+        "default_name": "Sw J1644+57",
+        "alias": [
+            {
+                "value": "SwJ1644+57",
+                "reference": [
+                    "2011Natur.476..425Z"
+                ]
+            },
+            {
+                "value": "Swift J164449.3+573451",
+                "reference": [
+                    "2011Sci...333..203B"
+                ]
+            },
+            {
+                "value": "Swift J1644+57",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2011Sci...333..203B",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "GRB 110328A",
+                "reference": [
+                    "2011Sci...333..203B"
+                ]
+            },
+            {
+                "value": "Sw J1644+57",
+                "reference": [
+                    "Swift",
+                    "2011Natur.476..425Z"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": [
@@ -2517,7 +2697,8 @@
                 9.9,
                 8.2,
                 8.3,
-                6.1
+                6.1,
+                35.1
             ],
             "raw_err": [
                 1.5,
@@ -2528,7 +2709,8 @@
                 1.4,
                 1.4,
                 2.2,
-                0.65
+                0.65,
+                0.8
             ],
             "raw_units": "mJy",
             "date": [
@@ -2540,71 +2722,46 @@
                 "55663.75",
                 "55665.74",
                 "55666.75",
-                "55770.55"
-            ],
-            "date_format": [
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd"
-            ],
-            "upperlimit": [
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false
-            ],
-            "filter_key": [
-                "200.0GHz",
-                "200.0GHz",
-                "230.0GHz",
-                "230.0GHz",
-                "230.0GHz",
-                "230.0GHz",
-                "230.0GHz",
-                "230.0GHz",
-                "230.0GHz"
-            ],
-            "obs_type": "radio",
-            "telescope": "SMA",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_host": false,
-            "corr_av": false,
-            "corr_hostav": false
-        },
-        {
-            "reference": "2012ApJ...748...36B",
-            "raw": [
-                35.1
-            ],
-            "raw_err": [
-                0.8
-            ],
-            "raw_units": "mJy",
-            "date": [
+                "55770.55",
                 "55650.63"
             ],
             "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
                 "mjd"
             ],
             "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
                 false
             ],
             "filter_key": [
+                "200.0GHz",
+                "200.0GHz",
+                "230.0GHz",
+                "230.0GHz",
+                "230.0GHz",
+                "230.0GHz",
+                "230.0GHz",
+                "230.0GHz",
+                "230.0GHz",
                 "345.0GHz"
             ],
-            "obs_type": "uvoir",
+            "obs_type": "radio",
             "telescope": "SMA",
             "corr_k": false,
             "corr_s": false,
@@ -4039,7 +4196,10 @@
                 13.3,
                 9.9,
                 8.2,
-                8.3
+                8.3,
+                35.1,
+                10.2,
+                8.7
             ],
             "raw_err": [
                 1.5,
@@ -4051,7 +4211,10 @@
                 1.5,
                 1.4,
                 1.4,
-                2.2
+                2.2,
+                1.0,
+                0.0,
+                0.0
             ],
             "raw_units": "mJy",
             "date": [
@@ -4064,66 +4227,7 @@
                 "55662.64",
                 "55663.66",
                 "55665.65",
-                "55666.67"
-            ],
-            "date_format": [
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd",
-                "mjd"
-            ],
-            "upperlimit": [
-                false,
-                false,
-                false,
-                true,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false
-            ],
-            "filter_key": [
-                "200.0GHz",
-                "200.0GHz",
-                "200.0GHz",
-                "225.0GHz",
-                "225.0GHz",
-                "225.0GHz",
-                "225.0GHz",
-                "225.0GHz",
-                "225.0GHz",
-                "225.0GHz"
-            ],
-            "obs_type": "radio",
-            "telescope": "SMA",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_host": false,
-            "corr_av": false,
-            "corr_hostav": false
-        },
-        {
-            "reference": "2011Natur.476..425Z",
-            "raw": [
-                35.1,
-                10.2,
-                8.7
-            ],
-            "raw_err": [
-                1.0,
-                0.0,
-                0.0
-            ],
-            "raw_units": "mJy",
-            "date": [
+                "55666.67",
                 "55650.39",
                 "55650.39",
                 "55652.71"
@@ -4131,19 +4235,49 @@
             "date_format": [
                 "mjd",
                 "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
                 "mjd"
             ],
             "upperlimit": [
+                false,
+                false,
+                false,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
                 false,
                 true,
                 true
             ],
             "filter_key": [
+                "200.0GHz",
+                "200.0GHz",
+                "200.0GHz",
+                "225.0GHz",
+                "225.0GHz",
+                "225.0GHz",
+                "225.0GHz",
+                "225.0GHz",
+                "225.0GHz",
+                "225.0GHz",
                 "345.0GHz",
                 "345.0GHz",
                 "345.0GHz"
             ],
-            "obs_type": "uvoir",
+            "obs_type": "radio",
             "telescope": "SMA",
             "corr_k": false,
             "corr_s": false,
@@ -4271,186 +4405,25 @@
             "corr_hostav": false
         }
     ],
-    "classification": [
+    "host": [
         {
-            "object_class": "TDE",
-            "confidence": 1.0,
+            "host_name": "Swift J164449.3+573451",
+            "host_ra": 251.20416666666665,
+            "host_dec": 57.58083333333334,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
             "reference": [
-                "2011Natur.476..425Z",
+                "2023PASP..135c4101G",
                 "2011Sci...333..199L",
                 "2011Sci...333..203B",
-                "2012ApJ...748...36B",
-                "2012MNRAS.421.1942W",
-                "2013ApJ...767..152Z",
-                "2016MNRAS.462L..66Y",
-                "2017ApJ...838..149A",
-                "2018ApJ...854...86E",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+                "2017ApJ...838..149A"
+            ]
         }
     ],
-    "name": {
-        "default_name": "Sw J1644+57",
-        "alias": [
-            {
-                "value": "SwJ1644+57",
-                "reference": [
-                    "2011Natur.476..425Z"
-                ]
-            },
-            {
-                "value": "Sw J1644+57",
-                "reference": [
-                    "Swift",
-                    "2011Natur.476..425Z"
-                ]
-            },
-            {
-                "value": "Swift J1644+57",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2011Sci...333..203B",
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "GRB 110328A",
-                "reference": [
-                    "2011Sci...333..203B"
-                ]
-            },
-            {
-                "value": "Swift J164449.3+573451",
-                "reference": [
-                    "2011Sci...333..203B"
-                ]
-            }
-        ]
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
     },
-    "coordinate": [
-        {
-            "ra": "16 44 49.93130",
-            "dec": "+57 34 59.6893",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "computed": "False",
-            "default": true,
-            "uuid": "ca4f6539-f560-49a4-ad22-380eec921f20",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2011Natur.476..425Z",
-                "2012ApJ...748...36B",
-                "2012MNRAS.421.1942W",
-                "2013ApJ...767..152Z",
-                "2016MNRAS.462L..66Y",
-                "2018ApJ...854...86E"
-            ]
-        },
-        {
-            "ra": "16:44:49.92",
-            "dec": "+57:34:58.8",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": []
-        },
-        {
-            "ra": "16:44:49.93130",
-            "dec": "+57:34:59.6893",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2011Natur.476..425Z"
-            ]
-        },
-        {
-            "ra": "16:44:49.93130",
-            "dec": "+57:34:59.6893",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2011Natur.476..425Z"
-            ]
-        },
-        {
-            "computed": "True",
-            "default": true,
-            "coordinate_type": "galactic",
-            "l": "86.71123273634593",
-            "b": "39.44122227143398",
-            "l_units": "deg",
-            "b_units": "deg",
-            "reference": [
-                "ca4f6539-f560-49a4-ad22-380eec921f20"
-            ]
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2011Natur.476..425Z",
-            "human_readable_name": "Zauderer et al. (2011)"
-        },
-        {
-            "name": "2012ApJ...748...36B",
-            "human_readable_name": "Berger et al. (2012)"
-        },
-        {
-            "name": "2012MNRAS.421.1942W",
-            "human_readable_name": "Wiersema et al. (2012)"
-        },
-        {
-            "name": "2013ApJ...767..152Z",
-            "human_readable_name": "Zauderer et al. (2013)"
-        },
-        {
-            "name": "2016MNRAS.462L..66Y",
-            "human_readable_name": "Yang et al. (2016)"
-        },
-        {
-            "name": "2018ApJ...854...86E",
-            "human_readable_name": "Eftekhari et al. (2018)"
-        },
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011Sci...333..203B",
-            "human_readable_name": "Bloom et al. (2011)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2011Sci...333..199L",
-            "human_readable_name": "Levan, A. J. et al. (2011)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2021ApJ...908..125C",
-            "human_readable_name": "Cendes, Y. et al. (2021)"
-        }
-    ],
     "date_reference": [
         {
             "value": "2011-03-29",
@@ -4489,10 +4462,6 @@
             "default": true
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "distance": [
         {
             "value": "0.354",
@@ -4541,21 +4510,6 @@
                 "2017ApJ...838..149A"
             ],
             "default": true
-        }
-    ],
-    "host": [
-        {
-            "host_name": "Swift J164449.3+573451",
-            "host_ra": 251.20416666666665,
-            "host_dec": 57.58083333333334,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2011Sci...333..199L",
-                "2011Sci...333..203B",
-                "2017ApJ...838..149A"
-            ]
         }
     ]
 }

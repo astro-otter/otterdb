@@ -1,4 +1,40 @@
 {
+    "date_reference": [
+        {
+            "value": "2015-03-21",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2020ApJ...903..116A"
+            ],
+            "default": true
+        },
+        {
+            "value": "56580.0",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2020ApJ...903..116A"
+            ],
+            "default": false
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2020ApJ...903..116A"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2020ApJ...903..116A",
+            "human_readable_name": "Anderson et al. (2020)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "2.9GHz",
@@ -289,36 +325,58 @@
             "freq_units": "GHz"
         }
     ],
-    "date_reference": [
+    "coordinate": [
         {
-            "value": "2015-03-21",
-            "date_format": "iso",
-            "date_type": "discovery",
+            "ra": "00 19 47.335038",
+            "dec": "+00 35 26.8102",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "f9c4a3b4-5deb-4b44-8890-b5e56510c671",
+            "coordinate_type": "equitorial",
             "reference": [
                 "2020ApJ...903..116A"
-            ],
-            "default": true
+            ]
         },
         {
-            "value": "56580.0",
-            "date_format": "mjd",
-            "date_type": "discovery",
+            "ra": "00:19:47.3",
+            "dec": "+00:35:27",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
             "reference": [
                 "2020ApJ...903..116A"
-            ],
-            "default": false
-        }
-    ],
-    "distance": [
+            ]
+        },
         {
-            "value": "0.018",
-            "distance_type": "redshift",
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "106.29996914088225",
+            "b": "-61.254791571842965",
+            "l_units": "deg",
+            "b_units": "deg",
             "reference": [
-                "2020ApJ...903..116A"
-            ],
-            "default": true
+                "f9c4a3b4-5deb-4b44-8890-b5e56510c671"
+            ]
         }
     ],
+    "name": {
+        "default_name": "CNSS J0019+00",
+        "alias": [
+            {
+                "value": "CNSS J0019+00",
+                "reference": [
+                    "CNSS",
+                    "2020ApJ...903..116A"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": [
@@ -820,72 +878,14 @@
             "corr_hostav": false
         }
     ],
-    "classification": [
+    "distance": [
         {
-            "object_class": "TDE",
-            "confidence": 1.0,
+            "value": "0.018",
+            "distance_type": "redshift",
             "reference": [
                 "2020ApJ...903..116A"
             ],
             "default": true
-        }
-    ],
-    "name": {
-        "default_name": "CNSS J0019+00",
-        "alias": [
-            {
-                "value": "CNSS J0019+00",
-                "reference": [
-                    "CNSS",
-                    "2020ApJ...903..116A"
-                ]
-            }
-        ]
-    },
-    "coordinate": [
-        {
-            "ra": "00 19 47.335038",
-            "dec": "+00 35 26.8102",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "computed": "False",
-            "default": true,
-            "uuid": "9899fc14-a8c2-4355-bd80-9e53f6500d6f",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2020ApJ...903..116A"
-            ]
-        },
-        {
-            "ra": "00:19:47.3",
-            "dec": "+00:35:27",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2020ApJ...903..116A"
-            ]
-        },
-        {
-            "computed": "True",
-            "default": true,
-            "coordinate_type": "galactic",
-            "l": "106.29996914088225",
-            "b": "-61.254791571842965",
-            "l_units": "deg",
-            "b_units": "deg",
-            "reference": [
-                "9899fc14-a8c2-4355-bd80-9e53f6500d6f"
-            ]
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2020ApJ...903..116A",
-            "human_readable_name": "Anderson et al. (2020)"
         }
     ],
     "schema_version": {

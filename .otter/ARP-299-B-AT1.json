@@ -1,4 +1,40 @@
 {
+    "date_reference": [
+        {
+            "value": "2005-01-30",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "default": true
+        },
+        {
+            "value": "53401.0",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "default": false
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2018Sci...361..482M",
+            "human_readable_name": "Mattila et al. (2018)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "8.4GHz",
@@ -37,26 +73,63 @@
             "freq_units": "GHz"
         }
     ],
-    "date_reference": [
+    "coordinate": [
         {
-            "value": "2005-01-30",
-            "date_format": "iso",
-            "date_type": "discovery",
+            "ra": "11 28 30.9875",
+            "dec": "+58 33 40.783",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "a9e5946c-cce4-41aa-ae4f-4494c2aa882b",
+            "coordinate_type": "equitorial",
             "reference": [
                 "2018Sci...361..482M"
-            ],
-            "default": true
+            ]
         },
         {
-            "value": "53401.0",
-            "date_format": "mjd",
-            "date_type": "discovery",
+            "ra": "11:28:30.9875529",
+            "dec": "58:33:40.783601",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
             "reference": [
                 "2018Sci...361..482M"
-            ],
-            "default": false
+            ]
+        },
+        {
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "141.90866797794666",
+            "b": "55.405983440677815",
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": [
+                "a9e5946c-cce4-41aa-ae4f-4494c2aa882b"
+            ]
         }
     ],
+    "name": {
+        "default_name": "ARP 299-B AT1",
+        "alias": [
+            {
+                "value": "Arp 299-B AT1",
+                "reference": [
+                    "2018Sci...361..482M"
+                ]
+            },
+            {
+                "value": "ARP 299-B AT1",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": [
@@ -472,79 +545,6 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2018Sci...361..482M"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "ARP 299-B AT1",
-        "alias": [
-            {
-                "value": "Arp 299-B AT1",
-                "reference": [
-                    "2018Sci...361..482M"
-                ]
-            },
-            {
-                "value": "ARP 299-B AT1",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    },
-    "coordinate": [
-        {
-            "ra": "11 28 30.9875",
-            "dec": "+58 33 40.783",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "computed": "False",
-            "default": true,
-            "uuid": "9c6f62ca-35c6-4d29-b7b2-586830d27379",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2018Sci...361..482M"
-            ]
-        },
-        {
-            "ra": "11:28:30.9875529",
-            "dec": "58:33:40.783601",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2018Sci...361..482M"
-            ]
-        },
-        {
-            "computed": "True",
-            "default": true,
-            "coordinate_type": "galactic",
-            "l": "141.90866797794666",
-            "b": "55.405983440677815",
-            "l_units": "deg",
-            "b_units": "deg",
-            "reference": [
-                "9c6f62ca-35c6-4d29-b7b2-586830d27379"
-            ]
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2018Sci...361..482M",
-            "human_readable_name": "Mattila et al. (2018)"
         }
     ],
     "schema_version": {

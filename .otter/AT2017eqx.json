@@ -1,51 +1,106 @@
 {
-    "coordinate": [
+    "filter_alias": [
         {
-            "ra": "22:26:48.37",
-            "dec": "+17:08:52.4",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2019MNRAS.488.1878N"
-            ]
+            "filter_key": "o",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm",
+            "filter_name": "o"
         },
         {
-            "ra": "22:26:48.370",
-            "dec": "+17:08:52.40",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2017TNSTR.646....1C"
-            ]
+            "filter_key": "g",
+            "wave_eff": 475.0,
+            "wave_units": "nm",
+            "filter_name": "g"
         },
         {
-            "ra": "336.701543422",
-            "dec": "17.1478884031",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2019MNRAS.488.1878N",
-                "2024MNRAS.527.2452M"
-            ]
+            "filter_key": "i",
+            "wave_eff": 763.0,
+            "wave_units": "nm",
+            "filter_name": "i"
         },
         {
-            "ra": "336.701543422",
-            "dec": "17.1478884031",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2017TNSTR.646....1C"
-            ]
+            "filter_key": "r",
+            "wave_eff": 622.0,
+            "wave_units": "nm",
+            "filter_name": "r"
+        },
+        {
+            "filter_key": "z",
+            "wave_eff": 905.0,
+            "wave_units": "nm",
+            "filter_name": "z"
+        },
+        {
+            "filter_key": "M2",
+            "wave_eff": 260.0,
+            "wave_units": "nm",
+            "filter_name": "M2"
+        },
+        {
+            "filter_key": "U",
+            "wave_eff": 365.0,
+            "wave_units": "nm",
+            "filter_name": "U"
+        },
+        {
+            "filter_key": "W1",
+            "wave_eff": 224.6,
+            "wave_units": "nm",
+            "filter_name": "W1"
+        },
+        {
+            "filter_key": "W2",
+            "wave_eff": 192.8,
+            "wave_units": "nm",
+            "filter_name": "W2"
+        },
+        {
+            "filter_key": "B.uvot",
+            "filter_name": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "U.uvot",
+            "filter_name": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "filter_name": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "filter_name": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.sdss",
+            "filter_name": "g.sdss",
+            "freq_eff": 646569472243250.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.sdss",
+            "filter_name": "r.sdss",
+            "freq_eff": 488925642232043.75,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "6.0GHz",
+            "filter_name": "C",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
         }
     ],
     "photometry": [
@@ -986,6 +1041,40 @@
             "corr_hostav": false
         },
         {
+            "reference": "['2019MNRAS.488.1878N', '2020SSRv..216...81A']",
+            "raw": [
+                27.0,
+                26.0
+            ],
+            "raw_err": [
+                0.0,
+                0.0
+            ],
+            "raw_units": "uJy",
+            "date": [
+                "57948.477",
+                "57987.252"
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                true
+            ],
+            "filter_key": [
+                "6.0GHz",
+                "6.0GHz"
+            ],
+            "obs_type": "radio",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
             "raw": [
                 19.69
             ],
@@ -1012,36 +1101,87 @@
             "instrument": "GPC1"
         }
     ],
-    "reference_alias": [
+    "coordinate": [
         {
-            "name": "2019MNRAS.488.1878N",
-            "human_readable_name": "Nicholl et al. 2019"
+            "ra": "22:26:48.37",
+            "dec": "+17:08:52.4",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2019MNRAS.488.1878N"
+            ]
         },
         {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
+            "ra": "22:26:48.370",
+            "dec": "+17:08:52.40",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2017TNSTR.646....1C"
+            ]
         },
         {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
+            "ra": "336.701543422",
+            "dec": "17.1478884031",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2019MNRAS.488.1878N",
+                "2024MNRAS.527.2452M"
+            ]
         },
         {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2017TNSTR.646....1C",
-            "human_readable_name": "Cendes, Yvette et al. (2023)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Chambers, K. C. et al. (2017)"
+            "ra": "336.701543422",
+            "dec": "17.1478884031",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2017TNSTR.646....1C"
+            ]
         }
     ],
+    "name": {
+        "default_name": "2017eqx",
+        "alias": [
+            {
+                "value": "PS17dhz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2017eqx",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2017eqx",
+                "reference": [
+                    "2019MNRAS.488.1878N",
+                    "2019MNRAS.488.1878N",
+                    "2024MNRAS.527.2452M",
+                    "2017TNSTR.646....1C"
+                ]
+            },
+            {
+                "value": "AT 2017eqx",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2017-06-01",
@@ -1083,142 +1223,57 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "2017eqx",
-        "alias": [
-            {
-                "value": "2017eqx",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS17dhz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT 2017eqx",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "AT2017eqx",
-                "reference": [
-                    "2019MNRAS.488.1878N",
-                    "2019MNRAS.488.1878N",
-                    "2024MNRAS.527.2452M",
-                    "2017TNSTR.646....1C"
-                ]
-            }
-        ]
-    },
-    "filter_alias": [
+    "reference_alias": [
         {
-            "filter_key": "o",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm",
-            "filter_name": "o"
+            "name": "2019MNRAS.488.1878N",
+            "human_readable_name": "Nicholl et al. 2019"
         },
         {
-            "filter_key": "g",
-            "wave_eff": 475.0,
-            "wave_units": "nm",
-            "filter_name": "g"
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
         },
         {
-            "filter_key": "i",
-            "wave_eff": 763.0,
-            "wave_units": "nm",
-            "filter_name": "i"
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
         },
         {
-            "filter_key": "r",
-            "wave_eff": 622.0,
-            "wave_units": "nm",
-            "filter_name": "r"
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
         },
         {
-            "filter_key": "z",
-            "wave_eff": 905.0,
-            "wave_units": "nm",
-            "filter_name": "z"
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         },
         {
-            "filter_key": "M2",
-            "wave_eff": 260.0,
-            "wave_units": "nm",
-            "filter_name": "M2"
+            "name": "2017TNSTR.646....1C",
+            "human_readable_name": "Cendes, Yvette et al. (2023)"
         },
         {
-            "filter_key": "U",
-            "wave_eff": 365.0,
-            "wave_units": "nm",
-            "filter_name": "U"
+            "name": "2020SSRv..216...81A",
+            "human_readable_name": "Nicholl, M. et al. (2019)"
         },
         {
-            "filter_key": "W1",
-            "wave_eff": 224.6,
-            "wave_units": "nm",
-            "filter_name": "W1"
-        },
-        {
-            "filter_key": "W2",
-            "wave_eff": 192.8,
-            "wave_units": "nm",
-            "filter_name": "W2"
-        },
-        {
-            "filter_key": "B.uvot",
-            "filter_name": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "U.uvot",
-            "filter_name": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "filter_name": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "filter_name": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "filter_name": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.sdss",
-            "filter_name": "g.sdss",
-            "freq_eff": 646569472243250.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.sdss",
-            "filter_name": "r.sdss",
-            "freq_eff": 488925642232043.75,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "6.0GHz",
-            "filter_name": "C",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Chambers, K. C. et al. (2017)"
         }
     ],
+    "host": [
+        {
+            "host_name": "SDSS J222648.38+170852.2",
+            "host_ra": 336.69999999999993,
+            "host_dec": 17.147777777777776,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2019MNRAS.488.1878N"
+            ]
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "distance": [
         {
             "value": "0.1089",
@@ -1251,19 +1306,6 @@
             "default": true
         }
     ],
-    "host": [
-        {
-            "host_name": "SDSS J222648.38+170852.2",
-            "host_ra": 336.69999999999993,
-            "host_dec": 17.147777777777776,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2019MNRAS.488.1878N"
-            ]
-        }
-    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -1277,9 +1319,5 @@
             ],
             "default": true
         }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    }
+    ]
 }
