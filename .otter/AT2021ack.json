@@ -1,4 +1,43 @@
 {
+    "coordinate": [
+        {
+            "ra": "208.2916185",
+            "dec": "9.7403742",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2021TNSCR.732....1H",
+                "2021TNSTR.114....1T",
+                "2024MNRAS.527.2452M"
+            ]
+        },
+        {
+            "ra": "208.2916185",
+            "dec": "9.7403742",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2021TNSTR.114....1T"
+            ]
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.133",
+            "distance_type": "redshift",
+            "reference": [
+                "2021TNSCR.732....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -2667,13 +2706,77 @@
         },
         {
             "name": "2021TNSTR.114....1T",
-            "human_readable_name": "Tonry, J. et al. (2021)"
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
         },
         {
             "name": "2024arXiv240712097A",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+            "human_readable_name": "Tonry, J. et al. (2021)"
         }
     ],
+    "date_reference": [
+        {
+            "value": "59225.00000000002",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2021TNSCR.732....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "59226.62",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2021TNSTR.114....1T"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR.732....1H",
+                "2024MNRAS.527.2452M",
+                "2024arXiv240712097A"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "2021ack",
+        "alias": [
+            {
+                "value": "ATLAS21blz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2021ack",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20acyydkh",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2021ack",
+                "reference": [
+                    "2021TNSCR.732....1H",
+                    "2024MNRAS.527.2452M",
+                    "2021TNSTR.114....1T"
+                ]
+            }
+        ]
+    },
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -2758,109 +2861,6 @@
             "filter_name": "r",
             "wave_eff": 618.5194476741524,
             "wave_units": "nm"
-        }
-    ],
-    "name": {
-        "default_name": "2021ack",
-        "alias": [
-            {
-                "value": "2021ack",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20acyydkh",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS21blz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2021ack",
-                "reference": [
-                    "2021TNSCR.732....1H",
-                    "2024MNRAS.527.2452M",
-                    "2021TNSTR.114....1T"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR.732....1H",
-                "2024MNRAS.527.2452M",
-                "2024arXiv240712097A"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "59225.00000000002",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2021TNSCR.732....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "59226.62",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2021TNSTR.114....1T"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "208.2916185",
-            "dec": "9.7403742",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2021TNSCR.732....1H",
-                "2021TNSTR.114....1T",
-                "2024MNRAS.527.2452M"
-            ]
-        },
-        {
-            "ra": "208.2916185",
-            "dec": "9.7403742",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2021TNSTR.114....1T"
-            ]
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.133",
-            "distance_type": "redshift",
-            "reference": [
-                "2021TNSCR.732....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

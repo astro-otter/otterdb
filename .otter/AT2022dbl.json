@@ -1,4 +1,65 @@
 {
+    "coordinate": [
+        {
+            "ra": "185.18754",
+            "dec": "49.5513",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "default": false,
+            "reference": [
+                "2022TNSTR1433....1S"
+            ]
+        },
+        {
+            "ra": "185.187708",
+            "dec": "49.551281",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "default": false,
+            "reference": [
+                "2022TNSTR.372....1D"
+            ]
+        },
+        {
+            "ra": "185.1878251",
+            "dec": "49.5512224",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2022TNSCR.504....1A",
+                "2024MNRAS.527.2452M"
+            ]
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.0284",
+            "distance_type": "redshift",
+            "reference": [
+                "2022TNSCR.504....1A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "60.01",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2023ApJS..267...44A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -3748,6 +3809,101 @@
             "human_readable_name": "Stanek, K. Z. (2022)"
         }
     ],
+    "date_reference": [
+        {
+            "value": "58254.20157",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR.372....1D"
+            ],
+            "default": true
+        },
+        {
+            "value": "59632.62",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR1433....1S"
+            ],
+            "default": false
+        },
+        {
+            "value": "59637.0",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2022TNSCR.504....1A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022TNSCR.504....1A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "2018mac",
+        "alias": [
+            {
+                "value": "2022dbl",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ASASSN-22ci",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022dbl",
+                "reference": [
+                    "2022TNSCR.504....1A",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "ATLAS18bcnl",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia22bdt",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS22cdn",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF18aabdajx",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2018mac",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
+    },
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -3838,162 +3994,6 @@
             "filter_name": "g",
             "wave_eff": 471.8872246248687,
             "wave_units": "nm"
-        }
-    ],
-    "name": {
-        "default_name": "2018mac",
-        "alias": [
-            {
-                "value": "2022dbl",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ASASSN-22ci",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022dbl",
-                "reference": [
-                    "2022TNSCR.504....1A",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "2018mac",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS18bcnl",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF18aabdajx",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS22cdn",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia22bdt",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR.504....1A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58254.20157",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR.372....1D"
-            ],
-            "default": true
-        },
-        {
-            "value": "59632.62",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR1433....1S"
-            ],
-            "default": false
-        },
-        {
-            "value": "59637.0",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2022TNSCR.504....1A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "185.18754",
-            "dec": "49.5513",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "default": false,
-            "reference": [
-                "2022TNSTR1433....1S"
-            ]
-        },
-        {
-            "ra": "185.187708",
-            "dec": "49.551281",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "default": false,
-            "reference": [
-                "2022TNSTR.372....1D"
-            ]
-        },
-        {
-            "ra": "185.1878251",
-            "dec": "49.5512224",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2022TNSCR.504....1A",
-                "2024MNRAS.527.2452M"
-            ]
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.0284",
-            "distance_type": "redshift",
-            "reference": [
-                "2022TNSCR.504....1A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "60.01",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "reference": [
-                "2023ApJS..267...44A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

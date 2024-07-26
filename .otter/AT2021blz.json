@@ -1,4 +1,30 @@
 {
+    "coordinate": [
+        {
+            "ra": "68.130215",
+            "dec": "-32.4306575",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2021TNSTR.312....1T"
+            ],
+            "default": true
+        },
+        {
+            "ra": "68.130215",
+            "dec": "-32.4306575",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2021TNSTR.312....1T"
+            ],
+            "default": false
+        }
+    ],
     "photometry": [
         {
             "reference": "2024arXiv240712097A",
@@ -120,17 +146,51 @@
     "reference_alias": [
         {
             "name": "2021TNSTR.312....1T",
-            "human_readable_name": "Tonry, J. et al. (2021)"
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
         },
         {
             "name": "2024arXiv240712097A",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+            "human_readable_name": "Tonry, J. et al. (2021)"
         },
         {
             "name": "2021TNSCR.338....1M",
             "human_readable_name": "Magee, M. et al. (2021)"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR.338....1M",
+                "2024arXiv240712097A"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "2021blz",
+        "alias": [
+            {
+                "value": "ATLAS21djg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2021blz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2021blz",
+                "reference": [
+                    "2021TNSTR.312....1T"
+                ]
+            }
+        ]
+    },
     "filter_alias": [
         {
             "filter_key": "887.5MHz",
@@ -151,64 +211,14 @@
             "wave_units": "nm"
         }
     ],
-    "name": {
-        "default_name": "2021blz",
-        "alias": [
-            {
-                "value": "2021blz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS21djg",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2021blz",
-                "reference": [
-                    "2021TNSTR.312....1T"
-                ]
-            }
-        ]
-    },
-    "classification": [
+    "distance": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "value": 0.045,
+            "computed": false,
+            "distance_type": "redshift",
             "reference": [
-                "2021TNSCR.338....1M",
-                "2024arXiv240712097A"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "68.130215",
-            "dec": "-32.4306575",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2021TNSTR.312....1T"
-            ],
-            "default": true
-        },
-        {
-            "ra": "68.130215",
-            "dec": "-32.4306575",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2021TNSTR.312....1T"
-            ],
-            "default": false
+                "2021TNSCR.338....1M"
+            ]
         }
     ],
     "date_reference": [
@@ -220,16 +230,6 @@
                 "2021TNSTR.312....1T"
             ],
             "computed": false
-        }
-    ],
-    "distance": [
-        {
-            "value": 0.045,
-            "computed": false,
-            "distance_type": "redshift",
-            "reference": [
-                "2021TNSCR.338....1M"
-            ]
         }
     ]
 }

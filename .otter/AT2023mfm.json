@@ -1,4 +1,43 @@
 {
+    "coordinate": [
+        {
+            "ra": "324.366491",
+            "dec": "-4.345282",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2023TNSAN.250....1C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "ra": "324.36650469",
+            "dec": "-4.34532166451",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2023TNSTR1546....1F"
+            ],
+            "default": false
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.087",
+            "distance_type": "redshift",
+            "reference": [
+                "2023TNSAN.250....1C",
+                "2023TNSCR2308....1C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -1802,6 +1841,69 @@
             "human_readable_name": "Chornock, R. (2023)"
         }
     ],
+    "date_reference": [
+        {
+            "value": "60123.399",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2023TNSTR1546....1F"
+            ],
+            "default": true
+        },
+        {
+            "value": "60151.95833333331",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2023TNSAN.250....1C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2023TNSAN.250....1C",
+                "2023TNSCR2308....1C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "2023mfm",
+        "alias": [
+            {
+                "value": "PS23fqo",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2023mfm",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF23aapyidj",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2023mfm",
+                "reference": [
+                    "2023TNSAN.250....1C",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "filter_alias": [
         {
             "filter_key": "UVM2.uvot",
@@ -1862,108 +1964,6 @@
             "filter_name": "r",
             "wave_eff": 618.5194476741524,
             "wave_units": "nm"
-        }
-    ],
-    "name": {
-        "default_name": "2023mfm",
-        "alias": [
-            {
-                "value": "PS23fqo",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF23aapyidj",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2023mfm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2023mfm",
-                "reference": [
-                    "2023TNSAN.250....1C",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2023TNSAN.250....1C",
-                "2023TNSCR2308....1C",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "60123.399",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2023TNSTR1546....1F"
-            ],
-            "default": true
-        },
-        {
-            "value": "60151.95833333331",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2023TNSAN.250....1C",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "324.366491",
-            "dec": "-4.345282",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2023TNSAN.250....1C",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "ra": "324.36650469",
-            "dec": "-4.34532166451",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2023TNSTR1546....1F"
-            ],
-            "default": false
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.087",
-            "distance_type": "redshift",
-            "reference": [
-                "2023TNSAN.250....1C",
-                "2023TNSCR2308....1C",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

@@ -1,4 +1,53 @@
 {
+    "coordinate": [
+        {
+            "ra": "123.860919",
+            "dec": "45.592208",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2018TNSTR.652....1F"
+            ],
+            "default": false
+        },
+        {
+            "ra": "123.860974754",
+            "dec": "45.592225495",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.051",
+            "distance_type": "redshift",
+            "reference": [
+                "2020TNSCR2260....1D",
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "117.54",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2023ApJ...957...86H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -294,6 +343,63 @@
             "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
         }
     ],
+    "date_reference": [
+        {
+            "value": "58217.21199074074",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2018TNSTR.652....1F"
+            ],
+            "default": true
+        },
+        {
+            "value": "58224.958333333365",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR2260....1D",
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "2018bsi",
+        "alias": [
+            {
+                "value": "ZTF18aahqkbt",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2018bsi",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2018bsi",
+                "reference": [
+                    "2021ApJ...908....4V",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -342,112 +448,6 @@
             "filter_name": "r",
             "wave_eff": 618.5194476741524,
             "wave_units": "nm"
-        }
-    ],
-    "name": {
-        "default_name": "2018bsi",
-        "alias": [
-            {
-                "value": "ZTF18aahqkbt",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2018bsi",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2018bsi",
-                "reference": [
-                    "2021ApJ...908....4V",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR2260....1D",
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58217.21199074074",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2018TNSTR.652....1F"
-            ],
-            "default": true
-        },
-        {
-            "value": "58224.958333333365",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "123.860919",
-            "dec": "45.592208",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2018TNSTR.652....1F"
-            ],
-            "default": false
-        },
-        {
-            "ra": "123.860974754",
-            "dec": "45.592225495",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.051",
-            "distance_type": "redshift",
-            "reference": [
-                "2020TNSCR2260....1D",
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "117.54",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "reference": [
-                "2023ApJ...957...86H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

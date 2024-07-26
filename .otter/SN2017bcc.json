@@ -1,123 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2017ATel11049....1S",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Sokolovsky, K. et al. (2017)"
-        },
-        {
-            "name": "2017TNSTR.220....1C",
-            "human_readable_name": "Chambers, K. C. et al. (2017)"
-        },
-        {
-            "name": "2017TNSCR.221....1B",
-            "human_readable_name": "Barbarino, C. et al. (2017)"
-        }
-    ],
-    "name": {
-        "default_name": "2017bcc",
-        "alias": [
-            {
-                "value": "2017bcc",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20aacbwbm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "SN 2017bcc",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "AT2017bcc",
-                "reference": [
-                    "2017ApJ...835...64G"
-                ]
-            },
-            {
-                "value": "SN2017bcc",
-                "reference": []
-            },
-            {
-                "value": "PS17bgn",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ATel11049....1S",
-                "2017ApJ...835...64G",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "object_class": "SLSN-II",
-            "confidence": 0.5,
-            "reference": [
-                "2017TNSCR.221....1B"
-            ],
-            "default": false
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2017-02-18",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G"
-            ],
-            "default": false
-        },
-        {
-            "value": "2017-02-18 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ATel11049....1S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "57802.413993055554",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2017TNSTR.220....1C"
-            ],
-            "default": false
-        }
-    ],
     "coordinate": [
         {
             "ra": "11:31:53.04",
@@ -181,9 +62,124 @@
             "default": true
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
+    "reference_alias": [
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2017ATel11049....1S",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Sokolovsky, K. et al. (2017)"
+        },
+        {
+            "name": "2017TNSTR.220....1C",
+            "human_readable_name": "Chambers, K. C. et al. (2017)"
+        },
+        {
+            "name": "2017TNSCR.221....1B",
+            "human_readable_name": "Barbarino, C. et al. (2017)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2017-02-18",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G"
+            ],
+            "default": false
+        },
+        {
+            "value": "2017-02-18 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ATel11049....1S",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "57802.413993055554",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2017TNSTR.220....1C"
+            ],
+            "default": false
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ATel11049....1S",
+                "2017ApJ...835...64G",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "object_class": "SLSN-II",
+            "confidence": 0.5,
+            "reference": [
+                "2017TNSCR.221....1B"
+            ],
+            "default": false
+        }
+    ],
+    "name": {
+        "default_name": "2017bcc",
+        "alias": [
+            {
+                "value": "2017bcc",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20aacbwbm",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2017bcc",
+                "reference": [
+                    "2017ApJ...835...64G"
+                ]
+            },
+            {
+                "value": "SN 2017bcc",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "SN2017bcc",
+                "reference": []
+            },
+            {
+                "value": "PS17bgn",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
     },
     "host": [
         {
@@ -198,6 +194,10 @@
             ]
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "photometry": [
         {
             "raw": [

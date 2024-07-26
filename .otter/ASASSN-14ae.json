@@ -1,4 +1,182 @@
 {
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "B.uvot",
+            "filter_name": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "U.uvot",
+            "filter_name": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "filter_name": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "filter_name": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W1.wise",
+            "filter_name": "W1.wise",
+            "freq_eff": 89917740678395.33,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W2.wise",
+            "filter_name": "W2.wise",
+            "freq_eff": 65429370473910.305,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "5.0GHz",
+            "filter_name": "C",
+            "freq_eff": 5.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "6.0GHz",
+            "filter_name": "C",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "freq_eff": 3.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "7.0GHz",
+            "filter_name": "C",
+            "freq_eff": 7.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "9.0GHz",
+            "filter_name": "X",
+            "freq_eff": 9.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "11.0GHz",
+            "filter_name": "X",
+            "freq_eff": 11.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.25GHz",
+            "filter_name": "L",
+            "freq_eff": 1.25,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.75GHz",
+            "filter_name": "L",
+            "freq_eff": 1.75,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "2.5GHz",
+            "filter_name": "S",
+            "freq_eff": 2.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "3.5GHz",
+            "filter_name": "S",
+            "freq_eff": 3.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "13.5GHz",
+            "filter_name": "Ku",
+            "freq_eff": 13.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "16.5GHz",
+            "filter_name": "Ku",
+            "freq_eff": 16.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "20.0GHz",
+            "filter_name": "K",
+            "freq_eff": 20.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "24.0GHz",
+            "filter_name": "K",
+            "freq_eff": 24.0,
+            "freq_units": "GHz"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2013-01-25",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2014ATel.5831....1P"
+            ],
+            "default": false
+        },
+        {
+            "value": "2014-01-25 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2014MNRAS.445.3263H",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "2014-01-25 12:14:24.00000000013506",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2014ATel.5831....1P",
+                "ASAS-SN Supernovae"
+            ],
+            "default": false
+        },
+        {
+            "value": "56684.91651619998",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2014MNRAS.445.3263H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -1013,6 +1191,21 @@
             "corr_hostav": false
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2012PASP..124..668Y",
+                "2014MNRAS.445.3263H",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G",
+                "2023arXiv230813595C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "name": {
         "default_name": "ASASSN-14ae",
         "alias": [
@@ -1040,6 +1233,43 @@
             }
         ]
     },
+    "coordinate": [
+        {
+            "ra": "11:08:39.96",
+            "dec": "+34:05:52.7",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2014ATel.5831....1P"
+            ]
+        },
+        {
+            "ra": "11:08:40.11",
+            "dec": "+34:05:52.4",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2000A&AS..143....9W",
+                "2014ATel.5831....1P"
+            ]
+        },
+        {
+            "ra": "167.1671635",
+            "dec": "34.09784698",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2014MNRAS.445.3263H",
+                "2024MNRAS.527.2452M"
+            ]
+        }
+    ],
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -1102,236 +1332,10 @@
             "human_readable_name": "Prieto, J. L. et al. (2014)"
         }
     ],
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "B.uvot",
-            "filter_name": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "U.uvot",
-            "filter_name": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "filter_name": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "filter_name": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "filter_name": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W1.wise",
-            "filter_name": "W1.wise",
-            "freq_eff": 89917740678395.33,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W2.wise",
-            "filter_name": "W2.wise",
-            "freq_eff": 65429370473910.305,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "5.0GHz",
-            "filter_name": "C",
-            "freq_eff": 5.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "6.0GHz",
-            "filter_name": "C",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "3.0GHz",
-            "filter_name": "S",
-            "freq_eff": 3.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "7.0GHz",
-            "filter_name": "C",
-            "freq_eff": 7.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "9.0GHz",
-            "filter_name": "X",
-            "freq_eff": 9.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "11.0GHz",
-            "filter_name": "X",
-            "freq_eff": 11.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.25GHz",
-            "filter_name": "L",
-            "freq_eff": 1.25,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.75GHz",
-            "filter_name": "L",
-            "freq_eff": 1.75,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "2.5GHz",
-            "filter_name": "S",
-            "freq_eff": 2.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "3.5GHz",
-            "filter_name": "S",
-            "freq_eff": 3.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "13.5GHz",
-            "filter_name": "Ku",
-            "freq_eff": 13.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "16.5GHz",
-            "filter_name": "Ku",
-            "freq_eff": 16.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "20.0GHz",
-            "filter_name": "K",
-            "freq_eff": 20.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "24.0GHz",
-            "filter_name": "K",
-            "freq_eff": 24.0,
-            "freq_units": "GHz"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "11:08:39.96",
-            "dec": "+34:05:52.7",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2014ATel.5831....1P"
-            ]
-        },
-        {
-            "ra": "11:08:40.11",
-            "dec": "+34:05:52.4",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2000A&AS..143....9W",
-                "2014ATel.5831....1P"
-            ]
-        },
-        {
-            "ra": "167.1671635",
-            "dec": "34.09784698",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2014MNRAS.445.3263H",
-                "2024MNRAS.527.2452M"
-            ]
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2012PASP..124..668Y",
-                "2014MNRAS.445.3263H",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G",
-                "2023arXiv230813595C",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2013-01-25",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2014ATel.5831....1P"
-            ],
-            "default": false
-        },
-        {
-            "value": "2014-01-25 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2014MNRAS.445.3263H",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "2014-01-25 12:14:24.00000000013506",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2014ATel.5831....1P",
-                "ASAS-SN Supernovae"
-            ],
-            "default": false
-        },
-        {
-            "value": "56684.91651619998",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2014MNRAS.445.3263H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "distance": [
         {
             "value": "0.0436029",
@@ -1389,10 +1393,6 @@
             "default": true
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "host": [
         {
             "host_name": "SDSS J110840.11+340552.2",
