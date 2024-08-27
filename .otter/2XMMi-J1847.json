@@ -1,56 +1,4 @@
 {
-    "distance": [
-        {
-            "value": "0.0353",
-            "distance_type": "redshift",
-            "reference": [
-                "2011ApJ...738...52L",
-                "2018MNRAS.474.3000L",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "155",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2011ApJ...738...52L",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
-        },
-        {
-            "value": "160",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2011ApJ...738...52L",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "2XMMi J1847",
-        "alias": [
-            {
-                "value": "2XMMi J1847",
-                "reference": [
-                    "2011ApJ...738...52L"
-                ]
-            },
-            {
-                "value": "2XMMi J184725.1-631724",
-                "reference": [
-                    "2011ApJ...738...52L",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
@@ -93,6 +41,40 @@
             "coordinate_type": "equitorial"
         }
     ],
+    "distance": [
+        {
+            "value": "0.0353",
+            "distance_type": "redshift",
+            "reference": [
+                "2011ApJ...738...52L",
+                "2018MNRAS.474.3000L",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "155",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2011ApJ...738...52L",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        },
+        {
+            "value": "160",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2011ApJ...738...52L",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -102,6 +84,37 @@
                 "2017ApJ...835...64G",
                 "2018MNRAS.474.3000L",
                 "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "2XMMi J1847",
+        "alias": [
+            {
+                "value": "2XMMi J1847",
+                "reference": [
+                    "2011ApJ...738...52L"
+                ]
+            },
+            {
+                "value": "2XMMi J184725.1-631724",
+                "reference": [
+                    "2011ApJ...738...52L",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "2006-09-01 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2011ApJ...738...52L",
+                "2018MNRAS.474.3000L"
             ],
             "default": true
         }
@@ -118,19 +131,6 @@
                 "2011ApJ...738...52L",
                 "2018MNRAS.474.3000L"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2006-09-01 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2011ApJ...738...52L",
-                "2018MNRAS.474.3000L"
-            ],
-            "default": true
         }
     ]
 }

@@ -1,47 +1,18 @@
 {
-    "distance": [
+    "filter_alias": [
         {
-            "value": "0.08",
-            "distance_type": "redshift",
-            "reference": [
-                "2013ApJ...763...84B"
-            ],
-            "default": false
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         },
         {
-            "value": "0.08754",
-            "distance_type": "redshift",
-            "reference": [
-                "2007A&A...462L..49E",
-                "2017ApJ...838..149A",
-                "2017IAUS..324..123S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "379.4",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2007A&A...462L..49E",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "412.7",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2007A&A...462L..49E",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "freq_eff": 3.0,
+            "freq_units": "GHz"
         }
     ],
     "photometry": [
@@ -230,43 +201,51 @@
             "corr_hostav": false
         }
     ],
-    "classification": [
+    "distance": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "value": "0.08",
+            "distance_type": "redshift",
+            "reference": [
+                "2013ApJ...763...84B"
+            ],
+            "default": false
+        },
+        {
+            "value": "0.08754",
+            "distance_type": "redshift",
             "reference": [
                 "2007A&A...462L..49E",
                 "2017ApJ...838..149A",
                 "2017IAUS..324..123S",
-                "2023PASP..135c4101G",
-                "['2013ApJ...763...84B', '2020SSRv..216...81A']"
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "379.4",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2007A&A...462L..49E",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "412.7",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2007A&A...462L..49E",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
             ],
             "default": true
         }
     ],
-    "name": {
-        "default_name": "SDSSJ1323",
-        "alias": [
-            {
-                "value": "SDSSJ1323+48",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
-            },
-            {
-                "value": "SDSSJ1323",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
-            },
-            {
-                "value": "SDSS J1323",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "coordinate": [
         {
             "ra": "13:23:41.97",
@@ -291,20 +270,18 @@
             "default": false
         }
     ],
-    "filter_alias": [
+    "classification": [
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "3.0GHz",
-            "filter_name": "S",
-            "freq_eff": 3.0,
-            "freq_units": "GHz"
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2007A&A...462L..49E",
+                "2017ApJ...838..149A",
+                "2017IAUS..324..123S",
+                "2023PASP..135c4101G",
+                "['2013ApJ...763...84B', '2020SSRv..216...81A']"
+            ],
+            "default": true
         }
     ],
     "reference_alias": [
@@ -341,21 +318,33 @@
             "human_readable_name": "Auchettl, Katie et al. (2017)"
         }
     ],
-    "host": [
-        {
-            "host_name": "SDSS J132341.97+482701.3",
-            "host_ra": 200.92499999999998,
-            "host_dec": 48.45035,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2007A&A...462L..49E",
-                "2017IAUS..324..123S",
-                "2017ApJ...838..149A"
-            ]
-        }
-    ],
+    "name": {
+        "default_name": "SDSSJ1323",
+        "alias": [
+            {
+                "value": "SDSSJ1323+48",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            },
+            {
+                "value": "SDSS J1323",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "SDSSJ1323",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            }
+        ]
+    },
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "date_reference": [
         {
             "value": "2003-12-02",
@@ -380,8 +369,19 @@
             "default": true
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    }
+    "host": [
+        {
+            "host_name": "SDSS J132341.97+482701.3",
+            "host_ra": 200.92499999999998,
+            "host_dec": 48.45035,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2007A&A...462L..49E",
+                "2017IAUS..324..123S",
+                "2017ApJ...838..149A"
+            ]
+        }
+    ]
 }

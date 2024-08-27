@@ -1,55 +1,4 @@
 {
-    "distance": [
-        {
-            "value": "0.145",
-            "distance_type": "redshift",
-            "reference": [
-                "2017NatAs...1E..33L",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "620",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017NatAs...1E..33L"
-            ],
-            "default": true
-        },
-        {
-            "value": "709",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017NatAs...1E..33L"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "3XMM J150052.0+015452",
-        "alias": [
-            {
-                "value": "XJ1500+0154",
-                "reference": [
-                    "2017NatAs...1E..33L"
-                ]
-            },
-            {
-                "value": "3XMM J150052.0+015452",
-                "reference": [
-                    "2017NatAs...1E..33L",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
@@ -88,6 +37,39 @@
             "coordinate_type": "equitorial"
         }
     ],
+    "distance": [
+        {
+            "value": "0.145",
+            "distance_type": "redshift",
+            "reference": [
+                "2017NatAs...1E..33L",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "620",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017NatAs...1E..33L"
+            ],
+            "default": true
+        },
+        {
+            "value": "709",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017NatAs...1E..33L"
+            ],
+            "default": true
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -95,6 +77,36 @@
             "reference": [
                 "2017NatAs...1E..33L",
                 "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "3XMM J150052.0+015452",
+        "alias": [
+            {
+                "value": "XJ1500+0154",
+                "reference": [
+                    "2017NatAs...1E..33L"
+                ]
+            },
+            {
+                "value": "3XMM J150052.0+015452",
+                "reference": [
+                    "2017NatAs...1E..33L",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
+        {
+            "value": "2005-07-23 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017NatAs...1E..33L"
             ],
             "default": true
         }
@@ -110,18 +122,6 @@
                 "2023PASP..135c4101G",
                 "2017NatAs...1E..33L"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2005-07-23 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2017NatAs...1E..33L"
-            ],
-            "default": true
         }
     ]
 }
