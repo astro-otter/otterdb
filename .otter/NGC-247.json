@@ -1,31 +1,4 @@
 {
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2011ApJ...737...87J",
-                "2015ApJ...807..185F",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "coordinate": [
-        {
-            "ra": "00:47:08.64",
-            "dec": "-20:45:36",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [],
-            "coordinate_type": "equitorial"
-        }
-    ],
     "distance": [
         {
             "value": "0.000531",
@@ -63,6 +36,22 @@
             "default": true
         }
     ],
+    "name": {
+        "default_name": "NGC 247",
+        "alias": [
+            {
+                "value": "NGC 247",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -93,28 +82,25 @@
             "human_readable_name": "Feng, Hua et al. (2015)"
         }
     ],
-    "name": {
-        "default_name": "NGC 247",
-        "alias": [
-            {
-                "value": "NGC 247",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
+    "coordinate": [
         {
-            "value": "2014-07-01 ",
-            "date_format": "iso",
-            "date_type": "discovery",
+            "ra": "00:47:08.64",
+            "dec": "-20:45:36",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
-                "2023PASP..135c4101G",
                 "2011ApJ...737...87J",
                 "2015ApJ...807..185F",
-                "2017ApJ...838..149A"
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
             ],
             "default": true
         }
@@ -132,6 +118,20 @@
                 "2015ApJ...807..185F",
                 "2017ApJ...838..149A"
             ]
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2014-07-01 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2011ApJ...737...87J",
+                "2015ApJ...807..185F",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         }
     ]
 }

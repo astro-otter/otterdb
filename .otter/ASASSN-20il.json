@@ -1,4 +1,56 @@
 {
+    "name": {
+        "default_name": "ASASSN-20il",
+        "alias": [
+            {
+                "value": "AT 2020pom",
+                "reference": [
+                    "ASAS-SN Supernovae"
+                ]
+            },
+            {
+                "value": "ASASSN-20il",
+                "reference": [
+                    "ASAS-SN Supernovae",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "reference_alias": [
+        {
+            "name": "ASAS-SN Supernovae",
+            "human_readable_name": "ASAS-SN Supernovae"
+        },
+        {
+            "name": "2014ApJ...788...48S",
+            "human_readable_name": "Shappee, B. J. et al. (2014)"
+        },
+        {
+            "name": "2020TNSTR.189....1B",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Brimacombe, J. & Stanek, K. Z. (2020)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "5:03:11.3",
+            "dec": "-22:48:52.1",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "ASAS-SN Supernovae"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -34,58 +86,19 @@
             "default": false
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "coordinate": [
+    "distance": [
         {
-            "ra": "5:03:11.3",
-            "dec": "-22:48:52.1",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "value": "0.015841",
             "reference": [
-                "ASAS-SN Supernovae"
+                "2023PASP..135c4101G",
+                "2014ApJ...788...48S",
+                "2020TNSTR.189....1B"
             ],
-            "coordinate_type": "equitorial"
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "ASAS-SN Supernovae",
-            "human_readable_name": "ASAS-SN Supernovae"
-        },
-        {
-            "name": "2014ApJ...788...48S",
-            "human_readable_name": "Shappee, B. J. et al. (2014)"
-        },
-        {
-            "name": "2020TNSTR.189....1B",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Brimacombe, J. & Stanek, K. Z. (2020)"
-        }
-    ],
-    "name": {
-        "default_name": "ASASSN-20il",
-        "alias": [
-            {
-                "value": "AT 2020pom",
-                "reference": [
-                    "ASAS-SN Supernovae"
-                ]
-            },
-            {
-                "value": "ASASSN-20il",
-                "reference": [
-                    "ASAS-SN Supernovae",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "host": [
         {
             "host_name": "ESO 486-G 017",
@@ -98,19 +111,6 @@
                 "2014ApJ...788...48S",
                 "2020TNSTR.189....1B"
             ]
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.015841",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2014ApJ...788...48S",
-                "2020TNSTR.189....1B"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
         }
     ]
 }

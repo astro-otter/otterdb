@@ -29,13 +29,13 @@
         "default_name": "2022wyq",
         "alias": [
             {
-                "value": "ZTF20acyxwgf",
+                "value": "2022wyq",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2022wyq",
+                "value": "ZTF20acyxwgf",
                 "reference": [
                     "TNS"
                 ]
@@ -83,6 +83,54 @@
             "human_readable_name": "Fremling, C. (2022)"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017NatAs...1..865K",
+                "2017arXiv171104577K",
+                "2019ApJ...871...15J",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "default": false
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "default": false
+        }
+    ],
+    "host": [
+        {
+            "host_name": "SDSS J094806.55+031801.9",
+            "host_ra": 147.02916666666664,
+            "host_dec": 3.3005277777777775,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017NatAs...1..865K",
+                "2017NatAs...1..865K",
+                "2019ApJ...871...15J"
+            ]
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "distance": [
         {
             "value": "0.207",
@@ -118,54 +166,17 @@
             "default": true
         }
     ],
-    "host": [
+    "date_reference": [
         {
-            "host_name": "SDSS J094806.55+031801.9",
-            "host_ra": 147.02916666666664,
-            "host_dec": 3.3005277777777775,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
+            "value": 59695.193,
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
-                "2023PASP..135c4101G",
-                "2017NatAs...1..865K",
-                "2017NatAs...1..865K",
-                "2019ApJ...871...15J"
-            ]
+                "2022TNSTR2919....1F"
+            ],
+            "computed": false
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017NatAs...1..865K",
-                "2017arXiv171104577K",
-                "2019ApJ...871...15J",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "default": false
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "default": false
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "filter_alias": [
         {
             "filter_key": "g",
@@ -178,17 +189,6 @@
             "filter_name": "r",
             "wave_eff": 618.5194476741524,
             "wave_units": "nm"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 59695.193,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR2919....1F"
-            ],
-            "computed": false
         }
     ],
     "photometry": [
