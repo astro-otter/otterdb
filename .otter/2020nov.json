@@ -1,40 +1,4 @@
 {
-    "name": {
-        "default_name": "2020nov",
-        "alias": [
-            {
-                "value": "PS20ggg",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS20vfv",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20abisysx",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia20duz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2020nov",
-                "reference": [
-                    "2023ApJS..266....9A",
-                    "TNS"
-                ]
-            }
-        ]
-    },
     "coordinate": [
         {
             "ra": "254.554042",
@@ -59,17 +23,6 @@
                 "2023ApJS..266....9A"
             ],
             "default": false
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR3800....1D",
-                "2023ApJS..266....9A"
-            ],
-            "default": true
         }
     ],
     "filter_alias": [
@@ -140,6 +93,78 @@
             "wave_units": "nm"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR3800....1D",
+                "2023ApJS..266....9A"
+            ],
+            "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.084",
+            "distance_type": "redshift",
+            "reference": [
+                "2020TNSCR3800....1D",
+                "2023ApJS..266....9A"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2023ApJS..266....9A",
+            "human_readable_name": "Aleo, P. D. et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR1950....1F",
+            "human_readable_name": "Forster, F. et al. (2020)"
+        },
+        {
+            "name": "2020TNSCR3800....1D",
+            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
+        }
+    ],
+    "name": {
+        "default_name": "2020nov",
+        "alias": [
+            {
+                "value": "Gaia20duz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20abisysx",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS20vfv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS20ggg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2020nov",
+                "reference": [
+                    "2023ApJS..266....9A",
+                    "TNS"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": "2023ApJS..266....9A",
@@ -2748,31 +2773,6 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.084",
-            "distance_type": "redshift",
-            "reference": [
-                "2020TNSCR3800....1D",
-                "2023ApJS..266....9A"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2023ApJS..266....9A",
-            "human_readable_name": "Aleo, P. D. et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR1950....1F",
-            "human_readable_name": "Forster, F. et al. (2020)"
-        },
-        {
-            "name": "2020TNSCR3800....1D",
-            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
         }
     ],
     "host": [

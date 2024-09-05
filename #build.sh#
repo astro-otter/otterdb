@@ -16,8 +16,8 @@ docker create --name otterdb-persist arangodb true
 docker run -e ARANGO_NO_AUTH=1 \
        --name otterdb \
        --detach \
-       --network otter-net \
        --volumes-from otterdb-persist \
+       --network otter
        -p 8529:8529 arangodb
 
 

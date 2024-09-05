@@ -1,4 +1,26 @@
 {
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "name": {
+        "default_name": "CXOU J0332",
+        "alias": [
+            {
+                "value": "CXOU J033238.8-275134",
+                "reference": [
+                    "2017arXiv170204422B"
+                ]
+            },
+            {
+                "value": "CXOU J0332",
+                "reference": [
+                    "2017arXiv170204422B",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017arXiv170204422B",
@@ -19,22 +41,6 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "coordinate": [
-        {
-            "ra": "03:32:38.8",
-            "dec": "-27:51:34",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017arXiv170204422B"
-            ],
-            "coordinate_type": "equitorial"
         }
     ],
     "date_reference": [
@@ -70,24 +76,18 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "CXOU J0332",
-        "alias": [
-            {
-                "value": "CXOU J033238.8-275134",
-                "reference": [
-                    "2017arXiv170204422B"
-                ]
-            },
-            {
-                "value": "CXOU J0332",
-                "reference": [
-                    "2017arXiv170204422B",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "03:32:38.8",
+            "dec": "-27:51:34",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017arXiv170204422B"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "host": [
         {
             "host_name": "CANDELS J033238.77-275133.7",

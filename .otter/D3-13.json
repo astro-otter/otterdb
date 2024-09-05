@@ -1,4 +1,137 @@
 {
+    "distance": [
+        {
+            "value": "0.3698",
+            "distance_type": "redshift",
+            "reference": [
+                "2006ApJ...653L..25G",
+                "2008ApJ...676..944G",
+                "2011ApJ...732L..12B",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "133.0",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2017MNRAS.471.1694W",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "1491",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2006ApJ...653L..25G",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "2042",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2006ApJ...653L..25G",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "D3-13",
+        "alias": [
+            {
+                "value": "D3-13",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "GALEX-D3-13",
+                "reference": [
+                    "2008ApJ...676..944G",
+                    "2024MNRAS.527.2452M",
+                    "2008ApJ...676..944G"
+                ]
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2008ApJ...676..944G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M",
+                "['2011ApJ...732L..12B', '2020SSRv..216...81A']"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2008ApJ...676..944G",
+            "human_readable_name": "Gezari et al. (2008)"
+        },
+        {
+            "name": "2006ApJ...653L..25G",
+            "human_readable_name": "Gezari et al. (2006)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.471.1694W",
+            "human_readable_name": "Wevers, Thomas et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2011ApJ...732L..12B",
+            "human_readable_name": "Alexander, Kate D. et al. (2020)"
+        },
+        {
+            "name": "2013A&A...552A...5V",
+            "human_readable_name": "van Velzen, S. et al. (2013)"
+        },
+        {
+            "name": "2020SSRv..216...81A",
+            "human_readable_name": "Bower, Geoffrey C. (2011)"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",
@@ -61,6 +194,42 @@
             "filter_name": "C",
             "freq_eff": 5.0,
             "freq_units": "GHz"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "14:19:29.76",
+            "dec": "+52:52:06.24",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2008ApJ...676..944G"
+            ]
+        },
+        {
+            "ra": "14:19:29.76",
+            "dec": "+52:52:06.24",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2008ApJ...676..944G"
+            ]
+        },
+        {
+            "ra": "214.874116942",
+            "dec": "52.868436516",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2008ApJ...676..944G",
+                "2024MNRAS.527.2452M"
+            ]
         }
     ],
     "photometry": [
@@ -516,175 +685,20 @@
             "corr_hostav": false
         }
     ],
-    "distance": [
+    "host": [
         {
-            "value": "0.3698",
-            "distance_type": "redshift",
+            "host_name": "GALEX J141929.8+525206",
+            "host_ra": 214.87499999999997,
+            "host_dec": 52.86843611111111,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
             "reference": [
-                "2006ApJ...653L..25G",
-                "2008ApJ...676..944G",
-                "2011ApJ...732L..12B",
-                "2017ApJ...838..149A",
                 "2023PASP..135c4101G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "133.0",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "reference": [
-                "2017MNRAS.471.1694W",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "1491",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2006ApJ...653L..25G",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "2042",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2006ApJ...653L..25G",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "14:19:29.76",
-            "dec": "+52:52:06.24",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2008ApJ...676..944G"
-            ]
-        },
-        {
-            "ra": "14:19:29.76",
-            "dec": "+52:52:06.24",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2008ApJ...676..944G"
-            ]
-        },
-        {
-            "ra": "214.874116942",
-            "dec": "52.868436516",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
                 "2008ApJ...676..944G",
-                "2024MNRAS.527.2452M"
+                "2017ApJ...838..149A"
             ]
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2008ApJ...676..944G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G",
-                "2024MNRAS.527.2452M",
-                "['2011ApJ...732L..12B', '2020SSRv..216...81A']"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2008ApJ...676..944G",
-            "human_readable_name": "Gezari et al. (2008)"
-        },
-        {
-            "name": "2006ApJ...653L..25G",
-            "human_readable_name": "Gezari et al. (2006)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2017MNRAS.471.1694W",
-            "human_readable_name": "Wevers, Thomas et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2011ApJ...732L..12B",
-            "human_readable_name": "Alexander, Kate D. et al. (2020)"
-        },
-        {
-            "name": "2013A&A...552A...5V",
-            "human_readable_name": "van Velzen, S. et al. (2013)"
-        },
-        {
-            "name": "2020SSRv..216...81A",
-            "human_readable_name": "Bower, Geoffrey C. (2011)"
-        }
-    ],
-    "name": {
-        "default_name": "D3-13",
-        "alias": [
-            {
-                "value": "D3-13",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "GALEX-D3-13",
-                "reference": [
-                    "2008ApJ...676..944G",
-                    "2024MNRAS.527.2452M",
-                    "2008ApJ...676..944G"
-                ]
-            }
-        ]
-    },
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
@@ -712,20 +726,6 @@
                 "2024MNRAS.527.2452M"
             ],
             "default": true
-        }
-    ],
-    "host": [
-        {
-            "host_name": "GALEX J141929.8+525206",
-            "host_ra": 214.87499999999997,
-            "host_dec": 52.86843611111111,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2008ApJ...676..944G",
-                "2017ApJ...838..149A"
-            ]
         }
     ]
 }

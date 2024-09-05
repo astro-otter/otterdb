@@ -10,6 +10,49 @@
             "default": true
         }
     ],
+    "name": {
+        "default_name": "XMMSL2 J144605.0+685735",
+        "alias": [
+            {
+                "value": "XMMSL2_J1446+68",
+                "reference": [
+                    "2019A&A...630A..98S"
+                ]
+            },
+            {
+                "value": "XMMSL2 J144605.0+685735",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2019A&A...630A..98S",
+                "2023PASP..135c4101G",
+                "['2019A&A...630A..98S', '2020SSRv..216...81A']"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2019A&A...630A..98S",
+            "human_readable_name": "Saxton, R. D. et al. (2019)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2020SSRv..216...81A",
+            "human_readable_name": "Alexander, Kate D. et al. (2020)"
+        }
+    ],
     "coordinate": [
         {
             "ra": "221.52083333333331",
@@ -35,49 +78,19 @@
             ]
         }
     ],
-    "reference_alias": [
+    "host": [
         {
-            "name": "2019A&A...630A..98S",
-            "human_readable_name": "Saxton, R. D. et al. (2019)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2020SSRv..216...81A",
-            "human_readable_name": "Alexander, Kate D. et al. (2020)"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
+            "host_name": "2MASX 14460522+6857311, LEDA 2725953",
+            "host_ra": 221.52083333333331,
+            "host_dec": 68.95861111111111,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
             "reference": [
-                "2019A&A...630A..98S",
                 "2023PASP..135c4101G",
-                "['2019A&A...630A..98S', '2020SSRv..216...81A']"
-            ],
-            "default": true
+                "2019A&A...630A..98S"
+            ]
         }
     ],
-    "name": {
-        "default_name": "XMMSL2 J144605.0+685735",
-        "alias": [
-            {
-                "value": "XMMSL2_J1446+68",
-                "reference": [
-                    "2019A&A...630A..98S"
-                ]
-            },
-            {
-                "value": "XMMSL2 J144605.0+685735",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
@@ -94,17 +107,12 @@
             "default": true
         }
     ],
-    "host": [
+    "filter_alias": [
         {
-            "host_name": "2MASX 14460522+6857311, LEDA 2725953",
-            "host_ra": 221.52083333333331,
-            "host_dec": 68.95861111111111,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2019A&A...630A..98S"
-            ]
+            "filter_key": "6.0GHz",
+            "filter_name": "C",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
         }
     ],
     "photometry": [
@@ -141,14 +149,6 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "6.0GHz",
-            "filter_name": "C",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
         }
     ]
 }

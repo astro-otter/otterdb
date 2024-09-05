@@ -1,36 +1,45 @@
 {
-    "name": {
-        "default_name": "2017eqx",
-        "alias": [
-            {
-                "value": "2017eqx",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS17dhz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT 2017eqx",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "AT2017eqx",
-                "reference": [
-                    "2019MNRAS.488.1878N",
-                    "2019MNRAS.488.1878N",
-                    "2024MNRAS.527.2452M",
-                    "2017TNSTR.646....1C"
-                ]
-            }
-        ]
-    },
+    "date_reference": [
+        {
+            "value": "2017-06-01",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2019MNRAS.488.1878N"
+            ],
+            "default": true
+        },
+        {
+            "value": "2017-06-07 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2019MNRAS.488.1878N",
+                "2023PASP..135c4101G"
+            ],
+            "default": false
+        },
+        {
+            "value": "57911.56",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2017TNSTR.646....1C"
+            ],
+            "default": false
+        },
+        {
+            "value": "57912.22750000004",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2019MNRAS.488.1878N",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "coordinate": [
         {
             "ra": "22:26:48.37",
@@ -78,47 +87,6 @@
             "reference": [
                 "2017TNSTR.646....1C"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2017-06-01",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2019MNRAS.488.1878N"
-            ],
-            "default": true
-        },
-        {
-            "value": "2017-06-07 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2019MNRAS.488.1878N",
-                "2023PASP..135c4101G"
-            ],
-            "default": false
-        },
-        {
-            "value": "57911.56",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2017TNSTR.646....1C"
-            ],
-            "default": false
-        },
-        {
-            "value": "57912.22750000004",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2019MNRAS.488.1878N",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ],
     "filter_alias": [
@@ -225,6 +193,72 @@
             "freq_units": "GHz"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2019MNRAS.488.1878N",
+            "human_readable_name": "Nicholl et al. 2019"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2017TNSTR.646....1C",
+            "human_readable_name": "Cendes, Y. et al. (2024)"
+        },
+        {
+            "name": "2020SSRv..216...81A",
+            "human_readable_name": "Nicholl, M. et al. (2019)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Chambers, K. C. et al. (2017)"
+        }
+    ],
+    "name": {
+        "default_name": "2017eqx",
+        "alias": [
+            {
+                "value": "2017eqx",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS17dhz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2017eqx",
+                "reference": [
+                    "2019MNRAS.488.1878N",
+                    "2019MNRAS.488.1878N",
+                    "2024MNRAS.527.2452M",
+                    "2017TNSTR.646....1C"
+                ]
+            },
+            {
+                "value": "AT 2017eqx",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -1223,40 +1257,10 @@
             "instrument": "GPC1"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2019MNRAS.488.1878N",
-            "human_readable_name": "Nicholl et al. 2019"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2017TNSTR.646....1C",
-            "human_readable_name": "Cendes, Y. et al. (2024)"
-        },
-        {
-            "name": "2020SSRv..216...81A",
-            "human_readable_name": "Nicholl, M. et al. (2019)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Chambers, K. C. et al. (2017)"
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "classification": [
         {
             "object_class": "TDE",
@@ -1315,9 +1319,5 @@
                 "2019MNRAS.488.1878N"
             ]
         }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    }
+    ]
 }

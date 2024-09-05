@@ -1,46 +1,25 @@
 {
-    "name": {
-        "default_name": "2018gn",
-        "alias": [
-            {
-                "value": "Gaia18apd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ASASSN-18ap",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS18ean",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2018gn",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "WTP18aampwj",
-                "reference": [
-                    "2018TNSCR..81....1F",
-                    "2024ApJ...961..211M"
-                ]
-            },
-            {
-                "value": "AT2018gn",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    },
+    "date_reference": [
+        {
+            "value": "58132.11",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2018TNSTR..58....1K"
+            ],
+            "default": true
+        },
+        {
+            "value": "58324.0",
+            "date_format": "mjd",
+            "date_type": "explosion",
+            "reference": [
+                "2018TNSCR..81....1F",
+                "2024ApJ...961..211M"
+            ],
+            "default": true
+        }
+    ],
     "coordinate": [
         {
             "ra": "26.676815",
@@ -66,45 +45,6 @@
                 "2018TNSTR..58....1K"
             ],
             "default": false
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2018TNSCR..81....1F",
-                "2024ApJ...961..211M"
-            ],
-            "default": true
-        },
-        {
-            "object_class": "SN II",
-            "confidence": 0.5,
-            "reference": [
-                "2018TNSCR..81....1F"
-            ],
-            "default": false
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58132.11",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2018TNSTR..58....1K"
-            ],
-            "default": true
-        },
-        {
-            "value": "58324.0",
-            "date_type": "explosion",
-            "reference": [
-                "2018TNSCR..81....1F",
-                "2024ApJ...961..211M"
-            ],
-            "default": true
         }
     ],
     "filter_alias": [
@@ -153,6 +93,85 @@
             "wave_units": "nm"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2018TNSCR..81....1F",
+                "2024ApJ...961..211M"
+            ],
+            "default": true
+        },
+        {
+            "object_class": "SN II",
+            "confidence": 0.5,
+            "reference": [
+                "2018TNSCR..81....1F"
+            ],
+            "default": false
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2018TNSCR..81....1F",
+            "human_readable_name": "Masterson, Megan et al. (2024)"
+        },
+        {
+            "name": "2024ApJ...961..211M",
+            "human_readable_name": "Falco, E. et al. (2018)"
+        },
+        {
+            "name": "TNS",
+            "human_readable_name": "TNS"
+        },
+        {
+            "name": "2018TNSTR..58....1K",
+            "human_readable_name": "Krannich, G. et al. (2018)"
+        }
+    ],
+    "name": {
+        "default_name": "2018gn",
+        "alias": [
+            {
+                "value": "ATLAS18ean",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ASASSN-18ap",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia18apd",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2018gn",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "WTP18aampwj",
+                "reference": [
+                    "2018TNSCR..81....1F",
+                    "2024ApJ...961..211M"
+                ]
+            },
+            {
+                "value": "AT2018gn",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "date": [
@@ -1266,24 +1285,6 @@
             "corr_hostav": false,
             "telescope": "ASASSN-4",
             "instrument": "Leavitt"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2018TNSCR..81....1F",
-            "human_readable_name": "Masterson, Megan et al. (2024)"
-        },
-        {
-            "name": "2024ApJ...961..211M",
-            "human_readable_name": "Falco, E. et al. (2018)"
-        },
-        {
-            "name": "TNS",
-            "human_readable_name": "TNS"
-        },
-        {
-            "name": "2018TNSTR..58....1K",
-            "human_readable_name": "Krannich, G. et al. (2018)"
         }
     ],
     "distance": [

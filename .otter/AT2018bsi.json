@@ -1,28 +1,25 @@
 {
-    "name": {
-        "default_name": "2018bsi",
-        "alias": [
-            {
-                "value": "ZTF18aahqkbt",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2018bsi",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2018bsi",
-                "reference": [
-                    "2021ApJ...908....4V",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
+    "date_reference": [
+        {
+            "value": "58217.21199074074",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2018TNSTR.652....1F"
+            ],
+            "default": true
+        },
+        {
+            "value": "58224.958333333365",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "coordinate": [
         {
             "ra": "123.860919",
@@ -43,39 +40,6 @@
             "ra_units": "deg",
             "dec_units": "deg",
             "coordinate_type": "equitorial",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR2260....1D",
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58217.21199074074",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2018TNSTR.652....1F"
-            ],
-            "default": true
-        },
-        {
-            "value": "58224.958333333365",
-            "date_format": "mjd",
-            "date_type": "peak",
             "reference": [
                 "2021ApJ...908....4V",
                 "2024MNRAS.527.2452M"
@@ -133,6 +97,86 @@
             "wave_units": "nm"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR2260....1D",
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.051",
+            "distance_type": "redshift",
+            "reference": [
+                "2020TNSCR2260....1D",
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "117.54",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2023ApJ...957...86H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2021ApJ...908....4V",
+            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...957...86H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2018TNSTR.652....1F",
+            "human_readable_name": "Fremling, C. & Taggart, K. (2018)"
+        },
+        {
+            "name": "2020TNSCR2260....1D",
+            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
+        }
+    ],
+    "name": {
+        "default_name": "2018bsi",
+        "alias": [
+            {
+                "value": "2018bsi",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF18aahqkbt",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2018bsi",
+                "reference": [
+                    "2021ApJ...908....4V",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -404,50 +448,6 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.051",
-            "distance_type": "redshift",
-            "reference": [
-                "2020TNSCR2260....1D",
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "117.54",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "reference": [
-                "2023ApJ...957...86H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2021ApJ...908....4V",
-            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...957...86H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2018TNSTR.652....1F",
-            "human_readable_name": "Fremling, C. & Taggart, K. (2018)"
-        },
-        {
-            "name": "2020TNSCR2260....1D",
-            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
         }
     ]
 }

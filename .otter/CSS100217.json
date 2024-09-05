@@ -3,43 +3,33 @@
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
     },
-    "date_reference": [
-        {
-            "value": "2002-12-31",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2011ApJ...735..106D",
-                "2017ApJ...835...64G"
-            ],
-            "default": false
-        },
-        {
-            "value": "2002-12-31 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2011ApJ...735..106D",
-                "2017ApJ...838..149A",
-                "2017NatAs...1..865K",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "10:29:13.0",
-            "dec": "+40:42:20",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2011BASI...39..387M",
-                "2000A&AS..143....9W"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
+    "name": {
+        "default_name": "CSS100217",
+        "alias": [
+            {
+                "value": "CSS 100217",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "CSS100217:102913+404220",
+                "reference": [
+                    "2011ApJ...735..106D",
+                    "2010ATel.2544....1D",
+                    "2000A&AS..143....9W"
+                ]
+            },
+            {
+                "value": "CSS100217",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2011ApJ...735..106D",
+                    "2010ATel.2544....1D"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017arXiv170307816B",
@@ -121,6 +111,30 @@
             "default": true
         }
     ],
+    "date_reference": [
+        {
+            "value": "2002-12-31",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2011ApJ...735..106D",
+                "2017ApJ...835...64G"
+            ],
+            "default": false
+        },
+        {
+            "value": "2002-12-31 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2011ApJ...735..106D",
+                "2017ApJ...838..149A",
+                "2017NatAs...1..865K",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -143,33 +157,19 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "CSS100217",
-        "alias": [
-            {
-                "value": "CSS 100217",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "CSS100217:102913+404220",
-                "reference": [
-                    "2011ApJ...735..106D",
-                    "2010ATel.2544....1D",
-                    "2000A&AS..143....9W"
-                ]
-            },
-            {
-                "value": "CSS100217",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2011ApJ...735..106D",
-                    "2010ATel.2544....1D"
-                ]
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "10:29:13.0",
+            "dec": "+40:42:20",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2011BASI...39..387M",
+                "2000A&AS..143....9W"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",

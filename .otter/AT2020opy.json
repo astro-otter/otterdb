@@ -1,37 +1,43 @@
 {
-    "name": {
-        "default_name": "2020opy",
-        "alias": [
-            {
-                "value": "ZTF20abjwvae",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS20fxm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2020opy",
-                "reference": [
-                    "TNS",
-                    "2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M",
-                    "2020TNSTR2111....1M"
-                ]
-            },
-            {
-                "value": "2020opy",
-                "reference": [
-                    "2023ApJS..266....9A",
-                    "TNS"
-                ]
-            }
-        ]
-    },
+    "date_reference": [
+        {
+            "value": "2459038.732",
+            "date_format": "jd",
+            "date_type": "discovery",
+            "reference": [
+                "2020TNSTR2111....1M"
+            ],
+            "default": true
+        },
+        {
+            "value": "59038.23",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2023MNRAS.518..847G"
+            ],
+            "default": false
+        },
+        {
+            "value": "59038.23241898148",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2020TNSTR2111....1M"
+            ],
+            "default": false
+        },
+        {
+            "value": "59089.15443287036",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "coordinate": [
         {
             "ra": "15 56 25.728",
@@ -42,7 +48,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": false,
-            "uuid": "a2ae78d0-d61a-4d4d-b925-f3fe88415731",
+            "uuid": "be8d98bd-8a6c-4eeb-ae6b-1accecfa30f8",
             "coordinate_type": "equitorial",
             "reference": [
                 "2023MNRAS.518..847G"
@@ -104,47 +110,8 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "a2ae78d0-d61a-4d4d-b925-f3fe88415731"
+                "be8d98bd-8a6c-4eeb-ae6b-1accecfa30f8"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2459038.732",
-            "date_format": "jd",
-            "date_type": "discovery",
-            "reference": [
-                "2020TNSTR2111....1M"
-            ],
-            "default": true
-        },
-        {
-            "value": "59038.23",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2023MNRAS.518..847G"
-            ],
-            "default": false
-        },
-        {
-            "value": "59038.23241898148",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2020TNSTR2111....1M"
-            ],
-            "default": false
-        },
-        {
-            "value": "59089.15443287036",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ],
     "filter_alias": [
@@ -383,6 +350,61 @@
             "wave_units": "nm"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2023MNRAS.518..847G",
+            "human_readable_name": "Goodwin et al. (2023)"
+        },
+        {
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR2111....1M",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2023ApJS..266....9A",
+            "human_readable_name": "Aleo, P. D. et al. (2023)"
+        }
+    ],
+    "name": {
+        "default_name": "2020opy",
+        "alias": [
+            {
+                "value": "ZTF20abjwvae",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS20fxm",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2020opy",
+                "reference": [
+                    "TNS",
+                    "2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M",
+                    "2020TNSTR2111....1M"
+                ]
+            },
+            {
+                "value": "2020opy",
+                "reference": [
+                    "2023ApJS..266....9A",
+                    "TNS"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": [
@@ -8141,28 +8163,10 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2023MNRAS.518..847G",
-            "human_readable_name": "Goodwin et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR2111....1M",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2023ApJS..266....9A",
-            "human_readable_name": "Aleo, P. D. et al. (2023)"
-        }
-    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Original Dataset"
+    },
     "classification": [
         {
             "object_class": "TDE",
@@ -8200,9 +8204,5 @@
                 "2023ApJS..266....9A"
             ]
         }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Original Dataset"
-    }
+    ]
 }

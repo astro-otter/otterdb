@@ -1,29 +1,25 @@
 {
-    "name": {
-        "default_name": "2019teq",
-        "alias": [
-            {
-                "value": "ZTF19accmaxo",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2019teq",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2019teq",
-                "reference": [
-                    "2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M",
-                    "2019TNSTR2172....1N"
-                ]
-            }
-        ]
-    },
+    "date_reference": [
+        {
+            "value": "58776.11638888889",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2019TNSTR2172....1N"
+            ],
+            "default": true
+        },
+        {
+            "value": "58794.13209490739",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "coordinate": [
         {
             "ra": "18:59:05.498",
@@ -60,40 +56,6 @@
             "reference": [
                 "2019TNSTR2172....1N"
             ]
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR2829....1H",
-                "2023ApJ...942....9H",
-                "2023arXiv230813595C",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58776.11638888889",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2019TNSTR2172....1N"
-            ],
-            "default": true
-        },
-        {
-            "value": "58794.13209490739",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ],
     "filter_alias": [
@@ -230,6 +192,85 @@
             "wave_units": "nm"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR2829....1H",
+                "2023ApJ...942....9H",
+                "2023arXiv230813595C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.0874",
+            "distance_type": "redshift",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "0.0878",
+            "distance_type": "redshift",
+            "reference": [
+                "2020TNSCR2829....1H"
+            ],
+            "default": false
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2019TNSTR2172....1N",
+            "human_readable_name": "Cendes, Y. et al. (2024)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Nordin, J. et al. (2019)"
+        },
+        {
+            "name": "2020TNSCR2829....1H",
+            "human_readable_name": "Hammerstein, E. (2020)"
+        }
+    ],
+    "name": {
+        "default_name": "2019teq",
+        "alias": [
+            {
+                "value": "ZTF19accmaxo",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2019teq",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2019teq",
+                "reference": [
+                    "2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M",
+                    "2019TNSTR2172....1N"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -10458,47 +10499,6 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.0874",
-            "distance_type": "redshift",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "0.0878",
-            "distance_type": "redshift",
-            "reference": [
-                "2020TNSCR2829....1H"
-            ],
-            "default": false
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2019TNSTR2172....1N",
-            "human_readable_name": "Cendes, Y. et al. (2024)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Nordin, J. et al. (2019)"
-        },
-        {
-            "name": "2020TNSCR2829....1H",
-            "human_readable_name": "Hammerstein, E. (2020)"
         }
     ]
 }

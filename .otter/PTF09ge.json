@@ -3,66 +3,39 @@
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
     },
-    "date_reference": [
-        {
-            "value": "2009-05-07",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2014ApJ...793...38A",
-                "2017ApJ...835...64G"
-            ],
-            "default": false
-        },
-        {
-            "value": "2009-05-07 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2014ApJ...793...38A",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "54992.41749999999",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2014ApJ...793...38A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "14:57:03.10",
-            "dec": "+49:36:40.80",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2000A&AS..143....9W",
-                "2009PASP..121.1395L",
-                "2017ApJ...838..149A"
-            ]
-        },
-        {
-            "ra": "224.26325",
-            "dec": "49.61138",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2014ApJ...793...38A",
-                "2024MNRAS.527.2452M"
-            ]
-        }
-    ],
+    "name": {
+        "default_name": "PTF09ge",
+        "alias": [
+            {
+                "value": "PTF 09ge",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "PTF-09ge",
+                "reference": [
+                    "2014ApJ...793...38A",
+                    "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "PTF09ge",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "MAST",
+                    "2012PASP..124..668Y",
+                    "2000A&AS..143....9W"
+                ]
+            },
+            {
+                "value": "K0905-001",
+                "reference": [
+                    "2000A&AS..143....9W"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -163,6 +136,39 @@
             "default": true
         }
     ],
+    "date_reference": [
+        {
+            "value": "2009-05-07",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2014ApJ...793...38A",
+                "2017ApJ...835...64G"
+            ],
+            "default": false
+        },
+        {
+            "value": "2009-05-07 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2014ApJ...793...38A",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "54992.41749999999",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2014ApJ...793...38A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -177,39 +183,33 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "PTF09ge",
-        "alias": [
-            {
-                "value": "PTF 09ge",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "K0905-001",
-                "reference": [
-                    "2000A&AS..143....9W"
-                ]
-            },
-            {
-                "value": "PTF-09ge",
-                "reference": [
-                    "2014ApJ...793...38A",
-                    "2024MNRAS.527.2452M"
-                ]
-            },
-            {
-                "value": "PTF09ge",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "MAST",
-                    "2012PASP..124..668Y",
-                    "2000A&AS..143....9W"
-                ]
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "14:57:03.10",
+            "dec": "+49:36:40.80",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2000A&AS..143....9W",
+                "2009PASP..121.1395L",
+                "2017ApJ...838..149A"
+            ]
+        },
+        {
+            "ra": "224.26325",
+            "dec": "49.61138",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2014ApJ...793...38A",
+                "2024MNRAS.527.2452M"
+            ]
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",

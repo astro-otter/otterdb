@@ -1,29 +1,33 @@
 {
-    "name": {
-        "default_name": "2022cmc",
-        "alias": [
-            {
-                "value": "2022cmc",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF22aaajecp",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022cmc",
-                "reference": [
-                    "TNS",
-                    "2022TNSTR.397....1A",
-                    "2022TNSTR.397....1A"
-                ]
-            }
-        ]
-    },
+    "date_reference": [
+        {
+            "value": "2459621.946",
+            "date_format": "jd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR.397....1A"
+            ],
+            "default": true
+        },
+        {
+            "value": "59621.4463",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR.397....1A"
+            ],
+            "default": false
+        },
+        {
+            "value": "59621.45",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2022Natur.612..430A"
+            ],
+            "default": false
+        }
+    ],
     "coordinate": [
         {
             "ra": "13 34 43.207",
@@ -34,7 +38,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": true,
-            "uuid": "a4a9690a-ebe9-4c3e-8bbe-45793649af10",
+            "uuid": "17303e90-59c7-4381-be65-d6d611b1993e",
             "coordinate_type": "equitorial",
             "reference": [
                 "2022Natur.612..430A"
@@ -73,37 +77,8 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "a4a9690a-ebe9-4c3e-8bbe-45793649af10"
+                "17303e90-59c7-4381-be65-d6d611b1993e"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2459621.946",
-            "date_format": "jd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR.397....1A"
-            ],
-            "default": true
-        },
-        {
-            "value": "59621.4463",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR.397....1A"
-            ],
-            "default": false
-        },
-        {
-            "value": "59621.45",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022Natur.612..430A"
-            ],
-            "default": false
         }
     ],
     "filter_alias": [
@@ -468,6 +443,45 @@
             "wave_units": "nm"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2022Natur.612..430A",
+            "human_readable_name": "Igor et al. (2022)"
+        },
+        {
+            "name": "2022TNSTR.397....1A",
+            "human_readable_name": "Rhodes, L. et al. (2023)"
+        },
+        {
+            "name": "2023MNRAS.521..389R",
+            "human_readable_name": "Andreoni, I. (2022)"
+        }
+    ],
+    "name": {
+        "default_name": "2022cmc",
+        "alias": [
+            {
+                "value": "2022cmc",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF22aaajecp",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022cmc",
+                "reference": [
+                    "TNS",
+                    "2022TNSTR.397....1A",
+                    "2022TNSTR.397....1A"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": [
@@ -3581,20 +3595,10 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2022Natur.612..430A",
-            "human_readable_name": "Igor et al. (2022)"
-        },
-        {
-            "name": "2022TNSTR.397....1A",
-            "human_readable_name": "Rhodes, L. et al. (2023)"
-        },
-        {
-            "name": "2023MNRAS.521..389R",
-            "human_readable_name": "Andreoni, I. (2022)"
-        }
-    ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Original Dataset"
+    },
     "classification": [
         {
             "object_class": "TDE",
@@ -3616,9 +3620,5 @@
             "default": true,
             "distance_type": "redshift"
         }
-    ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Original Dataset"
-    }
+    ]
 }

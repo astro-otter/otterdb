@@ -1,4 +1,26 @@
 {
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
+    "name": {
+        "default_name": "ASASSN-20il",
+        "alias": [
+            {
+                "value": "AT 2020pom",
+                "reference": [
+                    "ASAS-SN Supernovae"
+                ]
+            },
+            {
+                "value": "ASASSN-20il",
+                "reference": [
+                    "ASAS-SN Supernovae",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "ASAS-SN Supernovae",
@@ -15,22 +37,6 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Brimacombe, J. & Stanek, K. Z. (2020)"
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "coordinate": [
-        {
-            "ra": "5:03:11.3",
-            "dec": "-22:48:52.1",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "ASAS-SN Supernovae"
-            ],
-            "coordinate_type": "equitorial"
         }
     ],
     "date_reference": [
@@ -68,24 +74,18 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "ASASSN-20il",
-        "alias": [
-            {
-                "value": "AT 2020pom",
-                "reference": [
-                    "ASAS-SN Supernovae"
-                ]
-            },
-            {
-                "value": "ASASSN-20il",
-                "reference": [
-                    "ASAS-SN Supernovae",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "5:03:11.3",
+            "dec": "-22:48:52.1",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "ASAS-SN Supernovae"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "host": [
         {
             "host_name": "ESO 486-G 017",

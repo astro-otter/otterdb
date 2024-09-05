@@ -3,42 +3,18 @@
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
     },
-    "date_reference": [
-        {
-            "value": "2000-08-23",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": false
-        },
-        {
-            "value": "2000-08-23 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2015ApJ...811...43L",
-                "2017ApJ...838..149A",
-                "2021SSRv..217...18S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "15:21:30.75",
-            "dec": "+07:49:16.70",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
+    "name": {
+        "default_name": "3XMM J152130.7+074916",
+        "alias": [
+            {
+                "value": "3XMM J152130.7+074916",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -106,6 +82,30 @@
             "default": true
         }
     ],
+    "date_reference": [
+        {
+            "value": "2000-08-23",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": false
+        },
+        {
+            "value": "2000-08-23 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2015ApJ...811...43L",
+                "2017ApJ...838..149A",
+                "2021SSRv..217...18S",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -127,18 +127,18 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "3XMM J152130.7+074916",
-        "alias": [
-            {
-                "value": "3XMM J152130.7+074916",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "15:21:30.75",
+            "dec": "+07:49:16.70",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",

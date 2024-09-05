@@ -3,41 +3,18 @@
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
     },
-    "date_reference": [
-        {
-            "value": "2003-03-22",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": false
-        },
-        {
-            "value": "2003-03-22 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2011A&A...535L...1B",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "17:36:17.42",
-            "dec": "-44:44:05.98",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
+    "name": {
+        "default_name": "IGR J17361-4441",
+        "alias": [
+            {
+                "value": "IGR J17361-4441",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -103,6 +80,29 @@
             "default": true
         }
     ],
+    "date_reference": [
+        {
+            "value": "2003-03-22",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": false
+        },
+        {
+            "value": "2003-03-22 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2011A&A...535L...1B",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -124,18 +124,18 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "IGR J17361-4441",
-        "alias": [
-            {
-                "value": "IGR J17361-4441",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "17:36:17.42",
+            "dec": "-44:44:05.98",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",

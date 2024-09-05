@@ -3,6 +3,18 @@
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
     },
+    "name": {
+        "default_name": "PGC 015259",
+        "alias": [
+            {
+                "value": "PGC 015259",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -31,18 +43,6 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "04:29:21.84",
-            "dec": "-04:45:36.00",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
         }
     ],
     "distance": [
@@ -95,29 +95,16 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "PGC 015259",
-        "alias": [
-            {
-                "value": "PGC 015259",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
+    "coordinate": [
         {
-            "value": "2010-02-08 ",
-            "date_format": "iso",
-            "date_type": "discovery",
+            "ra": "04:29:21.84",
+            "dec": "-04:45:36.00",
+            "ra_units": "hour",
+            "dec_units": "deg",
             "reference": [
-                "2023PASP..135c4101G",
-                "2016A&A...586A...9H",
                 "2017ApJ...838..149A"
             ],
-            "default": true
+            "coordinate_type": "equitorial"
         }
     ],
     "host": [
@@ -132,6 +119,19 @@
                 "2016A&A...586A...9H",
                 "2017ApJ...838..149A"
             ]
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2010-02-08 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2016A&A...586A...9H",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         }
     ]
 }

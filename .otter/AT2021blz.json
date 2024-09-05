@@ -1,27 +1,4 @@
 {
-    "name": {
-        "default_name": "2021blz",
-        "alias": [
-            {
-                "value": "ATLAS21djg",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2021blz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2021blz",
-                "reference": [
-                    "2021TNSTR.312....1T"
-                ]
-            }
-        ]
-    },
     "coordinate": [
         {
             "ra": "68.130215",
@@ -48,17 +25,6 @@
             "default": false
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR.338....1M",
-                "2024arXiv240712097A"
-            ],
-            "default": true
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "887.5MHz",
@@ -79,6 +45,54 @@
             "wave_units": "nm"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR.338....1M",
+                "2024arXiv240712097A"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2021TNSTR.312....1T",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024arXiv240712097A",
+            "human_readable_name": "Tonry, J. et al. (2021)"
+        },
+        {
+            "name": "2021TNSCR.338....1M",
+            "human_readable_name": "Magee, M. et al. (2021)"
+        }
+    ],
+    "name": {
+        "default_name": "2021blz",
+        "alias": [
+            {
+                "value": "ATLAS21djg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2021blz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2021blz",
+                "reference": [
+                    "2021TNSTR.312....1T"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": "2024arXiv240712097A",
@@ -195,20 +209,6 @@
             "corr_hostav": false,
             "telescope": "ATLAS-MLO",
             "instrument": "ATLAS-01"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2021TNSTR.312....1T",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024arXiv240712097A",
-            "human_readable_name": "Tonry, J. et al. (2021)"
-        },
-        {
-            "name": "2021TNSCR.338....1M",
-            "human_readable_name": "Magee, M. et al. (2021)"
         }
     ],
     "date_reference": [

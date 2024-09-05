@@ -1,35 +1,25 @@
 {
-    "name": {
-        "default_name": "2021gje",
-        "alias": [
-            {
-                "value": "ATLAS21kpm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2021gje",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF21aapvvtb",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2021gje",
-                "reference": [
-                    "2021TNSCR1723....1H",
-                    "2024MNRAS.527.2452M",
-                    "2021TNSTR.815....1M"
-                ]
-            }
-        ]
-    },
+    "date_reference": [
+        {
+            "value": "59291.489282395836",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2021TNSTR.815....1M"
+            ],
+            "default": true
+        },
+        {
+            "value": "59305.958333333336",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2021TNSCR1723....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "coordinate": [
         {
             "ra": "252.5305188",
@@ -66,40 +56,6 @@
             "reference": [
                 "2021TNSTR.815....1M"
             ]
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR1722....1H",
-                "2021TNSCR1723....1H",
-                "2024MNRAS.527.2452M",
-                "2024arXiv240712097A"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "59291.489282395836",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2021TNSTR.815....1M"
-            ],
-            "default": true
-        },
-        {
-            "value": "59305.958333333336",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2021TNSCR1723....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ],
     "filter_alias": [
@@ -194,6 +150,88 @@
             "wave_units": "nm"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR1722....1H",
+                "2021TNSCR1723....1H",
+                "2024MNRAS.527.2452M",
+                "2024arXiv240712097A"
+            ],
+            "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.358",
+            "distance_type": "redshift",
+            "reference": [
+                "2021TNSCR1722....1H",
+                "2021TNSCR1723....1H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2021TNSCR1723....1H",
+            "human_readable_name": "Hammerstein, E. et al. (2021)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2021TNSTR.815....1M",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024arXiv240712097A",
+            "human_readable_name": "Munoz-Arancibia, A. et al. (2021)"
+        },
+        {
+            "name": "2021TNSCR1722....1H",
+            "human_readable_name": "Hammerstein, E. (2021)"
+        },
+        {
+            "name": " 2021TNSCR1723....1H",
+            "human_readable_name": "Hammerstein, E. et al. (2021)"
+        }
+    ],
+    "name": {
+        "default_name": "2021gje",
+        "alias": [
+            {
+                "value": "ATLAS21kpm",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF21aapvvtb",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2021gje",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2021gje",
+                "reference": [
+                    "2021TNSCR1723....1H",
+                    "2024MNRAS.527.2452M",
+                    "2021TNSTR.815....1M"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -8536,44 +8574,6 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.358",
-            "distance_type": "redshift",
-            "reference": [
-                "2021TNSCR1722....1H",
-                "2021TNSCR1723....1H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2021TNSCR1723....1H",
-            "human_readable_name": "Hammerstein, E. et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2021TNSTR.815....1M",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024arXiv240712097A",
-            "human_readable_name": "Munoz-Arancibia, A. et al. (2021)"
-        },
-        {
-            "name": "2021TNSCR1722....1H",
-            "human_readable_name": "Hammerstein, E. (2021)"
-        },
-        {
-            "name": " 2021TNSCR1723....1H",
-            "human_readable_name": "Hammerstein, E. et al. (2021)"
         }
     ]
 }
