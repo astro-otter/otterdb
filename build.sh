@@ -25,4 +25,5 @@ echo "arango server is now running in the background"
 
 sleep 10
 
+python3 -m pip install pyArango
 python3 import_jsons.py # imports the data from the .otter directory
