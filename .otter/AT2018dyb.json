@@ -18,6 +18,42 @@
             }
         ]
     },
+    "coordinate": [
+        {
+            "ra": "16:10:58.774",
+            "dec": "-60:55:23.16",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2018TNSTR.982....1B"
+            ]
+        },
+        {
+            "ra": "16:10:58.774",
+            "dec": "-60:55:23.16",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2018TNSTR.982....1B"
+            ]
+        },
+        {
+            "ra": "242.745322",
+            "dec": "-60.923441",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2019ApJ...887..218L",
+                "2024MNRAS.527.2452M"
+            ]
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -29,36 +65,6 @@
                 "['2020ApJ...898..161H', '2020SSRv..216...81A']"
             ],
             "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2019ApJ...887..218L",
-            "human_readable_name": "Leloudas, Giorgos et al. (2019)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2018TNSTR.982....1B",
-            "human_readable_name": "Alexander, Kate D. et al. (2020)"
-        },
-        {
-            "name": "2020ApJ...898..161H",
-            "human_readable_name": "Holoien, Thomas W. -S. et al. (2020)"
-        },
-        {
-            "name": "2020SSRv..216...81A",
-            "human_readable_name": "Brimacombe, J. et al. (2018)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Holoien, Thomas W. -S. et al. (2020)"
-        },
-        {
-            "name": "2024arXiv240712097A",
-            "human_readable_name": "Brimacombe, J. et al. (2018)"
         }
     ],
     "filter_alias": [
@@ -129,40 +135,34 @@
             "freq_units": "MHz"
         }
     ],
-    "coordinate": [
+    "reference_alias": [
         {
-            "ra": "16:10:58.774",
-            "dec": "-60:55:23.16",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2018TNSTR.982....1B"
-            ]
+            "name": "2019ApJ...887..218L",
+            "human_readable_name": "Leloudas, Giorgos et al. (2019)"
         },
         {
-            "ra": "16:10:58.774",
-            "dec": "-60:55:23.16",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2018TNSTR.982....1B"
-            ]
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
         },
         {
-            "ra": "242.745322",
-            "dec": "-60.923441",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2019ApJ...887..218L",
-                "2024MNRAS.527.2452M"
-            ]
+            "name": "2018TNSTR.982....1B",
+            "human_readable_name": "Alexander, Kate D. et al. (2020)"
+        },
+        {
+            "name": "2020ApJ...898..161H",
+            "human_readable_name": "Holoien, Thomas W. -S. et al. (2020)"
+        },
+        {
+            "name": "2020SSRv..216...81A",
+            "human_readable_name": "Brimacombe, J. et al. (2018)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Holoien, Thomas W. -S. et al. (2020)"
+        },
+        {
+            "name": "2024arXiv240712097A",
+            "human_readable_name": "Brimacombe, J. et al. (2018)"
         }
     ],
     "photometry": [

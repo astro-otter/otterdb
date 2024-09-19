@@ -17,6 +17,31 @@
             }
         ]
     },
+    "coordinate": [
+        {
+            "ra": "08:48:28.12",
+            "dec": "+22:03:33.575",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2019ApJ...873...92B"
+            ],
+            "default": false
+        },
+        {
+            "ra": "132.11723694",
+            "dec": "22.059304506",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2019ApJ...873...92B",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -27,24 +52,6 @@
                 "2024MNRAS.527.2452M"
             ],
             "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2019ApJ...873...92B",
-            "human_readable_name": "Blagorodnova, N. et al. (2019)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2017MNRAS.471.1694W",
-            "human_readable_name": "Wevers, Thomas et al. (2017)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Cendes, Y. et al. (2024)"
         }
     ],
     "filter_alias": [
@@ -109,29 +116,22 @@
             "freq_units": "GHz"
         }
     ],
-    "coordinate": [
+    "reference_alias": [
         {
-            "ra": "08:48:28.12",
-            "dec": "+22:03:33.575",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2019ApJ...873...92B"
-            ],
-            "default": false
+            "name": "2019ApJ...873...92B",
+            "human_readable_name": "Blagorodnova, N. et al. (2019)"
         },
         {
-            "ra": "132.11723694",
-            "dec": "22.059304506",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2019ApJ...873...92B",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.471.1694W",
+            "human_readable_name": "Wevers, Thomas et al. (2017)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Blagorodnova, N. et al. (2019)"
         }
     ],
     "photometry": [

@@ -1,15 +1,4 @@
 {
-    "distance": [
-        {
-            "value": "0.029",
-            "distance_type": "redshift",
-            "reference": [
-                "2019A&A...630A..98S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
     "name": {
         "default_name": "XMMSL2 J144605.0+685735",
         "alias": [
@@ -27,32 +16,6 @@
             }
         ]
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2019A&A...630A..98S",
-                "2023PASP..135c4101G",
-                "['2019A&A...630A..98S', '2020SSRv..216...81A']"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2019A&A...630A..98S",
-            "human_readable_name": "Saxton, R. D. et al. (2019)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2020SSRv..216...81A",
-            "human_readable_name": "Alexander, Kate D. et al. (2020)"
-        }
-    ],
     "coordinate": [
         {
             "ra": "221.52083333333331",
@@ -78,6 +41,47 @@
             ]
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2019A&A...630A..98S",
+                "2023PASP..135c4101G",
+                "['2019A&A...630A..98S', '2020SSRv..216...81A']"
+            ],
+            "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2019A&A...630A..98S",
+            "human_readable_name": "Saxton, R. D. et al. (2019)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2020SSRv..216...81A",
+            "human_readable_name": "Saxton, R. D. et al. (2019)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.029",
+            "distance_type": "redshift",
+            "reference": [
+                "2019A&A...630A..98S",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "host": [
         {
             "host_name": "2MASX 14460522+6857311, LEDA 2725953",
@@ -91,10 +95,6 @@
             ]
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "date_reference": [
         {
             "value": "2006-08-22 ",

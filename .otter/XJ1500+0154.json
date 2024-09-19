@@ -1,25 +1,19 @@
 {
+    "coordinate": [
+        {
+            "ra": "15:00:52.0",
+            "dec": "+01:54:52",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017NatAs...1E..33L"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
-    },
-    "name": {
-        "default_name": "3XMM J150052.0+015452",
-        "alias": [
-            {
-                "value": "XJ1500+0154",
-                "reference": [
-                    "2017NatAs...1E..33L"
-                ]
-            },
-            {
-                "value": "3XMM J150052.0+015452",
-                "reference": [
-                    "2017NatAs...1E..33L",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
     },
     "reference_alias": [
         {
@@ -40,7 +34,36 @@
         },
         {
             "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+            "human_readable_name": "Lin, Dacheng et al. (2017)"
+        }
+    ],
+    "name": {
+        "default_name": "3XMM J150052.0+015452",
+        "alias": [
+            {
+                "value": "XJ1500+0154",
+                "reference": [
+                    "2017NatAs...1E..33L"
+                ]
+            },
+            {
+                "value": "3XMM J150052.0+015452",
+                "reference": [
+                    "2017NatAs...1E..33L",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017NatAs...1E..33L",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         }
     ],
     "distance": [
@@ -74,29 +97,6 @@
                 "2017NatAs...1E..33L"
             ],
             "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017NatAs...1E..33L",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "15:00:52.0",
-            "dec": "+01:54:52",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017NatAs...1E..33L"
-            ],
-            "coordinate_type": "equitorial"
         }
     ],
     "host": [

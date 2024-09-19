@@ -22,6 +22,59 @@
             }
         ]
     },
+    "coordinate": [
+        {
+            "ra": "12 58 05.1",
+            "dec": "+01 34 26",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "f9ae0d90-8c1c-4f2c-a96c-d8ea22bf2dcb",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2015ApJ...809..172I",
+                "2016MNRAS.461.3375Y",
+                "2017ApJ...842..126P"
+            ]
+        },
+        {
+            "ra": "12:58:05.1",
+            "dec": "+01:34:26",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2015ApJ...809..172I"
+            ]
+        },
+        {
+            "ra": "12:58:05.1",
+            "dec": "+01:34:26",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2015ApJ...809..172I"
+            ]
+        },
+        {
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "306.7781925952877",
+            "b": "64.39598414557777",
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": [
+                "f9ae0d90-8c1c-4f2c-a96c-d8ea22bf2dcb"
+            ]
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -32,24 +85,6 @@
                 "2017ApJ...842..126P"
             ],
             "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2015ApJ...809..172I",
-            "human_readable_name": "Irwin et al. (2015)"
-        },
-        {
-            "name": "2016MNRAS.461.3375Y",
-            "human_readable_name": "Yuan et al. (2016)"
-        },
-        {
-            "name": "2017ApJ...842..126P",
-            "human_readable_name": "Perlman et al. (2017)"
-        },
-        {
-            "name": "2022ApJ...925..143P",
-            "human_readable_name": "Perlman, Eric S. et al. (2017)"
         }
     ],
     "filter_alias": [
@@ -114,57 +149,22 @@
             "freq_units": "GHz"
         }
     ],
-    "coordinate": [
+    "reference_alias": [
         {
-            "ra": "12 58 05.1",
-            "dec": "+01 34 26",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "computed": "False",
-            "default": true,
-            "uuid": "e9fd619c-cb86-4d92-872b-8f50ecc9f64b",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2015ApJ...809..172I",
-                "2016MNRAS.461.3375Y",
-                "2017ApJ...842..126P"
-            ]
+            "name": "2015ApJ...809..172I",
+            "human_readable_name": "Irwin et al. (2015)"
         },
         {
-            "ra": "12:58:05.1",
-            "dec": "+01:34:26",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2015ApJ...809..172I"
-            ]
+            "name": "2016MNRAS.461.3375Y",
+            "human_readable_name": "Yuan et al. (2016)"
         },
         {
-            "ra": "12:58:05.1",
-            "dec": "+01:34:26",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2015ApJ...809..172I"
-            ]
+            "name": "2017ApJ...842..126P",
+            "human_readable_name": "Perlman et al. (2017)"
         },
         {
-            "computed": "True",
-            "default": true,
-            "coordinate_type": "galactic",
-            "l": "306.7781925952877",
-            "b": "64.39598414557777",
-            "l_units": "deg",
-            "b_units": "deg",
-            "reference": [
-                "e9fd619c-cb86-4d92-872b-8f50ecc9f64b"
-            ]
+            "name": "2022ApJ...925..143P",
+            "human_readable_name": "Perlman, Eric S. et al. (2017)"
         }
     ],
     "photometry": [
@@ -503,6 +503,10 @@
             "corr_hostav": false
         }
     ],
+    "schema_version": {
+        "value": "0",
+        "comment": "Original Dataset"
+    },
     "distance": [
         {
             "value": "0.00411",
@@ -516,10 +520,6 @@
             "distance_type": "redshift"
         }
     ],
-    "schema_version": {
-        "value": "0",
-        "comment": "Original Dataset"
-    },
     "date_reference": [
         {
             "value": 55572,

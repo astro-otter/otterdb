@@ -1,4 +1,60 @@
 {
+    "coordinate": [
+        {
+            "ra": "18:08:07.549",
+            "dec": "+13:15:05.40",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2017ATel10216....1K"
+            ],
+            "default": true
+        },
+        {
+            "ra": "272.031417",
+            "dec": "13.251511",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2019TNSTR1760....1H"
+            ],
+            "default": false
+        }
+    ],
+    "name": {
+        "default_name": "2019pqt",
+        "alias": [
+            {
+                "value": "Gaia19dya",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2019pqt",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF 18abxftqm",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "MAXI J1807+132",
+                "reference": [
+                    "2017ATel10216....1K",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2017-03-15 ",
@@ -35,32 +91,6 @@
             "value": "58732.14",
             "date_format": "mjd",
             "date_type": "discovery",
-            "reference": [
-                "2019TNSTR1760....1H"
-            ],
-            "default": false
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "18:08:07.549",
-            "dec": "+13:15:05.40",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2017ATel10216....1K"
-            ],
-            "default": true
-        },
-        {
-            "ra": "272.031417",
-            "dec": "13.251511",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
             "reference": [
                 "2019TNSTR1760....1H"
             ],
@@ -108,15 +138,15 @@
         },
         {
             "name": "2017ATel.9988....1N",
-            "human_readable_name": "Nakajima, M. et al. (2017)"
-        },
-        {
-            "name": "2021MNRAS.501..261A",
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         },
         {
-            "name": "2023PASP..135c4101G",
+            "name": "2021MNRAS.501..261A",
             "human_readable_name": "Albayati, A. C. et al. (2021)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Nakajima, M. et al. (2017)"
         },
         {
             "name": "2018ATel12263....1V",
@@ -125,54 +155,6 @@
         {
             "name": "2019TNSTR1760....1H",
             "human_readable_name": "Hodgkin, S. T. et al. (2019)"
-        }
-    ],
-    "name": {
-        "default_name": "2019pqt",
-        "alias": [
-            {
-                "value": "Gaia19dya",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2019pqt",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF 18abxftqm",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "MAXI J1807+132",
-                "reference": [
-                    "2017ATel10216....1K",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ATel.9988....1N",
-                "2017ATel10216....1K",
-                "2018ATel12263....1V",
-                "2021MNRAS.501..261A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
         }
     ],
     "distance": [
@@ -187,6 +169,24 @@
             "distance_type": "redshift"
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ATel.9988....1N",
+                "2017ATel10216....1K",
+                "2018ATel12263....1V",
+                "2021MNRAS.501..261A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "photometry": [
         {
             "raw": [

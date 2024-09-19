@@ -1,25 +1,19 @@
 {
+    "coordinate": [
+        {
+            "ra": "18:47:25.16",
+            "dec": "-63:17:24.96",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2011ApJ...738...52L"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
-    },
-    "name": {
-        "default_name": "2XMMi J1847",
-        "alias": [
-            {
-                "value": "2XMMi J1847",
-                "reference": [
-                    "2011ApJ...738...52L"
-                ]
-            },
-            {
-                "value": "2XMMi J184725.1-631724",
-                "reference": [
-                    "2011ApJ...738...52L",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
     },
     "reference_alias": [
         {
@@ -40,11 +34,42 @@
         },
         {
             "name": "2018MNRAS.474.3000L",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+            "human_readable_name": "Lin, Dacheng et al. (2011)"
         },
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Lin, Dacheng et al. (2018)"
+        }
+    ],
+    "name": {
+        "default_name": "2XMMi J1847",
+        "alias": [
+            {
+                "value": "2XMMi J1847",
+                "reference": [
+                    "2011ApJ...738...52L"
+                ]
+            },
+            {
+                "value": "2XMMi J184725.1-631724",
+                "reference": [
+                    "2011ApJ...738...52L",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2011ApJ...738...52L",
+                "2017ApJ...835...64G",
+                "2018MNRAS.474.3000L",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         }
     ],
     "distance": [
@@ -79,31 +104,6 @@
                 "2017ApJ...835...64G"
             ],
             "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2011ApJ...738...52L",
-                "2017ApJ...835...64G",
-                "2018MNRAS.474.3000L",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "18:47:25.16",
-            "dec": "-63:17:24.96",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2011ApJ...738...52L"
-            ],
-            "coordinate_type": "equitorial"
         }
     ],
     "host": [

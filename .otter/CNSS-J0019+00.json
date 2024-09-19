@@ -1,14 +1,4 @@
 {
-    "distance": [
-        {
-            "value": "0.018",
-            "distance_type": "redshift",
-            "reference": [
-                "2020ApJ...903..116A"
-            ],
-            "default": true
-        }
-    ],
     "name": {
         "default_name": "CNSS J0019+00",
         "alias": [
@@ -21,6 +11,46 @@
             }
         ]
     },
+    "coordinate": [
+        {
+            "ra": "00 19 47.335038",
+            "dec": "+00 35 26.8102",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "6dfc1a4a-d48b-4f5c-b659-170f22042dc7",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2020ApJ...903..116A"
+            ]
+        },
+        {
+            "ra": "00:19:47.3",
+            "dec": "+00:35:27",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2020ApJ...903..116A"
+            ]
+        },
+        {
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "106.29996914088225",
+            "b": "-61.254791571842965",
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": [
+                "6dfc1a4a-d48b-4f5c-b659-170f22042dc7"
+            ]
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -29,32 +59,6 @@
                 "2020ApJ...903..116A"
             ],
             "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2015-03-21",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2020ApJ...903..116A"
-            ],
-            "default": true
-        },
-        {
-            "value": "56580.0",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2020ApJ...903..116A"
-            ],
-            "default": false
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2020ApJ...903..116A",
-            "human_readable_name": "Anderson et al. (2020)"
         }
     ],
     "filter_alias": [
@@ -347,44 +351,20 @@
             "freq_units": "GHz"
         }
     ],
-    "coordinate": [
+    "reference_alias": [
         {
-            "ra": "00 19 47.335038",
-            "dec": "+00 35 26.8102",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "computed": "False",
-            "default": true,
-            "uuid": "14b087f4-7cda-4a37-b3da-480d80af2206",
-            "coordinate_type": "equitorial",
+            "name": "2020ApJ...903..116A",
+            "human_readable_name": "Anderson et al. (2020)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.018",
+            "distance_type": "redshift",
             "reference": [
                 "2020ApJ...903..116A"
-            ]
-        },
-        {
-            "ra": "00:19:47.3",
-            "dec": "+00:35:27",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2020ApJ...903..116A"
-            ]
-        },
-        {
-            "computed": "True",
-            "default": true,
-            "coordinate_type": "galactic",
-            "l": "106.29996914088225",
-            "b": "-61.254791571842965",
-            "l_units": "deg",
-            "b_units": "deg",
-            "reference": [
-                "14b087f4-7cda-4a37-b3da-480d80af2206"
-            ]
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -886,6 +866,26 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2015-03-21",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2020ApJ...903..116A"
+            ],
+            "default": true
+        },
+        {
+            "value": "56580.0",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2020ApJ...903..116A"
+            ],
+            "default": false
         }
     ],
     "schema_version": {

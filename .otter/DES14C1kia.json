@@ -18,6 +18,31 @@
             }
         ]
     },
+    "coordinate": [
+        {
+            "ra": "03:34:47.49",
+            "dec": "-26:19:35.0",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2000A&AS..143....9W",
+                "2015ATel.6877....1F"
+            ],
+            "default": true
+        },
+        {
+            "ra": "03:34:47.49",
+            "dec": "-26:19:35.0",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2015ATel.6877....1F"
+            ],
+            "default": false
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -30,6 +55,28 @@
                 "2023arXiv230813595C"
             ],
             "default": true
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "6.0GHz",
+            "filter_name": "C",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "21.7GHz",
+            "filter_name": "K",
+            "freq_eff": 21.7,
+            "freq_units": "GHz"
         }
     ],
     "reference_alias": [
@@ -59,58 +106,11 @@
         },
         {
             "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+            "human_readable_name": "Foley, R. J. et al. (2015)"
         },
         {
             "name": "2023arXiv230813595C",
             "human_readable_name": "Foley, R. J. et al. (2015)"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "6.0GHz",
-            "filter_name": "C",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "21.7GHz",
-            "filter_name": "K",
-            "freq_eff": 21.7,
-            "freq_units": "GHz"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "03:34:47.49",
-            "dec": "-26:19:35.0",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2000A&AS..143....9W",
-                "2015ATel.6877....1F"
-            ],
-            "default": true
-        },
-        {
-            "ra": "03:34:47.49",
-            "dec": "-26:19:35.0",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2015ATel.6877....1F"
-            ],
-            "default": false
         }
     ],
     "photometry": [
@@ -316,20 +316,6 @@
             "corr_hostav": false
         }
     ],
-    "host": [
-        {
-            "host_name": "Uncataloged, 03:34:47.49-26:19:35.0",
-            "host_ra": 53.69583333333332,
-            "host_dec": -26.32638888888889,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2015ATel.6877....1F",
-                "2017ApJ...838..149A"
-            ]
-        }
-    ],
     "distance": [
         {
             "value": "0.162",
@@ -370,6 +356,20 @@
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
     },
+    "host": [
+        {
+            "host_name": "Uncataloged, 03:34:47.49-26:19:35.0",
+            "host_ra": 53.69583333333332,
+            "host_dec": -26.32638888888889,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2015ATel.6877....1F",
+                "2017ApJ...838..149A"
+            ]
+        }
+    ],
     "date_reference": [
         {
             "value": "2014-01-01",

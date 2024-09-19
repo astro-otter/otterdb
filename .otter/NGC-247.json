@@ -1,19 +1,17 @@
 {
+    "coordinate": [
+        {
+            "ra": "00:47:08.64",
+            "dec": "-20:45:36",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
-    },
-    "name": {
-        "default_name": "NGC 247",
-        "alias": [
-            {
-                "value": "NGC 247",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
     },
     "reference_alias": [
         {
@@ -38,11 +36,36 @@
         },
         {
             "name": "2011ApJ...737...87J",
-            "human_readable_name": "Jin, Jing et al. (2011)"
+            "human_readable_name": "Auchettl, Katie et al. (2017)"
         },
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Feng, Hua et al. (2015)"
+        }
+    ],
+    "name": {
+        "default_name": "NGC 247",
+        "alias": [
+            {
+                "value": "NGC 247",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2011ApJ...737...87J",
+                "2015ApJ...807..185F",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         }
     ],
     "distance": [
@@ -80,29 +103,6 @@
                 "2017ApJ...838..149A"
             ],
             "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2011ApJ...737...87J",
-                "2015ApJ...807..185F",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "00:47:08.64",
-            "dec": "-20:45:36",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [],
-            "coordinate_type": "equitorial"
         }
     ],
     "host": [

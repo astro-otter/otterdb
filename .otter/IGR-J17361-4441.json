@@ -1,19 +1,19 @@
 {
+    "coordinate": [
+        {
+            "ra": "17:36:17.42",
+            "dec": "-44:44:05.98",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
-    },
-    "name": {
-        "default_name": "IGR J17361-4441",
-        "alias": [
-            {
-                "value": "IGR J17361-4441",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
     },
     "reference_alias": [
         {
@@ -38,48 +38,25 @@
         },
         {
             "name": "2011A&A...535L...1B",
-            "human_readable_name": "Bozzo, E. et al. (2011)"
+            "human_readable_name": "Auchettl, Katie et al. (2017)"
         },
         {
             "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+            "human_readable_name": "Bozzo, E. et al. (2011)"
         }
     ],
-    "distance": [
-        {
-            "value": "0.000271",
-            "distance_type": "redshift",
-            "reference": [
-                "2011A&A...535L...1B",
-                "2014arXiv1407.5081D",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "1.2",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2014arXiv1407.5081D",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
-        },
-        {
-            "value": "1.2",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2014arXiv1407.5081D",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
-        }
-    ],
+    "name": {
+        "default_name": "IGR J17361-4441",
+        "alias": [
+            {
+                "value": "IGR J17361-4441",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "date_reference": [
         {
             "value": "2003-03-22",
@@ -124,26 +101,39 @@
             "default": false
         }
     ],
-    "coordinate": [
+    "distance": [
         {
-            "ra": "17:36:17.42",
-            "dec": "-44:44:05.98",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "value": "0.000271",
+            "distance_type": "redshift",
             "reference": [
-                "2017ApJ...838..149A"
+                "2011A&A...535L...1B",
+                "2014arXiv1407.5081D",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
             ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "filter_alias": [
+            "default": true
+        },
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
+            "value": "1.2",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2014arXiv1407.5081D",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        },
+        {
+            "value": "1.2",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2014arXiv1407.5081D",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -371,6 +361,16 @@
                 "2017ApJ...838..149A"
             ],
             "corr_s": null
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "host": [

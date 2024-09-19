@@ -1,60 +1,11 @@
 {
-    "distance": [
-        {
-            "value": "0.08",
-            "distance_type": "redshift",
-            "reference": [
-                "ASAS-SN Supernovae"
-            ],
-            "default": false
-        },
-        {
-            "value": "0.0804",
-            "distance_type": "redshift",
-            "reference": [
-                "2017ApJ...843..106B",
-                "2017NatAs...1..865K",
-                "2021ApJ...910...83H",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "300",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "ASAS-SN Supernovae"
-            ],
-            "default": true
-        },
-        {
-            "value": "400",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "ASAS-SN Supernovae"
-            ],
-            "default": true
-        }
-    ],
     "name": {
         "default_name": "AT2016ezh",
         "alias": [
             {
-                "value": "AT 2016ezh",
+                "value": "CSS160902:015805-005222",
                 "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "PS16dtm (2016ezh)",
-                "reference": [
-                    "ASAS-SN Supernovae"
+                    "2000A&AS..143....9W"
                 ]
             },
             {
@@ -64,9 +15,15 @@
                 ]
             },
             {
-                "value": "CSS160902:015805-005222",
+                "value": "PS16dtm (2016ezh)",
                 "reference": [
-                    "2000A&AS..143....9W"
+                    "ASAS-SN Supernovae"
+                ]
+            },
+            {
+                "value": "AT 2016ezh",
+                "reference": [
+                    "2023PASP..135c4101G"
                 ]
             },
             {
@@ -87,6 +44,31 @@
             }
         ]
     },
+    "coordinate": [
+        {
+            "ra": "01:58:04.739",
+            "dec": "-00:52:21.74",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2016TNSTR.562....1C"
+            ],
+            "default": false
+        },
+        {
+            "ra": "01:58:05.0",
+            "dec": "-00:52:22",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2000A&AS..143....9W",
+                "2017ApJ...843..106B"
+            ],
+            "default": true
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -100,100 +82,6 @@
                 "2023arXiv230813595C"
             ],
             "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2016-08-12",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2016TNSTR.562....1C"
-            ],
-            "default": false
-        },
-        {
-            "value": "2016-08-26 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...843..106B",
-                "2017NatAs...1..865K",
-                "2021ApJ...910...83H",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "2016-08-26 15:7:11.999999999914053",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "ASAS-SN Supernovae"
-            ],
-            "default": false
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017arXiv170307816B",
-            "human_readable_name": "Blanchard et al. (2017)"
-        },
-        {
-            "name": "2017ApJ...843..106B",
-            "human_readable_name": "Blanchard et al. (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2014Ap&SS.354...89B",
-            "human_readable_name": "Brown et al. (2014)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "ASAS-SN Supernovae",
-            "human_readable_name": "ASAS-SN Supernovae"
-        },
-        {
-            "name": "MAST",
-            "human_readable_name": "MAST"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2000A&AS..143....9W",
-            "human_readable_name": "Wenger et al. (2000)"
-        },
-        {
-            "name": "2017NatAs...1..865K",
-            "human_readable_name": "Kankare, E. et al. (2017)"
-        },
-        {
-            "name": "2021ApJ...910...83H",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Hinkle, Jason T. et al. (2021)"
-        },
-        {
-            "name": "2016TNSTR.562....1C",
-            "human_readable_name": "Cendes, Y. et al. (2024)"
-        },
-        {
-            "name": "2020SSRv..216...81A",
-            "human_readable_name": "Blanchard, P. K. et al. (2017)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Chambers, K. C. et al. (2016)"
         }
     ],
     "filter_alias": [
@@ -324,27 +212,107 @@
             "freq_units": "GHz"
         }
     ],
-    "coordinate": [
+    "reference_alias": [
         {
-            "ra": "01:58:04.739",
-            "dec": "-00:52:21.74",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
+            "name": "2017arXiv170307816B",
+            "human_readable_name": "Blanchard et al. (2017)"
+        },
+        {
+            "name": "2017ApJ...843..106B",
+            "human_readable_name": "Blanchard et al. (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2014Ap&SS.354...89B",
+            "human_readable_name": "Brown et al. (2014)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "ASAS-SN Supernovae",
+            "human_readable_name": "ASAS-SN Supernovae"
+        },
+        {
+            "name": "MAST",
+            "human_readable_name": "MAST"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2000A&AS..143....9W",
+            "human_readable_name": "Wenger et al. (2000)"
+        },
+        {
+            "name": "2017NatAs...1..865K",
+            "human_readable_name": "Kankare, E. et al. (2017)"
+        },
+        {
+            "name": "2021ApJ...910...83H",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Hinkle, Jason T. et al. (2021)"
+        },
+        {
+            "name": "2016TNSTR.562....1C",
+            "human_readable_name": "Cendes, Y. et al. (2024)"
+        },
+        {
+            "name": "2020SSRv..216...81A",
+            "human_readable_name": "Alexander, Kate D. et al. (2020)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Chambers, K. C. et al. (2016)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.08",
+            "distance_type": "redshift",
             "reference": [
-                "2016TNSTR.562....1C"
+                "ASAS-SN Supernovae"
             ],
             "default": false
         },
         {
-            "ra": "01:58:05.0",
-            "dec": "-00:52:22",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
+            "value": "0.0804",
+            "distance_type": "redshift",
             "reference": [
-                "2000A&AS..143....9W",
-                "2017ApJ...843..106B"
+                "2017ApJ...843..106B",
+                "2017NatAs...1..865K",
+                "2021ApJ...910...83H",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "300",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "ASAS-SN Supernovae"
+            ],
+            "default": true
+        },
+        {
+            "value": "400",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "ASAS-SN Supernovae"
             ],
             "default": true
         }
@@ -1988,6 +1956,38 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2016-08-12",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2016TNSTR.562....1C"
+            ],
+            "default": false
+        },
+        {
+            "value": "2016-08-26 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...843..106B",
+                "2017NatAs...1..865K",
+                "2021ApJ...910...83H",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "2016-08-26 15:7:11.999999999914053",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "ASAS-SN Supernovae"
+            ],
+            "default": false
         }
     ],
     "schema_version": {

@@ -25,108 +25,6 @@
             "default": false
         }
     ],
-    "filter_alias": [
-        {
-            "filter_key": "887.5MHz",
-            "filter_name": "UHF",
-            "freq_eff": 887.5,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "orange",
-            "filter_name": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "G",
-            "filter_name": "G",
-            "wave_eff": 673.5412573108297,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "w",
-            "filter_name": "w",
-            "wave_eff": 638.9300625093831,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "g",
-            "filter_name": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR.584....1F",
-                "2022TNSCR.601....1H",
-                "2022TNSCR1188....1B",
-                "2024arXiv240712097A"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2022TNSTR.489....1T",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024arXiv240712097A",
-            "human_readable_name": "Tonry, J. et al. (2022)"
-        },
-        {
-            "name": "2022TNSCR.584....1F",
-            "human_readable_name": "Fulton, M. et al. (2022)"
-        },
-        {
-            "name": " 2022TNSCR.601....1H",
-            "human_readable_name": "Hinkle, J. (2022)"
-        },
-        {
-            "name": " 2022TNSCR1188....1B",
-            "human_readable_name": "Blanchard, P. K. et al. (2022)"
-        }
-    ],
-    "name": {
-        "default_name": "2022czy",
-        "alias": [
-            {
-                "value": "ATLAS22gtw",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022czy",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS22bvf",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia22cay",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022czy",
-                "reference": [
-                    "2022TNSTR.489....1T"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2024arXiv240712097A",
@@ -320,15 +218,106 @@
             "instrument": "GPC2"
         }
     ],
-    "date_reference": [
+    "name": {
+        "default_name": "2022czy",
+        "alias": [
+            {
+                "value": "Gaia22cay",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS22gtw",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS22bvf",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022czy",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022czy",
+                "reference": [
+                    "2022TNSTR.489....1T"
+                ]
+            }
+        ]
+    },
+    "classification": [
         {
-            "value": 59632.49872,
-            "date_format": "mjd",
-            "date_type": "discovery",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
-                "2022TNSTR.489....1T"
+                "2022TNSCR.584....1F",
+                "2022TNSCR.601....1H",
+                "2022TNSCR1188....1B",
+                "2024arXiv240712097A"
             ],
-            "computed": false
+            "default": true
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "orange",
+            "filter_name": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "G",
+            "filter_name": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "w",
+            "filter_name": "w",
+            "wave_eff": 638.9300625093831,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "g",
+            "filter_name": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2022TNSTR.489....1T",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024arXiv240712097A",
+            "human_readable_name": "Tonry, J. et al. (2022)"
+        },
+        {
+            "name": "2022TNSCR.584....1F",
+            "human_readable_name": "Fulton, M. et al. (2022)"
+        },
+        {
+            "name": " 2022TNSCR.601....1H",
+            "human_readable_name": "Hinkle, J. (2022)"
+        },
+        {
+            "name": " 2022TNSCR1188....1B",
+            "human_readable_name": "Blanchard, P. K. et al. (2022)"
         }
     ],
     "distance": [
@@ -341,6 +330,17 @@
                 "2022TNSCR.601....1H",
                 "2022TNSCR1188....1B"
             ]
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 59632.49872,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR.489....1T"
+            ],
+            "computed": false
         }
     ]
 }

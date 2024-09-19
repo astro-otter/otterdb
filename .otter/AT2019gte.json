@@ -25,86 +25,6 @@
             "default": false
         }
     ],
-    "filter_alias": [
-        {
-            "filter_key": "887.5MHz",
-            "filter_name": "UHF",
-            "freq_eff": 887.5,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "3000.0MHz",
-            "filter_name": "S",
-            "freq_eff": 3000.0,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "orange",
-            "filter_name": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "filter_name": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2019TNSCR.975....1S",
-                "2024arXiv240712097A"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2019TNSTR.922....1N",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024arXiv240712097A",
-            "human_readable_name": "Nordin, J. et al. (2019)"
-        },
-        {
-            "name": "2019TNSCR.975....1S",
-            "human_readable_name": "Swann, E. et al. (2019)"
-        }
-    ],
-    "name": {
-        "default_name": "2019gte",
-        "alias": [
-            {
-                "value": "2019gte",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS19omw",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF19aavxfib",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2019gte",
-                "reference": [
-                    "2019TNSTR.922....1N"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2024arXiv240712097A",
@@ -361,15 +281,84 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "date_reference": [
+    "name": {
+        "default_name": "2019gte",
+        "alias": [
+            {
+                "value": "2019gte",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF19aavxfib",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS19omw",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2019gte",
+                "reference": [
+                    "2019TNSTR.922....1N"
+                ]
+            }
+        ]
+    },
+    "classification": [
         {
-            "value": 58634.25278935185,
-            "date_format": "mjd",
-            "date_type": "discovery",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
-                "2019TNSTR.922....1N"
+                "2019TNSCR.975....1S",
+                "2024arXiv240712097A"
             ],
-            "computed": false
+            "default": true
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "3000.0MHz",
+            "filter_name": "S",
+            "freq_eff": 3000.0,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "orange",
+            "filter_name": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "filter_name": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2019TNSTR.922....1N",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024arXiv240712097A",
+            "human_readable_name": "Nordin, J. et al. (2019)"
+        },
+        {
+            "name": "2019TNSCR.975....1S",
+            "human_readable_name": "Swann, E. et al. (2019)"
         }
     ],
     "distance": [
@@ -380,6 +369,17 @@
             "reference": [
                 "2019TNSCR.975....1S"
             ]
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 58634.25278935185,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2019TNSTR.922....1N"
+            ],
+            "computed": false
         }
     ]
 }

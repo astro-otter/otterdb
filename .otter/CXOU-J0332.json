@@ -1,4 +1,16 @@
 {
+    "coordinate": [
+        {
+            "ra": "03:32:38.8",
+            "dec": "-27:51:34",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017arXiv170204422B"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)"
@@ -21,26 +33,16 @@
             }
         ]
     },
-    "reference_alias": [
+    "classification": [
         {
-            "name": "2017arXiv170204422B",
-            "human_readable_name": "Bauer et al. (2017)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2017MNRAS.467.4841B",
-            "human_readable_name": "Bauer, Franz E. et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017MNRAS.467.4841B",
+                "2017arXiv170204422B",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         }
     ],
     "date_reference": [
@@ -64,28 +66,26 @@
             "default": true
         }
     ],
-    "classification": [
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017MNRAS.467.4841B",
-                "2017arXiv170204422B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
+            "name": "2017arXiv170204422B",
+            "human_readable_name": "Bauer et al. (2017)"
+        },
         {
-            "ra": "03:32:38.8",
-            "dec": "-27:51:34",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017arXiv170204422B"
-            ],
-            "coordinate_type": "equitorial"
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2017MNRAS.467.4841B",
+            "human_readable_name": "Bauer, Franz E. et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
     "host": [

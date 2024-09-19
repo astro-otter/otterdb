@@ -16,6 +16,46 @@
             }
         ]
     },
+    "coordinate": [
+        {
+            "ra": "11 28 30.9875",
+            "dec": "+58 33 40.783",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "dfd58452-a481-422c-8ed4-f6e4a5a496d7",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2018Sci...361..482M"
+            ]
+        },
+        {
+            "ra": "11:28:30.9875529",
+            "dec": "58:33:40.783601",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2018Sci...361..482M"
+            ]
+        },
+        {
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "141.90866797794666",
+            "b": "55.405983440677815",
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": [
+                "dfd58452-a481-422c-8ed4-f6e4a5a496d7"
+            ]
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -24,32 +64,6 @@
                 "2018Sci...361..482M"
             ],
             "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2005-01-30",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2018Sci...361..482M"
-            ],
-            "default": true
-        },
-        {
-            "value": "53401.0",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2018Sci...361..482M"
-            ],
-            "default": false
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2018Sci...361..482M",
-            "human_readable_name": "Mattila et al. (2018)"
         }
     ],
     "filter_alias": [
@@ -90,44 +104,10 @@
             "freq_units": "GHz"
         }
     ],
-    "coordinate": [
+    "reference_alias": [
         {
-            "ra": "11 28 30.9875",
-            "dec": "+58 33 40.783",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "computed": "False",
-            "default": true,
-            "uuid": "24cdbde6-db94-4756-9100-4e48060bd928",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2018Sci...361..482M"
-            ]
-        },
-        {
-            "ra": "11:28:30.9875529",
-            "dec": "58:33:40.783601",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2018Sci...361..482M"
-            ]
-        },
-        {
-            "computed": "True",
-            "default": true,
-            "coordinate_type": "galactic",
-            "l": "141.90866797794666",
-            "b": "55.405983440677815",
-            "l_units": "deg",
-            "b_units": "deg",
-            "reference": [
-                "24cdbde6-db94-4756-9100-4e48060bd928"
-            ]
+            "name": "2018Sci...361..482M",
+            "human_readable_name": "Mattila et al. (2018)"
         }
     ],
     "photometry": [
@@ -545,6 +525,26 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2005-01-30",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "default": true
+        },
+        {
+            "value": "53401.0",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "default": false
         }
     ],
     "distance": [
