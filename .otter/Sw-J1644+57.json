@@ -1,126 +1,4 @@
 {
-    "name": {
-        "default_name": "Sw J1644+57",
-        "alias": [
-            {
-                "value": "SwJ1644+57",
-                "reference": [
-                    "2011Natur.476..425Z"
-                ]
-            },
-            {
-                "value": "Swift J164449.3+573451",
-                "reference": [
-                    "2011Sci...333..203B"
-                ]
-            },
-            {
-                "value": "Sw J1644+57",
-                "reference": [
-                    "Swift",
-                    "2011Natur.476..425Z"
-                ]
-            },
-            {
-                "value": "Swift J1644+57",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2011Sci...333..203B",
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "GRB 110328A",
-                "reference": [
-                    "2011Sci...333..203B"
-                ]
-            }
-        ]
-    },
-    "coordinate": [
-        {
-            "ra": "16 44 49.93130",
-            "dec": "+57 34 59.6893",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "computed": "False",
-            "default": true,
-            "uuid": "d63bf485-e053-49a9-81d5-3429e4051826",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2011Natur.476..425Z",
-                "2012ApJ...748...36B",
-                "2012MNRAS.421.1942W",
-                "2013ApJ...767..152Z",
-                "2016MNRAS.462L..66Y",
-                "2018ApJ...854...86E"
-            ]
-        },
-        {
-            "ra": "16:44:49.92",
-            "dec": "+57:34:58.8",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": []
-        },
-        {
-            "ra": "16:44:49.93130",
-            "dec": "+57:34:59.6893",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2011Natur.476..425Z"
-            ]
-        },
-        {
-            "ra": "16:44:49.93130",
-            "dec": "+57:34:59.6893",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2011Natur.476..425Z"
-            ]
-        },
-        {
-            "computed": "True",
-            "default": true,
-            "coordinate_type": "galactic",
-            "l": "86.71123273634593",
-            "b": "39.44122227143398",
-            "l_units": "deg",
-            "b_units": "deg",
-            "reference": [
-                "d63bf485-e053-49a9-81d5-3429e4051826"
-            ]
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2011Natur.476..425Z",
-                "2011Sci...333..199L",
-                "2011Sci...333..203B",
-                "2012ApJ...748...36B",
-                "2012MNRAS.421.1942W",
-                "2013ApJ...767..152Z",
-                "2016MNRAS.462L..66Y",
-                "2017ApJ...838..149A",
-                "2018ApJ...854...86E",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "4.9GHz",
@@ -363,64 +241,174 @@
             "filter_name": "K",
             "freq_eff": 21.8,
             "freq_units": "GHz"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2011Natur.476..425Z",
-            "human_readable_name": "Zauderer et al. (2011)"
         },
         {
-            "name": "2012ApJ...748...36B",
-            "human_readable_name": "Berger et al. (2012)"
+            "filter_key": "K.UKIRT",
+            "filter_name": "K.UKIRT",
+            "freq_eff": 136207.3866,
+            "freq_units": "GHz"
         },
         {
-            "name": "2012MNRAS.421.1942W",
-            "human_readable_name": "Wiersema et al. (2012)"
+            "filter_key": "J.UKIRT",
+            "filter_name": "J.UKIRT",
+            "freq_eff": 240160.5848,
+            "freq_units": "GHz"
         },
         {
-            "name": "2013ApJ...767..152Z",
-            "human_readable_name": "Zauderer et al. (2013)"
+            "filter_key": "H.UKIRT",
+            "filter_name": "H.UKIRT",
+            "freq_eff": 183775.1842,
+            "freq_units": "GHz"
         },
         {
-            "name": "2016MNRAS.462L..66Y",
-            "human_readable_name": "Yang et al. (2016)"
+            "filter_key": "r.Gemini",
+            "filter_name": "r.Gemini",
+            "freq_eff": 481648.4713,
+            "freq_units": "GHz"
         },
         {
-            "name": "2018ApJ...854...86E",
-            "human_readable_name": "Eftekhari et al. (2018)"
+            "filter_key": "z.Gemini",
+            "filter_name": "z.Gemini",
+            "freq_eff": 313143.6507,
+            "freq_units": "GHz"
         },
         {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+            "filter_key": "K.Gemini",
+            "filter_name": "K.Gemini",
+            "freq_eff": 131982.7397,
+            "freq_units": "GHz"
         },
         {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
+            "filter_key": "H.Gemini",
+            "filter_name": "H.Gemini",
+            "freq_eff": 190231.0039,
+            "freq_units": "GHz"
         },
         {
-            "name": "2011Sci...333..203B",
-            "human_readable_name": "Bloom et al. (2011)"
+            "filter_key": "J.Gemini",
+            "filter_name": "J.Gemini",
+            "freq_eff": 279828.1207,
+            "freq_units": "GHz"
         },
         {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+            "filter_key": "F160W",
+            "filter_name": "F160W",
+            "freq_eff": 196218.9002,
+            "freq_units": "GHz"
         },
         {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
+            "filter_key": "F606W",
+            "filter_name": "F606W",
+            "freq_eff": 518474.7293,
+            "freq_units": "GHz"
         },
         {
-            "name": "2011Sci...333..199L",
-            "human_readable_name": "Levan, A. J. et al. (2011)"
+            "filter_key": "3.6um",
+            "filter_name": "3.6um",
+            "freq_eff": 83275.68278,
+            "freq_units": "GHz"
         },
         {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+            "filter_key": "4.5um",
+            "filter_name": "4.5um",
+            "freq_eff": 66620.54622,
+            "freq_units": "GHz"
         },
         {
-            "name": "2021ApJ...908..125C",
-            "human_readable_name": "Cendes, Y. et al. (2021)"
+            "filter_key": "g.Gemini",
+            "filter_name": "g.Gemini",
+            "freq_eff": 644692.7805,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "i.GTC",
+            "filter_name": "i.GTC",
+            "freq_eff": 393568.9091,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "z.GTC",
+            "filter_name": "z.GTC",
+            "freq_eff": 332762.5738,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "B.Keck",
+            "filter_name": "B.Keck",
+            "freq_eff": 693822.6889,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "i.Keck",
+            "filter_name": "i.Keck",
+            "freq_eff": 397121.3383,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "B.NOT",
+            "filter_name": "B.NOT",
+            "freq_eff": 695645.1656,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "z.NOT",
+            "filter_name": "z.NOT",
+            "freq_eff": 323481.6675,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "V.NOT",
+            "filter_name": "V.NOT",
+            "freq_eff": 553614.9454,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "R.NOT",
+            "filter_name": "R.NOT",
+            "freq_eff": 465972.8057,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "i.NOT",
+            "filter_name": "i.NOT",
+            "freq_eff": 383174.7272,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "J.PAIRTEL",
+            "filter_name": "J.PAIRTEL",
+            "freq_eff": 242746.9296,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "H.PAIRTEL",
+            "filter_name": "H.PAIRTEL",
+            "freq_eff": 180380.5403,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "H.HST",
+            "filter_name": "H.HST",
+            "freq_eff": 196218.9002,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "H.TNG",
+            "filter_name": "H.TNG",
+            "freq_eff": 185880.1087,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "K.PAIRTEL",
+            "filter_name": "K.PAIRTEL",
+            "freq_eff": 138857.0903,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "K.WHT",
+            "filter_name": "K.WHT",
+            "freq_eff": 135899.036,
+            "freq_units": "GHz"
         }
     ],
     "photometry": [
@@ -4403,16 +4391,1106 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
+        },
+        {
+            "reference": "2011Sci...333..199L",
+            "raw": [
+                22.29,
+                22.0
+            ],
+            "raw_err": [
+                0.05,
+                0.05
+            ],
+            "raw_units": "vega",
+            "date": [
+                55649.18586,
+                55661.23501
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false
+            ],
+            "filter_key": [
+                "i.GTC",
+                "z.GTC"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "GTC",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2011Sci...333..199L",
+            "raw": [
+                18.04,
+                19.004,
+                16.577,
+                16.824,
+                17.708
+            ],
+            "raw_err": [
+                0.019,
+                0.044,
+                0.007,
+                0.01,
+                0.019
+            ],
+            "raw_units": "vega",
+            "date": [
+                55651.55957,
+                55653.58889,
+                55650.60548,
+                55651.55476,
+                55653.58405
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "filter_key": [
+                "H.Gemini",
+                "H.Gemini",
+                "K.Gemini",
+                "K.Gemini",
+                "K.Gemini"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "Gemini",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2011Sci...333..199L",
+            "raw": [
+                22.4,
+                22.78,
+                23.66,
+                22.08,
+                22.79,
+                21.82,
+                22.8
+            ],
+            "raw_err": [
+                0.0,
+                0.02,
+                0.05,
+                0.05,
+                0.02,
+                0.02,
+                0.02
+            ],
+            "raw_units": "vega",
+            "date": [
+                55648.64666,
+                55649.60945,
+                55649.59941,
+                55649.61948,
+                55650.57796,
+                55650.58797,
+                55652.60319
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "filter_key": [
+                "r.Gemini",
+                "r.Gemini",
+                "g.Gemini",
+                "z.Gemini",
+                "r.Gemini",
+                "z.Gemini",
+                "r.Gemini"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "Gemini-N",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2011Sci...333..199L",
+            "raw": [
+                19.32
+            ],
+            "raw_err": [
+                0.04
+            ],
+            "raw_units": "vega",
+            "date": [
+                55655.13265
+            ],
+            "date_format": [
+                "mjd"
+            ],
+            "upperlimit": [
+                false
+            ],
+            "filter_key": [
+                "H.HST"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "HST",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2011Sci...333..199L",
+            "raw": [
+                24.35,
+                22.31
+            ],
+            "raw_err": [
+                0.05,
+                0.02
+            ],
+            "raw_units": "vega",
+            "date": [
+                55655.56435,
+                55655.5648
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false
+            ],
+            "filter_key": [
+                "B.Keck",
+                "i.Keck"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "Keck",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2011Sci...333..199L",
+            "raw": [
+                24.4,
+                21.85,
+                23.17,
+                22.55,
+                21.63,
+                22.51,
+                22.4,
+                22.44,
+                22.24,
+                22.82,
+                22.59,
+                22.05,
+                23.12,
+                24.17
+            ],
+            "raw_err": [
+                0.1,
+                0.08,
+                0.05,
+                0.03,
+                0.09,
+                0.04,
+                0.06,
+                0.06,
+                0.14,
+                0.1,
+                0.06,
+                0.01,
+                0.1,
+                0.14
+            ],
+            "raw_units": "vega",
+            "date": [
+                55649.07443,
+                55649.08426,
+                55649.11995,
+                55649.13616,
+                55650.17374,
+                55650.21099,
+                55656.17309,
+                55661.07019,
+                55662.0825,
+                55662.10805,
+                55662.11305,
+                55662.11771,
+                55662.1227,
+                55662.12752
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "filter_key": [
+                "B.NOT",
+                "z.NOT",
+                "V.NOT",
+                "R.NOT",
+                "z.NOT",
+                "R.NOT",
+                "R.NOT",
+                "R.NOT",
+                "z.NOT",
+                "R.NOT",
+                "R.NOT",
+                "i.NOT",
+                "V.NOT",
+                "B.NOT"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "NOT",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2011Sci...333..199L",
+            "raw": [
+                19.1,
+                19.495,
+                18.2,
+                19.058,
+                16.9,
+                17.344
+            ],
+            "raw_err": [
+                0.0,
+                0.284,
+                0.0,
+                0.435,
+                0.0,
+                0.306
+            ],
+            "raw_units": "vega",
+            "date": [
+                55649.35609,
+                55650.34888,
+                55649.35609,
+                55650.34888,
+                55649.35609,
+                55650.34888
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                true,
+                false,
+                true,
+                false,
+                true,
+                false
+            ],
+            "filter_key": [
+                "J.PAIRTEL",
+                "J.PAIRTEL",
+                "H.PAIRTEL",
+                "H.PAIRTEL",
+                "K.PAIRTEL",
+                "K.PAIRTEL"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "PAIRITEL",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2011Sci...333..199L",
+            "raw": [
+                19.477
+            ],
+            "raw_err": [
+                0.081
+            ],
+            "raw_units": "vega",
+            "date": [
+                55692.20975
+            ],
+            "date_format": [
+                "mjd"
+            ],
+            "upperlimit": [
+                false
+            ],
+            "filter_key": [
+                "H.TNG"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "TNG",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2011Sci...333..199L",
+            "raw": [
+                19.74,
+                20.082,
+                20.278,
+                20.44,
+                20.49,
+                20.398,
+                20.434,
+                20.442,
+                18.303,
+                18.857,
+                19.352,
+                19.4,
+                19.47,
+                19.278,
+                19.396,
+                17.491,
+                17.9,
+                17.982,
+                18.147,
+                18.384,
+                18.36,
+                18.371,
+                18.168,
+                18.466
+            ],
+            "raw_err": [
+                0.045,
+                0.057,
+                0.073,
+                0.073,
+                0.075,
+                0.069,
+                0.074,
+                0.078,
+                0.023,
+                0.031,
+                0.044,
+                0.046,
+                0.05,
+                0.047,
+                0.055,
+                0.022,
+                0.03,
+                0.032,
+                0.032,
+                0.036,
+                0.04,
+                0.04,
+                0.036,
+                0.043
+            ],
+            "raw_units": "vega",
+            "date": [
+                55650.49898,
+                55652.52602,
+                55654.55962,
+                55655.53639,
+                55664.51693,
+                55667.53542,
+                55670.5327,
+                55701.43291,
+                55650.45965,
+                55652.55021,
+                55663.47546,
+                55664.48431,
+                55667.50082,
+                55670.49824,
+                55701.39737,
+                55652.50449,
+                55654.53582,
+                55655.50653,
+                55656.51323,
+                55663.41583,
+                55664.4631,
+                55667.47715,
+                55670.44664,
+                55700.4276
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "filter_key": [
+                "J.UKIRT",
+                "J.UKIRT",
+                "J.UKIRT",
+                "J.UKIRT",
+                "J.UKIRT",
+                "J.UKIRT",
+                "J.UKIRT",
+                "J.UKIRT",
+                "H.UKIRT",
+                "H.UKIRT",
+                "H.UKIRT",
+                "H.UKIRT",
+                "H.UKIRT",
+                "H.UKIRT",
+                "H.UKIRT",
+                "K.UKIRT",
+                "K.UKIRT",
+                "K.UKIRT",
+                "K.UKIRT",
+                "K.UKIRT",
+                "K.UKIRT",
+                "K.UKIRT",
+                "K.UKIRT",
+                "K.UKIRT"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "UKIRT",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2011Sci...333..199L",
+            "raw": [
+                18.471,
+                18.679
+            ],
+            "raw_err": [
+                0.15,
+                0.222
+            ],
+            "raw_units": "vega",
+            "date": [
+                55665.09236,
+                55692.99676
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false
+            ],
+            "filter_key": [
+                "K.WHT",
+                "K.WHT"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "WHT",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2016ApJ...819...51L",
+            "raw": [
+                22.49,
+                21.94
+            ],
+            "raw_err": [
+                0.02,
+                0.02
+            ],
+            "raw_units": "vega",
+            "date": [
+                55999.64,
+                55999.66
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false
+            ],
+            "filter_key": [
+                "r.Gemini",
+                "z.Gemini"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "Gemini/GMOS",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": [
+                false,
+                false
+            ],
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2016ApJ...819...51L",
+            "raw": [
+                21.42,
+                21.83,
+                21.99,
+                21.9,
+                21.63,
+                21.3
+            ],
+            "raw_err": [
+                0.04,
+                0.09,
+                0.11,
+                0.06,
+                0.04,
+                0.05
+            ],
+            "raw_units": "vega",
+            "date": [
+                56049.45,
+                56049.47,
+                56049.49,
+                56108.39,
+                56108.43,
+                56108.46
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "filter_key": [
+                "K.Gemini",
+                "H.Gemini",
+                "J.Gemini",
+                "J.Gemini",
+                "H.Gemini",
+                "K.Gemini"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "Gemini/NIRI",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2016ApJ...819...51L",
+            "raw": [
+                20.76,
+                22.82,
+                20.83,
+                22.76,
+                21.29,
+                22.89,
+                21.35,
+                22.92,
+                21.73,
+                22.93
+            ],
+            "raw_err": [
+                0.01,
+                0.03,
+                0.01,
+                0.04,
+                0.01,
+                0.02,
+                0.01,
+                0.05,
+                0.01,
+                0.03
+            ],
+            "raw_units": "vega",
+            "date": [
+                55655.13,
+                55655.14,
+                55671.56,
+                55671.57,
+                55777.26,
+                55777.27,
+                55897.7,
+                55897.68,
+                56394.3,
+                56394.44
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "filter_key": [
+                "F160W",
+                "F606W",
+                "F160W",
+                "F606W",
+                "F160W",
+                "F606W",
+                "F160W",
+                "F606W",
+                "F160W",
+                "F606W"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "HST",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2016ApJ...819...51L",
+            "raw": [
+                19.39,
+                19.18,
+                21.3,
+                21.2,
+                21.37,
+                21.41,
+                21.77,
+                21.88
+            ],
+            "raw_err": [
+                0.02,
+                0.02,
+                0.12,
+                0.1,
+                0.09,
+                0.08,
+                0.27,
+                0.24
+            ],
+            "raw_units": "vega",
+            "date": [
+                55679.98,
+                55679.98,
+                55865.02,
+                55865.02,
+                55981.54,
+                55981.54,
+                56729.03,
+                56729.03
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "filter_key": [
+                "3.6um",
+                "4.5um",
+                "3.6um",
+                "4.5um",
+                "3.6um",
+                "4.5um",
+                "3.6um",
+                "4.5um"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "Spitzer",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "corr_av": false,
+            "corr_hostav": false
+        },
+        {
+            "reference": "2016ApJ...819...51L",
+            "raw": [
+                20.72,
+                21.52,
+                20.53,
+                20.94,
+                21.84,
+                21.57,
+                21.22
+            ],
+            "raw_err": [
+                0.07,
+                0.03,
+                0.17,
+                0.08,
+                0.23,
+                0.2,
+                0.12
+            ],
+            "raw_units": "vega",
+            "date": [
+                55775.26,
+                55775.26,
+                55841.24,
+                55843.2,
+                55843.24,
+                55844.2,
+                56211.2
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "filter_key": [
+                "K.UKIRT",
+                "J.UKIRT",
+                "K.UKIRT",
+                "K.UKIRT",
+                "J.UKIRT",
+                "H.UKIRT",
+                "K.UKIRT"
+            ],
+            "obs_type": "uvoir",
+            "telescope": "UKIRT/WFCAM",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "corr_av": false,
+            "corr_hostav": false
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "distance": [
+    "reference_alias": [
         {
-            "value": "0.354",
-            "distance_type": "redshift",
+            "name": "2011Natur.476..425Z",
+            "human_readable_name": "Zauderer et al. (2011)"
+        },
+        {
+            "name": "2012ApJ...748...36B",
+            "human_readable_name": "Berger et al. (2012)"
+        },
+        {
+            "name": "2012MNRAS.421.1942W",
+            "human_readable_name": "Wiersema et al. (2012)"
+        },
+        {
+            "name": "2013ApJ...767..152Z",
+            "human_readable_name": "Zauderer et al. (2013)"
+        },
+        {
+            "name": "2016MNRAS.462L..66Y",
+            "human_readable_name": "Yang et al. (2016)"
+        },
+        {
+            "name": "2018ApJ...854...86E",
+            "human_readable_name": "Eftekhari et al. (2018)"
+        },
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011Sci...333..203B",
+            "human_readable_name": "Bloom et al. (2011)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2011Sci...333..199L",
+            "human_readable_name": "Levan, A. J. et al. (2011)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2021ApJ...908..125C",
+            "human_readable_name": "Cendes, Y. et al. (2021)"
+        },
+        {
+            "name": "2016ApJ...819...51L",
+            "human_readable_name": "Levan, A. J. et al. (2016)"
+        }
+    ],
+    "name": {
+        "default_name": "Sw J1644+57",
+        "alias": [
+            {
+                "value": "Sw J1644+57",
+                "reference": [
+                    "Swift",
+                    "2011Natur.476..425Z"
+                ]
+            },
+            {
+                "value": "Swift J164449.3+573451",
+                "reference": [
+                    "2011Sci...333..203B"
+                ]
+            },
+            {
+                "value": "Swift J1644+57",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2011Sci...333..203B",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "GRB 110328A",
+                "reference": [
+                    "2011Sci...333..203B"
+                ]
+            },
+            {
+                "value": "SwJ1644+57",
+                "reference": [
+                    "2011Natur.476..425Z",
+                    "2011Natur.476..425Z"
+                ]
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2011Natur.476..425Z",
+                "2011Sci...333..199L",
+                "2011Sci...333..203B",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016ApJ...819...51L",
+                "2016MNRAS.462L..66Y",
+                "2017ApJ...838..149A",
+                "2018ApJ...854...86E",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "16 44 49.93130",
+            "dec": "+57 34 59.6893",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "5af00ef0-3cb9-4667-b643-127ab5ecfd96",
+            "coordinate_type": "equitorial",
             "reference": [
                 "2011Natur.476..425Z",
                 "2012ApJ...748...36B",
@@ -4420,43 +5498,50 @@
                 "2013ApJ...767..152Z",
                 "2016MNRAS.462L..66Y",
                 "2018ApJ...854...86E"
-            ],
-            "default": true
+            ]
         },
         {
-            "value": "0.3543",
-            "distance_type": "redshift",
-            "reference": [
-                "2011Sci...333..199L",
-                "2011Sci...333..203B",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": false
+            "ra": "16:44:49.92",
+            "dec": "+57:34:58.8",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": []
         },
         {
-            "value": "1434",
-            "distance_type": "comoving",
-            "unit": "Mpc",
+            "ra": "16:44:49.93130",
+            "dec": "+57:34:59.6893",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
             "reference": [
-                "2011Sci...333..203B",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
+                "2011Natur.476..425Z"
+            ]
         },
         {
-            "value": "1942",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
+            "ra": "16:44:49.93130",
+            "dec": "+57:34:59.6893",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
             "reference": [
-                "2011Sci...333..203B",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
+                "2011Natur.476..425Z"
+            ]
+        },
+        {
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "86.71123273634593",
+            "b": "39.44122227143398",
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": [
+                "5af00ef0-3cb9-4667-b643-127ab5ecfd96"
+            ]
         }
     ],
     "host": [
@@ -4511,5 +5596,59 @@
             ],
             "default": true
         }
-    ]
+    ],
+    "distance": [
+        {
+            "value": "0.354",
+            "distance_type": "redshift",
+            "reference": [
+                "2011Natur.476..425Z",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016MNRAS.462L..66Y",
+                "2018ApJ...854...86E"
+            ],
+            "default": true
+        },
+        {
+            "value": "0.3543",
+            "distance_type": "redshift",
+            "reference": [
+                "2011Sci...333..199L",
+                "2011Sci...333..203B",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": false
+        },
+        {
+            "value": "1434",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2011Sci...333..203B",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "1942",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2011Sci...333..203B",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    }
 }

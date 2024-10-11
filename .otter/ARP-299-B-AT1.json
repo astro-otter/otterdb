@@ -16,6 +16,36 @@
             }
         ]
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "default": true
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2005-01-30",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "default": true
+        },
+        {
+            "value": "53401.0",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "default": false
+        }
+    ],
     "coordinate": [
         {
             "ra": "11 28 30.9875",
@@ -26,7 +56,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": true,
-            "uuid": "dfd58452-a481-422c-8ed4-f6e4a5a496d7",
+            "uuid": "3ef1cbd0-409b-4469-afa2-750d58a353d1",
             "coordinate_type": "equitorial",
             "reference": [
                 "2018Sci...361..482M"
@@ -52,56 +82,8 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "dfd58452-a481-422c-8ed4-f6e4a5a496d7"
+                "3ef1cbd0-409b-4469-afa2-750d58a353d1"
             ]
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2018Sci...361..482M"
-            ],
-            "default": true
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "8.4GHz",
-            "filter_name": "X",
-            "freq_eff": 8.4,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "2.3GHz",
-            "filter_name": "S",
-            "freq_eff": 2.3,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "22.5GHz",
-            "filter_name": "K",
-            "freq_eff": 22.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.7GHz",
-            "filter_name": "L",
-            "freq_eff": 1.7,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.0GHz",
-            "filter_name": "C",
-            "freq_eff": 5.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.5GHz",
-            "filter_name": "L",
-            "freq_eff": 1.5,
-            "freq_units": "GHz"
         }
     ],
     "reference_alias": [
@@ -527,24 +509,42 @@
             "corr_hostav": false
         }
     ],
-    "date_reference": [
+    "filter_alias": [
         {
-            "value": "2005-01-30",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2018Sci...361..482M"
-            ],
-            "default": true
+            "filter_key": "8.4GHz",
+            "filter_name": "X",
+            "freq_eff": 8.4,
+            "freq_units": "GHz"
         },
         {
-            "value": "53401.0",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2018Sci...361..482M"
-            ],
-            "default": false
+            "filter_key": "2.3GHz",
+            "filter_name": "S",
+            "freq_eff": 2.3,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "22.5GHz",
+            "filter_name": "K",
+            "freq_eff": 22.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.7GHz",
+            "filter_name": "L",
+            "freq_eff": 1.7,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.0GHz",
+            "filter_name": "C",
+            "freq_eff": 5.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.5GHz",
+            "filter_name": "L",
+            "freq_eff": 1.5,
+            "freq_units": "GHz"
         }
     ],
     "distance": [
