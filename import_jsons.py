@@ -8,7 +8,11 @@ import glob
 from pyArango.connection import *
 
 def main():
-    c = Connection(username="root", password=os.environ.get('OTTERDB_PASS', None))
+    c = Connection(
+        arangoURL=os.environ.get("ARANGO_URL", "http://127.0.0.1:8529"),
+        username="root",
+        password=os.environ.get("ARANGO_ROOT_PASSWORD", None)
+    )
 
     # create the otter database with a transient collection
     print(c.hasDatabase('otter'))
