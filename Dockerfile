@@ -10,8 +10,8 @@ ADD .otter/ /home/
 RUN mkdir /home/.otter
 RUN mv /home/*.json /home/.otter
 
-COPY import_jsons.py /home/
-COPY import_jsons.sh /home/
+COPY setup.py /home/
+COPY setup.sh /home/
 
 # install dependences
 RUN apk update && apk add --no-cache python3 py3-pip
@@ -21,4 +21,4 @@ RUN pip install --upgrade setuptools setuptools_scm wheel pyArango
 
 # move into the home directory and run
 WORKDIR /home/
-RUN /home/import_jsons.sh
+RUN /home/setup.sh

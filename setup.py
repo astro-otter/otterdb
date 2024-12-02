@@ -13,7 +13,7 @@ def main():
         username="root",
         password=os.environ.get("ARANGO_ROOT_PASSWORD", None)
     )
-
+    
     # create the otter database with a transient collection
     print(c.hasDatabase('otter'))
     if c.hasDatabase('otter'):
@@ -21,6 +21,11 @@ def main():
     else:
         db = c.createDatabase(name="otter")
 
+    # add a vetting collection to the database
+    if not db.hasCollection("vetting"):
+        _ = db.createCollection(name="vetting")
+    
+    # add a transients collection to the database    
     if db.hasCollection("transients"):
         t = db["transients"]
     else:
