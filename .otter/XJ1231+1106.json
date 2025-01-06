@@ -1,29 +1,63 @@
 {
-    "classification": [
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "name": {
+        "default_name": "2XMM J123103.2+110648",
+        "alias": [
+            {
+                "value": "XJ1231+1106",
+                "reference": [
+                    "2017arXiv170206956L"
+                ]
+            },
+            {
+                "value": "2XMM J123103.2+110648",
+                "reference": [
+                    "2017arXiv170206956L",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2012ApJ...756...27L",
-                "2012ApJ...759L..16H",
-                "2013ApJ...776L..10L",
-                "2017ApJ...835...64G",
-                "2017MNRAS.468..783L",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
+            "name": "2017arXiv170206956L",
+            "human_readable_name": "Lin et al. (2017)"
+        },
         {
-            "ra": "12:31:03.2",
-            "dec": "+11:06:48",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017arXiv170206956L"
-            ],
-            "coordinate_type": "equitorial"
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2012ApJ...756...27L",
+            "human_readable_name": "Lin, Dacheng et al. (2013)"
+        },
+        {
+            "name": "2012ApJ...759L..16H",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2013ApJ...776L..10L",
+            "human_readable_name": "Ho, Luis C. et al. (2012)"
+        },
+        {
+            "name": "2017MNRAS.468..783L",
+            "human_readable_name": "Lin, Dacheng et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Lin, Dacheng et al. (2012)"
         }
     ],
     "distance": [
@@ -70,64 +104,31 @@
             "default": true
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "name": {
-        "default_name": "2XMM J123103.2+110648",
-        "alias": [
-            {
-                "value": "XJ1231+1106",
-                "reference": [
-                    "2017arXiv170206956L"
-                ]
-            },
-            {
-                "value": "2XMM J123103.2+110648",
-                "reference": [
-                    "2017arXiv170206956L",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "reference_alias": [
+    "classification": [
         {
-            "name": "2017arXiv170206956L",
-            "human_readable_name": "Lin et al. (2017)"
-        },
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2012ApJ...756...27L",
+                "2012ApJ...759L..16H",
+                "2013ApJ...776L..10L",
+                "2017ApJ...835...64G",
+                "2017MNRAS.468..783L",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "coordinate": [
         {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2012ApJ...756...27L",
-            "human_readable_name": "Lin, Dacheng et al. (2012)"
-        },
-        {
-            "name": "2012ApJ...759L..16H",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2013ApJ...776L..10L",
-            "human_readable_name": "Lin, Dacheng et al. (2013)"
-        },
-        {
-            "name": "2017MNRAS.468..783L",
-            "human_readable_name": "Lin, Dacheng et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Ho, Luis C. et al. (2012)"
+            "ra": "12:31:03.2",
+            "dec": "+11:06:48",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017arXiv170206956L"
+            ],
+            "coordinate_type": "equitorial"
         }
     ],
     "host": [

@@ -1,51 +1,116 @@
 {
-    "distance": [
+    "filter_alias": [
         {
-            "value": "0.3698",
-            "distance_type": "redshift",
-            "reference": [
-                "2006ApJ...653L..25G",
-                "2008ApJ...676..944G",
-                "2011ApJ...732L..12B",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         },
         {
-            "value": "133.0",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "reference": [
-                "2017MNRAS.471.1694W",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            "filter_key": "B.uvot",
+            "filter_name": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
         },
         {
-            "value": "1491",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2006ApJ...653L..25G",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
+            "filter_key": "F125LP",
+            "filter_name": "F125LP",
+            "freq_eff": 2089450463842676.5,
+            "freq_units": "Hz"
         },
         {
-            "value": "2042",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2006ApJ...653L..25G",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
+            "filter_key": "F150LP",
+            "filter_name": "F150LP",
+            "freq_eff": 1865557170546869.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "FUV",
+            "filter_name": "FUV",
+            "freq_eff": 1956520502303101.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "NUV",
+            "filter_name": "NUV",
+            "freq_eff": 1322268446213041.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.sdss",
+            "filter_name": "g.sdss",
+            "freq_eff": 646569472243250.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.sdss",
+            "filter_name": "r.sdss",
+            "freq_eff": 488925642232043.75,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "freq_eff": 1.4,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.0GHz",
+            "filter_name": "C",
+            "freq_eff": 5.0,
+            "freq_units": "GHz"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2008ApJ...676..944G",
+            "human_readable_name": "Gezari et al. (2008)"
+        },
+        {
+            "name": "2006ApJ...653L..25G",
+            "human_readable_name": "Gezari et al. (2006)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.471.1694W",
+            "human_readable_name": "Wevers, Thomas et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Gezari, S. et al. (2008)"
+        },
+        {
+            "name": "2011ApJ...732L..12B",
+            "human_readable_name": "van Velzen, S. et al. (2013)"
+        },
+        {
+            "name": "2013A&A...552A...5V",
+            "human_readable_name": "Bower, Geoffrey C. (2011)"
+        },
+        {
+            "name": "2020SSRv..216...81A",
+            "human_readable_name": "Gezari, S. et al. (2008)"
         }
     ],
     "name": {
@@ -118,54 +183,53 @@
             ]
         }
     ],
-    "reference_alias": [
+    "distance": [
         {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+            "value": "0.3698",
+            "distance_type": "redshift",
+            "reference": [
+                "2006ApJ...653L..25G",
+                "2008ApJ...676..944G",
+                "2011ApJ...732L..12B",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         },
         {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
+            "value": "133.0",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2017MNRAS.471.1694W",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         },
         {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+            "value": "1491",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2006ApJ...653L..25G",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         },
         {
-            "name": "2008ApJ...676..944G",
-            "human_readable_name": "Gezari et al. (2008)"
-        },
-        {
-            "name": "2006ApJ...653L..25G",
-            "human_readable_name": "Gezari et al. (2006)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2017MNRAS.471.1694W",
-            "human_readable_name": "Wevers, Thomas et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2011ApJ...732L..12B",
-            "human_readable_name": "Alexander, Kate D. et al. (2020)"
-        },
-        {
-            "name": "2013A&A...552A...5V",
-            "human_readable_name": "van Velzen, S. et al. (2013)"
-        },
-        {
-            "name": "2020SSRv..216...81A",
-            "human_readable_name": "Bower, Geoffrey C. (2011)"
+            "value": "2042",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2006ApJ...653L..25G",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -211,6 +275,44 @@
             "reference": [
                 "2017ApJ...838..149A"
             ],
+            "xray_model": [
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0134"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0134"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
+            ],
             "corr_s": null
         },
         {
@@ -246,6 +348,26 @@
             "corr_hostav": null,
             "reference": [
                 "2017ApJ...838..149A"
+            ],
+            "xray_model": [
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0134"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
             ],
             "corr_s": null
         },
@@ -299,6 +421,62 @@
             "reference": [
                 "2017ApJ...838..149A"
             ],
+            "xray_model": [
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0134"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0134"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0134"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
+            ],
             "corr_s": null
         },
         {
@@ -342,6 +520,44 @@
             "corr_hostav": null,
             "reference": [
                 "2017ApJ...838..149A"
+            ],
+            "xray_model": [
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0134"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0134"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
             ],
             "corr_s": null
         },
@@ -621,70 +837,6 @@
             "corr_hostav": false
         }
     ],
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "B.uvot",
-            "filter_name": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "F125LP",
-            "filter_name": "F125LP",
-            "freq_eff": 2089450463842676.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "F150LP",
-            "filter_name": "F150LP",
-            "freq_eff": 1865557170546869.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "FUV",
-            "filter_name": "FUV",
-            "freq_eff": 1956520502303101.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "NUV",
-            "filter_name": "NUV",
-            "freq_eff": 1322268446213041.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.sdss",
-            "filter_name": "g.sdss",
-            "freq_eff": 646569472243250.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.sdss",
-            "filter_name": "r.sdss",
-            "freq_eff": 488925642232043.75,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "1.4GHz",
-            "filter_name": "L",
-            "freq_eff": 1.4,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.0GHz",
-            "filter_name": "C",
-            "freq_eff": 5.0,
-            "freq_units": "GHz"
-        }
-    ],
     "host": [
         {
             "host_name": "GALEX J141929.8+525206",
@@ -701,7 +853,8 @@
     ],
     "schema_version": {
         "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
     },
     "date_reference": [
         {

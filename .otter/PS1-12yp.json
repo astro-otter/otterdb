@@ -1,80 +1,4 @@
 {
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2016MNRAS.463..296L",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016MNRAS.463..296L",
-            "human_readable_name": "Lawrence et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "13:31:55.91",
-            "dec": "+23:54:05.7",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2016MNRAS.463..296L"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "name": {
-        "default_name": "PS1-12yp",
-        "alias": [
-            {
-                "value": "CSS120301:133156+235405",
-                "reference": [
-                    "2016MNRAS.463..296L"
-                ]
-            },
-            {
-                "value": "SDSSJ133155",
-                "reference": [
-                    "2016MNRAS.463..296L"
-                ]
-            },
-            {
-                "value": "PS1-12yp",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2016MNRAS.463..296L",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "date_reference": [
         {
             "value": "2012-03-01",
@@ -97,14 +21,81 @@
             "default": true
         }
     ],
-    "filter_alias": [
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "name": {
+        "default_name": "PS1-12yp",
+        "alias": [
+            {
+                "value": "SDSSJ133155",
+                "reference": [
+                    "2016MNRAS.463..296L"
+                ]
+            },
+            {
+                "value": "CSS120301:133156+235405",
+                "reference": [
+                    "2016MNRAS.463..296L"
+                ]
+            },
+            {
+                "value": "PS1-12yp",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2016MNRAS.463..296L",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016MNRAS.463..296L",
+            "human_readable_name": "Lawrence et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Lawrence, A. et al. (2016)"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2016MNRAS.463..296L",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "13:31:55.91",
+            "dec": "+23:54:05.7",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2016MNRAS.463..296L"
+            ],
+            "coordinate_type": "equitorial"
         }
     ],
     "photometry": [
@@ -158,7 +149,73 @@
             "reference": [
                 "2017ApJ...838..149A"
             ],
+            "xray_model": [
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.012"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.012"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.012"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
+            ],
             "corr_s": null
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "host": [

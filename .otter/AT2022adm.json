@@ -1,33 +1,7 @@
 {
-    "filter_alias": [
-        {
-            "filter_key": "887.5MHz",
-            "filter_name": "UHF",
-            "freq_eff": 887.5,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "G",
-            "filter_name": "G",
-            "wave_eff": 673.5412573108297,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "g",
-            "filter_name": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "filter_name": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        }
-    ],
     "photometry": [
         {
-            "reference": "2024arXiv240712097A",
+            "reference": "2024ApJ...974..241A",
             "raw": [
                 1.6,
                 0.7
@@ -60,6 +34,58 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
+        },
+        {
+            "raw": [
+                17.9069
+            ],
+            "raw_err": [
+                0.0703123
+            ],
+            "upperlimit": false,
+            "raw_units": [
+                "mag(AB)"
+            ],
+            "date": "59600.494108799845",
+            "date_format": "mjd",
+            "filter_key": "r",
+            "reference": [
+                "TNS"
+            ],
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "P48",
+            "instrument": "ZTF-Cam"
+        },
+        {
+            "raw": [
+                19.6209
+            ],
+            "raw_err": [
+                0
+            ],
+            "upperlimit": true,
+            "raw_units": [
+                "mag(AB)"
+            ],
+            "date": "59600.434456000105",
+            "date_format": "mjd",
+            "filter_key": "g",
+            "reference": [
+                "TNS"
+            ],
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "P48",
+            "instrument": "ZTF-Cam"
         },
         {
             "raw": [
@@ -112,58 +138,32 @@
             "corr_hostav": false,
             "telescope": "Gaia",
             "instrument": "Gaia-photometric"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
         },
         {
-            "raw": [
-                19.6209
-            ],
-            "raw_err": [
-                0
-            ],
-            "upperlimit": true,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "59600.434456000105",
-            "date_format": "mjd",
-            "filter_key": "g",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "P48",
-            "instrument": "ZTF-Cam"
-        },
-        {
-            "raw": [
-                17.9069
-            ],
-            "raw_err": [
-                0.0703123
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "59600.494108799845",
-            "date_format": "mjd",
             "filter_key": "r",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "P48",
-            "instrument": "ZTF-Cam"
+            "filter_name": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "g",
+            "filter_name": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "G",
+            "filter_name": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
         }
     ],
     "classification": [
@@ -172,35 +172,9 @@
             "confidence": 1,
             "reference": [
                 "2022TNSCR.402....1T",
-                "2024arXiv240712097A"
+                "2024ApJ...974..241A"
             ],
             "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "216.964333",
-            "dec": "28.174731",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2022TNSTR.156....1M"
-            ],
-            "default": true
-        },
-        {
-            "ra": "216.964333",
-            "dec": "28.174731",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2022TNSTR.156....1M"
-            ],
-            "default": false
         }
     ],
     "name": {
@@ -238,12 +212,38 @@
             "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
         },
         {
-            "name": "2024arXiv240712097A",
+            "name": "2024ApJ...974..241A",
             "human_readable_name": "Munoz-Arancibia, A. et al. (2022)"
         },
         {
             "name": "2022TNSCR.402....1T",
             "human_readable_name": "Tucker, M. A. (2022)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "216.964333",
+            "dec": "28.174731",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2022TNSTR.156....1M"
+            ],
+            "default": true
+        },
+        {
+            "ra": "216.964333",
+            "dec": "28.174731",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2022TNSTR.156....1M"
+            ],
+            "default": false
         }
     ],
     "distance": [

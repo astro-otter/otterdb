@@ -1,51 +1,7 @@
 {
-    "filter_alias": [
-        {
-            "filter_key": "887.5MHz",
-            "filter_name": "UHF",
-            "freq_eff": 887.5,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "3000.0MHz",
-            "filter_name": "S",
-            "freq_eff": 3000.0,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "i",
-            "filter_name": "i",
-            "wave_eff": 749.9704174464691,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "orange",
-            "filter_name": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "g",
-            "filter_name": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "filter_name": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "w",
-            "filter_name": "w",
-            "wave_eff": 638.9300625093831,
-            "wave_units": "nm"
-        }
-    ],
     "photometry": [
         {
-            "reference": "2024arXiv240712097A",
+            "reference": "2024ApJ...974..241A",
             "raw": [
                 1.0,
                 0.6
@@ -80,7 +36,7 @@
             "corr_hostav": false
         },
         {
-            "reference": "2024arXiv240712097A",
+            "reference": "2024ApJ...974..241A",
             "raw": [
                 1.0,
                 1.1,
@@ -194,18 +150,18 @@
         },
         {
             "raw": [
-                20.63
+                18.96
             ],
             "raw_err": [
-                0.35
+                0.03
             ],
             "upperlimit": false,
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": "59261.44299999997",
+            "date": "59633.45031000022",
             "date_format": "mjd",
-            "filter_key": "i",
+            "filter_key": "w",
             "reference": [
                 "TNS"
             ],
@@ -215,8 +171,60 @@
             "corr_av": false,
             "corr_host": true,
             "corr_hostav": false,
-            "telescope": "PS1",
-            "instrument": "GPC1"
+            "telescope": "PS2",
+            "instrument": "GPC2"
+        },
+        {
+            "raw": [
+                19.09
+            ],
+            "raw_err": [
+                0
+            ],
+            "upperlimit": false,
+            "raw_units": [
+                "mag(AB)"
+            ],
+            "date": "59622.35900000017",
+            "date_format": "mjd",
+            "filter_key": "r",
+            "reference": [
+                "TNS"
+            ],
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "P48",
+            "instrument": "ZTF-Cam"
+        },
+        {
+            "raw": [
+                19.26
+            ],
+            "raw_err": [
+                0
+            ],
+            "upperlimit": false,
+            "raw_units": [
+                "mag(AB)"
+            ],
+            "date": "59622.336999999825",
+            "date_format": "mjd",
+            "filter_key": "g",
+            "reference": [
+                "TNS"
+            ],
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "P48",
+            "instrument": "ZTF-Cam"
         },
         {
             "raw": [
@@ -272,18 +280,18 @@
         },
         {
             "raw": [
-                19.26
+                20.63
             ],
             "raw_err": [
-                0
+                0.35
             ],
             "upperlimit": false,
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": "59622.336999999825",
+            "date": "59261.44299999997",
             "date_format": "mjd",
-            "filter_key": "g",
+            "filter_key": "i",
             "reference": [
                 "TNS"
             ],
@@ -293,60 +301,52 @@
             "corr_av": false,
             "corr_host": true,
             "corr_hostav": false,
-            "telescope": "P48",
-            "instrument": "ZTF-Cam"
+            "telescope": "PS1",
+            "instrument": "GPC1"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
         },
         {
-            "raw": [
-                19.09
-            ],
-            "raw_err": [
-                0
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "59622.35900000017",
-            "date_format": "mjd",
-            "filter_key": "r",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "P48",
-            "instrument": "ZTF-Cam"
+            "filter_key": "3000.0MHz",
+            "filter_name": "S",
+            "freq_eff": 3000.0,
+            "freq_units": "MHz"
         },
         {
-            "raw": [
-                18.96
-            ],
-            "raw_err": [
-                0.03
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "59633.45031000022",
-            "date_format": "mjd",
             "filter_key": "w",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "PS2",
-            "instrument": "GPC2"
+            "filter_name": "w",
+            "wave_eff": 638.9300625093831,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "r",
+            "filter_name": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "g",
+            "filter_name": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "orange",
+            "filter_name": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "i",
+            "filter_name": "i",
+            "wave_eff": 749.9704174464691,
+            "wave_units": "nm"
         }
     ],
     "classification": [
@@ -355,9 +355,58 @@
             "confidence": 1,
             "reference": [
                 "2022TNSCR.700....1M",
-                "2024arXiv240712097A"
+                "2024ApJ...974..241A"
             ],
             "default": true
+        }
+    ],
+    "name": {
+        "default_name": "2022arb",
+        "alias": [
+            {
+                "value": "ZTF22aaaihgr",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS22aqk",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022arb",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS22dls",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022arb",
+                "reference": [
+                    "2022TNSTR.228....1T"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
+        {
+            "name": "2022TNSTR.228....1T",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Tonry, J. et al. (2022)"
+        },
+        {
+            "name": "2022TNSCR.700....1M",
+            "human_readable_name": "Moore, T. et al. (2022)"
         }
     ],
     "coordinate": [
@@ -384,55 +433,6 @@
                 "2022TNSTR.228....1T"
             ],
             "default": false
-        }
-    ],
-    "name": {
-        "default_name": "2022arb",
-        "alias": [
-            {
-                "value": "2022arb",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF22aaaihgr",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS22dls",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS22aqk",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022arb",
-                "reference": [
-                    "2022TNSTR.228....1T"
-                ]
-            }
-        ]
-    },
-    "reference_alias": [
-        {
-            "name": "2022TNSTR.228....1T",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024arXiv240712097A",
-            "human_readable_name": "Tonry, J. et al. (2022)"
-        },
-        {
-            "name": "2022TNSCR.700....1M",
-            "human_readable_name": "Moore, T. et al. (2022)"
         }
     ],
     "distance": [

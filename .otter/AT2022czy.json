@@ -1,39 +1,7 @@
 {
-    "filter_alias": [
-        {
-            "filter_key": "887.5MHz",
-            "filter_name": "UHF",
-            "freq_eff": 887.5,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "orange",
-            "filter_name": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "G",
-            "filter_name": "G",
-            "wave_eff": 673.5412573108297,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "w",
-            "filter_name": "w",
-            "wave_eff": 638.9300625093831,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "g",
-            "filter_name": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        }
-    ],
     "photometry": [
         {
-            "reference": "2024arXiv240712097A",
+            "reference": "2024ApJ...974..241A",
             "raw": [
                 0.9,
                 0.7
@@ -69,18 +37,18 @@
         },
         {
             "raw": [
-                19.046
+                18.31
             ],
             "raw_err": [
-                0.197
+                0.03
             ],
             "upperlimit": false,
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": "59632.49872000003",
+            "date": "59635.45618000021",
             "date_format": "mjd",
-            "filter_key": "orange",
+            "filter_key": "g",
             "reference": [
                 "TNS"
             ],
@@ -90,23 +58,23 @@
             "corr_av": false,
             "corr_host": true,
             "corr_hostav": false,
-            "telescope": "ATLAS-MLO",
-            "instrument": "ATLAS-01"
+            "telescope": "PS2",
+            "instrument": "GPC2"
         },
         {
             "raw": [
-                18.72
+                18.28
             ],
             "raw_err": [
-                0
+                0.01
             ],
-            "upperlimit": true,
+            "upperlimit": false,
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": "59631.47002999997",
+            "date": "59637.42286999989",
             "date_format": "mjd",
-            "filter_key": "orange",
+            "filter_key": "w",
             "reference": [
                 "TNS"
             ],
@@ -116,8 +84,8 @@
             "corr_av": false,
             "corr_host": true,
             "corr_hostav": false,
-            "telescope": "ATLAS-MLO",
-            "instrument": "ATLAS-01"
+            "telescope": "PS2",
+            "instrument": "GPC2"
         },
         {
             "raw": [
@@ -173,18 +141,18 @@
         },
         {
             "raw": [
-                18.28
+                19.046
             ],
             "raw_err": [
-                0.01
+                0.197
             ],
             "upperlimit": false,
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": "59637.42286999989",
+            "date": "59632.49872000003",
             "date_format": "mjd",
-            "filter_key": "w",
+            "filter_key": "orange",
             "reference": [
                 "TNS"
             ],
@@ -194,23 +162,23 @@
             "corr_av": false,
             "corr_host": true,
             "corr_hostav": false,
-            "telescope": "PS2",
-            "instrument": "GPC2"
+            "telescope": "ATLAS-MLO",
+            "instrument": "ATLAS-01"
         },
         {
             "raw": [
-                18.31
+                18.72
             ],
             "raw_err": [
-                0.03
+                0
             ],
-            "upperlimit": false,
+            "upperlimit": true,
             "raw_units": [
                 "mag(AB)"
             ],
-            "date": "59635.45618000021",
+            "date": "59631.47002999997",
             "date_format": "mjd",
-            "filter_key": "g",
+            "filter_key": "orange",
             "reference": [
                 "TNS"
             ],
@@ -220,8 +188,40 @@
             "corr_av": false,
             "corr_host": true,
             "corr_hostav": false,
-            "telescope": "PS2",
-            "instrument": "GPC2"
+            "telescope": "ATLAS-MLO",
+            "instrument": "ATLAS-01"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "g",
+            "filter_name": "g",
+            "wave_eff": 471.8872246248687,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "w",
+            "filter_name": "w",
+            "wave_eff": 638.9300625093831,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "G",
+            "filter_name": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "orange",
+            "filter_name": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
         }
     ],
     "classification": [
@@ -232,9 +232,66 @@
                 "2022TNSCR.584....1F",
                 "2022TNSCR.601....1H",
                 "2022TNSCR1188....1B",
-                "2024arXiv240712097A"
+                "2024ApJ...974..241A"
             ],
             "default": true
+        }
+    ],
+    "name": {
+        "default_name": "2022czy",
+        "alias": [
+            {
+                "value": "Gaia22cay",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS22bvf",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS22gtw",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022czy",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022czy",
+                "reference": [
+                    "2022TNSTR.489....1T"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
+        {
+            "name": "2022TNSTR.489....1T",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Tonry, J. et al. (2022)"
+        },
+        {
+            "name": "2022TNSCR.584....1F",
+            "human_readable_name": "Fulton, M. et al. (2022)"
+        },
+        {
+            "name": " 2022TNSCR.601....1H",
+            "human_readable_name": "Hinkle, J. (2022)"
+        },
+        {
+            "name": " 2022TNSCR1188....1B",
+            "human_readable_name": "Blanchard, P. K. et al. (2022)"
         }
     ],
     "coordinate": [
@@ -261,63 +318,6 @@
                 "2022TNSTR.489....1T"
             ],
             "default": false
-        }
-    ],
-    "name": {
-        "default_name": "2022czy",
-        "alias": [
-            {
-                "value": "PS22bvf",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia22cay",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022czy",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS22gtw",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022czy",
-                "reference": [
-                    "2022TNSTR.489....1T"
-                ]
-            }
-        ]
-    },
-    "reference_alias": [
-        {
-            "name": "2022TNSTR.489....1T",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024arXiv240712097A",
-            "human_readable_name": "Tonry, J. et al. (2022)"
-        },
-        {
-            "name": "2022TNSCR.584....1F",
-            "human_readable_name": "Fulton, M. et al. (2022)"
-        },
-        {
-            "name": " 2022TNSCR.601....1H",
-            "human_readable_name": "Hinkle, J. (2022)"
-        },
-        {
-            "name": " 2022TNSCR1188....1B",
-            "human_readable_name": "Blanchard, P. K. et al. (2022)"
         }
     ],
     "distance": [

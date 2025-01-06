@@ -860,6 +860,24 @@
             "corr_av": false,
             "corr_hostav": false,
             "obs_type": "xray",
+            "xray_model": [
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "Gamma"
+                    ],
+                    "param_values": [
+                        2.0
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10,
+                    "energy_units": "keV",
+                    "model_reference": "2024ApJ...961..211M"
+                }
+            ],
             "reference": [
                 "2024ApJ...961..211M"
             ],
@@ -910,15 +928,15 @@
     "reference_alias": [
         {
             "name": "2021ApJS..252...32J",
-            "human_readable_name": "Jiang, Ning et al. (2021)"
-        },
-        {
-            "name": "2022ApJS..258...21W",
             "human_readable_name": "Masterson, Megan et al. (2024)"
         },
         {
-            "name": "2024ApJ...961..211M",
+            "name": "2022ApJS..258...21W",
             "human_readable_name": "Wang, Yibo et al. (2022)"
+        },
+        {
+            "name": "2024ApJ...961..211M",
+            "human_readable_name": "Jiang, Ning et al. (2021)"
         }
     ]
 }

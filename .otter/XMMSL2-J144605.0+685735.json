@@ -1,13 +1,16 @@
 {
-    "distance": [
+    "reference_alias": [
         {
-            "value": "0.029",
-            "distance_type": "redshift",
-            "reference": [
-                "2019A&A...630A..98S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+            "name": "2019A&A...630A..98S",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Saxton, R. D. et al. (2019)"
+        },
+        {
+            "name": "2020SSRv..216...81A",
+            "human_readable_name": "Saxton, R. D. et al. (2019)"
         }
     ],
     "name": {
@@ -64,18 +67,15 @@
             ]
         }
     ],
-    "reference_alias": [
+    "distance": [
         {
-            "name": "2019A&A...630A..98S",
-            "human_readable_name": "Saxton, R. D. et al. (2019)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2020SSRv..216...81A",
-            "human_readable_name": "Alexander, Kate D. et al. (2020)"
+            "value": "0.029",
+            "distance_type": "redshift",
+            "reference": [
+                "2019A&A...630A..98S",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         }
     ],
     "host": [
@@ -105,6 +105,14 @@
                 "2019A&A...630A..98S"
             ],
             "default": true
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "6.0GHz",
+            "filter_name": "C",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
         }
     ],
     "photometry": [
@@ -141,14 +149,6 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "6.0GHz",
-            "filter_name": "C",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
         }
     ]
 }

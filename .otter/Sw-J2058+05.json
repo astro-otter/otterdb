@@ -1,175 +1,54 @@
 {
-    "distance": [
+    "filter_alias": [
         {
-            "value": "1.1853",
-            "distance_type": "redshift",
-            "reference": [
-                "2011ATel.3384....1K",
-                "2012ApJ...753...77C",
-                "2012MNRAS.420.2684C",
-                "2015ApJ...805...68P",
-                "2017ApJ...838..149A",
-                "2017MNRAS.472.4469B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+            "filter_key": "4.5GHz",
+            "filter_name": "C",
+            "freq_eff": 4.5,
+            "freq_units": "GHz"
         },
         {
-            "value": "3833.1",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2012ApJ...753...77C",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
+            "filter_key": "5.5GHz",
+            "filter_name": "C",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
         },
         {
-            "value": "8376.4",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2012ApJ...753...77C",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "Sw J2058+05",
-        "alias": [
-            {
-                "value": "Swift J2058+05",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "Sw J2058+05",
-                "reference": [
-                    "Swift",
-                    "2012ApJ...753...77C"
-                ]
-            }
-        ]
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2011ATel.3384....1K",
-                "2012ApJ...753...77C",
-                "2012MNRAS.420.2684C",
-                "2015ApJ...805...68P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A",
-                "2017MNRAS.472.4469B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2011-05-20",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2012ApJ...753...77C"
-            ],
-            "default": false
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         },
         {
-            "value": "2011-05-27",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": false
+            "filter_key": "7.9GHz",
+            "filter_name": "C",
+            "freq_eff": 7.9,
+            "freq_units": "GHz"
         },
         {
-            "value": "2011-05-27 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2011ATel.3384....1K",
-                "2012MNRAS.420.2684C",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+            "filter_key": "8.4GHz",
+            "filter_name": "X",
+            "freq_eff": 8.4,
+            "freq_units": "GHz"
         },
         {
-            "value": "55698.0",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2012ApJ...753...77C",
-                "2015ApJ...805...68P",
-                "2017MNRAS.472.4469B"
-            ],
-            "default": false
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "20 58 19.90",
-            "dec": "+05 13 32.0",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "computed": "False",
-            "default": true,
-            "uuid": "2669fcb0-e745-4755-b961-c69b2aaf4c75",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2012ApJ...753...77C",
-                "2015ApJ...805...68P",
-                "2017MNRAS.472.4469B"
-            ]
+            "filter_key": "22.5GHz",
+            "filter_name": "K",
+            "freq_eff": 22.5,
+            "freq_units": "GHz"
         },
         {
-            "ra": "20:58:19.85",
-            "dec": "+05:13:33.00",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2017ApJ...838..149A"
-            ]
+            "filter_key": "22.0GHz",
+            "filter_name": "K",
+            "freq_eff": 22.0,
+            "freq_units": "GHz"
         },
         {
-            "ra": "20:58:19.90",
-            "dec": "+05:13:32.0",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2012ApJ...753...77C"
-            ]
-        },
-        {
-            "computed": "True",
-            "default": true,
-            "coordinate_type": "galactic",
-            "l": "53.61702902648376",
-            "b": "-25.11893929017656",
-            "l_units": "deg",
-            "b_units": "deg",
-            "reference": [
-                "2669fcb0-e745-4755-b961-c69b2aaf4c75"
-            ]
+            "filter_key": "9.0GHz",
+            "filter_name": "X",
+            "freq_eff": 9.0,
+            "freq_units": "GHz"
         }
     ],
     "reference_alias": [
@@ -208,6 +87,135 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Krimm, H. A. et al. (2011)"
+        }
+    ],
+    "name": {
+        "default_name": "Sw J2058+05",
+        "alias": [
+            {
+                "value": "Swift J2058+05",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "Sw J2058+05",
+                "reference": [
+                    "Swift",
+                    "2012ApJ...753...77C"
+                ]
+            }
+        ]
+    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2011ATel.3384....1K",
+                "2012ApJ...753...77C",
+                "2012MNRAS.420.2684C",
+                "2015ApJ...805...68P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A",
+                "2017MNRAS.472.4469B",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "20 58 19.90",
+            "dec": "+05 13 32.0",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "280e45aa-a795-4d9b-a56e-564f219cd158",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017MNRAS.472.4469B"
+            ]
+        },
+        {
+            "ra": "20:58:19.85",
+            "dec": "+05:13:33.00",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2017ApJ...838..149A"
+            ]
+        },
+        {
+            "ra": "20:58:19.90",
+            "dec": "+05:13:32.0",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2012ApJ...753...77C"
+            ]
+        },
+        {
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "53.61702902648376",
+            "b": "-25.11893929017656",
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": [
+                "280e45aa-a795-4d9b-a56e-564f219cd158"
+            ]
+        }
+    ],
+    "distance": [
+        {
+            "value": "1.1853",
+            "distance_type": "redshift",
+            "reference": [
+                "2011ATel.3384....1K",
+                "2012ApJ...753...77C",
+                "2012MNRAS.420.2684C",
+                "2015ApJ...805...68P",
+                "2017ApJ...838..149A",
+                "2017MNRAS.472.4469B",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "3833.1",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "8376.4",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -297,6 +305,44 @@
             "reference": [
                 "2017ApJ...838..149A"
             ],
+            "xray_model": [
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0697"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0697"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
+            ],
             "corr_s": null
         },
         {
@@ -332,6 +378,26 @@
             "corr_hostav": null,
             "reference": [
                 "2017ApJ...838..149A"
+            ],
+            "xray_model": [
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0697"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
             ],
             "corr_s": null
         },
@@ -408,6 +474,83 @@
             "reference": [
                 "2017ApJ...838..149A"
             ],
+            "xray_model": [
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "1.3698"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "1.59"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "1.5"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "1.59745"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "1.6"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
+            ],
             "corr_s": null
         },
         {
@@ -483,6 +626,98 @@
             "corr_hostav": null,
             "reference": [
                 "2017ApJ...838..149A"
+            ],
+            "xray_model": [
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "1.885"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "1.98"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "1.885"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "1.51"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "1.885"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "1.885"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
             ],
             "corr_s": null
         },
@@ -604,58 +839,55 @@
             "corr_hostav": false
         }
     ],
-    "filter_alias": [
+    "date_reference": [
         {
-            "filter_key": "4.5GHz",
-            "filter_name": "C",
-            "freq_eff": 4.5,
-            "freq_units": "GHz"
+            "value": "2011-05-20",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2012ApJ...753...77C"
+            ],
+            "default": false
         },
         {
-            "filter_key": "5.5GHz",
-            "filter_name": "C",
-            "freq_eff": 5.5,
-            "freq_units": "GHz"
+            "value": "2011-05-27",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": false
         },
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
+            "value": "2011-05-27 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2011ATel.3384....1K",
+                "2012MNRAS.420.2684C",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         },
         {
-            "filter_key": "7.9GHz",
-            "filter_name": "C",
-            "freq_eff": 7.9,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "8.4GHz",
-            "filter_name": "X",
-            "freq_eff": 8.4,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "22.5GHz",
-            "filter_name": "K",
-            "freq_eff": 22.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "22.0GHz",
-            "filter_name": "K",
-            "freq_eff": 22.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "9.0GHz",
-            "filter_name": "X",
-            "freq_eff": 9.0,
-            "freq_units": "GHz"
+            "value": "55698.0",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2012ApJ...753...77C",
+                "2015ApJ...805...68P",
+                "2017MNRAS.472.4469B"
+            ],
+            "default": false
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Original Dataset;Copied from tde.space;"
+    },
     "host": [
         {
             "host_name": "Swift J205819.7+051329",
@@ -670,9 +902,5 @@
                 "2017ApJ...838..149A"
             ]
         }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    }
+    ]
 }

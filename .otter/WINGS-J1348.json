@@ -1,8 +1,19 @@
 {
-    "classification": [
+    "date_reference": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "value": "1999-12-20",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": false
+        },
+        {
+            "value": "1999-12-20 ",
+            "date_format": "iso",
+            "date_type": "discovery",
             "reference": [
                 "2013MNRAS.435.1904M",
                 "2015ApJ...807..185F",
@@ -12,6 +23,28 @@
             "default": true
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "name": {
+        "default_name": "WINGS J1348",
+        "alias": [
+            {
+                "value": "WINGS J134849.88+263557.5",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "WINGS J1348",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -35,23 +68,11 @@
         },
         {
             "name": "2015ApJ...807..185F",
-            "human_readable_name": "Auchettl, Katie et al. (2017)"
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         },
         {
             "name": "2023PASP..135c4101G",
-            "human_readable_name": "Feng, Hua et al. (2015)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "13:48:49.9",
-            "dec": "+26:35:57.49",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
+            "human_readable_name": "Maksym, W. P. et al. (2013)"
         }
     ],
     "distance": [
@@ -91,42 +112,10 @@
             "default": true
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "name": {
-        "default_name": "WINGS J1348",
-        "alias": [
-            {
-                "value": "WINGS J134849.88+263557.5",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "WINGS J1348",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
+    "classification": [
         {
-            "value": "1999-12-20",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": false
-        },
-        {
-            "value": "1999-12-20 ",
-            "date_format": "iso",
-            "date_type": "discovery",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
                 "2013MNRAS.435.1904M",
                 "2015ApJ...807..185F",
@@ -136,14 +125,16 @@
             "default": true
         }
     ],
-    "filter_alias": [
+    "coordinate": [
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
+            "ra": "13:48:49.9",
+            "dec": "+26:35:57.49",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
         }
     ],
     "photometry": [
@@ -253,6 +244,158 @@
             "reference": [
                 "2017ApJ...838..149A"
             ],
+            "xray_model": [
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "4.46"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "5.37"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "4.915"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "4.915"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "4.915"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "4.915"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "4.915"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "4.915"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "4.915"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Powerlaw",
+                    "param_names": [
+                        "photonindex"
+                    ],
+                    "param_values": [
+                        "4.915"
+                    ],
+                    "param_units": [
+                        "None"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
+            ],
             "corr_s": null
         },
         {
@@ -305,6 +448,62 @@
             "reference": [
                 "2017ApJ...838..149A"
             ],
+            "xray_model": [
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0119"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0119"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0119"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
+            ],
             "corr_s": null
         },
         {
@@ -340,6 +539,26 @@
             "corr_hostav": null,
             "reference": [
                 "2017ApJ...838..149A"
+            ],
+            "xray_model": [
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.012"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
             ],
             "corr_s": null
         },
@@ -385,7 +604,55 @@
             "reference": [
                 "2017ApJ...838..149A"
             ],
+            "xray_model": [
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0119"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0119"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
+            ],
             "corr_s": null
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "host": [

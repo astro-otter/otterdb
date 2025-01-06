@@ -1,33 +1,7 @@
 {
-    "filter_alias": [
-        {
-            "filter_key": "887.5MHz",
-            "filter_name": "UHF",
-            "freq_eff": 887.5,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "3000.0MHz",
-            "filter_name": "S",
-            "freq_eff": 3000.0,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "orange",
-            "filter_name": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "filter_name": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        }
-    ],
     "photometry": [
         {
-            "reference": "2024arXiv240712097A",
+            "reference": "2024ApJ...974..241A",
             "raw": [
                 0.8,
                 0.6
@@ -62,7 +36,7 @@
             "corr_hostav": false
         },
         {
-            "reference": "2024arXiv240712097A",
+            "reference": "2024ApJ...974..241A",
             "raw": [
                 0.8,
                 1.0,
@@ -152,58 +126,6 @@
         },
         {
             "raw": [
-                19.64
-            ],
-            "raw_err": [
-                0
-            ],
-            "upperlimit": true,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "58630.34699069988",
-            "date_format": "mjd",
-            "filter_key": "orange",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "ATLAS-HKO",
-            "instrument": "ATLAS-02"
-        },
-        {
-            "raw": [
-                20.775
-            ],
-            "raw_err": [
-                0.359
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "58632.348993100226",
-            "date_format": "mjd",
-            "filter_key": "orange",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "ATLAS-MLO",
-            "instrument": "ATLAS-01"
-        },
-        {
-            "raw": [
                 19.19
             ],
             "raw_err": [
@@ -279,6 +201,84 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
+        },
+        {
+            "raw": [
+                20.775
+            ],
+            "raw_err": [
+                0.359
+            ],
+            "upperlimit": false,
+            "raw_units": [
+                "mag(AB)"
+            ],
+            "date": "58632.348993100226",
+            "date_format": "mjd",
+            "filter_key": "orange",
+            "reference": [
+                "TNS"
+            ],
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "ATLAS-MLO",
+            "instrument": "ATLAS-01"
+        },
+        {
+            "raw": [
+                19.64
+            ],
+            "raw_err": [
+                0
+            ],
+            "upperlimit": true,
+            "raw_units": [
+                "mag(AB)"
+            ],
+            "date": "58630.34699069988",
+            "date_format": "mjd",
+            "filter_key": "orange",
+            "reference": [
+                "TNS"
+            ],
+            "obs_type": "uvoir",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_av": false,
+            "corr_host": true,
+            "corr_hostav": false,
+            "telescope": "ATLAS-HKO",
+            "instrument": "ATLAS-02"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "3000.0MHz",
+            "filter_name": "S",
+            "freq_eff": 3000.0,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "r",
+            "filter_name": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "orange",
+            "filter_name": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
         }
     ],
     "classification": [
@@ -287,9 +287,52 @@
             "confidence": 1,
             "reference": [
                 "2019TNSCR.975....1S",
-                "2024arXiv240712097A"
+                "2024ApJ...974..241A"
             ],
             "default": true
+        }
+    ],
+    "name": {
+        "default_name": "2019gte",
+        "alias": [
+            {
+                "value": "ZTF19aavxfib",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2019gte",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS19omw",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2019gte",
+                "reference": [
+                    "2019TNSTR.922....1N"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
+        {
+            "name": "2019TNSTR.922....1N",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Nordin, J. et al. (2019)"
+        },
+        {
+            "name": "2019TNSCR.975....1S",
+            "human_readable_name": "Swann, E. et al. (2019)"
         }
     ],
     "coordinate": [
@@ -316,49 +359,6 @@
                 "2019TNSTR.922....1N"
             ],
             "default": false
-        }
-    ],
-    "name": {
-        "default_name": "2019gte",
-        "alias": [
-            {
-                "value": "ATLAS19omw",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2019gte",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF19aavxfib",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2019gte",
-                "reference": [
-                    "2019TNSTR.922....1N"
-                ]
-            }
-        ]
-    },
-    "reference_alias": [
-        {
-            "name": "2019TNSTR.922....1N",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024arXiv240712097A",
-            "human_readable_name": "Nordin, J. et al. (2019)"
-        },
-        {
-            "name": "2019TNSCR.975....1S",
-            "human_readable_name": "Swann, E. et al. (2019)"
         }
     ],
     "distance": [

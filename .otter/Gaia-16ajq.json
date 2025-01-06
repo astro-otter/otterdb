@@ -1,48 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2016TNSTR.480....1D",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2017IAUS..324..127W",
-            "human_readable_name": "Delgado, A. et al. (2016)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Wyrzykowski, \u0141ukasz et al. (2017)"
-        },
-        {
-            "name": "2016TNSTR.481....1D",
-            "human_readable_name": "Delgado, A. et al. (2016)"
-        },
-        {
-            "name": "2018MNRAS.481..307K",
-            "human_readable_name": "Kostrzewa-Rutkowska, Z. et al. (2018)"
-        }
-    ],
-    "host": [
-        {
-            "host_ra": "223.2583333333333",
-            "host_dec": "42.35777777777778",
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "host_name": "SDSS J145301.70+422127.8",
-            "reference": [
-                "2016TNSTR.480....1D",
-                "2017IAUS..324..127W",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "host_name": "SDSSJ145301.70+422127.82",
-            "reference": [
-                "2018MNRAS.481..307K"
-            ],
-            "default": false
-        }
-    ],
     "date_reference": [
         {
             "value": "2016-03-29 ",
@@ -65,34 +21,26 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "Gaia 16ajq",
-        "alias": [
-            {
-                "value": "GNTJ145301.70+422127.82",
-                "reference": [
-                    "2016TNSTR.481....1D"
-                ]
-            },
-            {
-                "value": "Gaia 16ajq",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "classification": [
+    "host": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "host_ra": "223.2583333333333",
+            "host_dec": "42.35777777777778",
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "host_name": "SDSS J145301.70+422127.8",
             "reference": [
                 "2016TNSTR.480....1D",
                 "2017IAUS..324..127W",
-                "2018MNRAS.481..307K",
                 "2023PASP..135c4101G"
             ],
             "default": true
+        },
+        {
+            "host_name": "SDSSJ145301.70+422127.82",
+            "reference": [
+                "2018MNRAS.481..307K"
+            ],
+            "default": false
         }
     ],
     "coordinate": [
@@ -121,6 +69,62 @@
             ]
         }
     ],
+    "name": {
+        "default_name": "Gaia 16ajq",
+        "alias": [
+            {
+                "value": "GNTJ145301.70+422127.82",
+                "reference": [
+                    "2016TNSTR.481....1D"
+                ]
+            },
+            {
+                "value": "Gaia 16ajq",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
+        {
+            "name": "2016TNSTR.480....1D",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2017IAUS..324..127W",
+            "human_readable_name": "Wyrzykowski, \u0141ukasz et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Delgado, A. et al. (2016)"
+        },
+        {
+            "name": "2016TNSTR.481....1D",
+            "human_readable_name": "Kostrzewa-Rutkowska, Z. et al. (2018)"
+        },
+        {
+            "name": "2018MNRAS.481..307K",
+            "human_readable_name": "Delgado, A. et al. (2016)"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2016TNSTR.480....1D",
+                "2017IAUS..324..127W",
+                "2018MNRAS.481..307K",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "distance": [
         {
             "value": "0.28",
@@ -134,10 +138,6 @@
             "distance_type": "redshift"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "photometry": [
         {
             "reference": "2018MNRAS.481..307K",

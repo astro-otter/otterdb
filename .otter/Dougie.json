@@ -1,8 +1,19 @@
 {
-    "classification": [
+    "date_reference": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "value": "2009-01-17",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2014arXiv1410.6014V",
+                "2017ApJ...835...64G"
+            ],
+            "default": false
+        },
+        {
+            "value": "2009-01-17 ",
+            "date_format": "iso",
+            "date_type": "discovery",
             "reference": [
                 "2015ApJ...798...12V",
                 "2017ApJ...838..149A",
@@ -11,6 +22,24 @@
             "default": true
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "name": {
+        "default_name": "Dougie",
+        "alias": [
+            {
+                "value": "Dougie",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2015ApJ...798...12V",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -38,19 +67,7 @@
         },
         {
             "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "12:08:47.87",
-            "dec": "+43:01:20.01",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
+            "human_readable_name": "Vink\u00f3, J. et al. (2015)"
         }
     ],
     "distance": [
@@ -90,38 +107,10 @@
             "default": true
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "name": {
-        "default_name": "Dougie",
-        "alias": [
-            {
-                "value": "Dougie",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2015ApJ...798...12V",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
+    "classification": [
         {
-            "value": "2009-01-17",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2014arXiv1410.6014V",
-                "2017ApJ...835...64G"
-            ],
-            "default": false
-        },
-        {
-            "value": "2009-01-17 ",
-            "date_format": "iso",
-            "date_type": "discovery",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
                 "2015ApJ...798...12V",
                 "2017ApJ...838..149A",
@@ -130,14 +119,16 @@
             "default": true
         }
     ],
-    "filter_alias": [
+    "coordinate": [
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
+            "ra": "12:08:47.87",
+            "dec": "+43:01:20.01",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
         }
     ],
     "photometry": [
@@ -183,6 +174,44 @@
             "reference": [
                 "2017ApJ...838..149A"
             ],
+            "xray_model": [
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.013"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                },
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.013"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
+            ],
             "corr_s": null
         },
         {
@@ -219,7 +248,37 @@
             "reference": [
                 "2017ApJ...838..149A"
             ],
+            "xray_model": [
+                {
+                    "model_name": "Absorbed Powerlaw",
+                    "param_names": [
+                        "photonindex",
+                        "nhmw"
+                    ],
+                    "param_values": [
+                        "4.5",
+                        "0.0128"
+                    ],
+                    "param_units": [
+                        "None",
+                        "10^22 cm^-2"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 2.0,
+                    "energy_units": "keV"
+                }
+            ],
             "corr_s": null
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "host": [

@@ -1,4 +1,84 @@
 {
+    "filter_alias": [
+        {
+            "filter_key": "6.0GHz",
+            "filter_name": "C",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.5GHz",
+            "filter_name": "C",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.57GHz",
+            "filter_name": "L",
+            "freq_eff": 1.57,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.5195GHz",
+            "filter_name": "L",
+            "freq_eff": 1.5195,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.499GHz",
+            "filter_name": "C",
+            "freq_eff": 5.499,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.5474GHz",
+            "filter_name": "L",
+            "freq_eff": 1.5474,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "4.9795GHz",
+            "filter_name": "C",
+            "freq_eff": 4.9795,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "9.0GHz",
+            "filter_name": "X",
+            "freq_eff": 9.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "freq_eff": 3.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.5GHz",
+            "filter_name": "L",
+            "freq_eff": 1.5,
+            "freq_units": "GHz"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2015ApJ...809..172I",
+            "human_readable_name": "Irwin et al. (2015)"
+        },
+        {
+            "name": "2016MNRAS.461.3375Y",
+            "human_readable_name": "Yuan et al. (2016)"
+        },
+        {
+            "name": "2017ApJ...842..126P",
+            "human_readable_name": "Perlman et al. (2017)"
+        },
+        {
+            "name": "2022ApJ...925..143P",
+            "human_readable_name": "Irwin, Judith A. et al. (2015)"
+        }
+    ],
     "name": {
         "default_name": "IGR J12580+0134",
         "alias": [
@@ -9,15 +89,15 @@
                 ]
             },
             {
-                "value": "IGR J12580+0134",
-                "reference": [
-                    "IGR"
-                ]
-            },
-            {
                 "value": "IGR 12580",
                 "reference": [
                     "2015ApJ...809..172I"
+                ]
+            },
+            {
+                "value": "IGR J12580+0134",
+                "reference": [
+                    "IGR"
                 ]
             }
         ]
@@ -44,7 +124,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": true,
-            "uuid": "45fe9fd4-0cd0-4e7a-a93b-70c58f832ba2",
+            "uuid": "337f423f-d506-4b89-9efa-aba6255a4607",
             "coordinate_type": "equitorial",
             "reference": [
                 "2015ApJ...809..172I",
@@ -83,26 +163,8 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "45fe9fd4-0cd0-4e7a-a93b-70c58f832ba2"
+                "337f423f-d506-4b89-9efa-aba6255a4607"
             ]
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2015ApJ...809..172I",
-            "human_readable_name": "Irwin et al. (2015)"
-        },
-        {
-            "name": "2016MNRAS.461.3375Y",
-            "human_readable_name": "Yuan et al. (2016)"
-        },
-        {
-            "name": "2017ApJ...842..126P",
-            "human_readable_name": "Perlman et al. (2017)"
-        },
-        {
-            "name": "2022ApJ...925..143P",
-            "human_readable_name": "Perlman, Eric S. et al. (2017)"
         }
     ],
     "photometry": [
@@ -439,68 +501,6 @@
             ],
             "corr_av": false,
             "corr_hostav": false
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "6.0GHz",
-            "filter_name": "C",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.5GHz",
-            "filter_name": "C",
-            "freq_eff": 5.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.57GHz",
-            "filter_name": "L",
-            "freq_eff": 1.57,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.5195GHz",
-            "filter_name": "L",
-            "freq_eff": 1.5195,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.499GHz",
-            "filter_name": "C",
-            "freq_eff": 5.499,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.5474GHz",
-            "filter_name": "L",
-            "freq_eff": 1.5474,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "4.9795GHz",
-            "filter_name": "C",
-            "freq_eff": 4.9795,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "9.0GHz",
-            "filter_name": "X",
-            "freq_eff": 9.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "3.0GHz",
-            "filter_name": "S",
-            "freq_eff": 3.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.5GHz",
-            "filter_name": "L",
-            "freq_eff": 1.5,
-            "freq_units": "GHz"
         }
     ],
     "distance": [
