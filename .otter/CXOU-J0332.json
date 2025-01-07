@@ -25,6 +25,18 @@
         "comments": "From Goldtooth et al. (2023)",
         "comment": "Copied from tde.space;"
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017MNRAS.467.4841B",
+                "2017arXiv170204422B",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
     "name": {
         "default_name": "CXOU J0332",
         "alias": [
@@ -65,18 +77,6 @@
             "human_readable_name": "Bauer, Franz E. et al. (2017)"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017MNRAS.467.4841B",
-                "2017arXiv170204422B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
     "coordinate": [
         {
             "ra": "03:32:38.8",
@@ -87,6 +87,18 @@
                 "2017arXiv170204422B"
             ],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "distance": [
+        {
+            "value": "2.23",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017MNRAS.467.4841B"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         }
     ],
     "host": [
@@ -100,18 +112,6 @@
                 "2023PASP..135c4101G",
                 "2017MNRAS.467.4841B"
             ]
-        }
-    ],
-    "distance": [
-        {
-            "value": "2.23",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2017MNRAS.467.4841B"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
         }
     ]
 }

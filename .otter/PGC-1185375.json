@@ -1,9 +1,59 @@
 {
+    "distance": [
+        {
+            "value": "0.00523",
+            "distance_type": "redshift",
+            "reference": [
+                "2015arXiv150506612H",
+                "2016A&A...586A...9H",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "23.1",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2015arXiv150506612H",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "23.2",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2015arXiv150506612H",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)",
         "comment": "Copied from tde.space;"
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2016A&A...586A...9H",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
     "name": {
         "default_name": "PGC 1185375",
         "alias": [
@@ -46,56 +96,6 @@
             "human_readable_name": "Hryniewicz, K. & Walter, R. (2016)"
         }
     ],
-    "distance": [
-        {
-            "value": "0.00523",
-            "distance_type": "redshift",
-            "reference": [
-                "2015arXiv150506612H",
-                "2016A&A...586A...9H",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "23.1",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2015arXiv150506612H",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "23.2",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2015arXiv150506612H",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2016A&A...586A...9H",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
     "coordinate": [
         {
             "ra": "15:03:50.40",
@@ -106,6 +106,16 @@
                 "2017ApJ...838..149A"
             ],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "photometry": [
@@ -248,14 +258,17 @@
             "corr_s": null
         }
     ],
-    "filter_alias": [
+    "date_reference": [
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
+            "value": "2010-02-03 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2016A&A...586A...9H",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         }
     ],
     "host": [
@@ -270,19 +283,6 @@
                 "2016A&A...586A...9H",
                 "2017ApJ...838..149A"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2010-02-03 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2016A&A...586A...9H",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
         }
     ]
 }

@@ -1,9 +1,59 @@
 {
+    "distance": [
+        {
+            "value": "0.000531",
+            "distance_type": "redshift",
+            "reference": [
+                "2011ApJ...737...87J",
+                "2015ApJ...807..185F",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "2.35",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2015ApJ...807..185F",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "2.35",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2015ApJ...807..185F",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)",
         "comment": "Copied from tde.space;"
     },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2011ApJ...737...87J",
+                "2015ApJ...807..185F",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
     "name": {
         "default_name": "NGC 247",
         "alias": [
@@ -46,56 +96,6 @@
             "human_readable_name": "Jin, Jing et al. (2011)"
         }
     ],
-    "distance": [
-        {
-            "value": "0.000531",
-            "distance_type": "redshift",
-            "reference": [
-                "2011ApJ...737...87J",
-                "2015ApJ...807..185F",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "2.35",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2015ApJ...807..185F",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "2.35",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2015ApJ...807..185F",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2011ApJ...737...87J",
-                "2015ApJ...807..185F",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
     "coordinate": [
         {
             "ra": "00:47:08.64",
@@ -104,6 +104,20 @@
             "dec_units": "deg",
             "reference": [],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2014-07-01 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2011ApJ...737...87J",
+                "2015ApJ...807..185F",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         }
     ],
     "host": [
@@ -119,20 +133,6 @@
                 "2015ApJ...807..185F",
                 "2017ApJ...838..149A"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2014-07-01 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2011ApJ...737...87J",
-                "2015ApJ...807..185F",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
         }
     ]
 }

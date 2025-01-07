@@ -1,46 +1,15 @@
 {
-    "date_reference": [
+    "classification": [
         {
-            "value": "2016-03-29 ",
-            "date_format": "iso",
-            "date_type": "discovery",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
                 "2016TNSTR.480....1D",
                 "2017IAUS..324..127W",
+                "2018MNRAS.481..307K",
                 "2023PASP..135c4101G"
             ],
             "default": true
-        },
-        {
-            "value": "2457477.111",
-            "date_format": "jd",
-            "date_type": "discovery",
-            "reference": [
-                "2016TNSTR.481....1D"
-            ],
-            "default": false
-        }
-    ],
-    "host": [
-        {
-            "host_ra": "223.2583333333333",
-            "host_dec": "42.35777777777778",
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "host_name": "SDSS J145301.70+422127.8",
-            "reference": [
-                "2016TNSTR.480....1D",
-                "2017IAUS..324..127W",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "host_name": "SDSSJ145301.70+422127.82",
-            "reference": [
-                "2018MNRAS.481..307K"
-            ],
-            "default": false
         }
     ],
     "coordinate": [
@@ -86,6 +55,50 @@
             }
         ]
     },
+    "date_reference": [
+        {
+            "value": "2016-03-29 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2016TNSTR.480....1D",
+                "2017IAUS..324..127W",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "2457477.111",
+            "date_format": "jd",
+            "date_type": "discovery",
+            "reference": [
+                "2016TNSTR.481....1D"
+            ],
+            "default": false
+        }
+    ],
+    "host": [
+        {
+            "host_ra": "223.2583333333333",
+            "host_dec": "42.35777777777778",
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "host_name": "SDSS J145301.70+422127.8",
+            "reference": [
+                "2016TNSTR.480....1D",
+                "2017IAUS..324..127W",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "host_name": "SDSSJ145301.70+422127.82",
+            "reference": [
+                "2018MNRAS.481..307K"
+            ],
+            "default": false
+        }
+    ],
     "reference_alias": [
         {
             "name": "2016TNSTR.480....1D",
@@ -108,23 +121,6 @@
             "human_readable_name": "Delgado, A. et al. (2016)"
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2016TNSTR.480....1D",
-                "2017IAUS..324..127W",
-                "2018MNRAS.481..307K",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "distance": [
         {
             "value": "0.28",
@@ -138,6 +134,10 @@
             "distance_type": "redshift"
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "photometry": [
         {
             "reference": "2018MNRAS.481..307K",

@@ -9,26 +9,6 @@
             "human_readable_name": "Hodgkin, S. T. et al. (2020)"
         }
     ],
-    "date_reference": [
-        {
-            "value": "2020-09-23 0:14:24.00000000013506",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "ASAS-SN Supernovae"
-            ],
-            "default": true
-        },
-        {
-            "value": "59158.815",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2020TNSTR3418....1H"
-            ],
-            "default": false
-        }
-    ],
     "coordinate": [
         {
             "ra": "21:15:40.31",
@@ -55,17 +35,37 @@
             "default": false
         }
     ],
+    "date_reference": [
+        {
+            "value": "2020-09-23 0:14:24.00000000013506",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "ASAS-SN Supernovae"
+            ],
+            "default": true
+        },
+        {
+            "value": "59158.815",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2020TNSTR3418....1H"
+            ],
+            "default": false
+        }
+    ],
     "name": {
         "default_name": "2020zeb",
         "alias": [
             {
-                "value": "2020zeb",
+                "value": "Gaia20fct",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "Gaia20fct",
+                "value": "2020zeb",
                 "reference": [
                     "TNS"
                 ]
@@ -95,6 +95,14 @@
             "reference": [
                 "ASAS-SN Supernovae"
             ]
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "G",
+            "filter_name": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
         }
     ],
     "photometry": [
@@ -149,14 +157,6 @@
             "corr_hostav": false,
             "telescope": "Gaia",
             "instrument": "Gaia-photometric"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "G",
-            "filter_name": "G",
-            "wave_eff": 673.5412573108297,
-            "wave_units": "nm"
         }
     ]
 }

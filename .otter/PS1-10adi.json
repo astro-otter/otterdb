@@ -29,6 +29,32 @@
             "human_readable_name": "Hodgkin, S. T. et al. (2021)"
         }
     ],
+    "coordinate": [
+        {
+            "ra": "20:42:44.74",
+            "dec": "+15:30:32.1",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "default": true
+        },
+        {
+            "ra": "310.686417",
+            "dec": "15.50895",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2021TNSTR3297....1H"
+            ],
+            "default": false
+        }
+    ],
     "date_reference": [
         {
             "value": "2010-01-01",
@@ -53,32 +79,6 @@
             "value": "59471.207",
             "date_format": "mjd",
             "date_type": "discovery",
-            "reference": [
-                "2021TNSTR3297....1H"
-            ],
-            "default": false
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "20:42:44.74",
-            "dec": "+15:30:32.1",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "default": true
-        },
-        {
-            "ra": "310.686417",
-            "dec": "15.50895",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
             "reference": [
                 "2021TNSTR3297....1H"
             ],
@@ -123,6 +123,11 @@
             ]
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
     "distance": [
         {
             "value": "0.203",
@@ -185,11 +190,14 @@
             "default": false
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
+    "filter_alias": [
+        {
+            "filter_key": "G",
+            "filter_name": "G",
+            "wave_eff": 673.5412573108297,
+            "wave_units": "nm"
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -242,14 +250,6 @@
             "corr_hostav": false,
             "telescope": "Gaia",
             "instrument": "Gaia-photometric"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "G",
-            "filter_name": "G",
-            "wave_eff": 673.5412573108297,
-            "wave_units": "nm"
         }
     ]
 }
