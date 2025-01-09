@@ -1,67 +1,36 @@
 {
-    "distance": [
+    "reference_alias": [
         {
-            "value": "0.133",
-            "distance_type": "redshift",
-            "reference": [
-                "2017ATel11049....1S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
         },
         {
-            "value": "0.148",
-            "distance_type": "redshift",
-            "reference": [
-                "2017TNSCR.221....1B"
-            ],
-            "default": false
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
         },
         {
-            "value": "570",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
         },
         {
-            "value": "646",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ATel11049....1S",
-                "2017ApJ...835...64G",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+            "name": "2017ATel11049....1S",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         },
         {
-            "object_class": "ANT",
-            "confidence": 1,
-            "default": false,
-            "reference": "2024MNRAS.531.1905R"
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Sokolovsky, K. et al. (2017)"
         },
         {
-            "object_class": "SLSN-II",
-            "confidence": 0.5,
-            "reference": [
-                "2017TNSCR.221....1B"
-            ],
-            "default": false
+            "name": "2024MNRAS.531.1905R",
+            "human_readable_name": "Ridley et al. (2023)"
+        },
+        {
+            "name": "2017TNSTR.220....1C",
+            "human_readable_name": "Chambers et al. (2017)"
+        },
+        {
+            "name": "2017TNSCR.221....1B",
+            "human_readable_name": "Barbarino et al (2017)"
         }
     ],
     "date_reference": [
@@ -103,46 +72,67 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "2017bcc",
-        "alias": [
-            {
-                "value": "ZTF20aacbwbm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2017bcc",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "SN 2017bcc",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "AT2017bcc",
-                "reference": [
-                    "2017ApJ...835...64G",
-                    "2024MNRAS.531.1905R"
-                ]
-            },
-            {
-                "value": "SN2017bcc",
-                "reference": []
-            },
-            {
-                "value": "PS17bgn",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "11:31:53.04",
+            "dec": "+29:59:45.24",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": []
+        },
+        {
+            "ra": "172.97078162",
+            "dec": "29.9957852105",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2017TNSTR.220....1C"
+            ]
+        },
+        {
+            "ra": "172.970800581",
+            "dec": "29.9958695719",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2017TNSTR.220....1C"
+            ]
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ATel11049....1S",
+                "2017ApJ...835...64G",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "object_class": "ANT",
+            "confidence": 1,
+            "default": false,
+            "reference": "2024MNRAS.531.1905R"
+        },
+        {
+            "object_class": "SLSN-II",
+            "confidence": 0.5,
+            "reference": [
+                "2017TNSCR.221....1B"
+            ],
+            "default": false
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B",
@@ -331,6 +321,85 @@
             "filter_name": "w",
             "wave_eff": 638.9300625093831,
             "wave_units": "nm"
+        }
+    ],
+    "name": {
+        "default_name": "2017bcc",
+        "alias": [
+            {
+                "value": "ZTF20aacbwbm",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2017bcc",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "SN 2017bcc",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "SN2017bcc",
+                "reference": []
+            },
+            {
+                "value": "AT2017bcc",
+                "reference": [
+                    "2017ApJ...835...64G",
+                    "2024MNRAS.531.1905R"
+                ]
+            },
+            {
+                "value": "PS17bgn",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
+    },
+    "distance": [
+        {
+            "value": "0.133",
+            "distance_type": "redshift",
+            "reference": [
+                "2017ATel11049....1S",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "0.148",
+            "distance_type": "redshift",
+            "reference": [
+                "2017TNSCR.221....1B"
+            ],
+            "default": false
+        },
+        {
+            "value": "570",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        },
+        {
+            "value": "646",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -28358,75 +28427,11 @@
             "instrument": "GPC1"
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2017ATel11049....1S",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Sokolovsky, K. et al. (2017)"
-        },
-        {
-            "name": "2024MNRAS.531.1905R",
-            "human_readable_name": "Ridley et al. (2023)"
-        },
-        {
-            "name": "2017TNSTR.220....1C",
-            "human_readable_name": "Chambers et al. (2017)"
-        },
-        {
-            "name": "2017TNSCR.221....1B",
-            "human_readable_name": "Barbarino et al (2017)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "11:31:53.04",
-            "dec": "+29:59:45.24",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": []
-        },
-        {
-            "ra": "172.97078162",
-            "dec": "29.9957852105",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2017TNSTR.220....1C"
-            ]
-        },
-        {
-            "ra": "172.970800581",
-            "dec": "29.9958695719",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2017TNSTR.220....1C"
-            ]
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
     "host": [
         {
             "host_name": "SDSS J113152.97+295944.8",
@@ -28439,10 +28444,5 @@
                 "2017ATel11049....1S"
             ]
         }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    }
+    ]
 }

@@ -45,9 +45,10 @@ def main():
             doc = t.createDocument(initDict=data)
             doc.save()
         except Exception as exc:
+            print(j)
             print(exc)
             import pdb; pdb.set_trace()
-    print(t.fetchAll())
+    # print(t.fetchAll())
 
 if __name__ == "__main__":
     main()

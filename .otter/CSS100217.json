@@ -1,39 +1,4 @@
 {
-    "distance": [
-        {
-            "value": "0.147",
-            "distance_type": "redshift",
-            "reference": [
-                "2011ApJ...735..106D",
-                "2017ApJ...838..149A",
-                "2017NatAs...1..865K",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "628",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2011ApJ...735..106D",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
-        },
-        {
-            "value": "720",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2011ApJ...735..106D",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
-        }
-    ],
     "date_reference": [
         {
             "value": "2002-12-31",
@@ -58,33 +23,6 @@
             "default": true
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2011ApJ...735..106D",
-                "2017ApJ...838..149A",
-                "2017NatAs...1..865K",
-                "2017arXiv170307816B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2011ApJ...735..106D"
-            ],
-            "default": false
-        }
-    ],
     "name": {
         "default_name": "CSS100217",
         "alias": [
@@ -95,23 +33,36 @@
                 ]
             },
             {
-                "value": "CSS100217",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2011ApJ...735..106D",
-                    "2010ATel.2544....1D"
-                ]
-            },
-            {
                 "value": "CSS100217:102913+404220",
                 "reference": [
                     "2011ApJ...735..106D",
                     "2010ATel.2544....1D",
                     "2000A&AS..143....9W"
                 ]
+            },
+            {
+                "value": "CSS100217",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2011ApJ...735..106D",
+                    "2010ATel.2544....1D"
+                ]
             }
         ]
     },
+    "coordinate": [
+        {
+            "ra": "10:29:13.0",
+            "dec": "+40:42:20",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2011BASI...39..387M",
+                "2000A&AS..143....9W"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "reference_alias": [
         {
             "name": "2017arXiv170307816B",
@@ -158,123 +109,66 @@
             "human_readable_name": "Drake, A. J. et al. (2011)"
         }
     ],
-    "coordinate": [
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "classification": [
         {
-            "ra": "10:29:13.0",
-            "dec": "+40:42:20",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
-                "2011BASI...39..387M",
-                "2000A&AS..143....9W"
+                "2011ApJ...735..106D",
+                "2017ApJ...838..149A",
+                "2017NatAs...1..865K",
+                "2017arXiv170307816B",
+                "2023PASP..135c4101G"
             ],
-            "coordinate_type": "equitorial"
+            "default": true
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2011ApJ...735..106D"
+            ],
+            "default": false
         }
     ],
-    "filter_alias": [
+    "distance": [
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
+            "value": "0.147",
+            "distance_type": "redshift",
+            "reference": [
+                "2011ApJ...735..106D",
+                "2017ApJ...838..149A",
+                "2017NatAs...1..865K",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         },
         {
-            "filter_key": "H",
-            "wave_eff": 1630.0,
-            "wave_units": "nm",
-            "filter_name": "H"
+            "value": "628",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2011ApJ...735..106D",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
         },
         {
-            "filter_key": "J",
-            "wave_eff": 1220.0,
-            "wave_units": "nm",
-            "filter_name": "J"
-        },
-        {
-            "filter_key": "Ks",
-            "wave_eff": 2157.3600605745955,
-            "wave_units": "nm",
-            "filter_name": "Ks"
-        },
-        {
-            "filter_key": "g",
-            "wave_eff": 475.0,
-            "wave_units": "nm",
-            "filter_name": "g"
-        },
-        {
-            "filter_key": "i",
-            "wave_eff": 763.0,
-            "wave_units": "nm",
-            "filter_name": "i"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 622.0,
-            "wave_units": "nm",
-            "filter_name": "r"
-        },
-        {
-            "filter_key": "z",
-            "wave_eff": 905.0,
-            "wave_units": "nm",
-            "filter_name": "z"
-        },
-        {
-            "filter_key": "u",
-            "wave_eff": 354.0,
-            "wave_units": "nm",
-            "filter_name": "u"
-        },
-        {
-            "filter_key": "B",
-            "wave_eff": 445.0,
-            "wave_units": "nm",
-            "filter_name": "B"
-        },
-        {
-            "filter_key": "I",
-            "wave_eff": 806.0,
-            "wave_units": "nm",
-            "filter_name": "I"
-        },
-        {
-            "filter_key": "R",
-            "wave_eff": 658.0,
-            "wave_units": "nm",
-            "filter_name": "R"
-        },
-        {
-            "filter_key": "U",
-            "wave_eff": 365.0,
-            "wave_units": "nm",
-            "filter_name": "U"
-        },
-        {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm",
-            "filter_name": "V"
-        },
-        {
-            "filter_key": "UVM2",
-            "wave_eff": 225.47802478793594,
-            "wave_units": "nm",
-            "filter_name": "UVM2"
-        },
-        {
-            "filter_key": "UVW1",
-            "wave_eff": 261.3713060531025,
-            "wave_units": "nm",
-            "filter_name": "UVW1"
-        },
-        {
-            "filter_key": "UVW2",
-            "wave_eff": 207.98754332676123,
-            "wave_units": "nm",
-            "filter_name": "UVW2"
+            "value": "720",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2011ApJ...735..106D",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -1767,6 +1661,112 @@
                 "2011ApJ...735..106D"
             ],
             "corr_s": null
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "H",
+            "wave_eff": 1630.0,
+            "wave_units": "nm",
+            "filter_name": "H"
+        },
+        {
+            "filter_key": "J",
+            "wave_eff": 1220.0,
+            "wave_units": "nm",
+            "filter_name": "J"
+        },
+        {
+            "filter_key": "Ks",
+            "wave_eff": 2157.3600605745955,
+            "wave_units": "nm",
+            "filter_name": "Ks"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 475.0,
+            "wave_units": "nm",
+            "filter_name": "g"
+        },
+        {
+            "filter_key": "i",
+            "wave_eff": 763.0,
+            "wave_units": "nm",
+            "filter_name": "i"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 622.0,
+            "wave_units": "nm",
+            "filter_name": "r"
+        },
+        {
+            "filter_key": "z",
+            "wave_eff": 905.0,
+            "wave_units": "nm",
+            "filter_name": "z"
+        },
+        {
+            "filter_key": "u",
+            "wave_eff": 354.0,
+            "wave_units": "nm",
+            "filter_name": "u"
+        },
+        {
+            "filter_key": "B",
+            "wave_eff": 445.0,
+            "wave_units": "nm",
+            "filter_name": "B"
+        },
+        {
+            "filter_key": "I",
+            "wave_eff": 806.0,
+            "wave_units": "nm",
+            "filter_name": "I"
+        },
+        {
+            "filter_key": "R",
+            "wave_eff": 658.0,
+            "wave_units": "nm",
+            "filter_name": "R"
+        },
+        {
+            "filter_key": "U",
+            "wave_eff": 365.0,
+            "wave_units": "nm",
+            "filter_name": "U"
+        },
+        {
+            "filter_key": "V",
+            "wave_eff": 551.0,
+            "wave_units": "nm",
+            "filter_name": "V"
+        },
+        {
+            "filter_key": "UVM2",
+            "wave_eff": 225.47802478793594,
+            "wave_units": "nm",
+            "filter_name": "UVM2"
+        },
+        {
+            "filter_key": "UVW1",
+            "wave_eff": 261.3713060531025,
+            "wave_units": "nm",
+            "filter_name": "UVW1"
+        },
+        {
+            "filter_key": "UVW2",
+            "wave_eff": 207.98754332676123,
+            "wave_units": "nm",
+            "filter_name": "UVW2"
         }
     ],
     "host": [

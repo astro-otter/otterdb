@@ -1,26 +1,20 @@
 {
-    "distance": [
+    "reference_alias": [
         {
-            "value": "0.183",
-            "distance_type": "redshift",
-            "reference": [
-                "2021TNSCR2383....1S",
-                "2023ApJS..266....9A",
-                "2024ApJ...974..241A"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR2383....1S",
-                "2023ApJS..266....9A",
-                "2024ApJ...974..241A"
-            ],
-            "default": true
+            "name": "2023ApJS..266....9A",
+            "human_readable_name": "Aleo, P. D. et al. (2023)"
+        },
+        {
+            "name": "2021TNSTR2199....1J",
+            "human_readable_name": "Jones, D. O. et al. (2021)"
+        },
+        {
+            "name": "2021TNSCR2383....1S",
+            "human_readable_name": "Siebert, M. R. et al. (2021)"
         }
     ],
     "date_reference": [
@@ -43,30 +37,55 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "2021qxv",
-        "alias": [
-            {
-                "value": "PS21grp",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2021qxv",
-                "reference": [
-                    "2024ApJ...974..241A"
-                ]
-            },
-            {
-                "value": "2021qxv",
-                "reference": [
-                    "2023ApJS..266....9A",
-                    "TNS"
-                ]
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "15h18m59.3s",
+            "dec": "-03d11m45s",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2024ApJ...974..241A"
+            ]
+        },
+        {
+            "ra": "229.747063",
+            "dec": "-3.195855",
+            "ra_units": "deg",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2023ApJS..266....9A"
+            ]
+        },
+        {
+            "ra": "229.747063006",
+            "dec": "-3.19585485935",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2021TNSTR2199....1J"
+            ]
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR2383....1S",
+                "2023ApJS..266....9A",
+                "2024ApJ...974..241A"
+            ],
+            "default": true
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "3000.0MHz",
@@ -133,6 +152,42 @@
             "filter_name": "g",
             "wave_eff": 471.8872246248687,
             "wave_units": "nm"
+        }
+    ],
+    "name": {
+        "default_name": "2021qxv",
+        "alias": [
+            {
+                "value": "PS21grp",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2021qxv",
+                "reference": [
+                    "2024ApJ...974..241A"
+                ]
+            },
+            {
+                "value": "2021qxv",
+                "reference": [
+                    "2023ApJS..266....9A",
+                    "TNS"
+                ]
+            }
+        ]
+    },
+    "distance": [
+        {
+            "value": "0.183",
+            "distance_type": "redshift",
+            "reference": [
+                "2021TNSCR2383....1S",
+                "2023ApJS..266....9A",
+                "2024ApJ...974..241A"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -989,61 +1044,6 @@
             "corr_hostav": false,
             "telescope": "PS1",
             "instrument": "GPC1"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2024ApJ...974..241A",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2023ApJS..266....9A",
-            "human_readable_name": "Aleo, P. D. et al. (2023)"
-        },
-        {
-            "name": "2021TNSTR2199....1J",
-            "human_readable_name": "Jones, D. O. et al. (2021)"
-        },
-        {
-            "name": "2021TNSCR2383....1S",
-            "human_readable_name": "Siebert, M. R. et al. (2021)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "15h18m59.3s",
-            "dec": "-03d11m45s",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2024ApJ...974..241A"
-            ]
-        },
-        {
-            "ra": "229.747063",
-            "dec": "-3.195855",
-            "ra_units": "deg",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2023ApJS..266....9A"
-            ]
-        },
-        {
-            "ra": "229.747063006",
-            "dec": "-3.19585485935",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2021TNSTR2199....1J"
-            ]
         }
     ],
     "host": [

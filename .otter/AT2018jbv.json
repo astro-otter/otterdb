@@ -1,4 +1,18 @@
 {
+    "reference_alias": [
+        {
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2018TNSTR2038....1F",
+            "human_readable_name": "Fremling, C. (2018)"
+        }
+    ],
     "date_reference": [
         {
             "value": "58448.562997685185",
@@ -20,42 +34,33 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "2018jbv",
-        "alias": [
-            {
-                "value": "ZTF18acnbpmd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS19acl",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2018jbv",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS19aoz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2018jbv",
-                "reference": [
-                    "2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "197.689794",
+            "dec": "8.567834",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "ra": "197.689825407",
+            "dec": "8.56785542281",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2018TNSTR2038....1F"
+            ],
+            "default": false
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -142,6 +147,42 @@
             "wave_units": "nm"
         }
     ],
+    "name": {
+        "default_name": "2018jbv",
+        "alias": [
+            {
+                "value": "ZTF18acnbpmd",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2018jbv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS19acl",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS19aoz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2018jbv",
+                "reference": [
+                    "2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -3391,47 +3432,6 @@
             "corr_hostav": false,
             "telescope": "PS1",
             "instrument": "GPC1"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2018TNSTR2038....1F",
-            "human_readable_name": "Fremling, C. (2018)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "197.689794",
-            "dec": "8.567834",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "ra": "197.689825407",
-            "dec": "8.56785542281",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2018TNSTR2038....1F"
-            ],
-            "default": false
         }
     ],
     "classification": [

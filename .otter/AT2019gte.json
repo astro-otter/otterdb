@@ -1,4 +1,44 @@
 {
+    "reference_alias": [
+        {
+            "name": "2019TNSTR.922....1N",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Nordin, J. et al. (2019)"
+        },
+        {
+            "name": "2019TNSCR.975....1S",
+            "human_readable_name": "Swann, E. et al. (2019)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "196.6642678",
+            "dec": "-1.5484498",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2019TNSTR.922....1N"
+            ],
+            "default": true
+        },
+        {
+            "ra": "196.6642678",
+            "dec": "-1.5484498",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2019TNSTR.922....1N"
+            ],
+            "default": false
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -10,35 +50,6 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "2019gte",
-        "alias": [
-            {
-                "value": "2019gte",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS19omw",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF19aavxfib",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2019gte",
-                "reference": [
-                    "2019TNSTR.922....1N"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "887.5MHz",
@@ -65,6 +76,35 @@
             "wave_units": "nm"
         }
     ],
+    "name": {
+        "default_name": "2019gte",
+        "alias": [
+            {
+                "value": "ATLAS19omw",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF19aavxfib",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2019gte",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2019gte",
+                "reference": [
+                    "2019TNSTR.922....1N"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": "2024ApJ...974..241A",
@@ -321,44 +361,15 @@
             "instrument": "ATLAS-02"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2019TNSTR.922....1N",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024ApJ...974..241A",
-            "human_readable_name": "Nordin, J. et al. (2019)"
-        },
-        {
-            "name": "2019TNSCR.975....1S",
-            "human_readable_name": "Swann, E. et al. (2019)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "196.6642678",
-            "dec": "-1.5484498",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
+            "value": 58634.25278935185,
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
                 "2019TNSTR.922....1N"
             ],
-            "default": true
-        },
-        {
-            "ra": "196.6642678",
-            "dec": "-1.5484498",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2019TNSTR.922....1N"
-            ],
-            "default": false
+            "computed": false
         }
     ],
     "distance": [
@@ -369,17 +380,6 @@
             "reference": [
                 "2019TNSCR.975....1S"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 58634.25278935185,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2019TNSTR.922....1N"
-            ],
-            "computed": false
         }
     ]
 }

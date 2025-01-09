@@ -1,4 +1,28 @@
 {
+    "name": {
+        "default_name": "2022wyq",
+        "alias": [
+            {
+                "value": "ZTF20acyxwgf",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022wyq",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "J094806",
+                "reference": [
+                    "2017arXiv171104577K",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017arXiv171104577K",
@@ -59,29 +83,10 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "2022wyq",
-        "alias": [
-            {
-                "value": "ZTF20acyxwgf",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022wyq",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "J094806",
-                "reference": [
-                    "2017arXiv171104577K",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
     },
     "host": [
         {
@@ -98,11 +103,6 @@
             ]
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
     "distance": [
         {
             "value": "0.207",
@@ -179,6 +179,17 @@
             "filter_name": "g",
             "wave_eff": 471.8872246248687,
             "wave_units": "nm"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 59695.193,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR2919....1F"
+            ],
+            "computed": false
         }
     ],
     "photometry": [
@@ -259,17 +270,6 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 59695.193,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR2919....1F"
-            ],
-            "computed": false
         }
     ]
 }

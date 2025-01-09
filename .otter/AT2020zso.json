@@ -1,45 +1,32 @@
 {
-    "distance": [
+    "reference_alias": [
         {
-            "value": "0.0565",
-            "distance_type": "redshift",
-            "reference": [
-                "2022A&A...666A...6W,2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            "name": "2022A&A...666A...6W",
+            "human_readable_name": "Wevers, T. et al. (2022)"
         },
         {
-            "value": "0.061",
-            "distance_type": "redshift",
-            "reference": [
-                "2020TNSCR3486....1I",
-                "2024ApJ...974..241A"
-            ],
-            "default": false
+            "name": "2023ApJ...942....9H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
         },
         {
-            "value": "61.8",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "reference": [
-                "2023ApJ...957...86H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR3486....1I",
-                "2022A&A...666A...6W,2023ApJ...942....9H",
-                "2024ApJ...974..241A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            "name": "2023ApJ...957...86H",
+            "human_readable_name": "Hammerstein, Erica et al. (2023)"
+        },
+        {
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2020TNSTR3449....1F",
+            "human_readable_name": "Forster, F. et al. (2020)"
+        },
+        {
+            "name": "2020TNSCR3486....1I",
+            "human_readable_name": "Ihanec, N. et al. (2020)"
         }
     ],
     "date_reference": [
@@ -72,43 +59,57 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "2020zso",
-        "alias": [
-            {
-                "value": "2020zso",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS20bfok",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia20fqa",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20acqoiyt",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2020zso",
-                "reference": [
-                    "2022A&A...666A...6W,2023ApJ...942....9H",
-                    "2024MNRAS.527.2452M",
-                    "2024ApJ...974..241A"
-                ]
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "22h22m17.1s",
+            "dec": "-07d16m00s",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2024ApJ...974..241A"
+            ]
+        },
+        {
+            "ra": "335.571358",
+            "dec": "-7.266372",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2022A&A...666A...6W,2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ]
+        },
+        {
+            "ra": "335.571375",
+            "dec": "-7.266411",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2020TNSTR3449....1F"
+            ]
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR3486....1I",
+                "2022A&A...666A...6W,2023ApJ...942....9H",
+                "2024ApJ...974..241A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -223,6 +224,73 @@
             "filter_name": "cyan",
             "wave_eff": 540.8724658332794,
             "wave_units": "nm"
+        }
+    ],
+    "name": {
+        "default_name": "2020zso",
+        "alias": [
+            {
+                "value": "ZTF20acqoiyt",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS20bfok",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia20fqa",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2020zso",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2020zso",
+                "reference": [
+                    "2022A&A...666A...6W,2023ApJ...942....9H",
+                    "2024MNRAS.527.2452M",
+                    "2024ApJ...974..241A"
+                ]
+            }
+        ]
+    },
+    "distance": [
+        {
+            "value": "0.0565",
+            "distance_type": "redshift",
+            "reference": [
+                "2022A&A...666A...6W,2023ApJ...942....9H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "0.061",
+            "distance_type": "redshift",
+            "reference": [
+                "2020TNSCR3486....1I",
+                "2024ApJ...974..241A"
+            ],
+            "default": false
+        },
+        {
+            "value": "61.8",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2023ApJ...957...86H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -3376,74 +3444,6 @@
             "corr_hostav": false,
             "telescope": "ATLAS-HKO",
             "instrument": "ATLAS-02"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2022A&A...666A...6W",
-            "human_readable_name": "Wevers, T. et al. (2022)"
-        },
-        {
-            "name": "2023ApJ...942....9H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023ApJ...957...86H",
-            "human_readable_name": "Hammerstein, Erica et al. (2023)"
-        },
-        {
-            "name": "2024ApJ...974..241A",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2020TNSTR3449....1F",
-            "human_readable_name": "Forster, F. et al. (2020)"
-        },
-        {
-            "name": "2020TNSCR3486....1I",
-            "human_readable_name": "Ihanec, N. et al. (2020)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "22h22m17.1s",
-            "dec": "-07d16m00s",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2024ApJ...974..241A"
-            ]
-        },
-        {
-            "ra": "335.571358",
-            "dec": "-7.266372",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2022A&A...666A...6W,2023ApJ...942....9H",
-                "2024MNRAS.527.2452M"
-            ]
-        },
-        {
-            "ra": "335.571375",
-            "dec": "-7.266411",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2020TNSTR3449....1F"
-            ]
         }
     ]
 }

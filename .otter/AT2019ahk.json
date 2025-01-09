@@ -1,22 +1,28 @@
 {
-    "distance": [
+    "reference_alias": [
         {
-            "value": "0.026",
-            "distance_type": "redshift",
-            "reference": [
-                "2024ApJ...974..241A"
-            ],
-            "default": false
+            "name": "2019ApJ...883..111H",
+            "human_readable_name": "Holoien, Thomas W. -S. et al. (2019)"
         },
         {
-            "value": "0.0262",
-            "distance_type": "redshift",
-            "reference": [
-                " 2019TNSCR.288....1P",
-                "2019ApJ...883..111H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2019TNSCR.288....1P",
+            "human_readable_name": "Christy, Collin T. et al. (2024)"
+        },
+        {
+            "name": "2019TNSTR.167....1S",
+            "human_readable_name": "Stanek, K. Z. (2019)"
+        },
+        {
+            "name": "2024arXiv240412431C",
+            "human_readable_name": "Palazzi, E. et al. (2019)"
+        },
+        {
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
         }
     ],
     "photometry": [
@@ -1990,81 +1996,22 @@
             "corr_hostav": false
         }
     ],
-    "coordinate": [
+    "distance": [
         {
-            "ra": "07:00:11.546",
-            "dec": "-66:02:24.14",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2019TNSTR.167....1S"
-            ]
-        },
-        {
-            "ra": "07h00m11.5s",
-            "dec": "-66d02m24s",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
+            "value": "0.026",
+            "distance_type": "redshift",
             "reference": [
                 "2024ApJ...974..241A"
-            ]
-        },
-        {
-            "ra": "105.047461",
-            "dec": "-66.040214",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2019ApJ...883..111H",
-                "2024MNRAS.527.2452M"
-            ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2019-01-29 21:50:24",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2024ApJ...974..241A"
-            ],
-            "default": true
-        },
-        {
-            "value": "2458513.41",
-            "date_format": "jd",
-            "date_type": "discovery",
-            "reference": [
-                "2019TNSTR.167....1S"
             ],
             "default": false
         },
         {
-            "value": "58544.00599999995",
-            "date_format": "mjd",
-            "date_type": "peak",
+            "value": "0.0262",
+            "distance_type": "redshift",
             "reference": [
+                " 2019TNSCR.288....1P",
                 "2019ApJ...883..111H",
                 "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2019ApJ...883..111H",
-                "2024ApJ...974..241A",
-                "2024MNRAS.527.2452M",
-                "2024arXiv240412431C"
             ],
             "default": true
         }
@@ -2233,30 +2180,53 @@
             "freq_units": "MHz"
         }
     ],
-    "reference_alias": [
+    "coordinate": [
         {
-            "name": "2019ApJ...883..111H",
-            "human_readable_name": "Holoien, Thomas W. -S. et al. (2019)"
+            "ra": "07:00:11.546",
+            "dec": "-66:02:24.14",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2019TNSTR.167....1S"
+            ]
         },
         {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
+            "ra": "07h00m11.5s",
+            "dec": "-66d02m24s",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2024ApJ...974..241A"
+            ]
         },
         {
-            "name": "2019TNSCR.288....1P",
-            "human_readable_name": "Christy, Collin T. et al. (2024)"
-        },
+            "ra": "105.047461",
+            "dec": "-66.040214",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2019ApJ...883..111H",
+                "2024MNRAS.527.2452M"
+            ]
+        }
+    ],
+    "classification": [
         {
-            "name": "2019TNSTR.167....1S",
-            "human_readable_name": "Stanek, K. Z. (2019)"
-        },
-        {
-            "name": "2024arXiv240412431C",
-            "human_readable_name": "Palazzi, E. et al. (2019)"
-        },
-        {
-            "name": "2024ApJ...974..241A",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2019ApJ...883..111H",
+                "2024ApJ...974..241A",
+                "2024MNRAS.527.2452M",
+                "2024arXiv240412431C"
+            ],
+            "default": true
         }
     ],
     "name": {
@@ -2277,5 +2247,35 @@
                 ]
             }
         ]
-    }
+    },
+    "date_reference": [
+        {
+            "value": "2019-01-29 21:50:24",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2024ApJ...974..241A"
+            ],
+            "default": true
+        },
+        {
+            "value": "2458513.41",
+            "date_format": "jd",
+            "date_type": "discovery",
+            "reference": [
+                "2019TNSTR.167....1S"
+            ],
+            "default": false
+        },
+        {
+            "value": "58544.00599999995",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2019ApJ...883..111H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ]
 }

@@ -1,33 +1,16 @@
 {
-    "distance": [
+    "reference_alias": [
         {
-            "value": "0.049",
-            "distance_type": "redshift",
-            "reference": [
-                "2022TNSCR3389....1F"
-            ],
-            "default": false
+            "name": "2022TNSTR2885....1F",
+            "human_readable_name": "Fremling, C. (2022)"
         },
         {
-            "value": "0.0491",
-            "distance_type": "redshift",
-            "reference": [
-                "2022TNSTR2885....1F",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSCR3389....1F",
-                "2022TNSTR2885....1F",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            "name": "2022TNSCR3389....1F",
+            "human_readable_name": "Fulton, M. et al. (2022)"
         }
     ],
     "date_reference": [
@@ -51,42 +34,45 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "2022wtn",
-        "alias": [
-            {
-                "value": "ATLAS22bikj",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF22abkfhua",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022wtn",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS22jwq",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022wtn",
-                "reference": [
-                    "2022TNSTR2885....1F",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
+    "coordinate": [
+        {
+            "ra": "350.849073051",
+            "dec": "10.6855533611",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2022TNSTR2885....1F"
+            ],
+            "default": false
+        },
+        {
+            "ra": "350.849102",
+            "dec": "10.685503",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2022TNSTR2885....1F",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022TNSCR3389....1F",
+                "2022TNSTR2885....1F",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -147,6 +133,61 @@
             "filter_name": "orange",
             "wave_eff": 686.6260690394873,
             "wave_units": "nm"
+        }
+    ],
+    "name": {
+        "default_name": "2022wtn",
+        "alias": [
+            {
+                "value": "PS22jwq",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS22bikj",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022wtn",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF22abkfhua",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022wtn",
+                "reference": [
+                    "2022TNSTR2885....1F",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ]
+    },
+    "distance": [
+        {
+            "value": "0.049",
+            "distance_type": "redshift",
+            "reference": [
+                "2022TNSCR3389....1F"
+            ],
+            "default": false
+        },
+        {
+            "value": "0.0491",
+            "distance_type": "redshift",
+            "reference": [
+                "2022TNSTR2885....1F",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -2652,47 +2693,6 @@
             "corr_hostav": false,
             "telescope": "ATLAS-HKO",
             "instrument": "ATLAS-02"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2022TNSTR2885....1F",
-            "human_readable_name": "Fremling, C. (2022)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2022TNSCR3389....1F",
-            "human_readable_name": "Fulton, M. et al. (2022)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "350.849073051",
-            "dec": "10.6855533611",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2022TNSTR2885....1F"
-            ],
-            "default": false
-        },
-        {
-            "ra": "350.849102",
-            "dec": "10.685503",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2022TNSTR2885....1F",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ]
 }

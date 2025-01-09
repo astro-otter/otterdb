@@ -1,37 +1,56 @@
 {
-    "distance": [
+    "name": {
+        "default_name": "J094608",
+        "alias": [
+            {
+                "value": "J094608",
+                "reference": [
+                    "2017arXiv171104577K",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
         {
-            "value": "0.119",
-            "distance_type": "redshift",
+            "ra": "09:46:08.49",
+            "dec": "+35:12:22.4",
+            "ra_units": "hour",
+            "dec_units": "deg",
             "reference": [
-                "2017NatAs...1..865K",
-                "2017arXiv171104577K",
-                "2019ApJ...871...15J",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "512",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
                 "2017arXiv171104577K"
             ],
-            "default": true
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017arXiv171104577K",
+            "human_readable_name": "Kankare et al. (2017)"
         },
         {
-            "value": "573",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017arXiv171104577K"
-            ],
-            "default": true
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2017NatAs...1..865K",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2019ApJ...871...15J",
+            "human_readable_name": "Jiang, Ning et al. (2019)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Kankare, E. et al. (2017)"
         }
     ],
     "schema_version": {
@@ -68,58 +87,39 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "J094608",
-        "alias": [
-            {
-                "value": "J094608",
-                "reference": [
-                    "2017arXiv171104577K",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "reference_alias": [
+    "distance": [
         {
-            "name": "2017arXiv171104577K",
-            "human_readable_name": "Kankare et al. (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2017NatAs...1..865K",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2019ApJ...871...15J",
-            "human_readable_name": "Jiang, Ning et al. (2019)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Kankare, E. et al. (2017)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "09:46:08.49",
-            "dec": "+35:12:22.4",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "value": "0.119",
+            "distance_type": "redshift",
             "reference": [
+                "2017NatAs...1..865K",
+                "2017arXiv171104577K",
+                "2019ApJ...871...15J",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "512",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
                 "2017arXiv171104577K"
             ],
-            "coordinate_type": "equitorial"
+            "default": true
+        },
+        {
+            "value": "573",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017arXiv171104577K"
+            ],
+            "default": true
         }
     ],
     "host": [

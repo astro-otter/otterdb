@@ -1,4 +1,44 @@
 {
+    "reference_alias": [
+        {
+            "name": "2022TNSTR.156....1M",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Munoz-Arancibia, A. et al. (2022)"
+        },
+        {
+            "name": "2022TNSCR.402....1T",
+            "human_readable_name": "Tucker, M. A. (2022)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "216.964333",
+            "dec": "28.174731",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2022TNSTR.156....1M"
+            ],
+            "default": true
+        },
+        {
+            "ra": "216.964333",
+            "dec": "28.174731",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2022TNSTR.156....1M"
+            ],
+            "default": false
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -10,35 +50,6 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "2022adm",
-        "alias": [
-            {
-                "value": "Gaia22anq",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022adm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF22aaaekqh",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022adm",
-                "reference": [
-                    "2022TNSTR.156....1M"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "887.5MHz",
@@ -65,6 +76,35 @@
             "wave_units": "nm"
         }
     ],
+    "name": {
+        "default_name": "2022adm",
+        "alias": [
+            {
+                "value": "ZTF22aaaekqh",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022adm",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia22anq",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022adm",
+                "reference": [
+                    "2022TNSTR.156....1M"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": "2024ApJ...974..241A",
@@ -206,44 +246,15 @@
             "instrument": "Gaia-photometric"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2022TNSTR.156....1M",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024ApJ...974..241A",
-            "human_readable_name": "Munoz-Arancibia, A. et al. (2022)"
-        },
-        {
-            "name": "2022TNSCR.402....1T",
-            "human_readable_name": "Tucker, M. A. (2022)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "216.964333",
-            "dec": "28.174731",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
+            "value": 59600.494108796294,
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
                 "2022TNSTR.156....1M"
             ],
-            "default": true
-        },
-        {
-            "ra": "216.964333",
-            "dec": "28.174731",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2022TNSTR.156....1M"
-            ],
-            "default": false
+            "computed": false
         }
     ],
     "distance": [
@@ -254,17 +265,6 @@
             "reference": [
                 "2022TNSCR.402....1T"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 59600.494108796294,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR.156....1M"
-            ],
-            "computed": false
         }
     ]
 }

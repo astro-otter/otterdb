@@ -1,4 +1,44 @@
 {
+    "reference_alias": [
+        {
+            "name": "2021TNSTR.312....1T",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Tonry, J. et al. (2021)"
+        },
+        {
+            "name": "2021TNSCR.338....1M",
+            "human_readable_name": "Magee, M. et al. (2021)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "68.130215",
+            "dec": "-32.4306575",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2021TNSTR.312....1T"
+            ],
+            "default": true
+        },
+        {
+            "ra": "68.130215",
+            "dec": "-32.4306575",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2021TNSTR.312....1T"
+            ],
+            "default": false
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -10,29 +50,6 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "2021blz",
-        "alias": [
-            {
-                "value": "ATLAS21djg",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2021blz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2021blz",
-                "reference": [
-                    "2021TNSTR.312....1T"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "887.5MHz",
@@ -53,6 +70,29 @@
             "wave_units": "nm"
         }
     ],
+    "name": {
+        "default_name": "2021blz",
+        "alias": [
+            {
+                "value": "2021blz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS21djg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2021blz",
+                "reference": [
+                    "2021TNSTR.312....1T"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": "2024ApJ...974..241A",
@@ -171,44 +211,15 @@
             "instrument": "ATLAS-02"
         }
     ],
-    "reference_alias": [
+    "date_reference": [
         {
-            "name": "2021TNSTR.312....1T",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024ApJ...974..241A",
-            "human_readable_name": "Tonry, J. et al. (2021)"
-        },
-        {
-            "name": "2021TNSCR.338....1M",
-            "human_readable_name": "Magee, M. et al. (2021)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "68.130215",
-            "dec": "-32.4306575",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
+            "value": 59245.283,
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
                 "2021TNSTR.312....1T"
             ],
-            "default": true
-        },
-        {
-            "ra": "68.130215",
-            "dec": "-32.4306575",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2021TNSTR.312....1T"
-            ],
-            "default": false
+            "computed": false
         }
     ],
     "distance": [
@@ -219,17 +230,6 @@
             "reference": [
                 "2021TNSCR.338....1M"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": 59245.283,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2021TNSTR.312....1T"
-            ],
-            "computed": false
         }
     ]
 }

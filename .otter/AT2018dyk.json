@@ -1,28 +1,76 @@
 {
-    "distance": [
+    "reference_alias": [
         {
-            "value": "0.0367",
-            "distance_type": "redshift",
-            "reference": [
-                "2018TNSCR1182....1H",
-                "2020TNSCR1834....1F"
-            ],
-            "default": false
+            "name": "2018ATel11953....1A",
+            "human_readable_name": "Masterson, Megan et al. (2024)"
         },
         {
-            "value": "0.03672",
-            "distance_type": "redshift",
+            "name": "2019ApJ...883...31F",
+            "human_readable_name": "Frederick, Sara et al. (2019)"
+        },
+        {
+            "name": "2024ApJ...961..211M",
+            "human_readable_name": "Arcavi, I. et al. (2018)"
+        },
+        {
+            "name": "TNS",
+            "human_readable_name": "TNS"
+        },
+        {
+            "name": "2018TNSTR.987....1F",
+            "human_readable_name": "Fremling, C. (2018)"
+        },
+        {
+            "name": "2018TNSCR1182....1H",
+            "human_readable_name": "Hosseinzadeh, I. A. J. B. D. H. C. M. A. H. G. et al. (2018)"
+        },
+        {
+            "name": " 2020TNSCR1834....1F",
+            "human_readable_name": "Frederick, S. (2020)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "58269.31",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2018TNSTR.987....1F"
+            ],
+            "default": true
+        },
+        {
+            "value": "58275.0",
+            "date_format": "mjd",
+            "date_type": "explosion",
             "reference": [
                 "2018ATel11953....1A",
                 "2019ApJ...883...31F",
                 "2024ApJ...961..211M"
             ],
             "default": true
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "233.2833955",
+            "dec": "44.5356122",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2018TNSTR.987....1F"
+            ],
+            "default": false
         },
         {
-            "value": "162.9",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
+            "ra": "233.283417",
+            "dec": "44.535533",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
             "reference": [
                 "2018ATel11953....1A",
                 "2019ApJ...883...31F",
@@ -52,59 +100,6 @@
             "default": false
         }
     ],
-    "date_reference": [
-        {
-            "value": "58269.31",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2018TNSTR.987....1F"
-            ],
-            "default": true
-        },
-        {
-            "value": "58275.0",
-            "date_format": "mjd",
-            "date_type": "explosion",
-            "reference": [
-                "2018ATel11953....1A",
-                "2019ApJ...883...31F",
-                "2024ApJ...961..211M"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "2018dyk",
-        "alias": [
-            {
-                "value": "ZTF18aajupnt",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2018dyk",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "WTP18aamced",
-                "reference": [
-                    "2018ATel11953....1A",
-                    "2019ApJ...883...31F",
-                    "2024ApJ...961..211M"
-                ]
-            },
-            {
-                "value": "AT2018dyk",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "g",
@@ -143,6 +138,69 @@
             "filter_name": "r",
             "wave_eff": 618.5194476741524,
             "wave_units": "nm"
+        }
+    ],
+    "name": {
+        "default_name": "2018dyk",
+        "alias": [
+            {
+                "value": "ZTF18aajupnt",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2018dyk",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2018dyk",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "WTP18aamced",
+                "reference": [
+                    "2018ATel11953....1A",
+                    "2019ApJ...883...31F",
+                    "2024ApJ...961..211M"
+                ]
+            }
+        ]
+    },
+    "distance": [
+        {
+            "value": "0.0367",
+            "distance_type": "redshift",
+            "reference": [
+                "2018TNSCR1182....1H",
+                "2020TNSCR1834....1F"
+            ],
+            "default": false
+        },
+        {
+            "value": "0.03672",
+            "distance_type": "redshift",
+            "reference": [
+                "2018ATel11953....1A",
+                "2019ApJ...883...31F",
+                "2024ApJ...961..211M"
+            ],
+            "default": true
+        },
+        {
+            "value": "162.9",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2018ATel11953....1A",
+                "2019ApJ...883...31F",
+                "2024ApJ...961..211M"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -1797,64 +1855,6 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2018ATel11953....1A",
-            "human_readable_name": "Masterson, Megan et al. (2024)"
-        },
-        {
-            "name": "2019ApJ...883...31F",
-            "human_readable_name": "Frederick, Sara et al. (2019)"
-        },
-        {
-            "name": "2024ApJ...961..211M",
-            "human_readable_name": "Arcavi, I. et al. (2018)"
-        },
-        {
-            "name": "TNS",
-            "human_readable_name": "TNS"
-        },
-        {
-            "name": "2018TNSTR.987....1F",
-            "human_readable_name": "Fremling, C. (2018)"
-        },
-        {
-            "name": "2018TNSCR1182....1H",
-            "human_readable_name": "Hosseinzadeh, I. A. J. B. D. H. C. M. A. H. G. et al. (2018)"
-        },
-        {
-            "name": " 2020TNSCR1834....1F",
-            "human_readable_name": "Frederick, S. (2020)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "233.2833955",
-            "dec": "44.5356122",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2018TNSTR.987....1F"
-            ],
-            "default": false
-        },
-        {
-            "ra": "233.283417",
-            "dec": "44.535533",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2018ATel11953....1A",
-                "2019ApJ...883...31F",
-                "2024ApJ...961..211M"
-            ],
-            "default": true
         }
     ]
 }

@@ -1,4 +1,28 @@
 {
+    "name": {
+        "default_name": "2021zlg",
+        "alias": [
+            {
+                "value": "Gaia21egv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2021zlg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS1-10adi",
+                "reference": [
+                    "2017arXiv171104577K",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017arXiv171104577K",
@@ -27,32 +51,6 @@
         {
             "name": "2021TNSTR3297....1H",
             "human_readable_name": "Hodgkin, S. T. et al. (2021)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "20:42:44.74",
-            "dec": "+15:30:32.1",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "default": true
-        },
-        {
-            "ra": "310.686417",
-            "dec": "15.50895",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2021TNSTR3297....1H"
-            ],
-            "default": false
         }
     ],
     "date_reference": [
@@ -85,29 +83,36 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "2021zlg",
-        "alias": [
-            {
-                "value": "2021zlg",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia21egv",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS1-10adi",
-                "reference": [
-                    "2017arXiv171104577K",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
+    "coordinate": [
+        {
+            "ra": "20:42:44.74",
+            "dec": "+15:30:32.1",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "default": true
+        },
+        {
+            "ra": "310.686417",
+            "dec": "15.50895",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2021TNSTR3297....1H"
+            ],
+            "default": false
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
     },
     "host": [
         {
@@ -123,11 +128,34 @@
             ]
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017NatAs...1..865K",
+                "2017arXiv171104577K",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "default": false
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "default": false
+        }
+    ],
     "distance": [
         {
             "value": "0.203",
@@ -160,34 +188,6 @@
                 "2017arXiv171104577K"
             ],
             "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017NatAs...1..865K",
-                "2017arXiv171104577K",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "default": false
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "default": false
         }
     ],
     "filter_alias": [
