@@ -1,66 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2024ApJ...963...75W",
-            "human_readable_name": "Wevers, T. et al. (2024)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR1450....1H",
-            "human_readable_name": "Hodgkin, S. T. et al. (2020)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58960.425",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2020TNSTR1450....1H"
-            ],
-            "default": true
-        },
-        {
-            "value": "58969.54738425926",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2024ApJ...963...75W",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "323.863583",
-            "dec": "-18.276539",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2020TNSTR1450....1H"
-            ],
-            "default": false
-        },
-        {
-            "ra": "323.863674",
-            "dec": "-18.27649",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2024ApJ...963...75W",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -123,6 +61,30 @@
             "freq_units": "Hz"
         },
         {
+            "filter_key": "0.2 - 12",
+            "filter_name": "0.2 - 12",
+            "wave_eff": 0.105071354604407,
+            "wave_min": 0.10332016536100022,
+            "wave_max": 6.199209921660012,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "0.3 - 10",
+            "filter_name": "0.3 - 10",
+            "wave_eff": 0.12781876127134048,
+            "wave_min": 0.12398419843320027,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "0.3 - 2.0",
+            "filter_name": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm"
+        },
+        {
             "filter_key": "r",
             "filter_name": "r",
             "wave_eff": 618.5194476741524,
@@ -141,6 +103,70 @@
             "wave_units": "nm"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "Wevers, T. et al. (2024)",
+            "human_readable_name": "2024ApJ...963...75W"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2024ApJ...963...75W",
+            "human_readable_name": "Wevers, T. et al. (2024)"
+        },
+        {
+            "name": "2024ApJ...966..160G",
+            "human_readable_name": "Guolo, Muryel et al. (2024)"
+        },
+        {
+            "name": "2020ATel14246....1G",
+            "human_readable_name": "Gilfanov, M. et al. (2020)"
+        },
+        {
+            "name": "2020TNSTR1450....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2020)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "21h35m27.28176s",
+            "dec": "-18d16m35.364s",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2024ApJ...963...75W"
+            ]
+        },
+        {
+            "ra": "323.863583",
+            "dec": "-18.276539",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2020TNSTR1450....1H"
+            ]
+        },
+        {
+            "ra": "323.863674",
+            "dec": "-18.27649",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2024ApJ...963...75W",
+                "2024MNRAS.527.2452M"
+            ]
+        }
+    ],
     "name": {
         "default_name": "2020ksf",
         "alias": [
@@ -157,16 +183,23 @@
                 ]
             },
             {
-                "value": "ZTF20abgbdpr",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "AT2020ksf",
                 "reference": [
                     "2024ApJ...963...75W",
                     "2024MNRAS.527.2452M"
+                ]
+            },
+            {
+                "value": "at2020ksf",
+                "reference": [
+                    "2024ApJ...966..160G"
+                ]
+            },
+            {
+                "value": "ZTF20abgbdpr",
+                "reference": [
+                    "2024ApJ...966..160G",
+                    "TNS"
                 ]
             }
         ]
@@ -3057,8 +3090,8 @@
             ],
             "obs_type": "uvoir",
             "reference": [
-                "2024MNRAS.527.2452M",
-                "2024ApJ...963...75W"
+                "2024ApJ...963...75W",
+                "2024MNRAS.527.2452M"
             ],
             "corr_k": false,
             "corr_s": false,
@@ -3066,6 +3099,719 @@
             "corr_host": false,
             "corr_hostav": false,
             "val_av": 0.13121502576200936
+        },
+        {
+            "raw": [
+                5.25314980317354e-13
+            ],
+            "raw_err": [
+                1.622080220748029e-14
+            ],
+            "raw_units": [
+                "erg cm^-2 s^-1"
+            ],
+            "raw_err_detail": {
+                "upper": [
+                    1.1468484751545483e-14
+                ],
+                "lower": [
+                    1.1471193562910802e-14
+                ]
+            },
+            "upperlimit": [
+                false
+            ],
+            "date": [
+                59725.0
+            ],
+            "date_format": [
+                "mjd"
+            ],
+            "filter_key": [
+                "0.2 - 12"
+            ],
+            "telescope": "XMM-Newton",
+            "instrument": "XMM",
+            "reference": [
+                "2024ApJ...966..160G"
+            ],
+            "obs_type": "xray",
+            "xray_model": [
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        430000.0,
+                        2100000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        20000.0,
+                        300000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -10000.0,
+                        -100000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                }
+            ]
+        },
+        {
+            "raw": [
+                3.936305235e-12,
+                4.721378055780019e-12,
+                3.164699447580931e-12,
+                2.0761976163348192e-12,
+                2.8606057332807446e-12,
+                2.7427929270000003e-12,
+                1.676101259e-12,
+                1.656114448e-12,
+                4.7574528e-13,
+                5.498453488e-13,
+                4.662191714e-13,
+                5.0855689e-13,
+                3.846923703e-13
+            ],
+            "raw_err": [
+                5.263711944261595e-13,
+                5.66696551072178e-13,
+                5.174005120969181e-13,
+                3.8364659579560845e-13,
+                4.4536726669262353e-13,
+                6.388646897742329e-13,
+                3.2459450864670424e-13,
+                3.2321100402473135e-13,
+                0.0,
+                2.0551562743627765e-13,
+                2.2463455208609563e-13,
+                0.0,
+                2.448907704067408e-13
+            ],
+            "raw_units": [
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1"
+            ],
+            "raw_err_detail": {
+                "upper": [
+                    3.7220064099999997e-13,
+                    4.007149741381657e-13,
+                    3.6585741069312305e-13,
+                    2.7127910946620916e-13,
+                    3.149222143968717e-13,
+                    4.5174555440000004e-13,
+                    2.295229782e-13,
+                    2.285446927e-13,
+                    0.0,
+                    1.453214938e-13,
+                    1.746902901e-13,
+                    0.0,
+                    1.9506011189999999e-13
+                ],
+                "lower": [
+                    -3.7220064099999997e-13,
+                    -4.007149741381657e-13,
+                    -3.6585741069312305e-13,
+                    -2.7127910946620916e-13,
+                    -3.149222143968717e-13,
+                    -4.5174555440000004e-13,
+                    -2.295229782e-13,
+                    -2.285446927e-13,
+                    0.0,
+                    -1.453214938e-13,
+                    -1.4122317279999999e-13,
+                    0.0,
+                    -1.480643177e-13
+                ]
+            },
+            "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                false,
+                false,
+                true,
+                false
+            ],
+            "date": [
+                59179.7502776447,
+                59191.739740809,
+                59198.7756545475,
+                59205.3762504167,
+                59308.3379516296,
+                59315.5497430046,
+                59322.6195624931,
+                59329.5130363102,
+                59710.8569843762,
+                59715.0712182025,
+                59725.5850929664,
+                59730.262803772,
+                59735.4059625093
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "filter_key": [
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10"
+            ],
+            "telescope": "Swift",
+            "instrument": "XRT",
+            "reference": [
+                "2024ApJ...966..160G"
+            ],
+            "obs_type": "xray",
+            "xray_model": [
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        800000.0,
+                        700000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        40000.0,
+                        120000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -90000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        800000.0,
+                        700000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        40000.0,
+                        120000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -90000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        650000.0,
+                        1100000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        50000.0,
+                        300000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -200000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        650000.0,
+                        1100000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        50000.0,
+                        300000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -200000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        680000.0,
+                        1000000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        50000.0,
+                        300000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -200000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        680000.0,
+                        1000000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        50000.0,
+                        300000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -200000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        680000.0,
+                        1000000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        50000.0,
+                        300000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -200000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        680000.0,
+                        1000000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        50000.0,
+                        300000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -200000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        680000.0,
+                        1000000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        50000.0,
+                        300000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -200000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        680000.0,
+                        1000000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        50000.0,
+                        300000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -200000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        680000.0,
+                        1000000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        50000.0,
+                        300000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -200000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        680000.0,
+                        1000000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        50000.0,
+                        300000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -200000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        680000.0,
+                        1000000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        50000.0,
+                        300000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -40000.0,
+                        -200000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                }
+            ]
+        },
+        {
+            "raw": [
+                2.85e-13,
+                2.85e-12
+            ],
+            "raw_err": [
+                0.0,
+                8.061017305526642e-13
+            ],
+            "raw_units": [
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1"
+            ],
+            "raw_err_detail": {
+                "upper": [
+                    0.0,
+                    5.7e-13
+                ],
+                "lower": [
+                    0.0,
+                    5.7e-13
+                ]
+            },
+            "upperlimit": [
+                true,
+                false
+            ],
+            "date": [
+                58977.0,
+                59162.0
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "filter_key": [
+                "0.3 - 2.0",
+                "0.3 - 2.0"
+            ],
+            "telescope": "eROSITA",
+            "instrument": "eRO",
+            "reference": [
+                "2024ApJ...966..160G",
+                "2020ATel14246....1G"
+            ],
+            "obs_type": "xray",
+            "xray_model": [
+                null,
+                null
+            ]
         },
         {
             "raw": [
@@ -3224,10 +3970,48 @@
             "instrument": "Gaia-photometric"
         }
     ],
-    "classification": [
+    "date_reference": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "value": "58960.425",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2020TNSTR1450....1H"
+            ],
+            "default": true
+        },
+        {
+            "value": "58969.54738425926",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2024ApJ...963...75W",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "58976.0",
+            "date_format": "MJD",
+            "date_type": "peak",
+            "reference": [
+                "2024ApJ...966..160G"
+            ],
+            "default": false
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.09200000017881393",
+            "distance_type": "redshift",
+            "reference": [
+                "2024ApJ...966..160G"
+            ],
+            "default": false
+        },
+        {
+            "value": "0.0942",
+            "distance_type": "redshift",
             "reference": [
                 "2024ApJ...963...75W",
                 "2024MNRAS.527.2452M"
@@ -3235,14 +4019,16 @@
             "default": true
         }
     ],
-    "distance": [
+    "classification": [
         {
-            "value": 0.0942,
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
                 "2024ApJ...963...75W",
+                "2024ApJ...966..160G",
                 "2024MNRAS.527.2452M"
             ],
-            "distance_type": "redshift"
+            "default": true
         }
     ]
 }

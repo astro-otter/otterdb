@@ -1,83 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2021TNSCR1221....1Y",
-            "human_readable_name": "Yao, Y. et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2021TNSTR1202....1H",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024ApJ...974..241A",
-            "human_readable_name": "Hammerstein, E. et al. (2021)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "59221.47831",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2021TNSTR1202....1H"
-            ],
-            "default": true
-        },
-        {
-            "value": "59254.000000000015",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2021TNSCR1221....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "167.1529779",
-            "dec": "30.7612734",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2021TNSCR1221....1Y",
-                "2021TNSTR1202....1H",
-                "2024MNRAS.527.2452M"
-            ]
-        },
-        {
-            "ra": "167.1529779",
-            "dec": "30.7612734",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2021TNSTR1202....1H"
-            ]
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR1221....1Y",
-                "2024ApJ...974..241A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -158,17 +79,67 @@
             "wave_units": "nm"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "Yao, Y. et al. (2021)",
+            "human_readable_name": "2021TNSCR1221....1Y"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2021TNSTR1202....1H",
+            "human_readable_name": "Hammerstein, E. et al. (2021)"
+        },
+        {
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2021TNSCR1221....1Y",
+            "human_readable_name": "Yao, Y. et al. (2021)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "167.1529779",
+            "dec": "30.7612734",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2021TNSCR1221....1Y",
+                "2021TNSTR1202....1H",
+                "2024MNRAS.527.2452M"
+            ]
+        },
+        {
+            "ra": "167.1529779",
+            "dec": "30.7612734",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2021TNSTR1202....1H"
+            ]
+        }
+    ],
     "name": {
         "default_name": "2021jsg",
         "alias": [
             {
-                "value": "ZTF21aaeoitd",
+                "value": "2021jsg",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2021jsg",
+                "value": "ZTF21aaeoitd",
                 "reference": [
                     "TNS"
                 ]
@@ -183,17 +154,6 @@
             }
         ]
     },
-    "distance": [
-        {
-            "value": "0.126",
-            "distance_type": "redshift",
-            "reference": [
-                "2021TNSCR1221....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -3340,8 +3300,8 @@
             ],
             "obs_type": "uvoir",
             "reference": [
-                "2024MNRAS.527.2452M",
-                "2021TNSCR1221....1Y"
+                "2021TNSCR1221....1Y",
+                "2024MNRAS.527.2452M"
             ],
             "corr_k": false,
             "corr_s": false,
@@ -3436,6 +3396,50 @@
             "corr_hostav": false,
             "telescope": "P48",
             "instrument": "ZTF-Cam"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "59221.47831",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2021TNSTR1202....1H"
+            ],
+            "default": true
+        },
+        {
+            "value": "59254.000000000015",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2021TNSCR1221....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.126",
+            "distance_type": "redshift",
+            "reference": [
+                "2021TNSCR1221....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR1221....1Y",
+                "2024ApJ...974..241A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ]
 }

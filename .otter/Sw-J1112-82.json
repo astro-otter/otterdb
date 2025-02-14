@@ -1,4 +1,104 @@
 {
+    "coordinate": [
+        {
+            "ra": "11 11 47.6",
+            "dec": "-82 38 44.44",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "671fd953-e277-44ab-9d2a-e080d51a7e8d",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2017MNRAS.472.4469B"
+            ]
+        },
+        {
+            "ra": "11:11:47.32",
+            "dec": "-82:38:44.2",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2015MNRAS.452.4297B"
+            ]
+        },
+        {
+            "ra": "11:11:47.32",
+            "dec": "-82:38:44.20",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2017ApJ...838..149A"
+            ]
+        },
+        {
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "299.6337165869646",
+            "b": "-20.420594756871676",
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": [
+                "671fd953-e277-44ab-9d2a-e080d51a7e8d"
+            ]
+        }
+    ],
+    "name": {
+        "default_name": "Sw J1112-82",
+        "alias": [
+            {
+                "value": "Swift J1112.2-8238",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2017ApJ...835...64G"
+                ]
+            },
+            {
+                "value": "Swift J1112-82",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2017ApJ...835...64G",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "Sw J1112-82",
+                "reference": [
+                    "Swift",
+                    "2015MNRAS.452.4297B"
+                ]
+            }
+        ]
+    },
+    "filter_alias": [
+        {
+            "filter_key": "5.5GHz",
+            "filter_name": "C",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "9.0GHz",
+            "filter_name": "X",
+            "freq_eff": 9.0,
+            "freq_units": "GHz"
+        }
+    ],
     "reference_alias": [
         {
             "name": "2017MNRAS.472.4469B",
@@ -25,16 +125,120 @@
             "human_readable_name": "Guillochon et al. (2017)"
         },
         {
-            "name": "2011ATel.3463....1K",
-            "human_readable_name": "Auchettl, Katie et al. (2017)"
-        },
-        {
-            "name": "2015MNRAS.452.4297B",
+            "name": "2023PASP..135c4101G",
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         },
         {
-            "name": "2023PASP..135c4101G",
+            "name": "2011ATel.3463....1K",
             "human_readable_name": "Krimm, H. A. et al. (2011)"
+        },
+        {
+            "name": "2015MNRAS.452.4297B",
+            "human_readable_name": "Brown, G. C. et al. (2015)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2011-12-27",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": false
+        },
+        {
+            "value": "2011-12-27 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2011ATel.3463....1K",
+                "2015MNRAS.452.4297B",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "55729.5",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2017MNRAS.472.4469B"
+            ],
+            "default": false
+        },
+        {
+            "value": "55731",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2015MNRAS.452.4297B"
+            ],
+            "default": false
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.89",
+            "distance_type": "redshift",
+            "reference": [
+                "2011ATel.3463....1K",
+                "2015MNRAS.452.4297B",
+                "2015arXiv150703582B",
+                "2017ApJ...838..149A",
+                "2017MNRAS.472.4469B",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "0.8901",
+            "distance_type": "redshift",
+            "reference": [
+                "2015MNRAS.452.4297B"
+            ],
+            "default": false
+        },
+        {
+            "value": "3100",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2015arXiv150703582B",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "5900",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2015arXiv150703582B",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2011ATel.3463....1K",
+                "2015MNRAS.452.4297B",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A",
+                "2017MNRAS.472.4469B",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -346,210 +550,6 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.89",
-            "distance_type": "redshift",
-            "reference": [
-                "2011ATel.3463....1K",
-                "2015MNRAS.452.4297B",
-                "2015arXiv150703582B",
-                "2017ApJ...838..149A",
-                "2017MNRAS.472.4469B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "0.8901",
-            "distance_type": "redshift",
-            "reference": [
-                "2015MNRAS.452.4297B"
-            ],
-            "default": false
-        },
-        {
-            "value": "3100",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2015arXiv150703582B",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "5900",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2015arXiv150703582B",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "5.5GHz",
-            "filter_name": "C",
-            "freq_eff": 5.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "9.0GHz",
-            "filter_name": "X",
-            "freq_eff": 9.0,
-            "freq_units": "GHz"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "11 11 47.6",
-            "dec": "-82 38 44.44",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "computed": "False",
-            "default": true,
-            "uuid": "6ed41b76-afe6-48d8-b493-9e3c5793348b",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2017MNRAS.472.4469B"
-            ]
-        },
-        {
-            "ra": "11:11:47.32",
-            "dec": "-82:38:44.2",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2015MNRAS.452.4297B"
-            ]
-        },
-        {
-            "ra": "11:11:47.32",
-            "dec": "-82:38:44.20",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2017ApJ...838..149A"
-            ]
-        },
-        {
-            "computed": "True",
-            "default": true,
-            "coordinate_type": "galactic",
-            "l": "299.6337165869646",
-            "b": "-20.420594756871676",
-            "l_units": "deg",
-            "b_units": "deg",
-            "reference": [
-                "6ed41b76-afe6-48d8-b493-9e3c5793348b"
-            ]
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2011ATel.3463....1K",
-                "2015MNRAS.452.4297B",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A",
-                "2017MNRAS.472.4469B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "Sw J1112-82",
-        "alias": [
-            {
-                "value": "Swift J1112.2-8238",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2017ApJ...835...64G"
-                ]
-            },
-            {
-                "value": "Swift J1112-82",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2017ApJ...835...64G",
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "Sw J1112-82",
-                "reference": [
-                    "Swift",
-                    "2015MNRAS.452.4297B"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
-        {
-            "value": "2011-12-27",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": false
-        },
-        {
-            "value": "2011-12-27 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2011ATel.3463....1K",
-                "2015MNRAS.452.4297B",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "55729.5",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2017MNRAS.472.4469B"
-            ],
-            "default": false
-        },
-        {
-            "value": "55731",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2015MNRAS.452.4297B"
-            ],
-            "default": false
         }
     ],
     "schema_version": {

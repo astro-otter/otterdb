@@ -1,12 +1,38 @@
 {
+    "filter_alias": [
+        {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "3000.0MHz",
+            "filter_name": "S",
+            "freq_eff": 3000.0,
+            "freq_units": "MHz"
+        },
+        {
+            "filter_key": "r",
+            "filter_name": "r",
+            "wave_eff": 618.5194476741524,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "orange",
+            "filter_name": "orange",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm"
+        }
+    ],
     "reference_alias": [
         {
             "name": "2019TNSTR.922....1N",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+            "human_readable_name": "Nordin, J. et al. (2019)"
         },
         {
             "name": "2024ApJ...974..241A",
-            "human_readable_name": "Nordin, J. et al. (2019)"
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
         },
         {
             "name": "2019TNSCR.975....1S",
@@ -39,43 +65,6 @@
             "default": false
         }
     ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2019TNSCR.975....1S",
-                "2024ApJ...974..241A"
-            ],
-            "default": true
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "887.5MHz",
-            "filter_name": "UHF",
-            "freq_eff": 887.5,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "3000.0MHz",
-            "filter_name": "S",
-            "freq_eff": 3000.0,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "r",
-            "filter_name": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "orange",
-            "filter_name": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        }
-    ],
     "name": {
         "default_name": "2019gte",
         "alias": [
@@ -86,13 +75,13 @@
                 ]
             },
             {
-                "value": "ZTF19aavxfib",
+                "value": "2019gte",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2019gte",
+                "value": "ZTF19aavxfib",
                 "reference": [
                     "TNS"
                 ]
@@ -359,6 +348,17 @@
             "corr_hostav": false,
             "telescope": "ATLAS-HKO",
             "instrument": "ATLAS-02"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2019TNSCR.975....1S",
+                "2024ApJ...974..241A"
+            ],
+            "default": true
         }
     ],
     "date_reference": [

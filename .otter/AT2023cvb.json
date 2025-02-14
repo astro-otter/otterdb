@@ -1,82 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2023TNSAN.102....1Y",
-            "human_readable_name": "Yao, Y. et al. (2023)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023TNSTR.494....1T",
-            "human_readable_name": "Tonry, J. et al. (2023)"
-        },
-        {
-            "name": "2023TNSCR.962....1Y",
-            "human_readable_name": "Yao, Y. et al. (2023)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "60009.61634",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2023TNSTR.494....1T"
-            ],
-            "default": true
-        },
-        {
-            "value": "60016.200000000026",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2023TNSAN.102....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "288.6069997",
-            "dec": "41.6692434",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2023TNSTR.494....1T"
-            ],
-            "default": false
-        },
-        {
-            "ra": "288.607003",
-            "dec": "41.669251",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2023TNSAN.102....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2023TNSAN.102....1Y",
-                "2023TNSCR.962....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -145,6 +67,51 @@
             "wave_units": "nm"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "Yao, Y. et al. (2023)",
+            "human_readable_name": "2023TNSAN.102....1Y"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023TNSTR.494....1T",
+            "human_readable_name": "Tonry, J. et al. (2023)"
+        },
+        {
+            "name": "2023TNSCR.962....1Y",
+            "human_readable_name": "Yao, Y. et al. (2023)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "288.6069997",
+            "dec": "41.6692434",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2023TNSTR.494....1T"
+            ],
+            "default": false
+        },
+        {
+            "ra": "288.607003",
+            "dec": "41.669251",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2023TNSAN.102....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "name": {
         "default_name": "2023cvb",
         "alias": [
@@ -155,13 +122,13 @@
                 ]
             },
             {
-                "value": "ATLAS23dht",
+                "value": "ZTF23aadcbay",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ZTF23aadcbay",
+                "value": "ATLAS23dht",
                 "reference": [
                     "TNS"
                 ]
@@ -175,18 +142,6 @@
             }
         ]
     },
-    "distance": [
-        {
-            "value": "0.071",
-            "distance_type": "redshift",
-            "reference": [
-                "2023TNSAN.102....1Y",
-                "2023TNSCR.962....1Y",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -2321,8 +2276,8 @@
             ],
             "obs_type": "uvoir",
             "reference": [
-                "2024MNRAS.527.2452M",
-                "2023TNSAN.102....1Y"
+                "2023TNSAN.102....1Y",
+                "2024MNRAS.527.2452M"
             ],
             "corr_k": false,
             "corr_s": false,
@@ -2434,6 +2389,51 @@
             "corr_hostav": false,
             "telescope": "ATLAS-HKO",
             "instrument": "ATLAS-02"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "60009.61634",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2023TNSTR.494....1T"
+            ],
+            "default": true
+        },
+        {
+            "value": "60016.200000000026",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2023TNSAN.102....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.071",
+            "distance_type": "redshift",
+            "reference": [
+                "2023TNSAN.102....1Y",
+                "2023TNSCR.962....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2023TNSAN.102....1Y",
+                "2023TNSCR.962....1Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ]
 }

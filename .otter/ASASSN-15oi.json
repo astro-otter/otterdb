@@ -1,26 +1,4 @@
 {
-    "name": {
-        "default_name": "ASASSN-15oi",
-        "alias": [
-            {
-                "value": "ASASSN-15oi",
-                "reference": [
-                    "ASASSN",
-                    "2017ApJ...838..149A",
-                    "2016arXiv160201088H",
-                    "2015ATel.7910....1B",
-                    "ASAS-SN Supernovae",
-                    "MAST",
-                    "2000A&AS..143....9W",
-                    "2016MNRAS.463.3813H",
-                    "2024MNRAS.527.2452M",
-                    "2023PASP..135c4101G",
-                    "2024ApJ...974..241A",
-                    "2024arXiv240719019H"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": [
@@ -2875,8 +2853,8 @@
             ],
             "obs_type": "uvoir",
             "reference": [
-                "2024MNRAS.527.2452M",
-                "2016MNRAS.463.3813H"
+                "2016MNRAS.463.3813H",
+                "2024MNRAS.527.2452M"
             ],
             "corr_k": false,
             "corr_s": false,
@@ -5861,6 +5839,772 @@
                     "energy_units": "keV"
                 }
             ]
+        },
+        {
+            "raw": [
+                1.2383003693619554e-13,
+                8.896392737073322e-13
+            ],
+            "raw_err": [
+                1.1384126956371667e-14,
+                3.106911676450296e-14
+            ],
+            "raw_units": [
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1"
+            ],
+            "raw_err_detail": {
+                "upper": [
+                    8.052652444054224e-15,
+                    2.1964697652387434e-14
+                ],
+                "lower": [
+                    8.046933277594363e-15,
+                    2.1973667731298857e-14
+                ]
+            },
+            "upperlimit": [
+                false,
+                false
+            ],
+            "date": [
+                57324.0,
+                57482.0
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "filter_key": [
+                "0.2 - 12",
+                "0.2 - 12"
+            ],
+            "telescope": "XMM-Newton",
+            "instrument": "XMM",
+            "reference": [
+                "2024ApJ...966..160G"
+            ],
+            "obs_type": "xray",
+            "xray_model": [
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        520000.0,
+                        540000000000.00006
+                    ],
+                    "param_value_upper_err": [
+                        10000.0,
+                        40000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -50000.0,
+                        -160000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                },
+                {
+                    "model_name": "tdediscspec",
+                    "param_names": [
+                        "T_p",
+                        "R_p"
+                    ],
+                    "param_values": [
+                        330000.0,
+                        3300000000000.0
+                    ],
+                    "param_value_upper_err": [
+                        30000.0,
+                        1800000000000.0
+                    ],
+                    "param_value_lower_err": [
+                        -10000.0,
+                        -100000000000.0
+                    ],
+                    "param_upperlimit": [
+                        false,
+                        false
+                    ],
+                    "param_units": [
+                        "K",
+                        "cm"
+                    ],
+                    "min_energy": 0.3,
+                    "max_energy": 10.0,
+                    "energy_units": "keV",
+                    "model_referece": [
+                        "2023MNRAS.519.5828M",
+                        "2024ApJ...966..160G"
+                    ]
+                }
+            ]
+        },
+        {
+            "raw": [
+                4.538435e-14,
+                5.07424404e-14,
+                5.40125376e-14,
+                6.156968079999999e-14,
+                3.5842104319999995e-14,
+                1.079196312e-13,
+                5.70350636e-14,
+                7.0246712e-14,
+                2.0864628479999996e-13,
+                1.467763916e-14,
+                2.2775096e-12,
+                9.741126799999998e-14,
+                1.1331165759999999e-13,
+                6.522192159999999e-14,
+                7.76740904e-14,
+                3.04634786e-14,
+                5.3037079599999996e-14,
+                1.7941559199999997e-13,
+                4.9483707151372893e-14,
+                8.386086199788895e-14,
+                1.8767705110014317e-13,
+                8.101616222585064e-14,
+                1.1390959125068808e-13,
+                1.2202880555527037e-13,
+                5.695590776129404e-14,
+                5.876954282442136e-14,
+                3.4088281027471796e-13,
+                2.6798751970952374e-13,
+                2.0339027873944509e-13,
+                5.0915478e-13,
+                4.0820967999999994e-13,
+                2.95582278e-13,
+                2.3663150999999997e-13,
+                3.74473888e-13,
+                5.361640399999999e-13,
+                2.30345018e-13,
+                5.017064e-13,
+                8.0202914e-13,
+                4.2064404e-13,
+                4.899054999999999e-13,
+                4.4708596e-13,
+                5.5203816e-13,
+                2.5357609e-13,
+                4.4271823999999997e-13,
+                7.095816e-13,
+                3.7906542799999996e-13,
+                8.843287800000001e-14,
+                1.2576537e-13,
+                1.20445712e-13,
+                7.6303164e-14,
+                7.2678534e-14,
+                3.4975941e-14,
+                9.8547186e-14,
+                9.1118946e-14,
+                1.57345384e-13,
+                2.0787634e-13,
+                1.21707996e-13,
+                1.15252974e-13,
+                1.9186199999999998e-12,
+                3.9492791999999993e-14,
+                3.256106e-13,
+                4.3854128e-14
+            ],
+            "raw_err": [
+                7.957969502933476e-14,
+                5.814001886817448e-14,
+                5.3228206434171364e-14,
+                7.067458286305958e-14,
+                5.2399914391748596e-14,
+                7.053877480329406e-14,
+                5.0672535285087526e-14,
+                5.691938608262593e-14,
+                1.0870975253696577e-13,
+                2.888506593831061e-14,
+                0.0,
+                6.269973019577579e-14,
+                7.35412356147113e-14,
+                5.5074904662420304e-14,
+                6.352063478252853e-14,
+                4.183315604803418e-14,
+                6.013668873129029e-14,
+                1.0705948749772818e-13,
+                4.756315851270736e-14,
+                5.922340596150504e-14,
+                1.0116554816975346e-13,
+                6.358510337261312e-14,
+                7.623418505327422e-14,
+                1.1009284578700766e-13,
+                9.528775414041167e-14,
+                5.5285560579018396e-14,
+                1.216879449242956e-13,
+                1.0216661487917455e-13,
+                8.001511406387609e-14,
+                1.4991116875180192e-13,
+                1.1459214386832916e-13,
+                9.355014795502074e-14,
+                1.1332699407228443e-13,
+                1.1684369348199348e-13,
+                1.5411762254228718e-13,
+                1.7075319769581788e-13,
+                1.3352543139462716e-13,
+                2.6698938409727083e-13,
+                1.5108786231794733e-13,
+                1.3976809815648847e-13,
+                1.430259314304594e-13,
+                1.7647979812977938e-13,
+                1.9406248907659409e-13,
+                3.33036254587796e-13,
+                3.285421299597342e-13,
+                0.0,
+                5.977480788555634e-14,
+                7.834142660468362e-14,
+                8.95994971136975e-14,
+                8.252907135478935e-14,
+                6.99603331720122e-14,
+                5.973176205314483e-14,
+                7.754811502158907e-14,
+                6.21167483732733e-14,
+                1.6873176325616865e-13,
+                1.2756344925534427e-13,
+                7.51685027129976e-14,
+                7.900076408016033e-14,
+                0.0,
+                4.395338473186076e-14,
+                0.0,
+                3.628981857158887e-14
+            ],
+            "raw_units": [
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1",
+                "erg cm^-2 s^-1"
+            ],
+            "raw_err_detail": {
+                "upper": [
+                    5.6271341999999995e-14,
+                    4.11112016e-14,
+                    3.7638025719999994e-14,
+                    4.9974476799999996e-14,
+                    3.70523348e-14,
+                    4.9878446e-14,
+                    3.5830893319999994e-14,
+                    4.0248083879999997e-14,
+                    7.686940319999999e-14,
+                    2.0424826e-14,
+                    0.0,
+                    4.43354044e-14,
+                    5.200150639999999e-14,
+                    3.894383856e-14,
+                    4.49158716e-14,
+                    2.958050832e-14,
+                    4.25230604e-14,
+                    7.57024896e-14,
+                    3.3632231918986036e-14,
+                    4.187727196034402e-14,
+                    7.153484513328699e-14,
+                    4.4961457777222356e-14,
+                    5.390570920940035e-14,
+                    7.784739781611794e-14,
+                    6.737861711672162e-14,
+                    3.909279478712358e-14,
+                    8.604637104462454e-14,
+                    7.224270619193875e-14,
+                    5.657922975198187e-14,
+                    1.06003204e-13,
+                    8.1028882e-14,
+                    6.6149944e-14,
+                    8.013428599999999e-14,
+                    8.2620968e-14,
+                    1.0897761599999999e-13,
+                    1.20740744e-13,
+                    9.4416738e-14,
+                    1.88790004e-13,
+                    1.06835252e-13,
+                    9.883096999999998e-14,
+                    1.01134606e-13,
+                    1.24790062e-13,
+                    1.37222902e-13,
+                    2.35492194e-13,
+                    2.32314368e-13,
+                    0.0,
+                    4.2267172e-14,
+                    5.5395754e-14,
+                    6.3356412e-14,
+                    5.8356866e-14,
+                    4.9469426e-14,
+                    4.2236734e-14,
+                    5.4834798e-14,
+                    4.3923173999999994e-14,
+                    1.19311374e-13,
+                    9.020097999999998e-14,
+                    5.3152157999999996e-14,
+                    5.586197599999999e-14,
+                    0.0,
+                    3.10797364e-14,
+                    0.0,
+                    2.56607768e-14
+                ],
+                "lower": [
+                    -5.6271341999999995e-14,
+                    -4.11112016e-14,
+                    -3.7638025719999994e-14,
+                    -4.9974476799999996e-14,
+                    -3.70523348e-14,
+                    -4.9878446e-14,
+                    -3.5830893319999994e-14,
+                    -4.0248083879999997e-14,
+                    -7.686940319999999e-14,
+                    -2.0424826e-14,
+                    0.0,
+                    -4.43354044e-14,
+                    -5.200150639999999e-14,
+                    -3.894383856e-14,
+                    -4.49158716e-14,
+                    -2.958050832e-14,
+                    -4.25230604e-14,
+                    -7.57024896e-14,
+                    -3.3632231918986036e-14,
+                    -4.187727196034402e-14,
+                    -7.153484513328699e-14,
+                    -4.4961457777222356e-14,
+                    -5.390570920940035e-14,
+                    -7.784739781611794e-14,
+                    -6.737861711672162e-14,
+                    -3.909279478712358e-14,
+                    -8.604637104462454e-14,
+                    -7.224270619193875e-14,
+                    -5.657922975198187e-14,
+                    -1.06003204e-13,
+                    -8.1028882e-14,
+                    -6.6149944e-14,
+                    -8.013428599999999e-14,
+                    -8.2620968e-14,
+                    -1.0897761599999999e-13,
+                    -1.20740744e-13,
+                    -9.4416738e-14,
+                    -1.88790004e-13,
+                    -1.06835252e-13,
+                    -9.883096999999998e-14,
+                    -1.01134606e-13,
+                    -1.24790062e-13,
+                    -1.37222902e-13,
+                    -2.35492194e-13,
+                    -2.32314368e-13,
+                    0.0,
+                    -4.2267172e-14,
+                    -5.5395754e-14,
+                    -6.3356412e-14,
+                    -5.8356866e-14,
+                    -4.9469426e-14,
+                    -4.2236734e-14,
+                    -5.4834798e-14,
+                    -4.3923173999999994e-14,
+                    -1.19311374e-13,
+                    -9.020097999999998e-14,
+                    -5.3152157999999996e-14,
+                    -5.586197599999999e-14,
+                    0.0,
+                    -3.10797364e-14,
+                    0.0,
+                    -2.56607768e-14
+                ]
+            },
+            "upperlimit": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                true,
+                false,
+                true,
+                false
+            ],
+            "date": [
+                57257.8278397488,
+                57259.4023760891,
+                57264.4183227593,
+                57268.7542521944,
+                57272.570850566,
+                57276.1252893137,
+                57280.7159042107,
+                57285.6438193391,
+                57291.48951389,
+                57294.6168845336,
+                57297.0478653426,
+                57300.2675803333,
+                57303.6565603067,
+                57306.5193706863,
+                57309.4784235243,
+                57312.1965755637,
+                57318.7670001111,
+                57324.0822981319,
+                57328.1419182199,
+                57330.6590224815,
+                57333.4856968646,
+                57336.404146485,
+                57339.4336192072,
+                57342.1017980752,
+                57345.7884951644,
+                57348.4135905081,
+                57460.2951747465,
+                57468.7989276586,
+                57476.6471669549,
+                57493.4280993657,
+                57501.2702705347,
+                57506.291547331,
+                57515.1270941852,
+                57521.445511088,
+                57529.1207363067,
+                57533.5080564792,
+                57558.8876870451,
+                57572.0883145081,
+                57580.5263877778,
+                57586.8059173171,
+                57594.0081275162,
+                57600.5289971458,
+                57607.6716773912,
+                57610.5903195694,
+                57611.1825205301,
+                57833.6785116285,
+                57845.2051053542,
+                58642.9055124479,
+                58649.6096080081,
+                58656.791743765,
+                58663.7201935278,
+                58670.6565863322,
+                58677.1648360417,
+                58684.8190312025,
+                58691.2774062234,
+                58695.3323076817,
+                58698.5579812049,
+                58705.5975394329,
+                59012.1930071215,
+                59020.2930970752,
+                59021.649723831,
+                59649.9312636644
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "filter_key": [
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10",
+                "0.3 - 10"
+            ],
+            "telescope": "Swift",
+            "instrument": "XRT",
+            "reference": [
+                "2024ApJ...966..160G"
+            ],
+            "obs_type": "xray",
+            "xray_model": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
         }
     ],
     "coordinate": [
@@ -5873,7 +6617,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": false,
-            "uuid": "72ece818-39ac-4895-9b1a-4c83de790381",
+            "uuid": "d40f93da-04fe-43f6-8c26-cd0eb8a03d09",
             "coordinate_type": "equitorial",
             "reference": [
                 "2021NatAs...5..491H"
@@ -5900,6 +6644,17 @@
             "coordinate_type": "equitorial",
             "reference": [
                 "2016MNRAS.463.3813H"
+            ]
+        },
+        {
+            "ra": "20h39m08.93s",
+            "dec": "-30d45m22.6s",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2015ATel.7910....1B"
             ]
         },
         {
@@ -5934,88 +6689,114 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "72ece818-39ac-4895-9b1a-4c83de790381"
+                "d40f93da-04fe-43f6-8c26-cd0eb8a03d09"
             ]
         }
     ],
-    "reference_alias": [
+    "classification": [
         {
-            "name": "2021NatAs...5..491H",
-            "human_readable_name": "Horesh et al. (2021)"
-        },
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016arXiv160201088H",
-            "human_readable_name": "Holoien et al. (2016)"
-        },
-        {
-            "name": "2016ApJ...818L..21F",
-            "human_readable_name": "French, Arcavi, & Zabludoff (2016)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2015ATel.7910....1B",
-            "human_readable_name": "Brimacombe et al. (2015)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "ASAS-SN Supernovae",
-            "human_readable_name": "ASAS-SN Supernovae"
-        },
-        {
-            "name": "MAST",
-            "human_readable_name": "MAST"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2000A&AS..143....9W",
-            "human_readable_name": "Wenger et al. (2000)"
-        },
-        {
-            "name": "2016MNRAS.463.3813H",
-            "human_readable_name": "Holoien, T. W. -S. et al. (2016)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2020MNRAS.497L...1W",
-            "human_readable_name": "Wevers, Thomas (2020)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Brimacombe, J. et al. (2015)"
-        },
-        {
-            "name": "2024ApJ...974..241A",
-            "human_readable_name": "Horesh, A. et al. (2021)"
-        },
-        {
-            "name": "2024arXiv240719019H",
-            "human_readable_name": "Hajela et al. (2024)"
-        },
-        {
-            "name": "2020PASP..132c5001L",
-            "human_readable_name": "Lucy et al. (2020)"
-        },
-        {
-            "name": "2017ApJ...851L..47G",
-            "human_readable_name": "Gezari et al. (2017)"
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2015ATel.7910....1B",
+                "2016MNRAS.463.3813H",
+                "2017ApJ...838..149A",
+                "2021NatAs...5..491H",
+                "2023PASP..135c4101G",
+                "2024ApJ...966..160G",
+                "2024MNRAS.527.2452M",
+                "ASAS-SN Supernovae"
+            ],
+            "default": true
         }
     ],
+    "date_reference": [
+        {
+            "value": "2015-08-14",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2024ApJ...974..241A"
+            ],
+            "default": false
+        },
+        {
+            "value": "2015-08-14 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2015ATel.7910....1B",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "2015-08-14 4:47:59.99999999993861",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2015ATel.7910....1B",
+                "ASAS-SN Supernovae"
+            ],
+            "default": false
+        },
+        {
+            "value": "57248.158280000025",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2016MNRAS.463.3813H",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "57248.2",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2021NatAs...5..491H"
+            ],
+            "default": false
+        },
+        {
+            "value": "57259.0",
+            "date_format": "MJD",
+            "date_type": "peak",
+            "reference": [
+                "2024ApJ...966..160G"
+            ],
+            "default": false
+        }
+    ],
+    "name": {
+        "default_name": "ASASSN-15oi",
+        "alias": [
+            {
+                "value": "asassn-15oi",
+                "reference": [
+                    "2024ApJ...966..160G"
+                ]
+            },
+            {
+                "value": "ASASSN-15oi",
+                "reference": [
+                    "ASASSN",
+                    "2017ApJ...838..149A",
+                    "2016arXiv160201088H",
+                    "2015ATel.7910....1B",
+                    "ASAS-SN Supernovae",
+                    "MAST",
+                    "2000A&AS..143....9W",
+                    "2016MNRAS.463.3813H",
+                    "2024MNRAS.527.2452M",
+                    "2023PASP..135c4101G",
+                    "2024ApJ...974..241A",
+                    "2024arXiv240719019H"
+                ]
+            }
+        ]
+    },
     "filter_alias": [
         {
             "filter_key": "6.1GHz",
@@ -6510,90 +7291,6 @@
             "wave_min": 0.10332016536100021
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Original Dataset;Copied from tde.space;"
-    },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2015ATel.7910....1B",
-                "2016MNRAS.463.3813H",
-                "2017ApJ...838..149A",
-                "2021NatAs...5..491H",
-                "2023PASP..135c4101G",
-                "2024MNRAS.527.2452M",
-                "ASAS-SN Supernovae"
-            ],
-            "default": true
-        }
-    ],
-    "host": [
-        {
-            "host_name": "2MASX J20390918-3045201",
-            "host_ra": 309.78749999999997,
-            "host_dec": -30.755555555555556,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2015ATel.7910....1B"
-            ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2015-08-14",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2024ApJ...974..241A"
-            ],
-            "default": false
-        },
-        {
-            "value": "2015-08-14 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2015ATel.7910....1B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "2015-08-14 4:47:59.99999999993861",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2015ATel.7910....1B",
-                "ASAS-SN Supernovae"
-            ],
-            "default": false
-        },
-        {
-            "value": "57248.158280000025",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2016MNRAS.463.3813H",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "57248.2",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2021NatAs...5..491H"
-            ],
-            "default": false
-        }
-    ],
     "distance": [
         {
             "value": "0.02",
@@ -6603,6 +7300,14 @@
                 "2017ApJ...838..149A",
                 "2024ApJ...974..241A",
                 "ASAS-SN Supernovae"
+            ],
+            "default": false
+        },
+        {
+            "value": "0.04800000041723251",
+            "distance_type": "redshift",
+            "reference": [
+                "2024ApJ...966..160G"
             ],
             "default": false
         },
@@ -6653,6 +7358,114 @@
                 "ASAS-SN Supernovae"
             ],
             "default": true
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2021NatAs...5..491H",
+            "human_readable_name": "Horesh et al. (2021)"
+        },
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016arXiv160201088H",
+            "human_readable_name": "Holoien et al. (2016)"
+        },
+        {
+            "name": "2016ApJ...818L..21F",
+            "human_readable_name": "French, Arcavi, & Zabludoff (2016)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2015ATel.7910....1B",
+            "human_readable_name": "Brimacombe et al. (2015)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "ASAS-SN Supernovae",
+            "human_readable_name": "ASAS-SN Supernovae"
+        },
+        {
+            "name": "MAST",
+            "human_readable_name": "MAST"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2000A&AS..143....9W",
+            "human_readable_name": "Wenger et al. (2000)"
+        },
+        {
+            "name": "Holoien, T. W. -S. et al. (2016)",
+            "human_readable_name": "2016MNRAS.463.3813H"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2020MNRAS.497L...1W",
+            "human_readable_name": "Wevers, Thomas (2020)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2024arXiv240719019H",
+            "human_readable_name": "Hajela et al. (2024)"
+        },
+        {
+            "name": "2016MNRAS.463.3813H",
+            "human_readable_name": "Holoien et al. (2016)"
+        },
+        {
+            "name": "2020PASP..132c5001L",
+            "human_readable_name": "Lucy et al. (2020)"
+        },
+        {
+            "name": "2017ApJ...851L..47G",
+            "human_readable_name": "Gezari et al. (2017)"
+        },
+        {
+            "name": "2024ApJ...966..160G",
+            "human_readable_name": "Guolo, Muryel et al. (2024)"
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Original Dataset;Copied from tde.space;"
+    },
+    "host": [
+        {
+            "host_name": "2MASX J20390918-3045201",
+            "host_ra": 309.78749999999997,
+            "host_dec": -30.755555555555556,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2015ATel.7910....1B"
+            ]
         }
     ]
 }

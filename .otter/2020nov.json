@@ -1,55 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2023ApJS..266....9A",
-            "human_readable_name": "Aleo, P. D. et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR1950....1F",
-            "human_readable_name": "Forster, F. et al. (2020)"
-        },
-        {
-            "name": "2020TNSCR3800....1D",
-            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "254.554042",
-            "dec": "2.117511",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2020TNSTR1950....1F"
-            ],
-            "default": true
-        },
-        {
-            "ra": "254.554085",
-            "dec": "2.117537",
-            "ra_units": "deg",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2023ApJS..266....9A"
-            ],
-            "default": false
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2020TNSCR3800....1D",
-                "2023ApJS..266....9A"
-            ],
-            "default": true
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "ztf.r",
@@ -124,21 +73,53 @@
             "wave_units": "nm"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2023ApJS..266....9A",
+            "human_readable_name": "Aleo, P. D. et al. (2023)"
+        },
+        {
+            "name": "2023ApJS..266....9A",
+            "human_readable_name": "Aleo, P. D. et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR1950....1F",
+            "human_readable_name": "Forster, F. et al. (2020)"
+        },
+        {
+            "name": "2020TNSCR3800....1D",
+            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "254.554042",
+            "dec": "2.117511",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2020TNSTR1950....1F"
+            ],
+            "default": true
+        },
+        {
+            "ra": "254.554085",
+            "dec": "2.117537",
+            "ra_units": "deg",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2023ApJS..266....9A"
+            ],
+            "default": false
+        }
+    ],
     "name": {
         "default_name": "2020nov",
         "alias": [
-            {
-                "value": "ATLAS20vfv",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS20ggg",
-                "reference": [
-                    "TNS"
-                ]
-            },
             {
                 "value": "Gaia20duz",
                 "reference": [
@@ -152,6 +133,18 @@
                 ]
             },
             {
+                "value": "PS20ggg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS20vfv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
                 "value": "2020nov",
                 "reference": [
                     "2023ApJS..266....9A",
@@ -160,17 +153,6 @@
             }
         ]
     },
-    "distance": [
-        {
-            "value": "0.084",
-            "distance_type": "redshift",
-            "reference": [
-                "2020TNSCR3800....1D",
-                "2023ApJS..266....9A"
-            ],
-            "default": true
-        }
-    ],
     "photometry": [
         {
             "reference": "2023ApJS..266....9A",
@@ -2805,6 +2787,28 @@
             "corr_hostav": false,
             "telescope": "PS1",
             "instrument": "GPC1"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.084",
+            "distance_type": "redshift",
+            "reference": [
+                "2020TNSCR3800....1D",
+                "2023ApJS..266....9A"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR3800....1D",
+                "2023ApJS..266....9A"
+            ],
+            "default": true
         }
     ],
     "host": [

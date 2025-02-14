@@ -1,66 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2021ApJ...908....4V",
-            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2019TNSTR.444....1N",
-            "human_readable_name": "Nordin, J. et al. (2019)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58526.51965277778",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2019TNSTR.444....1N"
-            ],
-            "default": true
-        },
-        {
-            "value": "58546.267291666656",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "193.7883736",
-            "dec": "49.5194241",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2019TNSTR.444....1N"
-            ],
-            "default": false
-        },
-        {
-            "ra": "193.788374",
-            "dec": "49.519424",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "UVW2.uvot",
@@ -103,6 +41,47 @@
             "filter_name": "r",
             "wave_eff": 618.5194476741524,
             "wave_units": "nm"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "van Velzen, Sjoert et al. (2021)",
+            "human_readable_name": "2021ApJ...908....4V"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2019TNSTR.444....1N",
+            "human_readable_name": "Nordin, J. et al. (2019)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "193.7883736",
+            "dec": "49.5194241",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2019TNSTR.444....1N"
+            ],
+            "default": false
+        },
+        {
+            "ra": "193.788374",
+            "dec": "49.519424",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "name": {
@@ -6767,8 +6746,8 @@
             ],
             "obs_type": "uvoir",
             "reference": [
-                "2024MNRAS.527.2452M",
-                "2021ApJ...908....4V"
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
             ],
             "corr_k": false,
             "corr_s": false,
@@ -6856,10 +6835,20 @@
             "instrument": "ZTF-Cam"
         }
     ],
-    "classification": [
+    "date_reference": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "value": "58526.51965277778",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2019TNSTR.444....1N"
+            ],
+            "default": true
+        },
+        {
+            "value": "58546.267291666656",
+            "date_format": "mjd",
+            "date_type": "peak",
             "reference": [
                 "2021ApJ...908....4V",
                 "2024MNRAS.527.2452M"
@@ -6875,6 +6864,17 @@
                 "2024MNRAS.527.2452M"
             ],
             "distance_type": "redshift"
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ]
 }

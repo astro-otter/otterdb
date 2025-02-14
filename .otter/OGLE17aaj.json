@@ -22,31 +22,6 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "OGLE17aaj",
-        "alias": [
-            {
-                "value": "OGLE 17aaj",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "OGLE17aaj",
-                "reference": []
-            }
-        ]
-    },
-    "coordinate": [
-        {
-            "ra": "01:56:24.93",
-            "dec": "-71:04:15.7",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [],
-            "coordinate_type": "equitorial"
-        }
-    ],
     "reference_alias": [
         {
             "name": "2016A&A...594A..13P",
@@ -61,20 +36,20 @@
             "human_readable_name": "Guillochon et al. (2017)"
         },
         {
-            "name": "2017ATel.9977....1G",
+            "name": "2023PASP..135c4101G",
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         },
         {
             "name": "2017ATel11049....1S",
-            "human_readable_name": "Gromadzki, M. et al. (2019)"
-        },
-        {
-            "name": "2019A&A...622L...2G",
             "human_readable_name": "Sokolovsky, K. et al. (2017)"
         },
         {
-            "name": "2023PASP..135c4101G",
+            "name": "2017ATel.9977....1G",
             "human_readable_name": "Gromadzki, M. et al. (2017)"
+        },
+        {
+            "name": "2019A&A...622L...2G",
+            "human_readable_name": "Gromadzki, M. et al. (2019)"
         }
     ],
     "schema_version": {
@@ -82,20 +57,6 @@
         "comments": "From Goldtooth et al. (2023)",
         "comment": "Copied from tde.space;"
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ATel.9977....1G",
-                "2017ATel11049....1S",
-                "2017ApJ...835...64G",
-                "2019A&A...622L...2G",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
     "distance": [
         {
             "value": "0.116",
@@ -127,6 +88,45 @@
                 "2017ApJ...835...64G"
             ],
             "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ATel.9977....1G",
+                "2017ATel11049....1S",
+                "2017ApJ...835...64G",
+                "2019A&A...622L...2G",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "OGLE17aaj",
+        "alias": [
+            {
+                "value": "OGLE 17aaj",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "OGLE17aaj",
+                "reference": []
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": "01:56:24.93",
+            "dec": "-71:04:15.7",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [],
+            "coordinate_type": "equitorial"
         }
     ],
     "host": [

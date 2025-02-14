@@ -1,133 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "MAST",
-            "human_readable_name": "MAST"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2021ApJ...908....4V",
-            "human_readable_name": "van Velzen, Sjoert et al. (2021)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2018TNSTR1509....1T",
-            "human_readable_name": "Cendes, Y. et al. (2024)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
-        },
-        {
-            "name": "2024ApJ...974..241A",
-            "human_readable_name": "Tonry, J. et al. (2018)"
-        },
-        {
-            "name": "2018TNSCR1902....1R",
-            "human_readable_name": "Reynolds, T. (2018)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58395.52",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2018TNSTR1509....1T"
-            ],
-            "default": true
-        },
-        {
-            "value": "58404.028499999986",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "8589-09-09",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G"
-            ],
-            "default": false
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "01:07:33.6100",
-            "dec": "+23:28:34.39",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": []
-        },
-        {
-            "ra": "01:07:33.635",
-            "dec": "+23:28:34.28",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "reference": [
-                "2018TNSTR1509....1T"
-            ]
-        },
-        {
-            "ra": "16.890125627",
-            "dec": "23.476176295",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": true,
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ]
-        },
-        {
-            "ra": "16.8901468",
-            "dec": "23.4761884",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "default": false,
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2018TNSTR1509....1T"
-            ]
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2018TNSCR1902....1R",
-                "2021ApJ...908....4V",
-                "2023arXiv230813595C",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "B.uvot",
@@ -304,17 +175,102 @@
             "wave_units": "nm"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "MAST",
+            "human_readable_name": "MAST"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "van Velzen, Sjoert et al. (2021)",
+            "human_readable_name": "2021ApJ...908....4V"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2018TNSTR1509....1T",
+            "human_readable_name": "Tonry, J. et al. (2018)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Cendes, Y. et al. (2024)"
+        },
+        {
+            "name": "2024ApJ...974..241A",
+            "human_readable_name": "Anumarlapudi, Akash et al. (2024)"
+        },
+        {
+            "name": "2018TNSCR1902....1R",
+            "human_readable_name": "Reynolds, T. (2018)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "01:07:33.6100",
+            "dec": "+23:28:34.39",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": []
+        },
+        {
+            "ra": "01:07:33.635",
+            "dec": "+23:28:34.28",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "reference": [
+                "2018TNSTR1509....1T"
+            ]
+        },
+        {
+            "ra": "16.890125627",
+            "dec": "23.476176295",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": true,
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ]
+        },
+        {
+            "ra": "16.8901468",
+            "dec": "23.4761884",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "default": false,
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2018TNSTR1509....1T"
+            ]
+        }
+    ],
     "name": {
         "default_name": "2018hco",
         "alias": [
             {
-                "value": "ATLAS18way",
+                "value": "2018hco",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "2018hco",
+                "value": "ATLAS18way",
                 "reference": [
                     "TNS"
                 ]
@@ -336,45 +292,6 @@
             }
         ]
     },
-    "distance": [
-        {
-            "value": "0.088",
-            "distance_type": "redshift",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "0.09",
-            "distance_type": "redshift",
-            "reference": [
-                "2018TNSCR1902....1R"
-            ],
-            "default": false
-        },
-        {
-            "value": "380",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
-        },
-        {
-            "value": "410",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -4461,8 +4378,8 @@
             ],
             "obs_type": "uvoir",
             "reference": [
-                "2024MNRAS.527.2452M",
-                "2021ApJ...908....4V"
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
             ],
             "corr_k": false,
             "corr_s": false,
@@ -5228,6 +5145,89 @@
             "corr_hostav": false,
             "telescope": "ATLAS-HKO",
             "instrument": "ATLAS-02"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "58395.52",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2018TNSTR1509....1T"
+            ],
+            "default": true
+        },
+        {
+            "value": "58404.028499999986",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "8589-09-09",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G"
+            ],
+            "default": false
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.088",
+            "distance_type": "redshift",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "0.09",
+            "distance_type": "redshift",
+            "reference": [
+                "2018TNSCR1902....1R"
+            ],
+            "default": false
+        },
+        {
+            "value": "380",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        },
+        {
+            "value": "410",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017ApJ...835...64G",
+                "2018TNSCR1902....1R",
+                "2021ApJ...908....4V",
+                "2023arXiv230813595C",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "schema_version": {

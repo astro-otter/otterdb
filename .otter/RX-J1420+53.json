@@ -13,30 +13,6 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "RX J1420+53",
-        "alias": [
-            {
-                "value": "RX J1420+53",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "coordinate": [
-        {
-            "ra": "14:20:24.20",
-            "dec": "+53:34:11.00",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -60,7 +36,7 @@
         },
         {
             "name": "2023PASP..135c4101G",
-            "human_readable_name": "Greiner, J. et al. (2000)"
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
     "schema_version": {
@@ -68,18 +44,6 @@
         "comments": "From Goldtooth et al. (2023)",
         "comment": "Copied from tde.space;"
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2000A&A...362L..25G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
     "distance": [
         {
             "value": "0.147",
@@ -114,6 +78,52 @@
                 "2017ApJ...838..149A"
             ],
             "default": true
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2000A&A...362L..25G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "RX J1420+53",
+        "alias": [
+            {
+                "value": "RX J1420+53",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": "14:20:24.20",
+            "dec": "+53:34:11.00",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "photometry": [
@@ -336,16 +346,6 @@
                 }
             ],
             "corr_s": null
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
         }
     ],
     "host": [

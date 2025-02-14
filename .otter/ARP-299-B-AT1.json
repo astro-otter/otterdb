@@ -1,8 +1,133 @@
 {
+    "coordinate": [
+        {
+            "ra": "11 28 30.9875",
+            "dec": "+58 33 40.783",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "6d3fe5cb-02e7-4c87-b72b-79bde6fa4bf5",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2018Sci...361..482M"
+            ]
+        },
+        {
+            "ra": "11:28:30.9875529",
+            "dec": "58:33:40.783601",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2018Sci...361..482M"
+            ]
+        },
+        {
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "141.90866797794666",
+            "b": "55.405983440677815",
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": [
+                "6d3fe5cb-02e7-4c87-b72b-79bde6fa4bf5"
+            ]
+        }
+    ],
+    "name": {
+        "default_name": "ARP 299-B AT1",
+        "alias": [
+            {
+                "value": "Arp 299-B AT1",
+                "reference": [
+                    "2018Sci...361..482M"
+                ]
+            },
+            {
+                "value": "ARP 299-B AT1",
+                "reference": [
+                    "TNS"
+                ]
+            }
+        ]
+    },
+    "filter_alias": [
+        {
+            "filter_key": "8.4GHz",
+            "filter_name": "X",
+            "freq_eff": 8.4,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "2.3GHz",
+            "filter_name": "S",
+            "freq_eff": 2.3,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "22.5GHz",
+            "filter_name": "K",
+            "freq_eff": 22.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.7GHz",
+            "filter_name": "L",
+            "freq_eff": 1.7,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.0GHz",
+            "filter_name": "C",
+            "freq_eff": 5.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.5GHz",
+            "filter_name": "L",
+            "freq_eff": 1.5,
+            "freq_units": "GHz"
+        }
+    ],
     "reference_alias": [
         {
             "name": "2018Sci...361..482M",
             "human_readable_name": "Mattila et al. (2018)"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2005-01-30",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "default": true
+        },
+        {
+            "value": "53401.0",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "default": false
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1.0,
+            "reference": [
+                "2018Sci...361..482M"
+            ],
+            "default": true
         }
     ],
     "photometry": [
@@ -420,131 +545,6 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "8.4GHz",
-            "filter_name": "X",
-            "freq_eff": 8.4,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "2.3GHz",
-            "filter_name": "S",
-            "freq_eff": 2.3,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "22.5GHz",
-            "filter_name": "K",
-            "freq_eff": 22.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.7GHz",
-            "filter_name": "L",
-            "freq_eff": 1.7,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.0GHz",
-            "filter_name": "C",
-            "freq_eff": 5.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.5GHz",
-            "filter_name": "L",
-            "freq_eff": 1.5,
-            "freq_units": "GHz"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "11 28 30.9875",
-            "dec": "+58 33 40.783",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "computed": "False",
-            "default": true,
-            "uuid": "8dad66e7-cfe1-4572-8725-f5ef024f739f",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2018Sci...361..482M"
-            ]
-        },
-        {
-            "ra": "11:28:30.9875529",
-            "dec": "58:33:40.783601",
-            "ra_units": "hour",
-            "dec_units": "degree",
-            "default": false,
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2018Sci...361..482M"
-            ]
-        },
-        {
-            "computed": "True",
-            "default": true,
-            "coordinate_type": "galactic",
-            "l": "141.90866797794666",
-            "b": "55.405983440677815",
-            "l_units": "deg",
-            "b_units": "deg",
-            "reference": [
-                "8dad66e7-cfe1-4572-8725-f5ef024f739f"
-            ]
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1.0,
-            "reference": [
-                "2018Sci...361..482M"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "ARP 299-B AT1",
-        "alias": [
-            {
-                "value": "Arp 299-B AT1",
-                "reference": [
-                    "2018Sci...361..482M"
-                ]
-            },
-            {
-                "value": "ARP 299-B AT1",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    },
-    "date_reference": [
-        {
-            "value": "2005-01-30",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2018Sci...361..482M"
-            ],
-            "default": true
-        },
-        {
-            "value": "53401.0",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2018Sci...361..482M"
-            ],
-            "default": false
         }
     ],
     "schema_version": {

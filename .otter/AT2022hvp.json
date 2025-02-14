@@ -1,82 +1,4 @@
 {
-    "reference_alias": [
-        {
-            "name": "2022TNSAN.106....1F",
-            "human_readable_name": "Fulton, M. et al. (2022)"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2022TNSTR1012....1M",
-            "human_readable_name": "Munoz-Arancibia, A. et al. (2022)"
-        },
-        {
-            "name": "2022TNSCR1214....1F",
-            "human_readable_name": "Fulton, M. et al. (2022)"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "59688.28005790509",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR1012....1M"
-            ],
-            "default": true
-        },
-        {
-            "value": "59694.95833333332",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2022TNSAN.106....1F",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "148.6885",
-            "dec": "55.440381",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2022TNSTR1012....1M"
-            ],
-            "default": false
-        },
-        {
-            "ra": "148.688522",
-            "dec": "55.440389",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2022TNSAN.106....1F",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2022TNSAN.106....1F",
-                "2022TNSCR1214....1F",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "U.uvot",
@@ -157,15 +79,54 @@
             "wave_units": "nm"
         }
     ],
+    "reference_alias": [
+        {
+            "name": "Fulton, M. et al. (2022)",
+            "human_readable_name": "2022TNSAN.106....1F"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2022TNSTR1012....1M",
+            "human_readable_name": "Munoz-Arancibia, A. et al. (2022)"
+        },
+        {
+            "name": "2022TNSCR1214....1F",
+            "human_readable_name": "Fulton, M. et al. (2022)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "148.6885",
+            "dec": "55.440381",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2022TNSTR1012....1M"
+            ],
+            "default": false
+        },
+        {
+            "ra": "148.688522",
+            "dec": "55.440389",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "reference": [
+                "2022TNSAN.106....1F",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "name": {
         "default_name": "2022hvp",
         "alias": [
-            {
-                "value": "Gaia22clk",
-                "reference": [
-                    "TNS"
-                ]
-            },
             {
                 "value": "2022hvp",
                 "reference": [
@@ -173,13 +134,19 @@
                 ]
             },
             {
-                "value": "ZTF22aagyuao",
+                "value": "Gaia22clk",
                 "reference": [
                     "TNS"
                 ]
             },
             {
                 "value": "ATLAS22mlo",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF22aagyuao",
                 "reference": [
                     "TNS"
                 ]
@@ -193,25 +160,6 @@
             }
         ]
     },
-    "distance": [
-        {
-            "value": "0.112",
-            "distance_type": "redshift",
-            "reference": [
-                "2022TNSAN.106....1F",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "0.12",
-            "distance_type": "redshift",
-            "reference": [
-                "2022TNSCR1214....1F"
-            ],
-            "default": false
-        }
-    ],
     "photometry": [
         {
             "raw": [
@@ -3642,8 +3590,8 @@
             ],
             "obs_type": "uvoir",
             "reference": [
-                "2024MNRAS.527.2452M",
-                "2022TNSAN.106....1F"
+                "2022TNSAN.106....1F",
+                "2024MNRAS.527.2452M"
             ],
             "corr_k": false,
             "corr_s": false,
@@ -3833,6 +3781,58 @@
             "corr_hostav": false,
             "telescope": "ATLAS-HKO",
             "instrument": "ATLAS-02"
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "59688.28005790509",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR1012....1M"
+            ],
+            "default": true
+        },
+        {
+            "value": "59694.95833333332",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2022TNSAN.106....1F",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.112",
+            "distance_type": "redshift",
+            "reference": [
+                "2022TNSAN.106....1F",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "0.12",
+            "distance_type": "redshift",
+            "reference": [
+                "2022TNSCR1214....1F"
+            ],
+            "default": false
+        }
+    ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2022TNSAN.106....1F",
+                "2022TNSCR1214....1F",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ]
 }
