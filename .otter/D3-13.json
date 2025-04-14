@@ -35,26 +35,6 @@
             ]
         }
     ],
-    "name": {
-        "default_name": "D3-13",
-        "alias": [
-            {
-                "value": "D3-13",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "GALEX-D3-13",
-                "reference": [
-                    "2008ApJ...676..944G",
-                    "2024MNRAS.527.2452M",
-                    "2008ApJ...676..944G"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",
@@ -73,13 +53,13 @@
         {
             "filter_key": "F125LP",
             "filter_name": "F125LP",
-            "freq_eff": 2089450463842676.5,
+            "freq_eff": 2105859020713276.5,
             "freq_units": "Hz"
         },
         {
             "filter_key": "F150LP",
             "filter_name": "F150LP",
-            "freq_eff": 1865557170546869.5,
+            "freq_eff": 1872747059283952.8,
             "freq_units": "Hz"
         },
         {
@@ -92,6 +72,12 @@
             "filter_key": "NUV",
             "filter_name": "NUV",
             "freq_eff": 1322268446213041.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
             "freq_units": "Hz"
         },
         {
@@ -177,55 +163,6 @@
             "human_readable_name": "Bower, Geoffrey C. (2011)"
         }
     ],
-    "distance": [
-        {
-            "value": "0.3698",
-            "distance_type": "redshift",
-            "reference": [
-                "2006ApJ...653L..25G",
-                "2008ApJ...676..944G",
-                "2011ApJ...732L..12B",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "133.0",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "reference": [
-                "2017MNRAS.471.1694W",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "1491",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2006ApJ...653L..25G",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "2042",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2006ApJ...653L..25G",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -240,6 +177,26 @@
             "default": true
         }
     ],
+    "name": {
+        "default_name": "D3-13",
+        "alias": [
+            {
+                "value": "D3-13",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "GALEX-D3-13",
+                "reference": [
+                    "2008ApJ...676..944G",
+                    "2024MNRAS.527.2452M",
+                    "2008ApJ...676..944G"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -571,7 +528,8 @@
         },
         {
             "raw": [
-                "1.6443717232149088e-05",
+                "2.7838e-06",
+                "2.93e-05",
                 "2.5061e-07",
                 "2.67746e-07",
                 "4.29223e-06",
@@ -622,7 +580,8 @@
                 "6.09654e-07"
             ],
             "raw_err": [
-                "3.0886622711766465e-05",
+                "5.6452e-06",
+                "3.1497e-05",
                 "4.015372713977565e-08",
                 "4.289940606198595e-08",
                 "3.9532862539671796e-07",
@@ -674,6 +633,7 @@
             ],
             "raw_units": "Jy",
             "date": [
+                "58052.08167",
                 "58052.083657",
                 "57584.457406",
                 "57584.457406",
@@ -726,6 +686,7 @@
             ],
             "date_format": "mjd",
             "filter_key": [
+                "UVW1.uvot",
                 "B.uvot",
                 "F125LP",
                 "F150LP",
@@ -845,11 +806,55 @@
             "corr_hostav": false
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
+    "distance": [
+        {
+            "value": "0.3698",
+            "distance_type": "redshift",
+            "reference": [
+                "2006ApJ...653L..25G",
+                "2008ApJ...676..944G",
+                "2011ApJ...732L..12B",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "133.0",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2017MNRAS.471.1694W",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "1491",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2006ApJ...653L..25G",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "2042",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2006ApJ...653L..25G",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
     "date_reference": [
         {
             "value": "2004-01-15",
@@ -875,6 +880,11 @@
             "default": true
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
     "host": [
         {
             "host_name": "GALEX J141929.8+525206",

@@ -1,4 +1,24 @@
 {
+    "date_reference": [
+        {
+            "value": "2015-03-21",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2020ApJ...903..116A"
+            ],
+            "default": true
+        },
+        {
+            "value": "56580.0",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2020ApJ...903..116A"
+            ],
+            "default": false
+        }
+    ],
     "coordinate": [
         {
             "ra": "00 19 47.335038",
@@ -9,7 +29,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": true,
-            "uuid": "ad569041-ce1c-4dec-aa5f-f754cc1d37e8",
+            "uuid": "ced547f5-b2a9-4caa-9261-b235840e4adb",
             "coordinate_type": "equitorial",
             "reference": [
                 "2020ApJ...903..116A"
@@ -35,22 +55,10 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "ad569041-ce1c-4dec-aa5f-f754cc1d37e8"
+                "ced547f5-b2a9-4caa-9261-b235840e4adb"
             ]
         }
     ],
-    "name": {
-        "default_name": "CNSS J0019+00",
-        "alias": [
-            {
-                "value": "CNSS J0019+00",
-                "reference": [
-                    "CNSS",
-                    "2020ApJ...903..116A"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "2.9GHz",
@@ -347,36 +355,6 @@
             "human_readable_name": "Anderson et al. (2020)"
         }
     ],
-    "date_reference": [
-        {
-            "value": "2015-03-21",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2020ApJ...903..116A"
-            ],
-            "default": true
-        },
-        {
-            "value": "56580.0",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2020ApJ...903..116A"
-            ],
-            "default": false
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.018",
-            "distance_type": "redshift",
-            "reference": [
-                "2020ApJ...903..116A"
-            ],
-            "default": true
-        }
-    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -387,6 +365,18 @@
             "default": true
         }
     ],
+    "name": {
+        "default_name": "CNSS J0019+00",
+        "alias": [
+            {
+                "value": "CNSS J0019+00",
+                "reference": [
+                    "CNSS",
+                    "2020ApJ...903..116A"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": [
@@ -886,6 +876,16 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.018",
+            "distance_type": "redshift",
+            "reference": [
+                "2020ApJ...903..116A"
+            ],
+            "default": true
         }
     ],
     "schema_version": {

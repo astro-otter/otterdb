@@ -21,26 +21,17 @@
             "default": false
         }
     ],
-    "reference_alias": [
+    "classification": [
         {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2016TNSTR.480....1D",
-            "human_readable_name": "Delgado, A. et al. (2016)"
-        },
-        {
-            "name": "2017IAUS..324..127W",
-            "human_readable_name": "Wyrzykowski, \u0141ukasz et al. (2017)"
-        },
-        {
-            "name": "2016TNSTR.481....1D",
-            "human_readable_name": "Delgado, A. et al. (2016)"
-        },
-        {
-            "name": "2018MNRAS.481..307K",
-            "human_readable_name": "Kostrzewa-Rutkowska, Z. et al. (2018)"
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2016TNSTR.480....1D",
+                "2017IAUS..324..127W",
+                "2018MNRAS.481..307K",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
@@ -91,6 +82,28 @@
             "default": false
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2016TNSTR.480....1D",
+            "human_readable_name": "Delgado, A. et al. (2016)"
+        },
+        {
+            "name": "2017IAUS..324..127W",
+            "human_readable_name": "Wyrzykowski, \u0141ukasz et al. (2017)"
+        },
+        {
+            "name": "2016TNSTR.481....1D",
+            "human_readable_name": "Delgado, A. et al. (2016)"
+        },
+        {
+            "name": "2018MNRAS.481..307K",
+            "human_readable_name": "Kostrzewa-Rutkowska, Z. et al. (2018)"
+        }
+    ],
     "name": {
         "default_name": "Gaia 16ajq",
         "alias": [
@@ -108,19 +121,10 @@
             }
         ]
     },
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2016TNSTR.480....1D",
-                "2017IAUS..324..127W",
-                "2018MNRAS.481..307K",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)"
+    },
     "distance": [
         {
             "value": "0.28",
@@ -132,18 +136,6 @@
             "computed": false,
             "default": true,
             "distance_type": "redshift"
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
-    "filter_alias": [
-        {
-            "filter_key": "G",
-            "filter_name": "G",
-            "freq_eff": 512388.6629,
-            "freq_units": "GHz"
         }
     ],
     "photometry": [
@@ -487,6 +479,14 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "G",
+            "filter_name": "G",
+            "freq_eff": 512388.6629,
+            "freq_units": "GHz"
         }
     ]
 }

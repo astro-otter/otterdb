@@ -1,226 +1,23 @@
 {
-    "filter_alias": [
+    "date_reference": [
         {
-            "filter_key": "B.uvot",
-            "filter_name": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
+            "value": "58608.233935185184",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2019TNSTR.737....1N"
+            ],
+            "default": true
         },
         {
-            "filter_key": "U.uvot",
-            "filter_name": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "filter_name": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "filter_name": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "filter_name": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W1.wise",
-            "filter_name": "W1.wise",
-            "freq_eff": 89917740678395.33,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W2.wise",
-            "filter_name": "W2.wise",
-            "freq_eff": 65429370473910.305,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.ztf",
-            "filter_name": "g.ztf",
-            "freq_eff": 634121907623677.4,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.ztf",
-            "filter_name": "r.ztf",
-            "freq_eff": 471994480402802.25,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "3.0GHz",
-            "filter_name": "S",
-            "freq_eff": 3.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "6.0GHz",
-            "filter_name": "C",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.25GHz",
-            "filter_name": "L",
-            "freq_eff": 1.25,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.75GHz",
-            "filter_name": "L",
-            "freq_eff": 1.75,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "2.5GHz",
-            "filter_name": "S",
-            "freq_eff": 2.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "3.5GHz",
-            "filter_name": "S",
-            "freq_eff": 3.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.0GHz",
-            "filter_name": "C",
-            "freq_eff": 5.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "7.0GHz",
-            "filter_name": "C",
-            "freq_eff": 7.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "9.0GHz",
-            "filter_name": "X",
-            "freq_eff": 9.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "11.0GHz",
-            "filter_name": "X",
-            "freq_eff": 11.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "13.5GHz",
-            "filter_name": "Ku",
-            "freq_eff": 13.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "16.5GHz",
-            "filter_name": "Ku",
-            "freq_eff": 16.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "20.0GHz",
-            "filter_name": "K",
-            "freq_eff": 20.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "24.0GHz",
-            "filter_name": "K",
-            "freq_eff": 24.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "0.88GHz",
-            "filter_name": "UHF",
-            "freq_eff": 0.88,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "1.36GHz",
-            "filter_name": "L",
-            "freq_eff": 1.36,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "2.1GHz",
-            "filter_name": "S",
-            "freq_eff": 2.1,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.5GHz",
-            "filter_name": "C",
-            "freq_eff": 5.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "17.0GHz",
-            "filter_name": "Ku",
-            "freq_eff": 17.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "19.0GHz",
-            "filter_name": "K",
-            "freq_eff": 19.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "r",
-            "filter_name": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "g",
-            "filter_name": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "G",
-            "filter_name": "G",
-            "wave_eff": 673.5412573108297,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "orange",
-            "filter_name": "orange",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "cyan",
-            "filter_name": "cyan",
-            "wave_eff": 540.8724658332794,
-            "wave_units": "nm"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "van Velzen, Sjoert et al. (2021)",
-            "human_readable_name": "2021ApJ...908....4V"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2019TNSTR.737....1N",
-            "human_readable_name": "Nordin, J. et al. (2019)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Cendes, Y. et al. (2024)"
+            "value": "58614.52400000003",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2021ApJ...908....4V",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
@@ -261,6 +58,24 @@
             ]
         }
     ],
+    "reference_alias": [
+        {
+            "name": "van Velzen, Sjoert et al. (2021)",
+            "human_readable_name": "2021ApJ...908....4V"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2019TNSTR.737....1N",
+            "human_readable_name": "Nordin, J. et al. (2019)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Cendes, Y. et al. (2024)"
+        }
+    ],
     "name": {
         "default_name": "2019eve",
         "alias": [
@@ -271,13 +86,13 @@
                 ]
             },
             {
-                "value": "ZTF19aatylnl",
+                "value": "ATLAS19kfv",
                 "reference": [
                     "TNS"
                 ]
             },
             {
-                "value": "ATLAS19kfv",
+                "value": "ZTF19aatylnl",
                 "reference": [
                     "TNS"
                 ]
@@ -880,6 +695,7 @@
                 "3.4988032453593623e-06",
                 "3.3008497987497375e-06",
                 "-3.240384445796541e-06",
+                "3.126372933545352e-06",
                 "2.6471572065374737e-05",
                 "1.122091397600844e-06",
                 "-4.989757399042071e-06",
@@ -987,6 +803,18 @@
                 "-1.5740358423173772e-06",
                 "2.4323715676051607e-06",
                 "9.849691660343909e-07",
+                "-8.680236529646794e-06",
+                "-7.1838955381640115e-06",
+                "2.844822401745311e-05",
+                "-2.543466192867771e-06",
+                "1.432433161604595e-05",
+                "-6.695732414767952e-06",
+                "-9.165607040488448e-06",
+                "6.6997532137411795e-06",
+                "1.9021410554556473e-05",
+                "9.382151829606705e-06",
+                "1.4310940841698678e-05",
+                "6.12331091148957e-06",
                 "-3.4553945591631778e-06",
                 "-3.260835178240124e-06",
                 "5.977436939292962e-07",
@@ -1077,16 +905,49 @@
                 "-4.1541326721874957e-07",
                 "5.604299303528788e-06",
                 "3.5209738979601185e-06",
-                "1.1066237839776586e-05",
-                "6.854882264526591e-06",
-                "2.0892961308540237e-06",
-                "1.5135612484362071e-05",
-                "1.1271974561754999e-05",
-                "2.5118864315095717e-05",
-                "1.6749428760264382e-05",
-                "6.792036326171802e-05",
-                "2.9376496519615304e-05",
-                "4.78630092322638e-05",
+                "4.066492118260989e-07",
+                "-9.897374713825712e-07",
+                "-8.589242803968721e-07",
+                "1.7339284325164521e-06",
+                "6.008932090392572e-06",
+                "-3.026643612330623e-06",
+                "3.3311275673719922e-06",
+                "6.3797421950369865e-06",
+                "9.448731842753459e-06",
+                "-3.3775813523901537e-06",
+                "1.988887658196497e-06",
+                "-1.0471408846127313e-05",
+                "1.9535827290121423e-05",
+                "-2.043930232993097e-06",
+                "-2.8205642244867633e-07",
+                "1.7144873926496773e-05",
+                "-6.92327374969443e-06",
+                "1.8516922371509147e-07",
+                "-1.5462042478114184e-06",
+                "3.2300695897060014e-06",
+                "-5.229385915799824e-06",
+                "1.738193174474988e-06",
+                "-1.6968236593547936e-07",
+                "4.630590759560407e-06",
+                "-2.214347300527164e-06",
+                "-3.630689569267541e-07",
+                "-1.3479516648514151e-06",
+                "-1.97345937677986e-06",
+                "-2.286737396003495e-06",
+                "-2.4786273353288657e-05",
+                "7.550287355101211e-06",
+                "5.778104557112078e-06",
+                "-3.0631437030956734e-06",
+                "1.1313e-05",
+                "6.8797e-06",
+                "2.1425e-06",
+                "1.5111e-05",
+                "1.111e-05",
+                "2.5705e-05",
+                "1.6725e-05",
+                "6.7743e-05",
+                "2.9171e-05",
+                "4.758e-05",
                 "2.1509572365369554e-05",
                 "1.2267941042831846e-05",
                 "-3.323142626222211e-06",
@@ -1684,6 +1545,7 @@
                 "5.5847120441901895e-06",
                 "7.01352466873639e-06",
                 "8.310619326907443e-06",
+                "1.082654489089993e-05",
                 "1.02315378886041e-05",
                 "9.368583359024851e-06",
                 "9.842400720586604e-06",
@@ -1791,6 +1653,18 @@
                 "5.205524911028886e-06",
                 "3.6770735630473375e-06",
                 "6.707660118175454e-06",
+                "1.188888959735379e-05",
+                "1.162143722674599e-05",
+                "1.051651750912919e-05",
+                "1.1086410271347093e-05",
+                "9.043292038308539e-06",
+                "8.281148409296382e-06",
+                "8.411248494365712e-06",
+                "8.711333970908295e-06",
+                "1.1113654713280882e-05",
+                "1.1322733692636625e-05",
+                "1.177628319922797e-05",
+                "1.127872607848753e-05",
                 "8.079778368161612e-06",
                 "1.027344322656761e-05",
                 "7.263062578779343e-06",
@@ -1881,16 +1755,49 @@
                 "4.89946033991354e-06",
                 "6.029173771173807e-06",
                 "4.280043222693616e-06",
-                "2.763453466815261e-06",
-                "2.083926279106256e-06",
-                "1.4064231600721608e-06",
-                "2.957990841982987e-06",
-                "2.6924459937782112e-06",
-                "5.454492081861287e-06",
-                "4.364510691368666e-06",
-                "1.4011283512378528e-05",
-                "8.930635235283306e-06",
-                "2.4424302936306457e-05",
+                "5.828706486932437e-06",
+                "6.578843146988121e-06",
+                "1.0142551648020028e-05",
+                "2.4348601085963784e-06",
+                "7.80957762581289e-06",
+                "2.0013046066052954e-06",
+                "1.899818971012297e-05",
+                "1.0422710685957931e-05",
+                "1.050009392271687e-05",
+                "1.0967521553687359e-05",
+                "9.547398102654212e-06",
+                "1.054738878307352e-05",
+                "1.0498704948296096e-05",
+                "8.91447362109096e-06",
+                "1.5907030190686734e-05",
+                "9.447549600642165e-06",
+                "1.0090895990757852e-05",
+                "6.224168446993882e-06",
+                "3.3042407963513563e-06",
+                "6.4901120233392215e-06",
+                "2.8525472419361514e-06",
+                "2.3353506383188113e-06",
+                "6.007890755979325e-06",
+                "3.616064223466142e-06",
+                "5.978693703310046e-06",
+                "1.9547864857742465e-06",
+                "2.6127367079463504e-06",
+                "2.5437245582074153e-06",
+                "6.210258661059082e-06",
+                "1.371614919417055e-05",
+                "8.845043548763312e-06",
+                "4.39552410442117e-06",
+                "3.112490493879695e-06",
+                "2.3957e-06",
+                "1.75e-06",
+                "1.2056e-06",
+                "2.5083e-06",
+                "2.2933e-06",
+                "4.6719e-06",
+                "3.7435e-06",
+                "1.17e-05",
+                "7.6172e-06",
+                "2.0912e-05",
                 "1.339365849122479e-05",
                 "1.5094983997295476e-05",
                 "2.2715122611748332e-05",
@@ -2489,6 +2396,7 @@
                 "59741.19358799979",
                 "59743.187349500135",
                 "59743.25957180001",
+                "59781.17687499989",
                 "59783.176064800005",
                 "59783.17708329996",
                 "59783.178113400005",
@@ -2596,6 +2504,18 @@
                 "60115.22942129988",
                 "60115.239409700036",
                 "60117.20361110009",
+                "60147.17600690015",
+                "60147.177893499844",
+                "60147.17884259997",
+                "60147.17978010001",
+                "60148.1761690001",
+                "60148.1782176001",
+                "60148.179236100055",
+                "60148.1802662001",
+                "60150.17535880022",
+                "60150.176388899796",
+                "60150.17842590017",
+                "60150.179456000216",
                 "60231.53158560023",
                 "60231.53400459979",
                 "60232.5290045999",
@@ -2686,6 +2606,39 @@
                 "60443.22178239981",
                 "60445.218622699846",
                 "60445.267210599966",
+                "60449.22072920017",
+                "60451.21533560008",
+                "60451.29668979999",
+                "60457.20672449982",
+                "60457.320208299905",
+                "60462.2254745001",
+                "60594.53239580011",
+                "60595.53122689994",
+                "60595.53168979986",
+                "60595.53216439998",
+                "60596.53206019988",
+                "60596.5325230998",
+                "60596.53299769992",
+                "60597.5300925998",
+                "60602.52662040014",
+                "60603.52888889983",
+                "60603.53287040023",
+                "60615.48331019981",
+                "60615.52901619999",
+                "60635.49702550005",
+                "60650.52353010001",
+                "60652.49453700008",
+                "60658.52696759999",
+                "60667.503611099906",
+                "60667.544155099895",
+                "60674.47834490007",
+                "60680.44067130005",
+                "60682.402361100074",
+                "60687.46049770014",
+                "60689.42274310021",
+                "60691.39291669987",
+                "60694.461458299775",
+                "60699.40053239977",
                 "58641.623516",
                 "58794.912447",
                 "59582.356413",
@@ -3334,26 +3287,8 @@
                 "r.ztf",
                 "r.ztf",
                 "r.ztf",
-                "g.ztf",
-                "g.ztf",
                 "r.ztf",
                 "g.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "g.ztf",
-                "r.ztf",
-                "r.ztf",
-                "g.ztf",
-                "g.ztf",
-                "g.ztf",
-                "r.ztf",
-                "r.ztf",
-                "g.ztf",
-                "r.ztf",
-                "r.ztf",
-                "g.ztf",
-                "r.ztf",
                 "g.ztf",
                 "r.ztf",
                 "g.ztf",
@@ -3362,89 +3297,14 @@
                 "r.ztf",
                 "g.ztf",
                 "r.ztf",
-                "g.ztf",
-                "g.ztf",
                 "r.ztf",
                 "g.ztf",
-                "g.ztf",
-                "r.ztf",
-                "g.ztf",
-                "r.ztf",
-                "g.ztf",
-                "r.ztf",
-                "r.ztf",
-                "g.ztf",
-                "r.ztf",
-                "g.ztf",
-                "r.ztf",
-                "g.ztf",
-                "r.ztf",
-                "g.ztf",
-                "r.ztf",
-                "g.ztf",
-                "r.ztf",
                 "g.ztf",
                 "g.ztf",
                 "r.ztf",
                 "r.ztf",
                 "g.ztf",
                 "r.ztf",
-                "g.ztf",
-                "g.ztf",
-                "r.ztf",
-                "g.ztf",
-                "r.ztf",
-                "r.ztf",
-                "g.ztf",
-                "g.ztf",
-                "r.ztf",
-                "r.ztf",
-                "g.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "r.ztf",
-                "g.ztf",
-                "g.ztf",
                 "r.ztf",
                 "g.ztf",
                 "r.ztf",
@@ -3457,12 +3317,24 @@
                 "g.ztf",
                 "r.ztf",
                 "g.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
                 "r.ztf",
                 "g.ztf",
                 "r.ztf",
                 "g.ztf",
                 "r.ztf",
                 "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
                 "g.ztf",
                 "r.ztf",
                 "g.ztf",
@@ -3476,6 +3348,95 @@
                 "r.ztf",
                 "g.ztf",
                 "r.ztf",
+                "r.ztf",
+                "g.ztf",
+                "g.ztf",
+                "r.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "g.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "g.ztf",
+                "r.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
                 "g.ztf",
                 "g.ztf",
                 "r.ztf",
@@ -3484,12 +3445,50 @@
                 "g.ztf",
                 "g.ztf",
                 "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "g.ztf",
+                "r.ztf",
                 "r.ztf",
                 "r.ztf",
                 "g.ztf",
                 "r.ztf",
                 "r.ztf",
                 "r.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "r.ztf",
+                "r.ztf",
+                "g.ztf",
                 "g.ztf",
                 "UVW2.uvot",
                 "UVW2.uvot",
@@ -3808,209 +3807,6 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
-        },
-        {
-            "raw": [
-                20.43
-            ],
-            "raw_err": [
-                0.23
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "58608.23393520014",
-            "date_format": "mjd",
-            "filter_key": "r",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "P48",
-            "instrument": "ZTF-Cam"
-        },
-        {
-            "raw": [
-                19.14
-            ],
-            "raw_err": [
-                0.09
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "58612.17233800003",
-            "date_format": "mjd",
-            "filter_key": "g",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "P48",
-            "instrument": "ZTF-Cam"
-        },
-        {
-            "raw": [
-                20.7306
-            ],
-            "raw_err": [
-                0
-            ],
-            "upperlimit": true,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "58605.23387729982",
-            "date_format": "mjd",
-            "filter_key": "g",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "P48",
-            "instrument": "ZTF-Cam"
-        },
-        {
-            "raw": [
-                18.78
-            ],
-            "raw_err": [
-                0.2
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "58614.00399310002",
-            "date_format": "mjd",
-            "filter_key": "G",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "Gaia",
-            "instrument": "Gaia-photometric"
-        },
-        {
-            "raw": [
-                21.5
-            ],
-            "raw_err": [
-                0
-            ],
-            "upperlimit": true,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "58505.49500000011",
-            "date_format": "mjd",
-            "filter_key": "G",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "Gaia",
-            "instrument": "Gaia-photometric"
-        },
-        {
-            "raw": [
-                18.823
-            ],
-            "raw_err": [
-                0.177
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "58613.31999999983",
-            "date_format": "mjd",
-            "filter_key": "orange",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "ATLAS-MLO",
-            "instrument": "ATLAS-01"
-        },
-        {
-            "raw": [
-                19.76
-            ],
-            "raw_err": [
-                0
-            ],
-            "upperlimit": true,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "58611.37099540001",
-            "date_format": "mjd",
-            "filter_key": "cyan",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "ATLAS-HKO",
-            "instrument": "ATLAS-02"
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "58608.233935185184",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2019TNSTR.737....1N"
-            ],
-            "default": true
-        },
-        {
-            "value": "58614.52400000003",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2021ApJ...908....4V",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
         }
     ],
     "distance": [
@@ -4033,6 +3829,182 @@
                 "2024MNRAS.527.2452M"
             ],
             "default": true
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "B.uvot",
+            "filter_name": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "U.uvot",
+            "filter_name": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "filter_name": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "filter_name": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W1.wise",
+            "filter_name": "W1.wise",
+            "freq_eff": 89917740678395.33,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W2.wise",
+            "filter_name": "W2.wise",
+            "freq_eff": 65429370473910.305,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.ztf",
+            "filter_name": "g.ztf",
+            "freq_eff": 634121907623677.4,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ztf",
+            "filter_name": "r.ztf",
+            "freq_eff": 471994480402802.25,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "freq_eff": 3.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "6.0GHz",
+            "filter_name": "C",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.25GHz",
+            "filter_name": "L",
+            "freq_eff": 1.25,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.75GHz",
+            "filter_name": "L",
+            "freq_eff": 1.75,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "2.5GHz",
+            "filter_name": "S",
+            "freq_eff": 2.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "3.5GHz",
+            "filter_name": "S",
+            "freq_eff": 3.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.0GHz",
+            "filter_name": "C",
+            "freq_eff": 5.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "7.0GHz",
+            "filter_name": "C",
+            "freq_eff": 7.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "9.0GHz",
+            "filter_name": "X",
+            "freq_eff": 9.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "11.0GHz",
+            "filter_name": "X",
+            "freq_eff": 11.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "13.5GHz",
+            "filter_name": "Ku",
+            "freq_eff": 13.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "16.5GHz",
+            "filter_name": "Ku",
+            "freq_eff": 16.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "20.0GHz",
+            "filter_name": "K",
+            "freq_eff": 20.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "24.0GHz",
+            "filter_name": "K",
+            "freq_eff": 24.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "0.88GHz",
+            "filter_name": "UHF",
+            "freq_eff": 0.88,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "1.36GHz",
+            "filter_name": "L",
+            "freq_eff": 1.36,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "2.1GHz",
+            "filter_name": "S",
+            "freq_eff": 2.1,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.5GHz",
+            "filter_name": "C",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "17.0GHz",
+            "filter_name": "Ku",
+            "freq_eff": 17.0,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "19.0GHz",
+            "filter_name": "K",
+            "freq_eff": 19.0,
+            "freq_units": "GHz"
         }
     ]
 }

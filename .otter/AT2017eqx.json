@@ -1,144 +1,43 @@
 {
-    "filter_alias": [
+    "date_reference": [
         {
-            "filter_key": "o",
-            "wave_eff": 686.6260690394873,
-            "wave_units": "nm",
-            "filter_name": "o"
+            "value": "2017-06-01",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2019MNRAS.488.1878N"
+            ],
+            "default": true
         },
         {
-            "filter_key": "g",
-            "wave_eff": 475.0,
-            "wave_units": "nm",
-            "filter_name": "g"
+            "value": "2017-06-07 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2019MNRAS.488.1878N",
+                "2023PASP..135c4101G"
+            ],
+            "default": false
         },
         {
-            "filter_key": "i",
-            "wave_eff": 763.0,
-            "wave_units": "nm",
-            "filter_name": "i"
+            "value": "57911.56",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2017TNSTR.646....1C"
+            ],
+            "default": false
         },
         {
-            "filter_key": "r",
-            "wave_eff": 622.0,
-            "wave_units": "nm",
-            "filter_name": "r"
-        },
-        {
-            "filter_key": "z",
-            "wave_eff": 905.0,
-            "wave_units": "nm",
-            "filter_name": "z"
-        },
-        {
-            "filter_key": "M2",
-            "wave_eff": 260.0,
-            "wave_units": "nm",
-            "filter_name": "M2"
-        },
-        {
-            "filter_key": "U",
-            "wave_eff": 365.0,
-            "wave_units": "nm",
-            "filter_name": "U"
-        },
-        {
-            "filter_key": "W1",
-            "wave_eff": 224.6,
-            "wave_units": "nm",
-            "filter_name": "W1"
-        },
-        {
-            "filter_key": "W2",
-            "wave_eff": 192.8,
-            "wave_units": "nm",
-            "filter_name": "W2"
-        },
-        {
-            "filter_key": "B.uvot",
-            "filter_name": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "U.uvot",
-            "filter_name": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "filter_name": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "filter_name": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "filter_name": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.sdss",
-            "filter_name": "g.sdss",
-            "freq_eff": 646569472243250.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.sdss",
-            "filter_name": "r.sdss",
-            "freq_eff": 488925642232043.75,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "6.0GHz",
-            "filter_name": "C",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2019MNRAS.488.1878N",
-            "human_readable_name": "Nicholl et al. 2019"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "Nicholl, M. et al. (2019)",
-            "human_readable_name": "2019MNRAS.488.1878N"
-        },
-        {
-            "name": "2024MNRAS.527.2452M",
-            "human_readable_name": "Mummery et al. (2023)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2017TNSTR.646....1C",
-            "human_readable_name": "Chambers, K. C. et al. (2017)"
-        },
-        {
-            "name": "2023arXiv230813595C",
-            "human_readable_name": "Cendes, Y. et al. (2024)"
-        },
-        {
-            "name": "2020SSRv..216...81A",
-            "human_readable_name": "Alexander, Kate D. et al. (2020)"
+            "value": "57912.22750000004",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2019MNRAS.488.1878N",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
@@ -190,9 +89,53 @@
             ]
         }
     ],
+    "reference_alias": [
+        {
+            "name": "2019MNRAS.488.1878N",
+            "human_readable_name": "Nicholl et al. 2019"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "Nicholl, M. et al. (2019)",
+            "human_readable_name": "2019MNRAS.488.1878N"
+        },
+        {
+            "name": "2024MNRAS.527.2452M",
+            "human_readable_name": "Mummery et al. (2023)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2017TNSTR.646....1C",
+            "human_readable_name": "Chambers, K. C. et al. (2017)"
+        },
+        {
+            "name": "2023arXiv230813595C",
+            "human_readable_name": "Cendes, Y. et al. (2024)"
+        },
+        {
+            "name": "2020SSRv..216...81A",
+            "human_readable_name": "Alexander, Kate D. et al. (2020)"
+        }
+    ],
     "name": {
         "default_name": "2017eqx",
         "alias": [
+            {
+                "value": "2017eqx",
+                "reference": [
+                    "TNS"
+                ]
+            },
             {
                 "value": "PS17dhz",
                 "reference": [
@@ -200,9 +143,9 @@
                 ]
             },
             {
-                "value": "2017eqx",
+                "value": "AT 2017eqx",
                 "reference": [
-                    "TNS"
+                    "2023PASP..135c4101G"
                 ]
             },
             {
@@ -212,12 +155,6 @@
                     "2019MNRAS.488.1878N",
                     "2024MNRAS.527.2452M",
                     "2017TNSTR.646....1C"
-                ]
-            },
-            {
-                "value": "AT 2017eqx",
-                "reference": [
-                    "2023PASP..135c4101G"
                 ]
             }
         ]
@@ -823,61 +760,62 @@
         },
         {
             "raw": [
-                "3.4355794789987566e-05",
-                "3.372873086588651e-05",
-                "2.558585886905632e-05",
-                "1.8197008586099898e-05",
-                "2.0892961308540236e-05",
-                "1.169499391019865e-05",
-                "1.3677288255958465e-05",
-                "1.1587773561551167e-05",
-                "8.790225168308824e-06",
-                "8.550667128846805e-06",
-                "7.943282347242788e-06",
-                "7.655966069112506e-06",
-                "8.016780633876723e-07",
-                "1.737800828749355e-06",
-                "1.258925411794161e-06",
-                "3.2210687912834015e-05",
-                "2.3120647901755794e-05",
-                "1.9769696401118416e-05",
-                "1.9769696401118416e-05",
-                "1.5135612484362071e-05",
-                "1.8535316234148142e-05",
-                "1.1168632477805657e-05",
-                "1.076465213629826e-05",
-                "3.4040818970099806e-06",
-                "6.854882264526591e-06",
-                "9.46237161365791e-06",
-                "6.854882264526591e-06",
-                "5.105049999754043e-06",
-                "2.558585886905632e-05",
-                "2.051162178825554e-05",
-                "2.228435149270298e-05",
-                "1.8365383433483286e-05",
-                "1.887991349096277e-05",
-                "1.0964781961431738e-05",
-                "3.732501577957229e-06",
-                "5.4450265284242196e-06",
-                "2.9922646366081825e-06",
-                "2.9922646366081825e-06",
-                "5.395106225151267e-06",
-                "7.943282347242788e-06",
-                "5.345643593969648e-06",
-                "2.9922646366081825e-06",
-                "3.5318316979195844e-05",
-                "2.8575905433749434e-05",
-                "1.6749428760264382e-05",
-                "2.249054605835764e-05",
-                "1.5559656316050492e-05",
-                "1.570362804333545e-05",
-                "5.29663443891658e-06",
-                "1.8535316234148142e-05",
-                "7.379042301290985e-06",
-                "3.944573020752752e-05",
-                "4.6131757456037714e-05",
-                "4.965923214503337e-06",
-                "4.017908108489358e-05",
+                "3.4553e-05",
+                "3.3441e-05",
+                "2.5605e-05",
+                "1.7869e-05",
+                "2.0965e-05",
+                "1.1596e-05",
+                "1.3668e-05",
+                "1.1597e-05",
+                "8.8212e-06",
+                "8.3094e-06",
+                "8.0639e-06",
+                "7.5875e-06",
+                "8.5609e-07",
+                "1.3582e-06",
+                "3.205e-05",
+                "2.2848e-05",
+                "1.961e-05",
+                "1.943e-05",
+                "1.5197e-05",
+                "1.7873e-05",
+                "1.105e-05",
+                "1.0829e-05",
+                "3.4245e-06",
+                "6.9823e-06",
+                "9.4096e-06",
+                "6.3005e-06",
+                "4.8724e-06",
+                "2.5728e-05",
+                "2.0119e-05",
+                "2.2273e-05",
+                "1.7227e-05",
+                "1.8893e-05",
+                "1.0371e-05",
+                "3.655e-06",
+                "5.4632e-06",
+                "2.856e-06",
+                "2.7604e-06",
+                "5.3218e-06",
+                "7.8901e-06",
+                "5.4743e-06",
+                "3.0197e-06",
+                "3.5281e-05",
+                "2.8499e-05",
+                "1.6806e-05",
+                "2.2931e-05",
+                "1.5033e-05",
+                "1.2859e-05",
+                "4.4271e-06",
+                "1.494e-05",
+                "6.3337e-06",
+                "1.6428e-05",
+                "-3.0088e-06",
+                "3.9531e-05",
+                "4.8787e-05",
+                "4.2199e-06",
+                "4.0898e-05",
                 "1.4619e-05",
                 "2.61167e-05",
                 "9.74807e-06",
@@ -895,61 +833,62 @@
                 "5.92814e-06"
             ],
             "raw_err": [
-                "3.7301330246730215e-06",
-                "3.6620504241635995e-06",
-                "3.0557442634362965e-06",
-                "4.939287760055799e-06",
-                "2.72210934207515e-06",
-                "3.68232670779127e-06",
-                "3.4154832197536738e-06",
-                "2.642065710546183e-06",
-                "2.290527771170163e-06",
-                "2.7851306629872663e-06",
-                "2.587292768705289e-06",
-                "2.161213481345159e-06",
-                "2.132506700051927e-06",
-                "4.490567997907818e-06",
-                "1.2848492447544602e-06",
-                "4.546400306126764e-06",
-                "4.016467920704215e-06",
-                "3.6489947737610287e-06",
-                "6.439402541931227e-06",
-                "2.957990841982987e-06",
-                "5.836094531596166e-06",
-                "3.75911847802524e-06",
-                "2.9218931390014905e-06",
-                "2.0697235773454634e-06",
-                "2.977037541580365e-06",
-                "3.2875646220236782e-06",
-                "2.381630033264292e-06",
-                "4.101625832756749e-06",
-                "5.555898660793267e-06",
-                "4.89944628663924e-06",
-                "4.838985443036698e-06",
-                "9.371782002759044e-06",
-                "4.304707180166342e-06",
-                "7.023867844155123e-06",
-                "5.187215484806414e-06",
-                "3.074168467644895e-06",
-                "3.541202954699395e-06",
-                "4.288429266241469e-06",
-                "3.045984321724601e-06",
-                "1.1125358905432744e-05",
-                "4.236889915025535e-06",
-                "5.912834291332935e-06",
-                "8.81966635015044e-06",
-                "7.756473778291579e-06",
-                "6.910475261333722e-06",
-                "1.4651280072203477e-05",
-                "6.588536056412512e-06",
-                "1.1252998358384878e-05",
-                "9.373718871131801e-06",
-                "2.435060132148745e-05",
-                "8.652628853589635e-06",
-                "2.5268317871566074e-05",
-                "5.359300360728079e-05",
-                "1.466537673737559e-05",
-                "2.7919285124980163e-05",
+                "3.2292e-06",
+                "2.9592e-06",
+                "2.5944e-06",
+                "4.2174e-06",
+                "2.2785e-06",
+                "3.1781e-06",
+                "2.8543e-06",
+                "2.212e-06",
+                "1.968e-06",
+                "2.3382e-06",
+                "2.1989e-06",
+                "1.8513e-06",
+                "1.8714e-06",
+                "1.1317e-06",
+                "3.8249e-06",
+                "3.4213e-06",
+                "3.0162e-06",
+                "5.4046e-06",
+                "2.577e-06",
+                "4.8871e-06",
+                "3.1897e-06",
+                "2.4696e-06",
+                "1.7676e-06",
+                "2.5356e-06",
+                "2.8335e-06",
+                "1.9679e-06",
+                "3.4893e-06",
+                "4.6234e-06",
+                "4.1102e-06",
+                "3.9945e-06",
+                "7.8898e-06",
+                "3.6156e-06",
+                "5.9436e-06",
+                "4.3796e-06",
+                "2.6117e-06",
+                "3.0172e-06",
+                "3.6096e-06",
+                "2.5667e-06",
+                "9.5022e-06",
+                "3.6508e-06",
+                "5.029e-06",
+                "7.3912e-06",
+                "6.6e-06",
+                "5.8752e-06",
+                "1.2553e-05",
+                "5.5645e-06",
+                "9.482e-06",
+                "7.9053e-06",
+                "1.9694e-05",
+                "7.0088e-06",
+                "1.8474e-05",
+                "1.3759e-05",
+                "2.1519e-05",
+                "4.5514e-05",
+                "1.247e-05",
+                "2.3462e-05",
                 "1.7503991421137149e-06",
                 "1.2027205183270736e-06",
                 "1.167180598273427e-06",
@@ -981,7 +920,6 @@
                 "58010.567755",
                 "58012.576359",
                 "60416.719609",
-                "60416.819234",
                 "60418.2996",
                 "57945.80092",
                 "57953.557693",
@@ -1019,6 +957,8 @@
                 "57978.282802",
                 "60416.817551",
                 "60417.574846",
+                "60421.360542",
+                "57945.825546",
                 "60416.718319",
                 "60416.81804",
                 "60418.296726",
@@ -1055,7 +995,6 @@
                 "UVW2.uvot",
                 "UVW2.uvot",
                 "UVW2.uvot",
-                "UVW2.uvot",
                 "UVM2.uvot",
                 "UVM2.uvot",
                 "UVM2.uvot",
@@ -1092,6 +1031,8 @@
                 "U.uvot",
                 "U.uvot",
                 "U.uvot",
+                "U.uvot",
+                "B.uvot",
                 "B.uvot",
                 "B.uvot",
                 "B.uvot",
@@ -1192,93 +1133,8 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
-        },
-        {
-            "raw": [
-                19.69
-            ],
-            "raw_err": [
-                0.2
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "57911.560000000056",
-            "date_format": "mjd",
-            "filter_key": "i",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "PS1",
-            "instrument": "GPC1"
         }
     ],
-    "date_reference": [
-        {
-            "value": "2017-06-01",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2019MNRAS.488.1878N"
-            ],
-            "default": true
-        },
-        {
-            "value": "2017-06-07 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2019MNRAS.488.1878N",
-                "2023PASP..135c4101G"
-            ],
-            "default": false
-        },
-        {
-            "value": "57911.56",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2017TNSTR.646....1C"
-            ],
-            "default": false
-        },
-        {
-            "value": "57912.22750000004",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2019MNRAS.488.1878N",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "host": [
-        {
-            "host_name": "SDSS J222648.38+170852.2",
-            "host_ra": 336.69999999999993,
-            "host_dec": 17.147777777777776,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2019MNRAS.488.1878N"
-            ]
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
     "distance": [
         {
             "value": "0.1089",
@@ -1311,6 +1167,19 @@
             "default": true
         }
     ],
+    "host": [
+        {
+            "host_name": "SDSS J222648.38+170852.2",
+            "host_ra": 336.69999999999993,
+            "host_dec": 17.147777777777776,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2019MNRAS.488.1878N"
+            ]
+        }
+    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -1323,6 +1192,115 @@
                 "2024MNRAS.527.2452M"
             ],
             "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "filter_alias": [
+        {
+            "filter_key": "o",
+            "wave_eff": 686.6260690394873,
+            "wave_units": "nm",
+            "filter_name": "o"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 475.0,
+            "wave_units": "nm",
+            "filter_name": "g"
+        },
+        {
+            "filter_key": "i",
+            "wave_eff": 763.0,
+            "wave_units": "nm",
+            "filter_name": "i"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 622.0,
+            "wave_units": "nm",
+            "filter_name": "r"
+        },
+        {
+            "filter_key": "z",
+            "wave_eff": 905.0,
+            "wave_units": "nm",
+            "filter_name": "z"
+        },
+        {
+            "filter_key": "M2",
+            "wave_eff": 260.0,
+            "wave_units": "nm",
+            "filter_name": "M2"
+        },
+        {
+            "filter_key": "U",
+            "wave_eff": 365.0,
+            "wave_units": "nm",
+            "filter_name": "U"
+        },
+        {
+            "filter_key": "W1",
+            "wave_eff": 224.6,
+            "wave_units": "nm",
+            "filter_name": "W1"
+        },
+        {
+            "filter_key": "W2",
+            "wave_eff": 192.8,
+            "wave_units": "nm",
+            "filter_name": "W2"
+        },
+        {
+            "filter_key": "B.uvot",
+            "filter_name": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "U.uvot",
+            "filter_name": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "filter_name": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "filter_name": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.sdss",
+            "filter_name": "g.sdss",
+            "freq_eff": 646569472243250.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.sdss",
+            "filter_name": "r.sdss",
+            "freq_eff": 488925642232043.75,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "6.0GHz",
+            "filter_name": "C",
+            "freq_eff": 6.0,
+            "freq_units": "GHz"
         }
     ]
 }

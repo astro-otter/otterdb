@@ -35,22 +35,6 @@
             ]
         }
     ],
-    "name": {
-        "default_name": "PS1-11af",
-        "alias": [
-            {
-                "value": "PS1-11af",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2000A&AS..143....9W",
-                    "2014ApJ...780...44C",
-                    "2024MNRAS.527.2452M",
-                    "2023PASP..135c4101G",
-                    "2017ApJ...838..149A"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",
@@ -64,6 +48,18 @@
             "filter_key": "NUV",
             "filter_name": "NUV",
             "freq_eff": 1322268446213041.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "filter_name": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
             "freq_units": "Hz"
         },
         {
@@ -143,44 +139,6 @@
             "human_readable_name": "Alexander, Kate D. et al. (2020)"
         }
     ],
-    "distance": [
-        {
-            "value": "0.4046",
-            "distance_type": "redshift",
-            "reference": [
-                "2013arXiv1309.3009C",
-                "2014ApJ...780...44C",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "1616",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2013arXiv1309.3009C",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "2269",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2013arXiv1309.3009C",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -196,6 +154,22 @@
             "default": true
         }
     ],
+    "name": {
+        "default_name": "PS1-11af",
+        "alias": [
+            {
+                "value": "PS1-11af",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2000A&AS..143....9W",
+                    "2014ApJ...780...44C",
+                    "2024MNRAS.527.2452M",
+                    "2023PASP..135c4101G",
+                    "2017ApJ...838..149A"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -337,7 +311,9 @@
         },
         {
             "raw": [
-                "7.379042301290984e-07",
+                "6.186e-07",
+                "4.6785e-06",
+                "5.1839e-06",
                 "1.22693e-05",
                 "7.60009e-06",
                 "1.18255e-05",
@@ -391,7 +367,9 @@
                 "2.80013e-06"
             ],
             "raw_err": [
-                "1.2097657008259583e-06",
+                "1.0289e-06",
+                "3.7571e-06",
+                "6.5199e-06",
                 "1.4690539280211026e-06",
                 "1.8199849270518725e-06",
                 "1.851584989883662e-06",
@@ -447,6 +425,8 @@
             "raw_units": "Jy",
             "date": [
                 "58059.37532",
+                "60594.598054",
+                "60496.538888",
                 "55592.497328",
                 "55594.295216",
                 "55596.795404",
@@ -502,6 +482,8 @@
             "date_format": "mjd",
             "filter_key": [
                 "UVW2.uvot",
+                "UVM2.uvot",
+                "UVW1.uvot",
                 "NUV",
                 "NUV",
                 "NUV",
@@ -564,7 +546,7 @@
             "corr_av": false,
             "corr_host": false,
             "corr_hostav": false,
-            "val_av": 0.08347746020059617
+            "val_av": 0.08347746020059521
         },
         {
             "reference": "['2014ApJ...780...44C', '2020SSRv..216...81A']",
@@ -607,11 +589,44 @@
             "corr_hostav": false
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
+    "distance": [
+        {
+            "value": "0.4046",
+            "distance_type": "redshift",
+            "reference": [
+                "2013arXiv1309.3009C",
+                "2014ApJ...780...44C",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "1616",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2013arXiv1309.3009C",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "2269",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2013arXiv1309.3009C",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
     "date_reference": [
         {
             "value": "2010-12-30",
@@ -645,6 +660,11 @@
             "default": true
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
     "host": [
         {
             "host_name": "SDSS J095726.82+031400.9",

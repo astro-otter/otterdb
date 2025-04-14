@@ -1,88 +1,29 @@
 {
-    "filter_alias": [
+    "date_reference": [
         {
-            "filter_key": "B.uvot",
-            "filter_name": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
+            "value": "59312.41996530093",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2021TNSTR1158....1M"
+            ],
+            "default": true
         },
         {
-            "filter_key": "U.uvot",
-            "filter_name": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "filter_name": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "filter_name": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "filter_name": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.ztf",
-            "filter_name": "g.ztf",
-            "freq_eff": 634121907623677.4,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.ztf",
-            "filter_name": "r.ztf",
-            "freq_eff": 471994480402802.25,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "887.5MHz",
-            "filter_name": "UHF",
-            "freq_eff": 887.5,
-            "freq_units": "MHz"
-        },
-        {
-            "filter_key": "i",
-            "filter_name": "i",
-            "wave_eff": 749.9704174464691,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "r",
-            "filter_name": "r",
-            "wave_eff": 618.5194476741524,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "g",
-            "filter_name": "g",
-            "wave_eff": 471.8872246248687,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "cyan",
-            "filter_name": "cyan",
-            "wave_eff": 540.8724658332794,
-            "wave_units": "nm"
-        },
-        {
-            "filter_key": "w",
-            "filter_name": "w",
-            "wave_eff": 638.9300625093831,
-            "wave_units": "nm"
+            "value": "59321.95833333336",
+            "date_format": "mjd",
+            "date_type": "peak",
+            "reference": [
+                "2023ApJ...955L...6Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
         }
     ],
     "reference_alias": [
         {
-            "name": "Liu, Xiao-Long et al. (2022)",
-            "human_readable_name": "2022ApJ...925...67L"
+            "name": "Yao, Yuhan et al. (2023)",
+            "human_readable_name": "2023ApJ...955L...6Y"
         },
         {
             "name": "2024MNRAS.527.2452M",
@@ -101,6 +42,55 @@
             "human_readable_name": "Yao, Y. et al. (2021)"
         }
     ],
+    "distance": [
+        {
+            "value": "0.153",
+            "distance_type": "redshift",
+            "reference": [
+                "2021TNSCR1632....1Y",
+                "2023ApJ...955L...6Y",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "2021jjm",
+        "alias": [
+            {
+                "value": "ZTF21aauuybx",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2021jjm",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "PS21fhy",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS21mwd",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2021jjm",
+                "reference": [
+                    "2023ApJ...955L...6Y",
+                    "2024MNRAS.527.2452M",
+                    "2021TNSTR1158....1M"
+                ]
+            }
+        ]
+    },
     "coordinate": [
         {
             "ra": "219.877692561",
@@ -134,48 +124,24 @@
             "coordinate_type": "equitorial",
             "default": true,
             "reference": [
-                "2022ApJ...925...67L",
+                "2023ApJ...955L...6Y",
                 "2024MNRAS.527.2452M"
             ]
         }
     ],
-    "name": {
-        "default_name": "2021jjm",
-        "alias": [
-            {
-                "value": "ZTF21aauuybx",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS21fhy",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2021jjm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS21mwd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2021jjm",
-                "reference": [
-                    "2022ApJ...925...67L",
-                    "2024MNRAS.527.2452M",
-                    "2021TNSTR1158....1M"
-                ]
-            }
-        ]
-    },
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2021TNSCR1632....1Y",
+                "2023ApJ...955L...6Y",
+                "2024ApJ...974..241A",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -467,26 +433,52 @@
                 "5.540333711171558e-06",
                 "8.909609265627894e-06",
                 "-7.430772819936796e-06",
-                "2.0137242498623647e-05",
-                "1.7864875748520316e-05",
-                "1.541700452949555e-05",
-                "1.009252886076671e-05",
-                "2.1677041048196874e-05",
-                "2.805433637951716e-05",
-                "1.7378008287493547e-05",
-                "8.790225168308824e-06",
-                "3.801893963205597e-05",
-                "1.5848931924611107e-05",
-                "2.07014134879102e-05",
-                "1.2823305826560125e-05",
-                "5.248074602497712e-05",
-                "3.944573020752752e-05",
-                "3.732501577957229e-05",
-                "1.7060823890031207e-05",
-                "7.516228940182015e-05",
-                "7.655966069112506e-05",
-                "5.861381645140296e-05",
-                "3.13328572431555e-05"
+                "-1.7209430262509456e-05",
+                "-1.0483551011787636e-05",
+                "1.9160213087425537e-06",
+                "2.2333510659898727e-06",
+                "-3.460226709564014e-06",
+                "-1.514360817350924e-06",
+                "-5.210292227315503e-06",
+                "-9.906316983412597e-07",
+                "4.952104193624621e-06",
+                "1.7665509818933555e-07",
+                "-1.4548438319430815e-05",
+                "4.122185676292893e-06",
+                "-1.0341032002740022e-05",
+                "2.4487539094157256e-06",
+                "6.194103506117044e-06",
+                "-7.2070271562011555e-06",
+                "7.532553013467142e-06",
+                "-1.1713385972120253e-05",
+                "2.0468e-05",
+                "1.842e-05",
+                "1.5766e-05",
+                "1.033e-05",
+                "1.749e-06",
+                "2.6463e-06",
+                "2.1885e-05",
+                "2.7912e-05",
+                "1.751e-05",
+                "8.7065e-06",
+                "3.5389e-06",
+                "2.0625e-06",
+                "3.8152e-05",
+                "1.5932e-05",
+                "2.0799e-05",
+                "1.278e-05",
+                "3.2295e-06",
+                "5.1595e-05",
+                "3.3557e-05",
+                "3.5022e-05",
+                "1.553e-05",
+                "1.2324e-05",
+                "2.4576e-06",
+                "7.3947e-05",
+                "7.5675e-05",
+                "5.5508e-05",
+                "3.1126e-05",
+                "4.6937e-05"
             ],
             "raw_err": [
                 "2.6355216160766917e-06",
@@ -777,26 +769,52 @@
                 "2.8850935247450675e-06",
                 "5.6446748547838265e-06",
                 "5.431673208577861e-06",
-                "3.060922654264965e-06",
-                "6.5948244138491585e-06",
-                "3.347759997318678e-06",
-                "2.7394559954251834e-06",
-                "4.2363986900499825e-06",
-                "9.442478699388513e-06",
-                "4.716983191079641e-06",
-                "4.008423599547785e-06",
-                "5.778995491505163e-06",
-                "1.0496733110351303e-05",
-                "5.619068528373092e-06",
-                "5.4298636862270574e-06",
-                "9.68664182204577e-06",
-                "1.9700722408339655e-05",
-                "1.0131280243762527e-05",
-                "1.0002719257421026e-05",
-                "1.713734795557352e-05",
-                "3.989932580944909e-05",
-                "1.9728134212304117e-05",
-                "1.8370377454002436e-05"
+                "7.7273533840289e-06",
+                "9.79236162193119e-06",
+                "3.0745547668433223e-06",
+                "5.424795093046328e-06",
+                "3.3076500930794612e-06",
+                "3.940254975273547e-06",
+                "4.298532931361986e-06",
+                "3.397915365134867e-06",
+                "3.839283275384912e-06",
+                "3.1892500515965186e-06",
+                "6.2587734057820995e-06",
+                "5.217158575254595e-06",
+                "5.707436906150166e-06",
+                "2.9779676720173914e-06",
+                "3.829425327681995e-06",
+                "3.5408446075376806e-06",
+                "5.291604688299187e-06",
+                "8.037729310829269e-06",
+                "2.6714e-06",
+                "5.6393e-06",
+                "2.8347e-06",
+                "2.3912e-06",
+                "2.3066e-06",
+                "3.4738e-06",
+                "3.5554e-06",
+                "8.1496e-06",
+                "3.9805e-06",
+                "3.3813e-06",
+                "3.2924e-06",
+                "4.4013e-06",
+                "5.0346e-06",
+                "8.9712e-06",
+                "4.7758e-06",
+                "4.6159e-06",
+                "7.152e-06",
+                "7.9066e-06",
+                "1.6085e-05",
+                "8.4478e-06",
+                "8.3157e-06",
+                "7.8521e-06",
+                "1.3844e-05",
+                "1.4753e-05",
+                "3.381e-05",
+                "1.673e-05",
+                "1.5584e-05",
+                "1.7496e-05"
             ],
             "raw_units": "Jy",
             "date": [
@@ -1088,26 +1106,52 @@
                 "60444.32697919989",
                 "60446.30923609994",
                 "60446.33537039999",
+                "60448.25175930001",
+                "60455.23038189998",
+                "60457.230474499986",
+                "60457.31350689987",
+                "60459.27312499983",
+                "60459.33557870006",
+                "60461.27290510014",
+                "60463.251574099995",
+                "60469.2729282002",
+                "60472.22952549998",
+                "60474.16856480017",
+                "60476.231631900184",
+                "60476.272754599806",
+                "60486.18938660016",
+                "60489.18834490003",
+                "60491.188576399814",
+                "60491.25444439985",
+                "60716.501296299975",
                 "59355.742587",
                 "59362.290091",
                 "59372.681523",
                 "59394.138017",
+                "60485.22245",
+                "60573.39522",
                 "59355.745456",
                 "59362.29232",
                 "59372.685449",
                 "59394.142463",
+                "60485.225798",
+                "60573.398008",
                 "59355.739535",
                 "59362.287616",
                 "59372.677652",
                 "59394.132814",
+                "60573.391672",
                 "59355.740508",
                 "59362.288357",
                 "59372.679084",
                 "59394.134349",
+                "60485.220161",
+                "60573.392563",
                 "59355.741148",
                 "59362.288874",
                 "59372.679944",
-                "59394.135403"
+                "59394.135403",
+                "60485.220945"
             ],
             "date_format": "mjd",
             "filter_key": [
@@ -1399,6 +1443,26 @@
                 "g.ztf",
                 "r.ztf",
                 "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "r.ztf",
+                "g.ztf",
+                "g.ztf",
+                "g.ztf",
+                "r.ztf",
+                "r.ztf",
+                "UVW2.uvot",
+                "UVW2.uvot",
                 "UVW2.uvot",
                 "UVW2.uvot",
                 "UVW2.uvot",
@@ -1407,6 +1471,9 @@
                 "UVM2.uvot",
                 "UVM2.uvot",
                 "UVM2.uvot",
+                "UVM2.uvot",
+                "UVM2.uvot",
+                "UVW1.uvot",
                 "UVW1.uvot",
                 "UVW1.uvot",
                 "UVW1.uvot",
@@ -1415,6 +1482,9 @@
                 "U.uvot",
                 "U.uvot",
                 "U.uvot",
+                "U.uvot",
+                "U.uvot",
+                "B.uvot",
                 "B.uvot",
                 "B.uvot",
                 "B.uvot",
@@ -1422,7 +1492,7 @@
             ],
             "obs_type": "uvoir",
             "reference": [
-                "2022ApJ...925...67L",
+                "2023ApJ...955L...6Y",
                 "2024MNRAS.527.2452M"
             ],
             "corr_k": false,
@@ -1466,260 +1536,56 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
-        },
-        {
-            "raw": [
-                19.17
-            ],
-            "raw_err": [
-                0.24
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "59326.40199999977",
-            "date_format": "mjd",
-            "filter_key": "i",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "PS2",
-            "instrument": "GPC2"
-        },
-        {
-            "raw": [
-                20.3787
-            ],
-            "raw_err": [
-                0.353392
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "59314.44318290008",
-            "date_format": "mjd",
-            "filter_key": "r",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "P48",
-            "instrument": "ZTF-Cam"
-        },
-        {
-            "raw": [
-                19.7268
-            ],
-            "raw_err": [
-                0
-            ],
-            "upperlimit": true,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "59312.37753470009",
-            "date_format": "mjd",
-            "filter_key": "r",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "P48",
-            "instrument": "ZTF-Cam"
-        },
-        {
-            "raw": [
-                19.776
-            ],
-            "raw_err": [
-                0.176547
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "59316.35532409977",
-            "date_format": "mjd",
-            "filter_key": "g",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "P48",
-            "instrument": "ZTF-Cam"
-        },
-        {
-            "raw": [
-                20.1062
-            ],
-            "raw_err": [
-                0.279267
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "59312.41996529978",
-            "date_format": "mjd",
-            "filter_key": "g",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "P48",
-            "instrument": "ZTF-Cam"
-        },
-        {
-            "raw": [
-                19.581
-            ],
-            "raw_err": [
-                0.172
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "59319.439999999944",
-            "date_format": "mjd",
-            "filter_key": "cyan",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "ATLAS-MLO",
-            "instrument": "ATLAS-01"
-        },
-        {
-            "raw": [
-                19.77
-            ],
-            "raw_err": [
-                0
-            ],
-            "upperlimit": true,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "59315.461999999825",
-            "date_format": "mjd",
-            "filter_key": "cyan",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "ATLAS-MLO",
-            "instrument": "ATLAS-01"
-        },
-        {
-            "raw": [
-                19.79
-            ],
-            "raw_err": [
-                0.1
-            ],
-            "upperlimit": false,
-            "raw_units": [
-                "mag(AB)"
-            ],
-            "date": "59374.27600000007",
-            "date_format": "mjd",
-            "filter_key": "w",
-            "reference": [
-                "TNS"
-            ],
-            "obs_type": "uvoir",
-            "corr_k": false,
-            "corr_s": false,
-            "corr_av": false,
-            "corr_host": true,
-            "corr_hostav": false,
-            "telescope": "PS1",
-            "instrument": "GPC1"
         }
     ],
-    "date_reference": [
+    "filter_alias": [
         {
-            "value": "59312.41996530093",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2021TNSTR1158....1M"
-            ],
-            "default": true
+            "filter_key": "B.uvot",
+            "filter_name": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
         },
         {
-            "value": "59321.95833333336",
-            "date_format": "mjd",
-            "date_type": "peak",
-            "reference": [
-                "2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "distance": [
+            "filter_key": "U.uvot",
+            "filter_name": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
         {
-            "value": "0.153",
-            "distance_type": "redshift",
-            "reference": [
-                "2021TNSCR1632....1Y",
-                "2022ApJ...925...67L",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
+            "filter_key": "UVM2.uvot",
+            "filter_name": "UVM2.uvot",
+            "freq_eff": 1346484181597652.0,
+            "freq_units": "Hz"
+        },
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2021TNSCR1632....1Y",
-                "2022ApJ...925...67L",
-                "2024ApJ...974..241A",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
+            "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
+            "freq_eff": 1198891057872408.0,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "filter_name": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.ztf",
+            "filter_name": "g.ztf",
+            "freq_eff": 634121907623677.4,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ztf",
+            "filter_name": "r.ztf",
+            "freq_eff": 471994480402802.25,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "887.5MHz",
+            "filter_name": "UHF",
+            "freq_eff": 887.5,
+            "freq_units": "MHz"
         }
     ]
 }

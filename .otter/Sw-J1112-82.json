@@ -1,4 +1,46 @@
 {
+    "date_reference": [
+        {
+            "value": "2011-12-27",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": false
+        },
+        {
+            "value": "2011-12-27 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2011ATel.3463....1K",
+                "2015MNRAS.452.4297B",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "55729.5",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2017MNRAS.472.4469B"
+            ],
+            "default": false
+        },
+        {
+            "value": "55731",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2015MNRAS.452.4297B"
+            ],
+            "default": false
+        }
+    ],
     "coordinate": [
         {
             "ra": "11 11 47.6",
@@ -9,7 +51,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": true,
-            "uuid": "671fd953-e277-44ab-9d2a-e080d51a7e8d",
+            "uuid": "0b610a01-7279-4213-818a-ca253b630241",
             "coordinate_type": "equitorial",
             "reference": [
                 "2017MNRAS.472.4469B"
@@ -46,37 +88,10 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "671fd953-e277-44ab-9d2a-e080d51a7e8d"
+                "0b610a01-7279-4213-818a-ca253b630241"
             ]
         }
     ],
-    "name": {
-        "default_name": "Sw J1112-82",
-        "alias": [
-            {
-                "value": "Swift J1112.2-8238",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2017ApJ...835...64G"
-                ]
-            },
-            {
-                "value": "Swift J1112-82",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2017ApJ...835...64G",
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "Sw J1112-82",
-                "reference": [
-                    "Swift",
-                    "2015MNRAS.452.4297B"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "5.5GHz",
@@ -137,95 +152,6 @@
             "human_readable_name": "Brown, G. C. et al. (2015)"
         }
     ],
-    "date_reference": [
-        {
-            "value": "2011-12-27",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": false
-        },
-        {
-            "value": "2011-12-27 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2011ATel.3463....1K",
-                "2015MNRAS.452.4297B",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "55729.5",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2017MNRAS.472.4469B"
-            ],
-            "default": false
-        },
-        {
-            "value": "55731",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2015MNRAS.452.4297B"
-            ],
-            "default": false
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.89",
-            "distance_type": "redshift",
-            "reference": [
-                "2011ATel.3463....1K",
-                "2015MNRAS.452.4297B",
-                "2015arXiv150703582B",
-                "2017ApJ...838..149A",
-                "2017MNRAS.472.4469B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "0.8901",
-            "distance_type": "redshift",
-            "reference": [
-                "2015MNRAS.452.4297B"
-            ],
-            "default": false
-        },
-        {
-            "value": "3100",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2015arXiv150703582B",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "5900",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2015arXiv150703582B",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -241,6 +167,33 @@
             "default": true
         }
     ],
+    "name": {
+        "default_name": "Sw J1112-82",
+        "alias": [
+            {
+                "value": "Swift J1112-82",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2017ApJ...835...64G",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "Swift J1112.2-8238",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2017ApJ...835...64G"
+                ]
+            },
+            {
+                "value": "Sw J1112-82",
+                "reference": [
+                    "Swift",
+                    "2015MNRAS.452.4297B"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "reference": [
@@ -552,11 +505,53 @@
             "corr_hostav": false
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Original Dataset;Copied from tde.space;"
-    },
+    "distance": [
+        {
+            "value": "0.89",
+            "distance_type": "redshift",
+            "reference": [
+                "2011ATel.3463....1K",
+                "2015MNRAS.452.4297B",
+                "2015arXiv150703582B",
+                "2017ApJ...838..149A",
+                "2017MNRAS.472.4469B",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "0.8901",
+            "distance_type": "redshift",
+            "reference": [
+                "2015MNRAS.452.4297B"
+            ],
+            "default": false
+        },
+        {
+            "value": "3100",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2015arXiv150703582B",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "5900",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2015arXiv150703582B",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
     "host": [
         {
             "host_name": "Swift J1112.2-8238",
@@ -571,5 +566,10 @@
                 "2017ApJ...838..149A"
             ]
         }
-    ]
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Original Dataset;Copied from tde.space;"
+    }
 }

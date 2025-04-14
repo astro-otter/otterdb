@@ -1,4 +1,28 @@
 {
+    "date_reference": [
+        {
+            "value": "2014-04-01",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2016arXiv161001788S",
+                "2017ApJ...835...64G",
+                "2017ApJ...837..153A"
+            ],
+            "default": true
+        },
+        {
+            "value": "2014-04-01 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017A&A...598A..29S",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": false
+        }
+    ],
     "coordinate": [
         {
             "ra": "07:40:08.19",
@@ -23,32 +47,6 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "XMMSL1 J0740-85",
-        "alias": [
-            {
-                "value": "XMM SL1 J0749-85",
-                "reference": [
-                    "2017ApJ...837..153A"
-                ]
-            },
-            {
-                "value": "XMMSL1 J074008.2-853927",
-                "reference": [
-                    "2016arXiv161001788S"
-                ]
-            },
-            {
-                "value": "XMMSL1 J0740-85",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2016arXiv161001788S",
-                    "2016arXiv161003861A",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",
@@ -175,66 +173,6 @@
             "human_readable_name": "Alexander, K. D. et al. (2017)"
         }
     ],
-    "date_reference": [
-        {
-            "value": "2014-04-01",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2016arXiv161001788S",
-                "2017ApJ...835...64G",
-                "2017ApJ...837..153A"
-            ],
-            "default": true
-        },
-        {
-            "value": "2014-04-01 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017A&A...598A..29S",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": false
-        }
-    ],
-    "distance": [
-        {
-            "value": "0.0173",
-            "distance_type": "redshift",
-            "reference": [
-                "2016arXiv161001788S",
-                "2017A&A...598A..29S",
-                "2017ApJ...837..153A",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "76.3",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2016arXiv161001788S",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
-        },
-        {
-            "value": "77.6",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2016arXiv161001788S",
-                "2017ApJ...835...64G"
-            ],
-            "default": true
-        }
-    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -249,6 +187,32 @@
             "default": true
         }
     ],
+    "name": {
+        "default_name": "XMMSL1 J0740-85",
+        "alias": [
+            {
+                "value": "XMM SL1 J0749-85",
+                "reference": [
+                    "2017ApJ...837..153A"
+                ]
+            },
+            {
+                "value": "XMMSL1 J0740-85",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2016arXiv161001788S",
+                    "2016arXiv161003861A",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "XMMSL1 J074008.2-853927",
+                "reference": [
+                    "2016arXiv161001788S"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -850,11 +814,42 @@
             "corr_hostav": false
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
+    "distance": [
+        {
+            "value": "0.0173",
+            "distance_type": "redshift",
+            "reference": [
+                "2016arXiv161001788S",
+                "2017A&A...598A..29S",
+                "2017ApJ...837..153A",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "76.3",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2016arXiv161001788S",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        },
+        {
+            "value": "77.6",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2016arXiv161001788S",
+                "2017ApJ...835...64G"
+            ],
+            "default": true
+        }
+    ],
     "host": [
         {
             "host_name": "2MASX 07400785-8539307",
@@ -868,5 +863,10 @@
                 "2017ApJ...838..149A"
             ]
         }
-    ]
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    }
 }

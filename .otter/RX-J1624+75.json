@@ -23,25 +23,6 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "RX J1624+75",
-        "alias": [
-            {
-                "value": "RXJ1624+7554",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
-            },
-            {
-                "value": "RX J1624+75",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "MAST",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "filter_alias": [
         {
             "filter_key": "0.3 - 2.0",
@@ -100,50 +81,6 @@
             "human_readable_name": "Bower, Geoffrey C. et al. (2013)"
         }
     ],
-    "distance": [
-        {
-            "value": "0.06",
-            "distance_type": "redshift",
-            "reference": [
-                "2013ApJ...763...84B"
-            ],
-            "default": false
-        },
-        {
-            "value": "0.0636",
-            "distance_type": "redshift",
-            "reference": [
-                "1999A&A...350L..31G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "277",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "1999A&A...350L..31G",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "295",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "1999A&A...350L..31G",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
     "classification": [
         {
             "object_class": "TDE",
@@ -158,6 +95,25 @@
             "default": true
         }
     ],
+    "name": {
+        "default_name": "RX J1624+75",
+        "alias": [
+            {
+                "value": "RXJ1624+7554",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            },
+            {
+                "value": "RX J1624+75",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "MAST",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "photometry": [
         {
             "raw": [
@@ -460,11 +416,50 @@
             "corr_hostav": false
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
+    "distance": [
+        {
+            "value": "0.06",
+            "distance_type": "redshift",
+            "reference": [
+                "2013ApJ...763...84B"
+            ],
+            "default": false
+        },
+        {
+            "value": "0.0636",
+            "distance_type": "redshift",
+            "reference": [
+                "1999A&A...350L..31G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "277",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "1999A&A...350L..31G",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "295",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "1999A&A...350L..31G",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
     "date_reference": [
         {
             "value": "1990-08-25",
@@ -488,6 +483,11 @@
             "default": true
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
     "host": [
         {
             "host_name": "RX J1624.9+7554",
