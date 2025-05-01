@@ -25,6 +25,35 @@
             "default": false
         }
     ],
+    "name": {
+        "default_name": "2022adm",
+        "alias": [
+            {
+                "value": "ZTF22aaaekqh",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022adm",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia22anq",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022adm",
+                "reference": [
+                    "2022TNSTR.156....1M"
+                ]
+            }
+        ]
+    },
     "classification": [
         {
             "object_class": "TDE",
@@ -50,35 +79,6 @@
             "human_readable_name": "Tucker, M. A. (2022)"
         }
     ],
-    "name": {
-        "default_name": "2022adm",
-        "alias": [
-            {
-                "value": "Gaia22anq",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022adm",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF22aaaekqh",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022adm",
-                "reference": [
-                    "2022TNSTR.156....1M"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2024ApJ...974..241A",
@@ -124,6 +124,16 @@
             "freq_units": "MHz"
         }
     ],
+    "distance": [
+        {
+            "value": 0.061,
+            "computed": false,
+            "distance_type": "redshift",
+            "reference": [
+                "2022TNSCR.402....1T"
+            ]
+        }
+    ],
     "date_reference": [
         {
             "value": 59600.494108796294,
@@ -133,16 +143,6 @@
                 "2022TNSTR.156....1M"
             ],
             "computed": false
-        }
-    ],
-    "distance": [
-        {
-            "value": 0.061,
-            "computed": false,
-            "distance_type": "redshift",
-            "reference": [
-                "2022TNSCR.402....1T"
-            ]
         }
     ]
 }

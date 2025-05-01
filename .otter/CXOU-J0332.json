@@ -1,9 +1,4 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
     "name": {
         "default_name": "CXOU J0332",
         "alias": [
@@ -32,6 +27,28 @@
                 "2017arXiv170204422B"
             ],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017arXiv170204422B",
+            "human_readable_name": "Bauer et al. (2017)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.467.4841B",
+            "human_readable_name": "Bauer, Franz E. et al. (2017)"
         }
     ],
     "date_reference": [
@@ -67,26 +84,22 @@
             "default": true
         }
     ],
-    "reference_alias": [
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "host": [
         {
-            "name": "2017arXiv170204422B",
-            "human_readable_name": "Bauer et al. (2017)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2017MNRAS.467.4841B",
-            "human_readable_name": "Bauer, Franz E. et al. (2017)"
+            "host_name": "CANDELS J033238.77-275133.7",
+            "host_ra": 53.16249999999999,
+            "host_dec": -27.859444444444446,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017MNRAS.467.4841B"
+            ]
         }
     ],
     "distance": [
@@ -99,19 +112,6 @@
             "computed": false,
             "default": true,
             "distance_type": "redshift"
-        }
-    ],
-    "host": [
-        {
-            "host_name": "CANDELS J033238.77-275133.7",
-            "host_ra": 53.16249999999999,
-            "host_dec": -27.859444444444446,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2017MNRAS.467.4841B"
-            ]
         }
     ]
 }

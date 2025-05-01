@@ -25,6 +25,35 @@
             "default": false
         }
     ],
+    "name": {
+        "default_name": "2019gte",
+        "alias": [
+            {
+                "value": "ZTF19aavxfib",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS19omw",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2019gte",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2019gte",
+                "reference": [
+                    "2019TNSTR.922....1N"
+                ]
+            }
+        ]
+    },
     "classification": [
         {
             "object_class": "TDE",
@@ -50,35 +79,6 @@
             "human_readable_name": "Swann, E. et al. (2019)"
         }
     ],
-    "name": {
-        "default_name": "2019gte",
-        "alias": [
-            {
-                "value": "2019gte",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS19omw",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF19aavxfib",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2019gte",
-                "reference": [
-                    "2019TNSTR.922....1N"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2024ApJ...974..241A",
@@ -219,6 +219,16 @@
             "freq_units": "MHz"
         }
     ],
+    "distance": [
+        {
+            "value": 0.086,
+            "computed": false,
+            "distance_type": "redshift",
+            "reference": [
+                "2019TNSCR.975....1S"
+            ]
+        }
+    ],
     "date_reference": [
         {
             "value": 58634.25278935185,
@@ -228,16 +238,6 @@
                 "2019TNSTR.922....1N"
             ],
             "computed": false
-        }
-    ],
-    "distance": [
-        {
-            "value": 0.086,
-            "computed": false,
-            "distance_type": "redshift",
-            "reference": [
-                "2019TNSCR.975....1S"
-            ]
         }
     ]
 }

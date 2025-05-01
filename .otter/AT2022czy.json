@@ -25,6 +25,41 @@
             "default": false
         }
     ],
+    "name": {
+        "default_name": "2022czy",
+        "alias": [
+            {
+                "value": "PS22bvf",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia22cay",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2022czy",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS22gtw",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2022czy",
+                "reference": [
+                    "2022TNSTR.489....1T"
+                ]
+            }
+        ]
+    },
     "classification": [
         {
             "object_class": "TDE",
@@ -60,41 +95,6 @@
             "human_readable_name": "Blanchard, P. K. et al. (2022)"
         }
     ],
-    "name": {
-        "default_name": "2022czy",
-        "alias": [
-            {
-                "value": "ATLAS22gtw",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia22cay",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS22bvf",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022czy",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2022czy",
-                "reference": [
-                    "2022TNSTR.489....1T"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2024ApJ...974..241A",
@@ -140,17 +140,6 @@
             "freq_units": "MHz"
         }
     ],
-    "date_reference": [
-        {
-            "value": 59632.49872,
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR.489....1T"
-            ],
-            "computed": false
-        }
-    ],
     "distance": [
         {
             "value": 0.109,
@@ -161,6 +150,17 @@
                 "2022TNSCR.601....1H",
                 "2022TNSCR1188....1B"
             ]
+        }
+    ],
+    "date_reference": [
+        {
+            "value": 59632.49872,
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2022TNSTR.489....1T"
+            ],
+            "computed": false
         }
     ]
 }

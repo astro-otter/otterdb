@@ -1,24 +1,23 @@
 {
-    "date_reference": [
+    "classification": [
         {
-            "value": "58269.31",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2018TNSTR.987....1F"
-            ],
-            "default": true
-        },
-        {
-            "value": "58275.0",
-            "date_format": "mjd",
-            "date_type": "explosion",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
                 "2018ATel11953....1A",
                 "2019ApJ...883...31F",
                 "2024ApJ...961..211M"
             ],
             "default": true
+        },
+        {
+            "object_class": "AGN",
+            "confidence": 0.5,
+            "reference": [
+                "2018TNSCR1182....1H",
+                "2020TNSCR1834....1F"
+            ],
+            "default": false
         }
     ],
     "reference_alias": [
@@ -51,30 +50,26 @@
             "human_readable_name": "Frederick, S. (2020)"
         }
     ],
-    "distance": [
+    "coordinate": [
         {
-            "value": "0.0367",
-            "distance_type": "redshift",
+            "ra": "233.2833955",
+            "dec": "44.5356122",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
             "reference": [
-                "2018TNSCR1182....1H",
-                "2020TNSCR1834....1F"
+                "2018TNSTR.987....1F"
             ],
             "default": false
         },
         {
-            "value": "0.03672",
-            "distance_type": "redshift",
-            "reference": [
-                "2018ATel11953....1A",
-                "2019ApJ...883...31F",
-                "2024ApJ...961..211M"
-            ],
-            "default": true
-        },
-        {
-            "value": "162.9",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
+            "ra": "233.283417",
+            "dec": "44.535533",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equitorial",
             "reference": [
                 "2018ATel11953....1A",
                 "2019ApJ...883...31F",
@@ -114,26 +109,20 @@
             }
         ]
     },
-    "coordinate": [
+    "date_reference": [
         {
-            "ra": "233.2833955",
-            "dec": "44.5356122",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
+            "value": "58269.31",
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
                 "2018TNSTR.987....1F"
             ],
-            "default": false
+            "default": true
         },
         {
-            "ra": "233.283417",
-            "dec": "44.535533",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
+            "value": "58275.0",
+            "date_format": "mjd",
+            "date_type": "explosion",
             "reference": [
                 "2018ATel11953....1A",
                 "2019ApJ...883...31F",
@@ -142,10 +131,19 @@
             "default": true
         }
     ],
-    "classification": [
+    "distance": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "value": "0.0367",
+            "distance_type": "redshift",
+            "reference": [
+                "2018TNSCR1182....1H",
+                "2020TNSCR1834....1F"
+            ],
+            "default": false
+        },
+        {
+            "value": "0.03672",
+            "distance_type": "redshift",
             "reference": [
                 "2018ATel11953....1A",
                 "2019ApJ...883...31F",
@@ -154,13 +152,15 @@
             "default": true
         },
         {
-            "object_class": "AGN",
-            "confidence": 0.5,
+            "value": "162.9",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
             "reference": [
-                "2018TNSCR1182....1H",
-                "2020TNSCR1834....1F"
+                "2018ATel11953....1A",
+                "2019ApJ...883...31F",
+                "2024ApJ...961..211M"
             ],
-            "default": false
+            "default": true
         }
     ],
     "photometry": [

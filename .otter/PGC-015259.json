@@ -1,9 +1,4 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
     "name": {
         "default_name": "PGC 015259",
         "alias": [
@@ -26,6 +21,36 @@
                 "2017ApJ...838..149A"
             ],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2015arXiv150506612H",
+            "human_readable_name": "Hryniewicz & Walter (2015)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2016A&A...586A...9H",
+            "human_readable_name": "Hryniewicz, K. & Walter, R. (2016)"
         }
     ],
     "distance": [
@@ -78,34 +103,23 @@
             "default": true
         }
     ],
-    "reference_alias": [
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "host": [
         {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2015arXiv150506612H",
-            "human_readable_name": "Hryniewicz & Walter (2015)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2016A&A...586A...9H",
-            "human_readable_name": "Hryniewicz, K. & Walter, R. (2016)"
+            "host_name": "2MFGC 3645",
+            "host_ra": 67.34166666666665,
+            "host_dec": -4.76,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2016A&A...586A...9H",
+                "2017ApJ...838..149A"
+            ]
         }
     ],
     "date_reference": [
@@ -119,20 +133,6 @@
                 "2017ApJ...838..149A"
             ],
             "default": true
-        }
-    ],
-    "host": [
-        {
-            "host_name": "2MFGC 3645",
-            "host_ra": 67.34166666666665,
-            "host_dec": -4.76,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2016A&A...586A...9H",
-                "2017ApJ...838..149A"
-            ]
         }
     ]
 }

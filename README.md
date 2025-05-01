@@ -1,6 +1,17 @@
 # otterdb
 Backend database code and data for OTTER
 
+## Installing the Database
+1. You need to create the persistent data storage locally and give it proper permissions
+```
+mkdir /usr/share/otter/
+sudo chown -R 1001:1001 /usr/share/otter
+```
+2. Then run the docker container from dockerhub
+```
+docker run -p 8529:8529 -v /usr/share/otter:/var/lib/arangodb3 noahfranz13/otterdb:v0.3.0
+```
+
 ## A note on the classification `confidence` keyword
 These confidence scores are *our* **rough** confidence values in the classification
 of this object. They were determined using the following, somewhat arbitrary, system:

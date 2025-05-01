@@ -1,9 +1,4 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
     "name": {
         "default_name": "SDSSJ0748",
         "alias": [
@@ -31,6 +26,32 @@
                 "2017ApJ...838..149A"
             ],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2012ApJ...749..115W",
+            "human_readable_name": "Wang et al. (2012)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2011ApJ...740...85W",
+            "human_readable_name": "Wang, Ting-Gui et al. (2011)"
         }
     ],
     "distance": [
@@ -83,42 +104,11 @@
             "default": true
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2012ApJ...749..115W",
-            "human_readable_name": "Wang et al. (2012)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2011ApJ...740...85W",
-            "human_readable_name": "Wang, Ting-Gui et al. (2011)"
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        }
-    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
     "photometry": [
         {
             "raw": [
@@ -233,17 +223,14 @@
             "corr_s": null
         }
     ],
-    "date_reference": [
+    "filter_alias": [
         {
-            "value": "2003-10-23 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2011ApJ...740...85W",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "host": [
@@ -258,6 +245,19 @@
                 "2011ApJ...740...85W",
                 "2017ApJ...838..149A"
             ]
+        }
+    ],
+    "date_reference": [
+        {
+            "value": "2003-10-23 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2011ApJ...740...85W",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         }
     ]
 }

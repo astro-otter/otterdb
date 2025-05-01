@@ -25,6 +25,30 @@
             "default": false
         }
     ],
+    "name": {
+        "default_name": "2022wyq",
+        "alias": [
+            {
+                "value": "2022wyq",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20acyxwgf",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "J094806",
+                "reference": [
+                    "2017arXiv171104577K",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017arXiv171104577K",
@@ -63,79 +87,6 @@
             "human_readable_name": "Fremling, C. (2022)"
         }
     ],
-    "name": {
-        "default_name": "2022wyq",
-        "alias": [
-            {
-                "value": "ZTF20acyxwgf",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2022wyq",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "J094806",
-                "reference": [
-                    "2017arXiv171104577K",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
-    "host": [
-        {
-            "host_name": "SDSS J094806.55+031801.9",
-            "host_ra": 147.02916666666664,
-            "host_dec": 3.3005277777777775,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2017NatAs...1..865K",
-                "2017NatAs...1..865K",
-                "2019ApJ...871...15J"
-            ]
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017NatAs...1..865K",
-                "2017arXiv171104577K",
-                "2019ApJ...871...15J",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "default": false
-        },
-        {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "default": false
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
     "distance": [
         {
             "value": "0.207",
@@ -171,6 +122,55 @@
             "default": true
         }
     ],
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2017NatAs...1..865K",
+                "2017arXiv171104577K",
+                "2019ApJ...871...15J",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "default": false
+        },
+        {
+            "object_class": "TDE",
+            "confidence": 0.1,
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "default": false
+        }
+    ],
+    "host": [
+        {
+            "host_name": "SDSS J094806.55+031801.9",
+            "host_ra": 147.02916666666664,
+            "host_dec": 3.3005277777777775,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017NatAs...1..865K",
+                "2017NatAs...1..865K",
+                "2019ApJ...871...15J"
+            ]
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
     "date_reference": [
         {
             "value": 59695.193,

@@ -1,4 +1,15 @@
 {
+    "classification": [
+        {
+            "object_class": "TDE",
+            "confidence": 1,
+            "reference": [
+                "2020TNSCR3800....1D",
+                "2023ApJS..266....9A"
+            ],
+            "default": true
+        }
+    ],
     "reference_alias": [
         {
             "name": "2023ApJS..266....9A",
@@ -17,53 +28,6 @@
             "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
         }
     ],
-    "distance": [
-        {
-            "value": "0.084",
-            "distance_type": "redshift",
-            "reference": [
-                "2020TNSCR3800....1D",
-                "2023ApJS..266....9A"
-            ],
-            "default": true
-        }
-    ],
-    "name": {
-        "default_name": "2020nov",
-        "alias": [
-            {
-                "value": "Gaia20duz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "PS20ggg",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ZTF20abisysx",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS20vfv",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "2020nov",
-                "reference": [
-                    "2023ApJS..266....9A",
-                    "TNS"
-                ]
-            }
-        ]
-    },
     "coordinate": [
         {
             "ra": "254.554042",
@@ -90,15 +54,63 @@
             "default": false
         }
     ],
-    "classification": [
+    "name": {
+        "default_name": "2020nov",
+        "alias": [
+            {
+                "value": "PS20ggg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20abisysx",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS20vfv",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia20duz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2020nov",
+                "reference": [
+                    "2023ApJS..266....9A",
+                    "TNS"
+                ]
+            }
+        ]
+    },
+    "distance": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "value": "0.084",
+            "distance_type": "redshift",
             "reference": [
                 "2020TNSCR3800....1D",
                 "2023ApJS..266....9A"
             ],
             "default": true
+        }
+    ],
+    "host": [
+        {
+            "host_name": "WISEA J165812.98+020703.0",
+            "host_ra": 254.5540719,
+            "host_dec": 2.1175345,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023ApJS..266....9A"
+            ]
         }
     ],
     "photometry": [
@@ -2449,18 +2461,6 @@
                 0.3104
             ],
             "corr_hostav": false
-        }
-    ],
-    "host": [
-        {
-            "host_name": "WISEA J165812.98+020703.0",
-            "host_ra": 254.5540719,
-            "host_dec": 2.1175345,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023ApJS..266....9A"
-            ]
         }
     ],
     "filter_alias": [

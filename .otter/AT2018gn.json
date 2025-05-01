@@ -1,23 +1,21 @@
 {
-    "date_reference": [
+    "classification": [
         {
-            "value": "58132.11",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2018TNSTR..58....1K"
-            ],
-            "default": true
-        },
-        {
-            "value": "58324.0",
-            "date_format": "mjd",
-            "date_type": "explosion",
+            "object_class": "TDE",
+            "confidence": 1,
             "reference": [
                 "2018TNSCR..81....1F",
                 "2024ApJ...961..211M"
             ],
             "default": true
+        },
+        {
+            "object_class": "SN II",
+            "confidence": 0.5,
+            "reference": [
+                "2018TNSCR..81....1F"
+            ],
+            "default": false
         }
     ],
     "reference_alias": [
@@ -38,48 +36,6 @@
             "human_readable_name": "Krannich, G. et al. (2018)"
         }
     ],
-    "name": {
-        "default_name": "2018gn",
-        "alias": [
-            {
-                "value": "2018gn",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS18ean",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ASASSN-18ap",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia18apd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "WTP18aampwj",
-                "reference": [
-                    "2018TNSCR..81....1F",
-                    "2024ApJ...961..211M"
-                ]
-            },
-            {
-                "value": "AT2018gn",
-                "reference": [
-                    "TNS"
-                ]
-            }
-        ]
-    },
     "coordinate": [
         {
             "ra": "26.676815",
@@ -107,23 +63,67 @@
             "default": false
         }
     ],
-    "classification": [
+    "name": {
+        "default_name": "2018gn",
+        "alias": [
+            {
+                "value": "ATLAS18ean",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ASASSN-18ap",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia18apd",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "2018gn",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2018gn",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "WTP18aampwj",
+                "reference": [
+                    "2018TNSCR..81....1F",
+                    "2024ApJ...961..211M"
+                ]
+            }
+        ]
+    },
+    "date_reference": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
+            "value": "58132.11",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2018TNSTR..58....1K"
+            ],
+            "default": true
+        },
+        {
+            "value": "58324.0",
+            "date_format": "mjd",
+            "date_type": "explosion",
             "reference": [
                 "2018TNSCR..81....1F",
                 "2024ApJ...961..211M"
             ],
             "default": true
-        },
-        {
-            "object_class": "SN II",
-            "confidence": 0.5,
-            "reference": [
-                "2018TNSCR..81....1F"
-            ],
-            "default": false
         }
     ],
     "photometry": [
@@ -1295,25 +1295,6 @@
             }
         }
     ],
-    "distance": [
-        {
-            "value": 0.0375,
-            "reference": [
-                "2018TNSCR..81....1F",
-                "2024ApJ...961..211M"
-            ],
-            "distance_type": "redshift"
-        },
-        {
-            "value": 161.2,
-            "reference": [
-                "2018TNSCR..81....1F",
-                "2024ApJ...961..211M"
-            ],
-            "unit": "Mpc",
-            "distance_type": "luminosity"
-        }
-    ],
     "filter_alias": [
         {
             "filter_key": "g",
@@ -1346,6 +1327,25 @@
             "wave_min": 0.12398419843320027,
             "wave_max": 4.132806614440009,
             "wave_units": "nm"
+        }
+    ],
+    "distance": [
+        {
+            "value": 0.0375,
+            "reference": [
+                "2018TNSCR..81....1F",
+                "2024ApJ...961..211M"
+            ],
+            "distance_type": "redshift"
+        },
+        {
+            "value": 161.2,
+            "reference": [
+                "2018TNSCR..81....1F",
+                "2024ApJ...961..211M"
+            ],
+            "unit": "Mpc",
+            "distance_type": "luminosity"
         }
     ]
 }

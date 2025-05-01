@@ -25,6 +25,29 @@
             "default": false
         }
     ],
+    "name": {
+        "default_name": "2021blz",
+        "alias": [
+            {
+                "value": "2021blz",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ATLAS21djg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "AT2021blz",
+                "reference": [
+                    "2021TNSTR.312....1T"
+                ]
+            }
+        ]
+    },
     "classification": [
         {
             "object_class": "TDE",
@@ -50,29 +73,6 @@
             "human_readable_name": "Magee, M. et al. (2021)"
         }
     ],
-    "name": {
-        "default_name": "2021blz",
-        "alias": [
-            {
-                "value": "2021blz",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "ATLAS21djg",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "AT2021blz",
-                "reference": [
-                    "2021TNSTR.312....1T"
-                ]
-            }
-        ]
-    },
     "photometry": [
         {
             "reference": "2024ApJ...974..241A",
@@ -153,6 +153,16 @@
             "freq_units": "MHz"
         }
     ],
+    "distance": [
+        {
+            "value": 0.045,
+            "computed": false,
+            "distance_type": "redshift",
+            "reference": [
+                "2021TNSCR.338....1M"
+            ]
+        }
+    ],
     "date_reference": [
         {
             "value": 59245.283,
@@ -162,16 +172,6 @@
                 "2021TNSTR.312....1T"
             ],
             "computed": false
-        }
-    ],
-    "distance": [
-        {
-            "value": 0.045,
-            "computed": false,
-            "distance_type": "redshift",
-            "reference": [
-                "2021TNSCR.338....1M"
-            ]
         }
     ]
 }

@@ -2,7 +2,35 @@
 
 # Start ArangoDB in the background
 arangod --server.endpoint tcp://0.0.0.0:8529 &
-sleep 10  # Adjust as needed to ensure ArangoDB is ready
+ARANGOD_PID=$!
 
-arangosh --javascript.execute init-db.js
-python3 setup.py
+# Wait until ArangoDB is ready
+# NOTE: that the root password is empty for now, but then get's set in init-db.js
+echo "Waiting for arangod to be ready..."
+sleep 5
+
+# Now run the initialization script
+echo "Running ArangoDB init script..."
+{ # try
+    echo "Trying to initialize with no password..." && 
+    arangosh \
+	--server.endpoint tcp://127.0.0.1:8529 \
+	--server.username root \
+	--server.password "" \
+	--log.level debug \
+	--javascript.execute init-db.js &&
+    echo "Arangosh javascript exited with code $?"
+} || { # catch/except (in case we've already updated the root password)
+    echo "Failed to initialize with code $?, now trying with env var..." &&
+    arangosh \
+	--server.endpoint tcp://127.0.0.1:8529 \
+	--server.username root \
+	--server.password "$ARANGO_ROOT_PASSWORD" \
+	--log.level debug \
+	--javascript.execute init-db.js
+}
+
+# python3 setup.py
+
+# now wait until arango is stopped or restarted
+wait $ARANGOD_PID

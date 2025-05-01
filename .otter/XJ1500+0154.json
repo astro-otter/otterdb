@@ -1,9 +1,4 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
     "name": {
         "default_name": "3XMM J150052.0+015452",
         "alias": [
@@ -32,6 +27,28 @@
                 "2017NatAs...1E..33L"
             ],
             "coordinate_type": "equitorial"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017NatAs...1E..33L",
+            "human_readable_name": "Lin et al. (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
     "distance": [
@@ -78,26 +95,22 @@
             "default": true
         }
     ],
-    "reference_alias": [
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "host": [
         {
-            "name": "2017NatAs...1E..33L",
-            "human_readable_name": "Lin et al. (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+            "host_name": "SDSS J150052.07+015453.8",
+            "host_ra": 225.2169583333333,
+            "host_dec": 1.9149444444444443,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2017NatAs...1E..33L"
+            ]
         }
     ],
     "date_reference": [
@@ -110,19 +123,6 @@
                 "2017NatAs...1E..33L"
             ],
             "default": true
-        }
-    ],
-    "host": [
-        {
-            "host_name": "SDSS J150052.07+015453.8",
-            "host_ra": 225.2169583333333,
-            "host_dec": 1.9149444444444443,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2017NatAs...1E..33L"
-            ]
         }
     ]
 }
