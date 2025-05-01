@@ -9,7 +9,12 @@ sudo chown -R 1001:1001 /usr/share/otter
 ```
 2. Then run the docker container from dockerhub
 ```
-docker run -p 8529:8529 -v /usr/share/otter:/var/lib/arangodb3 noahfranz13/otterdb:v0.3.0
+docker run \
+	-p 8529:8529 \
+	-e ARANGO_ROOT_PASSWORD=$ARANGO_ROOT_PASSWORD \ 
+	-e VETTING_PASSWORD=$VETTING_PASSWORD \
+	-v /usr/share/otter:/var/lib/arangodb3 \
+	noahfranz13/otterdb:v0.3.0
 ```
 
 ## A note on the classification `confidence` keyword
