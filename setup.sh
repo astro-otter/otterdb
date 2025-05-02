@@ -7,7 +7,7 @@ ARANGOD_PID=$!
 # Wait until ArangoDB is ready
 # NOTE: that the root password is empty for now, but then get's set in init-db.js
 echo "Waiting for arangod to be ready..."
-sleep 5
+sleep 20
 
 # Now run the initialization script
 echo "Running ArangoDB init script..."
