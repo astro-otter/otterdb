@@ -27,9 +27,13 @@ def upload_doc(doc, bearer):
 def main():
 
     import argparse
+
+    cmd = """
+    curl -X POST http://localhost:8080/otter/api/_open/auth -H "Content-Type: application/json" -d '{"username": "root", "password": "<pass>"}'
+    """
     
     p = argparse.ArgumentParser()
-    p.add_argument("--bearer", help="JWT Bearer token", required=True)
+    p.add_argument("--bearer", help=f"JWT Bearer token, try running: {cmd}", required=True)
     args = p.parse_args()
     
     c = Connection(
