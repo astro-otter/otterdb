@@ -14,7 +14,7 @@ echo "Running ArangoDB init script..."
 { # try
     echo "Trying to initialize with no password..." && 
     arangosh \
-	--server.endpoint tcp://127.0.0.1:8529 \
+	--server.endpoint $DB_LINK_PORT_8529_TCP \
 	--server.username root \
 	--server.password "" \
 	--log.level debug \
@@ -23,7 +23,7 @@ echo "Running ArangoDB init script..."
 } || { # catch/except (in case we've already updated the root password)
     echo "Failed to initialize with code $?, now trying with env var..." &&
     arangosh \
-	--server.endpoint tcp://127.0.0.1:8529 \
+	--server.endpoint $DB_LINK_PORT_8529_TCP \
 	--server.username root \
 	--server.password "$ARANGO_ROOT_PASSWORD" \
 	--log.level debug \
