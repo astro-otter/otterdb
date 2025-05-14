@@ -21,13 +21,17 @@ docker build -t otterdb:v0.3.6 .
 make sure you change the name at the bottom of this command)
 ```
 docker run \
--p 8529:8529 \
--e ARANGO_ROOT_PASSWORD=$ARANGO_ROOT_PASSWORD \ 
+-e ARANGO_ROOT_PASSWORD=$ARANGO_ROOT_PASSWORD \
 -e VETTING_PASSWORD=$VETTING_PASSWORD \
-noahfranz13/otterdb:v0.3.6
+-e VETTING_USER="vetting-user" \
+-e ARANGO_USER_USERNAME="user-guest" \
+-e ARANGO_USER_PASSWORD=$ARANGO_USER_PASSWORD \
+-e DB_LINK_PORT_8529_TCP="http://127.0.0.1:8529" \
+-p 8529:8529 \
+noahfranz13/otterdb:v0.3.6 -it /bin/sh
 ```
-5. Add a copy of the data to the database from the master copy at SciServer.
-From the otterdb directory, run
+5. Open a new terminal. Then, add a copy of the data to the database from 
+the master copy at SciServer. From the otterdb directory, run
 ```
 python3 import_from_sciserver.py
 ```
