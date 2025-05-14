@@ -1,11 +1,14 @@
 # otterdb
 Backend database code and data for OTTER
 
-## Installing the Database
-1. You need to create the persistent data storage locally and give it proper permissions
+## Installing a copy of the database (should only be done by devs)
+1. Make sure you have set the following environment variables. If you don't
+know what the value should be, contact an existing developer.
 ```
-mkdir /usr/share/otter/
-sudo chown -R 1001:1001 /usr/share/otter
+ARANGO_URL
+ARANGO_ROOT_PASSWORD
+VETTING_PASSWORD
+ARANGO_USER_PASSWORD
 ```
 2. Then run the docker container from dockerhub
 ```
@@ -13,8 +16,12 @@ docker run \
 	-p 8529:8529 \
 	-e ARANGO_ROOT_PASSWORD=$ARANGO_ROOT_PASSWORD \ 
 	-e VETTING_PASSWORD=$VETTING_PASSWORD \
-	-v /usr/share/otter:/var/lib/arangodb3 \
-	noahfranz13/otterdb:v0.3.0
+	noahfranz13/otterdb:v0.3.6
+```
+3. Add a copy of the data to the database from the master copy at SciServer.
+From the otterdb directory, run
+```
+python3 import_from_sciserver.py
 ```
 
 ## A note on the classification `confidence` keyword
