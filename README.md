@@ -10,13 +10,13 @@ ARANGO_ROOT_PASSWORD
 VETTING_PASSWORD
 ARANGO_USER_PASSWORD
 ```
-2. Then run the docker container from dockerhub
+2. Make sure docker is running. Then run the docker container from dockerhub
 ```
 docker run \
-	-p 8529:8529 \
-	-e ARANGO_ROOT_PASSWORD=$ARANGO_ROOT_PASSWORD \ 
-	-e VETTING_PASSWORD=$VETTING_PASSWORD \
-	noahfranz13/otterdb:v0.3.6
+-p 8529:8529 \
+-e ARANGO_ROOT_PASSWORD=$ARANGO_ROOT_PASSWORD \ 
+-e VETTING_PASSWORD=$VETTING_PASSWORD \
+noahfranz13/otterdb:v0.3.6
 ```
 3. Add a copy of the data to the database from the master copy at SciServer.
 From the otterdb directory, run
