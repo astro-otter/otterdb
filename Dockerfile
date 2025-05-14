@@ -9,19 +9,9 @@ RUN addgroup -g 1001 otteruser && \
 # move all of the data into the database initialization directory
 RUN mkdir /otterdb
 
-# ADD .otter/ /otterdb/
-# RUN mkdir /otterdb/.otter
-# RUN mv /otterdb/*.json /otterdb/.otter
-
 # COPY setup.py /otterdb/
 COPY setup.sh /otterdb/
 COPY init-db.js /otterdb/
-
-# install dependences
-# RUN apk update && apk add --no-cache python3 py3-pip
-
-# RUN pip install --upgrade pip --break-system-packages
-# RUN pip install --upgrade setuptools setuptools_scm wheel pyArango --break-system-packages
 
 # Switch to the non-root user after all the installation is done
 RUN chown -R otteruser:otteruser /otterdb/
