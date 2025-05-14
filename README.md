@@ -10,7 +10,15 @@ ARANGO_ROOT_PASSWORD
 VETTING_PASSWORD
 ARANGO_USER_PASSWORD
 ```
-2. Make sure docker is running. Then run the docker container from dockerhub
+2. Make sure docker is running. 
+3. If you have an arm64 cpu (like a Mac Silicon chip), you will need to 
+build the docker container on that cpu architecture. From the otterdb 
+directory:
+```
+docker build -t otterdb:v0.3.6 .
+```
+4. Then run the docker container from dockerhub (if you built it locally, 
+make sure you change the name at the bottom of this command)
 ```
 docker run \
 -p 8529:8529 \
@@ -18,7 +26,7 @@ docker run \
 -e VETTING_PASSWORD=$VETTING_PASSWORD \
 noahfranz13/otterdb:v0.3.6
 ```
-3. Add a copy of the data to the database from the master copy at SciServer.
+5. Add a copy of the data to the database from the master copy at SciServer.
 From the otterdb directory, run
 ```
 python3 import_from_sciserver.py
