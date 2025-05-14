@@ -28,7 +28,7 @@ docker run \
 -e ARANGO_USER_PASSWORD=$ARANGO_USER_PASSWORD \
 -e DB_LINK_PORT_8529_TCP="http://127.0.0.1:8529" \
 -p 8529:8529 \
-noahfranz13/otterdb:v0.3.6 -it /bin/sh
+noahfranz13/otterdb:v0.3.6
 ```
 5. Open a new terminal. Then, add a copy of the data to the database from 
 the master copy at SciServer. From the otterdb directory, run
