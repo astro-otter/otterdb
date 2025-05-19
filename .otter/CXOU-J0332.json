@@ -1,4 +1,58 @@
 {
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2017MNRAS.467.4841B",
+                    "2017arXiv170204422B",
+                    "2023PASP..135c4101G"
+                ],
+                "default": true
+            }
+        ],
+        "spec_classed": 0,
+        "unambiguous": false
+    },
+    "date_reference": [
+        {
+            "value": "2014-10-01",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017arXiv170204422B"
+            ],
+            "default": false
+        },
+        {
+            "value": "2014-10-01 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017MNRAS.467.4841B",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "coordinate": [
+        {
+            "ra": "03:32:38.8",
+            "dec": "-27:51:34",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017arXiv170204422B"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
     "name": {
         "default_name": "CXOU J0332",
         "alias": [
@@ -17,18 +71,6 @@
             }
         ]
     },
-    "coordinate": [
-        {
-            "ra": "03:32:38.8",
-            "dec": "-27:51:34",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017arXiv170204422B"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
     "reference_alias": [
         {
             "name": "2017arXiv170204422B",
@@ -51,44 +93,6 @@
             "human_readable_name": "Bauer, Franz E. et al. (2017)"
         }
     ],
-    "date_reference": [
-        {
-            "value": "2014-10-01",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017arXiv170204422B"
-            ],
-            "default": false
-        },
-        {
-            "value": "2014-10-01 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017MNRAS.467.4841B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "classification": [
-        {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017MNRAS.467.4841B",
-                "2017arXiv170204422B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
     "host": [
         {
             "host_name": "CANDELS J033238.77-275133.7",

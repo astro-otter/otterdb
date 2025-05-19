@@ -1,54 +1,20 @@
 {
-    "name": {
-        "default_name": "J030257",
-        "alias": [
+    "classification": {
+        "value": [
             {
-                "value": "J030257",
+                "object_class": "TDE",
+                "confidence": 1.0,
                 "reference": [
-                    "2018arXiv180205105W",
+                    "2017ApJ...835...64G",
+                    "2018MNRAS.477.2943W",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
             }
-        ]
+        ],
+        "spec_classed": 0,
+        "unambiguous": true
     },
-    "coordinate": [
-        {
-            "ra": "03:02:57.14",
-            "dec": "-08:29:42.9",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2018arXiv180205105W"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2018arXiv180205105W",
-            "human_readable_name": "Wang et al. (2018)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2018MNRAS.477.2943W",
-            "human_readable_name": "Wang, Tinggui et al. (2018)"
-        }
-    ],
     "date_reference": [
         {
             "value": "2009-11-08",
@@ -69,6 +35,23 @@
                 "2023PASP..135c4101G"
             ],
             "default": false
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "coordinate": [
+        {
+            "ra": "03:02:57.14",
+            "dec": "-08:29:42.9",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2018arXiv180205105W"
+            ],
+            "coordinate_type": "equitorial"
         }
     ],
     "distance": [
@@ -105,23 +88,64 @@
             "default": true
         }
     ],
-    "classification": [
+    "name": {
+        "default_name": "J030257",
+        "alias": [
+            {
+                "value": "J030257",
+                "reference": [
+                    "2018arXiv180205105W",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2018MNRAS.477.2943W",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+            "name": "2018arXiv180205105W",
+            "human_readable_name": "Wang et al. (2018)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2018MNRAS.477.2943W",
+            "human_readable_name": "Wang, Tinggui et al. (2018)"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
+    "filter_alias": [
+        {
+            "filter_key": "V",
+            "wave_eff": 551.0,
+            "wave_units": "nm",
+            "filter_name": "V"
+        },
+        {
+            "filter_key": "W1",
+            "wave_eff": 224.6,
+            "wave_units": "nm",
+            "filter_name": "W1"
+        },
+        {
+            "filter_key": "W2",
+            "wave_eff": 192.8,
+            "wave_units": "nm",
+            "filter_name": "W2"
+        }
+    ],
     "photometry": [
         {
             "raw": [
@@ -274,26 +298,6 @@
                 "2018arXiv180205105W"
             ],
             "corr_s": null
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm",
-            "filter_name": "V"
-        },
-        {
-            "filter_key": "W1",
-            "wave_eff": 224.6,
-            "wave_units": "nm",
-            "filter_name": "W1"
-        },
-        {
-            "filter_key": "W2",
-            "wave_eff": 192.8,
-            "wave_units": "nm",
-            "filter_name": "W2"
         }
     ],
     "host": [

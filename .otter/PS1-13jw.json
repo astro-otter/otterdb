@@ -1,58 +1,36 @@
 {
-    "name": {
-        "default_name": "PS1-13jw",
-        "alias": [
+    "classification": {
+        "value": [
             {
-                "value": "PS1-13jw",
+                "object_class": "TDE",
+                "confidence": 3.3,
                 "reference": [
+                    "2017NatAs...1..865K",
                     "2017arXiv171104577K",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
+            },
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2017arXiv171104577K"
+                ],
+                "default": false
+            },
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2017arXiv171104577K"
+                ],
+                "default": false
             }
-        ]
+        ],
+        "spec_classed": 3,
+        "unambiguous": true
     },
-    "coordinate": [
-        {
-            "ra": "08:44:53.56",
-            "dec": "+42:57:44.8",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017arXiv171104577K",
-            "human_readable_name": "Kankare et al. (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2017NatAs...1..865K",
-            "human_readable_name": "Kankare, E. et al. (2017)"
-        },
-        {
-            "name": "2017NatAs...1..865K",
-            "human_readable_name": "Kankare, E. et al. (2017)"
-        }
-    ],
     "date_reference": [
         {
             "value": "2013-01-01",
@@ -72,6 +50,23 @@
                 "2023PASP..135c4101G"
             ],
             "default": true
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "coordinate": [
+        {
+            "ra": "08:44:53.56",
+            "dec": "+42:57:44.8",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "coordinate_type": "equitorial"
         }
     ],
     "distance": [
@@ -108,39 +103,48 @@
             "default": true
         }
     ],
-    "classification": [
+    "name": {
+        "default_name": "PS1-13jw",
+        "alias": [
+            {
+                "value": "PS1-13jw",
+                "reference": [
+                    "2017arXiv171104577K",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017NatAs...1..865K",
-                "2017arXiv171104577K",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+            "name": "2017arXiv171104577K",
+            "human_readable_name": "Kankare et al. (2017)"
         },
         {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "default": false
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
         },
         {
-            "object_class": "TDE",
-            "confidence": 0.1,
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "default": false
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2017NatAs...1..865K",
+            "human_readable_name": "Kankare, E. et al. (2017)"
+        },
+        {
+            "name": "2017NatAs...1..865K",
+            "human_readable_name": "Kankare, E. et al. (2017)"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
     "host": [
         {
             "host_name": "SDSS J084453.56+425744.8",

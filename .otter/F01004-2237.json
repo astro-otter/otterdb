@@ -1,66 +1,19 @@
 {
-    "coordinate": [
-        {
-            "ra": "01:02:50.007",
-            "dec": "-22:21:57.22",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2017NatAs...1E..61T"
-            ],
-            "default": true
-        },
-        {
-            "ra": "15.708292",
-            "dec": "-22.3659",
-            "ra_units": "deg",
-            "dec_units": "deg",
-            "coordinate_type": "equitorial",
-            "epoch": "J2000",
-            "frame": "ICRS",
-            "reference": [
-                "2022TNSTR.188....1H"
-            ],
-            "default": false
-        }
-    ],
-    "name": {
-        "default_name": "2022agi",
-        "alias": [
+    "classification": {
+        "value": [
             {
-                "value": "2022agi",
+                "object_class": "TDE",
+                "confidence": 3.1,
                 "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "Gaia22ahd",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
-                "value": "SSS:010250.0-222157",
-                "reference": [
-                    "2017NatAs...1E..61T"
-                ]
-            },
-            {
-                "value": "F01004-2237",
-                "reference": [
+                    "2017ApJ...835...64G",
                     "2017NatAs...1E..61T",
-                    "MAST",
                     "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "CSS:010250.0-222157",
-                "reference": [
-                    "2017NatAs...1E..61T"
-                ]
+                ],
+                "default": true
             }
-        ]
+        ],
+        "spec_classed": 1,
+        "unambiguous": true
     },
     "date_reference": [
         {
@@ -82,17 +35,83 @@
                 "2023PASP..135c4101G"
             ],
             "default": false
-        },
-        {
-            "value": "59600.393",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2022TNSTR.188....1H"
-            ],
-            "default": false
         }
     ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
+    },
+    "coordinate": [
+        {
+            "ra": "01:02:50.007",
+            "dec": "-22:21:57.22",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017NatAs...1E..61T"
+            ],
+            "coordinate_type": "equitorial"
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.117835",
+            "distance_type": "redshift",
+            "reference": [
+                "2017NatAs...1E..61T",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "506.963",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017NatAs...1E..61T"
+            ],
+            "default": true
+        },
+        {
+            "value": "566.701",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017NatAs...1E..61T"
+            ],
+            "default": true
+        }
+    ],
+    "name": {
+        "default_name": "F01004-2237",
+        "alias": [
+            {
+                "value": "CSS:010250.0-222157",
+                "reference": [
+                    "2017NatAs...1E..61T"
+                ]
+            },
+            {
+                "value": "SSS:010250.0-222157",
+                "reference": [
+                    "2017NatAs...1E..61T"
+                ]
+            },
+            {
+                "value": "F01004-2237",
+                "reference": [
+                    "2017NatAs...1E..61T",
+                    "MAST",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "reference_alias": [
         {
             "name": "2017NatAs...1E..61T",
@@ -117,22 +136,26 @@
         {
             "name": "2023PASP..135c4101G",
             "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2022TNSTR.188....1H",
-            "human_readable_name": "Hodgkin, S. T. et al. (2022)"
         }
     ],
-    "classification": [
+    "filter_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017NatAs...1E..61T",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+            "filter_key": "V",
+            "wave_eff": 551.0,
+            "wave_units": "nm",
+            "filter_name": "V"
+        },
+        {
+            "filter_key": "W1",
+            "wave_eff": 224.6,
+            "wave_units": "nm",
+            "filter_name": "W1"
+        },
+        {
+            "filter_key": "W2",
+            "wave_eff": 192.8,
+            "wave_units": "nm",
+            "filter_name": "W2"
         }
     ],
     "photometry": [
@@ -2703,26 +2726,6 @@
             "corr_s": null
         }
     ],
-    "filter_alias": [
-        {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm",
-            "filter_name": "V"
-        },
-        {
-            "filter_key": "W1",
-            "wave_eff": 224.6,
-            "wave_units": "nm",
-            "filter_name": "W1"
-        },
-        {
-            "filter_key": "W2",
-            "wave_eff": 192.8,
-            "wave_units": "nm",
-            "filter_name": "W2"
-        }
-    ],
     "host": [
         {
             "host_name": "IRAS F01004-2237",
@@ -2734,44 +2737,6 @@
                 "2023PASP..135c4101G",
                 "2017NatAs...1E..61T"
             ]
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
-    "distance": [
-        {
-            "value": "0.117835",
-            "distance_type": "redshift",
-            "reference": [
-                "2017NatAs...1E..61T",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "506.963",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017NatAs...1E..61T"
-            ],
-            "default": true
-        },
-        {
-            "value": "566.701",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017NatAs...1E..61T"
-            ],
-            "default": true
         }
     ]
 }

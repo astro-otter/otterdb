@@ -1,15 +1,25 @@
 {
-    "name": {
-        "default_name": "NGC 247",
-        "alias": [
+    "classification": {
+        "value": [
             {
-                "value": "NGC 247",
+                "object_class": "TDE",
+                "confidence": 1.0,
                 "reference": [
+                    "2011ApJ...737...87J",
+                    "2015ApJ...807..185F",
                     "2017ApJ...838..149A",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
             }
-        ]
+        ],
+        "spec_classed": 0,
+        "unambiguous": true
+    },
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
     },
     "coordinate": [
         {
@@ -19,36 +29,6 @@
             "dec_units": "deg",
             "reference": [],
             "coordinate_type": "equitorial"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2015ApJ...807..185F",
-            "human_readable_name": "Feng et al. (2015)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2011ApJ...737...87J",
-            "human_readable_name": "Jin, Jing et al. (2011)"
         }
     ],
     "distance": [
@@ -88,24 +68,48 @@
             "default": true
         }
     ],
-    "classification": [
+    "name": {
+        "default_name": "NGC 247",
+        "alias": [
+            {
+                "value": "NGC 247",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2011ApJ...737...87J",
-                "2015ApJ...807..185F",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2015ApJ...807..185F",
+            "human_readable_name": "Feng et al. (2015)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2011ApJ...737...87J",
+            "human_readable_name": "Jin, Jing et al. (2011)"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
     "host": [
         {
             "host_name": "NGC 247",

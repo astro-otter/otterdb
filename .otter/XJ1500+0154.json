@@ -1,21 +1,23 @@
 {
-    "name": {
-        "default_name": "3XMM J150052.0+015452",
-        "alias": [
+    "classification": {
+        "value": [
             {
-                "value": "XJ1500+0154",
-                "reference": [
-                    "2017NatAs...1E..33L"
-                ]
-            },
-            {
-                "value": "3XMM J150052.0+015452",
+                "object_class": "TDE",
+                "confidence": 1.0,
                 "reference": [
                     "2017NatAs...1E..33L",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
             }
-        ]
+        ],
+        "spec_classed": 0,
+        "unambiguous": true
+    },
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;"
     },
     "coordinate": [
         {
@@ -27,28 +29,6 @@
                 "2017NatAs...1E..33L"
             ],
             "coordinate_type": "equitorial"
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017NatAs...1E..33L",
-            "human_readable_name": "Lin et al. (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
     "distance": [
@@ -84,22 +64,46 @@
             "default": true
         }
     ],
-    "classification": [
+    "name": {
+        "default_name": "3XMM J150052.0+015452",
+        "alias": [
+            {
+                "value": "XJ1500+0154",
+                "reference": [
+                    "2017NatAs...1E..33L"
+                ]
+            },
+            {
+                "value": "3XMM J150052.0+015452",
+                "reference": [
+                    "2017NatAs...1E..33L",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
+    "reference_alias": [
         {
-            "object_class": "TDE",
-            "confidence": 1,
-            "reference": [
-                "2017NatAs...1E..33L",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+            "name": "2017NatAs...1E..33L",
+            "human_readable_name": "Lin et al. (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
     "host": [
         {
             "host_name": "SDSS J150052.07+015453.8",
