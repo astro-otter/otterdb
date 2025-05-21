@@ -1,23 +1,4 @@
 {
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 3.1,
-                "reference": [
-                    "2011ATel.3463....1K",
-                    "2015MNRAS.452.4297B",
-                    "2017ApJ...835...64G",
-                    "2017ApJ...838..149A",
-                    "2017MNRAS.472.4469B",
-                    "2023PASP..135c4101G"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 1,
-        "unambiguous": true
-    },
     "date_reference": [
         {
             "value": "2011-12-27",
@@ -49,51 +30,15 @@
                 "2017MNRAS.472.4469B"
             ],
             "default": false
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Original Dataset;Copied from tde.space;"
-    },
-    "coordinate": [
-        {
-            "ra": "11 11 47.6",
-            "dec": "-82 38 44.44",
-            "epoch": "J2000",
-            "system": "ICRS",
-            "ra_units": "hourangle",
-            "dec_units": "deg",
-            "computed": "False",
-            "default": true,
-            "uuid": "d8751567-aed3-4f04-b142-97622eae7d08",
-            "coordinate_type": "equitorial",
-            "reference": [
-                "2017MNRAS.472.4469B"
-            ]
         },
         {
-            "ra": "11:11:47.32",
-            "dec": "-82:38:44.20",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "default": false,
-            "coordinate_type": "equitorial",
+            "value": "55731",
+            "date_format": "mjd",
+            "date_type": "discovery",
             "reference": [
-                "2017ApJ...838..149A"
-            ]
-        },
-        {
-            "computed": "True",
-            "default": true,
-            "coordinate_type": "galactic",
-            "l": "299.6337165869646",
-            "b": "-20.420594756871676",
-            "l_units": "deg",
-            "b_units": "deg",
-            "reference": [
-                "d8751567-aed3-4f04-b142-97622eae7d08"
-            ]
+                "2015MNRAS.452.4297B"
+            ],
+            "default": false
         }
     ],
     "distance": [
@@ -109,6 +54,14 @@
                 "2023PASP..135c4101G"
             ],
             "default": true
+        },
+        {
+            "value": "0.8901",
+            "distance_type": "redshift",
+            "reference": [
+                "2015MNRAS.452.4297B"
+            ],
+            "default": false
         },
         {
             "value": "3100",
@@ -135,32 +88,6 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "Sw J1112-82",
-        "alias": [
-            {
-                "value": "Sw J1112-82",
-                "reference": [
-                    "Swift"
-                ]
-            },
-            {
-                "value": "Swift J1112.2-8238",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2017ApJ...835...64G"
-                ]
-            },
-            {
-                "value": "Swift J1112-82",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2017ApJ...835...64G",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "reference_alias": [
         {
             "name": "2017MNRAS.472.4469B",
@@ -199,6 +126,25 @@
             "human_readable_name": "Brown, G. C. et al. (2015)"
         }
     ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 3.1,
+                "reference": [
+                    "2011ATel.3463....1K",
+                    "2015MNRAS.452.4297B",
+                    "2017ApJ...835...64G",
+                    "2017ApJ...838..149A",
+                    "2017MNRAS.472.4469B",
+                    "2023PASP..135c4101G"
+                ],
+                "default": true
+            }
+        ],
+        "spec_classed": 1,
+        "unambiguous": true
+    },
     "filter_alias": [
         {
             "filter_key": "5.5GHz",
@@ -213,6 +159,12 @@
             "wave_max": 4.132806614440009,
             "wave_units": "nm",
             "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "9.0GHz",
+            "filter_name": "X",
+            "freq_eff": 9.0,
+            "freq_units": "GHz"
         }
     ],
     "photometry": [
@@ -477,8 +429,138 @@
                 }
             ],
             "corr_s": null
+        },
+        {
+            "reference": "2017MNRAS.472.4469B",
+            "raw": [
+                76.0,
+                70.0,
+                70.0,
+                54.0
+            ],
+            "raw_err": [
+                15.0,
+                29.0,
+                11.0,
+                0.0
+            ],
+            "raw_units": "uJy",
+            "date": [
+                "57052",
+                "57052",
+                "57521.5",
+                "57521.5"
+            ],
+            "date_format": [
+                "mjd",
+                "mjd",
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false,
+                false,
+                true
+            ],
+            "filter_key": [
+                "5.5GHz",
+                "9.0GHz",
+                "5.5GHz",
+                "9.0GHz"
+            ],
+            "obs_type": "radio",
+            "telescope": "ATCA",
+            "corr_k": false,
+            "corr_s": false,
+            "corr_host": false,
+            "corr_av": false,
+            "corr_hostav": false
         }
     ],
+    "coordinate": [
+        {
+            "ra": "11 11 47.6",
+            "dec": "-82 38 44.44",
+            "epoch": "J2000",
+            "system": "ICRS",
+            "ra_units": "hourangle",
+            "dec_units": "deg",
+            "computed": "False",
+            "default": true,
+            "uuid": "95334587-6044-43d8-9686-6c0de007da65",
+            "coordinate_type": "equatorial",
+            "reference": [
+                "2017MNRAS.472.4469B"
+            ]
+        },
+        {
+            "ra": "11:11:47.32",
+            "dec": "-82:38:44.2",
+            "ra_units": "hour",
+            "dec_units": "degree",
+            "default": false,
+            "coordinate_type": "equatorial",
+            "reference": [
+                "2015MNRAS.452.4297B"
+            ]
+        },
+        {
+            "ra": "11:11:47.32",
+            "dec": "-82:38:44.20",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "default": false,
+            "coordinate_type": "equatorial",
+            "reference": [
+                "2017ApJ...838..149A"
+            ]
+        },
+        {
+            "computed": "True",
+            "default": true,
+            "coordinate_type": "galactic",
+            "l": "299.6337165869646",
+            "b": "-20.420594756871676",
+            "l_units": "deg",
+            "b_units": "deg",
+            "reference": [
+                "95334587-6044-43d8-9686-6c0de007da65"
+            ]
+        }
+    ],
+    "name": {
+        "default_name": "Sw J1112-82",
+        "alias": [
+            {
+                "value": "Swift J1112-82",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2017ApJ...835...64G",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "Swift J1112.2-8238",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2017ApJ...835...64G"
+                ]
+            },
+            {
+                "value": "Sw J1112-82",
+                "reference": [
+                    "Swift",
+                    "2015MNRAS.452.4297B"
+                ]
+            }
+        ]
+    },
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Original Dataset;Copied from tde.space;"
+    },
     "host": [
         {
             "host_name": "Swift J1112.2-8238",

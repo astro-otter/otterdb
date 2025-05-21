@@ -1,20 +1,33 @@
 {
-    "classification": {
-        "value": [
+    "name": {
+        "default_name": "2019pqt",
+        "alias": [
             {
-                "object_class": "TDE",
-                "confidence": 0,
+                "value": "2019pqt",
                 "reference": [
-                    "2017ATel.9988....1N",
-                    "2017ATel10216....1K",
-                    "2021MNRAS.501..261A",
+                    "TNS"
+                ]
+            },
+            {
+                "value": "Gaia19dya",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF 18abxftqm",
+                "reference": [
                     "2023PASP..135c4101G"
-                ],
-                "default": true
+                ]
+            },
+            {
+                "value": "MAXI J1807+132",
+                "reference": [
+                    "2017ATel10216....1K",
+                    "2023PASP..135c4101G"
+                ]
             }
-        ],
-        "spec_classed": 0,
-        "unambiguous": false
+        ]
     },
     "date_reference": [
         {
@@ -37,37 +50,27 @@
                 "2017ApJ...835...64G"
             ],
             "default": false
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
-    "coordinate": [
+        },
         {
-            "ra": "18:08:07.549",
-            "dec": "+13:15:05.40",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "value": "2018-10-04 ",
+            "date_format": "iso",
+            "date_type": "discovery",
             "reference": [
-                "2017ATel10216....1K"
+                "2018ATel12263....1V",
+                "2023PASP..135c4101G"
             ],
-            "coordinate_type": "equitorial"
+            "default": false
+        },
+        {
+            "value": "58732.14",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2019TNSTR1760....1H"
+            ],
+            "default": false
         }
     ],
-    "name": {
-        "default_name": "MAXI J1807+132",
-        "alias": [
-            {
-                "value": "MAXI J1807+132",
-                "reference": [
-                    "2017ATel10216....1K",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
     "reference_alias": [
         {
             "name": "2017ATel10216....1K",
@@ -92,6 +95,40 @@
         {
             "name": "2017ATel.9988....1N",
             "human_readable_name": "Nakajima, M. et al. (2017)"
+        },
+        {
+            "name": "2018ATel12263....1V",
+            "human_readable_name": "Velzen, S. van et al. (2018)"
+        },
+        {
+            "name": "2019TNSTR1760....1H",
+            "human_readable_name": "Hodgkin, S. T. et al. (2019)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "18:08:07.549",
+            "dec": "+13:15:05.40",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equatorial",
+            "reference": [
+                "2017ATel10216....1K"
+            ],
+            "default": true
+        },
+        {
+            "ra": "272.031417",
+            "dec": "13.251511",
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "coordinate_type": "equatorial",
+            "epoch": "J2000",
+            "frame": "ICRS",
+            "reference": [
+                "2019TNSTR1760....1H"
+            ],
+            "default": false
         }
     ],
     "filter_alias": [
@@ -112,6 +149,23 @@
             "wave_eff": 207.98754332676123,
             "wave_units": "nm",
             "filter_name": "UVW2"
+        }
+    ],
+    "schema_version": {
+        "value": 0,
+        "comments": "From Goldtooth et al. (2023)",
+        "comment": "Copied from tde.space;;"
+    },
+    "distance": [
+        {
+            "value": "0.088",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2018ATel12263....1V"
+            ],
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         }
     ],
     "photometry": [
@@ -158,5 +212,23 @@
             ],
             "corr_s": null
         }
-    ]
+    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 2.0,
+                "reference": [
+                    "2017ATel.9988....1N",
+                    "2017ATel10216....1K",
+                    "2018ATel12263....1V",
+                    "2021MNRAS.501..261A",
+                    "2023PASP..135c4101G"
+                ],
+                "default": true
+            }
+        ],
+        "spec_classed": 1,
+        "unambiguous": false
+    }
 }

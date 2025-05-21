@@ -1,36 +1,21 @@
 {
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 1.0,
-                "reference": [
-                    "2011ApJ...737...87J",
-                    "2015ApJ...807..185F",
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 0,
-        "unambiguous": true
-    },
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)",
         "comment": "Copied from tde.space;"
     },
-    "coordinate": [
-        {
-            "ra": "00:47:08.64",
-            "dec": "-20:45:36",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [],
-            "coordinate_type": "equitorial"
-        }
-    ],
+    "name": {
+        "default_name": "NGC 247",
+        "alias": [
+            {
+                "value": "NGC 247",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "distance": [
         {
             "value": "0.000531",
@@ -68,17 +53,22 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "NGC 247",
-        "alias": [
+    "classification": {
+        "value": [
             {
-                "value": "NGC 247",
+                "object_class": "TDE",
+                "confidence": 1.0,
                 "reference": [
+                    "2011ApJ...737...87J",
+                    "2015ApJ...807..185F",
                     "2017ApJ...838..149A",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
             }
-        ]
+        ],
+        "spec_classed": 0,
+        "unambiguous": true
     },
     "reference_alias": [
         {
@@ -108,6 +98,16 @@
         {
             "name": "2011ApJ...737...87J",
             "human_readable_name": "Jin, Jing et al. (2011)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "00:47:08.64",
+            "dec": "-20:45:36",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [],
+            "coordinate_type": "equatorial"
         }
     ],
     "host": [

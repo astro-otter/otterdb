@@ -1,38 +1,26 @@
 {
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 3.1,
-                "reference": [
-                    "2011ApJ...740...85W",
-                    "2017ApJ...835...64G",
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 1,
-        "unambiguous": true
-    },
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)",
         "comment": "Copied from tde.space;"
     },
-    "coordinate": [
-        {
-            "ra": "07:48:20.67",
-            "dec": "+47:12:14.23",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
+    "name": {
+        "default_name": "SDSSJ0748",
+        "alias": [
+            {
+                "value": "SDSS J0748",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "SDSSJ0748",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            }
+        ]
+    },
     "distance": [
         {
             "value": "0.0615",
@@ -70,22 +58,22 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "SDSSJ0748",
-        "alias": [
+    "classification": {
+        "value": [
             {
-                "value": "SDSS J0748",
+                "object_class": "TDE",
+                "confidence": 3.1,
                 "reference": [
+                    "2011ApJ...740...85W",
+                    "2017ApJ...835...64G",
+                    "2017ApJ...838..149A",
                     "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "SDSSJ0748",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
+                ],
+                "default": true
             }
-        ]
+        ],
+        "spec_classed": 1,
+        "unambiguous": true
     },
     "reference_alias": [
         {
@@ -113,14 +101,16 @@
             "human_readable_name": "Wang, Ting-Gui et al. (2011)"
         }
     ],
-    "filter_alias": [
+    "coordinate": [
         {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
+            "ra": "07:48:20.67",
+            "dec": "+47:12:14.23",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equatorial"
         }
     ],
     "photometry": [
@@ -235,6 +225,16 @@
                 }
             ],
             "corr_s": null
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "host": [

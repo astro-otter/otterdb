@@ -1,40 +1,27 @@
 {
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 0,
-                "reference": [
-                    "2012ApJ...756...27L",
-                    "2012ApJ...759L..16H",
-                    "2013ApJ...776L..10L",
-                    "2017ApJ...835...64G",
-                    "2017MNRAS.468..783L",
-                    "2023PASP..135c4101G"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 0,
-        "unambiguous": false
-    },
     "schema_version": {
         "value": 0,
         "comments": "From Goldtooth et al. (2023)",
         "comment": "Copied from tde.space;"
     },
-    "coordinate": [
-        {
-            "ra": "12:31:03.2",
-            "dec": "+11:06:48",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017arXiv170206956L"
-            ],
-            "coordinate_type": "equitorial"
-        }
-    ],
+    "name": {
+        "default_name": "2XMM J123103.2+110648",
+        "alias": [
+            {
+                "value": "XJ1231+1106",
+                "reference": [
+                    "2017arXiv170206956L"
+                ]
+            },
+            {
+                "value": "2XMM J123103.2+110648",
+                "reference": [
+                    "2017arXiv170206956L",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ]
+    },
     "distance": [
         {
             "value": "0.118",
@@ -79,23 +66,24 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "2XMM J123103.2+110648",
-        "alias": [
+    "classification": {
+        "value": [
             {
-                "value": "XJ1231+1106",
+                "object_class": "TDE",
+                "confidence": 0,
                 "reference": [
-                    "2017arXiv170206956L"
-                ]
-            },
-            {
-                "value": "2XMM J123103.2+110648",
-                "reference": [
-                    "2017arXiv170206956L",
+                    "2012ApJ...756...27L",
+                    "2012ApJ...759L..16H",
+                    "2013ApJ...776L..10L",
+                    "2017ApJ...835...64G",
+                    "2017MNRAS.468..783L",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
             }
-        ]
+        ],
+        "spec_classed": 0,
+        "unambiguous": false
     },
     "reference_alias": [
         {
@@ -133,6 +121,18 @@
         {
             "name": "2012ApJ...759L..16H",
             "human_readable_name": "Ho, Luis C. et al. (2012)"
+        }
+    ],
+    "coordinate": [
+        {
+            "ra": "12:31:03.2",
+            "dec": "+11:06:48",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017arXiv170206956L"
+            ],
+            "coordinate_type": "equatorial"
         }
     ],
     "host": [
