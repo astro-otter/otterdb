@@ -1,21 +1,35 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
-    "name": {
-        "default_name": "NGC 247",
-        "alias": [
+    "_key": "884599",
+    "_id": "transients/884599",
+    "_rev": "_j6Y8bxu---",
+    "classification": {
+        "spec_classed": 0,
+        "unambiguous": true,
+        "value": [
             {
-                "value": "NGC 247",
+                "object_class": "TDE",
+                "confidence": 1,
                 "reference": [
+                    "2011ApJ...737...87J",
+                    "2015ApJ...807..185F",
                     "2017ApJ...838..149A",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
             }
-        ]
+        ],
+        "discovery_method": "xray"
     },
+    "coordinate": [
+        {
+            "ra": "00:47:08.64",
+            "dec": "-20:45:36",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [],
+            "coordinate_type": "equatorial"
+        }
+    ],
     "distance": [
         {
             "value": "0.000531",
@@ -53,22 +67,22 @@
             "default": true
         }
     ],
-    "classification": {
-        "value": [
+    "schema_version": {
+        "comment": "Copied from tde.space;",
+        "comments": "From Goldtooth et al. (2023)",
+        "value": 0
+    },
+    "name": {
+        "alias": [
             {
-                "object_class": "TDE",
-                "confidence": 1.0,
+                "value": "NGC 247",
                 "reference": [
-                    "2011ApJ...737...87J",
-                    "2015ApJ...807..185F",
                     "2017ApJ...838..149A",
                     "2023PASP..135c4101G"
-                ],
-                "default": true
+                ]
             }
         ],
-        "spec_classed": 0,
-        "unambiguous": true
+        "default_name": "NGC 247"
     },
     "reference_alias": [
         {
@@ -100,14 +114,18 @@
             "human_readable_name": "Jin, Jing et al. (2011)"
         }
     ],
-    "coordinate": [
+    "date_reference": [
         {
-            "ra": "00:47:08.64",
-            "dec": "-20:45:36",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [],
-            "coordinate_type": "equatorial"
+            "value": "2014-07-01 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2023PASP..135c4101G",
+                "2011ApJ...737...87J",
+                "2015ApJ...807..185F",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         }
     ],
     "host": [
@@ -123,20 +141,6 @@
                 "2015ApJ...807..185F",
                 "2017ApJ...838..149A"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2014-07-01 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2011ApJ...737...87J",
-                "2015ApJ...807..185F",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
         }
     ]
 }

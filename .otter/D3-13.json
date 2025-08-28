@@ -1,53 +1,46 @@
 {
-    "distance": [
-        {
-            "value": "0.3698",
-            "distance_type": "redshift",
-            "reference": [
-                "2006ApJ...653L..25G",
-                "2008ApJ...676..944G",
-                "2011ApJ...732L..12B",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "133.0",
-            "distance_type": "dispersion_measure",
-            "unit": "km/s",
-            "reference": [
-                "2017MNRAS.471.1694W",
-                "2024MNRAS.527.2452M"
-            ],
-            "default": true
-        },
-        {
-            "value": "1491",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2006ApJ...653L..25G",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "2042",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2006ApJ...653L..25G",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
+    "_key": "884880",
+    "_id": "transients/884880",
+    "_rev": "_j6Z_iJy---",
+    "classification": {
+        "spec_classed": 3,
+        "unambiguous": true,
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 3.3,
+                "reference": [
+                    "2008ApJ...676..944G",
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G",
+                    "2024MNRAS.527.2452M",
+                    "['2011ApJ...732L..12B', '2020SSRv..216...81A']"
+                ],
+                "default": true
+            }
+        ],
+        "discovery_method": "uvoir"
+    },
+    "name": {
+        "alias": [
+            {
+                "value": "D3-13",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "GALEX-D3-13",
+                "reference": [
+                    "2008ApJ...676..944G",
+                    "2024MNRAS.527.2452M",
+                    "2008ApJ...676..944G"
+                ]
+            }
+        ],
+        "default_name": "D3-13"
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -104,94 +97,6 @@
         {
             "name": "2011ApJ...732L..12B",
             "human_readable_name": "Bower, Geoffrey C. (2011)"
-        }
-    ],
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 3.3,
-                "reference": [
-                    "2008ApJ...676..944G",
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G",
-                    "2024MNRAS.527.2452M",
-                    "['2011ApJ...732L..12B', '2020SSRv..216...81A']"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 3,
-        "unambiguous": true
-    },
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "B.uvot",
-            "filter_name": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "F125LP",
-            "filter_name": "F125LP",
-            "freq_eff": 2105859020713276.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "F150LP",
-            "filter_name": "F150LP",
-            "freq_eff": 1872747059283952.8,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "FUV",
-            "filter_name": "FUV",
-            "freq_eff": 1956520502303101.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "NUV",
-            "filter_name": "NUV",
-            "freq_eff": 1322268446213041.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "filter_name": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "g.sdss",
-            "filter_name": "g.sdss",
-            "freq_eff": 646569472243250.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.sdss",
-            "filter_name": "r.sdss",
-            "freq_eff": 488925642232043.75,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "1.4GHz",
-            "filter_name": "L",
-            "freq_eff": 1.4,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "5.0GHz",
-            "filter_name": "C",
-            "freq_eff": 5.0,
-            "freq_units": "GHz"
         }
     ],
     "photometry": [
@@ -253,7 +158,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -271,7 +176,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -327,7 +232,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -399,7 +304,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -417,7 +322,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -435,7 +340,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -499,7 +404,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -517,7 +422,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -801,10 +706,10 @@
         {
             "reference": "['2011ApJ...732L..12B', '2020SSRv..216...81A']",
             "raw": [
-                45.0
+                45
             ],
             "raw_err": [
-                0.0
+                0
             ],
             "raw_units": "uJy",
             "date": [
@@ -829,10 +734,10 @@
         {
             "reference": "['2013A&A...552A...5V', '2020SSRv..216...81A']",
             "raw": [
-                24.0
+                24
             ],
             "raw_err": [
-                0.0
+                0
             ],
             "raw_units": "uJy",
             "date": [
@@ -853,6 +758,55 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.3698",
+            "distance_type": "redshift",
+            "reference": [
+                "2006ApJ...653L..25G",
+                "2008ApJ...676..944G",
+                "2011ApJ...732L..12B",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "133.0",
+            "distance_type": "dispersion_measure",
+            "unit": "km/s",
+            "reference": [
+                "2017MNRAS.471.1694W",
+                "2024MNRAS.527.2452M"
+            ],
+            "default": true
+        },
+        {
+            "value": "1491",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2006ApJ...653L..25G",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "2042",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2006ApJ...653L..25G",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
@@ -891,26 +845,76 @@
             ]
         }
     ],
-    "name": {
-        "default_name": "D3-13",
-        "alias": [
-            {
-                "value": "D3-13",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "GALEX-D3-13",
-                "reference": [
-                    "2008ApJ...676..944G",
-                    "2024MNRAS.527.2452M",
-                    "2008ApJ...676..944G"
-                ]
-            }
-        ]
-    },
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "B.uvot",
+            "filter_name": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "F125LP",
+            "filter_name": "F125LP",
+            "freq_eff": 2105859020713276.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "F150LP",
+            "filter_name": "F150LP",
+            "freq_eff": 1872747059283952.8,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "FUV",
+            "filter_name": "FUV",
+            "freq_eff": 1956520502303101,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "NUV",
+            "filter_name": "NUV",
+            "freq_eff": 1322268446213041.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
+            "freq_eff": 1198891057872408,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "g.sdss",
+            "filter_name": "g.sdss",
+            "freq_eff": 646569472243250,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.sdss",
+            "filter_name": "r.sdss",
+            "freq_eff": 488925642232043.75,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "1.4GHz",
+            "filter_name": "L",
+            "freq_eff": 1.4,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "5.0GHz",
+            "filter_name": "C",
+            "freq_eff": 5,
+            "freq_units": "GHz"
+        }
+    ],
     "date_reference": [
         {
             "value": "2004-01-15",
@@ -951,8 +955,8 @@
         }
     ],
     "schema_version": {
-        "value": 0,
+        "comment": "Copied from tde.space;",
         "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
+        "value": 0
     }
 }

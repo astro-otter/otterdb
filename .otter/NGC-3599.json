@@ -1,21 +1,45 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
-    "name": {
-        "default_name": "NGC 3599",
-        "alias": [
+    "_key": "884632",
+    "_id": "transients/884632",
+    "_rev": "_j6Y8xMS---",
+    "classification": {
+        "spec_classed": 0,
+        "unambiguous": true,
+        "value": [
             {
-                "value": "NGC 3599",
+                "object_class": "TDE",
+                "confidence": 1,
                 "reference": [
+                    "2007A&A...462L..49E",
                     "2017ApJ...838..149A",
+                    "2017IAUS..324..123S",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
+            },
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2017ApJ...838..149A"
+                ],
+                "default": false
             }
-        ]
+        ],
+        "discovery_method": "xray"
     },
+    "coordinate": [
+        {
+            "ra": "11:15:26.95",
+            "dec": "+18:06:37.33",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
     "distance": [
         {
             "value": "0.002699",
@@ -53,30 +77,46 @@
             "default": true
         }
     ],
-    "classification": {
-        "value": [
+    "date_reference": [
+        {
+            "value": "2002-05-27",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": false
+        },
+        {
+            "value": "2002-05-27 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2007A&A...462L..49E",
+                "2017ApJ...838..149A",
+                "2017IAUS..324..123S",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "comment": "Copied from tde.space;",
+        "comments": "From Goldtooth et al. (2023)",
+        "value": 0
+    },
+    "name": {
+        "alias": [
             {
-                "object_class": "TDE",
-                "confidence": 1.0,
+                "value": "NGC 3599",
                 "reference": [
-                    "2007A&A...462L..49E",
                     "2017ApJ...838..149A",
-                    "2017IAUS..324..123S",
                     "2023PASP..135c4101G"
-                ],
-                "default": true
-            },
-            {
-                "object_class": "TDE",
-                "confidence": 0,
-                "reference": [
-                    "2017ApJ...838..149A"
-                ],
-                "default": false
+                ]
             }
         ],
-        "spec_classed": 0,
-        "unambiguous": true
+        "default_name": "NGC 3599"
     },
     "reference_alias": [
         {
@@ -104,40 +144,14 @@
             "human_readable_name": "Saxton, Richard et al. (2017)"
         }
     ],
-    "date_reference": [
+    "filter_alias": [
         {
-            "value": "2002-05-27",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": false
-        },
-        {
-            "value": "2002-05-27 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2007A&A...462L..49E",
-                "2017ApJ...838..149A",
-                "2017IAUS..324..123S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "11:15:26.95",
-            "dec": "+18:06:37.33",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equatorial"
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "photometry": [
@@ -194,7 +208,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -250,7 +264,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -362,7 +376,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -380,7 +394,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -398,7 +412,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -416,7 +430,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -434,7 +448,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -452,7 +466,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -470,7 +484,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -488,7 +502,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -600,7 +614,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -618,7 +632,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -636,7 +650,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -654,7 +668,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -672,7 +686,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -690,7 +704,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -708,7 +722,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -726,21 +740,11 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
             "corr_s": null
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
         }
     ],
     "host": [

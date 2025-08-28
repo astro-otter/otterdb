@@ -1,41 +1,50 @@
 {
-    "distance": [
-        {
-            "value": "0.146",
-            "distance_type": "redshift",
-            "reference": [
-                "2012A&A...541A.106S",
-                "2017ApJ...838..149A",
-                "2017IAUS..324..123S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "624",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2012A&A...541A.106S",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "715",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2012A&A...541A.106S",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
+    "_key": "884611",
+    "_id": "transients/884611",
+    "_rev": "_j6Y8iOm---",
+    "classification": {
+        "spec_classed": 3,
+        "unambiguous": true,
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 3.3,
+                "reference": [
+                    "2012A&A...541A.106S",
+                    "2017ApJ...835...64G",
+                    "2017ApJ...838..149A",
+                    "2017IAUS..324..123S",
+                    "2023PASP..135c4101G",
+                    "['2012A&A...541A.106S', '2020SSRv..216...81A']"
+                ],
+                "default": true
+            }
+        ],
+        "discovery_method": "xray"
+    },
+    "name": {
+        "alias": [
+            {
+                "value": "SDSSJ1201+30",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            },
+            {
+                "value": "SDSSJ1201",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            },
+            {
+                "value": "SDSS J1201+30",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ],
+        "default_name": "SDSSJ1201"
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -64,41 +73,6 @@
         {
             "name": "2020SSRv..216...81A",
             "human_readable_name": "Alexander, Kate D. et al. (2020)"
-        }
-    ],
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 3.3,
-                "reference": [
-                    "2012A&A...541A.106S",
-                    "2017ApJ...835...64G",
-                    "2017ApJ...838..149A",
-                    "2017IAUS..324..123S",
-                    "2023PASP..135c4101G",
-                    "['2012A&A...541A.106S', '2020SSRv..216...81A']"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 3,
-        "unambiguous": true
-    },
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "4.8GHz",
-            "filter_name": "C",
-            "freq_eff": 4.8,
-            "freq_units": "GHz"
         }
     ],
     "photometry": [
@@ -152,7 +126,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -221,7 +195,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -236,7 +210,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -251,7 +225,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -352,7 +326,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -367,7 +341,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -382,7 +356,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -397,7 +371,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -412,7 +386,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -427,7 +401,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -442,7 +416,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -451,10 +425,10 @@
         {
             "reference": "['2012A&A...541A.106S', '2020SSRv..216...81A']",
             "raw": [
-                135.0
+                135
             ],
             "raw_err": [
-                0.0
+                0
             ],
             "raw_units": "uJy",
             "date": [
@@ -475,6 +449,43 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.146",
+            "distance_type": "redshift",
+            "reference": [
+                "2012A&A...541A.106S",
+                "2017ApJ...838..149A",
+                "2017IAUS..324..123S",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "624",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2012A&A...541A.106S",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "715",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2012A&A...541A.106S",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
@@ -501,29 +512,22 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "SDSSJ1201",
-        "alias": [
-            {
-                "value": "SDSSJ1201+30",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
-            },
-            {
-                "value": "SDSSJ1201",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
-            },
-            {
-                "value": "SDSS J1201+30",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "4.8GHz",
+            "filter_name": "C",
+            "freq_eff": 4.8,
+            "freq_units": "GHz"
+        }
+    ],
     "date_reference": [
         {
             "value": "2010-06-10",
@@ -564,8 +568,8 @@
         }
     ],
     "schema_version": {
-        "value": 0,
+        "comment": "Copied from tde.space;",
         "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
+        "value": 0
     }
 }

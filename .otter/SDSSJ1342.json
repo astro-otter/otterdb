@@ -1,58 +1,48 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;;"
-    },
-    "name": {
-        "default_name": "SDSSJ1342",
-        "alias": [
+    "_key": "884616",
+    "_id": "transients/884616",
+    "_rev": "_j6Y8j1W---",
+    "classification": {
+        "spec_classed": 0,
+        "unambiguous": true,
+        "value": [
             {
-                "value": "SDSS J1342",
+                "object_class": "TDE",
+                "confidence": 1,
                 "reference": [
+                    "2013ApJ...774...46Y",
+                    "2017ApJ...835...64G",
+                    "2017ApJ...838..149A",
+                    "2018MNRAS.477.2943W",
                     "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "J134244",
-                "reference": [
-                    "2018arXiv180205105W",
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "SDSSJ1342",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
+                ],
+                "default": true
             }
-        ]
+        ],
+        "discovery_method": "xray"
     },
-    "host": [
+    "coordinate": [
         {
-            "host_ra": "205.6833333333333",
-            "host_dec": "5.515594444444444",
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "host_name": "SDSS J134244.41+053056.1",
+            "ra": "13:42:44.41",
+            "dec": "+05:30:56.2",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equatorial",
+            "default": true,
             "reference": [
-                "2013ApJ...774...46Y",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
+                "2018arXiv180205105W"
+            ]
         },
         {
-            "host_ra": "205.6833333333333",
-            "host_dec": "5.515611111111111",
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "host_name": "SDSS J134244.41+053056.2",
+            "ra": "13:42:44.42",
+            "dec": "+05:30:56.14",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "coordinate_type": "equatorial",
+            "default": false,
             "reference": [
-                "2018MNRAS.477.2943W",
-                "2023PASP..135c4101G"
-            ],
-            "default": false
+                "2017ApJ...838..149A"
+            ]
         }
     ],
     "distance": [
@@ -114,62 +104,6 @@
             "default": true
         }
     ],
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 1.0,
-                "reference": [
-                    "2013ApJ...774...46Y",
-                    "2017ApJ...835...64G",
-                    "2017ApJ...838..149A",
-                    "2018MNRAS.477.2943W",
-                    "2023PASP..135c4101G"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 0,
-        "unambiguous": true
-    },
-    "reference_alias": [
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2012ApJ...749..115W",
-            "human_readable_name": "Wang et al. (2012)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2018arXiv180205105W",
-            "human_readable_name": "Wang et al. (2018)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2018MNRAS.477.2943W",
-            "human_readable_name": "Wang, Tinggui et al. (2018)"
-        },
-        {
-            "name": "2013ApJ...774...46Y",
-            "human_readable_name": "Yang, Chen-Wei et al. (2013)"
-        }
-    ],
     "date_reference": [
         {
             "value": "2009-04-06",
@@ -213,28 +147,126 @@
             "default": true
         }
     ],
-    "coordinate": [
+    "schema_version": {
+        "comment": "Copied from tde.space;;",
+        "comments": "From Goldtooth et al. (2023)",
+        "value": 0
+    },
+    "name": {
+        "alias": [
+            {
+                "value": "SDSS J1342",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "J134244",
+                "reference": [
+                    "2018arXiv180205105W",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "SDSSJ1342",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            }
+        ],
+        "default_name": "SDSSJ1342"
+    },
+    "host": [
         {
-            "ra": "13:42:44.41",
-            "dec": "+05:30:56.2",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equatorial",
-            "default": true,
+            "host_ra": "205.6833333333333",
+            "host_dec": "5.515594444444444",
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "host_name": "SDSS J134244.41+053056.1",
             "reference": [
-                "2018arXiv180205105W"
-            ]
+                "2013ApJ...774...46Y",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
         },
         {
-            "ra": "13:42:44.42",
-            "dec": "+05:30:56.14",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "coordinate_type": "equatorial",
-            "default": false,
+            "host_ra": "205.6833333333333",
+            "host_dec": "5.515611111111111",
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "host_name": "SDSS J134244.41+053056.2",
             "reference": [
-                "2017ApJ...838..149A"
-            ]
+                "2018MNRAS.477.2943W",
+                "2023PASP..135c4101G"
+            ],
+            "default": false
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2012ApJ...749..115W",
+            "human_readable_name": "Wang et al. (2012)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2018arXiv180205105W",
+            "human_readable_name": "Wang et al. (2018)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2018MNRAS.477.2943W",
+            "human_readable_name": "Wang, Tinggui et al. (2018)"
+        },
+        {
+            "name": "2013ApJ...774...46Y",
+            "human_readable_name": "Yang, Chen-Wei et al. (2013)"
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "V",
+            "wave_eff": 551,
+            "wave_units": "nm",
+            "filter_name": "V"
+        },
+        {
+            "filter_key": "W1",
+            "wave_eff": 3352.6,
+            "wave_units": "nm",
+            "filter_name": "W1"
+        },
+        {
+            "filter_key": "W2",
+            "wave_eff": 4602.8,
+            "wave_units": "nm",
+            "filter_name": "W2"
         }
     ],
     "photometry": [
@@ -288,7 +320,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -347,7 +379,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -360,7 +392,7 @@
             "raw_err": [
                 0.011
             ],
-            "raw_units": "mag(AB)",
+            "raw_units": "vega",
             "filter_key": [
                 "V"
             ],
@@ -421,7 +453,7 @@
                 0.021,
                 0.047
             ],
-            "raw_units": "mag(AB)",
+            "raw_units": "vega",
             "filter_key": [
                 "W1",
                 "W2",
@@ -504,34 +536,6 @@
                 "2018arXiv180205105W"
             ],
             "corr_s": null
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm",
-            "filter_name": "V"
-        },
-        {
-            "filter_key": "W1",
-            "wave_eff": 224.6,
-            "wave_units": "nm",
-            "filter_name": "W1"
-        },
-        {
-            "filter_key": "W2",
-            "wave_eff": 192.8,
-            "wave_units": "nm",
-            "filter_name": "W2"
         }
     ]
 }

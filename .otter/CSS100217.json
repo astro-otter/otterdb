@@ -1,36 +1,47 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
-    "name": {
-        "default_name": "CSS100217",
-        "alias": [
+    "_key": "884628",
+    "_id": "transients/884628",
+    "_rev": "_j6Y8uDy---",
+    "classification": {
+        "spec_classed": 1,
+        "unambiguous": true,
+        "value": [
             {
-                "value": "CSS 100217",
+                "object_class": "TDE",
+                "confidence": 3.1,
                 "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "CSS100217",
-                "reference": [
+                    "2011ApJ...735..106D",
                     "2017ApJ...838..149A",
-                    "2011ApJ...735..106D",
-                    "2010ATel.2544....1D"
-                ]
+                    "2017NatAs...1..865K",
+                    "2017arXiv170307816B",
+                    "2023PASP..135c4101G"
+                ],
+                "default": true
             },
             {
-                "value": "CSS100217:102913+404220",
+                "object_class": "TDE",
+                "confidence": 0,
                 "reference": [
-                    "2011ApJ...735..106D",
-                    "2010ATel.2544....1D",
-                    "2000A&AS..143....9W"
-                ]
+                    "2011ApJ...735..106D"
+                ],
+                "default": false
             }
-        ]
+        ],
+        "discovery_method": "uvoir"
     },
+    "coordinate": [
+        {
+            "ra": "10:29:13.0",
+            "dec": "+40:42:20",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2011BASI...39..387M",
+                "2000A&AS..143....9W"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
     "distance": [
         {
             "value": "0.147",
@@ -66,31 +77,61 @@
             "default": true
         }
     ],
-    "classification": {
-        "value": [
+    "date_reference": [
+        {
+            "value": "2002-12-31",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2011ApJ...735..106D",
+                "2017ApJ...835...64G"
+            ],
+            "default": false
+        },
+        {
+            "value": "2002-12-31 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2011ApJ...735..106D",
+                "2017ApJ...838..149A",
+                "2017NatAs...1..865K",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "comment": "Copied from tde.space;",
+        "comments": "From Goldtooth et al. (2023)",
+        "value": 0
+    },
+    "name": {
+        "alias": [
             {
-                "object_class": "TDE",
-                "confidence": 3.1,
+                "value": "CSS 100217",
                 "reference": [
-                    "2011ApJ...735..106D",
-                    "2017ApJ...838..149A",
-                    "2017NatAs...1..865K",
-                    "2017arXiv170307816B",
                     "2023PASP..135c4101G"
-                ],
-                "default": true
+                ]
             },
             {
-                "object_class": "TDE",
-                "confidence": 0,
+                "value": "CSS100217:102913+404220",
                 "reference": [
-                    "2011ApJ...735..106D"
-                ],
-                "default": false
+                    "2011ApJ...735..106D",
+                    "2010ATel.2544....1D",
+                    "2000A&AS..143....9W"
+                ]
+            },
+            {
+                "value": "CSS100217",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2011ApJ...735..106D",
+                    "2010ATel.2544....1D"
+                ]
             }
         ],
-        "spec_classed": 1,
-        "unambiguous": true
+        "default_name": "CSS100217"
     },
     "reference_alias": [
         {
@@ -138,41 +179,110 @@
             "human_readable_name": "Kankare, E. et al. (2017)"
         }
     ],
-    "date_reference": [
+    "filter_alias": [
         {
-            "value": "2002-12-31",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2011ApJ...735..106D",
-                "2017ApJ...835...64G"
-            ],
-            "default": false
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         },
         {
-            "value": "2002-12-31 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2011ApJ...735..106D",
-                "2017ApJ...838..149A",
-                "2017NatAs...1..865K",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
+            "filter_key": "H",
+            "wave_eff": 1630,
+            "wave_units": "nm",
+            "filter_name": "H"
+        },
         {
-            "ra": "10:29:13.0",
-            "dec": "+40:42:20",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2011BASI...39..387M",
-                "2000A&AS..143....9W"
-            ],
-            "coordinate_type": "equatorial"
+            "filter_key": "J",
+            "wave_eff": 1220,
+            "wave_units": "nm",
+            "filter_name": "J"
+        },
+        {
+            "filter_key": "Ks",
+            "wave_eff": 2157.3600605745955,
+            "wave_units": "nm",
+            "filter_name": "Ks"
+        },
+        {
+            "filter_key": "g",
+            "wave_eff": 475,
+            "wave_units": "nm",
+            "filter_name": "g"
+        },
+        {
+            "filter_key": "i",
+            "wave_eff": 763,
+            "wave_units": "nm",
+            "filter_name": "i"
+        },
+        {
+            "filter_key": "r",
+            "wave_eff": 622,
+            "wave_units": "nm",
+            "filter_name": "r"
+        },
+        {
+            "filter_key": "z",
+            "wave_eff": 905,
+            "wave_units": "nm",
+            "filter_name": "z"
+        },
+        {
+            "filter_key": "u",
+            "wave_eff": 354,
+            "wave_units": "nm",
+            "filter_name": "u"
+        },
+        {
+            "filter_key": "B",
+            "wave_eff": 445,
+            "wave_units": "nm",
+            "filter_name": "B"
+        },
+        {
+            "filter_key": "I",
+            "wave_eff": 806,
+            "wave_units": "nm",
+            "filter_name": "I"
+        },
+        {
+            "filter_key": "R",
+            "wave_eff": 658,
+            "wave_units": "nm",
+            "filter_name": "R"
+        },
+        {
+            "filter_key": "U",
+            "wave_eff": 365,
+            "wave_units": "nm",
+            "filter_name": "U"
+        },
+        {
+            "filter_key": "V",
+            "wave_eff": 551,
+            "wave_units": "nm",
+            "filter_name": "V"
+        },
+        {
+            "filter_key": "UVM2",
+            "wave_eff": 260,
+            "wave_units": "nm",
+            "filter_name": "UVM2"
+        },
+        {
+            "filter_key": "UVW1",
+            "wave_eff": 224.6,
+            "wave_units": "nm",
+            "filter_name": "UVW1"
+        },
+        {
+            "filter_key": "UVW2",
+            "wave_eff": 192.8,
+            "wave_units": "nm",
+            "filter_name": "UVW2"
         }
     ],
     "photometry": [
@@ -226,7 +336,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -295,7 +405,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -310,7 +420,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -325,7 +435,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -389,7 +499,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -407,7 +517,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -472,7 +582,7 @@
                 0.11,
                 0.09
             ],
-            "raw_units": "mag(AB)",
+            "raw_units": "vega",
             "filter_key": [
                 "H",
                 "J",
@@ -1065,7 +1175,7 @@
                 0.3,
                 0.13
             ],
-            "raw_units": "mag(AB)",
+            "raw_units": "vega",
             "filter_key": [
                 "B",
                 "I",
@@ -1550,7 +1660,32 @@
                 0.02,
                 0.04
             ],
-            "raw_units": "mag(AB)",
+            "raw_units": [
+                "vega",
+                "vega",
+                "mag(AB)",
+                "mag(AB)",
+                "mag(AB)",
+                "vega",
+                "vega",
+                "vega",
+                "mag(AB)",
+                "mag(AB)",
+                "mag(AB)",
+                "vega",
+                "vega",
+                "vega",
+                "mag(AB)",
+                "mag(AB)",
+                "mag(AB)",
+                "vega",
+                "vega",
+                "vega",
+                "mag(AB)",
+                "mag(AB)",
+                "mag(AB)",
+                "vega"
+            ],
             "filter_key": [
                 "B",
                 "U",
@@ -1665,112 +1800,6 @@
                 "2011ApJ...735..106D"
             ],
             "corr_s": null
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "H",
-            "wave_eff": 1630.0,
-            "wave_units": "nm",
-            "filter_name": "H"
-        },
-        {
-            "filter_key": "J",
-            "wave_eff": 1220.0,
-            "wave_units": "nm",
-            "filter_name": "J"
-        },
-        {
-            "filter_key": "Ks",
-            "wave_eff": 2157.3600605745955,
-            "wave_units": "nm",
-            "filter_name": "Ks"
-        },
-        {
-            "filter_key": "g",
-            "wave_eff": 475.0,
-            "wave_units": "nm",
-            "filter_name": "g"
-        },
-        {
-            "filter_key": "i",
-            "wave_eff": 763.0,
-            "wave_units": "nm",
-            "filter_name": "i"
-        },
-        {
-            "filter_key": "r",
-            "wave_eff": 622.0,
-            "wave_units": "nm",
-            "filter_name": "r"
-        },
-        {
-            "filter_key": "z",
-            "wave_eff": 905.0,
-            "wave_units": "nm",
-            "filter_name": "z"
-        },
-        {
-            "filter_key": "u",
-            "wave_eff": 354.0,
-            "wave_units": "nm",
-            "filter_name": "u"
-        },
-        {
-            "filter_key": "B",
-            "wave_eff": 445.0,
-            "wave_units": "nm",
-            "filter_name": "B"
-        },
-        {
-            "filter_key": "I",
-            "wave_eff": 806.0,
-            "wave_units": "nm",
-            "filter_name": "I"
-        },
-        {
-            "filter_key": "R",
-            "wave_eff": 658.0,
-            "wave_units": "nm",
-            "filter_name": "R"
-        },
-        {
-            "filter_key": "U",
-            "wave_eff": 365.0,
-            "wave_units": "nm",
-            "filter_name": "U"
-        },
-        {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm",
-            "filter_name": "V"
-        },
-        {
-            "filter_key": "UVM2",
-            "wave_eff": 225.47802478793594,
-            "wave_units": "nm",
-            "filter_name": "UVM2"
-        },
-        {
-            "filter_key": "UVW1",
-            "wave_eff": 261.3713060531025,
-            "wave_units": "nm",
-            "filter_name": "UVW1"
-        },
-        {
-            "filter_key": "UVW2",
-            "wave_eff": 207.98754332676123,
-            "wave_units": "nm",
-            "filter_name": "UVW2"
         }
     ],
     "host": [

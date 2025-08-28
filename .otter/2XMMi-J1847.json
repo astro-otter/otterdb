@@ -1,27 +1,37 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
-    "name": {
-        "default_name": "2XMMi J1847",
-        "alias": [
+    "_key": "884971",
+    "_id": "transients/884971",
+    "_rev": "_j6ZA412---",
+    "classification": {
+        "spec_classed": 0,
+        "unambiguous": true,
+        "value": [
             {
-                "value": "2XMMi J1847",
-                "reference": [
-                    "2011ApJ...738...52L"
-                ]
-            },
-            {
-                "value": "2XMMi J184725.1-631724",
+                "object_class": "TDE",
+                "confidence": 1,
                 "reference": [
                     "2011ApJ...738...52L",
+                    "2017ApJ...835...64G",
+                    "2018MNRAS.474.3000L",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
             }
-        ]
+        ],
+        "discovery_method": "xray"
     },
+    "coordinate": [
+        {
+            "ra": "18:47:25.16",
+            "dec": "-63:17:24.96",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2011ApJ...738...52L"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
     "distance": [
         {
             "value": "0.0353",
@@ -56,22 +66,28 @@
             "default": true
         }
     ],
-    "classification": {
-        "value": [
+    "schema_version": {
+        "comment": "Copied from tde.space;",
+        "comments": "From Goldtooth et al. (2023)",
+        "value": 0
+    },
+    "name": {
+        "alias": [
             {
-                "object_class": "TDE",
-                "confidence": 1.0,
+                "value": "2XMMi J1847",
+                "reference": [
+                    "2011ApJ...738...52L"
+                ]
+            },
+            {
+                "value": "2XMMi J184725.1-631724",
                 "reference": [
                     "2011ApJ...738...52L",
-                    "2017ApJ...835...64G",
-                    "2018MNRAS.474.3000L",
                     "2023PASP..135c4101G"
-                ],
-                "default": true
+                ]
             }
         ],
-        "spec_classed": 0,
-        "unambiguous": true
+        "default_name": "2XMMi J1847"
     },
     "reference_alias": [
         {
@@ -99,16 +115,17 @@
             "human_readable_name": "Lin, Dacheng et al. (2018)"
         }
     ],
-    "coordinate": [
+    "date_reference": [
         {
-            "ra": "18:47:25.16",
-            "dec": "-63:17:24.96",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "value": "2006-09-01 ",
+            "date_format": "iso",
+            "date_type": "discovery",
             "reference": [
-                "2011ApJ...738...52L"
+                "2023PASP..135c4101G",
+                "2011ApJ...738...52L",
+                "2018MNRAS.474.3000L"
             ],
-            "coordinate_type": "equatorial"
+            "default": true
         }
     ],
     "host": [
@@ -123,19 +140,6 @@
                 "2011ApJ...738...52L",
                 "2018MNRAS.474.3000L"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2006-09-01 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2011ApJ...738...52L",
-                "2018MNRAS.474.3000L"
-            ],
-            "default": true
         }
     ]
 }

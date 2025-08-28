@@ -1,28 +1,10 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
-    "name": {
-        "default_name": "CXOU J0332",
-        "alias": [
-            {
-                "value": "CXOU J033238.8-275134",
-                "reference": [
-                    "2017arXiv170204422B"
-                ]
-            },
-            {
-                "value": "CXOU J0332",
-                "reference": [
-                    "2017arXiv170204422B",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
+    "_key": "884963",
+    "_id": "transients/884963",
+    "_rev": "_j6ZAx_----",
     "classification": {
+        "spec_classed": 0,
+        "unambiguous": false,
         "value": [
             {
                 "object_class": "TDE",
@@ -35,29 +17,18 @@
                 "default": true
             }
         ],
-        "spec_classed": 0,
-        "unambiguous": false
+        "discovery_method": "xray"
     },
-    "reference_alias": [
+    "coordinate": [
         {
-            "name": "2017arXiv170204422B",
-            "human_readable_name": "Bauer et al. (2017)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2017MNRAS.467.4841B",
-            "human_readable_name": "Bauer, Franz E. et al. (2017)"
+            "ra": "03:32:38.8",
+            "dec": "-27:51:34",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017arXiv170204422B"
+            ],
+            "coordinate_type": "equatorial"
         }
     ],
     "date_reference": [
@@ -81,16 +52,61 @@
             "default": true
         }
     ],
-    "coordinate": [
+    "schema_version": {
+        "comment": "Copied from tde.space;",
+        "comments": "From Goldtooth et al. (2023)",
+        "value": 0
+    },
+    "name": {
+        "alias": [
+            {
+                "value": "CXOU J033238.8-275134",
+                "reference": [
+                    "2017arXiv170204422B"
+                ]
+            },
+            {
+                "value": "CXOU J0332",
+                "reference": [
+                    "2017arXiv170204422B",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ],
+        "default_name": "CXOU J0332"
+    },
+    "reference_alias": [
         {
-            "ra": "03:32:38.8",
-            "dec": "-27:51:34",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "name": "2017arXiv170204422B",
+            "human_readable_name": "Bauer et al. (2017)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2017MNRAS.467.4841B",
+            "human_readable_name": "Bauer, Franz E. et al. (2017)"
+        }
+    ],
+    "distance": [
+        {
+            "value": "2.23",
             "reference": [
-                "2017arXiv170204422B"
+                "2023PASP..135c4101G",
+                "2017MNRAS.467.4841B"
             ],
-            "coordinate_type": "equatorial"
+            "computed": false,
+            "default": true,
+            "distance_type": "redshift"
         }
     ],
     "host": [
@@ -104,18 +120,6 @@
                 "2023PASP..135c4101G",
                 "2017MNRAS.467.4841B"
             ]
-        }
-    ],
-    "distance": [
-        {
-            "value": "2.23",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2017MNRAS.467.4841B"
-            ],
-            "computed": false,
-            "default": true,
-            "distance_type": "redshift"
         }
     ]
 }

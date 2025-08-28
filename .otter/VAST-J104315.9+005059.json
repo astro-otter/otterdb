@@ -1,0 +1,128 @@
+{
+    "_key": "3862415",
+    "_id": "transients/3862415",
+    "_rev": "_kGYonzS---",
+    "name": {
+        "default_name": "VAST J104315.9+005059",
+        "alias": [
+            {
+                "value": "VAST J104315.9+005059",
+                "reference": [
+                    "2024ApJ...973..104D"
+                ]
+            }
+        ]
+    },
+    "coordinate": [
+        {
+            "ra": 160.82,
+            "dec": 0.85,
+            "ra_units": "deg",
+            "dec_units": "deg",
+            "reference": [
+                "2024ApJ...973..104D"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
+    "classification": {
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 1,
+                "reference": [
+                    "2024ApJ...973..104D"
+                ]
+            }
+        ]
+    },
+    "schema_version": {
+        "comment": "Uploader:Noah Franz | Email:nfranz@arizona.edu"
+    },
+    "photometry": [
+        {
+            "reference": "2024ApJ...973..104D",
+            "raw": [
+                3
+            ],
+            "raw_err": [
+                0.3
+            ],
+            "raw_units": "mJy",
+            "date": [
+                59223
+            ],
+            "date_format": [
+                "mjd"
+            ],
+            "upperlimit": [
+                false
+            ],
+            "filter_key": [
+                "1.367GHz"
+            ],
+            "obs_type": "radio",
+            "telescope": "RACS",
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false
+        },
+        {
+            "reference": "2024ApJ...973..104D",
+            "raw": [
+                3.1,
+                2.7
+            ],
+            "raw_err": [
+                0.3,
+                0.4
+            ],
+            "raw_units": "mJy",
+            "date": [
+                58118,
+                59072
+            ],
+            "date_format": [
+                "mjd",
+                "mjd"
+            ],
+            "upperlimit": [
+                false,
+                false
+            ],
+            "filter_key": [
+                "3.0GHz",
+                "3.0GHz"
+            ],
+            "obs_type": "radio",
+            "telescope": "VLASS",
+            "val_k": false,
+            "val_s": false,
+            "val_host": false,
+            "val_av": false,
+            "val_hostav": false
+        }
+    ],
+    "filter_alias": [
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "wave_eff": 99930819.33333333,
+            "wave_units": "nm"
+        },
+        {
+            "filter_key": "1.367GHz",
+            "filter_name": "L",
+            "wave_eff": 219306845.64740306,
+            "wave_units": "nm"
+        }
+    ],
+    "reference_alias": [
+        {
+            "name": "2024ApJ...973..104D",
+            "human_readable_name": "Dykaar, Hannah et al. (2024)"
+        }
+    ]
+}

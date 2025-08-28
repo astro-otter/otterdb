@@ -1,9 +1,36 @@
 {
+    "_key": "885027",
+    "_id": "transients/885027",
+    "_rev": "_j6ZBRNm---",
+    "classification": {
+        "spec_classed": 3,
+        "unambiguous": true,
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 3.3,
+                "reference": [
+                    "2011Natur.476..425Z",
+                    "2011Sci...333..199L",
+                    "2011Sci...333..203B",
+                    "2012ApJ...748...36B",
+                    "2012MNRAS.421.1942W",
+                    "2013ApJ...767..152Z",
+                    "2016ApJ...819...51L",
+                    "2016MNRAS.462L..66Y",
+                    "2017ApJ...838..149A",
+                    "2018ApJ...854...86E",
+                    "2023PASP..135c4101G"
+                ],
+                "default": true
+            }
+        ],
+        "discovery_method": "uvoir"
+    },
     "name": {
-        "default_name": "Sw J1644+57",
         "alias": [
             {
-                "value": "Swift J164449.3+573451",
+                "value": "GRB 110328A",
                 "reference": [
                     "2011Sci...333..203B"
                 ]
@@ -24,7 +51,7 @@
                 ]
             },
             {
-                "value": "GRB 110328A",
+                "value": "Swift J164449.3+573451",
                 "reference": [
                     "2011Sci...333..203B"
                 ]
@@ -36,7 +63,8 @@
                     "2011Natur.476..425Z"
                 ]
             }
-        ]
+        ],
+        "default_name": "Sw J1644+57"
     },
     "coordinate": [
         {
@@ -48,7 +76,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": true,
-            "uuid": "9ef06e49-587c-493e-bdbc-375ce6d04d9e",
+            "uuid": "5d982d76-01a2-492a-b488-529e938386c6",
             "coordinate_type": "equatorial",
             "reference": [
                 "2011Natur.476..425Z",
@@ -99,7 +127,7 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "9ef06e49-587c-493e-bdbc-375ce6d04d9e"
+                "5d982d76-01a2-492a-b488-529e938386c6"
             ]
         }
     ],
@@ -163,25 +191,25 @@
         {
             "filter_key": "87.0GHz",
             "filter_name": "alma.3",
-            "freq_eff": 87.0,
+            "freq_eff": 87,
             "freq_units": "GHz"
         },
         {
             "filter_key": "200.0GHz",
             "filter_name": "alma.5",
-            "freq_eff": 200.0,
+            "freq_eff": 200,
             "freq_units": "GHz"
         },
         {
             "filter_key": "230.0GHz",
             "filter_name": "alma.6",
-            "freq_eff": 230.0,
+            "freq_eff": 230,
             "freq_units": "GHz"
         },
         {
             "filter_key": "345.0GHz",
             "filter_name": "alma.7",
-            "freq_eff": 345.0,
+            "freq_eff": 345,
             "freq_units": "GHz"
         },
         {
@@ -271,43 +299,43 @@
         {
             "filter_key": "30.0GHz",
             "filter_name": "Ka",
-            "freq_eff": 30.0,
+            "freq_eff": 30,
             "freq_units": "GHz"
         },
         {
             "filter_key": "37.0GHz",
             "filter_name": "Ka",
-            "freq_eff": 37.0,
+            "freq_eff": 37,
             "freq_units": "GHz"
         },
         {
             "filter_key": "15.0GHz",
             "filter_name": "Ku",
-            "freq_eff": 15.0,
+            "freq_eff": 15,
             "freq_units": "GHz"
         },
         {
             "filter_key": "44.0GHz",
             "filter_name": "alma.1",
-            "freq_eff": 44.0,
+            "freq_eff": 44,
             "freq_units": "GHz"
         },
         {
             "filter_key": "94.0GHz",
             "filter_name": "alma.3",
-            "freq_eff": 94.0,
+            "freq_eff": 94,
             "freq_units": "GHz"
         },
         {
             "filter_key": "225.0GHz",
             "filter_name": "alma.6",
-            "freq_eff": 225.0,
+            "freq_eff": 225,
             "freq_units": "GHz"
         },
         {
             "filter_key": "3.0GHz",
             "filter_name": "S",
-            "freq_eff": 3.0,
+            "freq_eff": 3,
             "freq_units": "GHz"
         },
         {
@@ -325,7 +353,7 @@
         {
             "filter_key": "6.0GHz",
             "filter_name": "C",
-            "freq_eff": 6.0,
+            "freq_eff": 6,
             "freq_units": "GHz"
         },
         {
@@ -861,7 +889,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -879,7 +907,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -959,7 +987,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -977,7 +1005,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -995,7 +1023,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1013,7 +1041,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -1210,7 +1238,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1225,7 +1253,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1240,7 +1268,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1255,7 +1283,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1270,7 +1298,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1285,7 +1313,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1300,7 +1328,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1315,7 +1343,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1330,7 +1358,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1345,7 +1373,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1360,7 +1388,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1375,7 +1403,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1390,7 +1418,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1405,7 +1433,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1420,7 +1448,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1435,7 +1463,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1450,7 +1478,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1465,7 +1493,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1480,7 +1508,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -1661,7 +1689,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1676,7 +1704,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1691,7 +1719,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1706,7 +1734,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1721,7 +1749,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1736,7 +1764,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1751,7 +1779,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1766,7 +1794,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1781,7 +1809,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1796,7 +1824,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1811,7 +1839,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1826,7 +1854,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1841,7 +1869,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1856,7 +1884,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1871,7 +1899,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1886,7 +1914,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -1901,7 +1929,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -1943,7 +1971,7 @@
                 15.94,
                 15.28,
                 17.91,
-                15.0,
+                15,
                 19.23,
                 16.47,
                 18.77,
@@ -2121,7 +2149,7 @@
                 0.97,
                 0.56,
                 0.39,
-                1.0,
+                1,
                 0.64,
                 1.11,
                 0.96,
@@ -3450,7 +3478,7 @@
             ],
             "raw_err": [
                 1.5,
-                1.0,
+                1,
                 1.5,
                 1.4,
                 1.5,
@@ -3551,7 +3579,7 @@
                 9.9,
                 8.92,
                 8.85,
-                8.0,
+                8,
                 8.87,
                 7.57,
                 8.05,
@@ -3563,11 +3591,11 @@
                 6.88,
                 5.78,
                 6.54,
-                6.0,
+                6,
                 5.38,
                 5.47,
                 5.55,
-                6.0,
+                6,
                 5.36,
                 5.16,
                 4.72,
@@ -4549,7 +4577,7 @@
                 0.5,
                 0.3,
                 0.3,
-                1.0
+                1
             ],
             "raw_units": "mJy",
             "date": [
@@ -4647,10 +4675,10 @@
                 9.38
             ],
             "raw_err": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
+                0,
+                0,
+                0,
+                0,
                 0.01,
                 0.02,
                 0.02,
@@ -4938,7 +4966,7 @@
                 14.1,
                 8.2,
                 7.4,
-                33.0,
+                33,
                 14.9,
                 11.7,
                 13.3,
@@ -4952,17 +4980,17 @@
             "raw_err": [
                 1.5,
                 1.2,
-                1.0,
-                0.0,
+                1,
+                0,
                 1.5,
                 0.4,
                 1.5,
                 1.4,
                 1.4,
                 2.2,
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
             ],
             "raw_units": "mJy",
             "date": [
@@ -5055,7 +5083,7 @@
             ],
             "raw_err": [
                 0.2,
-                0.0,
+                0,
                 0.06,
                 0.03,
                 0.03,
@@ -5063,7 +5091,7 @@
                 0.01,
                 0.01,
                 0.01,
-                0.0,
+                0,
                 0.03,
                 0.01,
                 0.02,
@@ -5156,7 +5184,7 @@
             "reference": "2011Sci...333..199L",
             "raw": [
                 22.29,
-                22.0
+                22
             ],
             "raw_err": [
                 0.05,
@@ -5252,7 +5280,7 @@
                 22.8
             ],
             "raw_err": [
-                0.0,
+                0,
                 0.02,
                 0.05,
                 0.05,
@@ -5487,11 +5515,11 @@
                 17.344
             ],
             "raw_err": [
-                0.0,
+                0,
                 0.284,
-                0.0,
+                0,
                 0.435,
-                0.0,
+                0,
                 0.306
             ],
             "raw_units": "vega",
@@ -6118,30 +6146,6 @@
             "corr_hostav": false
         }
     ],
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 3.3,
-                "reference": [
-                    "2011Natur.476..425Z",
-                    "2011Sci...333..199L",
-                    "2011Sci...333..203B",
-                    "2012ApJ...748...36B",
-                    "2012MNRAS.421.1942W",
-                    "2013ApJ...767..152Z",
-                    "2016ApJ...819...51L",
-                    "2016MNRAS.462L..66Y",
-                    "2017ApJ...838..149A",
-                    "2018ApJ...854...86E",
-                    "2023PASP..135c4101G"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 3,
-        "unambiguous": true
-    },
     "reference_alias": [
         {
             "name": "2011Natur.476..425Z",
@@ -6202,49 +6206,6 @@
         {
             "name": "2016ApJ...819...51L",
             "human_readable_name": "Levan, A. J. et al. (2016)"
-        }
-    ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Original Dataset;Copied from tde.space;"
-    },
-    "date_reference": [
-        {
-            "value": "2011-03-29",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": false
-        },
-        {
-            "value": "2011-03-29 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2011Sci...333..199L",
-                "2011Sci...333..203B",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": false
-        },
-        {
-            "value": "55648.54",
-            "date_format": "mjd",
-            "date_type": "discovery",
-            "reference": [
-                "2011Natur.476..425Z",
-                "2012ApJ...748...36B",
-                "2012MNRAS.421.1942W",
-                "2013ApJ...767..152Z",
-                "2016MNRAS.462L..66Y",
-                "2018ApJ...854...86E"
-            ],
-            "default": true
         }
     ],
     "distance": [
@@ -6311,5 +6272,48 @@
                 "2017ApJ...838..149A"
             ]
         }
-    ]
+    ],
+    "date_reference": [
+        {
+            "value": "2011-03-29",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": false
+        },
+        {
+            "value": "2011-03-29 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2011Sci...333..199L",
+                "2011Sci...333..203B",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": false
+        },
+        {
+            "value": "55648.54",
+            "date_format": "mjd",
+            "date_type": "discovery",
+            "reference": [
+                "2011Natur.476..425Z",
+                "2012ApJ...748...36B",
+                "2012MNRAS.421.1942W",
+                "2013ApJ...767..152Z",
+                "2016MNRAS.462L..66Y",
+                "2018ApJ...854...86E"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "comment": "Original Dataset;Copied from tde.space;",
+        "comments": "From Goldtooth et al. (2023)",
+        "value": 0
+    }
 }

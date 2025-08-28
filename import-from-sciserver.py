@@ -8,6 +8,11 @@ import otter
 
 def main():
 
+    import argparse
+    p = argparse.ArgumentParser()
+    p.add_argument("--local-url", default="http://localhost:8529")
+    args = p.parse_args()
+    
     # first pull the data from sciserver
     db = otter.Otter(
         url=os.environ['ARANGO_URL'],
@@ -17,7 +22,7 @@ def main():
     alldata = db.query()
 
     db_local = otter.Otter(
-        url="http://localhost:8529",
+        url=args.local_url,
         username="root",
         password=os.environ['ARANGO_ROOT_PASSWORD']
     )

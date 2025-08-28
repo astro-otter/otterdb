@@ -1,6 +1,26 @@
 {
+    "_key": "884829",
+    "_id": "transients/884829",
+    "_rev": "_j6Z-vF----",
+    "classification": {
+        "spec_classed": 3,
+        "unambiguous": true,
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 3.3,
+                "reference": [
+                    "2016TNSTR.480....1D",
+                    "2017IAUS..324..127W",
+                    "2018MNRAS.481..307K",
+                    "2023PASP..135c4101G"
+                ],
+                "default": true
+            }
+        ],
+        "discovery_method": "uvoir"
+    },
     "name": {
-        "default_name": "Gaia 16ajq",
         "alias": [
             {
                 "value": "GNTJ145301.70+422127.82",
@@ -14,7 +34,8 @@
                     "2023PASP..135c4101G"
                 ]
             }
-        ]
+        ],
+        "default_name": "Gaia 16ajq"
     },
     "coordinate": [
         {
@@ -42,28 +63,13 @@
             ]
         }
     ],
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 3.3,
-                "reference": [
-                    "2016TNSTR.480....1D",
-                    "2017IAUS..324..127W",
-                    "2018MNRAS.481..307K",
-                    "2023PASP..135c4101G"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 3,
-        "unambiguous": true
-    },
-    "date_reference": [
+    "host": [
         {
-            "value": "2016-03-29 ",
-            "date_format": "iso",
-            "date_type": "discovery",
+            "host_ra": "223.2583333333333",
+            "host_dec": "42.35777777777778",
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "host_name": "SDSS J145301.70+422127.8",
             "reference": [
                 "2016TNSTR.480....1D",
                 "2017IAUS..324..127W",
@@ -72,11 +78,9 @@
             "default": true
         },
         {
-            "value": "2457477.111",
-            "date_format": "jd",
-            "date_type": "discovery",
+            "host_name": "SDSSJ145301.70+422127.82",
             "reference": [
-                "2016TNSTR.481....1D"
+                "2018MNRAS.481..307K"
             ],
             "default": false
         }
@@ -103,13 +107,11 @@
             "human_readable_name": "Kostrzewa-Rutkowska, Z. et al. (2018)"
         }
     ],
-    "host": [
+    "date_reference": [
         {
-            "host_ra": "223.2583333333333",
-            "host_dec": "42.35777777777778",
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "host_name": "SDSS J145301.70+422127.8",
+            "value": "2016-03-29 ",
+            "date_format": "iso",
+            "date_type": "discovery",
             "reference": [
                 "2016TNSTR.480....1D",
                 "2017IAUS..324..127W",
@@ -118,17 +120,15 @@
             "default": true
         },
         {
-            "host_name": "SDSSJ145301.70+422127.82",
+            "value": "2457477.111",
+            "date_format": "jd",
+            "date_type": "discovery",
             "reference": [
-                "2018MNRAS.481..307K"
+                "2016TNSTR.481....1D"
             ],
             "default": false
         }
     ],
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)"
-    },
     "distance": [
         {
             "value": "0.28",
@@ -142,6 +142,10 @@
             "distance_type": "redshift"
         }
     ],
+    "schema_version": {
+        "comments": "From Goldtooth et al. (2023)",
+        "value": 0
+    },
     "filter_alias": [
         {
             "filter_key": "G",

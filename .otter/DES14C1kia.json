@@ -1,4 +1,45 @@
 {
+    "_key": "884943",
+    "_id": "transients/884943",
+    "_rev": "_j6ZAb1K---",
+    "classification": {
+        "spec_classed": 0,
+        "unambiguous": false,
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2015ATel.6877....1F",
+                    "2017ApJ...835...64G",
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G",
+                    "2023arXiv230813595C"
+                ],
+                "default": true
+            }
+        ],
+        "discovery_method": "xray"
+    },
+    "name": {
+        "alias": [
+            {
+                "value": "DES 14C1kia",
+                "reference": [
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "DES14C1kia",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2000A&AS..143....9W",
+                    "2015ATel.6877....1F"
+                ]
+            }
+        ],
+        "default_name": "DES14C1kia"
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -31,46 +72,6 @@
         {
             "name": "2023arXiv230813595C",
             "human_readable_name": "Cendes, Y. et al. (2024)"
-        }
-    ],
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 0,
-                "reference": [
-                    "2015ATel.6877....1F",
-                    "2017ApJ...835...64G",
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G",
-                    "2023arXiv230813595C"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 0,
-        "unambiguous": false
-    },
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "6.0GHz",
-            "filter_name": "C",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "21.7GHz",
-            "filter_name": "K",
-            "freq_eff": 21.7,
-            "freq_units": "GHz"
         }
     ],
     "photometry": [
@@ -148,7 +149,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -166,7 +167,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -184,7 +185,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -202,7 +203,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -266,7 +267,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -284,7 +285,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -348,7 +349,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -366,7 +367,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -382,11 +383,11 @@
                 0.013
             ],
             "raw_err": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
+                0,
+                0,
+                0,
+                0,
+                0
             ],
             "raw_units": "mJy",
             "date": [
@@ -451,25 +452,28 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "DES14C1kia",
-        "alias": [
-            {
-                "value": "DES 14C1kia",
-                "reference": [
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "DES14C1kia",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2000A&AS..143....9W",
-                    "2015ATel.6877....1F"
-                ]
-            }
-        ]
-    },
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "6.0GHz",
+            "filter_name": "C",
+            "freq_eff": 6,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "21.7GHz",
+            "filter_name": "K",
+            "freq_eff": 21.7,
+            "freq_units": "GHz"
+        }
+    ],
     "date_reference": [
         {
             "value": "2014-01-01",
@@ -543,8 +547,8 @@
         }
     ],
     "schema_version": {
-        "value": 0,
+        "comment": "Copied from tde.space;",
         "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
+        "value": 0
     }
 }

@@ -1,21 +1,36 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
-    "name": {
-        "default_name": "J100933",
-        "alias": [
+    "_key": "885127",
+    "_id": "transients/885127",
+    "_rev": "_j6ZBnW6---",
+    "classification": {
+        "spec_classed": 0,
+        "unambiguous": true,
+        "value": [
             {
-                "value": "J100933",
+                "object_class": "TDE",
+                "confidence": 1,
                 "reference": [
-                    "2018arXiv180205105W",
+                    "2017ApJ...835...64G",
+                    "2018MNRAS.477.2943W",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
             }
-        ]
+        ],
+        "discovery_method": "uvoir"
     },
+    "coordinate": [
+        {
+            "ra": "10:09:33.14",
+            "dec": "+23:22:55.8",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2018arXiv180205105W"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
     "distance": [
         {
             "value": "0.0719",
@@ -50,21 +65,44 @@
             "default": true
         }
     ],
-    "classification": {
-        "value": [
+    "date_reference": [
+        {
+            "value": "2009-02-20",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2018arXiv180205105W"
+            ],
+            "default": true
+        },
+        {
+            "value": "2009-02-20 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2018MNRAS.477.2943W",
+                "2023PASP..135c4101G"
+            ],
+            "default": false
+        }
+    ],
+    "schema_version": {
+        "comment": "Copied from tde.space;",
+        "comments": "From Goldtooth et al. (2023)",
+        "value": 0
+    },
+    "name": {
+        "alias": [
             {
-                "object_class": "TDE",
-                "confidence": 1.0,
+                "value": "J100933",
                 "reference": [
-                    "2017ApJ...835...64G",
-                    "2018MNRAS.477.2943W",
+                    "2018arXiv180205105W",
                     "2023PASP..135c4101G"
-                ],
-                "default": true
+                ]
             }
         ],
-        "spec_classed": 0,
-        "unambiguous": true
+        "default_name": "J100933"
     },
     "reference_alias": [
         {
@@ -92,38 +130,24 @@
             "human_readable_name": "Wang, Tinggui et al. (2018)"
         }
     ],
-    "date_reference": [
+    "filter_alias": [
         {
-            "value": "2009-02-20",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2018arXiv180205105W"
-            ],
-            "default": true
+            "filter_key": "V",
+            "wave_eff": 551,
+            "wave_units": "nm",
+            "filter_name": "V"
         },
         {
-            "value": "2009-02-20 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2018MNRAS.477.2943W",
-                "2023PASP..135c4101G"
-            ],
-            "default": false
-        }
-    ],
-    "coordinate": [
+            "filter_key": "W1",
+            "wave_eff": 3352.6,
+            "wave_units": "nm",
+            "filter_name": "W1"
+        },
         {
-            "ra": "10:09:33.14",
-            "dec": "+23:22:55.8",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2018arXiv180205105W"
-            ],
-            "coordinate_type": "equatorial"
+            "filter_key": "W2",
+            "wave_eff": 4602.8,
+            "wave_units": "nm",
+            "filter_name": "W2"
         }
     ],
     "photometry": [
@@ -134,7 +158,7 @@
             "raw_err": [
                 0.036
             ],
-            "raw_units": "mag(AB)",
+            "raw_units": "vega",
             "filter_key": [
                 "V"
             ],
@@ -187,7 +211,7 @@
                 0.044,
                 0.05
             ],
-            "raw_units": "mag(AB)",
+            "raw_units": "vega",
             "filter_key": [
                 "W1",
                 "W2",
@@ -254,26 +278,6 @@
                 "2018arXiv180205105W"
             ],
             "corr_s": null
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "V",
-            "wave_eff": 551.0,
-            "wave_units": "nm",
-            "filter_name": "V"
-        },
-        {
-            "filter_key": "W1",
-            "wave_eff": 224.6,
-            "wave_units": "nm",
-            "filter_name": "W1"
-        },
-        {
-            "filter_key": "W2",
-            "wave_eff": 192.8,
-            "wave_units": "nm",
-            "filter_name": "W2"
         }
     ],
     "host": [

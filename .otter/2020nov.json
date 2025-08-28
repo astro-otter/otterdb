@@ -1,4 +1,41 @@
 {
+    "_key": "884593",
+    "_id": "transients/884593",
+    "_rev": "_j6Y8Xpq---",
+    "reference_alias": [
+        {
+            "name": "2023ApJS..266....9A",
+            "human_readable_name": "Aleo, P. D. et al. (2023)"
+        },
+        {
+            "name": "2023ApJS..266....9A",
+            "human_readable_name": "Aleo, P. D. et al. (2023)"
+        },
+        {
+            "name": "2020TNSTR1950....1F",
+            "human_readable_name": "Forster, F. et al. (2020)"
+        },
+        {
+            "name": "2020TNSCR3800....1D",
+            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
+        }
+    ],
+    "classification": {
+        "spec_classed": 3,
+        "unambiguous": true,
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 3.3,
+                "reference": [
+                    "2020TNSCR3800....1D",
+                    "2023ApJS..266....9A"
+                ],
+                "default": true
+            }
+        ],
+        "discovery_method": "uvoir"
+    },
     "coordinate": [
         {
             "ra": "254.554042",
@@ -36,44 +73,16 @@
             "default": true
         }
     ],
-    "reference_alias": [
-        {
-            "name": "2023ApJS..266....9A",
-            "human_readable_name": "Aleo, P. D. et al. (2023)"
-        },
-        {
-            "name": "2023ApJS..266....9A",
-            "human_readable_name": "Aleo, P. D. et al. (2023)"
-        },
-        {
-            "name": "2020TNSTR1950....1F",
-            "human_readable_name": "Forster, F. et al. (2020)"
-        },
-        {
-            "name": "2020TNSCR3800....1D",
-            "human_readable_name": "Dahiwale, A. & Fremling, C. (2020)"
-        }
-    ],
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 3.3,
-                "reference": [
-                    "2020TNSCR3800....1D",
-                    "2023ApJS..266....9A"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 3,
-        "unambiguous": true
-    },
     "name": {
-        "default_name": "2020nov",
         "alias": [
             {
                 "value": "PS20ggg",
+                "reference": [
+                    "TNS"
+                ]
+            },
+            {
+                "value": "ZTF20abisysx",
                 "reference": [
                     "TNS"
                 ]
@@ -91,20 +100,27 @@
                 ]
             },
             {
-                "value": "ZTF20abisysx",
-                "reference": [
-                    "TNS"
-                ]
-            },
-            {
                 "value": "2020nov",
                 "reference": [
                     "2023ApJS..266....9A",
                     "TNS"
                 ]
             }
-        ]
+        ],
+        "default_name": "2020nov"
     },
+    "host": [
+        {
+            "host_name": "WISEA J165812.98+020703.0",
+            "host_ra": 254.5540719,
+            "host_dec": 2.1175345,
+            "host_ra_units": "deg",
+            "host_dec_units": "deg",
+            "reference": [
+                "2023ApJS..266....9A"
+            ]
+        }
+    ],
     "filter_alias": [
         {
             "filter_key": "ztf.r",
@@ -2491,18 +2507,6 @@
                 0.3104
             ],
             "corr_hostav": false
-        }
-    ],
-    "host": [
-        {
-            "host_name": "WISEA J165812.98+020703.0",
-            "host_ra": 254.5540719,
-            "host_dec": 2.1175345,
-            "host_ra_units": "deg",
-            "host_dec_units": "deg",
-            "reference": [
-                "2023ApJS..266....9A"
-            ]
         }
     ],
     "date_reference": [

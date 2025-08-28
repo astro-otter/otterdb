@@ -1,48 +1,45 @@
 {
-    "distance": [
-        {
-            "value": "0.06",
-            "distance_type": "redshift",
-            "reference": [
-                "2013ApJ...763...84B"
-            ],
-            "default": false
-        },
-        {
-            "value": "0.0636",
-            "distance_type": "redshift",
-            "reference": [
-                "1999A&A...350L..31G",
-                "2017ApJ...838..149A",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "277",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "1999A&A...350L..31G",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "295",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "1999A&A...350L..31G",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
+    "_key": "884999",
+    "_id": "transients/884999",
+    "_rev": "_j6ZBKh----",
+    "classification": {
+        "spec_classed": 0,
+        "unambiguous": true,
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 1,
+                "reference": [
+                    "1999A&A...350L..31G",
+                    "2017ApJ...835...64G",
+                    "2017ApJ...838..149A",
+                    "2023PASP..135c4101G",
+                    "['2013ApJ...763...84B', '2020SSRv..216...81A']"
+                ],
+                "default": true
+            }
+        ],
+        "discovery_method": "xray"
+    },
+    "name": {
+        "alias": [
+            {
+                "value": "RXJ1624+7554",
+                "reference": [
+                    "2017ApJ...838..149A"
+                ]
+            },
+            {
+                "value": "RX J1624+75",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "MAST",
+                    "2023PASP..135c4101G"
+                ]
+            }
+        ],
+        "default_name": "RX J1624+75"
+    },
     "reference_alias": [
         {
             "name": "2017ApJ...838..149A",
@@ -83,40 +80,6 @@
         {
             "name": "2013ApJ...763...84B",
             "human_readable_name": "Bower, Geoffrey C. et al. (2013)"
-        }
-    ],
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 1.0,
-                "reference": [
-                    "1999A&A...350L..31G",
-                    "2017ApJ...835...64G",
-                    "2017ApJ...838..149A",
-                    "2023PASP..135c4101G",
-                    "['2013ApJ...763...84B', '2020SSRv..216...81A']"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 0,
-        "unambiguous": true
-    },
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "3.0GHz",
-            "filter_name": "S",
-            "freq_eff": 3.0,
-            "freq_units": "GHz"
         }
     ],
     "photometry": [
@@ -170,7 +133,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -234,7 +197,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -252,7 +215,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -332,7 +295,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -350,7 +313,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -368,7 +331,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -386,7 +349,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -395,10 +358,10 @@
         {
             "reference": "['2013ApJ...763...84B', '2020SSRv..216...81A']",
             "raw": [
-                51.0
+                51
             ],
             "raw_err": [
-                0.0
+                0
             ],
             "raw_units": "uJy",
             "date": [
@@ -419,6 +382,50 @@
             "corr_host": false,
             "corr_av": false,
             "corr_hostav": false
+        }
+    ],
+    "distance": [
+        {
+            "value": "0.06",
+            "distance_type": "redshift",
+            "reference": [
+                "2013ApJ...763...84B"
+            ],
+            "default": false
+        },
+        {
+            "value": "0.0636",
+            "distance_type": "redshift",
+            "reference": [
+                "1999A&A...350L..31G",
+                "2017ApJ...838..149A",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "277",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "1999A&A...350L..31G",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "295",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "1999A&A...350L..31G",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
         }
     ],
     "coordinate": [
@@ -445,25 +452,22 @@
             "default": false
         }
     ],
-    "name": {
-        "default_name": "RX J1624+75",
-        "alias": [
-            {
-                "value": "RXJ1624+7554",
-                "reference": [
-                    "2017ApJ...838..149A"
-                ]
-            },
-            {
-                "value": "RX J1624+75",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "MAST",
-                    "2023PASP..135c4101G"
-                ]
-            }
-        ]
-    },
+    "filter_alias": [
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "3.0GHz",
+            "filter_name": "S",
+            "freq_eff": 3,
+            "freq_units": "GHz"
+        }
+    ],
     "date_reference": [
         {
             "value": "1990-08-25",
@@ -502,8 +506,8 @@
         }
     ],
     "schema_version": {
-        "value": 0,
+        "comment": "Copied from tde.space;",
         "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
+        "value": 0
     }
 }

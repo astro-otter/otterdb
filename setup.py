@@ -70,6 +70,7 @@ def main():
             import pdb; pdb.set_trace()
             
         # print(t.fetchAll())
-    
+        print(data["name"]["default_name"])
+        
 if __name__ == "__main__":
     main()

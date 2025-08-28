@@ -1,4 +1,42 @@
 {
+    "_key": "884987",
+    "_id": "transients/884987",
+    "_rev": "_j6ZBI2C---",
+    "classification": {
+        "spec_classed": 3,
+        "unambiguous": true,
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 3.3,
+                "reference": [
+                    "2019ApJ...873...92B",
+                    "2023arXiv230813595C",
+                    "2024MNRAS.527.2452M"
+                ],
+                "default": true
+            }
+        ],
+        "discovery_method": "uvoir"
+    },
+    "name": {
+        "alias": [
+            {
+                "value": "iPTF15af",
+                "reference": [
+                    "2019ApJ...873...92B"
+                ]
+            },
+            {
+                "value": "iPTF-15af",
+                "reference": [
+                    "2019ApJ...873...92B",
+                    "2024MNRAS.527.2452M"
+                ]
+            }
+        ],
+        "default_name": "iPTF-15af"
+    },
     "reference_alias": [
         {
             "name": "Blagorodnova, N. et al. (2019)",
@@ -19,84 +57,6 @@
         {
             "name": "2023arXiv230813595C",
             "human_readable_name": "Cendes, Y. et al. (2024)"
-        }
-    ],
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 3.3,
-                "reference": [
-                    "2019ApJ...873...92B",
-                    "2023arXiv230813595C",
-                    "2024MNRAS.527.2452M"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 3,
-        "unambiguous": true
-    },
-    "filter_alias": [
-        {
-            "filter_key": "B.uvot",
-            "filter_name": "B.uvot",
-            "freq_eff": 695280559412463.5,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "U.uvot",
-            "filter_name": "U.uvot",
-            "freq_eff": 872815357550259.6,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVM2.uvot",
-            "filter_name": "UVM2.uvot",
-            "freq_eff": 1346484181597652.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW1.uvot",
-            "filter_name": "UVW1.uvot",
-            "freq_eff": 1198891057872408.0,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "UVW2.uvot",
-            "filter_name": "UVW2.uvot",
-            "freq_eff": 1492659946412262.2,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W1.wise",
-            "filter_name": "W1.wise",
-            "freq_eff": 89917740678395.33,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "W2.wise",
-            "filter_name": "W2.wise",
-            "freq_eff": 65429370473910.305,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "r.ztf",
-            "filter_name": "r.ztf",
-            "freq_eff": 471994480402802.25,
-            "freq_units": "Hz"
-        },
-        {
-            "filter_key": "6.1GHz",
-            "filter_name": "C",
-            "freq_eff": 6.1,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "6.0GHz",
-            "filter_name": "C",
-            "freq_eff": 6.0,
-            "freq_units": "GHz"
         }
     ],
     "photometry": [
@@ -172,7 +132,7 @@
                 2.0031e-05,
                 1.0861e-05,
                 2.2615e-05,
-                0.0,
+                0,
                 -3.997312083885254e-05,
                 -1.1918197065033777e-05,
                 -1.7848157982983204e-05,
@@ -193,7 +153,7 @@
                 -3.018399768943879e-05,
                 -3.816699033835611e-05,
                 -3.861487063376825e-05,
-                0.0,
+                0,
                 -1.3234367152264155e-05,
                 4.6984894648218785e-06,
                 -1.1134704576427997e-05,
@@ -733,9 +693,9 @@
                 0.008
             ],
             "raw_err": [
-                0.0,
-                0.0,
-                0.0
+                0,
+                0,
+                0
             ],
             "raw_units": "mJy",
             "date": [
@@ -792,24 +752,68 @@
             "default": true
         }
     ],
-    "name": {
-        "default_name": "iPTF-15af",
-        "alias": [
-            {
-                "value": "iPTF15af",
-                "reference": [
-                    "2019ApJ...873...92B"
-                ]
-            },
-            {
-                "value": "iPTF-15af",
-                "reference": [
-                    "2019ApJ...873...92B",
-                    "2024MNRAS.527.2452M"
-                ]
-            }
-        ]
-    },
+    "filter_alias": [
+        {
+            "filter_key": "B.uvot",
+            "filter_name": "B.uvot",
+            "freq_eff": 695280559412463.5,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "U.uvot",
+            "filter_name": "U.uvot",
+            "freq_eff": 872815357550259.6,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVM2.uvot",
+            "filter_name": "UVM2.uvot",
+            "freq_eff": 1346484181597652,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW1.uvot",
+            "filter_name": "UVW1.uvot",
+            "freq_eff": 1198891057872408,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "UVW2.uvot",
+            "filter_name": "UVW2.uvot",
+            "freq_eff": 1492659946412262.2,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W1.wise",
+            "filter_name": "W1.wise",
+            "freq_eff": 89917740678395.33,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "W2.wise",
+            "filter_name": "W2.wise",
+            "freq_eff": 65429370473910.305,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "r.ztf",
+            "filter_name": "r.ztf",
+            "freq_eff": 471994480402802.25,
+            "freq_units": "Hz"
+        },
+        {
+            "filter_key": "6.1GHz",
+            "filter_name": "C",
+            "freq_eff": 6.1,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "6.0GHz",
+            "filter_name": "C",
+            "freq_eff": 6,
+            "freq_units": "GHz"
+        }
+    ],
     "date_reference": [
         {
             "value": 57062.27400000003,
@@ -832,8 +836,8 @@
             "distance_type": "redshift"
         },
         {
-            "value": 106.0,
-            "error": 2.0,
+            "value": 106,
+            "error": 2,
             "reference": [
                 "2017MNRAS.471.1694W",
                 "2024MNRAS.527.2452M"

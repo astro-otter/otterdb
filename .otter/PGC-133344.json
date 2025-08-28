@@ -1,21 +1,37 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
-    "name": {
-        "default_name": "PGC 133344",
-        "alias": [
+    "_key": "884686",
+    "_id": "transients/884686",
+    "_rev": "_j6Y9GOu---",
+    "classification": {
+        "spec_classed": 0,
+        "unambiguous": true,
+        "value": [
             {
-                "value": "PGC 133344",
+                "object_class": "TDE",
+                "confidence": 1,
                 "reference": [
+                    "2016A&A...586A...9H",
+                    "2017ApJ...835...64G",
                     "2017ApJ...838..149A",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
             }
-        ]
+        ],
+        "discovery_method": "xray"
     },
+    "coordinate": [
+        {
+            "ra": "21:42:55.92",
+            "dec": "-30:07:58.80",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
     "distance": [
         {
             "value": "0.02365",
@@ -53,22 +69,22 @@
             "default": true
         }
     ],
-    "classification": {
-        "value": [
+    "schema_version": {
+        "comment": "Copied from tde.space;",
+        "comments": "From Goldtooth et al. (2023)",
+        "value": 0
+    },
+    "name": {
+        "alias": [
             {
-                "object_class": "TDE",
-                "confidence": 1.0,
+                "value": "PGC 133344",
                 "reference": [
-                    "2016A&A...586A...9H",
-                    "2017ApJ...835...64G",
                     "2017ApJ...838..149A",
                     "2023PASP..135c4101G"
-                ],
-                "default": true
+                ]
             }
         ],
-        "spec_classed": 0,
-        "unambiguous": true
+        "default_name": "PGC 133344"
     },
     "reference_alias": [
         {
@@ -100,16 +116,17 @@
             "human_readable_name": "Hryniewicz, K. & Walter, R. (2016)"
         }
     ],
-    "coordinate": [
+    "date_reference": [
         {
-            "ra": "21:42:55.92",
-            "dec": "-30:07:58.80",
-            "ra_units": "hour",
-            "dec_units": "deg",
+            "value": "2005-03-17 ",
+            "date_format": "iso",
+            "date_type": "discovery",
             "reference": [
+                "2023PASP..135c4101G",
+                "2016A&A...586A...9H",
                 "2017ApJ...838..149A"
             ],
-            "coordinate_type": "equatorial"
+            "default": true
         }
     ],
     "host": [
@@ -124,19 +141,6 @@
                 "2016A&A...586A...9H",
                 "2017ApJ...838..149A"
             ]
-        }
-    ],
-    "date_reference": [
-        {
-            "value": "2005-03-17 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2023PASP..135c4101G",
-                "2016A&A...586A...9H",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
         }
     ]
 }

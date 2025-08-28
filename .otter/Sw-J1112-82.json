@@ -1,4 +1,92 @@
 {
+    "_key": "884636",
+    "_id": "transients/884636",
+    "_rev": "_j6Y8xly---",
+    "classification": {
+        "spec_classed": 1,
+        "unambiguous": true,
+        "value": [
+            {
+                "object_class": "TDE",
+                "confidence": 3.1,
+                "reference": [
+                    "2011ATel.3463....1K",
+                    "2015MNRAS.452.4297B",
+                    "2017ApJ...835...64G",
+                    "2017ApJ...838..149A",
+                    "2017MNRAS.472.4469B",
+                    "2023PASP..135c4101G"
+                ],
+                "default": true
+            }
+        ],
+        "discovery_method": "xray"
+    },
+    "name": {
+        "alias": [
+            {
+                "value": "Swift J1112.2-8238",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2017ApJ...835...64G"
+                ]
+            },
+            {
+                "value": "Swift J1112-82",
+                "reference": [
+                    "2017ApJ...838..149A",
+                    "2017ApJ...835...64G",
+                    "2023PASP..135c4101G"
+                ]
+            },
+            {
+                "value": "Sw J1112-82",
+                "reference": [
+                    "Swift",
+                    "2015MNRAS.452.4297B"
+                ]
+            }
+        ],
+        "default_name": "Sw J1112-82"
+    },
+    "reference_alias": [
+        {
+            "name": "2017MNRAS.472.4469B",
+            "human_readable_name": "Brown et al. (2017)"
+        },
+        {
+            "name": "2017ApJ...838..149A",
+            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
+        },
+        {
+            "name": "2016A&A...594A..13P",
+            "human_readable_name": "Planck Collaboration et al. (2016)"
+        },
+        {
+            "name": "2015arXiv150703582B",
+            "human_readable_name": "Brown et al. (2015)"
+        },
+        {
+            "name": "2011ApJ...737..103S",
+            "human_readable_name": "Schlafly & Finkbeiner (2011)"
+        },
+        {
+            "name": "2017ApJ...835...64G",
+            "human_readable_name": "Guillochon et al. (2017)"
+        },
+        {
+            "name": "2023PASP..135c4101G",
+            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
+        },
+        {
+            "name": "2011ATel.3463....1K",
+            "human_readable_name": "Krimm, H. A. et al. (2011)"
+        },
+        {
+            "name": "2015MNRAS.452.4297B",
+            "human_readable_name": "Brown, G. C. et al. (2015)"
+        }
+    ],
     "date_reference": [
         {
             "value": "2011-12-27",
@@ -41,132 +129,6 @@
             "default": false
         }
     ],
-    "distance": [
-        {
-            "value": "0.89",
-            "distance_type": "redshift",
-            "reference": [
-                "2011ATel.3463....1K",
-                "2015MNRAS.452.4297B",
-                "2015arXiv150703582B",
-                "2017ApJ...838..149A",
-                "2017MNRAS.472.4469B",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        },
-        {
-            "value": "0.8901",
-            "distance_type": "redshift",
-            "reference": [
-                "2015MNRAS.452.4297B"
-            ],
-            "default": false
-        },
-        {
-            "value": "3100",
-            "distance_type": "comoving",
-            "unit": "Mpc",
-            "reference": [
-                "2015arXiv150703582B",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        },
-        {
-            "value": "5900",
-            "distance_type": "luminosity",
-            "unit": "Mpc",
-            "reference": [
-                "2015arXiv150703582B",
-                "2016A&A...594A..13P",
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": true
-        }
-    ],
-    "reference_alias": [
-        {
-            "name": "2017MNRAS.472.4469B",
-            "human_readable_name": "Brown et al. (2017)"
-        },
-        {
-            "name": "2017ApJ...838..149A",
-            "human_readable_name": "Auchettl, Guillochon, & Ramirez-Ruiz (2017)"
-        },
-        {
-            "name": "2016A&A...594A..13P",
-            "human_readable_name": "Planck Collaboration et al. (2016)"
-        },
-        {
-            "name": "2015arXiv150703582B",
-            "human_readable_name": "Brown et al. (2015)"
-        },
-        {
-            "name": "2011ApJ...737..103S",
-            "human_readable_name": "Schlafly & Finkbeiner (2011)"
-        },
-        {
-            "name": "2017ApJ...835...64G",
-            "human_readable_name": "Guillochon et al. (2017)"
-        },
-        {
-            "name": "2023PASP..135c4101G",
-            "human_readable_name": "Goldtooth, Aaron et al. (2023)"
-        },
-        {
-            "name": "2011ATel.3463....1K",
-            "human_readable_name": "Krimm, H. A. et al. (2011)"
-        },
-        {
-            "name": "2015MNRAS.452.4297B",
-            "human_readable_name": "Brown, G. C. et al. (2015)"
-        }
-    ],
-    "classification": {
-        "value": [
-            {
-                "object_class": "TDE",
-                "confidence": 3.1,
-                "reference": [
-                    "2011ATel.3463....1K",
-                    "2015MNRAS.452.4297B",
-                    "2017ApJ...835...64G",
-                    "2017ApJ...838..149A",
-                    "2017MNRAS.472.4469B",
-                    "2023PASP..135c4101G"
-                ],
-                "default": true
-            }
-        ],
-        "spec_classed": 1,
-        "unambiguous": true
-    },
-    "filter_alias": [
-        {
-            "filter_key": "5.5GHz",
-            "filter_name": "C",
-            "freq_eff": 5.5,
-            "freq_units": "GHz"
-        },
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
-        },
-        {
-            "filter_key": "9.0GHz",
-            "filter_name": "X",
-            "freq_eff": 9.0,
-            "freq_units": "GHz"
-        }
-    ],
     "photometry": [
         {
             "reference": [
@@ -181,7 +143,7 @@
                 "mJy"
             ],
             "date": [
-                57052.0,
+                57052,
                 57521.5
             ],
             "date_format": [
@@ -260,7 +222,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -316,7 +278,7 @@
                         "None"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -388,7 +350,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -406,7 +368,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -424,7 +386,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -433,16 +395,16 @@
         {
             "reference": "2017MNRAS.472.4469B",
             "raw": [
-                76.0,
-                70.0,
-                70.0,
-                54.0
+                76,
+                70,
+                70,
+                54
             ],
             "raw_err": [
-                15.0,
-                29.0,
-                11.0,
-                0.0
+                15,
+                29,
+                11,
+                0
             ],
             "raw_units": "uJy",
             "date": [
@@ -478,6 +440,53 @@
             "corr_hostav": false
         }
     ],
+    "distance": [
+        {
+            "value": "0.89",
+            "distance_type": "redshift",
+            "reference": [
+                "2011ATel.3463....1K",
+                "2015MNRAS.452.4297B",
+                "2015arXiv150703582B",
+                "2017ApJ...838..149A",
+                "2017MNRAS.472.4469B",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        },
+        {
+            "value": "0.8901",
+            "distance_type": "redshift",
+            "reference": [
+                "2015MNRAS.452.4297B"
+            ],
+            "default": false
+        },
+        {
+            "value": "3100",
+            "distance_type": "comoving",
+            "unit": "Mpc",
+            "reference": [
+                "2015arXiv150703582B",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        },
+        {
+            "value": "5900",
+            "distance_type": "luminosity",
+            "unit": "Mpc",
+            "reference": [
+                "2015arXiv150703582B",
+                "2016A&A...594A..13P",
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": true
+        }
+    ],
     "coordinate": [
         {
             "ra": "11 11 47.6",
@@ -488,7 +497,7 @@
             "dec_units": "deg",
             "computed": "False",
             "default": true,
-            "uuid": "95334587-6044-43d8-9686-6c0de007da65",
+            "uuid": "fdc185c9-4474-46ae-88ea-a624534c2081",
             "coordinate_type": "equatorial",
             "reference": [
                 "2017MNRAS.472.4469B"
@@ -525,41 +534,36 @@
             "l_units": "deg",
             "b_units": "deg",
             "reference": [
-                "95334587-6044-43d8-9686-6c0de007da65"
+                "fdc185c9-4474-46ae-88ea-a624534c2081"
             ]
         }
     ],
-    "name": {
-        "default_name": "Sw J1112-82",
-        "alias": [
-            {
-                "value": "Swift J1112-82",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2017ApJ...835...64G",
-                    "2023PASP..135c4101G"
-                ]
-            },
-            {
-                "value": "Swift J1112.2-8238",
-                "reference": [
-                    "2017ApJ...838..149A",
-                    "2017ApJ...835...64G"
-                ]
-            },
-            {
-                "value": "Sw J1112-82",
-                "reference": [
-                    "Swift",
-                    "2015MNRAS.452.4297B"
-                ]
-            }
-        ]
-    },
+    "filter_alias": [
+        {
+            "filter_key": "5.5GHz",
+            "filter_name": "C",
+            "freq_eff": 5.5,
+            "freq_units": "GHz"
+        },
+        {
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
+        },
+        {
+            "filter_key": "9.0GHz",
+            "filter_name": "X",
+            "freq_eff": 9,
+            "freq_units": "GHz"
+        }
+    ],
     "schema_version": {
-        "value": 0,
+        "comment": "Original Dataset;Copied from tde.space;",
         "comments": "From Goldtooth et al. (2023)",
-        "comment": "Original Dataset;Copied from tde.space;"
+        "value": 0
     },
     "host": [
         {

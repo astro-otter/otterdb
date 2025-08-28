@@ -1,13 +1,16 @@
 #!/bin/sh
 
 # Start ArangoDB in the background
-arangod --server.endpoint tcp://0.0.0.0:8529 &
+arangod \
+    --server.endpoint tcp://0.0.0.0:8529 \
+    --frontend.proxy-request-check true \
+    --frontend.trusted-proxy ${OTTERWEB_IP:-"127.0.0.1"} &
 ARANGOD_PID=$!
 
 # Wait until ArangoDB is ready
 # NOTE: that the root password is empty for now, but then get's set in init-db.js
 echo "Waiting for arangod to be ready..."
-sleep 20
+sleep 60
 
 # Now run the initialization script
 echo "Running ArangoDB init script..."

@@ -1,21 +1,45 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
-    "name": {
-        "default_name": "3XMM J152130.7+074916",
-        "alias": [
+    "_key": "884650",
+    "_id": "transients/884650",
+    "_rev": "_j6Y8yai---",
+    "classification": {
+        "spec_classed": 0,
+        "unambiguous": true,
+        "value": [
             {
-                "value": "3XMM J152130.7+074916",
+                "object_class": "TDE",
+                "confidence": 1,
                 "reference": [
+                    "2015ApJ...811...43L",
                     "2017ApJ...838..149A",
+                    "2021SSRv..217...18S",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
+            },
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2017ApJ...838..149A"
+                ],
+                "default": false
             }
-        ]
+        ],
+        "discovery_method": "xray"
     },
+    "coordinate": [
+        {
+            "ra": "15:21:30.75",
+            "dec": "+07:49:16.70",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017ApJ...838..149A"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
     "distance": [
         {
             "value": "0.17901",
@@ -53,30 +77,46 @@
             "default": true
         }
     ],
-    "classification": {
-        "value": [
+    "date_reference": [
+        {
+            "value": "2000-08-23",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2017ApJ...835...64G",
+                "2017ApJ...838..149A"
+            ],
+            "default": false
+        },
+        {
+            "value": "2000-08-23 ",
+            "date_format": "iso",
+            "date_type": "discovery",
+            "reference": [
+                "2015ApJ...811...43L",
+                "2017ApJ...838..149A",
+                "2021SSRv..217...18S",
+                "2023PASP..135c4101G"
+            ],
+            "default": true
+        }
+    ],
+    "schema_version": {
+        "comment": "Copied from tde.space;",
+        "comments": "From Goldtooth et al. (2023)",
+        "value": 0
+    },
+    "name": {
+        "alias": [
             {
-                "object_class": "TDE",
-                "confidence": 1.0,
+                "value": "3XMM J152130.7+074916",
                 "reference": [
-                    "2015ApJ...811...43L",
                     "2017ApJ...838..149A",
-                    "2021SSRv..217...18S",
                     "2023PASP..135c4101G"
-                ],
-                "default": true
-            },
-            {
-                "object_class": "TDE",
-                "confidence": 0,
-                "reference": [
-                    "2017ApJ...838..149A"
-                ],
-                "default": false
+                ]
             }
         ],
-        "spec_classed": 0,
-        "unambiguous": true
+        "default_name": "3XMM J152130.7+074916"
     },
     "reference_alias": [
         {
@@ -108,40 +148,14 @@
             "human_readable_name": "Saxton, R. et al. (2021)"
         }
     ],
-    "date_reference": [
+    "filter_alias": [
         {
-            "value": "2000-08-23",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2017ApJ...835...64G",
-                "2017ApJ...838..149A"
-            ],
-            "default": false
-        },
-        {
-            "value": "2000-08-23 ",
-            "date_format": "iso",
-            "date_type": "discovery",
-            "reference": [
-                "2015ApJ...811...43L",
-                "2017ApJ...838..149A",
-                "2021SSRv..217...18S",
-                "2023PASP..135c4101G"
-            ],
-            "default": true
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "15:21:30.75",
-            "dec": "+07:49:16.70",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017ApJ...838..149A"
-            ],
-            "coordinate_type": "equatorial"
+            "filter_key": "0.3 - 2.0",
+            "wave_eff": 0.7293188143129428,
+            "wave_min": 0.6199209921660013,
+            "wave_max": 4.132806614440009,
+            "wave_units": "nm",
+            "filter_name": "0.3 - 2.0"
         }
     ],
     "photometry": [
@@ -195,7 +209,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -259,7 +273,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -277,7 +291,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -333,7 +347,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
@@ -413,7 +427,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -431,7 +445,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -449,7 +463,7 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 },
                 {
@@ -467,21 +481,11 @@
                         "10^22 cm^-2"
                     ],
                     "min_energy": 0.3,
-                    "max_energy": 2.0,
+                    "max_energy": 2,
                     "energy_units": "keV"
                 }
             ],
             "corr_s": null
-        }
-    ],
-    "filter_alias": [
-        {
-            "filter_key": "0.3 - 2.0",
-            "wave_eff": 0.7293188143129428,
-            "wave_min": 0.6199209921660013,
-            "wave_max": 4.132806614440009,
-            "wave_units": "nm",
-            "filter_name": "0.3 - 2.0"
         }
     ],
     "host": [

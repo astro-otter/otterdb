@@ -1,21 +1,53 @@
 {
-    "schema_version": {
-        "value": 0,
-        "comments": "From Goldtooth et al. (2023)",
-        "comment": "Copied from tde.space;"
-    },
-    "name": {
-        "default_name": "J094608",
-        "alias": [
+    "_key": "885031",
+    "_id": "transients/885031",
+    "_rev": "_j6ZBSZG---",
+    "classification": {
+        "spec_classed": 0,
+        "unambiguous": true,
+        "value": [
             {
-                "value": "J094608",
+                "object_class": "TDE",
+                "confidence": 1,
                 "reference": [
+                    "2017NatAs...1..865K",
                     "2017arXiv171104577K",
+                    "2019ApJ...871...15J",
                     "2023PASP..135c4101G"
-                ]
+                ],
+                "default": true
+            },
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2017arXiv171104577K"
+                ],
+                "default": false
+            },
+            {
+                "object_class": "TDE",
+                "confidence": 0,
+                "reference": [
+                    "2017arXiv171104577K"
+                ],
+                "default": false
             }
-        ]
+        ],
+        "discovery_method": "uvoir"
     },
+    "coordinate": [
+        {
+            "ra": "09:46:08.49",
+            "dec": "+35:12:22.4",
+            "ra_units": "hour",
+            "dec_units": "deg",
+            "reference": [
+                "2017arXiv171104577K"
+            ],
+            "coordinate_type": "equatorial"
+        }
+    ],
     "distance": [
         {
             "value": "0.119",
@@ -51,38 +83,22 @@
             "default": true
         }
     ],
-    "classification": {
-        "value": [
+    "schema_version": {
+        "comment": "Copied from tde.space;",
+        "comments": "From Goldtooth et al. (2023)",
+        "value": 0
+    },
+    "name": {
+        "alias": [
             {
-                "object_class": "TDE",
-                "confidence": 1.0,
+                "value": "J094608",
                 "reference": [
-                    "2017NatAs...1..865K",
                     "2017arXiv171104577K",
-                    "2019ApJ...871...15J",
                     "2023PASP..135c4101G"
-                ],
-                "default": true
-            },
-            {
-                "object_class": "TDE",
-                "confidence": 0,
-                "reference": [
-                    "2017arXiv171104577K"
-                ],
-                "default": false
-            },
-            {
-                "object_class": "TDE",
-                "confidence": 0,
-                "reference": [
-                    "2017arXiv171104577K"
-                ],
-                "default": false
+                ]
             }
         ],
-        "spec_classed": 0,
-        "unambiguous": true
+        "default_name": "J094608"
     },
     "reference_alias": [
         {
@@ -116,18 +132,6 @@
         {
             "name": "2019ApJ...871...15J",
             "human_readable_name": "Jiang, Ning et al. (2019)"
-        }
-    ],
-    "coordinate": [
-        {
-            "ra": "09:46:08.49",
-            "dec": "+35:12:22.4",
-            "ra_units": "hour",
-            "dec_units": "deg",
-            "reference": [
-                "2017arXiv171104577K"
-            ],
-            "coordinate_type": "equatorial"
         }
     ],
     "host": [
